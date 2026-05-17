@@ -17,6 +17,8 @@ import spotipy
 from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyOAuth
 
+from spotify_utils import free_redirect_port
+
 BASE_DIR = Path(__file__).resolve().parent
 ENV_PATH = BASE_DIR / ".env"
 CONFIG_PATH = BASE_DIR / "archive.txt"
@@ -48,6 +50,7 @@ def build_spotify_client() -> spotipy.Spotify:
     for key in ("SPOTIPY_CLIENT_ID", "SPOTIPY_CLIENT_SECRET", "SPOTIPY_REDIRECT_URI"):
         if not os.getenv(key):
             raise RuntimeError(f"{key} が環境変数（.env）に設定されていません")
+    free_redirect_port()
     auth_manager = SpotifyOAuth(
         scope=SCOPE,
         cache_path=str(CACHE_PATH),
