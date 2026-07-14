@@ -34,8 +34,8 @@ Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub 
 └── log/          # ローカル実行時のログ（gitignore 済み）
 ```
 
-`inbox.sh` / `sync.sh` / `sort.sh` / `archive.sh` は旧 launchd 用のラッパー。
-GitHub Actions への移行完了後に撤去する（下記「移行状態」参照）。
+`inbox.sh` / `sync.sh` / `sort.sh` / `archive.sh` は旧 launchd 用のラッパー（launchd は unload 済み・実行されない）。
+初回 nightly が安定したら撤去する（下記「移行状態」参照）。
 
 ---
 
@@ -194,11 +194,25 @@ DEST_PLAYLIST_ID=<アーカイブ先のID>
 
 ## 移行状態（launchd → GitHub Actions）
 
-現在 launchd から GitHub Actions への移行中。本番の schedule 実行が安定するまでの残作業:
+移行はライブ運用に入っている。
 
-1. GitHub Secrets を登録（上記4件。`gh secret set ...`）
-2. `nightly-failure` / `unknown-tracks` ラベルを作成
-3. `gh workflow run nightly --field dry_run=true` で検証 → 本番実行を確認
-4. 旧 launchd ジョブを unload し、`*.sh` ラッパー・`spotify_icon.icns` を撤去
+**完了:**
+- ✅ コードを main にマージ・push、CI（ruff + pytest）green
+- ✅ GitHub Secrets 4件を登録
+- ✅ `nightly-failure` / `unknown-tracks` ラベルを作成
+- ✅ 旧 launchd ジョブ（run_inbox / run_sync / run_archive）を unload（二重実行防止。plist は残置＝ロールバック可）
+
+**残り（初回 nightly が green になってから）:**
+1. 初回 nightly（毎晩 **00:07 JST** に自動実行、または `gh workflow run nightly --field dry_run=true`）の成功を確認
+2. 旧ラッパー `*.sh`・未使用の `spotify_icon.icns`・`~/dotfiles` の launchd plist を撤去
+
+ロールバック（nightly が不調なら launchd を復帰）:
+
+```bash
+uid=$(id -u)
+for l in inbox sync archive; do
+  launchctl bootstrap "gui/$uid" ~/Library/LaunchAgents/com.yoshihide.run_$l.plist
+done
+```
 
 詳細な手順は [docs/implementation-plan.md](docs/implementation-plan.md) の Phase 0 / Phase 4 を参照。
