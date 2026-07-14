@@ -153,15 +153,13 @@ def main() -> int:
         # 順方向: ソースの新規曲を AP へ追加
         candidates, spotify_name = match_tracks_for_artist(source_tracks, artist_lower)
         to_add = [tid for tid in candidates if tid not in current_ap_ids]
-        if to_add:
-            if dry:
-                logger.info(f"[{today}][DRY-RUN] {spotify_name or artist_lower}: {len(to_add)} 追加予定")
-            else:
-                core.add_in_batches(sp, dest_id, to_add)
-                current_ap_ids.update(to_add)
+        if to_add and not dry:
+            core.add_in_batches(sp, dest_id, to_add)
+            current_ap_ids.update(to_add)
 
         skipped = len(candidates) - len(to_add)
-        logger.info(f"[{today}] {spotify_name or artist_lower}: added {len(to_add)} (skipped {skipped})")
+        verb = "would add" if dry else "added"
+        logger.info(f"[{today}] {spotify_name or artist_lower}: {verb} {len(to_add)} (skipped {skipped})")
         new_state[dest_id] = current_ap_ids
 
     if dry:

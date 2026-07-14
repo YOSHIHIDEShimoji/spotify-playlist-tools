@@ -47,11 +47,13 @@ jobs:
 
       - name: Run nightly pipeline (inbox -> sync -> sort -> archive)
         run: |
-          set -o pipefail
+          # GitHub Actions のデフォルトシェルは bash -eo pipefail。errexit のままだと
+          # パイプが非0を返した時点で exit code 判定前にステップが死ぬため、明示的に無効化する。
+          set +e
           mkdir -p log
           run_step () {
             "$@" 2>&1 | tee -a log/nightly.log
-            code=${PIPESTATUS[0]}
+            local code=${PIPESTATUS[0]}
             # 0=成功 / 2=一部スキップ(unknownあり) は継続。1=致命的 / 3=要再認証 は中断。
             if [ "$code" = "1" ] || [ "$code" = "3" ]; then
               echo "::error::$* が exit $code で失敗しました"
