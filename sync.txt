@@ -1,4 +1,4 @@
-# Sync config for sync_artist_playlists.py
+# Sync config for sync.py
 #
 # SOURCE_PLAYLIST_ID: 同期元プレイリスト
 # 以下の行: アーティスト名=同期先プレイリストID の形式で追加

@@ -1,0 +1,106 @@
+name: nightly
+
+on:
+  schedule:
+    - cron: '7 15 * * *'      # 00:07 JST（毎時0分は混雑して遅延しやすいため 7分に）
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '変更系APIを呼ばない検証モード'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # 状態ファイルの auto-commit
+  issues: write     # 失敗・unknown の Issue 起票
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+  SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+  SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
+  SPOTIPY_REDIRECT_URI: 'http://127.0.0.1:8000/callback'
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  DRY_RUN: ${{ inputs.dry_run == true && '1' || '0' }}
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Restore Spotify token cache
+        run: printf '%s' "$SPOTIFY_TOKEN_CACHE" > .cache-spotify
+        env:
+          SPOTIFY_TOKEN_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
+
+      - name: Run nightly pipeline (inbox -> sync -> sort -> archive)
+        run: |
+          set -o pipefail
+          mkdir -p log
+          run_step () {
+            "$@" 2>&1 | tee -a log/nightly.log
+            code=${PIPESTATUS[0]}
+            # 0=成功 / 2=一部スキップ(unknownあり) は継続。1=致命的 / 3=要再認証 は中断。
+            if [ "$code" = "1" ] || [ "$code" = "3" ]; then
+              echo "::error::$* が exit $code で失敗しました"
+              exit "$code"
+            fi
+          }
+          run_step python inbox.py
+          run_step python sync.py
+          run_step python sort.py --all
+          run_step python archive.py
+
+      - name: Commit state files
+        if: always() && env.DRY_RUN == '0'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sync.txt sort.txt sync_state.json artist_class_cache.json
+          if git diff --cached --quiet; then
+            echo "状態ファイルに変更なし"
+          else
+            git commit -m "auto: 夜間実行による状態更新"
+            git push
+          fi
+
+      - name: Report unknown tracks as issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -s log/unknown_tracks.txt ] || exit 0
+          body="$(printf '## %s の実行で判定できなかった曲\n\n```\n%s\n```\n\nお気に入りに残してあるので、手動で振り分けるか次回実行で再判定される。' "$(date +%F)" "$(cat log/unknown_tracks.txt)")"
+          existing=$(gh issue list --label unknown-tracks --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "振り分け判定できなかった曲がある" --label unknown-tracks --body "$body"
+          fi
+
+      - name: Report failure as issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          tail_log="$(tail -40 log/nightly.log 2>/dev/null || echo '(ログなし)')"
+          body="$(printf '実行: %s\n\n### ログ末尾\n```\n%s\n```\n\n### 認証エラー(exit 3)の場合の復旧手順\nローカルで `python inbox.py` を対話実行してブラウザ認証し、\n`gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify` でトークンを更新する。' "$run_url" "$tail_log")"
+          existing=$(gh issue list --label nightly-failure --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "nightly バッチが失敗している" --label nightly-failure --body "$body"
+          fi

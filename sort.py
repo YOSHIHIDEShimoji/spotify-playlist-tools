@@ -1,66 +1,35 @@
 #!/usr/bin/env python3
-"""
-Spotify Playlist Sorter / Analyzer
+"""Spotify Playlist Sorter / Analyzer
+
+プレイリストを アーティスト曲数降順 → アーティスト名順 → リリース日昇順 で並べ替える。
 
 Usage:
-  python sort_playlist.py <URL or ID>            # ソート（上書き）
-  python sort_playlist.py --analyze <URL or ID>  # 分析グラフを表示（変更なし）
+  python sort.py <URL or ID>            # 単体ソート（上書き）
+  python sort.py --all                  # sort.txt の全プレイリストを直列ソート
+  python sort.py --analyze <URL or ID>  # 分析グラフを表示（変更なし・ローカル専用）
+  python sort.py --all --dry-run        # 変更せず対象と件数のみ表示
 """
 
-import os
-import re
-import sys
 import argparse
+import sys
 from collections import Counter
 from pathlib import Path
 
-import spotipy
-from dotenv import load_dotenv
-from spotipy.oauth2 import SpotifyOAuth
-
-from spotify_utils import free_redirect_port
+import core
 
 BASE_DIR = Path(__file__).resolve().parent
-ENV_PATH = BASE_DIR / ".env"
-CACHE_PATH = BASE_DIR / ".cache-spotify"
+SORT_CONFIG_PATH = BASE_DIR / "sort.txt"
 
 SCOPE = "playlist-modify-private playlist-modify-public playlist-read-private"
 
 
-def extract_playlist_id(url_or_id: str) -> str:
-    m = re.search(r"playlist/([A-Za-z0-9]+)", url_or_id)
-    return m.group(1) if m else url_or_id
-
-
-def build_spotify_client() -> spotipy.Spotify:
-    for key in ("SPOTIPY_CLIENT_ID", "SPOTIPY_CLIENT_SECRET", "SPOTIPY_REDIRECT_URI"):
-        if not os.getenv(key):
-            raise RuntimeError(f"{key} が .env に設定されていません")
-    free_redirect_port()
-    return spotipy.Spotify(
-        auth_manager=SpotifyOAuth(
-            scope=SCOPE,
-            cache_path=str(CACHE_PATH),
-            open_browser=True,
+def get_all_tracks(sp, playlist_id: str) -> list[dict]:
+    return list(
+        core.iter_playlist_tracks(
+            sp, playlist_id,
+            "items(track(id,name,popularity,artists(name),album(release_date))),next",
         )
     )
-
-
-def get_all_tracks(sp: spotipy.Spotify, playlist_id: str) -> list[dict]:
-    tracks: list[dict] = []
-    results = sp.playlist_items(
-        playlist_id,
-        fields="items(track(id,name,popularity,artists(name),album(release_date))),next",
-        additional_types=("track",),
-        limit=100,
-    )
-    while results:
-        for item in results.get("items", []):
-            track = item.get("track")
-            if track and track.get("id"):
-                tracks.append(track)
-        results = sp.next(results) if results.get("next") else None
-    return tracks
 
 
 def _normalize_date(date_str: str) -> str:
@@ -84,25 +53,54 @@ def sort_tracks(tracks: list[dict]) -> list[dict]:
 
     def key(t: dict) -> tuple[int, str, str]:
         names = _artist_names(t)
-        # 複数アーティストの場合はカウントが最大のアーティストで代表
         primary = max(names, key=lambda n: artist_count[n]) if names else ""
-        date = _normalize_date(t.get("album", {}).get("release_date", "0000"))
-        return (-artist_count[primary], primary.lower(), date)
+        release = _normalize_date(t.get("album", {}).get("release_date", "0000"))
+        return (-artist_count[primary], primary.lower(), release)
 
     return sorted(tracks, key=key)
 
 
-def replace_playlist(sp: spotipy.Spotify, playlist_id: str, track_ids: list[str]) -> None:
+def replace_playlist(sp, playlist_id: str, track_ids: list[str]) -> None:
     sp.playlist_replace_items(playlist_id, track_ids[:100])
     for i in range(100, len(track_ids), 100):
         sp.playlist_add_items(playlist_id, track_ids[i : i + 100])
+
+
+def sort_one(sp, url_or_id: str, logger, dry: bool) -> None:
+    playlist_id = core.extract_playlist_id(url_or_id)
+    # 全置換の競合ガード（bugs §1）: 取得時と置換直前で snapshot_id が変われば見送る
+    snapshot_before = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
+    tracks = get_all_tracks(sp, playlist_id)
+    sorted_tracks = sort_tracks(tracks)
+    sorted_ids = [t["id"] for t in sorted_tracks]
+
+    if dry:
+        logger.info(f"[DRY-RUN] {playlist_id}: {len(sorted_ids)} 曲をソート予定（置換なし）")
+        return
+
+    snapshot_now = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
+    if snapshot_now != snapshot_before:
+        logger.info(f"[skip] {playlist_id}: 取得中に変更を検出（次回再ソート）")
+        return
+
+    replace_playlist(sp, playlist_id, sorted_ids)
+    logger.info(f"更新完了: {len(sorted_ids)} 曲をソートしました ({playlist_id})")
+
+
+def load_sort_targets(path: Path) -> list[str]:
+    targets: list[str] = []
+    with path.open() as f:
+        for raw in f:
+            line = raw.strip()
+            if line and not line.startswith("#"):
+                targets.append(line)
+    return targets
 
 
 def analyze(tracks: list[dict], playlist_name: str) -> None:
     import matplotlib.pyplot as plt
     import matplotlib.ticker as ticker
 
-    # --- データ集計 ---
     artist_count: Counter[str] = Counter()
     for t in tracks:
         for name in _artist_names(t) or ["Unknown"]:
@@ -123,30 +121,21 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
     top15_names = [a for a, _ in reversed(top15_artists)]
     top15_counts = [c for _, c in reversed(top15_artists)]
 
-    # --- レイアウト ---
     fig = plt.figure(figsize=(16, 10))
-    fig.suptitle(
-        f"{playlist_name}  ({len(tracks)} tracks)",
-        fontsize=15,
-        fontweight="bold",
-        y=0.98,
-    )
+    fig.suptitle(f"{playlist_name}  ({len(tracks)} tracks)", fontsize=15, fontweight="bold", y=0.98)
 
-    # [0,0] アーティスト別曲数 Top15
     ax1 = fig.add_subplot(2, 2, 1)
     bars = ax1.barh(top15_names, top15_counts, color="#1DB954")
     ax1.set_title("Top 15 Artists by Track Count", fontweight="bold")
     ax1.set_xlabel("Tracks")
     ax1.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     for bar, cnt in zip(bars, top15_counts):
-        ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height() / 2,
-                 str(cnt), va="center", fontsize=8)
+        ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height() / 2, str(cnt),
+                 va="center", fontsize=8)
 
-    # [0,1] リリース年分布
     ax2 = fig.add_subplot(2, 2, 2)
     if years:
-        min_y, max_y = min(years), max(years)
-        bins = range(min_y, max_y + 2)
+        bins = range(min(years), max(years) + 2)
         ax2.hist(years, bins=bins, color="#1DB954", edgecolor="white", linewidth=0.4)
     ax2.set_title("Release Year Distribution", fontweight="bold")
     ax2.set_xlabel("Year")
@@ -154,16 +143,13 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
     ax2.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     plt.setp(ax2.xaxis.get_majorticklabels(), rotation=45, ha="right")
 
-    # [1,0] 人気スコア分布
     ax3 = fig.add_subplot(2, 2, 3)
-    ax3.hist(popularities, bins=range(0, 111, 10), color="#1DB954",
-             edgecolor="white", linewidth=0.4)
+    ax3.hist(popularities, bins=range(0, 111, 10), color="#1DB954", edgecolor="white", linewidth=0.4)
     ax3.set_title("Popularity Score Distribution", fontweight="bold")
     ax3.set_xlabel("Popularity (0–100)")
     ax3.set_ylabel("Tracks")
     ax3.xaxis.set_major_locator(ticker.MultipleLocator(10))
 
-    # [1,1] 人気スコア Top10 テキスト表
     ax4 = fig.add_subplot(2, 2, 4)
     ax4.axis("off")
     ax4.set_title("Top 10 Popular Tracks", fontweight="bold")
@@ -174,12 +160,8 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
         if len(name) > 28:
             name = name[:27] + "…"
         rows.append([f"{i}.", f"{t['popularity']}", f"{artist[:18]}", name])
-    table = ax4.table(
-        cellText=rows,
-        colLabels=["#", "Pop", "Artist", "Track"],
-        loc="center",
-        cellLoc="left",
-    )
+    table = ax4.table(cellText=rows, colLabels=["#", "Pop", "Artist", "Track"],
+                      loc="center", cellLoc="left")
     table.auto_set_font_size(False)
     table.set_fontsize(8.5)
     table.scale(1, 1.35)
@@ -196,45 +178,48 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
 
 
 def main() -> int:
-    load_dotenv(ENV_PATH)
-
-    parser = argparse.ArgumentParser(
-        description="Spotify プレイリストのソート／分析ツール"
-    )
-    parser.add_argument("playlist", help="プレイリストの URL または ID")
-    parser.add_argument(
-        "--analyze",
-        action="store_true",
-        help="分析グラフを表示（プレイリストは変更しない）",
-    )
+    parser = argparse.ArgumentParser(description="Spotify プレイリストのソート／分析ツール")
+    parser.add_argument("playlist", nargs="?", help="プレイリストの URL または ID")
+    parser.add_argument("--all", action="store_true", help="sort.txt の全プレイリストをソート")
+    parser.add_argument("--analyze", action="store_true", help="分析グラフを表示（変更しない）")
+    parser.add_argument("--dry-run", action="store_true", help="変更せず件数のみ表示")
     args = parser.parse_args()
 
-    playlist_id = extract_playlist_id(args.playlist)
-    sp = build_spotify_client()
-
-    print(f"取得中: {playlist_id}")
-    tracks = get_all_tracks(sp, playlist_id)
-    print(f"取得完了: {len(tracks)} 曲")
+    logger = core.setup_logging("sort")
+    dry = core.is_dry_run()
+    sp = core.build_client(SCOPE)
 
     if args.analyze:
-        playlist_name = sp.playlist(playlist_id, fields="name")["name"]
-        analyze(tracks, playlist_name)
-        return 0
+        if not args.playlist:
+            parser.error("--analyze はプレイリスト URL/ID が必要です")
+        playlist_id = core.extract_playlist_id(args.playlist)
+        tracks = get_all_tracks(sp, playlist_id)
+        analyze(tracks, sp.playlist(playlist_id, fields="name")["name"])
+        return core.EXIT_OK
 
-    sorted_tracks = sort_tracks(tracks)
-    sorted_ids = [t["id"] for t in sorted_tracks]
-    replace_playlist(sp, playlist_id, sorted_ids)
-    print(f"更新完了: {len(sorted_ids)} 曲をソートしました\n")
+    if args.all:
+        targets = load_sort_targets(SORT_CONFIG_PATH)
+        logger.info(f"ソート対象: {len(targets)} プレイリスト" + (" [DRY-RUN]" if dry else ""))
+        for url in targets:
+            try:
+                sort_one(sp, url, logger, dry)
+            except Exception as e:
+                logger.info(f"[error] {url}: {e}")
+        return core.EXIT_OK
 
-    for i, t in enumerate(sorted_tracks[:10], 1):
-        artist = t["artists"][0]["name"] if t.get("artists") else "Unknown"
-        date = t.get("album", {}).get("release_date", "?")
-        print(f"  {i:>3}. {artist} — {t['name']} ({date})")
-    if len(sorted_tracks) > 10:
-        print(f"       ... 他 {len(sorted_tracks) - 10} 曲")
+    if not args.playlist:
+        parser.error("プレイリスト URL/ID か --all を指定してください")
+    sort_one(sp, args.playlist, logger, dry)
+    return core.EXIT_OK
 
-    return 0
+
+def _entry() -> int:
+    try:
+        return main()
+    except core.AuthRequired as e:
+        core.setup_logging("sort").info(f"[auth] {e}")
+        return core.EXIT_AUTH
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(_entry())

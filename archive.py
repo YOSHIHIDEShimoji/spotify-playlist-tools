@@ -1,138 +1,84 @@
 #!/usr/bin/env python3
-"""
-Spotify Top 50 Archiver
+"""Spotify Top 50 Archiver
 
-SOURCE_PLAYLIST_ID（例: Top 50 - Global）から現在の50曲を取得し、
+SOURCE_PLAYLIST_ID（例: Top 50 - Global）から現在の曲を取得し、
 DEST_PLAYLIST_ID にまだ入っていない曲だけを追加する。
 毎日実行することで「過去に Top 50 入りしたことがある全曲」が DEST に蓄積されていく。
+
+Usage:
+  python archive.py [--dry-run]
 """
 
 import argparse
-import os
 import sys
 from datetime import date
 from pathlib import Path
 
-import spotipy
-from dotenv import load_dotenv
-from spotipy.oauth2 import SpotifyOAuth
-
-from spotify_utils import free_redirect_port
+import core
 
 BASE_DIR = Path(__file__).resolve().parent
-ENV_PATH = BASE_DIR / ".env"
 CONFIG_PATH = BASE_DIR / "archive.txt"
-CACHE_PATH = BASE_DIR / ".cache-spotify"
 
 SCOPE = "playlist-modify-private playlist-modify-public playlist-read-private"
 
-ADD_BATCH_SIZE = 100
-
 
 def load_config(path: Path) -> dict[str, str]:
-    cfg: dict[str, str] = {}
-    with path.open() as f:
-        for raw in f:
-            line = raw.strip()
-            if not line or line.startswith("#"):
-                continue
-            if "=" not in line:
-                continue
-            key, value = line.split("=", 1)
-            cfg[key.strip()] = value.strip()
+    cfg = core.parse_config(path)
     for key in ("SOURCE_PLAYLIST_ID", "DEST_PLAYLIST_ID"):
         if not cfg.get(key):
             raise RuntimeError(f"{key} が {path} に設定されていません")
     return cfg
 
 
-def build_spotify_client() -> spotipy.Spotify:
-    for key in ("SPOTIPY_CLIENT_ID", "SPOTIPY_CLIENT_SECRET", "SPOTIPY_REDIRECT_URI"):
-        if not os.getenv(key):
-            raise RuntimeError(f"{key} が環境変数（.env）に設定されていません")
-    free_redirect_port()
-    auth_manager = SpotifyOAuth(
-        scope=SCOPE,
-        cache_path=str(CACHE_PATH),
-        open_browser=True,
-    )
-    return spotipy.Spotify(auth_manager=auth_manager)
-
-
-def get_dest_track_ids(sp: spotipy.Spotify, playlist_id: str) -> set[str]:
-    track_ids: set[str] = set()
-    results = sp.playlist_items(
-        playlist_id,
-        fields="items(track(id)),next",
-        additional_types=("track",),
-        limit=100,
-    )
-    while results:
-        for item in results.get("items", []):
-            track = item.get("track") or {}
-            tid = track.get("id")
-            if tid:
-                track_ids.add(tid)
-        if results.get("next"):
-            results = sp.next(results)
-        else:
-            results = None
-    return track_ids
-
-
-def get_source_track_ids(sp: spotipy.Spotify, playlist_id: str) -> list[str]:
-    results = sp.playlist_items(
-        playlist_id,
-        fields="items(track(id))",
-        additional_types=("track",),
-        limit=50,
-    )
-    ids: list[str] = []
-    for item in results.get("items", []):
-        track = item.get("track") or {}
-        tid = track.get("id")
-        if tid:
-            ids.append(tid)
-    return ids
-
-
-def add_new_tracks(sp: spotipy.Spotify, playlist_id: str, track_ids: list[str]) -> None:
-    for i in range(0, len(track_ids), ADD_BATCH_SIZE):
-        batch = track_ids[i : i + ADD_BATCH_SIZE]
-        sp.playlist_add_items(playlist_id, batch)
+def get_track_ids(sp, playlist_id: str) -> list[str]:
+    """順序を保ったままページング取得（bugs §6: 50曲固定を撤廃）。"""
+    return [t["id"] for t in core.iter_playlist_tracks(sp, playlist_id, "items(track(id)),next")]
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
         description=(
             "Spotify Top 50 アーカイバ。\n"
-            "SOURCE_PLAYLIST_ID の現在の曲を取得し、DEST_PLAYLIST_ID に未追加の曲だけを追加する。\n"
-            f"設定ファイル: {CONFIG_PATH}"
+            "SOURCE の現在の曲を取得し、DEST に未追加の曲だけを追加する。"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
+    parser.add_argument("--dry-run", action="store_true", help="変更系 API を呼ばず件数のみ表示")
     parser.parse_args()
 
-    load_dotenv(ENV_PATH)
+    logger = core.setup_logging("archive")
+    dry = core.is_dry_run()
     cfg = load_config(CONFIG_PATH)
-    sp = build_spotify_client()
+    sp = core.build_client(SCOPE)
 
-    source_id = cfg["SOURCE_PLAYLIST_ID"]
-    dest_id = cfg["DEST_PLAYLIST_ID"]
+    source_id = core.extract_playlist_id(cfg["SOURCE_PLAYLIST_ID"])
+    dest_id = core.extract_playlist_id(cfg["DEST_PLAYLIST_ID"])
 
-    existing = get_dest_track_ids(sp, dest_id)
-    top50 = get_source_track_ids(sp, source_id)
+    existing = set(get_track_ids(sp, dest_id))
+    source = get_track_ids(sp, source_id)
 
-    to_add = [tid for tid in top50 if tid not in existing]
-    skipped = len(top50) - len(to_add)
+    seen: set[str] = set()
+    to_add = [t for t in source if t not in existing and not (t in seen or seen.add(t))]
+    skipped = len(source) - len(to_add)
+    today = date.today().isoformat()
+
+    if dry:
+        logger.info(f"[{today}][DRY-RUN] would add {len(to_add)} (skipped {skipped})")
+        return core.EXIT_OK
 
     if to_add:
-        add_new_tracks(sp, dest_id, to_add)
+        core.add_in_batches(sp, dest_id, to_add)
+    logger.info(f"[{today}] added {len(to_add)} (skipped {skipped})")
+    return core.EXIT_OK
 
-    today = date.today().isoformat()
-    print(f"[{today}] added {len(to_add)} (skipped {skipped})", flush=True)
-    return 0
+
+def _entry() -> int:
+    try:
+        return main()
+    except core.AuthRequired as e:
+        core.setup_logging("archive").info(f"[auth] {e}")
+        return core.EXIT_AUTH
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(_entry())

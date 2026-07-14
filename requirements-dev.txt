@@ -1,0 +1,4 @@
+-r requirements.txt
+matplotlib>=3.10,<4  # sort.py --analyze 用（本番バッチには不要）
+pytest>=8,<9
+ruff>=0.6
