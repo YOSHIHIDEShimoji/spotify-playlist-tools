@@ -1,6 +1,6 @@
 # spotify-playlist-tools
 
-Spotify プレイリストを自動管理する4つのツール。
+Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub Actions 上で無人実行される。
 
 ---
 
@@ -8,43 +8,46 @@ Spotify プレイリストを自動管理する4つのツール。
 
 ```
 .
-├── inbox.py      # お気に入りの曲を邦楽/洋楽に振り分けて各プレイリストへ追加・削除
-├── inbox.sh      # inbox.py の自動実行ラッパー
-├── inbox.txt     # 振り分け設定（JAPANESE_MUSICS_ID + 邦楽アーティスト→プレイリストID）
+├── core.py       # 共通基盤: クライアント生成・ページング・バッチ・設定パーサ・ロギング
+├── classify.py   # 分類パイプライン（キャッシュ→ISRC→かな→genres→Gemini一括）
 │
-├── sort.py       # プレイリストのソート・分析
-├── sort.sh       # sort.py の自動実行ラッパー
+├── inbox.py      # お気に入りの曲を邦楽/洋楽に振り分けて各プレイリストへ追加・削除
+├── inbox.txt     # 振り分け設定（JAPANESE_MUSICS_ID / WESTERN_MUSICS_ID + 邦楽アーティスト）
+│
+├── sort.py       # プレイリストのソート・分析（--all で sort.txt 全件、--analyze で分析グラフ）
 ├── sort.txt      # ソート対象プレイリストURL一覧
 │
 ├── archive.py    # Top 50 の新着曲をアーカイブ
-├── archive.sh    # archive.py の自動実行ラッパー
 ├── archive.txt   # アーカイブ設定（SOURCE / DEST プレイリストID）
 │
 ├── sync.py       # アーティスト別プレイリストへ自動振り分け・双方向同期
-├── sync.sh       # sync.py → sort.sh を順に実行するラッパー
 ├── sync.txt      # 同期設定（SOURCE プレイリストID + アーティスト→プレイリストID）
-├── sync_state.json  # sync.py が自動生成するスナップショット（双方向同期用・gitignore 済み）
 │
-└── log/
-    ├── inbox.log
-    ├── sort.log
-    ├── archive.log
-    └── sync.log
+├── artist_class_cache.json  # classify.py の永続キャッシュ（コミット対象）
+├── sync_state.json          # sync.py のスナップショット（双方向同期用・コミット対象）
+│
+├── .github/workflows/
+│   ├── nightly.yml   # 毎晩 00:07 JST に inbox→sync→sort→archive を直列実行
+│   └── ci.yml        # push/PR で ruff + pytest
+│
+├── tests/        # 外部API非依存の純関数テスト
+└── log/          # ローカル実行時のログ（gitignore 済み）
 ```
+
+`inbox.sh` / `sync.sh` / `sort.sh` / `archive.sh` は旧 launchd 用のラッパー。
+GitHub Actions への移行完了後に撤去する（下記「移行状態」参照）。
 
 ---
 
 ## セットアップ
 
-### 前提
-- pyenv / pyenv-virtualenv インストール済み
-
-### 仮想環境
+### 仮想環境（ローカル実行・再認証用）
 
 ```bash
 pyenv virtualenv 3.11.9 spotify-playlist-tools-3.11.9
 pyenv local spotify-playlist-tools-3.11.9
-pip install -r requirements.txt
+pip install -r requirements.txt          # 本番依存のみ
+pip install -r requirements-dev.txt      # テスト・分析（matplotlib/pytest/ruff）も入れる場合
 ```
 
 ### 認証情報
@@ -59,146 +62,143 @@ cp .env.example .env
 SPOTIPY_CLIENT_ID=your_client_id_here
 SPOTIPY_CLIENT_SECRET=your_client_secret_here
 SPOTIPY_REDIRECT_URI=http://127.0.0.1:8000/callback
-GEMINI_API_KEY=your_gemini_api_key_here  # オプション（inbox.py の Gemini フォールバック用）
+GEMINI_API_KEY=your_gemini_api_key_here  # オプション（判定不能曲の最終フォールバック用）
 ```
 
-`GEMINI_API_KEY` は [Google AI Studio](https://aistudio.google.com/apikey) で取得できる（無料枠あり）。未設定の場合、Gemini フォールバックはスキップされ判定不能曲は `unknown` 扱いになる。
+`GEMINI_API_KEY` は [Google AI Studio](https://aistudio.google.com/apikey) で取得できる（無料枠あり）。
+未設定の場合、Gemini フォールバックはスキップされ判定不能曲は `unknown` 扱いになる。
 
 初回実行時にブラウザが開き、OAuth 認証が走る。トークンは `.cache-spotify` にキャッシュされる。
 
 ---
 
-## sort.py — プレイリストのソート・分析
+## 自動実行（GitHub Actions）
 
-プレイリストを **アーティスト曲数降順 → アーティスト名順 → リリース日昇順** で並べ替える。
+`nightly.yml` が毎晩 **00:07 JST**（cron は UTC 指定）に1ジョブで
+`inbox → sync → sort --all → archive` を**直列実行**する。順序が依存関係を表す
+（inbox が振り分け → sync が同期 → sort が整列 → archive が独立実行）。
 
-### 設定
+### 必要な Secrets
 
-`sort.txt` にソート対象プレイリストの URL を1行ずつ記載する。
+| Secret | 内容 |
+|---|---|
+| `SPOTIPY_CLIENT_ID` / `SPOTIPY_CLIENT_SECRET` | Spotify アプリの認証情報 |
+| `GEMINI_API_KEY` | Gemini（任意。未設定でも動く） |
+| `SPOTIFY_TOKEN_CACHE` | `.cache-spotify` の中身をそのまま（`gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify`） |
 
-```
-https://open.spotify.com/playlist/xxxxxx
-https://open.spotify.com/playlist/yyyyyy
-```
+### エラーは GitHub Issue で通知
 
-### 実行
+macOS 通知は廃止した。失敗・要対応は Issue になる（GitHub モバイルアプリの push が実質の通知）。
+
+- **`nightly-failure` ラベル**: バッチが致命的エラー（exit 1）や要再認証（exit 3）で失敗したとき。
+  ログ末尾と復旧手順が本文に入る。同じ Issue にコメントが積まれ、直ったら手動で close する
+- **`unknown-tracks` ラベル**: 振り分け判定できなかった曲があるとき。お気に入りに残るので手動振り分けか次回再判定
+
+### 再認証（トークン失効時）
+
+ヘッドレス実行ではブラウザ認証を開始せず即失敗する（深夜のハングを防ぐ）。
+`nightly-failure` Issue の手順どおり:
 
 ```bash
-# sort.txt の全プレイリストを一括ソート
-bash sort.sh
-
-# 単体実行
-python sort.py "https://open.spotify.com/playlist/xxxxxx"
-
-# 分析グラフ表示（プレイリストは変更しない）
-python sort.py --analyze "https://open.spotify.com/playlist/xxxxxx"
+cd spotify-playlist-tools
+python inbox.py                                   # 対話実行 → ブラウザ認証
+gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify
+gh workflow run nightly --field dry_run=true      # 動作確認
 ```
 
 ---
 
-## archive.py — Top 50 アーカイバ
+## 各ツール
 
-ソースプレイリストの現在の曲を取得し、アーカイブ先に未追加の曲だけを追記する。
-毎日実行することで「過去にランクインした全曲」を蓄積する。
+### inbox.py — お気に入り振り分け
 
-### 設定
+お気に入りの曲を以下の順で邦楽/洋楽に分類し、各プレイリストへ追加。処理済みはお気に入りから削除、
+判定不能曲は `log/unknown_tracks.txt` に書き出してお気に入りに残す。
 
-`archive.txt` に設定する。
+1. **永続キャッシュ** — 一度判定したアーティストは即返す
+2. **ISRC 国コード** — `JP` 始まりなら邦楽（追加APIコストなし）
+3. **日本語かな** — ひらがな・カタカナ・半角カナを含めば邦楽（漢字のみは保留）
+4. **Spotify genres** — 取得できた場合のみ
+5. **Gemini 一括** — 残った未知アーティストをまとめて1リクエストで判定
 
-```
-SOURCE_PLAYLIST_ID=<Top 50 などのプレイリストID>
-DEST_PLAYLIST_ID=<アーカイブ先のプレイリストID>
-```
-
-### 実行
-
-```bash
-bash archive.sh
-# または
-python archive.py
-```
-
----
-
-## sync.py — アーティスト別プレイリスト同期
-
-ソースプレイリストを走査し、各アーティストの曲を個別プレイリストへ追加する（重複なし）。
-`AUTO_DETECT_THRESHOLD`（デフォルト: 20）曲以上持つ未設定アーティストは自動検出し、
-プレイリストを新規作成して `sync.txt` と `sort.txt` に自動追記する。
-
-**双方向同期**: アーティストプレイリストから曲を削除すると、次回 sync 実行時に Western Musics からも自動削除される。
-内部では `sync_state.json` に前回同期後のスナップショットを保存し、差分で削除を検出する（初回実行時は順方向のみ）。
-
-### 設定
-
-`sync.txt` に設定する。
-
-```
-SOURCE_PLAYLIST_ID=<同期元プレイリストID>
-
-Charlie Puth=<プレイリストID>
-Taylor Swift=<プレイリストID>
-OneRepublic=<プレイリストID>
-# アーティスト名=プレイリストID の形式で追加
-```
-
-### 実行
-
-```bash
-# sync → sort の順で実行（推奨）
-bash sync.sh
-
-# 単体実行
-python sync.py
-```
-
----
-
-## inbox.py — お気に入り振り分け
-
-お気に入りの曲を以下の順で邦楽 / 洋楽に分類し、各プレイリストへ追加する。
-処理済みの曲はお気に入りから削除される。判定不能な曲はスキップして macOS 通知で報告される。
-
-1. **Spotify ジャンル** — アーティストのジャンル情報が取得できた場合はそれで判定
-2. **日本語文字チェック** — 曲名・アーティスト名・アルバム名に日本語文字があれば邦楽
-3. **Gemini API** — 上記で判定できない場合（モデル: `gemini-2.5-flash-lite`、`GEMINI_API_KEY` 未設定時はスキップ）
-
-- 邦楽 → Japanese Musics + `inbox.txt` に登録したアーティスト別プレイリスト
+- 邦楽 → Japanese Musics + `inbox.txt` のアーティスト別プレイリスト
 - 洋楽 → Western Musics のみ（アーティスト別振り分けは sync.py が担う）
 
-sort は `sort.sh` の定期実行（0:00）に委ねるため、inbox.py 自体は行わない。
+```bash
+python inbox.py            # 実行
+python inbox.py --dry-run  # 変更せず予定のみ表示
+```
 
-### 設定
-
-`inbox.txt` に設定する。
+`inbox.txt`:
 
 ```
-JAPANESE_MUSICS_ID=<Japanese Musics のプレイリストID>
-
+JAPANESE_MUSICS_ID=<Japanese Musics のID>
+WESTERN_MUSICS_ID=<Western Musics のID>
 Novelbright=<プレイリストID>
-OFFICIAL HIGE DANDISM=<プレイリストID>
-# Spotify公式アーティスト名=プレイリストID の形式で追加
 ```
 
-### 実行
+### sync.py — アーティスト別プレイリスト同期
+
+ソースプレイリストを走査し各アーティストの曲を個別プレイリストへ追加（重複なし）。
+`AUTO_DETECT_THRESHOLD`（20）曲以上の未設定アーティストは自動でプレイリスト作成し
+`sync.txt` / `sort.txt` に追記する。
+
+**双方向同期**: アーティストプレイリストから曲を削除すると次回実行時にソースからも削除される
+（`sync_state.json` の前回スナップショットとの差分で検出。初回は順方向のみ）。
 
 ```bash
-bash inbox.sh
-# または
-python inbox.py
+python sync.py
+python sync.py --dry-run
+```
+
+### sort.py — ソート・分析
+
+**アーティスト曲数降順 → アーティスト名順 → リリース日昇順**で並べ替える。
+全置換前に `snapshot_id` を照合し、取得中に変更があればそのプレイリストは見送る（次回再ソート）。
+
+```bash
+python sort.py "https://open.spotify.com/playlist/xxxx"   # 単体
+python sort.py --all                                       # sort.txt 全件
+python sort.py --analyze "https://.../playlist/xxxx"       # 分析グラフ（ローカル専用・matplotlib必要）
+python sort.py --all --dry-run
+```
+
+### archive.py — Top 50 アーカイバ
+
+ソースの現在の曲を取得し、アーカイブ先に未追加の曲だけを追記する。ページング対応。
+
+```bash
+python archive.py
+python archive.py --dry-run
+```
+
+`archive.txt`:
+
+```
+SOURCE_PLAYLIST_ID=<Top 50 などのID>
+DEST_PLAYLIST_ID=<アーカイブ先のID>
 ```
 
 ---
 
-## 自動実行（launchd）
+## exit code
 
-| launchd ラベル | スクリプト | スケジュール |
-|---|---|---|
-| `com.yoshihide.run_inbox` | `inbox.sh` | 毎日 0:00 |
-| `com.yoshihide.run_sync` | `sync.sh` | 毎日 0:00 |
-| `com.yoshihide.run_archive` | `archive.sh` | 毎日 0:00 |
+| code | 意味 |
+|---|---|
+| 0 | 成功 |
+| 1 | 致命的エラー（例外） |
+| 2 | 一部スキップ（unknown あり・失敗ではない） |
+| 3 | 要再認証（ヘッドレスでトークン失効） |
 
-`sync.sh` は内部で `sort.sh` を呼ぶため、sort の launchd 登録は不要。
-`inbox.sh` で追加したプレイリストのソートは `sort.sh` の定期実行が担う。
+---
 
-ログは `log/` に記録される。OAuth トークンが失効した場合は macOS 通知で警告される。
+## 移行状態（launchd → GitHub Actions）
+
+現在 launchd から GitHub Actions への移行中。本番の schedule 実行が安定するまでの残作業:
+
+1. GitHub Secrets を登録（上記4件。`gh secret set ...`）
+2. `nightly-failure` / `unknown-tracks` ラベルを作成
+3. `gh workflow run nightly --field dry_run=true` で検証 → 本番実行を確認
+4. 旧 launchd ジョブを unload し、`*.sh` ラッパー・`spotify_icon.icns` を撤去
+
+詳細な手順は [docs/implementation-plan.md](docs/implementation-plan.md) の Phase 0 / Phase 4 を参照。
