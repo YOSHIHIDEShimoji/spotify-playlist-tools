@@ -2,7 +2,7 @@ name: nightly
 
 on:
   schedule:
-    - cron: '7 15 * * *'      # 00:07 JST（毎時0分は混雑して遅延しやすいため 7分に）
+    - cron: '0 16 * * *'      # 01:00 JST（16:00 UTC）。scheduler 遅延は実測で不定なので分は0固定。混雑する 15:00 UTC 帯は外した
   workflow_dispatch:
     inputs:
       dry_run:

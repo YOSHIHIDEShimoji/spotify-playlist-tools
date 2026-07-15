@@ -27,7 +27,7 @@ Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub 
 ├── sync_state.json          # sync.py のスナップショット（双方向同期用・コミット対象）
 │
 ├── .github/workflows/
-│   ├── nightly.yml   # 毎晩 00:07 JST に inbox→sync→sort→archive を直列実行
+│   ├── nightly.yml   # 毎晩 01:00 JST に inbox→sync→sort→archive を直列実行
 │   └── ci.yml        # push/PR で ruff + pytest
 │
 ├── tests/        # 外部API非依存の純関数テスト
@@ -71,7 +71,7 @@ GEMINI_API_KEY=your_gemini_api_key_here  # オプション（判定不能曲の�
 
 ## 自動実行（GitHub Actions）
 
-`nightly.yml` が毎晩 **00:07 JST**（cron は UTC 指定）に1ジョブで
+`nightly.yml` が毎晩 **01:00 JST**（cron は UTC 指定）に1ジョブで
 `inbox → sync → sort --all → archive` を**直列実行**する。順序が依存関係を表す
 （inbox が振り分け → sync が同期 → sort が整列 → archive が独立実行）。
 
@@ -199,7 +199,7 @@ launchd から GitHub Actions への移行は**完了**（2026-07-14）。
 - ✅ 旧 launchd ジョブ（run_inbox / run_sync / run_archive）を unload
 - ✅ 旧ラッパー `*.sh`・未使用の `spotify_icon.icns`・`~/dotfiles` の launchd plist を撤去
 
-以降、自動運用は `nightly.yml`（毎晩 00:07 JST）のみ。ローカルは `python inbox.py` 等で直接実行する。
+以降、自動運用は `nightly.yml`（毎晩 01:00 JST）のみ。ローカルは `python inbox.py` 等で直接実行する。
 
 ロールバックが必要になった場合（launchd 運用へ戻す）は、`~/dotfiles` の plist 撤去コミットを revert →
 `launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/com.yoshihide.run_<name>.plist` で再ロードする。

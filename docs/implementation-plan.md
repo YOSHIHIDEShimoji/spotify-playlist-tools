@@ -31,7 +31,7 @@
 
 ```
 Before:                                    After:
-Mac launchd 3ジョブ (0:00 同時起動)         GitHub Actions 1 workflow (00:07 JST)
+Mac launchd 3ジョブ (0:00 同時起動)         GitHub Actions 1 workflow (01:00 JST)
 ├ inbox.sh → inbox.py ─┐                   nightly.yml:
 ├ sync.sh → sync.py    ├ 同じプレイリスト     checkout → pip → token復元
 │     └ sort.sh(loop)  ├ 同じ .cache を      → inbox → sync → sort --all → archive（直列）
@@ -291,7 +291,7 @@ name: nightly
 
 on:
   schedule:
-    - cron: '7 15 * * *'      # 00:07 JST（毎時0分は混雑して遅延しやすいため 7分に）
+    - cron: '0 16 * * *'      # 01:00 JST（16:00 UTC）。scheduler 遅延は実測で不定なので分は0固定。混雑する 15:00 UTC 帯は外した
   workflow_dispatch:
     inputs:
       dry_run:
