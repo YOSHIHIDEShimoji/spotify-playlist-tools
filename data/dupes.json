@@ -1,0 +1,530 @@
+{
+  "counts": {
+    "A": 1,
+    "B": 9,
+    "C": 1
+  },
+  "generated_at": "2026-07-17T04:06:29.048139+00:00",
+  "groups": [
+    {
+      "count": 2,
+      "id": "g-3f1c9efefe0b",
+      "playlist": {
+        "id": "50b7bd45kP4taFw6CtDl77",
+        "name": "justin bieber"
+      },
+      "reason": "same-id-in-playlist",
+      "tier": "A",
+      "track": {
+        "artists": [
+          "Dan + Shay",
+          "Justin Bieber"
+        ],
+        "id": "2wrJq5XKLnmhRXHIAf9xBa",
+        "name": "10,000 Hours (with Justin Bieber)"
+      }
+    },
+    {
+      "id": "g-a46fb6dd9bb9",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "Major Lazer Essentials",
+          "album_type": "compilation",
+          "artists": [
+            "Major Lazer",
+            "Justin Bieber",
+            "MØ"
+          ],
+          "duration_ms": 185351,
+          "id": "13pVIIellD76zNT1APT1De",
+          "isrc": "QMUY41600027",
+          "name": "Cold Water",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "50b7bd45kP4taFw6CtDl77",
+              "name": "justin bieber"
+            }
+          ],
+          "popularity": 68,
+          "release_date": "2018-10-19"
+        },
+        {
+          "album": "Cold Water (feat. Justin Bieber & MØ)",
+          "album_type": "single",
+          "artists": [
+            "Major Lazer",
+            "Justin Bieber",
+            "MØ"
+          ],
+          "duration_ms": 185351,
+          "id": "6Bjtr3tPdto5nyuLYf61sN",
+          "isrc": "QMUY41600027",
+          "name": "Cold Water (feat. Justin Bieber & MØ)",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "50b7bd45kP4taFw6CtDl77",
+              "name": "justin bieber"
+            }
+          ],
+          "popularity": 79,
+          "release_date": "2016-07-22"
+        }
+      ]
+    },
+    {
+      "id": "g-0bca03648fcd",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "Fearless (Taylor's Version)",
+          "album_type": "album",
+          "artists": [
+            "Taylor Swift"
+          ],
+          "duration_ms": 235766,
+          "id": "6YvqWjhGD8mB5QXcbcUKtx",
+          "isrc": "USUG12100342",
+          "name": "Love Story (Taylor’s Version)",
+          "playlists": [
+            {
+              "id": "1wdKsBFbcyt2R9KVpDl0ti",
+              "name": "taylor swift"
+            }
+          ],
+          "popularity": 79,
+          "release_date": "2021-04-09"
+        },
+        {
+          "album": "Love Story (Taylor’s Version)",
+          "album_type": "single",
+          "artists": [
+            "Taylor Swift"
+          ],
+          "duration_ms": 235766,
+          "id": "3CeCwYWvdfXbZLXFhBrbnf",
+          "isrc": "USUG12100342",
+          "name": "Love Story (Taylor’s Version)",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "1wdKsBFbcyt2R9KVpDl0ti",
+              "name": "taylor swift"
+            }
+          ],
+          "popularity": 81,
+          "release_date": "2021-02-12"
+        }
+      ]
+    },
+    {
+      "id": "g-b9ececc580c2",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "Hands All Over (Revised International Standard version)",
+          "album_type": "album",
+          "artists": [
+            "Maroon 5",
+            "Christina Aguilera"
+          ],
+          "duration_ms": 201493,
+          "id": "7pYfyrMNPn3wtoCyqcTVoI",
+          "isrc": "USUM71109132",
+          "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "3tAO4lsP9U1rW3NVfdqOUb",
+              "name": "maroon 5"
+            }
+          ],
+          "popularity": 85,
+          "release_date": "2010"
+        },
+        {
+          "album": "Singles",
+          "album_type": "compilation",
+          "artists": [
+            "Maroon 5",
+            "Christina Aguilera"
+          ],
+          "duration_ms": 202626,
+          "id": "32MHZtjHg7RmVtjoThdnWU",
+          "isrc": "USUM71109132",
+          "name": "Moves Like Jagger",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "3tAO4lsP9U1rW3NVfdqOUb",
+              "name": "maroon 5"
+            }
+          ],
+          "popularity": 46,
+          "release_date": "2015-09-25"
+        }
+      ]
+    },
+    {
+      "id": "g-971a68acd985",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "Repeat It",
+          "album_type": "single",
+          "artists": [
+            "Martin Garrix",
+            "Ed Sheeran"
+          ],
+          "duration_ms": 191716,
+          "id": "6TWWauThn6z8xOFpG4XF3O",
+          "isrc": "NLM5S2602811",
+          "name": "Repeat It",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "69ZGF21uukmv7cBj81aRwe",
+              "name": "ed sheeran"
+            }
+          ],
+          "popularity": 78,
+          "release_date": "2026-06-26"
+        },
+        {
+          "album": "Repeat It",
+          "album_type": "single",
+          "artists": [
+            "Martin Garrix",
+            "Ed Sheeran"
+          ],
+          "duration_ms": 191716,
+          "id": "5mX5bEYxObqukGlynRIVCj",
+          "isrc": "NLM5S2602811",
+          "name": "Repeat It",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "69ZGF21uukmv7cBj81aRwe",
+              "name": "ed sheeran"
+            }
+          ],
+          "popularity": 70,
+          "release_date": "2026-05-15"
+        }
+      ]
+    },
+    {
+      "id": "g-b81549d51b20",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "1989 (Deluxe)",
+          "album_type": "album",
+          "artists": [
+            "Taylor Swift"
+          ],
+          "duration_ms": 219200,
+          "id": "0cqRj7pUJDkTCEsJkx8snD",
+          "isrc": "USCJY1431349",
+          "name": "Shake It Off",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "1wdKsBFbcyt2R9KVpDl0ti",
+              "name": "taylor swift"
+            }
+          ],
+          "popularity": 85,
+          "release_date": "2014-01-01"
+        },
+        {
+          "album": "1989 (Big Machine Radio Release Special)",
+          "album_type": "album",
+          "artists": [
+            "Taylor Swift"
+          ],
+          "duration_ms": 219200,
+          "id": "1CiVz2WkmZRwhU3A6J2Gjz",
+          "isrc": "USCJY1431349",
+          "name": "Shake It Off",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            },
+            {
+              "id": "1wdKsBFbcyt2R9KVpDl0ti",
+              "name": "taylor swift"
+            }
+          ],
+          "popularity": 72,
+          "release_date": "2014-10-27"
+        }
+      ]
+    },
+    {
+      "id": "g-7f232cf1a682",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "開幕宣言",
+          "album_type": "album",
+          "artists": [
+            "Novelbright"
+          ],
+          "duration_ms": 312053,
+          "id": "6sElEqOIGENWjpxGFeo5ct",
+          "isrc": "JPPO02004097",
+          "name": "ツキミソウ",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            },
+            {
+              "id": "7lX5F3GCBG3q8PtqofskDm",
+              "name": "novelbright"
+            }
+          ],
+          "popularity": 70,
+          "release_date": "2021-04-26"
+        },
+        {
+          "album": "ツキミソウ",
+          "album_type": "single",
+          "artists": [
+            "Novelbright"
+          ],
+          "duration_ms": 307609,
+          "id": "0UWTRBGWfOp709f6rxd63R",
+          "isrc": "JPPO02004097",
+          "name": "ツキミソウ",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 60,
+          "release_date": "2020-12-11"
+        }
+      ]
+    },
+    {
+      "id": "g-3477fd2bf7e0",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "壱",
+          "album_type": "album",
+          "artists": [
+            "Yuuri"
+          ],
+          "duration_ms": 286360,
+          "id": "4kPlQKwtPrnqLgrmmKFSlA",
+          "isrc": "JPU902002405",
+          "name": "ドライフラワー",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 70,
+          "release_date": "2022-01-12"
+        },
+        {
+          "album": "ドライフラワー",
+          "album_type": "single",
+          "artists": [
+            "Yuuri"
+          ],
+          "duration_ms": 285586,
+          "id": "7dH0dpi751EoguDDg3xx6J",
+          "isrc": "JPU902002405",
+          "name": "ドライフラワー",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 66,
+          "release_date": "2020-10-25"
+        }
+      ]
+    },
+    {
+      "id": "g-deec0656c759",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "瞬間的シックスセンス",
+          "album_type": "album",
+          "artists": [
+            "Aimyon"
+          ],
+          "duration_ms": 306626,
+          "id": "2cKiHG16JBiqHdi7Llq0r7",
+          "isrc": "JPWP01870687",
+          "name": "マリーゴールド",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 76,
+          "release_date": "2019-02-13"
+        },
+        {
+          "album": "マリーゴールド",
+          "album_type": "single",
+          "artists": [
+            "Aimyon"
+          ],
+          "duration_ms": 306626,
+          "id": "0jWVUKsIoyo3zw64RaEWYg",
+          "isrc": "JPWP01870687",
+          "name": "マリーゴールド",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 54,
+          "release_date": "2018-07-18"
+        }
+      ]
+    },
+    {
+      "id": "g-53a212b8a7d7",
+      "reason": "isrc",
+      "tier": "B",
+      "tracks": [
+        {
+          "album": "CIRCUS",
+          "album_type": "album",
+          "artists": [
+            "Novelbright"
+          ],
+          "duration_ms": 230240,
+          "id": "0gMFrSk8tcpREhI7xtoQIE",
+          "isrc": "JPPO02304209",
+          "name": "雪の音",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            }
+          ],
+          "popularity": 46,
+          "release_date": "2024-04-03"
+        },
+        {
+          "album": "雪の音",
+          "album_type": "single",
+          "artists": [
+            "Novelbright"
+          ],
+          "duration_ms": 228133,
+          "id": "2Wahb8YS7s2zPFRVK3l5gT",
+          "isrc": "JPPO02304209",
+          "name": "雪の音",
+          "playlists": [
+            {
+              "id": "1NMKQVChOdoOy1o6bLw564",
+              "name": "Japanese Musics"
+            },
+            {
+              "id": "7lX5F3GCBG3q8PtqofskDm",
+              "name": "novelbright"
+            }
+          ],
+          "popularity": 52,
+          "release_date": "2023-12-13"
+        }
+      ]
+    },
+    {
+      "id": "g-99e3671f800e",
+      "reason": "title",
+      "tier": "C",
+      "tracks": [
+        {
+          "album": "Viva La Vida or Death and All His Friends",
+          "album_type": "album",
+          "artists": [
+            "Coldplay"
+          ],
+          "duration_ms": 242373,
+          "id": "1SLxVWqXo9zNrrDKRa3m1G",
+          "isrc": "GBAYE0800265",
+          "name": "Viva La Vida",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            }
+          ],
+          "popularity": 71,
+          "release_date": "2008-06-19"
+        },
+        {
+          "album": "Viva La Vida or Death and All His Friends",
+          "album_type": "album",
+          "artists": [
+            "Coldplay"
+          ],
+          "duration_ms": 241444,
+          "id": "2LnmFzNEQ2N79WVCWQzKwz",
+          "isrc": "GBAYE1600217",
+          "name": "Viva La Vida",
+          "playlists": [
+            {
+              "id": "3gWeVkYJPREpkdCpDRjHFw",
+              "name": "Western Musics"
+            }
+          ],
+          "popularity": 58,
+          "release_date": "2008-06-06"
+        }
+      ]
+    }
+  ]
+}
