@@ -3,9 +3,80 @@ import logging
 
 import pytest
 
+import dedupe
 import siteops
 
 _LOG = logging.getLogger("test")
+
+
+class _FakeSp:
+    """プレイリスト内容を辞書で持つ最小フェイク（op 実行系の回帰テスト用・L-C）。"""
+
+    def __init__(self, playlists):
+        self.playlists = {pid: list(tracks) for pid, tracks in playlists.items()}
+
+    def playlist_items(self, pid, fields=None, additional_types=None, limit=100):
+        return {"items": [{"track": t} for t in self.playlists.get(pid, [])], "next": None}
+
+    def next(self, _result):
+        return None
+
+    def playlist_remove_all_occurrences_of_items(self, pid, uris):
+        ids = {u.split(":")[-1] for u in uris}
+        self.playlists[pid] = [t for t in self.playlists.get(pid, []) if t["id"] not in ids]
+
+    def playlist_add_items(self, pid, ids):
+        for tid in ids:
+            self.playlists.setdefault(pid, []).append(_mk(tid, "ZZ0"))
+
+
+def _mk(tid, isrc):
+    return {"id": tid, "name": "Song", "artists": [{"id": "art", "name": "Art"}],
+            "external_ids": {"isrc": isrc}, "duration_ms": 1000, "popularity": 50,
+            "album": {"name": "Al", "album_type": "album", "release_date": "2020-01-01"}}
+
+
+def _seed_dupes(tmp_path):
+    group = {"id": "g-x", "tier": "B", "reason": "isrc", "tracks": [
+        {"id": "a", "name": "Song", "playlists": [{"id": "pW", "name": "W"}]},
+        {"id": "b", "name": "Song", "playlists": [{"id": "pW", "name": "W"}]},  # snapshot は pW のみ
+    ]}
+    (tmp_path / "dupes.json").write_text(json.dumps({"counts": {"A": 0, "B": 1, "C": 0}, "groups": [group]}))
+
+
+def test_op_dedupe_apply_and_undo_end_to_end(tmp_path, monkeypatch):
+    # b は a の重複。live では b が pW と pAP の両方に在籍（snapshot は pW のみ）
+    sp = _FakeSp({"pW": [_mk("a", "GB1"), _mk("b", "GB1")], "pAP": [_mk("b", "GB1")]})
+    monkeypatch.setattr(dedupe, "managed_playlists",
+                        lambda: [{"id": "pW", "name": "W"}, {"id": "pAP", "name": "AP"}])
+    _seed_dupes(tmp_path)
+
+    siteops.op_dedupe_apply(sp, tmp_path, {"decisions": [{"group_id": "g-x", "keep": ["a"], "remove": ["b"]}]}, _LOG)
+
+    # H1: b は全管理 PL（pW/pAP）から消え、keep 側 a は残る
+    assert all(t["id"] != "b" for t in sp.playlists["pW"])
+    assert all(t["id"] != "b" for t in sp.playlists["pAP"])
+    assert any(t["id"] == "a" for t in sp.playlists["pW"])
+
+    # M-3: undo レコードは live 在籍（pW+pAP）を記録
+    undo_files = list((tmp_path / "undo").glob("*.json"))
+    assert len(undo_files) == 1
+    rec = json.loads(undo_files[0].read_text())
+    assert set(rec["removed"][0]["playlists"]) == {"pW", "pAP"}
+
+    # H-1: undo_index に即時反映
+    idx = json.loads((tmp_path / "undo_index.json").read_text())
+    assert len(idx["entries"]) == 1 and idx["entries"][0]["id"] == rec["id"]
+
+    # undo: b が両 PL へ復活し、undo ファイルは .done 化
+    siteops.op_undo(sp, tmp_path, {"undo_id": rec["id"]}, _LOG)
+    assert any(t["id"] == "b" for t in sp.playlists["pW"])
+    assert any(t["id"] == "b" for t in sp.playlists["pAP"])
+    assert not undo_files[0].exists()
+    assert (tmp_path / "undo" / f"{rec['id']}.done").exists()
+    # 二重 undo は拒否
+    with pytest.raises(siteops.OpError):
+        siteops.op_undo(sp, tmp_path, {"undo_id": rec["id"]}, _LOG)
 
 
 def _dupes():

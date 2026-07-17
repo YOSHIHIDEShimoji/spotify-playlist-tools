@@ -126,14 +126,16 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
             if tid in ids:
                 live.setdefault(tid, []).append(pl["id"])
 
-    # undo を先に確定（記録できないなら削除しない・§7.3-2）
+    # undo を先に確定（記録できないなら削除しない・§7.3-2）。
+    # レビュー L-A: live 在籍が空なら削除は no-op なので undo も何もしない（fallback は snapshot でなく []）。
     undo_removed = [
-        {"track_id": r["track_id"], "name": r["name"], "playlists": live.get(r["track_id"], r["playlists"])}
+        {"track_id": r["track_id"], "name": r["name"], "playlists": live.get(r["track_id"], [])}
         for r in removals
     ]
     undo = {"id": _ts(), "op": "dedupe-apply", "created_at": datetime.now(core.JST).isoformat(),
             "removed": undo_removed}
     _write_undo(data, undo)
+    _refresh_undo_index(data)  # レビュー L-B: 削除でクラッシュしても取り消せるよう先に index 更新
 
     # レビュー H1: dupes.json の playlists は前回スキャン時点の写像で古い可能性がある。
     # snapshot だけ消すと sync が AP へ追加した曲が残留する（dedupe-requirements §6 が禁じた状態）。
@@ -143,7 +145,6 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
     logger.info(f"削除: {len(remove_ids)} 曲を全 {len(managed)} プレイリストから除去")
 
     _regenerate_dupes(sp, data)
-    _refresh_undo_index(data)  # H-1: 削除直後にサイトから取り消せるよう index を即更新
     logger.info(f"完了: undo={undo['id']}")
 
 
