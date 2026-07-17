@@ -83,11 +83,31 @@ def test_plan_classify_valid_and_rejects():
         siteops.plan_classify(unknown, [{"track_id": "t1", "class": "bad"}])
 
 
-def test_op_keep_apply_writes_file(tmp_path):
+def _write_dupes(tmp_path):
+    (tmp_path / "dupes.json").write_text(json.dumps({
+        "counts": {"A": 0, "B": 1, "C": 0},
+        "groups": [{"id": "g-1", "tier": "B", "reason": "isrc",
+                    "tracks": [{"id": "a"}, {"id": "b"}]}],
+    }))
+
+
+def test_op_keep_apply_validates_and_updates_dupes(tmp_path):
     # keep-apply は Spotify を触らない（sp 未使用）ので orchestration をそのまま検証できる
+    _write_dupes(tmp_path)
     siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "g-1", "track_ids": ["a", "b"]}], "remove": []}, _LOG)
-    data = json.loads((tmp_path / "dedupe_keep.json").read_text())
-    assert data["groups"][0]["group_id"] == "g-1"
-    # remove で消える
+    # dedupe_keep に記録
+    assert json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"][0]["group_id"] == "g-1"
+    # dupes.json から即時に消える（M-4）
+    dupes = json.loads((tmp_path / "dupes.json").read_text())
+    assert dupes["groups"] == [] and dupes["counts"]["B"] == 0
+    # remove で keep から消える
     siteops.op_keep_apply(None, tmp_path, {"add": [], "remove": ["g-1"]}, _LOG)
     assert json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"] == []
+
+
+def test_op_keep_apply_rejects_mismatched_track_ids(tmp_path):
+    _write_dupes(tmp_path)
+    with pytest.raises(siteops.OpError):
+        siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "g-1", "track_ids": ["a"]}], "remove": []}, _LOG)
+    with pytest.raises(siteops.OpError):
+        siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "nope", "track_ids": ["a", "b"]}], "remove": []}, _LOG)

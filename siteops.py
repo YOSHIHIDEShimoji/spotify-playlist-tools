@@ -106,6 +106,7 @@ def _write_undo(data: Path, record: dict) -> None:
 
 def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
     import dedupe
+    import inbox
 
     dupes = json.loads((data / "dupes.json").read_text())
     removals = plan_dedupe(dupes, payload.get("decisions", []))
@@ -113,22 +114,36 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
         logger.info("削除対象なし")
         return
 
+    remove_ids = [r["track_id"] for r in removals]
+    managed = dedupe.managed_playlists()
+
+    # レビュー M3: 削除前に remove 対象の「実在籍」を全管理プレイリストで取得し undo に記録する。
+    # snapshot（dupes.json の playlists）は古く、削除範囲（全 PL）と非対称になるため。
+    live: dict[str, list[str]] = {}
+    for pl in managed:
+        ids = inbox.playlist_track_ids(sp, pl["id"])
+        for tid in remove_ids:
+            if tid in ids:
+                live.setdefault(tid, []).append(pl["id"])
+
     # undo を先に確定（記録できないなら削除しない・§7.3-2）
+    undo_removed = [
+        {"track_id": r["track_id"], "name": r["name"], "playlists": live.get(r["track_id"], r["playlists"])}
+        for r in removals
+    ]
     undo = {"id": _ts(), "op": "dedupe-apply", "created_at": datetime.now(core.JST).isoformat(),
-            "removed": removals}
+            "removed": undo_removed}
     _write_undo(data, undo)
 
     # レビュー H1: dupes.json の playlists は前回スキャン時点の写像で古い可能性がある。
-    # sync が順方向で AP へ追加した曲は snapshot に無く、snapshot だけ消すと AP 残留が起きる
-    # （dedupe-requirements §6 が禁じた状態）。よって snapshot を信頼せず、全管理プレイリストから
-    # remove-all-occurrences（idempotent）して残留を構造的に潰す。
-    remove_ids = [r["track_id"] for r in removals]
-    managed = dedupe.managed_playlists()
+    # snapshot だけ消すと sync が AP へ追加した曲が残留する（dedupe-requirements §6 が禁じた状態）。
+    # 全管理プレイリストから remove-all-occurrences（idempotent）して残留を構造的に潰す。
     for pl in managed:
         core.remove_in_batches(sp, pl["id"], remove_ids)
     logger.info(f"削除: {len(remove_ids)} 曲を全 {len(managed)} プレイリストから除去")
 
     _regenerate_dupes(sp, data)
+    _refresh_undo_index(data)  # H-1: 削除直後にサイトから取り消せるよう index を即更新
     logger.info(f"完了: undo={undo['id']}")
 
 
@@ -170,9 +185,22 @@ def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
     remaining = [t for t in unknown["tracks"] if t["id"] not in {d["track_id"] for d in valid}]
     core.atomic_write_json(data / "unknown.json",
                            {"generated_at": datetime.now(core.JST).isoformat(), "tracks": remaining})
+    _refresh_undo_index(data)
 
 
 def op_keep_apply(_sp, data: Path, payload: dict, logger) -> None:
+    # レビュー M4: add を現在の dupes と照合（group_id 実在＋track_ids==グループ構成）。
+    # 不一致は OpError（docstring「payload は必ず照合」の唯一の例外を解消）。
+    dupes = json.loads((data / "dupes.json").read_text())
+    by_id = {g["id"]: g for g in dupes.get("groups", []) if "tracks" in g}
+    for add in payload.get("add", []):
+        gid = add.get("group_id")
+        g = by_id.get(gid)
+        if not g:
+            raise OpError(f"グループが存在しません: {gid}")
+        if set(add.get("track_ids", [])) != {t["id"] for t in g["tracks"]}:
+            raise OpError(f"track_ids がグループ構成と一致しません: {gid}")
+
     path = data / "dedupe_keep.json"
     keep = json.loads(path.read_text()) if path.exists() else {"groups": []}
     groups = {g["group_id"]: g for g in keep.get("groups", [])}
@@ -184,7 +212,14 @@ def op_keep_apply(_sp, data: Path, payload: dict, logger) -> None:
     for gid in payload.get("remove", []):
         groups.pop(gid, None)
     core.atomic_write_json(path, {"groups": list(groups.values())})
-    logger.info(f"keep 更新: +{len(payload.get('add', []))} / -{len(payload.get('remove', []))}")
+
+    # レビュー M4: full scan せず dupes.json から該当グループを除いて即時反映（API 呼び出しゼロ）
+    keep_ids = {add["group_id"] for add in payload.get("add", [])}
+    kept = [g for g in dupes.get("groups", []) if g.get("id") not in keep_ids]
+    dupes["groups"] = kept
+    dupes["counts"] = {t: sum(1 for g in kept if g.get("tier") == t) for t in ("A", "B", "C")}
+    core.atomic_write_json(data / "dupes.json", dupes)
+    logger.info(f"keep 更新: +{len(payload.get('add', []))} / -{len(payload.get('remove', []))}（dupes 即時反映）")
 
 
 def op_undo(sp, data: Path, payload: dict, logger) -> None:
@@ -199,12 +234,19 @@ def op_undo(sp, data: Path, payload: dict, logger) -> None:
     path.rename(path.with_suffix(".done"))  # 二重 undo を防ぐ
     logger.info(f"undo 完了: {undo_id}（{len(rec.get('removed', []))} 曲を再追加）")
     _regenerate_dupes(sp, data)
+    _refresh_undo_index(data)  # .done 化を即反映（H-1 / L-2）
 
 
 def _regenerate_dupes(sp, data: Path) -> None:
     import dedupe
     result = dedupe.scan(sp, dedupe.managed_playlists(), dedupe.load_keep_sets(data))
     core.atomic_write_json(data / "dupes.json", result)
+
+
+def _refresh_undo_index(data: Path) -> None:
+    """op 直後に undo_index.json を再生成する（H-1）。nightly を待たずサイトから取り消せるように。"""
+    import sitegen
+    sitegen.write_undo_index(data)
 
 
 OPS = {

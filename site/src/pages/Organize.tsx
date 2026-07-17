@@ -5,21 +5,39 @@ import { Empty, Loading, Section, Duration } from "../components/ui";
 import { EmbedPlayer } from "../components/EmbedPlayer";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
-import { clearProcessing, markProcessing, useProcessing } from "../lib/processing";
+import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib/processing";
 
 export function Organize() {
   const dupes = useJson<Dupes>("dupes");
   const unknown = useJson<Unknown>("unknown");
   const pat = usePat();
   const processing = useProcessing();
+  const anyProcessing = Object.keys(processing).length > 0; // M-2: 実行中は他の dispatch を止める
 
-  // データが更新され、処理中だったグループが dupes から消えたら「処理中」を解消（レビュー M2）
+  // 処理中の解消（M2）: データ更新で対象が消えた／30分経っても反映されない（M-1）ものをクリア
   useEffect(() => {
-    if (!dupes.data) return;
-    const present = new Set(dupes.data.groups.map((g) => g.id));
-    const stale = Object.keys(processing).filter((id) => id.startsWith("g-") && !present.has(id));
-    if (stale.length) clearProcessing(stale);
-  }, [dupes.data, processing]);
+    const toClear: string[] = [];
+    if (dupes.data) {
+      const present = new Set(dupes.data.groups.map((g) => g.id));
+      toClear.push(...Object.keys(processing).filter((id) => id.startsWith("g-") && !present.has(id)));
+    }
+    if (unknown.data) {
+      const present = new Set(unknown.data.tracks.map((t) => t.id));
+      toClear.push(...Object.keys(processing).filter((id) => !id.startsWith("g-") && !present.has(id)));
+    }
+    toClear.push(...stuckIds(processing, Date.now()));
+    const uniq = [...new Set(toClear)];
+    if (uniq.length) clearProcessing(uniq);
+  }, [dupes.data, unknown.data, processing]);
+
+  // タイムアウト解消を定期的に走らせる（M-1: 反映が来なくても30分で操作可能に戻す）
+  useEffect(() => {
+    const id = setInterval(() => {
+      const stuck = stuckIds(processing, Date.now());
+      if (stuck.length) clearProcessing(stuck);
+    }, 60_000);
+    return () => clearInterval(id);
+  }, [processing]);
 
   return (
     <>
@@ -38,7 +56,13 @@ export function Organize() {
           <Empty>重複は見つかっていません。きれいな状態です。</Empty>
         ) : (
           dupes.data.groups.map((g) => (
-            <GroupCard key={g.id} g={g} pat={pat} processing={!!processing[g.id]} />
+            <GroupCard
+              key={g.id}
+              g={g}
+              pat={pat}
+              processing={!!processing[g.id]}
+              blocked={anyProcessing && !processing[g.id]}
+            />
           ))
         )}
       </Section>
@@ -54,7 +78,12 @@ export function Organize() {
               <div className="t-body-bold">{t.name}</div>
               <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>{t.artists.join(", ")}</div>
               <EmbedPlayer trackId={t.id} />
-              <ClassifyActions trackId={t.id} pat={pat} />
+              <ClassifyActions
+                trackId={t.id}
+                pat={pat}
+                processing={!!processing[t.id]}
+                blocked={anyProcessing && !processing[t.id]}
+              />
             </div>
           ))
         )}
@@ -73,7 +102,9 @@ function Counts({ d }: { d: Dupes }) {
 
 const TIER_LABEL: Record<string, string> = { A: "完全重複", B: "同一録音", C: "別バージョン候補" };
 
-function GroupCard({ g, pat, processing }: { g: DupeGroup; pat: string | null; processing: boolean }) {
+function GroupCard(
+  { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
+) {
   const [keep, setKeep] = useState<Set<string>>(new Set());
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -92,7 +123,7 @@ function GroupCard({ g, pat, processing }: { g: DupeGroup; pat: string | null; p
   const tracks = g.tracks ?? [];
   const remove = tracks.filter((t) => !keep.has(t.id)).map((t) => t.id);
   const canApply =
-    !!pat && !processing && keep.size > 0 && remove.length > 0 && remove.length < tracks.length;
+    !!pat && !processing && !blocked && keep.size > 0 && remove.length > 0 && remove.length < tracks.length;
 
   async function apply() {
     setBusy(true);
@@ -119,7 +150,12 @@ function GroupCard({ g, pat, processing }: { g: DupeGroup; pat: string | null; p
   return (
     <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
       <Header g={g} />
-      {processing && <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>処理中… 反映まで数分</div>}
+      {processing && (
+        <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
+          処理中… 反映まで数分（30分で自動解除）{" "}
+          <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions で確認</a>
+        </div>
+      )}
       {tracks.map((t, i) => (
         <div className="dupe-cand" key={t.id}>
           <div className="meta">
@@ -150,7 +186,7 @@ function GroupCard({ g, pat, processing }: { g: DupeGroup; pat: string | null; p
         <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
           選んだ方を残して削除
         </button>
-        <button className="pill" disabled={!pat || busy || processing} onClick={keepBoth}>
+        <button className="pill" disabled={!pat || busy || processing || blocked} onClick={keepBoth}>
           両方残す
         </button>
         {status && (
@@ -206,20 +242,26 @@ function UndoSection({ pat }: { pat: string | null }) {
   );
 }
 
-function ClassifyActions({ trackId, pat }: { trackId: string; pat: string | null }) {
+function ClassifyActions(
+  { trackId, pat, processing, blocked }: { trackId: string; pat: string | null; processing: boolean; blocked: boolean },
+) {
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const disabled = !pat || busy || processing || blocked;
   async function classify(cls: "japanese" | "western") {
     setBusy(true);
     const res = await dispatchOp(pat!, "classify-apply", { decisions: [{ track_id: trackId, class: cls }] });
     setBusy(false);
+    if (res.ok) markProcessing(trackId); // L-6: 連打で2本目が「unknown に無い」失敗 Issue を防ぐ
     setStatus(res.ok ? `${cls === "japanese" ? "邦楽" : "洋楽"}へ振り分け中…` : `失敗: ${res.message}`);
   }
   return (
     <div className="dupe-actions">
-      <button className="pill pill-green" disabled={!pat || busy} onClick={() => classify("japanese")}>邦楽</button>
-      <button className="pill" disabled={!pat || busy} onClick={() => classify("western")}>洋楽</button>
-      {status && <span className="t-small" style={{ alignSelf: "center" }}>{status}</span>}
+      <button className="pill pill-green" disabled={disabled} onClick={() => classify("japanese")}>邦楽</button>
+      <button className="pill" disabled={disabled} onClick={() => classify("western")}>洋楽</button>
+      {(processing || status) && (
+        <span className="t-small" style={{ alignSelf: "center" }}>{processing ? "振り分け中…" : status}</span>
+      )}
     </div>
   );
 }
