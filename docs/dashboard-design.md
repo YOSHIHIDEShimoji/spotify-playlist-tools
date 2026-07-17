@@ -1,7 +1,14 @@
 # ダッシュボードサイト 設計書 兼 実装指示書
 
 作成: 2026-07-17（Claude Code / Fable 5）。機能一覧・アーキテクチャ・未決定事項はすべて本人と対話で確定済み。
-**別モデルが本人への確認なしで実装を完走できること**を目的に書いている。実装はまだ行っていない。
+
+> **実装状況（2026-07-17 追記）:** Phase 1〜3 を実装・main へマージ済み。
+> - Phase 1（データ層）: クラウド dry-run で data ブランチ全ファイル生成を検証済み
+> - Phase 2（閲覧サイト）: 全6ページをモバイル実データでレンダリング検証済み・CI green
+> - Phase 3（操作系）: siteops.py + site-ops.yml。検証ロジックを単体テスト済み。
+>   **実削除の初回は本人立ち会いで**（§14-1・下記「残タスク」参照）
+> - **未完（本人作業）:** Phase 0 の再認証（`python reauth.py`）・PAT 発行・Vercel デプロイ + Deploy Hook。
+>   Phase 4（wrapped/streak の熟成）・Phase 5（リネーム）は後続。詳細は §12 の表。
 
 ---
 
@@ -385,13 +392,21 @@ site/
 
 ## 12. フェーズ分割と完了条件
 
-| Phase | 内容 | 完了条件(マージ判定) |
-|---|---|---|
-| 1 | データ基盤: core 拡張(統合 SCOPE・write_step_summary)/ listen_log.py / sitegen.py / dedupe.py(scan)/ listen-log.yml / nightly 拡張 / data ブランチ作成 | nightly 実行後、data ブランチに §5.3 の全ファイルが生成される(新スコープ分は missing_scopes 記録で可)。CI green |
-| 2 | サイト閲覧版: site/ 全ページ(操作 UI は disabled)+ Vercel プロジェクト作成・デプロイ | スマホ実機幅で全ページ表示。デザインは DESIGN-spotify.md(無ければプレースホルダ+報告) |
-| 3 | 操作系: siteops.py + site-ops.yml + PAT UI + 楽観的 UI + undo | 受け入れ基準 §14-1〜3 を実測でパス = **CLI 退役** |
-| 4 | 熟成系: wrapped(月末生成)・streak・忘れかけの自前ログ切替構造 | 該当 JSON とページが揃う |
-| 5 | **リネーム**: `gh repo rename spotify-dashboard` → ローカル `mv`(§12.1) | 旧名参照が残っていない(grep で確認)。サイト再デプロイ成功 |
+| Phase | 状態 | 内容 | 完了条件(マージ判定) |
+|---|---|---|---|
+| 1 | ✅ 完了 | データ基盤: core 拡張(統合 SCOPE・write_step_summary)/ listen_log.py / sitegen.py / dedupe.py(scan)/ listen-log.yml / nightly 拡張 / data ブランチ作成 | nightly 実行後、data ブランチに §5.3 の全ファイルが生成される(新スコープ分は missing_scopes 記録で可)。CI green |
+| 2 | ✅ 完了（デプロイ除く） | サイト閲覧版: site/ 全ページ + Vercel プロジェクト作成・デプロイ | スマホ実機幅で全ページ表示。デザインは DESIGN-spotify.md。**Vercel デプロイは本人作業（Phase 0-3）** |
+| 3 | ✅ コード完了 | 操作系: siteops.py + site-ops.yml + PAT UI + undo | 検証ロジック単体テスト済み。**受け入れ §14-1（実削除）の初回は本人立ち会いで実測** |
+| 4 | ⬜ 後続 | 熟成系: wrapped(月末生成)・streak・忘れかけの自前ログ切替構造 | 該当 JSON とページが揃う |
+| 5 | ⬜ 後続 | **リネーム**: `gh repo rename spotify-dashboard` → ローカル `mv`(§12.1) | 旧名参照が残っていない(grep で確認)。サイト再デプロイ成功 |
+
+**本人の残タスク（Phase 0 の未完分）:**
+1. `python reauth.py` で統合スコープ再認証 → `gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify`
+   （聴取ログ・公式Top・新譜が有効化。**操作系 dedupe/classify は再認証なしでも動く**）
+2. Vercel でプロジェクト `spotify-dashboard` 作成（Root Directory=`site/`・Build=`npm run build:vercel`・production=main）→ デプロイ
+3. Vercel Deploy Hook 作成 → `gh secret set VERCEL_DEPLOY_HOOK`（nightly/site-ops が再ビルドを起動）
+4. fine-grained PAT 発行（対象=本リポジトリ / Actions: Read and write / 期限1年）→ サイトの「操作 OFF」から貼る
+5. 初回の実削除を1件、サイトで実行して受け入れ §14-1 を確認（本人立ち会い推奨）
 
 ### 12.1 Phase 5 リネーム手順(本人決定: 「最後に変更する」)
 

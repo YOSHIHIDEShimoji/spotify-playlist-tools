@@ -189,6 +189,34 @@ DEST_PLAYLIST_ID=<アーカイブ先のID>
 
 ---
 
+## ダッシュボードサイト（Vite + React・`site/`）
+
+プレイリスト運用の閲覧と操作をブラウザで完結させる静的サイト。設計は
+[docs/dashboard-design.md](docs/dashboard-design.md)。バックエンドサーバも DB も持たず、
+**git がデータストア**（`data` ブランチ）・変更はすべて GitHub Actions が実行する。
+
+```
+収集: listen-log.yml（3時間ごと recently-played）+ nightly の sitegen.py
+        → data ブランチへ commit → Vercel が取り込んでビルド
+操作: ブラウザ（PAT）→ site-ops.yml を workflow_dispatch → siteops.py が Spotify を変更
+```
+
+- **機能**: 昨晩サマリ・エラー統計・重複聴き比べ&削除・unknown 振り分け・週間/累計ランキング・
+  成長グラフ・分布・ヒートマップ・新譜/公式Top・1年前の今週・横断検索
+- **試聴**: Spotify iframe embed（APIキー不要）。重複の聴き比べがサイト内で完結
+- **操作**: fine-grained PAT をブラウザに1度貼るだけ（`Actions: Read and write`）。削除は全出現
+  プレイリストから同時実行し undo を記録（[docs/dedupe-requirements.md](docs/dedupe-requirements.md) §6）
+
+```bash
+cd site
+npm install
+npm run dev        # ローカル開発（public/data のフィクスチャを参照）
+npm run build      # 本番ビルド（データは実行時 fetch）
+```
+
+セットアップの残タスク（再認証・Vercel デプロイ・Deploy Hook・PAT）は
+[docs/dashboard-design.md](docs/dashboard-design.md) §12 の「本人の残タスク」を参照。
+
 ## 移行履歴（launchd → GitHub Actions）
 
 launchd から GitHub Actions への移行は**完了**（2026-07-14）。
