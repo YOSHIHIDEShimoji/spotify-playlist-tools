@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { useJson, useJsonl } from "../lib/data";
 import type { ListeningStats, RunRecord } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
+import { TrackModal, type ModalTrack } from "../components/Modal";
 
 export function Home() {
   const runs = useJsonl<RunRecord>("runs");
@@ -60,7 +62,6 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
     return (
       <div className="nightband">
         <div className="nightband-top">
-          <span className="nightband-dot" />
           <span className="eyebrow">nightly run · 01:00 JST</span>
         </div>
         <h1 className="t-display">まだ夜間ランの記録がありません</h1>
@@ -83,7 +84,6 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
   return (
     <div className="nightband">
       <div className="nightband-top">
-        <span className="nightband-dot" />
         <span className="eyebrow">nightly run · 01:00 JST</span>
         <span className={"badge status " + badge.cls}>{badge.label}</span>
       </div>
@@ -106,7 +106,7 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
         <div className="foot-stat">
           <span className="k">累計再生</span>
           <span className="v">
-            <span className="dawn">{listen ? listen.milestone.total.toLocaleString() : "—"}</span>
+            {listen ? listen.milestone.total.toLocaleString() : "—"}
             {listen?.milestone.next ? <span className="muted"> / 次 {listen.milestone.next.toLocaleString()}</span> : null}
           </span>
         </div>
@@ -157,21 +157,28 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
 }
 
 function WeeklyTop({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
+  const [sel, setSel] = useState<ModalTrack | null>(null);
   if (loading) return <Loading />;
   if (!listen || listen.weekly_top.length === 0)
     return <Empty>聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。</Empty>;
   return (
     <div className="card">
       {listen.weekly_top.slice(0, 15).map((t, i) => (
-        <div className="list-row" key={t.track_id}>
+        <div
+          className="list-row clickable"
+          key={t.track_id}
+          onClick={() => setSel({ id: t.track_id, name: t.name, artists: t.artists })}
+        >
           <span className="list-rank">{i + 1}</span>
           <span className="list-main">
             <div className="name">{t.name}</div>
             <div className="t-small">{t.artists.join(", ")}</div>
           </span>
           <span className="list-count">{t.count}回</span>
+          <span className="row-open">開く ›</span>
         </div>
       ))}
+      {sel && <TrackModal track={sel} onClose={() => setSel(null)} />}
     </div>
   );
 }

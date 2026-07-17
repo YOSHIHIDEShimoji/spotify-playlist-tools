@@ -4,10 +4,7 @@ export function Section({ title, children, aside }: { title: string; children: R
   return (
     <section style={{ marginBottom: "var(--sp-8)" }}>
       <div className="sec-head">
-        <span className="title-wrap">
-          <span className="tick" aria-hidden />
-          <h2 className="t-section">{title}</h2>
-        </span>
+        <h2 className="t-section">{title}</h2>
         {aside}
       </div>
       {children}

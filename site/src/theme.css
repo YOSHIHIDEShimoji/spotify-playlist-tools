@@ -1,62 +1,52 @@
-/* theme.css — デザイントークン
- * 方向性: 「夜の運用コンソール」。ボットが 01:00 JST に眠っている間に走り、朝に記録を返す。
- * ── Spotify 由来の緑は「機能アクセント」としてのみ残す（操作・成功・進行）。
- * ── ほぼ黒の AI 定番（#121212 一色）を避け、青みのある夜の階調にする。
- * ── 大胆さは一箇所（Home ヒーローの夜明けグラデーション）に集中させる。
- * ── 機械が語るデータ（差分・時刻・回数・ID・ISRC）は等幅で組み、散文と役割を分ける。
- * 色・余白・角丸・フォントはすべてここ経由。コンポーネントでハードコードしない。 */
+/* theme.css — デザイントークン（docs/DESIGN-spotify.md の正典を CSS 変数化）
+ * 方針: near-black の没入ダーク（#121212〜#282828）。色は Spotify Green（#1ed760）だけ、
+ * それも「機能（再生・アクティブ・CTA）」のみ。装飾に緑を使わない・他のブランド色を足さない。
+ * タイポは Circular 系（SpotifyMixUI）1 本。数字は tabular-nums で桁を揃える（等幅フォントは使わない）。
+ * 深度は影で表現（ダーク上では影を濃く）。色・余白・角丸はここ経由でハードコードしない。 */
 
 :root {
-  /* 夜の表面（青みのある黒。深いほど奥） */
-  --night-950: #0b0d13; /* ページ地色 */
-  --night-900: #0f1219;
-  --surface-1: #13161f; /* 微かに浮く帯 */
-  --surface-card: #161a24; /* カード */
-  --surface-2: #1b1f2b; /* カード内タイル・入力欄 */
-  --surface-hover: #222839;
-  --line: rgba(255, 255, 255, 0.07); /* ヘアライン */
-  --line-strong: rgba(255, 255, 255, 0.14);
+  /* 表面（DESIGN §6 深度: near-black の階調） */
+  --bg-base: #121212;
+  --surface-1: #181818;
+  --surface-2: #1f1f1f;
+  --surface-card: #181818;
+  --surface-hover: #2a2a2a;
+  --surface-elev: #282828; /* ダイアログ・浮いた面 */
+  --line: rgba(255, 255, 255, 0.08);
 
-  /* 機能アクセント（緑 = 操作・成功・進行。装飾に使わない） */
+  /* ブランド（緑＝機能のみ・DESIGN §2, §7） */
   --green: #1ed760;
   --green-press: #1db954;
-  --green-soft: rgba(30, 215, 96, 0.14);
 
-  /* 夜明けアクセント（ヒーローと節目だけ。ここに大胆さを集中） */
-  --dawn: #ff9e6d;
-  --dawn-2: #ffcf8a;
-  --hero-grad: linear-gradient(101deg, #0f1220 0%, #161a2d 40%, #29223a 71%, #3c2c33 100%);
-  --dawn-line: linear-gradient(
-    90deg,
-    rgba(110, 168, 255, 0) 0%,
-    #6ea8ff 26%,
-    #ff9e6d 72%,
-    rgba(255, 158, 109, 0) 100%
-  );
+  /* テキスト */
+  --text-base: #ffffff;
+  --text-secondary: #b3b3b3;
+  --text-near-white: #cbcbcb;
+  --text-emphasis: #fdfdfd;
 
-  /* テキスト（青みのある白〜灰） */
-  --text: #eef1f8;
-  --text-2: #9aa4b6;
-  --text-3: #656e7f;
+  /* セマンティック（DESIGN §2） */
+  --negative: #f3727f;
+  --warning: #ffa42b;
+  --announce: #539df5;
 
-  /* セマンティック */
-  --negative: #ff6b78;
-  --warning: #ffb454;
-  --info: #6ea8ff;
+  /* ボーダー */
+  --border: #4d4d4d;
+  --border-muted: #7c7c7c;
 
-  /* 角丸 */
-  --r-badge: 3px;
-  --r-input: 8px;
-  --r-tile: 8px;
-  --r-card: 12px;
-  --r-panel: 16px;
+  /* 角丸（DESIGN §5.3） */
+  --r-badge: 2px;
+  --r-input: 4px;
+  --r-card: 8px;
+  --r-panel: 12px;
   --r-pill: 500px;
+  --r-full: 9999px;
+  --r-circle: 50%;
 
-  /* 影 */
-  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.02), 0 12px 28px -18px rgba(0, 0, 0, 0.9);
-  --shadow-hero: 0 24px 60px -30px rgba(0, 0, 0, 0.95);
+  /* 影（DESIGN §6 — ダーク上では濃く） */
+  --shadow-card: rgba(0, 0, 0, 0.3) 0px 8px 8px;
+  --shadow-dialog: rgba(0, 0, 0, 0.5) 0px 8px 24px;
 
-  /* 余白（base 8px） */
+  /* 余白（base 8px・DESIGN §5.1） */
   --sp-1: 4px;
   --sp-2: 8px;
   --sp-3: 12px;
@@ -66,12 +56,10 @@
   --sp-8: 32px;
   --sp-10: 40px;
 
-  /* フォント */
+  /* フォント（proprietary が無い環境では fallback stack・DESIGN §3） */
   --font-ui: "SpotifyMixUI", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
-    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", sans-serif;
   --font-title: "SpotifyMixUITitle", var(--font-ui);
-  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", "JetBrains Mono", Menlo, Consolas,
-    monospace;
 }
 
 * {
@@ -83,19 +71,15 @@ body,
 #root {
   margin: 0;
   min-height: 100%;
-  background: var(--night-950);
+  background: var(--bg-base);
 }
 
 body {
   font-family: var(--font-ui);
-  color: var(--text);
+  color: var(--text-base);
   font-size: 16px;
-  line-height: 1.45;
+  line-height: 1.4;
   -webkit-font-smoothing: antialiased;
-  /* ページ最上部にわずかな夜空の残光。奥行きだけ足して主張しない。 */
-  background-image: radial-gradient(120% 340px at 78% -60px, rgba(58, 44, 51, 0.5), transparent 60%),
-    radial-gradient(90% 300px at 8% -80px, rgba(22, 26, 48, 0.55), transparent 62%);
-  background-repeat: no-repeat;
 }
 
 a {
@@ -109,31 +93,28 @@ h3 {
   margin: 0;
 }
 
-/* ── タイポグラフィ ─────────────────────────────── */
-/* 機械が語るラベル。等幅・小さく・字間を開ける。 */
+/* ── タイポグラフィ（DESIGN §3 の hierarchy） ─────────────── */
 .eyebrow {
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-3);
+  color: var(--text-secondary);
 }
 .t-display {
   font-family: var(--font-title);
   font-weight: 800;
-  font-size: clamp(1.6rem, 6vw, 2.1rem);
-  line-height: 1.08;
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+  line-height: 1.1;
   letter-spacing: -0.01em;
 }
 .t-section {
   font-family: var(--font-title);
-  font-size: 1.35rem;
-  font-weight: 750;
-  letter-spacing: -0.005em;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 .t-heading {
-  font-size: 1.06rem;
+  font-size: 1.13rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -142,23 +123,22 @@ h3 {
 }
 .t-caption {
   font-size: 0.875rem;
-  color: var(--text-2);
+  color: var(--text-secondary);
 }
 .t-small {
   font-size: 0.75rem;
-  color: var(--text-2);
+  color: var(--text-secondary);
 }
-/* 機械データ: 数値・時刻・ID・ISRC。桁を揃える。 */
-.mono {
-  font-family: var(--font-mono);
+.num {
   font-variant-numeric: tabular-nums;
-  letter-spacing: -0.01em;
+}
+.muted {
+  color: var(--text-secondary);
 }
 
 /* ── 汎用パーツ ─────────────────────────────────── */
 .card {
   background: var(--surface-card);
-  border: 1px solid var(--line);
   border-radius: var(--r-card);
   padding: var(--sp-4);
 }
@@ -171,65 +151,65 @@ h3 {
   align-items: center;
   gap: var(--sp-1);
   background: var(--surface-2);
-  color: var(--text-2);
-  border: 1px solid transparent;
-  border-radius: var(--r-pill);
+  color: var(--text-secondary);
+  border: none;
+  border-radius: var(--r-full);
   padding: var(--sp-2) var(--sp-4);
   font: inherit;
   font-size: 0.875rem;
   font-weight: 700;
   cursor: pointer;
-  transition: background 0.14s ease, color 0.14s ease, border-color 0.14s ease;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.05s ease;
 }
 .pill:hover:not(:disabled) {
-  color: var(--text);
   background: var(--surface-hover);
+  color: var(--text-base);
 }
 .pill.is-active {
-  background: var(--text);
-  color: var(--night-950);
+  background: var(--text-base);
+  color: var(--bg-base);
+}
+.pill.is-active:hover {
+  background: #f0f0f0;
+  color: var(--bg-base);
 }
 .pill-green {
   background: var(--green);
-  color: #05130a;
+  color: #000;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
-  font-weight: 800;
+  letter-spacing: 0.1em;
+  font-weight: 700;
 }
 .pill-green:hover:not(:disabled) {
   background: var(--green-press);
-  color: #05130a;
+  color: #000;
+  transform: scale(1.03);
 }
 .pill:disabled {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 .badge {
   display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.64rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   border-radius: var(--r-badge);
   padding: 2px 6px;
   background: var(--surface-2);
-  color: var(--text-2);
+  color: var(--text-secondary);
 }
 .badge-a {
-  background: rgba(255, 107, 120, 0.16);
+  background: rgba(243, 114, 127, 0.18);
   color: var(--negative);
 }
 .badge-b {
-  background: var(--green-soft);
+  background: rgba(30, 215, 96, 0.16);
   color: var(--green);
 }
 .badge-c {
-  background: rgba(110, 168, 255, 0.16);
-  color: var(--info);
-}
-
-.muted {
-  color: var(--text-2);
+  background: rgba(83, 157, 245, 0.16);
+  color: var(--announce);
 }

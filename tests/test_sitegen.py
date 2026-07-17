@@ -81,13 +81,15 @@ def test_build_run_record_status():
 
 def test_build_stats_and_search():
     records = [
-        {"id": "a", "name": "x", "artists": [{"name": "Ed"}], "album": {"release_date": "2014-06-20"},
+        {"id": "a", "name": "x", "artists": [{"name": "Ed", "id": "art_ed"}], "album": {"release_date": "2014-06-20"},
          "playlists": [{"id": "p1", "name": "W"}]},
-        {"id": "b", "name": "y", "artists": [{"name": "Ed"}], "album": {"release_date": "2011-01-01"},
+        {"id": "b", "name": "y", "artists": [{"name": "Ed", "id": "art_ed"}], "album": {"release_date": "2011-01-01"},
          "playlists": [{"id": "p1", "name": "W"}, {"id": "p2", "name": "Ed"}]},
     ]
     s = sitegen.build_stats(records)
-    assert {"name": "Ed", "count": 2} in s["artists_top"]
+    ed = next(a for a in s["artists_top"] if a["name"] == "Ed")
+    assert ed["count"] == 2 and ed["id"] == "art_ed"  # 直リンク用の ID を載せる
+    assert s["total"] == 2  # ユニーク曲数（延べではない）
     assert 2010 in {d["decade"] for d in s["decades"]}
 
     idx = sitegen.build_search_index(records)

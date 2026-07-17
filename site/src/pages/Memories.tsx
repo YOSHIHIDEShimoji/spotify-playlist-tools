@@ -1,7 +1,8 @@
+import { useState } from "react";
 import { useJson } from "../lib/data";
 import type { ArchiveWeekly, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
-import { EmbedPlayer } from "../components/EmbedPlayer";
+import { TrackModal, type ModalTrack } from "../components/Modal";
 
 const DOW = ["月", "火", "水", "木", "金", "土", "日"];
 
@@ -15,8 +16,23 @@ function isoWeekLabel(d: Date): string {
   return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
+// クリックで曲モーダルを開く共通の行。
+function TrackRow({ track, rank, onPick }: { track: ModalTrack; rank?: number; onPick: (t: ModalTrack) => void }) {
+  return (
+    <div className="list-row clickable" onClick={() => onPick(track)}>
+      {rank != null && <span className="list-rank">{rank}</span>}
+      <span className="list-main">
+        <div className="name">{track.name}</div>
+        <div className="t-small">{track.artists.join(", ")}</div>
+      </span>
+      <span className="row-open">開く ›</span>
+    </div>
+  );
+}
+
 export function Memories() {
   const weekly = useJson<ArchiveWeekly>("archive_weekly");
+  const [sel, setSel] = useState<ModalTrack | null>(null);
 
   const lastYear = new Date();
   lastYear.setFullYear(lastYear.getFullYear() - 1);
@@ -35,14 +51,8 @@ export function Memories() {
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
-              <div className="list-row" key={t.id}>
-                <span className="list-main">
-                  <div className="name">{t.name}</div>
-                  <div className="t-small">{t.artists.join(", ")}</div>
-                </span>
-              </div>
+              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} onPick={setSel} />
             ))}
-            {match.tracks[0] && <EmbedPlayer trackId={match.tracks[0].id} />}
           </div>
         )}
       </Section>
@@ -57,12 +67,7 @@ export function Memories() {
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{w.iso_week}（{w.tracks.length}曲）</div>
               {w.tracks.slice(0, 8).map((t) => (
-                <div className="list-row" key={t.id}>
-                  <span className="list-main">
-                    <div className="name">{t.name}</div>
-                    <div className="t-small">{t.artists.join(", ")}</div>
-                  </span>
-                </div>
+                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} onPick={setSel} />
               ))}
             </div>
           ))
@@ -70,21 +75,23 @@ export function Memories() {
       </Section>
 
       <Section title="月間 Wrapped">
-        <WrappedBlock />
+        <WrappedBlock onPick={setSel} />
       </Section>
+
+      {sel && <TrackModal track={sel} onClose={() => setSel(null)} />}
     </>
   );
 }
 
-function WrappedBlock() {
+function WrappedBlock({ onPick }: { onPick: (t: ModalTrack) => void }) {
   const idx = useJson<WrappedIndex>("wrapped/index");
   if (idx.loading) return <Loading />;
   const month = idx.data?.months?.[0];
   if (!month) return <Empty>毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。</Empty>;
-  return <WrappedMonth month={month} />;
+  return <WrappedMonth month={month} onPick={onPick} />;
 }
 
-function WrappedMonth({ month }: { month: string }) {
+function WrappedMonth({ month, onPick }: { month: string; onPick: (t: ModalTrack) => void }) {
   const w = useJson<Wrapped>(`wrapped/${month}`);
   if (w.loading) return <Loading />;
   if (!w.data) return <Empty>{month} のデータを読めませんでした。</Empty>;
@@ -99,11 +106,7 @@ function WrappedMonth({ month }: { month: string }) {
         <div className="card" style={{ flex: "1 1 260px" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
           {d.top_tracks.map((t, i) => (
-            <div className="list-row" key={t.track_id}>
-              <span className="list-rank">{i + 1}</span>
-              <span className="list-main"><div className="name">{t.name}</div><div className="t-small">{t.artists.join(", ")}</div></span>
-              <span className="list-count">{t.count}回</span>
-            </div>
+            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} onPick={onPick} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>

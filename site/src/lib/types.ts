@@ -81,7 +81,8 @@ export interface ListeningStats {
 
 export interface Stats {
   generated_at: string;
-  artists_top: { name: string; count: number }[];
+  total?: number; // ライブラリのユニーク曲数（延べではない）
+  artists_top: { name: string; count: number; id?: string }[];
   decades: { decade: number; count: number }[];
 }
 

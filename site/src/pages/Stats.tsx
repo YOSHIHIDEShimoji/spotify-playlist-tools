@@ -1,11 +1,16 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
 import type { Heatmap, ListeningStats, Stats, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
+import { ArtistModal, type ModalArtist } from "../components/Modal";
 
 const GREEN = "#1ed760";
+const AXIS = "#b3b3b3";
+const GRID = "#2a2a2a";
+const TIP = { background: "#282828", border: "1px solid #4d4d4d", borderRadius: 8 };
 const DOW = ["月", "火", "水", "木", "金", "土", "日"];
+const LIB_ROW = "__library__"; // ユニーク曲数の番兵行（延べ合計ではない）
 
 export function StatsPage() {
   const stats = useJson<Stats>("stats");
@@ -16,10 +21,10 @@ export function StatsPage() {
   return (
     <>
       <Section title="ライブラリの成長">
-        {history.loading ? <Loading /> : <Growth rows={history.data ?? []} />}
+        {history.loading || stats.loading ? <Loading /> : <Growth rows={history.data ?? []} stats={stats.data} />}
       </Section>
 
-      <Section title="アーティスト分布">
+      <Section title="アーティスト分布" aside={<span className="t-small">棒をタップで開く</span>}>
         {stats.loading ? <Loading /> : <ArtistBars stats={stats.data} />}
       </Section>
 
@@ -45,39 +50,64 @@ export function StatsPage() {
   );
 }
 
-function Growth({ rows }: { rows: StatsHistoryRow[] }) {
-  if (!rows.length) return <Empty>まだ履歴がありません（毎晩1点ずつ増えます）。</Empty>;
+function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null }) {
+  // 番兵行（ユニーク曲数）だけを時系列に使う。延べ合計（プレイリスト横断）は二重計上になるため使わない。
+  const uniqueRows = rows.filter((r) => r.playlist_id === LIB_ROW);
   const byDate = new Map<string, number>();
-  for (const r of rows) byDate.set(r.date, (byDate.get(r.date) ?? 0) + r.count);
+  for (const r of uniqueRows) byDate.set(r.date, r.count);
   const data = [...byDate.entries()].sort().map(([date, total]) => ({ date, total }));
+  // total（正規のユニーク数）→ 番兵履歴の最新 → 年代分布の合計（≒ユニーク数）の順にフォールバック。
+  // 旧データ（total 未生成）でも誤った延べ合計ではなく妥当な数を出す。
+  const decadeSum = stats?.decades?.reduce((s, d) => s + d.count, 0) ?? 0;
+  const current = stats?.total ?? (data.length ? data[data.length - 1].total : decadeSum || null);
+
   return (
     <div className="card">
-      <ResponsiveContainer width="100%" height={220}>
-        <LineChart data={data} margin={{ left: -10, right: 8, top: 8 }}>
-          <CartesianGrid stroke="#232838" vertical={false} />
-          <XAxis dataKey="date" stroke="#9aa4b6" fontSize={11} />
-          <YAxis stroke="#9aa4b6" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} />
-          <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="総曲数" />
-        </LineChart>
-      </ResponsiveContainer>
+      {current != null && (
+        <div style={{ marginBottom: "var(--sp-3)" }}>
+          <div className="t-small" style={{ textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 700 }}>
+            ライブラリ（ユニーク曲数）
+          </div>
+          <div className="t-display num" style={{ fontSize: "2.4rem", marginTop: 2 }}>{current.toLocaleString()}</div>
+        </div>
+      )}
+      {data.length === 0 ? (
+        <Empty>ユニーク曲数の履歴は次回の夜間更新から記録します（毎晩1点ずつ増えます）。</Empty>
+      ) : (
+        <ResponsiveContainer width="100%" height={200}>
+          <LineChart data={data} margin={{ left: -10, right: 8, top: 8 }}>
+            <CartesianGrid stroke={GRID} vertical={false} />
+            <XAxis dataKey="date" stroke={AXIS} fontSize={11} />
+            <YAxis stroke={AXIS} fontSize={11} />
+            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} formatter={(v: number) => [v.toLocaleString(), "ユニーク曲数"]} />
+            <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="ユニーク曲数" />
+          </LineChart>
+        </ResponsiveContainer>
+      )}
     </div>
   );
 }
 
 function ArtistBars({ stats }: { stats: Stats | null }) {
+  const [sel, setSel] = useState<ModalArtist | null>(null);
   if (!stats || !stats.artists_top.length) return <Empty>データなし</Empty>;
   const data = stats.artists_top.slice(0, 15);
+  const max = Math.max(...data.map((a) => a.count), 1);
   return (
     <div className="card">
-      <ResponsiveContainer width="100%" height={Math.max(220, data.length * 26)}>
-        <BarChart data={data} layout="vertical" margin={{ left: 20, right: 16 }}>
-          <XAxis type="number" stroke="#9aa4b6" fontSize={11} />
-          <YAxis type="category" dataKey="name" width={110} stroke="#9aa4b6" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} cursor={{ fill: "#ffffff10" }} />
-          <Bar dataKey="count" fill={GREEN} radius={[0, 4, 4, 0]} name="曲数" />
-        </BarChart>
-      </ResponsiveContainer>
+      {data.map((a) => (
+        <div
+          className="art-row"
+          key={a.name}
+          onClick={() => setSel({ name: a.name, count: a.count, id: a.id })}
+        >
+          <span className="art-name">{a.name}</span>
+          <span className="art-bar"><i style={{ width: `${(a.count / max) * 100}%` }} /></span>
+          <span className="art-count num">{a.count}</span>
+          <span className="row-open">開く ›</span>
+        </div>
+      ))}
+      {sel && <ArtistModal artist={sel} onClose={() => setSel(null)} />}
     </div>
   );
 }
@@ -89,9 +119,9 @@ function DecadeBars({ stats }: { stats: Stats | null }) {
     <div className="card">
       <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data} margin={{ left: -10, right: 8 }}>
-          <XAxis dataKey="label" stroke="#9aa4b6" fontSize={11} />
-          <YAxis stroke="#9aa4b6" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} cursor={{ fill: "#ffffff10" }} />
+          <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
+          <YAxis stroke={AXIS} fontSize={11} />
+          <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
           <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name="曲数" />
         </BarChart>
       </ResponsiveContainer>
@@ -122,7 +152,7 @@ function HeatGrid({ heat }: { heat: Heatmap | null }) {
                   title={`${d} ${h}時: ${v}回`}
                   style={{
                     aspectRatio: "1", borderRadius: 2,
-                    background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#1b1f2b",
+                    background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#2a2a2a",
                   }}
                 />
               );

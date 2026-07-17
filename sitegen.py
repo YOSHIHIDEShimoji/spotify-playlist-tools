@@ -115,17 +115,25 @@ def monthly_wrapped(records: list[dict], month: str, new_tracks: int = 0) -> dic
 
 def build_stats(records: list[dict]) -> dict:
     artist_counts: Counter[str] = Counter()
+    artist_id: dict[str, str] = {}  # 名前→代表 Spotify アーティスト ID（モーダルの直リンク用）
     decade_counts: Counter[int] = Counter()
     for r in records:
         for a in r.get("artists") or []:
-            if a.get("name"):
-                artist_counts[a["name"]] += 1
+            name = a.get("name")
+            if name:
+                artist_counts[name] += 1
+                if name not in artist_id and a.get("id"):
+                    artist_id[name] = a["id"]
         rd = (r.get("album") or {}).get("release_date", "") or ""
         if len(rd) >= 4 and rd[:4].isdigit():
             decade_counts[(int(rd[:4]) // 10) * 10] += 1
     return {
         "generated_at": _now_utc_iso(),
-        "artists_top": [{"name": n, "count": c} for n, c in artist_counts.most_common(STATS_ARTIST_TOP)],
+        "total": len(records),  # ユニーク曲数（プレイリスト延べ合計ではない）
+        "artists_top": [
+            {"name": n, "count": c, **({"id": artist_id[n]} if n in artist_id else {})}
+            for n, c in artist_counts.most_common(STATS_ARTIST_TOP)
+        ],
         "decades": [{"decade": d, "count": decade_counts[d]} for d in sorted(decade_counts)],
     }
 
@@ -401,7 +409,13 @@ def main() -> int:
     core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra, keep_sets))
     core.atomic_write_json(data / "stats.json", build_stats(pl_records))
     core.atomic_write_json(data / "search_index.json", build_search_index(pl_records))
-    _append_stats_history(data / "stats_history.jsonl", playlist_count_rows(pl_records, playlists, date_str))
+    # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
+    # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。
+    history_rows = playlist_count_rows(pl_records, playlists, date_str)
+    history_rows.append(
+        {"date": date_str, "playlist_id": "__library__", "name": "ライブラリ（ユニーク）", "count": len(pl_records)}
+    )
+    _append_stats_history(data / "stats_history.jsonl", history_rows)
 
     # top / releases は新スコープ依存。probe で欠落が分かっていれば呼ばず空ファイルを置く
     # （403 ログのノイズと無駄な API を避ける・未再認証でもサイトにファイルは揃える）。
