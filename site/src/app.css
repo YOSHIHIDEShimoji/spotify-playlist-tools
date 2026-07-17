@@ -268,12 +268,33 @@
   grid-template-columns: minmax(88px, 0.42fr) 1fr auto auto;
   align-items: center;
   gap: var(--sp-3);
-  padding: var(--sp-2) var(--sp-2);
+  width: 100%;
+  padding: var(--sp-2);
+  border: none;
   border-radius: var(--r-input);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
   cursor: pointer;
 }
 .art-row:hover {
   background: var(--surface-hover);
+}
+.art-play {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--r-circle);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-2);
+  color: var(--text-base);
+}
+.art-row:hover .art-play {
+  background: var(--green);
+  color: #000;
 }
 .art-name {
   white-space: nowrap;
@@ -300,30 +321,189 @@
   text-align: right;
 }
 
-/* ── 重複グループカード ─────────────────────────── */
+/* ── サブナビ（重複 / 未判定 の切替） ─────────────── */
+.seg {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--surface-1);
+  border-radius: var(--r-pill);
+  padding: 4px;
+  margin-bottom: var(--sp-5);
+  max-width: 100%;
+}
+.seg button {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  min-height: 40px;
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.seg button.is-active {
+  background: var(--text-base);
+  color: var(--bg-base);
+}
+.seg .seg-count {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  opacity: 0.75;
+}
+
+/* ── 再生ボタン（→ 常駐プレイヤー） ─────────────── */
+.play-btn {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-circle);
+  border: none;
+  background: var(--surface-hover);
+  color: var(--text-base);
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.15s ease, color 0.15s ease;
+}
+.play-btn:hover {
+  background: var(--green);
+  color: #000;
+  transform: scale(1.06);
+}
+.play-btn:active {
+  transform: scale(0.95);
+}
+
+/* ── 重複グループカード（埋め込みを廃し、コンパクト行＋再生ボタンに） ── */
 .dupe-group {
-  margin-bottom: var(--sp-4);
+  margin-bottom: var(--sp-5);
 }
 .dupe-cand {
-  display: grid;
-  gap: var(--sp-2);
-  grid-template-columns: 1fr;
-  padding: var(--sp-3);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
   border-radius: var(--r-input);
   background: var(--surface-2);
+  border: 1px solid transparent;
   margin-bottom: var(--sp-2);
 }
-.dupe-cand .meta {
+.dupe-cand.is-keep {
+  border-color: var(--green);
+  background: rgba(30, 215, 96, 0.07);
+}
+.dupe-cand .cand-main {
+  flex: 1;
+  min-width: 0;
+}
+.dupe-cand .cand-name {
   display: flex;
-  gap: var(--sp-2);
-  flex-wrap: wrap;
   align-items: center;
+  gap: var(--sp-2);
+  font-weight: 700;
+}
+.dupe-cand .cand-name .txt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dupe-cand .cand-meta {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 「残す」トグル（大きめのタップ領域・44px） */
+.keep-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  user-select: none;
+}
+.keep-toggle input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+.dupe-cand.is-keep .keep-toggle {
+  color: var(--green);
 }
 .dupe-actions {
   display: flex;
   gap: var(--sp-2);
   flex-wrap: wrap;
-  margin-top: var(--sp-1);
+  align-items: center;
+  margin-top: var(--sp-3);
+}
+
+/* ── 常駐プレイヤー（画面下バー・DESIGN §5 now-playing bar） ─────── */
+.player-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  background: #181818;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(130%);
+  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.player-bar.is-visible {
+  transform: translateY(0);
+}
+.player-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  padding-bottom: calc(var(--sp-2) + env(safe-area-inset-bottom, 0px));
+}
+.player-embed {
+  flex: 1;
+  min-width: 0;
+}
+.player-embed iframe {
+  display: block;
+  border-radius: 8px;
+}
+.player-close {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-circle);
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-base);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+body.has-player .shell {
+  padding-bottom: 116px;
 }
 
 /* ── フォーム（DESIGN §4 pill inputs） ───────────────── */

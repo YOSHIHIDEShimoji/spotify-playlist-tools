@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { useJson } from "../lib/data";
 import type { Dupes, DupeGroup, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
-import { EmbedPlayer } from "../components/EmbedPlayer";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
 import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib/processing";
+import { PlayButton } from "../lib/player";
 
 export function Organize() {
   const dupes = useJson<Dupes>("dupes");
@@ -14,6 +14,7 @@ export function Organize() {
   const pat = usePat();
   const processing = useProcessing();
   const anyProcessing = Object.keys(processing).length > 0; // M-2: 実行中は他の dispatch を止める
+  const [tab, setTab] = useState<"dupes" | "unknown">("dupes");
 
   // 処理中の解消（M2）: データ更新で対象が消えた／30分経っても反映されない（M-1）ものをクリア
   useEffect(() => {
@@ -46,6 +47,9 @@ export function Organize() {
     return () => clearInterval(id);
   }, [processing]);
 
+  const dupeCount = dupes.data?.groups.length ?? 0;
+  const unknownCount = unknown.data?.tracks.length ?? 0;
+
   return (
     <>
       {!pat && (
@@ -56,45 +60,60 @@ export function Organize() {
 
       <UndoSection pat={pat} anyProcessing={anyProcessing} processing={processing} />
 
-      <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
-        {dupes.loading ? (
-          <Loading />
-        ) : !dupes.data || dupes.data.groups.length === 0 ? (
-          <Empty>重複は見つかっていません。きれいな状態です。</Empty>
-        ) : (
-          dupes.data.groups.map((g) => (
-            <GroupCard
-              key={g.id}
-              g={g}
-              pat={pat}
-              processing={!!processing[g.id]}
-              blocked={anyProcessing && !processing[g.id]}
-            />
-          ))
-        )}
-      </Section>
+      <div className="seg" role="tablist" aria-label="整理の種類">
+        <button role="tab" aria-selected={tab === "dupes"} className={tab === "dupes" ? "is-active" : ""} onClick={() => setTab("dupes")}>
+          重複{dupeCount > 0 && <span className="seg-count">{dupeCount}</span>}
+        </button>
+        <button role="tab" aria-selected={tab === "unknown"} className={tab === "unknown" ? "is-active" : ""} onClick={() => setTab("unknown")}>
+          判定できなかった曲{unknownCount > 0 && <span className="seg-count">{unknownCount}</span>}
+        </button>
+      </div>
 
-      <Section title="判定できなかった曲">
-        {unknown.loading ? (
-          <Loading />
-        ) : !unknown.data || unknown.data.tracks.length === 0 ? (
-          <Empty>未判定の曲はありません。</Empty>
-        ) : (
-          unknown.data.tracks.map((t) => (
-            <div className="card" key={t.id} style={{ marginBottom: "var(--sp-3)" }}>
-              <div className="t-body-bold">{t.name}</div>
-              <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>{t.artists.join(", ")}</div>
-              <EmbedPlayer trackId={t.id} />
-              <ClassifyActions
-                trackId={t.id}
+      {tab === "dupes" ? (
+        <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
+          {dupes.loading ? (
+            <Loading />
+          ) : !dupes.data || dupeCount === 0 ? (
+            <Empty>重複は見つかっていません。きれいな状態です。</Empty>
+          ) : (
+            dupes.data.groups.map((g) => (
+              <GroupCard
+                key={g.id}
+                g={g}
                 pat={pat}
-                processing={!!processing[t.id]}
-                blocked={anyProcessing && !processing[t.id]}
+                processing={!!processing[g.id]}
+                blocked={anyProcessing && !processing[g.id]}
               />
-            </div>
-          ))
-        )}
-      </Section>
+            ))
+          )}
+        </Section>
+      ) : (
+        <Section title="判定できなかった曲">
+          {unknown.loading ? (
+            <Loading />
+          ) : !unknown.data || unknownCount === 0 ? (
+            <Empty>未判定の曲はありません。</Empty>
+          ) : (
+            unknown.data.tracks.map((t) => (
+              <div className="card" key={t.id} style={{ marginBottom: "var(--sp-3)" }}>
+                <div className="dupe-cand" style={{ background: "transparent", padding: 0, marginBottom: "var(--sp-2)" }}>
+                  <div className="cand-main">
+                    <div className="cand-name"><span className="txt">{t.name}</span></div>
+                    <div className="cand-meta">{t.artists.join(", ")}</div>
+                  </div>
+                  <PlayButton uri={`spotify:track:${t.id}`} />
+                </div>
+                <ClassifyActions
+                  trackId={t.id}
+                  pat={pat}
+                  processing={!!processing[t.id]}
+                  blocked={anyProcessing && !processing[t.id]}
+                />
+              </div>
+            ))
+          )}
+        </Section>
+      )}
     </>
   );
 }
@@ -120,9 +139,13 @@ function GroupCard(
     return (
       <div className="card dupe-group">
         <Header g={g} />
-        <div className="t-body-bold">{g.track?.name}</div>
-        <div className="t-small">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
-        {g.track && <EmbedPlayer trackId={g.track.id} />}
+        <div className="dupe-cand">
+          <div className="cand-main">
+            <div className="cand-name"><span className="txt">{g.track?.name}</span></div>
+            <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
+          </div>
+          {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} />}
+        </div>
       </div>
     );
   }
@@ -164,29 +187,29 @@ function GroupCard(
         </div>
       )}
       {tracks.map((t, i) => (
-        <div className="dupe-cand" key={t.id}>
-          <div className="meta">
-            <label className="t-body-bold" style={{ display: "flex", gap: 8, alignItems: "center", cursor: "pointer" }}>
-              <input
-                type="checkbox"
-                checked={keep.has(t.id)}
-                onChange={(e) => {
-                  const next = new Set(keep);
-                  e.target.checked ? next.add(t.id) : next.delete(t.id);
-                  setKeep(next);
-                }}
-              />
-              残す
-            </label>
-            <span className="name">{t.name}</span>
-            {i === 0 && <span className="badge badge-b">推奨</span>}
+        <div className={"dupe-cand" + (keep.has(t.id) ? " is-keep" : "")} key={t.id}>
+          <label className="keep-toggle">
+            <input
+              type="checkbox"
+              checked={keep.has(t.id)}
+              onChange={(e) => {
+                const next = new Set(keep);
+                e.target.checked ? next.add(t.id) : next.delete(t.id);
+                setKeep(next);
+              }}
+            />
+            残す
+          </label>
+          <div className="cand-main">
+            <div className="cand-name">
+              <span className="txt">{t.name}</span>
+              {i === 0 && <span className="badge badge-b">推奨</span>}
+            </div>
+            <div className="cand-meta">
+              {t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}
+            </div>
           </div>
-          <div className="t-small">
-            {t.album} · {t.album_type} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}
-            {" · "}
-            {t.playlists.map((p) => p.name).join(" / ")}
-          </div>
-          <EmbedPlayer trackId={t.id} />
+          <PlayButton uri={`spotify:track:${t.id}`} />
         </div>
       ))}
       <div className="dupe-actions">
@@ -208,7 +231,7 @@ function GroupCard(
 
 function Header({ g }: { g: DupeGroup }) {
   return (
-    <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: "var(--sp-2)" }}>
+    <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: "var(--sp-3)" }}>
       <span className={"badge badge-" + g.tier.toLowerCase()}>{TIER_LABEL[g.tier]}</span>
       <span className="t-small">{g.reason}</span>
     </div>

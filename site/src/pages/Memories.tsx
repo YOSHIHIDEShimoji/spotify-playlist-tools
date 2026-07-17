@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { useJson } from "../lib/data";
 import type { ArchiveWeekly, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
-import { TrackModal, type ModalTrack } from "../components/Modal";
+import { PlayButton } from "../lib/player";
 
 const DOW = ["月", "火", "水", "木", "金", "土", "日"];
 
@@ -16,23 +15,22 @@ function isoWeekLabel(d: Date): string {
   return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
-// クリックで曲モーダルを開く共通の行。
-function TrackRow({ track, rank, onPick }: { track: ModalTrack; rank?: number; onPick: (t: ModalTrack) => void }) {
+// 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。
+function TrackRow({ track, rank }: { track: { id: string; name: string; artists: string[] }; rank?: number }) {
   return (
-    <div className="list-row clickable" onClick={() => onPick(track)}>
+    <div className="list-row">
       {rank != null && <span className="list-rank">{rank}</span>}
       <span className="list-main">
         <div className="name">{track.name}</div>
         <div className="t-small">{track.artists.join(", ")}</div>
       </span>
-      <span className="row-open">開く ›</span>
+      <PlayButton uri={`spotify:track:${track.id}`} />
     </div>
   );
 }
 
 export function Memories() {
   const weekly = useJson<ArchiveWeekly>("archive_weekly");
-  const [sel, setSel] = useState<ModalTrack | null>(null);
 
   const lastYear = new Date();
   lastYear.setFullYear(lastYear.getFullYear() - 1);
@@ -51,7 +49,7 @@ export function Memories() {
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
-              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} onPick={setSel} />
+              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
             ))}
           </div>
         )}
@@ -67,7 +65,7 @@ export function Memories() {
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{w.iso_week}（{w.tracks.length}曲）</div>
               {w.tracks.slice(0, 8).map((t) => (
-                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} onPick={setSel} />
+                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
               ))}
             </div>
           ))
@@ -75,23 +73,21 @@ export function Memories() {
       </Section>
 
       <Section title="月間 Wrapped">
-        <WrappedBlock onPick={setSel} />
+        <WrappedBlock />
       </Section>
-
-      {sel && <TrackModal track={sel} onClose={() => setSel(null)} />}
     </>
   );
 }
 
-function WrappedBlock({ onPick }: { onPick: (t: ModalTrack) => void }) {
+function WrappedBlock() {
   const idx = useJson<WrappedIndex>("wrapped/index");
   if (idx.loading) return <Loading />;
   const month = idx.data?.months?.[0];
   if (!month) return <Empty>毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。</Empty>;
-  return <WrappedMonth month={month} onPick={onPick} />;
+  return <WrappedMonth month={month} />;
 }
 
-function WrappedMonth({ month, onPick }: { month: string; onPick: (t: ModalTrack) => void }) {
+function WrappedMonth({ month }: { month: string }) {
   const w = useJson<Wrapped>(`wrapped/${month}`);
   if (w.loading) return <Loading />;
   if (!w.data) return <Empty>{month} のデータを読めませんでした。</Empty>;
@@ -106,7 +102,7 @@ function WrappedMonth({ month, onPick }: { month: string; onPick: (t: ModalTrack
         <div className="card" style={{ flex: "1 1 260px" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
           {d.top_tracks.map((t, i) => (
-            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} onPick={onPick} />
+            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>

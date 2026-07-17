@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { useJson, useJsonl } from "../lib/data";
 import type { ListeningStats, RunRecord } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
-import { TrackModal, type ModalTrack } from "../components/Modal";
+import { PlayButton } from "../lib/player";
 
 export function Home() {
   const runs = useJsonl<RunRecord>("runs");
@@ -157,28 +156,22 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
 }
 
 function WeeklyTop({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
-  const [sel, setSel] = useState<ModalTrack | null>(null);
   if (loading) return <Loading />;
   if (!listen || listen.weekly_top.length === 0)
     return <Empty>聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。</Empty>;
   return (
     <div className="card">
       {listen.weekly_top.slice(0, 15).map((t, i) => (
-        <div
-          className="list-row clickable"
-          key={t.track_id}
-          onClick={() => setSel({ id: t.track_id, name: t.name, artists: t.artists })}
-        >
+        <div className="list-row" key={t.track_id}>
           <span className="list-rank">{i + 1}</span>
           <span className="list-main">
             <div className="name">{t.name}</div>
             <div className="t-small">{t.artists.join(", ")}</div>
           </span>
           <span className="list-count">{t.count}回</span>
-          <span className="row-open">開く ›</span>
+          <PlayButton uri={`spotify:track:${t.track_id}`} />
         </div>
       ))}
-      {sel && <TrackModal track={sel} onClose={() => setSel(null)} />}
     </div>
   );
 }

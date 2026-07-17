@@ -1,9 +1,9 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
 import type { Heatmap, ListeningStats, Stats, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
-import { ArtistModal, type ModalArtist } from "../components/Modal";
+import { PlayIcon, usePlayer } from "../lib/player";
 
 const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
@@ -89,25 +89,25 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
 }
 
 function ArtistBars({ stats }: { stats: Stats | null }) {
-  const [sel, setSel] = useState<ModalArtist | null>(null);
+  const { play } = usePlayer();
   if (!stats || !stats.artists_top.length) return <Empty>データなし</Empty>;
   const data = stats.artists_top.slice(0, 15);
   const max = Math.max(...data.map((a) => a.count), 1);
+  // id があれば常駐プレイヤーでそのアーティストを再生、無ければ（旧データ）名前で Spotify 検索。
+  function open(a: { name: string; id?: string }) {
+    if (a.id) play(`spotify:artist:${a.id}`);
+    else window.open(`https://open.spotify.com/search/${encodeURIComponent(a.name)}`, "_blank", "noopener");
+  }
   return (
     <div className="card">
       {data.map((a) => (
-        <div
-          className="art-row"
-          key={a.name}
-          onClick={() => setSel({ name: a.name, count: a.count, id: a.id })}
-        >
+        <button className="art-row" key={a.name} onClick={() => open(a)} title={`${a.name} を再生`}>
           <span className="art-name">{a.name}</span>
           <span className="art-bar"><i style={{ width: `${(a.count / max) * 100}%` }} /></span>
           <span className="art-count num">{a.count}</span>
-          <span className="row-open">開く ›</span>
-        </div>
+          <span className="art-play" aria-hidden><PlayIcon /></span>
+        </button>
       ))}
-      {sel && <ArtistModal artist={sel} onClose={() => setSel(null)} />}
     </div>
   );
 }
