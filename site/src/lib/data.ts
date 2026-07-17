@@ -21,32 +21,34 @@ async function fetchJsonl<T>(name: string): Promise<T[]> {
 
 type State<T> = { data: T | null; error: string | null; loading: boolean };
 
-/** JSON データファイルを読む React フック。data ブランチ由来の public/data を参照。 */
-export function useJson<T>(name: string): State<T> {
+// タブが可視に戻ったら再フェッチする共通フック（L-5: 楽観的 UI の解消に手動リロードを不要に）。
+function useFetching<T>(name: string, fetcher: (n: string) => Promise<T>): State<T> {
   const [state, setState] = useState<State<T>>({ data: null, error: null, loading: true });
   useEffect(() => {
     let alive = true;
-    fetchJson<T>(name)
-      .then((data) => alive && setState({ data, error: null, loading: false }))
-      .catch((e) => alive && setState({ data: null, error: String(e), loading: false }));
+    const load = () =>
+      fetcher(name)
+        .then((data) => alive && setState({ data, error: null, loading: false }))
+        .catch((e) => alive && setState((s) => ({ ...s, error: String(e), loading: false })));
+    load();
+    const onVisible = () => {
+      if (document.visibilityState === "visible") load();
+    };
+    document.addEventListener("visibilitychange", onVisible);
     return () => {
       alive = false;
+      document.removeEventListener("visibilitychange", onVisible);
     };
-  }, [name]);
+  }, [name, fetcher]);
   return state;
+}
+
+/** JSON データファイルを読む React フック。data ブランチ由来の public/data を参照。 */
+export function useJson<T>(name: string): State<T> {
+  return useFetching<T>(name, fetchJson);
 }
 
 /** JSONL データファイル（runs / stats_history）を読む React フック。 */
 export function useJsonl<T>(name: string): State<T[]> {
-  const [state, setState] = useState<State<T[]>>({ data: null, error: null, loading: true });
-  useEffect(() => {
-    let alive = true;
-    fetchJsonl<T>(name)
-      .then((data) => alive && setState({ data, error: null, loading: false }))
-      .catch((e) => alive && setState({ data: null, error: String(e), loading: false }));
-    return () => {
-      alive = false;
-    };
-  }, [name]);
-  return state;
+  return useFetching<T[]>(name, fetchJsonl);
 }

@@ -378,7 +378,7 @@ def main() -> int:
         core.atomic_write_json(data / "wrapped" / f"{month}.json", monthly_wrapped(records, month, new_tracks))
 
     # 静的サイトはディレクトリ列挙できないので、undo と wrapped のインデックスを出す（H5・M3）
-    _write_undo_index(data)
+    write_undo_index(data)
     _write_wrapped_index(data)
 
     # 4) プレイリスト読取が要る部分（トークン必要・失効なら auth_status だけ書いて終了）
@@ -455,18 +455,22 @@ def _load_all_listening(listening_dir: Path) -> list[dict]:
     return records
 
 
-def _write_undo_index(data: Path) -> None:
-    """data/undo/*.json（未 .done）を集約。サイトの undo 一覧＆取り消しに使う（H5）。"""
+def write_undo_index(data: Path, keep_days: int = 30) -> None:
+    """data/undo/*.json（未 .done）を集約。サイトの undo 一覧＆取り消しに使う（H5）。
+    siteops からも op 直後に呼ぶ（H-1）。直近 keep_days 日ぶんだけ載せる（L-3）。"""
     import json
 
+    cutoff = (datetime.now(core.JST) - timedelta(days=keep_days)).isoformat()
     undo_dir = data / "undo"
     entries: list[dict] = []
     if undo_dir.exists():
-        for p in undo_dir.glob("*.json"):
+        for p in undo_dir.glob("*.json"):  # .done は列挙しない（取り消し済み）
             try:
                 rec = json.loads(p.read_text())
             except (OSError, ValueError):
                 continue
+            if (rec.get("created_at") or "") < cutoff:
+                continue  # 古すぎる undo は隠す（誤って昔の削除を復活させない）
             entries.append({
                 "id": rec.get("id"),
                 "op": rec.get("op"),

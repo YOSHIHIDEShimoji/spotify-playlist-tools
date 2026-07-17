@@ -4,6 +4,8 @@ import { useSyncExternalStore } from "react";
 // 「処理中」として保持し、ボタンを無効化・二重送信を防ぐ。データ更新で当該グループが消えたら
 // 呼び出し側が clearProcessing で解消する。
 const KEY = "spotify-dashboard-processing";
+const EMPTY: Record<string, string> = {}; // 安定参照（L-4: SSR/再描画で新オブジェクトを返さない）
+export const PROCESSING_TIMEOUT_MS = 30 * 60 * 1000; // 30分で「反映確認できず」と見なす（M-1）
 const listeners = new Set<() => void>();
 
 function read(): Record<string, string> {
@@ -65,5 +67,12 @@ function subscribe(cb: () => void) {
 }
 
 export function useProcessing(): Record<string, string> {
-  return useSyncExternalStore(subscribe, getSnapshot, () => ({}));
+  return useSyncExternalStore(subscribe, getSnapshot, () => EMPTY);
+}
+
+/** 経過時間が PROCESSING_TIMEOUT_MS を超えた id 群（反映確認できず＝手詰まり防止・M-1）。 */
+export function stuckIds(map: Record<string, string>, now: number): string[] {
+  return Object.entries(map)
+    .filter(([, iso]) => now - new Date(iso).getTime() > PROCESSING_TIMEOUT_MS)
+    .map(([id]) => id);
 }
