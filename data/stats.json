@@ -1,147 +1,851 @@
 {
+  "generated_at": "2026-07-17T10:38:39.149357+00:00",
+  "total": 660,
   "artists_top": [
     {
+      "name": "Justin Bieber",
       "count": 49,
-      "name": "Justin Bieber"
+      "id": "1uNFoZAHBGtllmzznpCI3s"
     },
     {
+      "name": "OneRepublic",
       "count": 47,
-      "name": "OneRepublic"
+      "id": "5Pwc4xIPtQLFEnJriah9YJ"
     },
     {
+      "name": "LANY",
       "count": 39,
-      "name": "LANY"
+      "id": "49tQo2QULno7gxHutgccqF"
     },
     {
+      "name": "Charlie Puth",
       "count": 33,
-      "name": "Charlie Puth"
+      "id": "6VuMaDnrHyPL1p4EHjYLi7"
     },
     {
+      "name": "Taylor Swift",
       "count": 33,
-      "name": "Taylor Swift"
+      "id": "06HL4z0CvFAxyc27GXpf02"
     },
     {
+      "name": "back number",
       "count": 32,
-      "name": "back number"
+      "id": "6rs1KAoQnFalSqSU4LTh8g"
     },
     {
+      "name": "Ed Sheeran",
       "count": 28,
-      "name": "Ed Sheeran"
+      "id": "6eUKZXaKkcviH0Ku9w2n3V"
     },
     {
+      "name": "OFFICIAL HIGE DANDISM",
       "count": 22,
-      "name": "OFFICIAL HIGE DANDISM"
+      "id": "5Vo1hnCRmCM6M4thZCInCj"
     },
     {
+      "name": "Novelbright",
       "count": 22,
-      "name": "Novelbright"
+      "id": "0jWCX6zp4RjWrmZRxJ2uri"
     },
     {
+      "name": "Maroon 5",
       "count": 20,
-      "name": "Maroon 5"
+      "id": "04gDigrS5kc9YWfZHwBETP"
     },
     {
+      "name": "Henry Moodie",
       "count": 18,
-      "name": "Henry Moodie"
+      "id": "7hr9W3IjXcm3UlLY7guLk5"
     },
     {
+      "name": "Shawn Mendes",
       "count": 17,
-      "name": "Shawn Mendes"
+      "id": "7n2wHs1TKAczGzO7Dd2rGr"
     },
     {
+      "name": "Bruno Mars",
       "count": 16,
-      "name": "Bruno Mars"
+      "id": "0du5cEVh5yTK9QJze8zA0C"
     },
     {
+      "name": "Coldplay",
       "count": 16,
-      "name": "Coldplay"
+      "id": "4gzpq5DPGxSnKTe4SA8HAU"
     },
     {
+      "name": "Train",
       "count": 16,
-      "name": "Train"
+      "id": "3FUY2gzHeIiaesXtOAdB7A"
     },
     {
+      "name": "SPITZ",
       "count": 13,
-      "name": "SPITZ"
+      "id": "5kjGRHClVacSyllOUqU1S0"
     },
     {
+      "name": "ZAYN",
       "count": 9,
-      "name": "ZAYN"
+      "id": "5ZsFI1h6hIdQRw2ti0hz81"
     },
     {
+      "name": "ONE OK ROCK",
       "count": 8,
-      "name": "ONE OK ROCK"
+      "id": "7k73EtZwoPs516ZxE72KsO"
     },
     {
+      "name": "Kenshi Yonezu",
       "count": 7,
-      "name": "Kenshi Yonezu"
+      "id": "1snhtMLeb2DYoMOcVbb8iB"
     },
     {
+      "name": "Sabrina Carpenter",
       "count": 7,
-      "name": "Sabrina Carpenter"
+      "id": "74KM79TiuVKeVCqs8QtB0B"
     },
     {
+      "name": "Sia",
       "count": 7,
-      "name": "Sia"
+      "id": "5WUlDfRSoLAfcVSX1WnrxN"
     },
     {
+      "name": "Avicii",
       "count": 7,
-      "name": "Avicii"
+      "id": "1vCWHaC5f2uS3yhpwWbIA6"
     },
     {
+      "name": "Aimyon",
       "count": 6,
-      "name": "Aimyon"
+      "id": "5kVZa4lFUmAQlBogl1fkd6"
     },
     {
+      "name": "Alex Warren",
       "count": 6,
-      "name": "Alex Warren"
+      "id": "0fTSzq9jAh4c36UVb4V7CB"
     },
     {
+      "name": "Benson Boone",
       "count": 6,
-      "name": "Benson Boone"
+      "id": "22wbnEMDvgVIAGdFeek6ET"
     },
     {
+      "name": "One Direction",
       "count": 6,
-      "name": "One Direction"
+      "id": "4AK6F7OLvEQ5QYCBNiQWHq"
     },
     {
+      "name": "SUDA MASAKI",
       "count": 5,
-      "name": "SUDA MASAKI"
+      "id": "6n4SsAp5VjvIBg3s9QCcPX"
     },
     {
+      "name": "Adele",
       "count": 5,
-      "name": "Adele"
+      "id": "4dpARuHxo51G3z768sgnrY"
     },
     {
+      "name": "Bon Jovi",
       "count": 5,
-      "name": "Bon Jovi"
+      "id": "58lV9VcRSjABbAbfWS6skp"
     },
     {
+      "name": "Fall Out Boy",
       "count": 5,
-      "name": "Fall Out Boy"
+      "id": "4UXqAaa6dQYAk18Lv7PEgX"
     }
   ],
   "decades": [
     {
-      "count": 1,
-      "decade": 1980
+      "decade": 1980,
+      "count": 1
     },
     {
-      "count": 17,
-      "decade": 1990
+      "decade": 1990,
+      "count": 17
     },
     {
-      "count": 54,
-      "decade": 2000
+      "decade": 2000,
+      "count": 54
     },
     {
-      "count": 302,
-      "decade": 2010
+      "decade": 2010,
+      "count": 302
     },
     {
-      "count": 286,
-      "decade": 2020
+      "decade": 2020,
+      "count": 286
     }
   ],
-  "generated_at": "2026-07-17T05:10:18.060796+00:00"
+  "dist": {
+    "playlists": [
+      {
+        "id": "3gWeVkYJPREpkdCpDRjHFw",
+        "name": "Western Musics"
+      },
+      {
+        "id": "1NMKQVChOdoOy1o6bLw564",
+        "name": "Japanese Musics"
+      },
+      {
+        "id": "6sqoiZw75RIvnUFC058VJv",
+        "name": "1900's songs"
+      }
+    ],
+    "all": {
+      "total": 1018,
+      "artists_top": [
+        {
+          "name": "The Beatles",
+          "count": 221,
+          "id": "3WrFJ7ztbogyGnTHbHJFl2"
+        },
+        {
+          "name": "Michael Jackson",
+          "count": 52,
+          "id": "3fMbdgg4jU18AjLCKBhRSm"
+        },
+        {
+          "name": "Justin Bieber",
+          "count": 49,
+          "id": "1uNFoZAHBGtllmzznpCI3s"
+        },
+        {
+          "name": "OneRepublic",
+          "count": 47,
+          "id": "5Pwc4xIPtQLFEnJriah9YJ"
+        },
+        {
+          "name": "Paul McCartney",
+          "count": 40,
+          "id": "4STHEaNw4mPZ2tzheohgXB"
+        },
+        {
+          "name": "LANY",
+          "count": 39,
+          "id": "49tQo2QULno7gxHutgccqF"
+        },
+        {
+          "name": "Charlie Puth",
+          "count": 33,
+          "id": "6VuMaDnrHyPL1p4EHjYLi7"
+        },
+        {
+          "name": "Taylor Swift",
+          "count": 32,
+          "id": "06HL4z0CvFAxyc27GXpf02"
+        },
+        {
+          "name": "back number",
+          "count": 31,
+          "id": "6rs1KAoQnFalSqSU4LTh8g"
+        },
+        {
+          "name": "Ed Sheeran",
+          "count": 28,
+          "id": "6eUKZXaKkcviH0Ku9w2n3V"
+        },
+        {
+          "name": "OFFICIAL HIGE DANDISM",
+          "count": 22,
+          "id": "5Vo1hnCRmCM6M4thZCInCj"
+        },
+        {
+          "name": "Novelbright",
+          "count": 22,
+          "id": "0jWCX6zp4RjWrmZRxJ2uri"
+        },
+        {
+          "name": "Queen",
+          "count": 21,
+          "id": "1dfeR4HaWDbWqFHLkxsg1d"
+        },
+        {
+          "name": "Maroon 5",
+          "count": 20,
+          "id": "04gDigrS5kc9YWfZHwBETP"
+        },
+        {
+          "name": "Henry Moodie",
+          "count": 18,
+          "id": "7hr9W3IjXcm3UlLY7guLk5"
+        },
+        {
+          "name": "Shawn Mendes",
+          "count": 17,
+          "id": "7n2wHs1TKAczGzO7Dd2rGr"
+        },
+        {
+          "name": "Bruno Mars",
+          "count": 16,
+          "id": "0du5cEVh5yTK9QJze8zA0C"
+        },
+        {
+          "name": "Coldplay",
+          "count": 16,
+          "id": "4gzpq5DPGxSnKTe4SA8HAU"
+        },
+        {
+          "name": "Train",
+          "count": 16,
+          "id": "3FUY2gzHeIiaesXtOAdB7A"
+        },
+        {
+          "name": "SPITZ",
+          "count": 13,
+          "id": "5kjGRHClVacSyllOUqU1S0"
+        },
+        {
+          "name": "John Lennon",
+          "count": 13,
+          "id": "4x1nvY2FN8jxqAFA0DA02H"
+        },
+        {
+          "name": "ZAYN",
+          "count": 9,
+          "id": "5ZsFI1h6hIdQRw2ti0hz81"
+        },
+        {
+          "name": "Wings",
+          "count": 9,
+          "id": "3sFhA6G1N0gG1pszb6kk1m"
+        },
+        {
+          "name": "The Jacksons",
+          "count": 8,
+          "id": "2yrbLiuBmc9j81lTX3XUuI"
+        },
+        {
+          "name": "Kenshi Yonezu",
+          "count": 7,
+          "id": "1snhtMLeb2DYoMOcVbb8iB"
+        },
+        {
+          "name": "Sabrina Carpenter",
+          "count": 7,
+          "id": "74KM79TiuVKeVCqs8QtB0B"
+        },
+        {
+          "name": "Sia",
+          "count": 7,
+          "id": "5WUlDfRSoLAfcVSX1WnrxN"
+        },
+        {
+          "name": "Avicii",
+          "count": 7,
+          "id": "1vCWHaC5f2uS3yhpwWbIA6"
+        },
+        {
+          "name": "George Martin",
+          "count": 7,
+          "id": "4Fgf6RvuWpiwDXSE7Vammx"
+        },
+        {
+          "name": "ONE OK ROCK",
+          "count": 6,
+          "id": "7k73EtZwoPs516ZxE72KsO"
+        }
+      ],
+      "decades": [
+        {
+          "decade": 1960,
+          "count": 181
+        },
+        {
+          "decade": 1970,
+          "count": 38
+        },
+        {
+          "decade": 1980,
+          "count": 83
+        },
+        {
+          "decade": 1990,
+          "count": 43
+        },
+        {
+          "decade": 2000,
+          "count": 64
+        },
+        {
+          "decade": 2010,
+          "count": 311
+        },
+        {
+          "decade": 2020,
+          "count": 298
+        }
+      ]
+    },
+    "by": {
+      "3gWeVkYJPREpkdCpDRjHFw": {
+        "total": 456,
+        "artists_top": [
+          {
+            "name": "Justin Bieber",
+            "count": 49,
+            "id": "1uNFoZAHBGtllmzznpCI3s"
+          },
+          {
+            "name": "OneRepublic",
+            "count": 47,
+            "id": "5Pwc4xIPtQLFEnJriah9YJ"
+          },
+          {
+            "name": "LANY",
+            "count": 39,
+            "id": "49tQo2QULno7gxHutgccqF"
+          },
+          {
+            "name": "Charlie Puth",
+            "count": 33,
+            "id": "6VuMaDnrHyPL1p4EHjYLi7"
+          },
+          {
+            "name": "Taylor Swift",
+            "count": 32,
+            "id": "06HL4z0CvFAxyc27GXpf02"
+          },
+          {
+            "name": "Ed Sheeran",
+            "count": 28,
+            "id": "6eUKZXaKkcviH0Ku9w2n3V"
+          },
+          {
+            "name": "Maroon 5",
+            "count": 20,
+            "id": "04gDigrS5kc9YWfZHwBETP"
+          },
+          {
+            "name": "Henry Moodie",
+            "count": 18,
+            "id": "7hr9W3IjXcm3UlLY7guLk5"
+          },
+          {
+            "name": "Shawn Mendes",
+            "count": 17,
+            "id": "7n2wHs1TKAczGzO7Dd2rGr"
+          },
+          {
+            "name": "Bruno Mars",
+            "count": 16,
+            "id": "0du5cEVh5yTK9QJze8zA0C"
+          },
+          {
+            "name": "Coldplay",
+            "count": 16,
+            "id": "4gzpq5DPGxSnKTe4SA8HAU"
+          },
+          {
+            "name": "Train",
+            "count": 16,
+            "id": "3FUY2gzHeIiaesXtOAdB7A"
+          },
+          {
+            "name": "ZAYN",
+            "count": 9,
+            "id": "5ZsFI1h6hIdQRw2ti0hz81"
+          },
+          {
+            "name": "Sabrina Carpenter",
+            "count": 7,
+            "id": "74KM79TiuVKeVCqs8QtB0B"
+          },
+          {
+            "name": "Sia",
+            "count": 7,
+            "id": "5WUlDfRSoLAfcVSX1WnrxN"
+          },
+          {
+            "name": "Avicii",
+            "count": 7,
+            "id": "1vCWHaC5f2uS3yhpwWbIA6"
+          },
+          {
+            "name": "Alex Warren",
+            "count": 6,
+            "id": "0fTSzq9jAh4c36UVb4V7CB"
+          },
+          {
+            "name": "Benson Boone",
+            "count": 6,
+            "id": "22wbnEMDvgVIAGdFeek6ET"
+          },
+          {
+            "name": "One Direction",
+            "count": 6,
+            "id": "4AK6F7OLvEQ5QYCBNiQWHq"
+          },
+          {
+            "name": "Adele",
+            "count": 5,
+            "id": "4dpARuHxo51G3z768sgnrY"
+          },
+          {
+            "name": "Bon Jovi",
+            "count": 5,
+            "id": "58lV9VcRSjABbAbfWS6skp"
+          },
+          {
+            "name": "Fall Out Boy",
+            "count": 5,
+            "id": "4UXqAaa6dQYAk18Lv7PEgX"
+          },
+          {
+            "name": "Marshmello",
+            "count": 5,
+            "id": "64KEffDW9EtZ1y2vBYgq8T"
+          },
+          {
+            "name": "The Weeknd",
+            "count": 5,
+            "id": "1Xyo4u8uXC1ZmMpatF05PJ"
+          },
+          {
+            "name": "Kygo",
+            "count": 4,
+            "id": "23fqKkggKUBHNkbKtXEls4"
+          },
+          {
+            "name": "Lady Gaga",
+            "count": 4,
+            "id": "1HY2Jd0NmPuamShAr6KMms"
+          },
+          {
+            "name": "Hans Zimmer",
+            "count": 4,
+            "id": "0YC192cP3KPCRWx8zr8MfZ"
+          },
+          {
+            "name": "Imagine Dragons",
+            "count": 4,
+            "id": "53XhwfbYqKCa1cC15pYq2q"
+          },
+          {
+            "name": "keshi",
+            "count": 4,
+            "id": "3pc0bOVB5whxmD50W79wwO"
+          },
+          {
+            "name": "Oasis",
+            "count": 4,
+            "id": "2DaxqgrOhkeH0fpeiQq2f4"
+          }
+        ],
+        "decades": [
+          {
+            "decade": 1990,
+            "count": 9
+          },
+          {
+            "decade": 2000,
+            "count": 28
+          },
+          {
+            "decade": 2010,
+            "count": 218
+          },
+          {
+            "decade": 2020,
+            "count": 201
+          }
+        ]
+      },
+      "1NMKQVChOdoOy1o6bLw564": {
+        "total": 199,
+        "artists_top": [
+          {
+            "name": "back number",
+            "count": 31,
+            "id": "6rs1KAoQnFalSqSU4LTh8g"
+          },
+          {
+            "name": "OFFICIAL HIGE DANDISM",
+            "count": 22,
+            "id": "5Vo1hnCRmCM6M4thZCInCj"
+          },
+          {
+            "name": "Novelbright",
+            "count": 22,
+            "id": "0jWCX6zp4RjWrmZRxJ2uri"
+          },
+          {
+            "name": "SPITZ",
+            "count": 13,
+            "id": "5kjGRHClVacSyllOUqU1S0"
+          },
+          {
+            "name": "Kenshi Yonezu",
+            "count": 7,
+            "id": "1snhtMLeb2DYoMOcVbb8iB"
+          },
+          {
+            "name": "ONE OK ROCK",
+            "count": 6,
+            "id": "7k73EtZwoPs516ZxE72KsO"
+          },
+          {
+            "name": "Aimyon",
+            "count": 6,
+            "id": "5kVZa4lFUmAQlBogl1fkd6"
+          },
+          {
+            "name": "SUDA MASAKI",
+            "count": 5,
+            "id": "6n4SsAp5VjvIBg3s9QCcPX"
+          },
+          {
+            "name": "King Gnu",
+            "count": 4,
+            "id": "6wxfx1yhyqjCPYwwxJktR2"
+          },
+          {
+            "name": "Yuuri",
+            "count": 4,
+            "id": "0ixzjrK1wkN2zWBXt3VW3W"
+          },
+          {
+            "name": "Ikimonogakari",
+            "count": 4,
+            "id": "5YneEA2nLtAhkD5t2769lZ"
+          },
+          {
+            "name": "YOASOBI",
+            "count": 3,
+            "id": "64tJ2EAv1R6UaZqc4iOCyj"
+          },
+          {
+            "name": "Mr.Children",
+            "count": 3,
+            "id": "1qma7XhwZotCAucL7NHVLY"
+          },
+          {
+            "name": "音田 雅則",
+            "count": 3,
+            "id": "7KSbqXHO0xzNQhzaIWILIo"
+          },
+          {
+            "name": "Eve",
+            "count": 2,
+            "id": "58oPVy7oihAEXE0Ott6JOf"
+          },
+          {
+            "name": "Mika Nakashima",
+            "count": 2,
+            "id": "3D73KNJRMbV45N59E8IN0F"
+          },
+          {
+            "name": "SEKAI NO OWARI",
+            "count": 2,
+            "id": "7HwzlRPa9Ad0I8rK0FPzzK"
+          },
+          {
+            "name": "GReeeeN",
+            "count": 2,
+            "id": "14T8NkbwXVZgbOvwnuGV89"
+          },
+          {
+            "name": "Remioromen",
+            "count": 2,
+            "id": "4Yz1LjHwgQ5DFWJrZL8bC8"
+          },
+          {
+            "name": "suis from Yorushika",
+            "count": 2,
+            "id": "4UOdwKkaWHJ5k6UqnfC2w0"
+          },
+          {
+            "name": "ヨルシカ",
+            "count": 2,
+            "id": "4UK2Lzi6fBfUi9rpDt6cik"
+          },
+          {
+            "name": "Macaroni Empitsu",
+            "count": 2,
+            "id": "1t17z3vfuc82cxSDMrvryJ"
+          },
+          {
+            "name": "Keisuke Kuwata",
+            "count": 2,
+            "id": "6YIqgghQqnkNne8BKQpW6v"
+          },
+          {
+            "name": "Gen Hoshino",
+            "count": 2,
+            "id": "1S2S00lgLYLGHWA44qGEUs"
+          },
+          {
+            "name": "ALI",
+            "count": 1,
+            "id": "2Qqrew4ZcEwf9NY7UqWGfU"
+          },
+          {
+            "name": "AKLO",
+            "count": 1,
+            "id": "5fNuYnFYyzsrVRtDcKPnxb"
+          },
+          {
+            "name": "Hitsujibungaku",
+            "count": 1,
+            "id": "6S8w5rLsEwjN21jQeRES0n"
+          },
+          {
+            "name": "Tatsuya Kitani",
+            "count": 1,
+            "id": "7mvhRvEAHiCTQHUnH7fgnv"
+          },
+          {
+            "name": "Soushi Sakiyama",
+            "count": 1,
+            "id": "1IEretLePzJKj8R6KCEaBA"
+          },
+          {
+            "name": "jo0ji",
+            "count": 1,
+            "id": "5Wfhi0FggHCfOSa3ux39fk"
+          }
+        ],
+        "decades": [
+          {
+            "decade": 1980,
+            "count": 1
+          },
+          {
+            "decade": 1990,
+            "count": 8
+          },
+          {
+            "decade": 2000,
+            "count": 26
+          },
+          {
+            "decade": 2010,
+            "count": 81
+          },
+          {
+            "decade": 2020,
+            "count": 83
+          }
+        ]
+      },
+      "6sqoiZw75RIvnUFC058VJv": {
+        "total": 363,
+        "artists_top": [
+          {
+            "name": "The Beatles",
+            "count": 221,
+            "id": "3WrFJ7ztbogyGnTHbHJFl2"
+          },
+          {
+            "name": "Michael Jackson",
+            "count": 52,
+            "id": "3fMbdgg4jU18AjLCKBhRSm"
+          },
+          {
+            "name": "Paul McCartney",
+            "count": 40,
+            "id": "4STHEaNw4mPZ2tzheohgXB"
+          },
+          {
+            "name": "Queen",
+            "count": 21,
+            "id": "1dfeR4HaWDbWqFHLkxsg1d"
+          },
+          {
+            "name": "John Lennon",
+            "count": 13,
+            "id": "4x1nvY2FN8jxqAFA0DA02H"
+          },
+          {
+            "name": "Wings",
+            "count": 9,
+            "id": "3sFhA6G1N0gG1pszb6kk1m"
+          },
+          {
+            "name": "The Jacksons",
+            "count": 8,
+            "id": "2yrbLiuBmc9j81lTX3XUuI"
+          },
+          {
+            "name": "George Martin",
+            "count": 7,
+            "id": "4Fgf6RvuWpiwDXSE7Vammx"
+          },
+          {
+            "name": "Linda McCartney",
+            "count": 2,
+            "id": "6QEKXJs8gQCiyBq5L8knco"
+          },
+          {
+            "name": "Billy Preston",
+            "count": 1,
+            "id": "0IecGJbdBeYSOVtSPRehh5"
+          },
+          {
+            "name": "Yoko Ono",
+            "count": 1,
+            "id": "2s4tjL6W3qrblOe0raIzwJ"
+          },
+          {
+            "name": "David Bowie",
+            "count": 1,
+            "id": "0oSGxfWSnnOXhD2fKuz2Gy"
+          },
+          {
+            "name": "Mick Jagger",
+            "count": 1,
+            "id": "3d2pb1dHTm8b61zAGVUVvO"
+          },
+          {
+            "name": "Siedah Garrett",
+            "count": 1,
+            "id": "7EVlecngyrLHfQUqFMpwkT"
+          },
+          {
+            "name": "The Cleveland Orchestra",
+            "count": 1,
+            "id": "0jJszR81GjA87jeRq0Jgwz"
+          },
+          {
+            "name": "Janet Jackson",
+            "count": 1,
+            "id": "4qwGe91Bz9K2T8jXTZ815W"
+          },
+          {
+            "name": "Akon",
+            "count": 1,
+            "id": "0z4gvV4rjIZ9wHck67ucSV"
+          }
+        ],
+        "decades": [
+          {
+            "decade": 1960,
+            "count": 181
+          },
+          {
+            "decade": 1970,
+            "count": 38
+          },
+          {
+            "decade": 1980,
+            "count": 82
+          },
+          {
+            "decade": 1990,
+            "count": 26
+          },
+          {
+            "decade": 2000,
+            "count": 10
+          },
+          {
+            "decade": 2010,
+            "count": 12
+          },
+          {
+            "decade": 2020,
+            "count": 14
+          }
+        ]
+      }
+    }
+  }
 }
