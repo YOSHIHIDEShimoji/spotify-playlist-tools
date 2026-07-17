@@ -64,6 +64,10 @@ def main() -> int:
     liked = get_liked_tracks(sp)
     if not liked:
         logger.info("お気に入りに新しい曲はありません")
+        core.write_step_summary(
+            "inbox",
+            {"processed": 0, "japanese": 0, "western": 0, "unknown_count": 0, "unknown": []},
+        )
         return core.EXIT_OK
 
     logger.info(f"お気に入り: {len(liked)}曲を処理します" + (" [DRY-RUN]" if dry else ""))
@@ -141,7 +145,25 @@ def main() -> int:
                 dest.append("Western Musics")
             processed.append({"id": tid, "name": name, "artist": primary, "dest": dest})
         else:
-            unknown_final.append({"name": name, "artist": primary})
+            unknown_final.append(
+                {
+                    "id": tid,
+                    "name": name,
+                    "artists": all_names,
+                    "isrc": (track.get("external_ids") or {}).get("isrc", ""),
+                }
+            )
+
+    core.write_step_summary(
+        "inbox",
+        {
+            "processed": len(processed),
+            "japanese": sum(1 for t in liked if labels[t["id"]] == "japanese"),
+            "western": sum(1 for t in liked if labels[t["id"]] == "western"),
+            "unknown_count": len(unknown_final),
+            "unknown": unknown_final,
+        },
+    )
 
     if dry:
         artist_total = sum(len(v) for v in artist_adds.values())
@@ -190,7 +212,8 @@ def _write_unknowns(unknown_final: list[dict], logger) -> None:
     UNKNOWN_TRACKS_PATH.parent.mkdir(exist_ok=True)
     with UNKNOWN_TRACKS_PATH.open("w", encoding="utf-8") as f:
         for t in unknown_final:
-            line = f"{t['name']} / {t['artist']}"
+            primary = t["artists"][0] if t.get("artists") else "?"
+            line = f"{t['name']} / {primary}"
             f.write(line + "\n")
             logger.info(f"    {line}")
 

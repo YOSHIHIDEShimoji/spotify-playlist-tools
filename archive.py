@@ -64,11 +64,13 @@ def main() -> int:
 
     if dry:
         logger.info(f"[{today}][DRY-RUN] would add {len(to_add)} (skipped {skipped})")
+        core.write_step_summary("archive", {"added": len(to_add), "skipped": skipped})
         return core.EXIT_OK
 
     if to_add:
         core.add_in_batches(sp, dest_id, to_add)
     logger.info(f"[{today}] added {len(to_add)} (skipped {skipped})")
+    core.write_step_summary("archive", {"added": len(to_add), "skipped": skipped})
     return core.EXIT_OK
 
 
