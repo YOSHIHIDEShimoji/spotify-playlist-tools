@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import { AuthBanner } from "./components/AuthBanner";
+import { ScrollRow } from "./components/ui";
 import { clearPat, setPat, usePat } from "./lib/pat";
 import { verifyPat } from "./lib/github";
 import { Home } from "./pages/Home";
@@ -51,7 +52,7 @@ export function App() {
 
       {showSettings && <PatSettings onDone={() => setShowSettings(false)} hasPat={!!pat} />}
 
-      <nav className="nav">
+      <ScrollRow className="nav" role="navigation" ariaLabel="メインナビ">
         {NAV.map((n) => (
           <NavLink
             key={n.to}
@@ -62,7 +63,7 @@ export function App() {
             {n.label}
           </NavLink>
         ))}
-      </nav>
+      </ScrollRow>
 
       <AuthBanner />
 

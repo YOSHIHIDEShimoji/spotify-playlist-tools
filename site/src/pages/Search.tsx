@@ -2,12 +2,11 @@ import { useMemo, useState } from "react";
 import { useJson } from "../lib/data";
 import type { SearchIndex } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
-import { EmbedPlayer } from "../components/EmbedPlayer";
+import { PlayButton } from "../lib/player";
 
 export function SearchPage() {
   const idx = useJson<SearchIndex>("search_index");
   const [q, setQ] = useState("");
-  const [open, setOpen] = useState<string | null>(null);
 
   const results = useMemo(() => {
     const query = q.trim().toLowerCase();
@@ -39,19 +38,13 @@ export function SearchPage() {
       ) : (
         <div className="card">
           {results.map((t) => (
-            <div key={t.id}>
-              <div className="list-row" style={{ cursor: "pointer" }} onClick={() => setOpen(open === t.id ? null : t.id)}>
-                <span className="list-main">
-                  <div className="name">{t.name}</div>
-                  <div className="t-small">{t.artists.join(", ")}</div>
-                </span>
-                <span className="t-small">{t.playlists.join(" / ")}</span>
-              </div>
-              {open === t.id && (
-                <div style={{ padding: "0 var(--sp-3) var(--sp-2)" }}>
-                  <EmbedPlayer trackId={t.id} />
-                </div>
-              )}
+            <div className="list-row" key={t.id}>
+              <span className="list-main">
+                <div className="name">{t.name}</div>
+                <div className="t-small">{t.artists.join(", ")}</div>
+              </span>
+              <span className="t-small search-in">{t.playlists.join(" / ")}</span>
+              <PlayButton uri={`spotify:track:${t.id}`} />
             </div>
           ))}
         </div>

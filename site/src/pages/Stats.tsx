@@ -2,7 +2,7 @@ import { Fragment, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
 import type { Heatmap, ListeningStats, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
-import { Empty, Loading, Section, StatCard } from "../components/ui";
+import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayIcon, usePlayer } from "../lib/player";
 
 const GREEN = "#1ed760";
@@ -24,36 +24,49 @@ export function StatsPage() {
   const group: StatsGroup | null = dist
     ? (sel && dist.by[sel] ? dist.by[sel] : dist.all)
     : (stats.data ?? null);
+  const selName = dist && sel ? dist.playlists.find((p) => p.id === sel)?.name : null;
+
+  // ユニーク曲数の履歴が2点以上あって初めて「成長」グラフになる（それまでは「規模」）。
+  const growthRows = (history.data ?? []).filter((r) => r.playlist_id === LIB_ROW);
+  const growthTitle = growthRows.length > 1 ? "ライブラリの成長" : "ライブラリの規模";
+  // 聴取ログが有効か（再認証前は since=null・total=0 のダミーが来るので実数ゼロと区別する）。
+  const listenActive = !!listen.data && (listen.data.since != null || listen.data.milestone.total > 0);
 
   return (
     <>
-      <Section title="ライブラリの成長">
+      <Section title={growthTitle}>
         {history.loading || stats.loading ? <Loading /> : <Growth rows={history.data ?? []} stats={stats.data} />}
       </Section>
 
-      <Section title="アーティスト分布" aside={group && <span className="t-small">{group.total.toLocaleString()}曲 · タップで再生</span>}>
+      <Section
+        title="アーティスト分布"
+        aside={group && <span className="t-small">{selName ?? "3プレイリスト合算"} · {group.total.toLocaleString()}曲</span>}
+      >
         {stats.loading ? (
           <Loading />
         ) : (
           <>
             {dist && <PlaylistPicker playlists={dist.playlists} sel={sel} onSel={setSel} />}
+            <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
+              対象プレイリストを選ぶと、その中での分布に切り替わります（未選択＝Western・Japanese・1900's の合算）。タップで再生。
+            </p>
             <ArtistBars group={group} />
           </>
         )}
       </Section>
 
       <Section title="リリース年代分布">
-        {stats.loading ? <Loading /> : <DecadeBars group={group} />}
+        {stats.loading ? <Loading /> : <DecadeBars key={sel ?? "all"} group={group} />}
       </Section>
 
       <Section title="連続聴取">
-        {listen.data ? (
+        {listenActive ? (
           <div className="row">
-            <StatCard label="現在の streak" value={`${listen.data.streak}日`} />
-            <StatCard label="累計再生" value={listen.data.milestone.total.toLocaleString()} sub={listen.data.milestone.next ? `次 ${listen.data.milestone.next.toLocaleString()}` : ""} />
+            <StatCard label="現在の streak" value={`${listen.data!.streak}日`} />
+            <StatCard label="累計再生" value={listen.data!.milestone.total.toLocaleString()} sub={listen.data!.milestone.next ? `次のマイルストーン ${listen.data!.milestone.next.toLocaleString()}回` : ""} />
           </div>
         ) : (
-          <Empty>聴取ログ蓄積後に表示されます。</Empty>
+          <Empty>聴取ログはまだ有効化されていません。再認証すると、連続聴取と累計再生の計測が始まります。</Empty>
         )}
       </Section>
 
@@ -69,14 +82,14 @@ function PlaylistPicker(
     { playlists: { id: string; name: string }[]; sel: string | null; onSel: (id: string | null) => void },
 ) {
   return (
-    <div className="pl-picker" role="tablist" aria-label="統計の対象プレイリスト">
+    <ScrollRow className="pl-picker" role="tablist" ariaLabel="統計の対象プレイリスト">
       <button role="tab" aria-selected={!sel} className={!sel ? "is-active" : ""} onClick={() => onSel(null)}>すべて</button>
       {playlists.map((p) => (
         <button role="tab" aria-selected={sel === p.id} key={p.id} className={sel === p.id ? "is-active" : ""} onClick={() => onSel(p.id)}>
           {p.name}
         </button>
       ))}
-    </div>
+    </ScrollRow>
   );
 }
 
@@ -95,9 +108,12 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
       {current != null && (
         <div style={{ marginBottom: "var(--sp-3)" }}>
           <div className="t-small" style={{ textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 700 }}>
-            ライブラリ（ユニーク曲数）
+            夜間管理ライブラリ（ユニーク曲数）
           </div>
           <div className="t-display num" style={{ fontSize: "2.4rem", marginTop: 2 }}>{current.toLocaleString()}</div>
+          <div className="t-small" style={{ marginTop: 2 }}>
+            毎晩 sort が整える邦・洋プレイリストの重複なし曲数。下の分布は Western・Japanese・1900's を合算するため数が異なります。
+          </div>
         </div>
       )}
       {data.length === 0 ? (
@@ -109,7 +125,7 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
             <XAxis dataKey="date" stroke={AXIS} fontSize={11} />
             <YAxis stroke={AXIS} fontSize={11} />
             <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} formatter={(v: number) => [v.toLocaleString(), "ユニーク曲数"]} />
-            <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="ユニーク曲数" />
+            <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="ユニーク曲数" isAnimationActive={false} />
           </LineChart>
         </ResponsiveContainer>
       )}
@@ -146,12 +162,13 @@ function DecadeBars({ group }: { group: StatsGroup | null }) {
   const data = group.decades.map((d) => ({ label: `${d.decade}s`, count: d.count }));
   return (
     <div className="card">
+      {/* 初回に「軸だけでバー0本」になる recharts のアニメ由来の描画抜けを止める（isAnimationActive=false）。 */}
       <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data} margin={{ left: -10, right: 8 }}>
           <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
           <YAxis stroke={AXIS} fontSize={11} />
           <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
-          <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name="曲数" />
+          <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name="曲数" isAnimationActive={false} />
         </BarChart>
       </ResponsiveContainer>
     </div>

@@ -53,8 +53,9 @@ export function Organize() {
   return (
     <>
       {!pat && (
-        <div className="auth-banner auth-banner--warn">
-          閲覧のみモードです。削除・振り分けを実行するにはヘッダの「操作 OFF」から PAT を設定してください。
+        <div className="auth-banner auth-banner--warn auth-banner--compact viewonly-note">
+          <span>👁 閲覧のみ</span>
+          <span className="muted">— 削除・振り分けはヘッダ「操作 OFF」から有効化</span>
         </div>
       )}
 
@@ -128,6 +129,16 @@ function Counts({ d }: { d: Dupes }) {
 
 const TIER_LABEL: Record<string, string> = { A: "完全重複", B: "同一録音", C: "別バージョン候補" };
 
+// 判定理由スラッグ（データ由来）を日本語に。未知の値はそのまま出す。
+const REASON_LABEL: Record<string, string> = {
+  "same-id-in-playlist": "同じ曲がプレイリスト内に重複",
+  isrc: "録音が同一（ISRC 一致）",
+  title: "曲名が一致（別バージョンの可能性）",
+};
+function humanizeReason(reason: string): string {
+  return REASON_LABEL[reason] ?? reason;
+}
+
 function GroupCard(
   { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
 ) {
@@ -145,6 +156,10 @@ function GroupCard(
             <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
           </div>
           {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} />}
+        </div>
+        <div className="t-small" style={{ marginTop: "var(--sp-2)" }}>
+          同じ曲がこのプレイリストに {g.count} 回入っています。片方だけ残す操作はここにはありません
+          （全消しを避けるため）。余分な1つは Spotify アプリ側で削除してください。
         </div>
       </div>
     );
@@ -219,6 +234,10 @@ function GroupCard(
         <button className="pill" disabled={!pat || busy || processing || blocked} onClick={keepBoth}>
           両方残す
         </button>
+        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {pat && !processing && keep.size === 0 && (
+          <span className="action-hint">残す方にチェックを付けてください</span>
+        )}
         {status && (
           <span className="t-small" style={{ alignSelf: "center" }}>
             {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
@@ -233,7 +252,7 @@ function Header({ g }: { g: DupeGroup }) {
   return (
     <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: "var(--sp-3)" }}>
       <span className={"badge badge-" + g.tier.toLowerCase()}>{TIER_LABEL[g.tier]}</span>
-      <span className="t-small">{g.reason}</span>
+      <span className="t-small">{humanizeReason(g.reason)}</span>
     </div>
   );
 }
@@ -300,6 +319,7 @@ function ClassifyActions(
     <div className="dupe-actions">
       <button className="pill pill-green" disabled={disabled} onClick={() => classify("japanese")}>邦楽</button>
       <button className="pill" disabled={disabled} onClick={() => classify("western")}>洋楽</button>
+      {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
       {(processing || status) && (
         <span className="t-small" style={{ alignSelf: "center" }}>{processing ? "振り分け中…" : status}</span>
       )}

@@ -1,6 +1,6 @@
 import { useJson, useJsonl } from "../lib/data";
 import type { ListeningStats, RunRecord } from "../lib/types";
-import { Empty, Loading, Section } from "../components/ui";
+import { Empty, Loading, ScrollRow, Section } from "../components/ui";
 import { PlayButton } from "../lib/player";
 
 export function Home() {
@@ -43,10 +43,20 @@ function jpDate(iso: string): string {
   return m ? `${Number(m[2])}月${Number(m[3])}日` : iso;
 }
 
+/** ISO タイムスタンプ → JST の HH:MM（同日ランの区別用）。 */
+function jstTime(iso: string | undefined): string {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleTimeString("ja-JP", { timeZone: "Asia/Tokyo", hour: "2-digit", minute: "2-digit" });
+}
+
 /** Home ヒーロー: 昨晩の夜間ランを署名要素として最前面に出す。 */
 function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats | null }) {
   const real = realRuns(runs);
-  const latest = real[real.length - 1];
+  // 本番ランがあればそれを、無ければ最新の dry run を出す（下の履歴と食い違わせない）。
+  const latest = real.length ? real[real.length - 1] : (runs.length ? runs[runs.length - 1] : null);
+  const isDryOnly = !real.length && !!latest; // 本番の夜間ランはまだ（配線確認の dry run のみ）
 
   let streak = 0;
   for (let i = real.length - 1; i >= 0; i--) {
@@ -56,6 +66,8 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
   const successRate = real.length
     ? Math.round((real.filter((r) => r.status === "success").length / real.length) * 100)
     : 0;
+  // 聴取ログが有効か（再認証前は since=null・total=0 のダミー。実数ゼロと区別する）。
+  const listenActive = !!listen && (listen.since != null || listen.milestone.total > 0);
 
   if (!latest) {
     return (
@@ -74,8 +86,9 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
   const s = latest.steps;
   const badge = STATUS_BADGE[latest.status] ?? STATUS_BADGE.partial;
   const touched = s.inbox.processed + s.sync.added + s.sync.removed + s.archive.added;
-  const sub =
-    touched === 0
+  const sub = isDryOnly
+    ? "パイプラインの配線は完了。まだ本番の夜間ランは走っていません（下は動作確認 dry run の記録）。今夜以降の実ランからここに実データが出ます。"
+    : touched === 0
       ? "静かな夜でした。ライブラリに変更はありません。"
       : `inbox ${s.inbox.processed}件を振り分け、同期 +${s.sync.added}/−${s.sync.removed}、` +
         `${s.sort.playlists} プレイリストを整えました。`;
@@ -84,10 +97,12 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
     <div className="nightband">
       <div className="nightband-top">
         <span className="eyebrow">nightly run · 01:00 JST</span>
-        <span className={"badge status " + badge.cls}>{badge.label}</span>
+        {isDryOnly
+          ? <span className="badge status">dry run</span>
+          : <span className={"badge status " + badge.cls}>{badge.label}</span>}
       </div>
 
-      <h1 className="t-display">{jpDate(latest.date)}の記録</h1>
+      <h1 className="t-display">{isDryOnly ? "本番の夜間ランはまだです" : `${jpDate(latest.date)}の記録`}</h1>
       <p className="nightband-sub">{sub}</p>
 
       <div className="pipe">
@@ -100,13 +115,16 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
       <div className="nightband-foot">
         <div className="foot-stat">
           <span className="k">連続成功</span>
-          <span className="v">{streak}<span className="muted"> 日</span> · 成功率 {successRate}%</span>
+          <span className="v">
+            {isDryOnly ? <span className="muted">本番ラン待ち</span> : <>{streak}<span className="muted"> 日</span> · 成功率 {successRate}%</>}
+          </span>
         </div>
         <div className="foot-stat">
           <span className="k">累計再生</span>
           <span className="v">
-            {listen ? listen.milestone.total.toLocaleString() : "—"}
-            {listen?.milestone.next ? <span className="muted"> / 次 {listen.milestone.next.toLocaleString()}</span> : null}
+            {listenActive
+              ? <>{listen!.milestone.total.toLocaleString()}{listen!.milestone.next ? <span className="muted"> / 次 {listen!.milestone.next.toLocaleString()}</span> : null}</>
+              : <span className="muted">未計測</span>}
           </span>
         </div>
       </div>
@@ -131,15 +149,21 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
   if (!runs.length) return <Empty>まだ実行記録がありません。</Empty>;
   const recent = [...runs].slice(-14).reverse();
   return (
-    <div className="card" style={{ overflowX: "auto" }}>
+    <ScrollRow className="card table-scroll" variant="surface" ariaLabel="実行履歴">
       <table className="data-table">
         <thead>
-          <tr><th>日付</th><th>状態</th><th>inbox</th><th>sync</th><th>sort</th><th>archive</th></tr>
+          <tr><th>日時</th><th>状態</th><th>inbox</th><th>sync</th><th>sort</th><th>archive</th></tr>
         </thead>
         <tbody>
           {recent.map((r, i) => (
             <tr key={`${r.run_id}-${i}`}>
-              <td>{r.date}{r.dry_run && <span className="badge" style={{ marginLeft: 6 }}>dry</span>}</td>
+              <td>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, whiteSpace: "nowrap" }}>
+                  <span>{r.date.slice(5)}</span>
+                  {r.dry_run && <span className="badge">dry</span>}
+                </div>
+                {jstTime(r.generated_at) && <div className="t-small num">{jstTime(r.generated_at)}</div>}
+              </td>
               <td>
                 <span className={"badge " + (r.status === "success" ? "badge-b" : "badge-c")}>{r.status}</span>
               </td>
@@ -151,7 +175,7 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
           ))}
         </tbody>
       </table>
-    </div>
+    </ScrollRow>
   );
 }
 

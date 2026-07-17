@@ -15,6 +15,23 @@ function isoWeekLabel(d: Date): string {
   return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
+// "YYYY-Www" → "M/D–M/D"（その週の月〜日）。ISO 週番号より直感的に。
+function isoWeekRange(isoWeek: string): string {
+  const m = /^(\d{4})-W(\d{2})$/.exec(isoWeek);
+  if (!m) return "";
+  const year = Number(m[1]);
+  const week = Number(m[2]);
+  // ISO 第1週は 1/4 を含む週。その週の月曜から (week-1)*7 日進める。
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const jan4Day = jan4.getUTCDay() || 7;
+  const monday = new Date(jan4);
+  monday.setUTCDate(jan4.getUTCDate() - (jan4Day - 1) + (week - 1) * 7);
+  const sunday = new Date(monday);
+  sunday.setUTCDate(monday.getUTCDate() + 6);
+  const fmt = (x: Date) => `${x.getUTCMonth() + 1}/${x.getUTCDate()}`;
+  return `${fmt(monday)}–${fmt(sunday)}`;
+}
+
 // 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。
 function TrackRow({ track, rank }: { track: { id: string; name: string; artists: string[] }; rank?: number }) {
   return (
@@ -41,7 +58,7 @@ export function Memories() {
 
   return (
     <>
-      <Section title={`1年前の今週（${targetWeek}）`}>
+      <Section title={`1年前の今週（${isoWeekRange(targetWeek)}）`}>
         {weekly.loading ? (
           <Loading />
         ) : !match ? (
@@ -63,7 +80,9 @@ export function Memories() {
         ) : (
           recent.map((w) => (
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
-              <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{w.iso_week}（{w.tracks.length}曲）</div>
+              <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
+                {isoWeekRange(w.iso_week)} の週 <span className="muted t-small">{w.iso_week}</span> · {w.tracks.length}曲
+              </div>
               {w.tracks.slice(0, 8).map((t) => (
                 <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
               ))}

@@ -1,5 +1,5 @@
 import { useJson } from "../lib/data";
-import type { Releases, Top } from "../lib/types";
+import type { AuthStatus, Releases, Top } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
 
 const TERMS: { key: string; label: string }[] = [
@@ -8,9 +8,24 @@ const TERMS: { key: string; label: string }[] = [
   { key: "long_term", label: "長期" },
 ];
 
+// 未有効（要再認証）か、単にデータが無いだけかを分けて伝えるカード。
+function DisabledOrEmpty({ disabled, empty }: { disabled: boolean; empty: string }) {
+  if (disabled) {
+    return (
+      <Empty>
+        <div className="t-body-bold" style={{ color: "var(--warning)" }}>未有効</div>
+        <div style={{ marginTop: 4 }}>再認証（ローカルで <code>python reauth.py</code>）すると有効になります。</div>
+      </Empty>
+    );
+  }
+  return <Empty>{empty}</Empty>;
+}
+
 export function Discover() {
   const releases = useJson<Releases>("releases");
   const top = useJson<Top>("top");
+  const auth = useJson<AuthStatus>("auth_status");
+  const disabled = (auth.data?.missing_scopes.length ?? 0) > 0;
 
   return (
     <>
@@ -18,7 +33,7 @@ export function Discover() {
         {releases.loading ? (
           <Loading />
         ) : !releases.data || releases.data.items.length === 0 ? (
-          <Empty>直近14日の新譜はありません（再認証で有効化。フォロー中＋在籍アーティストを毎晩チェック）。</Empty>
+          <DisabledOrEmpty disabled={disabled} empty="直近14日の新譜はありません（フォロー中＋在籍アーティストを毎晩チェック）。" />
         ) : (
           <div className="grid-cards">
             {releases.data.items.map((r) => (
@@ -46,16 +61,16 @@ export function Discover() {
       </Section>
 
       <Section title="Spotify 公式 Top">
-        {top.loading ? <Loading /> : <TopBlock top={top.data} />}
+        {top.loading ? <Loading /> : <TopBlock top={top.data} disabled={disabled} />}
       </Section>
     </>
   );
 }
 
-function TopBlock({ top }: { top: Top | null }) {
+function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
   const hasAny = top && TERMS.some((t) => (top.tracks[t.key]?.length ?? 0) > 0);
   if (!hasAny)
-    return <Empty>公式 Top は再認証で有効化されます（Spotify が計算したあなたの Top 曲・アーティスト）。</Empty>;
+    return <DisabledOrEmpty disabled={disabled} empty="公式 Top のデータがまだありません（Spotify が計算したあなたの Top 曲・アーティスト）。" />;
   return (
     <div className="row" style={{ alignItems: "flex-start" }}>
       {TERMS.map((t) => {

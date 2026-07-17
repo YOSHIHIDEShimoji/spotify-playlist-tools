@@ -48,6 +48,42 @@
   flex: 0 0 auto;
 }
 
+/* 横スクロール行の端フェード（内容が続くときだけ出る・ui.tsx ScrollRow） */
+.scroll-row {
+  --fade-color: var(--bg-base);
+  position: relative;
+}
+.scroll-row--surface {
+  --fade-color: var(--surface-card);
+}
+.scroll-row::before,
+.scroll-row::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 32px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.scroll-row::before {
+  left: 0;
+  background: linear-gradient(to right, var(--fade-color), transparent);
+}
+.scroll-row::after {
+  right: 0;
+  background: linear-gradient(to left, var(--fade-color), transparent);
+}
+.scroll-row.fade-l::before,
+.scroll-row.fade-r::after {
+  opacity: 1;
+}
+.table-scroll {
+  overflow-x: auto;
+}
+
 .auth-banner {
   border-radius: var(--r-card);
   padding: var(--sp-3) var(--sp-4);
@@ -68,6 +104,55 @@
 .auth-banner--warn {
   background: rgba(255, 164, 43, 0.14);
   color: #ffe6c2;
+}
+/* コンパクト帯: 1行要約＋開閉で手順を畳む（モバイルで初期ビューを食わない） */
+.auth-banner--compact {
+  padding: var(--sp-2) var(--sp-3);
+  font-size: 0.8rem;
+}
+.auth-banner--compact summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.auth-banner--compact summary::-webkit-details-marker {
+  display: none;
+}
+.auth-banner--compact .disclosure {
+  margin-left: auto;
+  opacity: 0.7;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.auth-banner--compact[open] .disclosure::after {
+  content: "閉じる";
+}
+.auth-banner--compact:not([open]) .disclosure::after {
+  content: "手順";
+}
+.auth-banner--compact .steps {
+  margin: var(--sp-2) 0 0;
+  padding-top: var(--sp-2);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  line-height: 1.6;
+}
+/* 閲覧のみ帯（details ではなく1行の div） */
+.viewonly-note {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+/* 実行不可の理由を添える小さなヒント（無効 CTA の近くに） */
+.action-hint {
+  align-self: center;
+  color: var(--warning);
+  font-size: 0.72rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 /* ── Home ヒーロー: 夜間ラン（Spotify のプレイリスト見出し相当・achromatic） ── */
@@ -248,6 +333,16 @@
   font-variant-numeric: tabular-nums;
   color: var(--text-secondary);
   font-size: 0.875rem;
+}
+/* 検索ヒットの「収録プレイリスト」: 長くても再生ボタンを押しのけない */
+.search-in {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 42%;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /* クリックできる行に出す「開く」ヒント（Spotify の再生ボタン相当・緑） */
 .row-open {
@@ -693,5 +788,19 @@ table.data-table {
   }
   .stat .v {
     font-size: 1.7rem;
+  }
+  /* ピッカーのピルを詰めて選択肢を1画面に収まりやすく */
+  .pl-picker button {
+    font-size: 0.8rem;
+    padding: 7px 11px;
+  }
+  /* 重複候補のメタ（アルバム・日付・人気）を2行まで折り返して見分けられるように */
+  .dupe-cand .cand-meta {
+    white-space: normal;
+    overflow: visible;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
   }
 }
