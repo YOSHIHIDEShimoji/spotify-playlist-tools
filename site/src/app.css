@@ -23,18 +23,10 @@
   font-size: 1.2rem;
   white-space: nowrap;
 }
-/* Spotify ロゴ相当の緑の円マーク */
+/* Spotify ロゴ（インライン SVG） */
 .app-logo .mark {
   display: inline-flex;
-  width: 22px;
-  height: 22px;
-  border-radius: var(--r-circle);
-  background: var(--green);
-  color: #000;
   align-items: center;
-  justify-content: center;
-  font-size: 0.86rem;
-  font-weight: 900;
 }
 .app-header .spacer {
   flex: 1;
