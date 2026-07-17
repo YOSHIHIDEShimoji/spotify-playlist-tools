@@ -1,4 +1,40 @@
 {
-  "cells": [],
-  "generated_at": "2026-07-17T05:10:11.471521+00:00"
+  "cells": [
+    {
+      "count": 15,
+      "dow": 4,
+      "hour": 17
+    },
+    {
+      "count": 21,
+      "dow": 4,
+      "hour": 18
+    },
+    {
+      "count": 24,
+      "dow": 4,
+      "hour": 19
+    },
+    {
+      "count": 16,
+      "dow": 4,
+      "hour": 20
+    },
+    {
+      "count": 7,
+      "dow": 4,
+      "hour": 23
+    },
+    {
+      "count": 10,
+      "dow": 5,
+      "hour": 0
+    },
+    {
+      "count": 1,
+      "dow": 5,
+      "hour": 1
+    }
+  ],
+  "generated_at": "2026-07-17T17:02:40.479849+00:00"
 }

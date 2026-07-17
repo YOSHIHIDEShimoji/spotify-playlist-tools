@@ -1,13 +1,1205 @@
 {
   "artists": {
-    "long_term": [],
-    "medium_term": [],
-    "short_term": []
+    "long_term": [
+      {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "rank": 1
+      },
+      {
+        "id": "5Vo1hnCRmCM6M4thZCInCj",
+        "name": "OFFICIAL HIGE DANDISM",
+        "rank": 2
+      },
+      {
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic",
+        "rank": 3
+      },
+      {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "rank": 4
+      },
+      {
+        "id": "6rs1KAoQnFalSqSU4LTh8g",
+        "name": "back number",
+        "rank": 5
+      },
+      {
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
+        "rank": 6
+      },
+      {
+        "id": "7k73EtZwoPs516ZxE72KsO",
+        "name": "ONE OK ROCK",
+        "rank": 7
+      },
+      {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "rank": 8
+      },
+      {
+        "id": "3fMbdgg4jU18AjLCKBhRSm",
+        "name": "Michael Jackson",
+        "rank": 9
+      },
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "rank": 10
+      },
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "rank": 11
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
+        "rank": 12
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "rank": 13
+      },
+      {
+        "id": "5kjGRHClVacSyllOUqU1S0",
+        "name": "SPITZ",
+        "rank": 14
+      },
+      {
+        "id": "4STHEaNw4mPZ2tzheohgXB",
+        "name": "Paul McCartney",
+        "rank": 15
+      },
+      {
+        "id": "1dfeR4HaWDbWqFHLkxsg1d",
+        "name": "Queen",
+        "rank": 16
+      },
+      {
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "rank": 17
+      },
+      {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
+        "rank": 18
+      },
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
+        "rank": 19
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
+        "rank": 20
+      },
+      {
+        "id": "7KSbqXHO0xzNQhzaIWILIo",
+        "name": "音田 雅則",
+        "rank": 21
+      },
+      {
+        "id": "5W7F9IM2vsR9EDCk5T2Uqz",
+        "name": "Yumi Arai",
+        "rank": 22
+      },
+      {
+        "id": "3qqjOqSKN1IKax9C8VmFmZ",
+        "name": "Katsuo Ohno",
+        "rank": 23
+      },
+      {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
+        "rank": 24
+      },
+      {
+        "id": "5kVZa4lFUmAQlBogl1fkd6",
+        "name": "Aimyon",
+        "rank": 25
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "rank": 26
+      },
+      {
+        "id": "1qma7XhwZotCAucL7NHVLY",
+        "name": "Mr.Children",
+        "rank": 27
+      },
+      {
+        "id": "4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy",
+        "rank": 28
+      },
+      {
+        "id": "4x1nvY2FN8jxqAFA0DA02H",
+        "name": "John Lennon",
+        "rank": 29
+      },
+      {
+        "id": "6wxfx1yhyqjCPYwwxJktR2",
+        "name": "King Gnu",
+        "rank": 30
+      }
+    ],
+    "medium_term": [
+      {
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic",
+        "rank": 1
+      },
+      {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "rank": 2
+      },
+      {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "rank": 3
+      },
+      {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "rank": 4
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "rank": 5
+      },
+      {
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "rank": 6
+      },
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "rank": 7
+      },
+      {
+        "id": "3fMbdgg4jU18AjLCKBhRSm",
+        "name": "Michael Jackson",
+        "rank": 8
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
+        "rank": 9
+      },
+      {
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
+        "rank": 10
+      },
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
+        "rank": 11
+      },
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "rank": 12
+      },
+      {
+        "id": "5Vo1hnCRmCM6M4thZCInCj",
+        "name": "OFFICIAL HIGE DANDISM",
+        "rank": 13
+      },
+      {
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "rank": 14
+      },
+      {
+        "id": "6rs1KAoQnFalSqSU4LTh8g",
+        "name": "back number",
+        "rank": 15
+      },
+      {
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
+        "rank": 16
+      },
+      {
+        "id": "4STHEaNw4mPZ2tzheohgXB",
+        "name": "Paul McCartney",
+        "rank": 17
+      },
+      {
+        "id": "6wxfx1yhyqjCPYwwxJktR2",
+        "name": "King Gnu",
+        "rank": 18
+      },
+      {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
+        "rank": 19
+      },
+      {
+        "id": "74KM79TiuVKeVCqs8QtB0B",
+        "name": "Sabrina Carpenter",
+        "rank": 20
+      },
+      {
+        "id": "23fqKkggKUBHNkbKtXEls4",
+        "name": "Kygo",
+        "rank": 21
+      },
+      {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 22
+      },
+      {
+        "id": "4dpARuHxo51G3z768sgnrY",
+        "name": "Adele",
+        "rank": 23
+      },
+      {
+        "id": "58lV9VcRSjABbAbfWS6skp",
+        "name": "Bon Jovi",
+        "rank": 24
+      },
+      {
+        "id": "2DaxqgrOhkeH0fpeiQq2f4",
+        "name": "Oasis",
+        "rank": 25
+      },
+      {
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
+        "rank": 26
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "rank": 27
+      },
+      {
+        "id": "7k73EtZwoPs516ZxE72KsO",
+        "name": "ONE OK ROCK",
+        "rank": 28
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
+        "rank": 29
+      },
+      {
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
+        "rank": 30
+      }
+    ],
+    "short_term": [
+      {
+        "id": "5Pwc4xIPtQLFEnJriah9YJ",
+        "name": "OneRepublic",
+        "rank": 1
+      },
+      {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "rank": 2
+      },
+      {
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "rank": 3
+      },
+      {
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
+        "rank": 4
+      },
+      {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "rank": 5
+      },
+      {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "rank": 6
+      },
+      {
+        "id": "3fMbdgg4jU18AjLCKBhRSm",
+        "name": "Michael Jackson",
+        "rank": 7
+      },
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "rank": 8
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "rank": 9
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
+        "rank": 10
+      },
+      {
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "rank": 11
+      },
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "rank": 12
+      },
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
+        "rank": 13
+      },
+      {
+        "id": "23fqKkggKUBHNkbKtXEls4",
+        "name": "Kygo",
+        "rank": 14
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
+        "rank": 15
+      },
+      {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 16
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "rank": 17
+      },
+      {
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
+        "rank": 18
+      },
+      {
+        "id": "4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy",
+        "rank": 19
+      },
+      {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
+        "rank": 20
+      },
+      {
+        "id": "7hr9W3IjXcm3UlLY7guLk5",
+        "name": "Henry Moodie",
+        "rank": 21
+      },
+      {
+        "id": "4dpARuHxo51G3z768sgnrY",
+        "name": "Adele",
+        "rank": 22
+      },
+      {
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "name": "Alex Warren",
+        "rank": 23
+      },
+      {
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "name": "Benson Boone",
+        "rank": 24
+      },
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd",
+        "rank": 25
+      },
+      {
+        "id": "3dRfiJ2650SZu6GbydcHNb",
+        "name": "John Williams",
+        "rank": 26
+      },
+      {
+        "id": "74KM79TiuVKeVCqs8QtB0B",
+        "name": "Sabrina Carpenter",
+        "rank": 27
+      },
+      {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
+        "rank": 28
+      },
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons",
+        "rank": 29
+      },
+      {
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
+        "rank": 30
+      }
+    ]
   },
-  "generated_at": "2026-07-17T05:10:18.068123+00:00",
+  "generated_at": "2026-07-17T17:02:51.265034+00:00",
   "tracks": {
-    "long_term": [],
-    "medium_term": [],
-    "short_term": []
+    "long_term": [
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "3tRgmNTaFYgtbt7XCy6Les",
+        "name": "Same Blue",
+        "rank": 1
+      },
+      {
+        "artists": [
+          "SPITZ"
+        ],
+        "id": "3RauRsiIxUOQTS8h9sVWcP",
+        "name": "美しい鰭",
+        "rank": 2
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "75fYFVXHzzwfc5yzFWlIlZ",
+        "name": "Laughter",
+        "rank": 3
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "47N81NMkB488fuOwOC3Oip",
+        "name": "Nobody - from Kaiju No. 8",
+        "rank": 4
+      },
+      {
+        "artists": [
+          "YUNGBLUD"
+        ],
+        "id": "2kLWSmKHhfUBepkIA9oNe5",
+        "name": "Abyss - from Kaiju No. 8",
+        "rank": 5
+      },
+      {
+        "artists": [
+          "Eve"
+        ],
+        "id": "5MVjxslIF7mVtYo75Nk445",
+        "name": "廻廻奇譚",
+        "rank": 6
+      },
+      {
+        "artists": [
+          "ONE OK ROCK"
+        ],
+        "id": "3RpFwqdROrxJvHywpT1pJ4",
+        "name": "Renegades",
+        "rank": 7
+      },
+      {
+        "artists": [
+          "Naomi Scott"
+        ],
+        "id": "0XPsOSYzDJZJArevQNm2AR",
+        "name": "Speechless (Full)",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "4bM39Z3rhnPdYrgpG9VuCb",
+        "name": "日常",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "6Yrkz3dWqy933CQWQc4Yah",
+        "name": "I LOVE...",
+        "rank": 10
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "6wDntdm888mDo458RaYjGl",
+        "name": "Cry Baby",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "King Gnu"
+        ],
+        "id": "0GWNtMohuYUEHVZ40tcnHF",
+        "name": "SPECIALZ",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "髙見 優/長岡 成貢"
+        ],
+        "id": "2p71NDW60CTBSDnIqDpXYP",
+        "name": "南方仁のテーマ",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "suis from Yorushika"
+        ],
+        "id": "30aPCMAtkH6Cf5ejzY4cE4",
+        "name": "星めぐる詩",
+        "rank": 14
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "6KLaKHxwJE3CZECVJLH4cN",
+        "name": "Universe",
+        "rank": 15
+      },
+      {
+        "artists": [
+          "ALI",
+          "AKLO"
+        ],
+        "id": "7kRKlFCFLAUwt43HWtauhX",
+        "name": "LOST IN PARADISE",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "Omoinotake"
+        ],
+        "id": "4dmruTsdHIOjfOIeaFitXK",
+        "name": "幾億光年",
+        "rank": 17
+      },
+      {
+        "artists": [
+          "Katsuo Ohno"
+        ],
+        "id": "6lJq0JMOFI9MN47AOJrwEC",
+        "name": "蘭のテーマ - 世紀末ヴァージョン",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "7sc873fPEG8xnU3r1CDDhI",
+        "name": "SOULSOUP",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "66hblHI9wl1Nim70ZYLb6D",
+        "name": "TATTOO",
+        "rank": 20
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "3ouZoixdw9pSbIq8aHDh3V",
+        "name": "宿命",
+        "rank": 21
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "6vtHQ7FcAXSOKSOeaBm5bc",
+        "name": "異端なスター",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "49F3htNmwzPKFycPdOrDvf",
+        "name": "Subtitle",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "53WuztMfY1VH3rLIm0zApQ",
+        "name": "イエスタデイ",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "73PAbYaVbnFG0tQ4aBfxeN",
+        "name": "I Ain't Worried",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "58dxGXavrcagRqA58fNB0Z",
+        "name": "Pretender",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "ONE OK ROCK"
+        ],
+        "id": "2SRmR6w3MMCA0UwAtKkVrZ",
+        "name": "Broken Heart of Gold",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6sy3LkhNFjJWlaeSMNwQ62",
+        "name": "Counting Stars",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Novelbright"
+        ],
+        "id": "3y3gIFisu61Qc3NtRE7a2r",
+        "name": "アイビー",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5BJSZocnCeSNeYMj3iVqM7",
+        "name": "Love Runs Out",
+        "rank": 30
+      }
+    ],
+    "medium_term": [
+      {
+        "artists": [
+          "Eve"
+        ],
+        "id": "6y4GYuZszeXNOXuBFsJlos",
+        "name": "Kaikai Kitan",
+        "rank": 1
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1NrJYpdAi7uosDRPmSYrsG",
+        "name": "Apologize",
+        "rank": 2
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2tpWsVSb9UEmDRxAl1zhX1",
+        "name": "Counting Stars",
+        "rank": 3
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2SLxgJ2YFohfd8KwuJZTUE",
+        "name": "Better Days",
+        "rank": 4
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3SiVMpHxTS1gspWzRZE50S",
+        "name": "Nobody - from Kaiju No. 8",
+        "rank": 5
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "name": "I Ain't Worried",
+        "rank": 6
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6aDsgHPZsMztSbZernzlF8",
+        "name": "Someday",
+        "rank": 7
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "name": "Kids",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0baR1QmlC8CruupaxA1IYA",
+        "name": "Beautiful Colors - from Kaiju No. 8",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3IQF4xCQUPicbA4hWfTxPo",
+        "name": "I Lived",
+        "rank": 10
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3cOO5IQtOYs7huq4Z6lYfr",
+        "name": "Love Runs Out",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "37LNNQNbL1YLyutBG6aWRx",
+        "name": "Rescue Me",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "King Gnu"
+        ],
+        "id": "5oQpH1uuZte4axR411rIlN",
+        "name": "SPECIALZ",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "name": "Good Life - from One Night In Malibu",
+        "rank": 14
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2IPpyxIgVLoDmYGIffJrol",
+        "name": "Marchin On",
+        "rank": 15
+      },
+      {
+        "artists": [
+          "HUNTR/X",
+          "EJAE",
+          "AUDREY NUNA",
+          "REI AMI",
+          "KPop Demon Hunters Cast"
+        ],
+        "id": "1CPZ5BxNNd0n0nF4Orb9JS",
+        "name": "Golden",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1kmex5eDBvfniYJpmmIizl",
+        "name": "Secrets",
+        "rank": 17
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6keF0sk7i4WU3cVnMkTtS3",
+        "name": "Sunshine",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2LsFnG9KYkWSk8dVopmHw2",
+        "name": "RUNAWAY",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "1sgDyuLooyvEML4oHspNza",
+        "name": "Lose Somebody",
+        "rank": 20
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6KL88T4Ma4ABXqzgUoEwkd",
+        "name": "Run",
+        "rank": 21
+      },
+      {
+        "artists": [
+          "OneRepublic",
+          "Seeb"
+        ],
+        "id": "7dOeiXeTSfA1ixaYmQcWu7",
+        "name": "Rich Love (with Seeb)",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "Novelbright"
+        ],
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "name": "アイビー",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "4nNZ4ra9sJnsdixXELkfW5",
+        "name": "Does It Feel",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "0wPKDeY4fZXT6k9bzV0kx0",
+        "name": "That's Hilarious",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "7kcwFYuOoe3AZ1iIiKmaxp",
+        "name": "Beat Yourself Up",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "5TTyyKNJZHONhjtAiXL1nG",
+        "name": "Hero",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "6qNALlmZa1ESnCxJmXE1K9",
+        "name": "The Way I Am",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Charlie Puth",
+          "Kehlani"
+        ],
+        "id": "1lsBTdE6MGsKeZCD6llNu7",
+        "name": "Done for Me (feat. Kehlani)",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "1zZgQZrn1EOQIXH0U97LPW",
+        "name": "I Won't Tell a Soul",
+        "rank": 30
+      }
+    ],
+    "short_term": [
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1NrJYpdAi7uosDRPmSYrsG",
+        "name": "Apologize",
+        "rank": 1
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2tpWsVSb9UEmDRxAl1zhX1",
+        "name": "Counting Stars",
+        "rank": 2
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "name": "Good Life - from One Night In Malibu",
+        "rank": 3
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2CJD3LSIVidK6nu4suUusa",
+        "name": "All The Right Moves",
+        "rank": 4
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "name": "I Ain't Worried",
+        "rank": 5
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "17Vqwvat9EmRmfDvmYqoi0",
+        "name": "Give Me Something (for Arknights Endfield)",
+        "rank": 6
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1B7Vir1E4FcFPP5tUzDSmR",
+        "name": "West Coast",
+        "rank": 7
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2JATE4qxTuVgKEKe12sqLp",
+        "name": "Future Looks Good",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3cOO5IQtOYs7huq4Z6lYfr",
+        "name": "Love Runs Out",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "0xSjAuPhm9tJXX2nRt2Avv",
+        "name": "Chasing Paradise",
+        "rank": 10
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2gPWnjEtKZaCcEXRlH9yT4",
+        "name": "Distance - from One Night In Malibu",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3FK9wVJHNdJhqVPbIcoZsn",
+        "name": "Need Your Love",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "4FDDExmv76Da7aaFqxbxVp",
+        "name": "Sink Or Swim",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
+        "name": "Stranger Things (feat. OneRepublic)",
+        "rank": 14
+      },
+      {
+        "artists": [
+          "Galantis",
+          "OneRepublic"
+        ],
+        "id": "53Ji6ZvVjsBl4pIuiETfhN",
+        "name": "Bones (feat. OneRepublic)",
+        "rank": 15
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "name": "Kids",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "MEDUZA",
+          "OneRepublic",
+          "Leony"
+        ],
+        "id": "7MYLHLCf0YWR4TVs3owDny",
+        "name": "Fire - Official UEFA EURO 2024 Song",
+        "rank": 17
+      },
+      {
+        "artists": [
+          "OneRepublic",
+          "Seeb"
+        ],
+        "id": "7dOeiXeTSfA1ixaYmQcWu7",
+        "name": "Rich Love (with Seeb)",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2e42fb37LVhtCOescNb1yN",
+        "name": "Everybody Loves Me",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2LsFnG9KYkWSk8dVopmHw2",
+        "name": "RUNAWAY",
+        "rank": 20
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "05sCp83gcMm1iecYydKJS3",
+        "name": "Let's Hurt Tonight",
+        "rank": 21
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0baR1QmlC8CruupaxA1IYA",
+        "name": "Beautiful Colors - from Kaiju No. 8",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2SLxgJ2YFohfd8KwuJZTUE",
+        "name": "Better Days",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "David Guetta",
+          "OneRepublic"
+        ],
+        "id": "331l3xABO0HMr1Kkyh2LZq",
+        "name": "I Don't Wanna Wait",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "OneRepublic",
+          "Alesso"
+        ],
+        "id": "3ScJy88F8KqGDfWu8XJhHx",
+        "name": "If I Lose Myself - Alesso vs OneRepublic",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "48s0QHJgmiNsth3WEO6U4M",
+        "name": "Stop And Stare",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Maroon 5"
+        ],
+        "id": "4cktbXiXOapiLBMprHFErI",
+        "name": "Memories",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6aDsgHPZsMztSbZernzlF8",
+        "name": "Someday",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1zjJg21AG4sXU9wzbQnQiQ",
+        "name": "All Fall Down",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5aIZ2jtxZ4o4GHQXTybkIa",
+        "name": "Something I Need",
+        "rank": 30
+      }
+    ]
   }
 }

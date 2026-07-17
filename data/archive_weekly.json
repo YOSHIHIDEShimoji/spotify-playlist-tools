@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:10:18.835100+00:00",
+  "generated_at": "2026-07-17T17:03:46.830564+00:00",
   "weeks": [
     {
       "iso_week": "2026-W19",
@@ -898,6 +898,43 @@
           ],
           "id": "7yq4Qj7cqayVTp3FF9CWbm",
           "name": "Riptide"
+        }
+      ]
+    },
+    {
+      "iso_week": "2026-W29",
+      "tracks": [
+        {
+          "added_at": "2026-07-17T17:02:38Z",
+          "artists": [
+            "Temper City"
+          ],
+          "id": "3vuTjROEdeCq8V3c1cvlxJ",
+          "name": "Self Aware"
+        },
+        {
+          "added_at": "2026-07-17T17:02:38Z",
+          "artists": [
+            "ZEROBASEONE"
+          ],
+          "id": "5cnWHHvU8MnHTjjAjeJffl",
+          "name": "TOP 5"
+        },
+        {
+          "added_at": "2026-07-17T17:02:38Z",
+          "artists": [
+            "Bruno Mars"
+          ],
+          "id": "3D0KpxvO9dQ0XI54BmYZuG",
+          "name": "Locked out of Heaven"
+        },
+        {
+          "added_at": "2026-07-17T17:02:38Z",
+          "artists": [
+            "Harry Styles"
+          ],
+          "id": "5Ohxk2dO5COHF1krpoPigN",
+          "name": "Sign of the Times"
         }
       ]
     }
