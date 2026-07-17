@@ -1,134 +1,697 @@
-/* app.css — シェルのレイアウト。モバイル縦画面ファースト（受け入れ基準 §14-7）。 */
+/* app.css — シェルのレイアウト。モバイル縦画面ファースト（DESIGN §8）。
+ * Spotify の没入ダーク: 面は #121212〜#282828、色は緑のみ、影で深度を出す。 */
 
 .shell {
-  max-width: 1100px;
+  max-width: 1040px;
   margin: 0 auto;
-  padding: var(--sp-4);
+  padding: var(--sp-4) var(--sp-4) var(--sp-10);
 }
 
+/* ── ヘッダー ─────────────────────────────────── */
 .app-header {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
-  padding: var(--sp-2) 0 var(--sp-4);
+  padding: var(--sp-3) 0 var(--sp-4);
 }
 .app-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
   font-family: var(--font-title);
   font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--green);
+  font-size: 1.2rem;
   white-space: nowrap;
 }
-.app-header .spacer { flex: 1; }
+/* Spotify ロゴ（インライン SVG） */
+.app-logo .mark {
+  display: inline-flex;
+  align-items: center;
+}
+.app-header .spacer {
+  flex: 1;
+}
 
-/* ナビ: 横スクロールするピル群（モバイルでも破綻しない） */
+/* ナビ: 横スクロールするピル群（DESIGN §4 Dark Pill・アクティブは白） */
 .nav {
   display: flex;
   gap: var(--sp-2);
   overflow-x: auto;
   padding-bottom: var(--sp-3);
+  margin-bottom: var(--sp-4);
   scrollbar-width: none;
 }
-.nav::-webkit-scrollbar { display: none; }
-.nav a { flex: 0 0 auto; }
+.nav::-webkit-scrollbar {
+  display: none;
+}
+.nav a {
+  flex: 0 0 auto;
+}
 
 .auth-banner {
-  border-radius: var(--r-section);
+  border-radius: var(--r-card);
   padding: var(--sp-3) var(--sp-4);
   margin-bottom: var(--sp-4);
   font-size: 0.875rem;
   line-height: 1.5;
 }
 .auth-banner code {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: var(--r-input);
   padding: 1px 5px;
   font-size: 0.82em;
 }
-.auth-banner--error { background: rgba(243, 114, 127, 0.16); color: #ffd7db; }
-.auth-banner--warn { background: rgba(255, 164, 43, 0.14); color: #ffe6c2; }
+.auth-banner--error {
+  background: rgba(243, 114, 127, 0.16);
+  color: #ffd7db;
+}
+.auth-banner--warn {
+  background: rgba(255, 164, 43, 0.14);
+  color: #ffe6c2;
+}
 
-/* 汎用グリッド */
-.row { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
+/* ── Home ヒーロー: 夜間ラン（Spotify のプレイリスト見出し相当・achromatic） ── */
+.nightband {
+  position: relative;
+  border-radius: var(--r-panel);
+  /* アルバムアートの代わりに中性のグラデーションで見出しの奥行きを出す（緑は使わない） */
+  background: linear-gradient(180deg, #2c2c2c 0%, #1d1d1d 44%, #161616 100%);
+  box-shadow: var(--shadow-card);
+  padding: var(--sp-6);
+  margin-bottom: var(--sp-8);
+}
+.nightband-top {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+}
+.nightband-top .status {
+  margin-left: auto;
+}
+.nightband h1 {
+  margin-bottom: var(--sp-2);
+}
+.nightband-sub {
+  color: var(--text-near-white);
+  font-size: 0.95rem;
+  margin: 0 0 var(--sp-5);
+}
+
+/* 4 段パイプライン: inbox → sync → sort → archive（本物の順序なので採番） */
+.pipe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: var(--sp-2);
+}
+.pipe-step {
+  min-width: 0;
+  padding: var(--sp-3);
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: var(--r-card);
+}
+.pipe-step .k {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pipe-step .v {
+  display: block;
+  margin: var(--sp-2) 0 var(--sp-1);
+  font-family: var(--font-title);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--text-base);
+}
+.pipe-step .v.pos {
+  color: var(--green);
+}
+.pipe-step .v.zero {
+  color: var(--text-secondary);
+}
+.pipe-step .d {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  line-height: 1.35;
+}
+.nightband-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-6);
+  margin-top: var(--sp-5);
+}
+.foot-stat .k {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  margin-bottom: var(--sp-1);
+}
+.foot-stat .v {
+  font-family: var(--font-title);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* ── セクション見出し（Spotify: 太字タイトル＋任意で右にリンク） ────── */
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+
+/* ── 汎用グリッド ───────────────────────────────── */
+.row {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
 .grid-cards {
   display: grid;
   gap: var(--sp-3);
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
+/* ── 統計カード ─────────────────────────────────── */
+.stat {
+  background: var(--surface-card);
+  border-radius: var(--r-card);
+  padding: var(--sp-4);
+  flex: 1 1 140px;
+  min-width: 0;
+  box-shadow: var(--shadow-card);
+}
+.stat .k {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.stat .v {
+  font-family: var(--font-title);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1;
+  margin: var(--sp-3) 0 var(--sp-2);
+}
+.stat .s {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+/* ── リスト（Spotify のトラック行） ─────────────────── */
 .list-row {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
   padding: var(--sp-2) var(--sp-3);
-  border-radius: var(--r-card);
+  border-radius: var(--r-input);
 }
-.list-row:hover { background: var(--surface-card-hover); }
+.list-row:hover {
+  background: var(--surface-hover);
+}
+.list-row.clickable {
+  cursor: pointer;
+}
 .list-rank {
-  width: 24px;
+  width: 22px;
   text-align: right;
   color: var(--text-secondary);
   font-variant-numeric: tabular-nums;
 }
-.list-main { min-width: 0; flex: 1; }
-.list-main .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list-main {
+  min-width: 0;
+  flex: 1;
+}
+.list-main .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .list-count {
   font-variant-numeric: tabular-nums;
   color: var(--text-secondary);
   font-size: 0.875rem;
 }
+/* クリックできる行に出す「開く」ヒント（Spotify の再生ボタン相当・緑） */
+.row-open {
+  flex: 0 0 auto;
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.list-row.clickable:hover .row-open {
+  opacity: 1;
+}
 
-/* 重複グループカード */
-.dupe-group { margin-bottom: var(--sp-4); }
-.dupe-cand {
+/* ── アーティスト分布（クリックできる横棒リスト） ─────────── */
+.art-row {
   display: grid;
-  gap: var(--sp-2);
-  grid-template-columns: 1fr;
-  padding: var(--sp-3);
-  border-radius: var(--r-card);
+  grid-template-columns: minmax(88px, 0.42fr) 1fr auto auto;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  padding: var(--sp-2);
+  border: none;
+  border-radius: var(--r-input);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.art-row:hover {
+  background: var(--surface-hover);
+}
+.art-play {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--r-circle);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--surface-2);
+  color: var(--text-base);
+}
+.art-row:hover .art-play {
+  background: var(--green);
+  color: #000;
+}
+.art-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+}
+.art-bar {
+  height: 10px;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+.art-bar > i {
+  display: block;
+  height: 100%;
+  border-radius: var(--r-pill);
+  background: var(--green);
+}
+.art-count {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  min-width: 2ch;
+  text-align: right;
+}
+
+/* ── サブナビ（重複 / 未判定 の切替） ─────────────── */
+.seg {
+  display: inline-flex;
+  gap: 4px;
+  background: var(--surface-1);
+  border-radius: var(--r-pill);
+  padding: 4px;
+  margin-bottom: var(--sp-5);
+  max-width: 100%;
+}
+.seg button {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  min-height: 40px;
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.seg button.is-active {
+  background: var(--text-base);
+  color: var(--bg-base);
+}
+.seg .seg-count {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  opacity: 0.75;
+}
+
+/* 統計の対象プレイリスト選択（横スクロールするピル） */
+.pl-picker {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  scrollbar-width: none;
+}
+.pl-picker::-webkit-scrollbar {
+  display: none;
+}
+.pl-picker button {
+  flex: 0 0 auto;
+  border: none;
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  min-height: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.pl-picker button:hover {
+  background: var(--surface-hover);
+  color: var(--text-base);
+}
+.pl-picker button.is-active {
+  background: var(--text-base);
+  color: var(--bg-base);
+}
+
+/* ── 再生ボタン（→ 常駐プレイヤー） ─────────────── */
+.play-btn {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-circle);
+  border: none;
+  background: var(--surface-hover);
+  color: var(--text-base);
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.15s ease, color 0.15s ease;
+}
+.play-btn:hover {
+  background: var(--green);
+  color: #000;
+  transform: scale(1.06);
+}
+.play-btn:active {
+  transform: scale(0.95);
+}
+
+/* ── 重複グループカード（埋め込みを廃し、コンパクト行＋再生ボタンに） ── */
+.dupe-group {
+  margin-bottom: var(--sp-5);
+}
+.dupe-cand {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-input);
+  background: var(--surface-2);
+  border: 1px solid transparent;
   margin-bottom: var(--sp-2);
 }
-.dupe-cand .meta { display: flex; gap: var(--sp-2); flex-wrap: wrap; align-items: center; }
-.dupe-actions { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-top: var(--sp-1); }
+.dupe-cand.is-keep {
+  border-color: var(--green);
+  background: rgba(30, 215, 96, 0.07);
+}
+.dupe-cand .cand-main {
+  flex: 1;
+  min-width: 0;
+}
+.dupe-cand .cand-name {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-weight: 700;
+}
+.dupe-cand .cand-name .txt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dupe-cand .cand-meta {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 「残す」トグル（大きめのタップ領域・44px） */
+.keep-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
+  user-select: none;
+}
+.keep-toggle input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--green);
+  cursor: pointer;
+}
+.dupe-cand.is-keep .keep-toggle {
+  color: var(--green);
+}
+.dupe-actions {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: var(--sp-3);
+}
 
+/* ── 常駐プレイヤー（画面下バー・DESIGN §5 now-playing bar） ─────── */
+.player-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  background: #181818;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(130%);
+  transition: transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.player-bar.is-visible {
+  transform: translateY(0);
+}
+.player-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-3);
+  padding-bottom: calc(var(--sp-2) + env(safe-area-inset-bottom, 0px));
+}
+.player-embed {
+  flex: 1;
+  min-width: 0;
+}
+.player-embed iframe {
+  display: block;
+  border-radius: 8px;
+}
+.player-close {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-circle);
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-base);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+body.has-player .shell {
+  padding-bottom: 116px;
+}
+
+/* ── フォーム（DESIGN §4 pill inputs） ───────────────── */
 .pat-box {
   display: flex;
   gap: var(--sp-2);
   flex-wrap: wrap;
   align-items: center;
 }
-.pat-input {
+.pat-input,
+.input-search {
   background: var(--surface-2);
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
+  box-shadow: inset 0 0 0 1px var(--border-muted);
   border-radius: var(--r-pill);
   color: var(--text-base);
   padding: var(--sp-2) var(--sp-4);
   font: inherit;
   font-size: 0.875rem;
+}
+.pat-input {
   min-width: 220px;
 }
-
 .input-search {
   width: 100%;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--r-pill);
-  color: var(--text-base);
   padding: var(--sp-3) var(--sp-4);
-  font: inherit;
+}
+.pat-input:focus,
+.input-search:focus {
+  outline: none;
+  box-shadow: inset 0 0 0 1px var(--text-base);
 }
 
-table.data-table { width: 100%; border-collapse: collapse; }
-.data-table th, .data-table td {
+/* ── テーブル（Spotify: 行 hover でうっすら明るく） ─────── */
+table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table th,
+.data-table td {
   text-align: left;
   padding: var(--sp-2) var(--sp-3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--line);
   font-size: 0.875rem;
 }
-.data-table th { color: var(--text-secondary); font-weight: 600; }
+.data-table th {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+.data-table tbody tr:hover {
+  background: var(--surface-hover);
+}
+.data-table td.num {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-near-white);
+}
+
+/* ── モーダル（DESIGN §6 Dialog: 重い影） ─────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: var(--sp-4);
+  animation: overlay-in 0.16s ease both;
+}
+@media (min-width: 600px) {
+  .modal-overlay {
+    align-items: center;
+  }
+}
+.modal-dialog {
+  width: 100%;
+  max-width: 460px;
+  background: var(--surface-elev);
+  border-radius: var(--r-panel);
+  box-shadow: var(--shadow-dialog);
+  padding: var(--sp-5);
+  animation: dialog-in 0.2s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.modal-head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+.modal-head .grow {
+  flex: 1;
+  min-width: 0;
+}
+.modal-close {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--r-circle);
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-base);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.modal-actions {
+  margin-top: var(--sp-4);
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+/* ── モーション配慮 ─────────────────────────────── */
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
 
 @media (max-width: 480px) {
-  .shell { padding: var(--sp-3); }
-  .stat-num { font-size: 1.6rem; }
+  .shell {
+    padding: var(--sp-3) var(--sp-3) var(--sp-8);
+  }
+  .nightband {
+    padding: var(--sp-4);
+  }
+  .pipe-step .v {
+    font-size: 1.4rem;
+  }
+  .stat .v {
+    font-size: 1.7rem;
+  }
 }

@@ -1,17 +1,20 @@
 /* theme.css — デザイントークン（docs/DESIGN-spotify.md の正典を CSS 変数化）
- * 色・余白・角丸・フォントはすべてここ経由。コンポーネントでハードコードしない。
- * デザイン差し替えはこのファイルのトークンだけ変えれば済むようにする。 */
+ * 方針: near-black の没入ダーク（#121212〜#282828）。色は Spotify Green（#1ed760）だけ、
+ * それも「機能（再生・アクティブ・CTA）」のみ。装飾に緑を使わない・他のブランド色を足さない。
+ * タイポは Circular 系（SpotifyMixUI）1 本。数字は tabular-nums で桁を揃える（等幅フォントは使わない）。
+ * 深度は影で表現（ダーク上では影を濃く）。色・余白・角丸はここ経由でハードコードしない。 */
 
 :root {
-  /* 表面（深度: DESIGN §6） */
+  /* 表面（DESIGN §6 深度: near-black の階調） */
   --bg-base: #121212;
   --surface-1: #181818;
   --surface-2: #1f1f1f;
   --surface-card: #181818;
-  --surface-card-hover: #252525;
-  --surface-alt: #272727;
+  --surface-hover: #2a2a2a;
+  --surface-elev: #282828; /* ダイアログ・浮いた面 */
+  --line: rgba(255, 255, 255, 0.08);
 
-  /* ブランド（緑は機能的にのみ・DESIGN §2, §7） */
+  /* ブランド（緑＝機能のみ・DESIGN §2, §7） */
   --green: #1ed760;
   --green-press: #1db954;
 
@@ -21,7 +24,7 @@
   --text-near-white: #cbcbcb;
   --text-emphasis: #fdfdfd;
 
-  /* セマンティック */
+  /* セマンティック（DESIGN §2） */
   --negative: #f3727f;
   --warning: #ffa42b;
   --announce: #539df5;
@@ -30,16 +33,16 @@
   --border: #4d4d4d;
   --border-muted: #7c7c7c;
 
-  /* 角丸スケール（DESIGN §5.3） */
+  /* 角丸（DESIGN §5.3） */
   --r-badge: 2px;
   --r-input: 4px;
-  --r-card: 6px;
-  --r-section: 8px;
+  --r-card: 8px;
   --r-panel: 12px;
   --r-pill: 500px;
   --r-full: 9999px;
+  --r-circle: 50%;
 
-  /* シャドウ（DESIGN §6） */
+  /* 影（DESIGN §6 — ダーク上では濃く） */
   --shadow-card: rgba(0, 0, 0, 0.3) 0px 8px 8px;
   --shadow-dialog: rgba(0, 0, 0, 0.5) 0px 8px 24px;
 
@@ -51,6 +54,7 @@
   --sp-5: 20px;
   --sp-6: 24px;
   --sp-8: 32px;
+  --sp-10: 40px;
 
   /* フォント（proprietary が無い環境では fallback stack・DESIGN §3） */
   --font-ui: "SpotifyMixUI", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
@@ -89,7 +93,21 @@ h3 {
   margin: 0;
 }
 
-/* タイポグラフィのユーティリティ（DESIGN §3 の hierarchy） */
+/* ── タイポグラフィ（DESIGN §3 の hierarchy） ─────────────── */
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.t-display {
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
 .t-section {
   font-family: var(--font-title);
   font-size: 1.5rem;
@@ -97,7 +115,7 @@ h3 {
 }
 .t-heading {
   font-size: 1.13rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
 }
 .t-body-bold {
@@ -111,11 +129,17 @@ h3 {
   font-size: 0.75rem;
   color: var(--text-secondary);
 }
+.num {
+  font-variant-numeric: tabular-nums;
+}
+.muted {
+  color: var(--text-secondary);
+}
 
-/* 汎用パーツ */
+/* ── 汎用パーツ ─────────────────────────────────── */
 .card {
   background: var(--surface-card);
-  border-radius: var(--r-section);
+  border-radius: var(--r-card);
   padding: var(--sp-4);
 }
 .card-elevated {
@@ -135,17 +159,31 @@ h3 {
   font-size: 0.875rem;
   font-weight: 700;
   cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.05s ease;
+}
+.pill:hover:not(:disabled) {
+  background: var(--surface-hover);
+  color: var(--text-base);
 }
 .pill.is-active {
   background: var(--text-base);
+  color: var(--bg-base);
+}
+.pill.is-active:hover {
+  background: #f0f0f0;
   color: var(--bg-base);
 }
 .pill-green {
   background: var(--green);
   color: #000;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.1em;
   font-weight: 700;
+}
+.pill-green:hover:not(:disabled) {
+  background: var(--green-press);
+  color: #000;
+  transform: scale(1.03);
 }
 .pill:disabled {
   opacity: 0.45;
@@ -155,21 +193,23 @@ h3 {
 .badge {
   display: inline-block;
   font-size: 0.66rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   border-radius: var(--r-badge);
   padding: 2px 6px;
-  background: var(--surface-alt);
+  background: var(--surface-2);
   color: var(--text-secondary);
 }
-.badge-a { background: rgba(243, 114, 127, 0.18); color: var(--negative); }
-.badge-b { background: rgba(30, 215, 96, 0.16); color: var(--green); }
-.badge-c { background: rgba(83, 157, 245, 0.16); color: var(--announce); }
-
-.muted { color: var(--text-secondary); }
-.stat-num {
-  font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1;
+.badge-a {
+  background: rgba(243, 114, 127, 0.18);
+  color: var(--negative);
+}
+.badge-b {
+  background: rgba(30, 215, 96, 0.16);
+  color: var(--green);
+}
+.badge-c {
+  background: rgba(83, 157, 245, 0.16);
+  color: var(--announce);
 }

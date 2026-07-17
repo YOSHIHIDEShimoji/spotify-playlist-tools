@@ -26,7 +26,19 @@ export function App() {
   return (
     <div className="shell">
       <header className="app-header">
-        <span className="app-logo">◆ Spotify Dashboard</span>
+        <span className="app-logo">
+          <span className="mark" aria-hidden>
+            <svg viewBox="42 42 172 172" width="26" height="26">
+              <circle cx="128" cy="128" r="86" fill="#1ED760" />
+              <g fill="none" stroke="#121212" strokeLinecap="round">
+                <path strokeWidth="15" d="M82 108 q46 -14 92 10" />
+                <path strokeWidth="12.5" d="M86 134 q42 -12 82 9" />
+                <path strokeWidth="10" d="M90 158 q36 -10 70 8" />
+              </g>
+            </svg>
+          </span>
+          Spotify Dashboard
+        </span>
         <span className="spacer" />
         <button
           className={"pill" + (pat ? " is-active" : "")}

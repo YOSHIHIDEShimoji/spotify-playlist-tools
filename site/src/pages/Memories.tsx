@@ -1,7 +1,7 @@
 import { useJson } from "../lib/data";
 import type { ArchiveWeekly, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
-import { EmbedPlayer } from "../components/EmbedPlayer";
+import { PlayButton } from "../lib/player";
 
 const DOW = ["月", "火", "水", "木", "金", "土", "日"];
 
@@ -13,6 +13,20 @@ function isoWeekLabel(d: Date): string {
   const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
   const week = Math.ceil(((date.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
   return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+// 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。
+function TrackRow({ track, rank }: { track: { id: string; name: string; artists: string[] }; rank?: number }) {
+  return (
+    <div className="list-row">
+      {rank != null && <span className="list-rank">{rank}</span>}
+      <span className="list-main">
+        <div className="name">{track.name}</div>
+        <div className="t-small">{track.artists.join(", ")}</div>
+      </span>
+      <PlayButton uri={`spotify:track:${track.id}`} />
+    </div>
+  );
 }
 
 export function Memories() {
@@ -35,14 +49,8 @@ export function Memories() {
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
-              <div className="list-row" key={t.id}>
-                <span className="list-main">
-                  <div className="name">{t.name}</div>
-                  <div className="t-small">{t.artists.join(", ")}</div>
-                </span>
-              </div>
+              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
             ))}
-            {match.tracks[0] && <EmbedPlayer trackId={match.tracks[0].id} />}
           </div>
         )}
       </Section>
@@ -57,12 +65,7 @@ export function Memories() {
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{w.iso_week}（{w.tracks.length}曲）</div>
               {w.tracks.slice(0, 8).map((t) => (
-                <div className="list-row" key={t.id}>
-                  <span className="list-main">
-                    <div className="name">{t.name}</div>
-                    <div className="t-small">{t.artists.join(", ")}</div>
-                  </span>
-                </div>
+                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
               ))}
             </div>
           ))
@@ -99,11 +102,7 @@ function WrappedMonth({ month }: { month: string }) {
         <div className="card" style={{ flex: "1 1 260px" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
           {d.top_tracks.map((t, i) => (
-            <div className="list-row" key={t.track_id}>
-              <span className="list-rank">{i + 1}</span>
-              <span className="list-main"><div className="name">{t.name}</div><div className="t-small">{t.artists.join(", ")}</div></span>
-              <span className="list-count">{t.count}回</span>
-            </div>
+            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>
