@@ -1,0 +1,147 @@
+// dashboard-design.md §5.3 のデータスキーマに対応する TS 型。
+
+export interface RunRecord {
+  date: string;
+  run_id: number | null;
+  status: "success" | "partial";
+  dry_run: boolean;
+  steps: {
+    inbox: { processed: number; japanese: number; western: number; unknown: number };
+    sync: { added: number; removed: number; new_playlists: number };
+    sort: { playlists: number; skipped: number };
+    archive: { added: number };
+  };
+  generated_at: string;
+}
+
+export interface AuthStatus {
+  token_ok: boolean;
+  checked_at: string;
+  missing_scopes: string[];
+}
+
+export interface DupeTrack {
+  id: string;
+  name: string;
+  artists: string[];
+  album: string;
+  album_type: string;
+  release_date: string;
+  duration_ms: number | null;
+  popularity: number | null;
+  isrc: string;
+  playlists: { id: string; name: string }[];
+}
+
+export interface DupeGroup {
+  id: string;
+  tier: "A" | "B" | "C";
+  reason: string;
+  // Tier B/C
+  tracks?: DupeTrack[];
+  // Tier A
+  playlist?: { id: string; name: string };
+  track?: { id: string; name: string; artists: string[] };
+  count?: number;
+}
+
+export interface Dupes {
+  generated_at: string;
+  counts: { A: number; B: number; C: number };
+  groups: DupeGroup[];
+}
+
+export interface UnknownTrack {
+  id: string;
+  name: string;
+  artists: string[];
+  isrc: string;
+}
+
+export interface Unknown {
+  generated_at: string;
+  tracks: UnknownTrack[];
+}
+
+export interface RankedTrack {
+  track_id: string;
+  name: string;
+  artists: string[];
+  count: number;
+}
+
+export interface ListeningStats {
+  generated_at: string;
+  since: string | null;
+  weekly_top: RankedTrack[];
+  cumulative_top: RankedTrack[];
+  streak: number;
+  milestone: { total: number; reached: number[]; next: number | null };
+}
+
+export interface Stats {
+  generated_at: string;
+  artists_top: { name: string; count: number }[];
+  decades: { decade: number; count: number }[];
+}
+
+export interface HeatmapCell {
+  dow: number;
+  hour: number;
+  count: number;
+}
+export interface Heatmap {
+  generated_at: string;
+  cells: HeatmapCell[];
+}
+
+export interface StatsHistoryRow {
+  date: string;
+  playlist_id: string;
+  name: string;
+  count: number;
+}
+
+export interface TopEntry {
+  id: string;
+  name: string;
+  artists?: string[];
+  rank: number;
+}
+export interface Top {
+  generated_at: string;
+  tracks: Record<string, TopEntry[]>;
+  artists: Record<string, TopEntry[]>;
+}
+
+export interface ReleaseItem {
+  album_id: string;
+  album_name: string;
+  album_type: string;
+  artist: string;
+  release_date: string;
+}
+export interface Releases {
+  generated_at: string;
+  items: ReleaseItem[];
+}
+
+export interface ArchiveWeek {
+  iso_week: string;
+  tracks: { id: string; name: string; artists: string[]; added_at: string }[];
+}
+export interface ArchiveWeekly {
+  generated_at: string;
+  weeks: ArchiveWeek[];
+}
+
+export interface SearchTrack {
+  id: string;
+  name: string;
+  artists: string[];
+  playlists: string[];
+}
+export interface SearchIndex {
+  generated_at: string;
+  tracks: SearchTrack[];
+}

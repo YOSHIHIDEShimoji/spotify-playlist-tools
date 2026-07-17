@@ -1,0 +1,134 @@
+/* app.css — シェルのレイアウト。モバイル縦画面ファースト（受け入れ基準 §14-7）。 */
+
+.shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: var(--sp-4);
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0 var(--sp-4);
+}
+.app-logo {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--green);
+  white-space: nowrap;
+}
+.app-header .spacer { flex: 1; }
+
+/* ナビ: 横スクロールするピル群（モバイルでも破綻しない） */
+.nav {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  padding-bottom: var(--sp-3);
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar { display: none; }
+.nav a { flex: 0 0 auto; }
+
+.auth-banner {
+  border-radius: var(--r-section);
+  padding: var(--sp-3) var(--sp-4);
+  margin-bottom: var(--sp-4);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.auth-banner code {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: var(--r-input);
+  padding: 1px 5px;
+  font-size: 0.82em;
+}
+.auth-banner--error { background: rgba(243, 114, 127, 0.16); color: #ffd7db; }
+.auth-banner--warn { background: rgba(255, 164, 43, 0.14); color: #ffe6c2; }
+
+/* 汎用グリッド */
+.row { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
+.grid-cards {
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-card);
+}
+.list-row:hover { background: var(--surface-card-hover); }
+.list-rank {
+  width: 24px;
+  text-align: right;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.list-main { min-width: 0; flex: 1; }
+.list-main .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* 重複グループカード */
+.dupe-group { margin-bottom: var(--sp-4); }
+.dupe-cand {
+  display: grid;
+  gap: var(--sp-2);
+  grid-template-columns: 1fr;
+  padding: var(--sp-3);
+  border-radius: var(--r-card);
+  background: var(--surface-2);
+  margin-bottom: var(--sp-2);
+}
+.dupe-cand .meta { display: flex; gap: var(--sp-2); flex-wrap: wrap; align-items: center; }
+.dupe-actions { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-top: var(--sp-1); }
+
+.pat-box {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pat-input {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-pill);
+  color: var(--text-base);
+  padding: var(--sp-2) var(--sp-4);
+  font: inherit;
+  font-size: 0.875rem;
+  min-width: 220px;
+}
+
+.input-search {
+  width: 100%;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r-pill);
+  color: var(--text-base);
+  padding: var(--sp-3) var(--sp-4);
+  font: inherit;
+}
+
+table.data-table { width: 100%; border-collapse: collapse; }
+.data-table th, .data-table td {
+  text-align: left;
+  padding: var(--sp-2) var(--sp-3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.875rem;
+}
+.data-table th { color: var(--text-secondary); font-weight: 600; }
+
+@media (max-width: 480px) {
+  .shell { padding: var(--sp-3); }
+  .stat-num { font-size: 1.6rem; }
+}
