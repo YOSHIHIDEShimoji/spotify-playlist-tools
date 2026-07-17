@@ -1,0 +1,67 @@
+name: listen-log
+
+# 聴取ログ収集（dashboard-design §6.1）。3時間ごとに recently-played を取得し
+# data ブランチの listening/*.jsonl へ追記する。読み取り専用（プレイリストは変更しない）。
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-branch     # data ブランチへの書き込みを直列化
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+  SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIPY_CLIENT_ID }}
+  SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
+  SPOTIPY_REDIRECT_URI: 'http://127.0.0.1:8000/callback'
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/checkout@v5
+        with:
+          ref: data
+          path: _data
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Restore Spotify token cache
+        run: printf '%s' "$SPOTIFY_TOKEN_CACHE" > .cache-spotify
+        env:
+          SPOTIFY_TOKEN_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
+
+      - name: Poll recently-played
+        run: python listen_log.py --data-dir _data/data
+
+      - name: Push if changed
+        working-directory: _data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "聴取ログに変更なし"
+            exit 0
+          fi
+          git commit -m "data: 聴取ログ更新"
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push 競合。rebase して再試行 ($i/3)"
+            git pull --rebase origin data
+          done
+          exit 1
