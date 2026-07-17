@@ -96,7 +96,11 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
   return (
     <div className="nightband">
       <div className="nightband-top">
-        <span className="eyebrow">nightly run · 01:00 JST</span>
+        <span className="eyebrow">
+          {isDryOnly || !jstTime(latest.generated_at)
+            ? "nightly run · 01:00 JST 予定"
+            : `nightly run · ${jstTime(latest.generated_at)} JST 実行`}
+        </span>
         {isDryOnly
           ? <span className="badge status">dry run</span>
           : <span className={"badge status " + badge.cls}>{badge.label}</span>}

@@ -269,6 +269,7 @@
   display: grid;
   gap: var(--sp-3);
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  align-items: start; /* カード高を最長に揃えず、埋め込み下の余白を残さない */
 }
 
 /* ── 統計カード ─────────────────────────────────── */
@@ -334,15 +335,13 @@
   color: var(--text-secondary);
   font-size: 0.875rem;
 }
-/* 検索ヒットの「収録プレイリスト」: 長くても再生ボタンを押しのけない */
+/* 検索ヒットの「収録プレイリスト」: 曲名の下に1行で（曲名は全幅で読める） */
 .search-in {
-  flex: 0 1 auto;
-  min-width: 0;
-  max-width: 42%;
-  text-align: right;
+  margin-top: 2px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  opacity: 0.85;
 }
 /* クリックできる行に出す「開く」ヒント（Spotify の再生ボタン相当・緑） */
 .row-open {

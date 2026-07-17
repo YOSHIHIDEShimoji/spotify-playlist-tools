@@ -449,6 +449,8 @@ def main() -> int:
     core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra, keep_sets))
     # stats: 管理ライブラリの top-level（Growth 用）＋ 選択式の per-playlist（Western/Japanese/1900's）
     stats_json = build_stats(pl_records)
+    # 検索インデックスは既定で管理PLのみ。1900's が読めたら merged に差し替え（統計と齟齬を作らない）。
+    search_records = pl_records
     try:
         import inbox
         jp, western, _ = inbox.load_inbox_config(inbox.INBOX_CONFIG_PATH)
@@ -458,11 +460,13 @@ def main() -> int:
             {"id": jp, "name": "Japanese Musics"},
             *STATS_EXTRA_PLAYLISTS,
         ]
-        stats_json["dist"] = build_stats_dist(_merge_records(pl_records, extra_records), selectable)
+        merged = _merge_records(pl_records, extra_records)
+        stats_json["dist"] = build_stats_dist(merged, selectable)
+        search_records = merged  # 統計に出る 1900's の曲を検索でも見つけられるようにする
     except Exception as e:  # noqa: BLE001 — 追加PLが読めなくても top-level 統計は出す
         logger.info(f"stats dist スキップ: {e}")
     core.atomic_write_json(data / "stats.json", stats_json)
-    core.atomic_write_json(data / "search_index.json", build_search_index(pl_records))
+    core.atomic_write_json(data / "search_index.json", build_search_index(search_records))
     # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
     # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。
     history_rows = playlist_count_rows(pl_records, playlists, date_str)

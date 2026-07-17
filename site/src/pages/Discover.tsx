@@ -1,6 +1,7 @@
 import { useJson } from "../lib/data";
 import type { AuthStatus, Releases, Top } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
+import { PlayButton } from "../lib/player";
 
 const TERMS: { key: string; label: string }[] = [
   { key: "short_term", label: "最近（約4週間）" },
@@ -86,6 +87,7 @@ function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
                   <div className="name">{tr.name}</div>
                   <div className="t-small">{(tr.artists ?? []).join(", ")}</div>
                 </span>
+                <PlayButton uri={`spotify:track:${tr.id}`} />
               </div>
             ))}
           </div>

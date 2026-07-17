@@ -81,7 +81,7 @@ export function Memories() {
           recent.map((w) => (
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
-                {isoWeekRange(w.iso_week)} の週 <span className="muted t-small">{w.iso_week}</span> · {w.tracks.length}曲
+                {isoWeekRange(w.iso_week)} の週 <code className="muted">{w.iso_week}</code> · {w.tracks.length}曲
               </div>
               {w.tracks.slice(0, 8).map((t) => (
                 <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
