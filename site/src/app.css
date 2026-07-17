@@ -358,6 +358,42 @@
   opacity: 0.75;
 }
 
+/* 統計の対象プレイリスト選択（横スクロールするピル） */
+.pl-picker {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  scrollbar-width: none;
+}
+.pl-picker::-webkit-scrollbar {
+  display: none;
+}
+.pl-picker button {
+  flex: 0 0 auto;
+  border: none;
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  min-height: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.pl-picker button:hover {
+  background: var(--surface-hover);
+  color: var(--text-base);
+}
+.pl-picker button.is-active {
+  background: var(--text-base);
+  color: var(--bg-base);
+}
+
 /* ── 再生ボタン（→ 常駐プレイヤー） ─────────────── */
 .play-btn {
   flex: 0 0 auto;

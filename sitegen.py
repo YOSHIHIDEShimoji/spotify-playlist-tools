@@ -30,6 +30,10 @@ CUMULATIVE_TOP = 100
 WEEKLY_TOP = 50
 MILESTONES = [100, 250, 500, 1000, 2500, 5000, 10000]
 
+# stats タブで選択できる「完成済み」プレイリスト。管理対象（夜間更新）ではないので
+# dedupe（重複検出）には入れず、統計の閲覧だけ対象にする。Western/Japanese は inbox 設定から取る。
+STATS_EXTRA_PLAYLISTS = [{"id": "6sqoiZw75RIvnUFC058VJv", "name": "1900's songs"}]
+
 
 def _now_utc_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -113,9 +117,10 @@ def monthly_wrapped(records: list[dict], month: str, new_tracks: int = 0) -> dic
 
 # ─────────────────────── プレイリスト由来（純関数・records から） ───────────────────────
 
-def build_stats(records: list[dict]) -> dict:
+def _stats_of(records: list[dict]) -> dict:
+    """records（トラック一意）から total / artists_top / decades を出す純関数。"""
     artist_counts: Counter[str] = Counter()
-    artist_id: dict[str, str] = {}  # 名前→代表 Spotify アーティスト ID（モーダルの直リンク用）
+    artist_id: dict[str, str] = {}  # 名前→代表 Spotify アーティスト ID（直リンク用）
     decade_counts: Counter[int] = Counter()
     for r in records:
         for a in r.get("artists") or []:
@@ -128,13 +133,48 @@ def build_stats(records: list[dict]) -> dict:
         if len(rd) >= 4 and rd[:4].isdigit():
             decade_counts[(int(rd[:4]) // 10) * 10] += 1
     return {
-        "generated_at": _now_utc_iso(),
-        "total": len(records),  # ユニーク曲数（プレイリスト延べ合計ではない）
+        "total": len(records),  # ユニーク曲数（延べ合計ではない）
         "artists_top": [
             {"name": n, "count": c, **({"id": artist_id[n]} if n in artist_id else {})}
             for n, c in artist_counts.most_common(STATS_ARTIST_TOP)
         ],
         "decades": [{"decade": d, "count": decade_counts[d]} for d in sorted(decade_counts)],
+    }
+
+
+def build_stats(records: list[dict]) -> dict:
+    return {"generated_at": _now_utc_iso(), **_stats_of(records)}
+
+
+def _merge_records(base: list[dict], extra: list[dict]) -> list[dict]:
+    """track_id で base ∪ extra を取り、playlists 在籍をマージする（統計の選択用）。"""
+    by_id: dict[str, dict] = {r["id"]: dict(r) for r in base}
+    for r in extra:
+        tid = r["id"]
+        if tid in by_id:
+            seen = {p["id"] for p in by_id[tid].get("playlists", [])}
+            for p in r.get("playlists", []):
+                if p["id"] not in seen:
+                    by_id[tid].setdefault("playlists", []).append(p)
+        else:
+            by_id[tid] = dict(r)
+    return list(by_id.values())
+
+
+def build_stats_dist(records: list[dict], selectable: list[dict]) -> dict:
+    """stats タブの選択用。selectable 各プレイリスト単体＋全部合算（all）の統計を返す。
+    records は selectable 全プレイリストの在籍を含む前提（_merge_records 済み）。"""
+    ids = [p["id"] for p in selectable]
+
+    def in_pl(r: dict, pid: str) -> bool:
+        return any(p.get("id") == pid for p in r.get("playlists", []))
+
+    by = {pid: _stats_of([r for r in records if in_pl(r, pid)]) for pid in ids}
+    allrecs = [r for r in records if any(in_pl(r, i) for i in ids)]
+    return {
+        "playlists": [{"id": p["id"], "name": p["name"]} for p in selectable],
+        "all": _stats_of(allrecs),
+        "by": by,
     }
 
 
@@ -407,7 +447,21 @@ def main() -> int:
     pl_records, intra = dedupe.collect_records(sp, playlists)
     keep_sets = dedupe.load_keep_sets(data)  # 「両方残す」をスキャンから除外（H2）
     core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra, keep_sets))
-    core.atomic_write_json(data / "stats.json", build_stats(pl_records))
+    # stats: 管理ライブラリの top-level（Growth 用）＋ 選択式の per-playlist（Western/Japanese/1900's）
+    stats_json = build_stats(pl_records)
+    try:
+        import inbox
+        jp, western, _ = inbox.load_inbox_config(inbox.INBOX_CONFIG_PATH)
+        extra_records, _intra = dedupe.collect_records(sp, STATS_EXTRA_PLAYLISTS)  # 読み取り専用
+        selectable = [
+            {"id": western, "name": "Western Musics"},
+            {"id": jp, "name": "Japanese Musics"},
+            *STATS_EXTRA_PLAYLISTS,
+        ]
+        stats_json["dist"] = build_stats_dist(_merge_records(pl_records, extra_records), selectable)
+    except Exception as e:  # noqa: BLE001 — 追加PLが読めなくても top-level 統計は出す
+        logger.info(f"stats dist スキップ: {e}")
+    core.atomic_write_json(data / "stats.json", stats_json)
     core.atomic_write_json(data / "search_index.json", build_search_index(pl_records))
     # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
     # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。

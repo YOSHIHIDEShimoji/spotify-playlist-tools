@@ -101,6 +101,32 @@ def test_build_stats_and_search():
     assert counts == {"p1": 2, "p2": 1}
 
 
+def test_merge_records_and_stats_dist():
+    # a: Western のみ / b: Western（後で 1900's も）/ c: 1900's のみ
+    base = [
+        {"id": "a", "artists": [{"name": "X"}], "album": {"release_date": "2015-01-01"},
+         "playlists": [{"id": "pW", "name": "W"}]},
+        {"id": "b", "artists": [{"name": "Y"}], "album": {"release_date": "2005-01-01"},
+         "playlists": [{"id": "pW", "name": "W"}]},
+    ]
+    extra = [
+        {"id": "b", "artists": [{"name": "Y"}], "album": {"release_date": "2005-01-01"},
+         "playlists": [{"id": "p19", "name": "1900s"}]},
+        {"id": "c", "artists": [{"name": "Z"}], "album": {"release_date": "1998-01-01"},
+         "playlists": [{"id": "p19", "name": "1900s"}]},
+    ]
+    merged = sitegen._merge_records(base, extra)
+    assert len(merged) == 3  # a, b, c
+    b = next(r for r in merged if r["id"] == "b")
+    assert {p["id"] for p in b["playlists"]} == {"pW", "p19"}  # 在籍をマージ
+
+    dist = sitegen.build_stats_dist(merged, [{"id": "pW", "name": "W"}, {"id": "p19", "name": "1900s"}])
+    assert [p["id"] for p in dist["playlists"]] == ["pW", "p19"]
+    assert dist["by"]["pW"]["total"] == 2   # a, b
+    assert dist["by"]["p19"]["total"] == 2  # b, c
+    assert dist["all"]["total"] == 3        # a, b, c（重複 b は1回だけ）
+
+
 def test_select_recent_albums():
     albums = [
         {"id": "al1", "name": "New", "album_type": "single", "artists": [{"name": "X"}], "release_date": "2026-07-15"},

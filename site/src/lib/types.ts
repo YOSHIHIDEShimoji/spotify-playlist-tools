@@ -79,11 +79,21 @@ export interface ListeningStats {
   milestone: { total: number; reached: number[]; next: number | null };
 }
 
-export interface Stats {
-  generated_at: string;
-  total?: number; // ライブラリのユニーク曲数（延べではない）
+export interface StatsGroup {
+  total: number;
   artists_top: { name: string; count: number; id?: string }[];
   decades: { decade: number; count: number }[];
+}
+
+export interface Stats extends StatsGroup {
+  generated_at: string;
+  total: number; // 管理ライブラリのユニーク曲数（延べではない・Growth 用）
+  // stats タブの選択用: 各プレイリスト単体（by）＋全部合算（all）
+  dist?: {
+    playlists: { id: string; name: string }[];
+    all: StatsGroup;
+    by: Record<string, StatsGroup>;
+  };
 }
 
 export interface HeatmapCell {

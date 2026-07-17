@@ -1,7 +1,7 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
-import type { Heatmap, ListeningStats, Stats, StatsHistoryRow } from "../lib/types";
+import type { Heatmap, ListeningStats, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { PlayIcon, usePlayer } from "../lib/player";
 
@@ -17,6 +17,13 @@ export function StatsPage() {
   const history = useJsonl<StatsHistoryRow>("stats_history");
   const heat = useJson<Heatmap>("heatmap");
   const listen = useJson<ListeningStats>("listening_stats");
+  // 統計の対象プレイリスト選択（null = 3つ全部）。分布・年代の両方に効く。
+  const [sel, setSel] = useState<string | null>(null);
+
+  const dist = stats.data?.dist;
+  const group: StatsGroup | null = dist
+    ? (sel && dist.by[sel] ? dist.by[sel] : dist.all)
+    : (stats.data ?? null);
 
   return (
     <>
@@ -24,12 +31,19 @@ export function StatsPage() {
         {history.loading || stats.loading ? <Loading /> : <Growth rows={history.data ?? []} stats={stats.data} />}
       </Section>
 
-      <Section title="アーティスト分布" aside={<span className="t-small">棒をタップで開く</span>}>
-        {stats.loading ? <Loading /> : <ArtistBars stats={stats.data} />}
+      <Section title="アーティスト分布" aside={group && <span className="t-small">{group.total.toLocaleString()}曲 · タップで再生</span>}>
+        {stats.loading ? (
+          <Loading />
+        ) : (
+          <>
+            {dist && <PlaylistPicker playlists={dist.playlists} sel={sel} onSel={setSel} />}
+            <ArtistBars group={group} />
+          </>
+        )}
       </Section>
 
       <Section title="リリース年代分布">
-        {stats.loading ? <Loading /> : <DecadeBars stats={stats.data} />}
+        {stats.loading ? <Loading /> : <DecadeBars group={group} />}
       </Section>
 
       <Section title="連続聴取">
@@ -50,6 +64,22 @@ export function StatsPage() {
   );
 }
 
+function PlaylistPicker(
+  { playlists, sel, onSel }:
+    { playlists: { id: string; name: string }[]; sel: string | null; onSel: (id: string | null) => void },
+) {
+  return (
+    <div className="pl-picker" role="tablist" aria-label="統計の対象プレイリスト">
+      <button role="tab" aria-selected={!sel} className={!sel ? "is-active" : ""} onClick={() => onSel(null)}>すべて</button>
+      {playlists.map((p) => (
+        <button role="tab" aria-selected={sel === p.id} key={p.id} className={sel === p.id ? "is-active" : ""} onClick={() => onSel(p.id)}>
+          {p.name}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null }) {
   // 番兵行（ユニーク曲数）だけを時系列に使う。延べ合計（プレイリスト横断）は二重計上になるため使わない。
   const uniqueRows = rows.filter((r) => r.playlist_id === LIB_ROW);
@@ -57,7 +87,6 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
   for (const r of uniqueRows) byDate.set(r.date, r.count);
   const data = [...byDate.entries()].sort().map(([date, total]) => ({ date, total }));
   // total（正規のユニーク数）→ 番兵履歴の最新 → 年代分布の合計（≒ユニーク数）の順にフォールバック。
-  // 旧データ（total 未生成）でも誤った延べ合計ではなく妥当な数を出す。
   const decadeSum = stats?.decades?.reduce((s, d) => s + d.count, 0) ?? 0;
   const current = stats?.total ?? (data.length ? data[data.length - 1].total : decadeSum || null);
 
@@ -88,10 +117,10 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
   );
 }
 
-function ArtistBars({ stats }: { stats: Stats | null }) {
+function ArtistBars({ group }: { group: StatsGroup | null }) {
   const { play } = usePlayer();
-  if (!stats || !stats.artists_top.length) return <Empty>データなし</Empty>;
-  const data = stats.artists_top.slice(0, 15);
+  if (!group || !group.artists_top.length) return <Empty>データなし</Empty>;
+  const data = group.artists_top.slice(0, 15);
   const max = Math.max(...data.map((a) => a.count), 1);
   // id があれば常駐プレイヤーでそのアーティストを再生、無ければ（旧データ）名前で Spotify 検索。
   function open(a: { name: string; id?: string }) {
@@ -112,9 +141,9 @@ function ArtistBars({ stats }: { stats: Stats | null }) {
   );
 }
 
-function DecadeBars({ stats }: { stats: Stats | null }) {
-  if (!stats || !stats.decades.length) return <Empty>データなし</Empty>;
-  const data = stats.decades.map((d) => ({ label: `${d.decade}s`, count: d.count }));
+function DecadeBars({ group }: { group: StatsGroup | null }) {
+  if (!group || !group.decades.length) return <Empty>データなし</Empty>;
+  const data = group.decades.map((d) => ({ label: `${d.decade}s`, count: d.count }));
   return (
     <div className="card">
       <ResponsiveContainer width="100%" height={200}>
