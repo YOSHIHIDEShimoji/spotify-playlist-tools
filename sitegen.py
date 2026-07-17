@@ -234,9 +234,10 @@ def build_top(sp) -> dict:
 
 
 def select_recent_albums(albums: list[dict], cutoff: str, seen: set) -> tuple[list[dict], set]:
-    """album 一覧から「cutoff 以降にリリース・未 seen」を抽出（純関数）。
-    返り値: (新規アイテム, この呼び出しで見た全 album_id)。"""
-    fresh: list[dict] = []
+    """album 一覧から「cutoff 以降にリリース」を全部抽出（純関数・レビュー H4）。
+    seen で抑止せず窓ベースで累積表示する。seen は is_new（新着バッジ）判定だけに使う。
+    返り値: (窓内アイテム, この呼び出しで見た全 album_id)。"""
+    out: list[dict] = []
     ids: set = set()
     for al in albums:
         aid = al.get("id")
@@ -244,17 +245,18 @@ def select_recent_albums(albums: list[dict], cutoff: str, seen: set) -> tuple[li
             continue
         ids.add(aid)
         rd = al.get("release_date", "") or ""
-        if len(rd) == 10 and rd >= cutoff and aid not in seen:
-            fresh.append(
+        if len(rd) == 10 and rd >= cutoff:
+            out.append(
                 {
                     "album_id": aid,
                     "album_name": al.get("name", ""),
                     "album_type": al.get("album_type", ""),
                     "artist": (al.get("artists") or [{}])[0].get("name", ""),
                     "release_date": rd,
+                    "is_new": aid not in seen,
                 }
             )
-    return fresh, ids
+    return out, ids
 
 
 def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, within_days: int = 14) -> dict:
@@ -285,19 +287,20 @@ def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, wi
                 artist_ids.add(a["id"])
 
     cutoff = (now_jst - timedelta(days=within_days)).date().isoformat()
-    items: list[dict] = []
+    by_album: dict[str, dict] = {}
     all_seen = set(seen)
     for aid in artist_ids:
         try:
             albums = sp.artist_albums(aid, album_type="album,single", limit=10).get("items", [])
         except Exception:  # noqa: BLE001
             continue
-        fresh, ids = select_recent_albums(albums, cutoff, seen)
-        items.extend(fresh)
+        window, ids = select_recent_albums(albums, cutoff, seen)
+        for it in window:
+            by_album.setdefault(it["album_id"], it)  # album 重複排除
         all_seen |= ids
 
     core.atomic_write_json(seen_path, {"album_ids": sorted(all_seen)})
-    items.sort(key=lambda x: x["release_date"], reverse=True)
+    items = sorted(by_album.values(), key=lambda x: x["release_date"], reverse=True)
     return {"generated_at": _now_utc_iso(), "items": items}
 
 
@@ -374,6 +377,10 @@ def main() -> int:
         new_tracks = _month_new_tracks(data / "runs.jsonl", month)
         core.atomic_write_json(data / "wrapped" / f"{month}.json", monthly_wrapped(records, month, new_tracks))
 
+    # 静的サイトはディレクトリ列挙できないので、undo と wrapped のインデックスを出す（H5・M3）
+    _write_undo_index(data)
+    _write_wrapped_index(data)
+
     # 4) プレイリスト読取が要る部分（トークン必要・失効なら auth_status だけ書いて終了）
     #    使うのは playlist-read のみ。top/follow/recently は probe_scopes で個別に graceful 判定する。
     try:
@@ -390,7 +397,8 @@ def main() -> int:
 
     playlists = dedupe.managed_playlists()
     pl_records, intra = dedupe.collect_records(sp, playlists)
-    core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra))
+    keep_sets = dedupe.load_keep_sets(data)  # 「両方残す」をスキャンから除外（H2）
+    core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra, keep_sets))
     core.atomic_write_json(data / "stats.json", build_stats(pl_records))
     core.atomic_write_json(data / "search_index.json", build_search_index(pl_records))
     _append_stats_history(data / "stats_history.jsonl", playlist_count_rows(pl_records, playlists, date_str))
@@ -447,6 +455,38 @@ def _load_all_listening(listening_dir: Path) -> list[dict]:
     return records
 
 
+def _write_undo_index(data: Path) -> None:
+    """data/undo/*.json（未 .done）を集約。サイトの undo 一覧＆取り消しに使う（H5）。"""
+    import json
+
+    undo_dir = data / "undo"
+    entries: list[dict] = []
+    if undo_dir.exists():
+        for p in undo_dir.glob("*.json"):
+            try:
+                rec = json.loads(p.read_text())
+            except (OSError, ValueError):
+                continue
+            entries.append({
+                "id": rec.get("id"),
+                "op": rec.get("op"),
+                "created_at": rec.get("created_at"),
+                "count": len(rec.get("removed", [])) or len(rec.get("moved", [])),
+                "tracks": [r.get("name", "") for r in rec.get("removed", [])][:5],
+            })
+    entries.sort(key=lambda e: e.get("created_at") or "", reverse=True)
+    core.atomic_write_json(data / "undo_index.json", {"generated_at": _now_utc_iso(), "entries": entries})
+
+
+def _write_wrapped_index(data: Path) -> None:
+    """data/wrapped/YYYY-MM.json の存在月一覧。サイトの Wrapped 表示に使う（M3）。"""
+    wrapped_dir = data / "wrapped"
+    months: list[str] = []
+    if wrapped_dir.exists():
+        months = sorted((p.stem for p in wrapped_dir.glob("*.json") if p.stem != "index"), reverse=True)
+    core.atomic_write_json(data / "wrapped" / "index.json", {"months": months})
+
+
 def _month_new_tracks(runs_path: Path, month: str) -> int:
     total = 0
     for r in core.read_jsonl(runs_path):
@@ -463,6 +503,9 @@ def _entry() -> int:
         core.setup_logging("sitegen").info(f"[auth] {e}")
         return core.EXIT_OK  # データ生成は本処理を止めない
     except Exception as e:  # noqa: BLE001
+        # 握り潰して nightly は止めないが、失敗を GitHub アノテーションで可視化する（レビュー M1）。
+        # ::error:: は行頭に出す必要があるので logger ではなく print で直接出す。
+        print(f"::error::sitegen が失敗しました（部分データの可能性）: {e}", flush=True)
         core.setup_logging("sitegen").info(f"[error] {e}")
         return core.EXIT_OK
 

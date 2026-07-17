@@ -1,7 +1,9 @@
 import { useJson } from "../lib/data";
-import type { ArchiveWeekly } from "../lib/types";
-import { Empty, Loading, Section } from "../components/ui";
+import type { ArchiveWeekly, Wrapped, WrappedIndex } from "../lib/types";
+import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { EmbedPlayer } from "../components/EmbedPlayer";
+
+const DOW = ["月", "火", "水", "木", "金", "土", "日"];
 
 // 現在の ISO 週（JST）を "YYYY-Www" で返す。1年前の同じ週を archive_weekly から探す。
 function isoWeekLabel(d: Date): string {
@@ -68,8 +70,53 @@ export function Memories() {
       </Section>
 
       <Section title="月間 Wrapped">
-        <Empty>毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。</Empty>
+        <WrappedBlock />
       </Section>
+    </>
+  );
+}
+
+function WrappedBlock() {
+  const idx = useJson<WrappedIndex>("wrapped/index");
+  if (idx.loading) return <Loading />;
+  const month = idx.data?.months?.[0];
+  if (!month) return <Empty>毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。</Empty>;
+  return <WrappedMonth month={month} />;
+}
+
+function WrappedMonth({ month }: { month: string }) {
+  const w = useJson<Wrapped>(`wrapped/${month}`);
+  if (w.loading) return <Loading />;
+  if (!w.data) return <Empty>{month} のデータを読めませんでした。</Empty>;
+  const d = w.data;
+  return (
+    <>
+      <div className="row" style={{ marginBottom: "var(--sp-3)" }}>
+        <StatCard label={`${d.month} の再生`} value={d.plays.toLocaleString()} sub={`新規追加 ${d.new_tracks}曲`} />
+        {d.peak && <StatCard label="ピーク時間帯" value={`${DOW[d.peak.dow]} ${d.peak.hour}時`} />}
+      </div>
+      <div className="row" style={{ alignItems: "flex-start" }}>
+        <div className="card" style={{ flex: "1 1 260px" }}>
+          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
+          {d.top_tracks.map((t, i) => (
+            <div className="list-row" key={t.track_id}>
+              <span className="list-rank">{i + 1}</span>
+              <span className="list-main"><div className="name">{t.name}</div><div className="t-small">{t.artists.join(", ")}</div></span>
+              <span className="list-count">{t.count}回</span>
+            </div>
+          ))}
+        </div>
+        <div className="card" style={{ flex: "1 1 260px" }}>
+          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top アーティスト</div>
+          {d.top_artists.map((a, i) => (
+            <div className="list-row" key={a.name}>
+              <span className="list-rank">{i + 1}</span>
+              <span className="list-main"><div className="name">{a.name}</div></span>
+              <span className="list-count">{a.count}回</span>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }

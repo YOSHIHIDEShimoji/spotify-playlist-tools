@@ -1,15 +1,25 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useJson } from "../lib/data";
-import type { Dupes, DupeGroup, Unknown } from "../lib/types";
+import type { Dupes, DupeGroup, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
 import { EmbedPlayer } from "../components/EmbedPlayer";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
+import { clearProcessing, markProcessing, useProcessing } from "../lib/processing";
 
 export function Organize() {
   const dupes = useJson<Dupes>("dupes");
   const unknown = useJson<Unknown>("unknown");
   const pat = usePat();
+  const processing = useProcessing();
+
+  // データが更新され、処理中だったグループが dupes から消えたら「処理中」を解消（レビュー M2）
+  useEffect(() => {
+    if (!dupes.data) return;
+    const present = new Set(dupes.data.groups.map((g) => g.id));
+    const stale = Object.keys(processing).filter((id) => id.startsWith("g-") && !present.has(id));
+    if (stale.length) clearProcessing(stale);
+  }, [dupes.data, processing]);
 
   return (
     <>
@@ -19,13 +29,17 @@ export function Organize() {
         </div>
       )}
 
+      <UndoSection pat={pat} />
+
       <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
         {dupes.loading ? (
           <Loading />
         ) : !dupes.data || dupes.data.groups.length === 0 ? (
           <Empty>重複は見つかっていません。きれいな状態です。</Empty>
         ) : (
-          dupes.data.groups.map((g) => <GroupCard key={g.id} g={g} pat={pat} />)
+          dupes.data.groups.map((g) => (
+            <GroupCard key={g.id} g={g} pat={pat} processing={!!processing[g.id]} />
+          ))
         )}
       </Section>
 
@@ -59,7 +73,7 @@ function Counts({ d }: { d: Dupes }) {
 
 const TIER_LABEL: Record<string, string> = { A: "完全重複", B: "同一録音", C: "別バージョン候補" };
 
-function GroupCard({ g, pat }: { g: DupeGroup; pat: string | null }) {
+function GroupCard({ g, pat, processing }: { g: DupeGroup; pat: string | null; processing: boolean }) {
   const [keep, setKeep] = useState<Set<string>>(new Set());
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -77,7 +91,8 @@ function GroupCard({ g, pat }: { g: DupeGroup; pat: string | null }) {
 
   const tracks = g.tracks ?? [];
   const remove = tracks.filter((t) => !keep.has(t.id)).map((t) => t.id);
-  const canApply = !!pat && keep.size > 0 && remove.length > 0 && remove.length < tracks.length;
+  const canApply =
+    !!pat && !processing && keep.size > 0 && remove.length > 0 && remove.length < tracks.length;
 
   async function apply() {
     setBusy(true);
@@ -86,6 +101,7 @@ function GroupCard({ g, pat }: { g: DupeGroup; pat: string | null }) {
       decisions: [{ group_id: g.id, keep: [...keep], remove }],
     });
     setBusy(false);
+    if (res.ok) markProcessing(g.id);
     setStatus(res.ok ? "処理中… 数分後にサイトへ反映されます。" : `失敗: ${res.message}`);
   }
 
@@ -96,12 +112,14 @@ function GroupCard({ g, pat }: { g: DupeGroup; pat: string | null }) {
       remove: [],
     });
     setBusy(false);
+    if (res.ok) markProcessing(g.id);
     setStatus(res.ok ? "「両方残す」を記録しました。" : `失敗: ${res.message}`);
   }
 
   return (
-    <div className="card dupe-group">
+    <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
       <Header g={g} />
+      {processing && <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>処理中… 反映まで数分</div>}
       {tracks.map((t, i) => (
         <div className="dupe-cand" key={t.id}>
           <div className="meta">
@@ -132,7 +150,7 @@ function GroupCard({ g, pat }: { g: DupeGroup; pat: string | null }) {
         <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
           選んだ方を残して削除
         </button>
-        <button className="pill" disabled={!pat || busy} onClick={keepBoth}>
+        <button className="pill" disabled={!pat || busy || processing} onClick={keepBoth}>
           両方残す
         </button>
         {status && (
@@ -151,6 +169,40 @@ function Header({ g }: { g: DupeGroup }) {
       <span className={"badge badge-" + g.tier.toLowerCase()}>{TIER_LABEL[g.tier]}</span>
       <span className="t-small">{g.reason}</span>
     </div>
+  );
+}
+
+function UndoSection({ pat }: { pat: string | null }) {
+  const undo = useJson<UndoIndex>("undo_index");
+  const [status, setStatus] = useState<Record<string, string>>({});
+  const entries = undo.data?.entries ?? [];
+  if (!entries.length) return null;
+
+  async function run(id: string) {
+    setStatus((s) => ({ ...s, [id]: "取り消し中…" }));
+    const res = await dispatchOp(pat!, "undo", { undo_id: id });
+    setStatus((s) => ({ ...s, [id]: res.ok ? "取り消し中… 数分後に反映" : `失敗: ${res.message}` }));
+  }
+
+  return (
+    <Section title="最近の操作（取り消し可）">
+      <div className="card">
+        {entries.slice(0, 8).map((e) => (
+          <div className="list-row" key={e.id}>
+            <span className="list-main">
+              <div className="name">{e.op} — {e.count}曲</div>
+              <div className="t-small">{e.created_at?.slice(0, 16).replace("T", " ")} {e.tracks.slice(0, 2).join(", ")}</div>
+            </span>
+            {e.op === "dedupe-apply" && (
+              <button className="pill" disabled={!pat || !!status[e.id]} onClick={() => run(e.id)}>
+                取り消し
+              </button>
+            )}
+            {status[e.id] && <span className="t-small">{status[e.id]}</span>}
+          </div>
+        ))}
+      </div>
+    </Section>
   );
 }
 

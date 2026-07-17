@@ -28,33 +28,62 @@ def _played_ms(iso: str) -> int:
     return int(core.parse_iso(iso).timestamp() * 1000)
 
 
-def poll(sp, cursor: int | None) -> tuple[list[dict], int]:
-    """recently-played を取得してレコード列と新カーソル（最大 played_at ms）を返す。"""
-    kwargs: dict = {"limit": 50}
-    if cursor:
-        kwargs["after"] = cursor
-    resp = sp.current_user_recently_played(**kwargs)
+def _to_record(item: dict) -> dict | None:
+    played_at = item.get("played_at")
+    track = item.get("track") or {}
+    tid = track.get("id")
+    if not played_at or not tid:
+        return None
+    return {
+        "played_at": played_at,
+        "track_id": tid,
+        "name": track.get("name", ""),
+        "artists": [{"id": a.get("id"), "name": a.get("name", "")} for a in (track.get("artists") or [])],
+        "duration_ms": track.get("duration_ms"),
+    }
+
+
+def poll(sp, cursor: int | None, max_pages: int = 20) -> tuple[list[dict], int]:
+    """recently-played をカーソルページングで取得し、レコード列と新カーソル（最大 played_at ms）を返す。
+
+    1ページ50件固定だと3時間に50件超再生した日に最古分を取りこぼす（レビュー H3）ので、
+    cursor 指定時は before で古い側へページングして cursor まで遡って全部吸う。
+    初回（cursor なし）は直近1ページのみ（過去の掘り起こしはしない）。
+    """
     records: list[dict] = []
+    seen_ms: set[int] = set()
     max_ms = cursor or 0
-    for item in resp.get("items", []):
-        played_at = item.get("played_at")
-        track = item.get("track") or {}
-        tid = track.get("id")
-        if not played_at or not tid:
-            continue
-        records.append(
-            {
-                "played_at": played_at,
-                "track_id": tid,
-                "name": track.get("name", ""),
-                "artists": [
-                    {"id": a.get("id"), "name": a.get("name", "")}
-                    for a in (track.get("artists") or [])
-                ],
-                "duration_ms": track.get("duration_ms"),
-            }
-        )
-        max_ms = max(max_ms, _played_ms(played_at))
+    before: int | None = None
+    for _ in range(max_pages):
+        kwargs: dict = {"limit": 50}
+        if before is not None:
+            kwargs["before"] = before
+        elif cursor:
+            kwargs["after"] = cursor
+        items = sp.current_user_recently_played(**kwargs).get("items", [])
+        if not items:
+            break
+        page_min_ms: int | None = None
+        reached_cursor = False
+        for item in items:
+            rec = _to_record(item)
+            if rec is None:
+                continue
+            ms = _played_ms(rec["played_at"])
+            if page_min_ms is None or ms < page_min_ms:
+                page_min_ms = ms
+            if cursor and ms <= cursor:
+                reached_cursor = True
+                continue
+            if ms in seen_ms:
+                continue
+            seen_ms.add(ms)
+            records.append(rec)
+            max_ms = max(max_ms, ms)
+        # cursor に到達／短いページ／初回は1ページで打ち切り
+        if reached_cursor or len(items) < 50 or not cursor:
+            break
+        before = page_min_ms
     return records, max_ms
 
 

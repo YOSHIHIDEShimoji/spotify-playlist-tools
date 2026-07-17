@@ -12,7 +12,9 @@ permissions:
   contents: write
 
 concurrency:
-  group: data-branch     # data ブランチへの書き込みを直列化
+  # nightly / site-ops と同一グループにして data ブランチへの並行 push を無くす（レビュー M7）。
+  # listen-log は Spotify を変更しないが、data 書き込みの直列化のため共有する。
+  group: spotify-serial
   cancel-in-progress: false
 
 env:

@@ -120,10 +120,35 @@ export interface ReleaseItem {
   album_type: string;
   artist: string;
   release_date: string;
+  is_new?: boolean;
 }
 export interface Releases {
   generated_at: string;
   items: ReleaseItem[];
+}
+
+export interface UndoEntry {
+  id: string;
+  op: string;
+  created_at: string;
+  count: number;
+  tracks: string[];
+}
+export interface UndoIndex {
+  generated_at: string;
+  entries: UndoEntry[];
+}
+
+export interface WrappedIndex {
+  months: string[];
+}
+export interface Wrapped {
+  month: string;
+  plays: number;
+  top_tracks: RankedTrack[];
+  top_artists: { name: string; count: number }[];
+  new_tracks: number;
+  peak: { dow: number; hour: number } | null;
 }
 
 export interface ArchiveWeek {

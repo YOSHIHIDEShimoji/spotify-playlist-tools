@@ -63,6 +63,16 @@ def test_plan_dedupe_rejects_tier_a():
         siteops.plan_dedupe(_dupes(), [{"group_id": "g-A", "keep": ["x"], "remove": ["x"]}])
 
 
+def test_plan_dedupe_rejects_duplicate_group_decisions():
+    # レビュー C3 の回帰: 同一グループへの矛盾決定を渡すと全曲削除されるのを防ぐ
+    with pytest.raises(siteops.OpError):
+        siteops.plan_dedupe(
+            _dupes(),
+            [{"group_id": "g-1", "keep": ["a"], "remove": ["b"]},
+             {"group_id": "g-1", "keep": ["b"], "remove": ["a"]}],
+        )
+
+
 def test_plan_classify_valid_and_rejects():
     unknown = {"tracks": [{"id": "t1", "name": "n", "artists": ["A"], "isrc": ""}]}
     ok = siteops.plan_classify(unknown, [{"track_id": "t1", "class": "japanese"}])

@@ -106,6 +106,8 @@ def test_select_recent_albums():
         {"id": "al3", "name": "Seen", "album_type": "single", "artists": [{"name": "X"}], "release_date": "2026-07-14"},
         {"id": "al4", "name": "YearOnly", "album_type": "album", "artists": [{"name": "X"}], "release_date": "2026"},
     ]
-    fresh, ids = sitegen.select_recent_albums(albums, "2026-07-10", {"al3"})
-    assert {f["album_id"] for f in fresh} == {"al1"}   # al2 古い / al3 既読 / al4 年のみ → 除外
+    # レビュー H4: seen で抑止せず窓内を全部返す。seen は is_new 判定だけに使う
+    window, ids = sitegen.select_recent_albums(albums, "2026-07-10", {"al3"})
+    got = {f["album_id"]: f["is_new"] for f in window}
+    assert got == {"al1": True, "al3": False}  # al1 新着 / al3 既読だが窓内なので出す / al2 古い / al4 年のみ
     assert ids == {"al1", "al2", "al3", "al4"}

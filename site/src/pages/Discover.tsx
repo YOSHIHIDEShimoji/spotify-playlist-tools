@@ -23,7 +23,10 @@ export function Discover() {
           <div className="grid-cards">
             {releases.data.items.map((r) => (
               <div className="card" key={r.album_id}>
-                <div className="t-body-bold">{r.album_name}</div>
+                <div className="t-body-bold">
+                  {r.album_name}
+                  {r.is_new && <span className="badge badge-b" style={{ marginLeft: 6 }}>NEW</span>}
+                </div>
                 <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
                   {r.artist} · {r.album_type} · {r.release_date}
                 </div>

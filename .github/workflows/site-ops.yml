@@ -88,10 +88,12 @@ jobs:
           fi
           git commit -m "data: サイト操作（${{ inputs.op }}）"
           for i in 1 2 3; do
-            git push && break
+            git push && exit 0
             echo "push 競合。rebase して再試行 ($i/3)"
             git pull --rebase origin data
           done
+          echo "::error::data ブランチへの push が3回失敗しました"
+          exit 1
 
       - name: Trigger Vercel rebuild
         if: always()

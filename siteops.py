@@ -44,6 +44,15 @@ def plan_dedupe(dupes: dict, decisions: list) -> list:
     """decisions を現在の dupes.json と照合し、削除対象リストを返す。
     1件でも不整合があれば OpError（部分適用しない）。"""
     groups = {g["id"]: g for g in dupes.get("groups", [])}
+    # 同一 group_id への複数 decision を拒否（レビュー C3）。矛盾する2件
+    # （keep:[a]/remove:[b] と keep:[b]/remove:[a]）が各々合格して全曲削除されるのを防ぐ。
+    seen_gids: set[str] = set()
+    for d in decisions:
+        gid = d.get("group_id")
+        if gid in seen_gids:
+            raise OpError(f"同一グループへの決定が重複しています: {gid}")
+        seen_gids.add(gid)
+
     removals: list[dict] = []
     for d in decisions:
         gid = d.get("group_id")
@@ -87,7 +96,8 @@ def plan_classify(unknown: dict, decisions: list) -> list:
 # ─────────────────────────── 実行 ───────────────────────────
 
 def _ts() -> str:
-    return datetime.now(core.JST).strftime("%Y-%m-%dT%H%M%S")
+    # マイクロ秒まで含めて同秒2操作での undo ファイル衝突を防ぐ（レビュー L1）
+    return datetime.now(core.JST).strftime("%Y-%m-%dT%H%M%S%f")
 
 
 def _write_undo(data: Path, record: dict) -> None:
@@ -95,6 +105,8 @@ def _write_undo(data: Path, record: dict) -> None:
 
 
 def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
+    import dedupe
+
     dupes = json.loads((data / "dupes.json").read_text())
     removals = plan_dedupe(dupes, payload.get("decisions", []))
     if not removals:
@@ -106,17 +118,18 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
             "removed": removals}
     _write_undo(data, undo)
 
-    # プレイリスト単位でまとめて全出現箇所から削除（sync 整合・§6）
-    by_playlist: dict[str, list[str]] = {}
-    for r in removals:
-        for pid in r["playlists"]:
-            by_playlist.setdefault(pid, []).append(r["track_id"])
-    for pid, tids in by_playlist.items():
-        core.remove_in_batches(sp, pid, tids)
-        logger.info(f"削除: {pid} から {len(tids)} 曲")
+    # レビュー H1: dupes.json の playlists は前回スキャン時点の写像で古い可能性がある。
+    # sync が順方向で AP へ追加した曲は snapshot に無く、snapshot だけ消すと AP 残留が起きる
+    # （dedupe-requirements §6 が禁じた状態）。よって snapshot を信頼せず、全管理プレイリストから
+    # remove-all-occurrences（idempotent）して残留を構造的に潰す。
+    remove_ids = [r["track_id"] for r in removals]
+    managed = dedupe.managed_playlists()
+    for pl in managed:
+        core.remove_in_batches(sp, pl["id"], remove_ids)
+    logger.info(f"削除: {len(remove_ids)} 曲を全 {len(managed)} プレイリストから除去")
 
     _regenerate_dupes(sp, data)
-    logger.info(f"完了: {len(removals)} 曲を削除・undo={undo['id']}")
+    logger.info(f"完了: undo={undo['id']}")
 
 
 def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
@@ -127,13 +140,19 @@ def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
     valid = plan_classify(unknown, payload.get("decisions", []))
     jp_id, western_id, _ = inbox.load_inbox_config(inbox.INBOX_CONFIG_PATH)
     cache = classify.load_cache()
+    # レビュー H6: 在籍チェックなしで add すると同一 track_id が2つ入り Tier A 重複を作る。
+    # 追加先の現在の在籍 ID を先に取り、未在籍のみ add する（inbox と同じ防御）。
+    existing = {jp_id: inbox.playlist_track_ids(sp, jp_id),
+                western_id: inbox.playlist_track_ids(sp, western_id)}
 
     moved: list[dict] = []
     for d in valid:
         tid, cls = d["track_id"], d["class"]
         track = sp.track(tid)
         dest = jp_id if cls == "japanese" else western_id
-        core.add_in_batches(sp, dest, [tid])
+        if tid not in existing[dest]:
+            core.add_in_batches(sp, dest, [tid])
+            existing[dest].add(tid)
         sp.current_user_saved_tracks_delete([tid])  # お気に入りから外して処理済みに
         artist = (track.get("artists") or [{}])[0]
         if artist.get("id"):
@@ -184,7 +203,7 @@ def op_undo(sp, data: Path, payload: dict, logger) -> None:
 
 def _regenerate_dupes(sp, data: Path) -> None:
     import dedupe
-    result = dedupe.scan(sp, dedupe.managed_playlists())
+    result = dedupe.scan(sp, dedupe.managed_playlists(), dedupe.load_keep_sets(data))
     core.atomic_write_json(data / "dupes.json", result)
 
 

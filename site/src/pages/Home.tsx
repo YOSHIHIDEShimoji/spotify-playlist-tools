@@ -62,7 +62,7 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
   if (!runs.length) return <Empty>まだ実行記録がありません。</Empty>;
   const recent = [...runs].slice(-14).reverse();
   return (
-    <div className="card">
+    <div className="card" style={{ overflowX: "auto" }}>
       <table className="data-table">
         <thead>
           <tr><th>日付</th><th>状態</th><th>inbox</th><th>sync</th><th>sort</th><th>archive</th></tr>
