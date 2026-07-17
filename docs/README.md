@@ -11,6 +11,8 @@ Claude Code（Fable 5）による read-only レビュー。コードは一切変
 |---|---|
 | [implementation-plan.md](implementation-plan.md) | **実装プラン（統合版）** — GitHub Actions 移行 + 全指摘の修正（2026-07-14 実装完了） |
 | [feature-ideas.md](feature-ideas.md) | **機能アイデア集25案** — Spotify 生活を楽しくする新機能（API 可用性の実測つき・実装順提案あり） |
+| [dashboard-design.md](dashboard-design.md) | **ダッシュボード設計書 兼 実装指示書** — 別モデルが無確認で実装完走できる粒度（スキーマ・YAML・Phase 分割・本人依頼箇所の明示）。デザイン正典は DESIGN-spotify.md（未実装） |
+| [dedupe-requirements.md](dedupe-requirements.md) | **dedupe 要件定義** — C-1（重複・別バージョン整理）の検出エンジン・連動削除・undo。UI はダッシュボードに上書き済み（未実装) |
 | [inbox-error-analysis.md](inbox-error-analysis.md) | `./inbox.sh` のエラー原因特定（Gemini 429 + Spotify genres 空化）と修正案6件 |
 | [bugs-and-risks.md](bugs-and-risks.md) | 修正点 — バグ・データ損失リスク 12件（launchd 実行環境の確認結果含む） |
 | [improvements.md](improvements.md) | 改善点 — 重複排除・テスト・ログ・ドキュメント整合 8項目 |
