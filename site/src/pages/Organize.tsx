@@ -10,6 +10,7 @@ import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib
 export function Organize() {
   const dupes = useJson<Dupes>("dupes");
   const unknown = useJson<Unknown>("unknown");
+  const undoIdx = useJson<UndoIndex>("undo_index");
   const pat = usePat();
   const processing = useProcessing();
   const anyProcessing = Object.keys(processing).length > 0; // M-2: 実行中は他の dispatch を止める
@@ -23,12 +24,18 @@ export function Organize() {
     }
     if (unknown.data) {
       const present = new Set(unknown.data.tracks.map((t) => t.id));
-      toClear.push(...Object.keys(processing).filter((id) => !id.startsWith("g-") && !present.has(id)));
+      toClear.push(
+        ...Object.keys(processing).filter((id) => !id.startsWith("g-") && !id.startsWith("undo-") && !present.has(id)),
+      );
+    }
+    if (undoIdx.data) {
+      const present = new Set(undoIdx.data.entries.map((e) => `undo-${e.id}`));
+      toClear.push(...Object.keys(processing).filter((id) => id.startsWith("undo-") && !present.has(id)));
     }
     toClear.push(...stuckIds(processing, Date.now()));
     const uniq = [...new Set(toClear)];
     if (uniq.length) clearProcessing(uniq);
-  }, [dupes.data, unknown.data, processing]);
+  }, [dupes.data, unknown.data, undoIdx.data, processing]);
 
   // タイムアウト解消を定期的に走らせる（M-1: 反映が来なくても30分で操作可能に戻す）
   useEffect(() => {
@@ -47,7 +54,7 @@ export function Organize() {
         </div>
       )}
 
-      <UndoSection pat={pat} />
+      <UndoSection pat={pat} anyProcessing={anyProcessing} processing={processing} />
 
       <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
         {dupes.loading ? (
@@ -208,7 +215,10 @@ function Header({ g }: { g: DupeGroup }) {
   );
 }
 
-function UndoSection({ pat }: { pat: string | null }) {
+function UndoSection(
+  { pat, anyProcessing, processing }:
+    { pat: string | null; anyProcessing: boolean; processing: Record<string, string> },
+) {
   const undo = useJson<UndoIndex>("undo_index");
   const [status, setStatus] = useState<Record<string, string>>({});
   const entries = undo.data?.entries ?? [];
@@ -217,26 +227,34 @@ function UndoSection({ pat }: { pat: string | null }) {
   async function run(id: string) {
     setStatus((s) => ({ ...s, [id]: "取り消し中…" }));
     const res = await dispatchOp(pat!, "undo", { undo_id: id });
+    if (res.ok) markProcessing(`undo-${id}`); // M-A: undo も直列化の枠内に入れる
     setStatus((s) => ({ ...s, [id]: res.ok ? "取り消し中… 数分後に反映" : `失敗: ${res.message}` }));
   }
 
   return (
     <Section title="最近の操作（取り消し可）">
       <div className="card">
-        {entries.slice(0, 8).map((e) => (
-          <div className="list-row" key={e.id}>
-            <span className="list-main">
-              <div className="name">{e.op} — {e.count}曲</div>
-              <div className="t-small">{e.created_at?.slice(0, 16).replace("T", " ")} {e.tracks.slice(0, 2).join(", ")}</div>
-            </span>
-            {e.op === "dedupe-apply" && (
-              <button className="pill" disabled={!pat || !!status[e.id]} onClick={() => run(e.id)}>
-                取り消し
-              </button>
-            )}
-            {status[e.id] && <span className="t-small">{status[e.id]}</span>}
-          </div>
-        ))}
+        {entries.slice(0, 8).map((e) => {
+          const busy = !!processing[`undo-${e.id}`];
+          return (
+            <div className="list-row" key={e.id}>
+              <span className="list-main">
+                <div className="name">{e.op} — {e.count}曲</div>
+                <div className="t-small">{e.created_at?.slice(0, 16).replace("T", " ")} {e.tracks.slice(0, 2).join(", ")}</div>
+              </span>
+              {e.op === "dedupe-apply" && (
+                <button
+                  className="pill"
+                  disabled={!pat || busy || (anyProcessing && !busy)}
+                  onClick={() => run(e.id)}
+                >
+                  取り消し
+                </button>
+              )}
+              {busy ? <span className="t-small">取り消し中…</span> : status[e.id] && <span className="t-small">{status[e.id]}</span>}
+            </div>
+          );
+        })}
       </div>
     </Section>
   );
