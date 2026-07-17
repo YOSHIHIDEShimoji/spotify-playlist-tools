@@ -1,134 +1,419 @@
-/* app.css — シェルのレイアウト。モバイル縦画面ファースト（受け入れ基準 §14-7）。 */
+/* app.css — シェルのレイアウト。モバイル縦画面ファースト。
+ * 署名要素は Home ヒーローの「夜間ラン帯（.nightband）」と 4 段パイプライン（.pipe）。 */
 
 .shell {
-  max-width: 1100px;
+  max-width: 1040px;
   margin: 0 auto;
-  padding: var(--sp-4);
+  padding: var(--sp-4) var(--sp-4) var(--sp-10);
 }
 
+/* ── ヘッダー ─────────────────────────────────── */
 .app-header {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
-  padding: var(--sp-2) 0 var(--sp-4);
+  padding: var(--sp-3) 0 var(--sp-5);
 }
 .app-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
   font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: var(--green);
+  font-weight: 800;
+  font-size: 1.18rem;
+  letter-spacing: -0.01em;
   white-space: nowrap;
 }
-.app-header .spacer { flex: 1; }
+/* 昼夜の境界線を表す半円グリフ。夜→夜明けのテーマの核。 */
+.app-logo .mark {
+  color: var(--dawn);
+  font-size: 1.15rem;
+  text-shadow: 0 0 14px rgba(255, 158, 109, 0.6);
+}
+.app-header .spacer {
+  flex: 1;
+}
 
 /* ナビ: 横スクロールするピル群（モバイルでも破綻しない） */
 .nav {
   display: flex;
   gap: var(--sp-2);
   overflow-x: auto;
-  padding-bottom: var(--sp-3);
+  padding-bottom: var(--sp-4);
+  margin-bottom: var(--sp-2);
   scrollbar-width: none;
 }
-.nav::-webkit-scrollbar { display: none; }
-.nav a { flex: 0 0 auto; }
+.nav::-webkit-scrollbar {
+  display: none;
+}
+.nav a {
+  flex: 0 0 auto;
+}
 
 .auth-banner {
-  border-radius: var(--r-section);
+  border-radius: var(--r-card);
+  border: 1px solid var(--line);
   padding: var(--sp-3) var(--sp-4);
-  margin-bottom: var(--sp-4);
-  font-size: 0.875rem;
+  margin-bottom: var(--sp-5);
+  font-size: 0.85rem;
   line-height: 1.5;
+  color: var(--text-2);
 }
 .auth-banner code {
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: var(--r-input);
+  font-family: var(--font-mono);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--r-badge);
   padding: 1px 5px;
   font-size: 0.82em;
+  color: var(--text);
 }
-.auth-banner--error { background: rgba(243, 114, 127, 0.16); color: #ffd7db; }
-.auth-banner--warn { background: rgba(255, 164, 43, 0.14); color: #ffe6c2; }
+.auth-banner--error {
+  background: rgba(255, 107, 120, 0.1);
+  border-color: rgba(255, 107, 120, 0.25);
+}
+.auth-banner--warn {
+  background: rgba(255, 180, 84, 0.08);
+  border-color: rgba(255, 180, 84, 0.22);
+}
 
-/* 汎用グリッド */
-.row { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
+/* ── Home ヒーロー: 夜間ラン帯 ───────────────────── */
+.nightband {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r-panel);
+  background: var(--hero-grad);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow-hero);
+  padding: var(--sp-6);
+  margin-bottom: var(--sp-8);
+  animation: band-rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+/* 帯の下端を夜明けの線が横切る = 署名 */
+.nightband::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--dawn-line);
+}
+.nightband-top {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+}
+.nightband-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--dawn);
+  box-shadow: 0 0 12px var(--dawn);
+}
+.nightband-top .status {
+  margin-left: auto;
+}
+.nightband h1 {
+  margin-bottom: var(--sp-2);
+}
+.nightband-sub {
+  color: var(--text-2);
+  font-size: 0.9rem;
+  margin-bottom: var(--sp-5);
+}
+
+/* 4 段パイプライン: inbox → sync → sort → archive（本物の順序なので採番する）。
+ * 狭い画面は 2×2、広い画面は 1×4 に自動で組み替える（auto-fit）。 */
+.pipe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: var(--sp-2);
+}
+.pipe-step {
+  min-width: 0;
+  padding: var(--sp-3);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--line);
+  border-radius: var(--r-tile);
+}
+.pipe-step .k {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pipe-step .v {
+  display: block;
+  margin: var(--sp-2) 0 var(--sp-1);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.55rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+.pipe-step .v.pos {
+  color: var(--green);
+}
+.pipe-step .v.zero {
+  color: var(--text-3);
+}
+.pipe-step .d {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--text-2);
+  line-height: 1.35;
+}
+/* ラン帯の脚: streak・累計を等幅で */
+.nightband-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-5);
+  margin-top: var(--sp-5);
+}
+.foot-stat .k {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: var(--sp-1);
+}
+.foot-stat .v {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.foot-stat .v .dawn {
+  color: var(--dawn-2);
+}
+
+/* ── セクション見出し ───────────────────────────── */
+.sec-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding-bottom: var(--sp-3);
+  margin-bottom: var(--sp-4);
+  border-bottom: 1px solid var(--line);
+}
+.sec-head .title-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  min-width: 0;
+}
+/* タイトル頭の緑ティック = 機能アクセントの最小限の使用 */
+.sec-head .tick {
+  flex: 0 0 auto;
+  width: 3px;
+  align-self: stretch;
+  min-height: 1.1em;
+  border-radius: 2px;
+  background: var(--green);
+}
+
+/* ── 汎用グリッド ───────────────────────────────── */
+.row {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
 .grid-cards {
   display: grid;
   gap: var(--sp-3);
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
+/* ── 統計カード ─────────────────────────────────── */
+.stat {
+  background: var(--surface-card);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  padding: var(--sp-4);
+  flex: 1 1 140px;
+  min-width: 0;
+}
+.stat .k {
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.stat .v {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1.85rem;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: var(--sp-3) 0 var(--sp-2);
+}
+.stat .s {
+  font-size: 0.72rem;
+  color: var(--text-2);
+}
+
+/* ── リスト ─────────────────────────────────────── */
 .list-row {
   display: flex;
   align-items: center;
   gap: var(--sp-3);
   padding: var(--sp-2) var(--sp-3);
-  border-radius: var(--r-card);
+  border-radius: var(--r-tile);
+  transition: background 0.12s ease;
 }
-.list-row:hover { background: var(--surface-card-hover); }
+.list-row:hover {
+  background: var(--surface-hover);
+}
 .list-rank {
-  width: 24px;
+  width: 22px;
   text-align: right;
-  color: var(--text-secondary);
+  color: var(--text-3);
+  font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
 }
-.list-main { min-width: 0; flex: 1; }
-.list-main .name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list-main {
+  min-width: 0;
+  flex: 1;
+}
+.list-main .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .list-count {
+  font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
-  color: var(--text-secondary);
-  font-size: 0.875rem;
+  color: var(--text-2);
+  font-size: 0.85rem;
 }
 
-/* 重複グループカード */
-.dupe-group { margin-bottom: var(--sp-4); }
+/* ── 重複グループカード ─────────────────────────── */
+.dupe-group {
+  margin-bottom: var(--sp-4);
+}
 .dupe-cand {
   display: grid;
   gap: var(--sp-2);
   grid-template-columns: 1fr;
   padding: var(--sp-3);
-  border-radius: var(--r-card);
+  border-radius: var(--r-tile);
   background: var(--surface-2);
+  border: 1px solid var(--line);
   margin-bottom: var(--sp-2);
 }
-.dupe-cand .meta { display: flex; gap: var(--sp-2); flex-wrap: wrap; align-items: center; }
-.dupe-actions { display: flex; gap: var(--sp-2); flex-wrap: wrap; margin-top: var(--sp-1); }
+.dupe-cand .meta {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+.dupe-actions {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin-top: var(--sp-2);
+}
 
+/* ── フォーム ───────────────────────────────────── */
 .pat-box {
   display: flex;
   gap: var(--sp-2);
   flex-wrap: wrap;
   align-items: center;
 }
-.pat-input {
+.pat-input,
+.input-search {
   background: var(--surface-2);
-  border: 1px solid var(--border);
+  border: 1px solid var(--line-strong);
   border-radius: var(--r-pill);
-  color: var(--text-base);
+  color: var(--text);
   padding: var(--sp-2) var(--sp-4);
   font: inherit;
   font-size: 0.875rem;
+}
+.pat-input {
   min-width: 220px;
 }
-
 .input-search {
   width: 100%;
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--r-pill);
-  color: var(--text-base);
   padding: var(--sp-3) var(--sp-4);
-  font: inherit;
+}
+.pat-input:focus,
+.input-search:focus {
+  outline: none;
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px var(--green-soft);
 }
 
-table.data-table { width: 100%; border-collapse: collapse; }
-.data-table th, .data-table td {
+/* ── テーブル ───────────────────────────────────── */
+table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table th,
+.data-table td {
   text-align: left;
   padding: var(--sp-2) var(--sp-3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  font-size: 0.875rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.85rem;
 }
-.data-table th { color: var(--text-secondary); font-weight: 600; }
+.data-table th {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  font-weight: 600;
+}
+.data-table td.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-2);
+}
+
+/* ── モーション配慮 ─────────────────────────────── */
+@keyframes band-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
 
 @media (max-width: 480px) {
-  .shell { padding: var(--sp-3); }
-  .stat-num { font-size: 1.6rem; }
+  .shell {
+    padding: var(--sp-3) var(--sp-3) var(--sp-8);
+  }
+  .nightband {
+    padding: var(--sp-4);
+  }
+  .pipe-step .v {
+    font-size: 1.25rem;
+  }
+  .stat .v {
+    font-size: 1.55rem;
+  }
 }

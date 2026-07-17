@@ -26,7 +26,7 @@ export function App() {
   return (
     <div className="shell">
       <header className="app-header">
-        <span className="app-logo">◆ Spotify Dashboard</span>
+        <span className="app-logo"><span className="mark" aria-hidden>◗</span>Spotify Dashboard</span>
         <span className="spacer" />
         <button
           className={"pill" + (pat ? " is-active" : "")}

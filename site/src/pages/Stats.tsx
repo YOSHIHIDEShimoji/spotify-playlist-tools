@@ -54,10 +54,10 @@ function Growth({ rows }: { rows: StatsHistoryRow[] }) {
     <div className="card">
       <ResponsiveContainer width="100%" height={220}>
         <LineChart data={data} margin={{ left: -10, right: 8, top: 8 }}>
-          <CartesianGrid stroke="#2a2a2a" vertical={false} />
-          <XAxis dataKey="date" stroke="#b3b3b3" fontSize={11} />
-          <YAxis stroke="#b3b3b3" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#181818", border: "none", borderRadius: 8 }} />
+          <CartesianGrid stroke="#232838" vertical={false} />
+          <XAxis dataKey="date" stroke="#9aa4b6" fontSize={11} />
+          <YAxis stroke="#9aa4b6" fontSize={11} />
+          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} />
           <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="総曲数" />
         </LineChart>
       </ResponsiveContainer>
@@ -72,9 +72,9 @@ function ArtistBars({ stats }: { stats: Stats | null }) {
     <div className="card">
       <ResponsiveContainer width="100%" height={Math.max(220, data.length * 26)}>
         <BarChart data={data} layout="vertical" margin={{ left: 20, right: 16 }}>
-          <XAxis type="number" stroke="#b3b3b3" fontSize={11} />
-          <YAxis type="category" dataKey="name" width={110} stroke="#b3b3b3" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#181818", border: "none", borderRadius: 8 }} cursor={{ fill: "#ffffff10" }} />
+          <XAxis type="number" stroke="#9aa4b6" fontSize={11} />
+          <YAxis type="category" dataKey="name" width={110} stroke="#9aa4b6" fontSize={11} />
+          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} cursor={{ fill: "#ffffff10" }} />
           <Bar dataKey="count" fill={GREEN} radius={[0, 4, 4, 0]} name="曲数" />
         </BarChart>
       </ResponsiveContainer>
@@ -89,9 +89,9 @@ function DecadeBars({ stats }: { stats: Stats | null }) {
     <div className="card">
       <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data} margin={{ left: -10, right: 8 }}>
-          <XAxis dataKey="label" stroke="#b3b3b3" fontSize={11} />
-          <YAxis stroke="#b3b3b3" fontSize={11} />
-          <Tooltip contentStyle={{ background: "#181818", border: "none", borderRadius: 8 }} cursor={{ fill: "#ffffff10" }} />
+          <XAxis dataKey="label" stroke="#9aa4b6" fontSize={11} />
+          <YAxis stroke="#9aa4b6" fontSize={11} />
+          <Tooltip contentStyle={{ background: "#1b1f2b", border: "1px solid rgba(255,255,255,0.14)", borderRadius: 10 }} cursor={{ fill: "#ffffff10" }} />
           <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name="曲数" />
         </BarChart>
       </ResponsiveContainer>
@@ -122,7 +122,7 @@ function HeatGrid({ heat }: { heat: Heatmap | null }) {
                   title={`${d} ${h}時: ${v}回`}
                   style={{
                     aspectRatio: "1", borderRadius: 2,
-                    background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#232323",
+                    background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#1b1f2b",
                   }}
                 />
               );

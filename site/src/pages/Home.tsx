@@ -1,6 +1,6 @@
 import { useJson, useJsonl } from "../lib/data";
 import type { ListeningStats, RunRecord } from "../lib/types";
-import { Empty, Loading, Section, StatCard } from "../components/ui";
+import { Empty, Loading, Section } from "../components/ui";
 
 export function Home() {
   const runs = useJsonl<RunRecord>("runs");
@@ -8,9 +8,13 @@ export function Home() {
 
   return (
     <>
-      <Section title="昨晩のサマリ">
-        {runs.loading ? <Loading /> : <SummaryCards runs={runs.data ?? []} listen={listen.data} />}
-      </Section>
+      {runs.loading ? (
+        <div className="nightband">
+          <Loading />
+        </div>
+      ) : (
+        <NightBand runs={runs.data ?? []} listen={listen.data} />
+      )}
 
       <Section title="実行履歴">
         {runs.loading ? <Loading /> : <RunTimeline runs={runs.data ?? []} />}
@@ -27,33 +31,99 @@ function realRuns(runs: RunRecord[]): RunRecord[] {
   return runs.filter((r) => !r.dry_run);
 }
 
-function SummaryCards({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats | null }) {
+const STATUS_BADGE: Record<string, { cls: string; label: string }> = {
+  success: { cls: "badge-b", label: "success" },
+  partial: { cls: "badge-c", label: "partial" },
+  failure: { cls: "badge-a", label: "failed" },
+};
+
+function jpDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  return m ? `${Number(m[2])}月${Number(m[3])}日` : iso;
+}
+
+/** Home ヒーロー: 昨晩の夜間ランを署名要素として最前面に出す。 */
+function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats | null }) {
   const real = realRuns(runs);
   const latest = real[real.length - 1];
-  const successRate = real.length
-    ? Math.round((real.filter((r) => r.status === "success").length / real.length) * 100)
-    : 0;
+
   let streak = 0;
   for (let i = real.length - 1; i >= 0; i--) {
     if (real[i].status === "success") streak++;
     else break;
   }
-  const s = latest?.steps;
+  const successRate = real.length
+    ? Math.round((real.filter((r) => r.status === "success").length / real.length) * 100)
+    : 0;
+
+  if (!latest) {
+    return (
+      <div className="nightband">
+        <div className="nightband-top">
+          <span className="nightband-dot" />
+          <span className="eyebrow">nightly run · 01:00 JST</span>
+        </div>
+        <h1 className="t-display">まだ夜間ランの記録がありません</h1>
+        <p className="nightband-sub">
+          毎晩 01:00（JST）に inbox → sync → sort → archive が自動で走り、その結果が翌朝ここに出ます。
+        </p>
+      </div>
+    );
+  }
+
+  const s = latest.steps;
+  const badge = STATUS_BADGE[latest.status] ?? STATUS_BADGE.partial;
+  const touched = s.inbox.processed + s.sync.added + s.sync.removed + s.archive.added;
+  const sub =
+    touched === 0
+      ? "静かな夜でした。ライブラリに変更はありません。"
+      : `inbox ${s.inbox.processed}件を振り分け、同期 +${s.sync.added}/−${s.sync.removed}、` +
+        `${s.sort.playlists} プレイリストを整えました。`;
+
   return (
-    <div className="row">
-      <StatCard
-        label="inbox 振り分け"
-        value={s ? s.inbox.processed : "—"}
-        sub={s ? `邦 ${s.inbox.japanese} / 洋 ${s.inbox.western} / 不明 ${s.inbox.unknown}` : "実行待ち"}
-      />
-      <StatCard label="sync" value={s ? `+${s.sync.added}` : "—"} sub={s ? `-${s.sync.removed} / 新規AP ${s.sync.new_playlists}` : ""} />
-      <StatCard label="sort" value={s ? s.sort.playlists : "—"} sub={s ? `見送り ${s.sort.skipped}` : ""} />
-      <StatCard label="連続成功" value={`${streak}日`} sub={`成功率 ${successRate}%`} />
-      <StatCard
-        label="累計再生"
-        value={listen ? listen.milestone.total.toLocaleString() : "—"}
-        sub={listen?.milestone.next ? `次の節目 ${listen.milestone.next.toLocaleString()}` : "聴取ログ蓄積中"}
-      />
+    <div className="nightband">
+      <div className="nightband-top">
+        <span className="nightband-dot" />
+        <span className="eyebrow">nightly run · 01:00 JST</span>
+        <span className={"badge status " + badge.cls}>{badge.label}</span>
+      </div>
+
+      <h1 className="t-display">{jpDate(latest.date)}の記録</h1>
+      <p className="nightband-sub">{sub}</p>
+
+      <div className="pipe">
+        <PipeStep n="01" name="inbox" value={s.inbox.processed} detail={`邦 ${s.inbox.japanese} · 洋 ${s.inbox.western} · 不明 ${s.inbox.unknown}`} />
+        <PipeStep n="02" name="sync" value={s.sync.added} prefix="+" detail={`−${s.sync.removed} · 新規AP ${s.sync.new_playlists}`} />
+        <PipeStep n="03" name="sort" value={s.sort.playlists} detail={`見送り ${s.sort.skipped}`} />
+        <PipeStep n="04" name="archive" value={s.archive.added} prefix="+" detail="Top50 追加" />
+      </div>
+
+      <div className="nightband-foot">
+        <div className="foot-stat">
+          <span className="k">連続成功</span>
+          <span className="v">{streak}<span className="muted"> 日</span> · 成功率 {successRate}%</span>
+        </div>
+        <div className="foot-stat">
+          <span className="k">累計再生</span>
+          <span className="v">
+            <span className="dawn">{listen ? listen.milestone.total.toLocaleString() : "—"}</span>
+            {listen?.milestone.next ? <span className="muted"> / 次 {listen.milestone.next.toLocaleString()}</span> : null}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PipeStep(
+  { n, name, value, prefix, detail }: { n: string; name: string; value: number; prefix?: string; detail: string },
+) {
+  const cls = value > 0 ? "v pos" : "v zero";
+  return (
+    <div className="pipe-step">
+      <span className="k">{n} · {name}</span>
+      <span className={cls}>{prefix && value > 0 ? prefix : ""}{value}</span>
+      <span className="d">{detail}</span>
     </div>
   );
 }
@@ -74,10 +144,10 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
               <td>
                 <span className={"badge " + (r.status === "success" ? "badge-b" : "badge-c")}>{r.status}</span>
               </td>
-              <td>{r.steps.inbox.processed}</td>
-              <td>+{r.steps.sync.added}/-{r.steps.sync.removed}</td>
-              <td>{r.steps.sort.playlists}</td>
-              <td>+{r.steps.archive.added}</td>
+              <td className="num">{r.steps.inbox.processed}</td>
+              <td className="num">+{r.steps.sync.added}/-{r.steps.sync.removed}</td>
+              <td className="num">{r.steps.sort.playlists}</td>
+              <td className="num">+{r.steps.archive.added}</td>
             </tr>
           ))}
         </tbody>

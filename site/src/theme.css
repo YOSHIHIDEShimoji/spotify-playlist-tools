@@ -1,49 +1,62 @@
-/* theme.css — デザイントークン（docs/DESIGN-spotify.md の正典を CSS 変数化）
- * 色・余白・角丸・フォントはすべてここ経由。コンポーネントでハードコードしない。
- * デザイン差し替えはこのファイルのトークンだけ変えれば済むようにする。 */
+/* theme.css — デザイントークン
+ * 方向性: 「夜の運用コンソール」。ボットが 01:00 JST に眠っている間に走り、朝に記録を返す。
+ * ── Spotify 由来の緑は「機能アクセント」としてのみ残す（操作・成功・進行）。
+ * ── ほぼ黒の AI 定番（#121212 一色）を避け、青みのある夜の階調にする。
+ * ── 大胆さは一箇所（Home ヒーローの夜明けグラデーション）に集中させる。
+ * ── 機械が語るデータ（差分・時刻・回数・ID・ISRC）は等幅で組み、散文と役割を分ける。
+ * 色・余白・角丸・フォントはすべてここ経由。コンポーネントでハードコードしない。 */
 
 :root {
-  /* 表面（深度: DESIGN §6） */
-  --bg-base: #121212;
-  --surface-1: #181818;
-  --surface-2: #1f1f1f;
-  --surface-card: #181818;
-  --surface-card-hover: #252525;
-  --surface-alt: #272727;
+  /* 夜の表面（青みのある黒。深いほど奥） */
+  --night-950: #0b0d13; /* ページ地色 */
+  --night-900: #0f1219;
+  --surface-1: #13161f; /* 微かに浮く帯 */
+  --surface-card: #161a24; /* カード */
+  --surface-2: #1b1f2b; /* カード内タイル・入力欄 */
+  --surface-hover: #222839;
+  --line: rgba(255, 255, 255, 0.07); /* ヘアライン */
+  --line-strong: rgba(255, 255, 255, 0.14);
 
-  /* ブランド（緑は機能的にのみ・DESIGN §2, §7） */
+  /* 機能アクセント（緑 = 操作・成功・進行。装飾に使わない） */
   --green: #1ed760;
   --green-press: #1db954;
+  --green-soft: rgba(30, 215, 96, 0.14);
 
-  /* テキスト */
-  --text-base: #ffffff;
-  --text-secondary: #b3b3b3;
-  --text-near-white: #cbcbcb;
-  --text-emphasis: #fdfdfd;
+  /* 夜明けアクセント（ヒーローと節目だけ。ここに大胆さを集中） */
+  --dawn: #ff9e6d;
+  --dawn-2: #ffcf8a;
+  --hero-grad: linear-gradient(101deg, #0f1220 0%, #161a2d 40%, #29223a 71%, #3c2c33 100%);
+  --dawn-line: linear-gradient(
+    90deg,
+    rgba(110, 168, 255, 0) 0%,
+    #6ea8ff 26%,
+    #ff9e6d 72%,
+    rgba(255, 158, 109, 0) 100%
+  );
+
+  /* テキスト（青みのある白〜灰） */
+  --text: #eef1f8;
+  --text-2: #9aa4b6;
+  --text-3: #656e7f;
 
   /* セマンティック */
-  --negative: #f3727f;
-  --warning: #ffa42b;
-  --announce: #539df5;
+  --negative: #ff6b78;
+  --warning: #ffb454;
+  --info: #6ea8ff;
 
-  /* ボーダー */
-  --border: #4d4d4d;
-  --border-muted: #7c7c7c;
-
-  /* 角丸スケール（DESIGN §5.3） */
-  --r-badge: 2px;
-  --r-input: 4px;
-  --r-card: 6px;
-  --r-section: 8px;
-  --r-panel: 12px;
+  /* 角丸 */
+  --r-badge: 3px;
+  --r-input: 8px;
+  --r-tile: 8px;
+  --r-card: 12px;
+  --r-panel: 16px;
   --r-pill: 500px;
-  --r-full: 9999px;
 
-  /* シャドウ（DESIGN §6） */
-  --shadow-card: rgba(0, 0, 0, 0.3) 0px 8px 8px;
-  --shadow-dialog: rgba(0, 0, 0, 0.5) 0px 8px 24px;
+  /* 影 */
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.02), 0 12px 28px -18px rgba(0, 0, 0, 0.9);
+  --shadow-hero: 0 24px 60px -30px rgba(0, 0, 0, 0.95);
 
-  /* 余白（base 8px・DESIGN §5.1） */
+  /* 余白（base 8px） */
   --sp-1: 4px;
   --sp-2: 8px;
   --sp-3: 12px;
@@ -51,11 +64,14 @@
   --sp-5: 20px;
   --sp-6: 24px;
   --sp-8: 32px;
+  --sp-10: 40px;
 
-  /* フォント（proprietary が無い環境では fallback stack・DESIGN §3） */
+  /* フォント */
   --font-ui: "SpotifyMixUI", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
-    "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", sans-serif;
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   --font-title: "SpotifyMixUITitle", var(--font-ui);
+  --font-mono: ui-monospace, "SF Mono", "SFMono-Regular", "JetBrains Mono", Menlo, Consolas,
+    monospace;
 }
 
 * {
@@ -67,15 +83,19 @@ body,
 #root {
   margin: 0;
   min-height: 100%;
-  background: var(--bg-base);
+  background: var(--night-950);
 }
 
 body {
   font-family: var(--font-ui);
-  color: var(--text-base);
+  color: var(--text);
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.45;
   -webkit-font-smoothing: antialiased;
+  /* ページ最上部にわずかな夜空の残光。奥行きだけ足して主張しない。 */
+  background-image: radial-gradient(120% 340px at 78% -60px, rgba(58, 44, 51, 0.5), transparent 60%),
+    radial-gradient(90% 300px at 8% -80px, rgba(22, 26, 48, 0.55), transparent 62%);
+  background-repeat: no-repeat;
 }
 
 a {
@@ -89,15 +109,32 @@ h3 {
   margin: 0;
 }
 
-/* タイポグラフィのユーティリティ（DESIGN §3 の hierarchy） */
+/* ── タイポグラフィ ─────────────────────────────── */
+/* 機械が語るラベル。等幅・小さく・字間を開ける。 */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.t-display {
+  font-family: var(--font-title);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 6vw, 2.1rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+}
 .t-section {
   font-family: var(--font-title);
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.35rem;
+  font-weight: 750;
+  letter-spacing: -0.005em;
 }
 .t-heading {
-  font-size: 1.13rem;
-  font-weight: 600;
+  font-size: 1.06rem;
+  font-weight: 700;
   line-height: 1.3;
 }
 .t-body-bold {
@@ -105,17 +142,24 @@ h3 {
 }
 .t-caption {
   font-size: 0.875rem;
-  color: var(--text-secondary);
+  color: var(--text-2);
 }
 .t-small {
   font-size: 0.75rem;
-  color: var(--text-secondary);
+  color: var(--text-2);
+}
+/* 機械データ: 数値・時刻・ID・ISRC。桁を揃える。 */
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
 }
 
-/* 汎用パーツ */
+/* ── 汎用パーツ ─────────────────────────────────── */
 .card {
   background: var(--surface-card);
-  border-radius: var(--r-section);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
   padding: var(--sp-4);
 }
 .card-elevated {
@@ -127,49 +171,65 @@ h3 {
   align-items: center;
   gap: var(--sp-1);
   background: var(--surface-2);
-  color: var(--text-secondary);
-  border: none;
-  border-radius: var(--r-full);
+  color: var(--text-2);
+  border: 1px solid transparent;
+  border-radius: var(--r-pill);
   padding: var(--sp-2) var(--sp-4);
   font: inherit;
   font-size: 0.875rem;
   font-weight: 700;
   cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease, border-color 0.14s ease;
+}
+.pill:hover:not(:disabled) {
+  color: var(--text);
+  background: var(--surface-hover);
 }
 .pill.is-active {
-  background: var(--text-base);
-  color: var(--bg-base);
+  background: var(--text);
+  color: var(--night-950);
 }
 .pill-green {
   background: var(--green);
-  color: #000;
+  color: #05130a;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: 700;
+  letter-spacing: 0.09em;
+  font-weight: 800;
+}
+.pill-green:hover:not(:disabled) {
+  background: var(--green-press);
+  color: #05130a;
 }
 .pill:disabled {
-  opacity: 0.45;
+  opacity: 0.4;
   cursor: not-allowed;
 }
 
 .badge {
   display: inline-block;
-  font-size: 0.66rem;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
   font-weight: 600;
-  text-transform: capitalize;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   border-radius: var(--r-badge);
   padding: 2px 6px;
-  background: var(--surface-alt);
-  color: var(--text-secondary);
+  background: var(--surface-2);
+  color: var(--text-2);
 }
-.badge-a { background: rgba(243, 114, 127, 0.18); color: var(--negative); }
-.badge-b { background: rgba(30, 215, 96, 0.16); color: var(--green); }
-.badge-c { background: rgba(83, 157, 245, 0.16); color: var(--announce); }
+.badge-a {
+  background: rgba(255, 107, 120, 0.16);
+  color: var(--negative);
+}
+.badge-b {
+  background: var(--green-soft);
+  color: var(--green);
+}
+.badge-c {
+  background: rgba(110, 168, 255, 0.16);
+  color: var(--info);
+}
 
-.muted { color: var(--text-secondary); }
-.stat-num {
-  font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1;
+.muted {
+  color: var(--text-2);
 }
