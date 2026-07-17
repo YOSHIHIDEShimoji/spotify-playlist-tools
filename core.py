@@ -7,29 +7,46 @@
 トークンが失効していれば AuthRequired を送出する。対話実行時のみ再認証できる。
 """
 
+import json
 import logging
 import os
 import re
 import socket
 import subprocess
 import sys
+import tempfile
 import time
+from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import spotipy
 from dotenv import load_dotenv
 from spotipy.oauth2 import SpotifyOAuth
 
+JST = ZoneInfo("Asia/Tokyo")
+
 BASE_DIR = Path(__file__).resolve().parent
 ENV_PATH = BASE_DIR / ".env"
 CACHE_PATH = BASE_DIR / ".cache-spotify"
 LOG_DIR = BASE_DIR / "log"
+STEP_SUMMARY_DIR = LOG_DIR / "step_summary"
 
 # exit code の意味づけ（fable5-redesign §3）
 EXIT_OK = 0       # 成功
 EXIT_FATAL = 1    # 致命的エラー（例外）
 EXIT_PARTIAL = 2  # 一部スキップ（unknown あり。失敗ではなく「要人間判断」）
 EXIT_AUTH = 3     # 再認証が必要（ヘッドレスでトークン失効）
+
+# 全ツール共通の統合スコープ。reauth.py がこれで一括認証する（dashboard-design §11-1）。
+# 既存4ツールは個別に必要最小スコープを要求し続ける（未再認証時に validate_token で
+# 壊れないため）。新スコープ（recently-played / top / follow）依存のコードだけが
+# これらを要求し、未付与なら graceful skip する（dashboard-design §6.4）。
+SCOPE_ALL = (
+    "playlist-modify-private playlist-modify-public playlist-read-private "
+    "user-library-read user-library-modify "
+    "user-read-recently-played user-top-read user-follow-read"
+)
 
 
 class AuthRequired(Exception):
@@ -131,6 +148,87 @@ def append_line(path: Path, line: str) -> None:
         if needs_nl:
             f.write("\n")
         f.write(line if line.endswith("\n") else line + "\n")
+
+
+def parse_iso(s: str) -> datetime:
+    """ISO 8601（末尾 Z 可）を aware datetime にする。Spotify の played_at 用。"""
+    if s.endswith("Z"):
+        s = s[:-1] + "+00:00"
+    dt = datetime.fromisoformat(s)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def to_jst(s: str) -> datetime:
+    """UTC ISO 文字列を JST の aware datetime に変換する。"""
+    return parse_iso(s).astimezone(JST)
+
+
+def atomic_write_json(path: Path, data) -> None:
+    """一時ファイルに書いてから rename（atomic）。書き込み中断で既存ファイルを壊さない。
+    classify.save_cache と同じ思想。data ブランチのデータファイル生成に使う。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp_path = tempfile.mkstemp(dir=str(path.parent), prefix=f".{path.name}.", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2, sort_keys=True)
+        os.replace(tmp_path, path)
+    finally:
+        if os.path.exists(tmp_path):
+            try:
+                os.unlink(tmp_path)
+            except OSError:
+                pass
+
+
+def append_jsonl(path: Path, records) -> None:
+    """JSONL へ複数レコードを追記する（1レコード1行・追記のみ）。"""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as f:
+        for rec in records:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
+def read_jsonl(path: Path) -> list[dict]:
+    """JSONL を読む。壊れた行はスキップする。存在しなければ空リスト。"""
+    if not path.exists():
+        return []
+    out: list[dict] = []
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                out.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue
+    return out
+
+
+def write_step_summary(name: str, data: dict) -> None:
+    """各ツールが実行末尾に1件のサマリを書く（log/step_summary/<name>.json）。
+    sitegen.py がこれらを集約して runs.jsonl / unknown.json を作る（dashboard-design §6.2）。
+    ここは gitignore 済み領域で、失敗しても本処理を巻き込まない。"""
+    try:
+        atomic_write_json(STEP_SUMMARY_DIR / f"{name}.json", data)
+    except OSError:
+        pass
+
+
+def read_step_summaries() -> dict[str, dict]:
+    """log/step_summary/*.json を {tool_name: data} で返す。"""
+    out: dict[str, dict] = {}
+    if not STEP_SUMMARY_DIR.exists():
+        return out
+    for p in STEP_SUMMARY_DIR.glob("*.json"):
+        try:
+            with p.open(encoding="utf-8") as f:
+                out[p.stem] = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+    return out
 
 
 def setup_logging(name: str) -> logging.Logger:

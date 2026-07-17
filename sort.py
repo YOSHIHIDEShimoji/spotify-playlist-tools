@@ -66,7 +66,8 @@ def replace_playlist(sp, playlist_id: str, track_ids: list[str]) -> None:
         sp.playlist_add_items(playlist_id, track_ids[i : i + 100])
 
 
-def sort_one(sp, url_or_id: str, logger, dry: bool) -> None:
+def sort_one(sp, url_or_id: str, logger, dry: bool) -> str:
+    """"sorted" / "skipped" / "dry" を返す（サマリ集計用）。"""
     playlist_id = core.extract_playlist_id(url_or_id)
     # 全置換の競合ガード（bugs §1）: 取得時と置換直前で snapshot_id が変われば見送る
     snapshot_before = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
@@ -76,15 +77,16 @@ def sort_one(sp, url_or_id: str, logger, dry: bool) -> None:
 
     if dry:
         logger.info(f"[DRY-RUN] {playlist_id}: {len(sorted_ids)} 曲をソート予定（置換なし）")
-        return
+        return "dry"
 
     snapshot_now = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
     if snapshot_now != snapshot_before:
         logger.info(f"[skip] {playlist_id}: 取得中に変更を検出（次回再ソート）")
-        return
+        return "skipped"
 
     replace_playlist(sp, playlist_id, sorted_ids)
     logger.info(f"更新完了: {len(sorted_ids)} 曲をソートしました ({playlist_id})")
+    return "sorted"
 
 
 def load_sort_targets(path: Path) -> list[str]:
@@ -200,11 +202,16 @@ def main() -> int:
     if args.all:
         targets = load_sort_targets(SORT_CONFIG_PATH)
         logger.info(f"ソート対象: {len(targets)} プレイリスト" + (" [DRY-RUN]" if dry else ""))
+        counts = {"sorted": 0, "skipped": 0, "dry": 0}
         for url in targets:
             try:
-                sort_one(sp, url, logger, dry)
+                counts[sort_one(sp, url, logger, dry)] += 1
             except Exception as e:
                 logger.info(f"[error] {url}: {e}")
+        core.write_step_summary(
+            "sort",
+            {"playlists": counts["sorted"] + counts["dry"], "skipped": counts["skipped"]},
+        )
         return core.EXIT_OK
 
     if not args.playlist:

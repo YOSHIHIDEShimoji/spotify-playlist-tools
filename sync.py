@@ -119,6 +119,10 @@ def main() -> int:
     is_first_run = not prev_state
     new_state: dict[str, set[str]] = {}
 
+    total_added = 0
+    total_removed = 0
+    total_new_playlists = 0
+
     # 自動検出: threshold 以上の未設定アーティストにプレイリストを作る
     artist_counts = count_artists(source_tracks)
     for artist_lower, (count, spotify_name) in sorted(artist_counts.items(), key=lambda x: -x[1][0]):
@@ -133,6 +137,7 @@ def main() -> int:
         core.append_line(CONFIG_PATH, f"{spotify_name}={playlist_id}")
         core.append_line(SORT_CONFIG_PATH, f"https://open.spotify.com/playlist/{playlist_id}")
         artists[artist_lower] = playlist_id
+        total_new_playlists += 1
         logger.info(f"[auto] {spotify_name}: {count} tracks → created playlist {playlist_id}")
 
     # 同期
@@ -149,6 +154,7 @@ def main() -> int:
                     core.remove_in_batches(sp, source_id, list(deleted))
                     source_tracks = [t for t in source_tracks if t["id"] not in deleted]
                     logger.info(f"[{today}] {artist_lower}: removed {len(deleted)} from source")
+                total_removed += len(deleted)
 
         # 順方向: ソースの新規曲を AP へ追加
         candidates, spotify_name = match_tracks_for_artist(source_tracks, artist_lower)
@@ -156,6 +162,7 @@ def main() -> int:
         if to_add and not dry:
             core.add_in_batches(sp, dest_id, to_add)
             current_ap_ids.update(to_add)
+        total_added += len(to_add)
 
         skipped = len(candidates) - len(to_add)
         verb = "would add" if dry else "added"
@@ -166,6 +173,11 @@ def main() -> int:
         logger.info("[DRY-RUN] sync_state.json は更新しません")
     else:
         save_sync_state(STATE_PATH, new_state)
+
+    core.write_step_summary(
+        "sync",
+        {"added": total_added, "removed": total_removed, "new_playlists": total_new_playlists},
+    )
     return core.EXIT_OK
 
 
