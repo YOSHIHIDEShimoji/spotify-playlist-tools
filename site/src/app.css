@@ -543,18 +543,15 @@
   border: 1px solid transparent;
   margin-bottom: var(--sp-2);
 }
-/* チェック＝削除対象。選ぶと薄くグレーアウトして「消える側」だと分かる。 */
+/* ラジオ選択＝残す1曲。選ばれなかった行は赤枠＋淡色で「消える側」だと分かる。 */
 .dupe-cand.cand-pick {
   cursor: pointer;
 }
-/* 削除対象は「消える側」の見た目（アート＋テキストだけ淡く／取り消し線）にし、
-   チェックと再生ボタンは通常表示のまま（消す前に聴き比べられるように）。 */
+/* 削除対象はアート＋テキストだけ淡くし、ラジオと再生ボタンは通常表示のまま
+   （消す前に聴き比べられるように）。赤枠＋グレーアウトで示すので取り消し線は使わない。 */
 .dupe-cand.is-del .cand-art,
 .dupe-cand.is-del .cand-main {
   opacity: 0.45;
-}
-.dupe-cand.is-del .cand-name .txt {
-  text-decoration: line-through;
 }
 /* 残す1曲＝緑枠、削除する曲＝赤枠で一目で分かるように */
 .dupe-cand.is-keep {
