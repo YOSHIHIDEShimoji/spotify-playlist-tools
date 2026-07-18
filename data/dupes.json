@@ -1,70 +1,11 @@
 {
   "counts": {
     "A": 0,
-    "B": 9,
+    "B": 8,
     "C": 1
   },
-  "generated_at": "2026-07-18T11:06:16.351459+00:00",
+  "generated_at": "2026-07-18T11:38:48.893426+00:00",
   "groups": [
-    {
-      "id": "g-a46fb6dd9bb9",
-      "reason": "isrc",
-      "tier": "B",
-      "tracks": [
-        {
-          "album": "Major Lazer Essentials",
-          "album_type": "compilation",
-          "artists": [
-            "Major Lazer",
-            "Justin Bieber",
-            "MØ"
-          ],
-          "duration_ms": 185351,
-          "id": "13pVIIellD76zNT1APT1De",
-          "image": "https://i.scdn.co/image/ab67616d00004851bc308b81b82fc8baf8f26617",
-          "isrc": "QMUY41600027",
-          "name": "Cold Water",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "50b7bd45kP4taFw6CtDl77",
-              "name": "justin bieber"
-            }
-          ],
-          "popularity": 68,
-          "release_date": "2018-10-19"
-        },
-        {
-          "album": "Cold Water (feat. Justin Bieber & MØ)",
-          "album_type": "single",
-          "artists": [
-            "Major Lazer",
-            "Justin Bieber",
-            "MØ"
-          ],
-          "duration_ms": 185351,
-          "id": "6Bjtr3tPdto5nyuLYf61sN",
-          "image": "https://i.scdn.co/image/ab67616d000048511aa0c271b0419100bdb4b7d5",
-          "isrc": "QMUY41600027",
-          "name": "Cold Water (feat. Justin Bieber & MØ)",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "50b7bd45kP4taFw6CtDl77",
-              "name": "justin bieber"
-            }
-          ],
-          "popularity": 79,
-          "release_date": "2016-07-22"
-        }
-      ]
-    },
     {
       "id": "g-415cebffa9c1",
       "reason": "isrc",
