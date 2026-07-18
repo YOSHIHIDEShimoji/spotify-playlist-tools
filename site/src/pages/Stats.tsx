@@ -134,6 +134,13 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
   if (loading) return <Loading />;
   const rows: RankedTrack[] = range === "week" ? (listen?.weekly_top ?? []) : (listen?.cumulative_top ?? []);
   const since = range === "all" && listen?.since ? monthDay(listen.since, lang) : null;
+  // キャプションは今週/累計どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
+  const caption =
+    range === "week"
+      ? tx("Plays this calendar week (Mon–Sun).", "今週（月〜日）の再生。")
+      : since
+        ? tx(`Since ${since} (when logging started).`, `${since}（計測開始）からの累計。`)
+        : tx("All-time total since logging started.", "計測開始からの累計。");
 
   return (
     <>
@@ -145,11 +152,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
           {tx("All time", "累計")}
         </button>
       </div>
-      {since && (
-        <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
-          {tx(`Since ${since} (when logging started).`, `${since}（計測開始）からの累計。`)}
-        </p>
-      )}
+      <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>{caption}</p>
       {rows.length === 0 ? (
         <Empty>
           {range === "week"
@@ -178,7 +181,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
                   <div className="name">{t.name}</div>
                   <div className="t-small">{t.artists.join(", ")}</div>
                 </span>
-                <span className="list-count">{tx(`${t.count} plays`, `${t.count}回`)}</span>
+                <span className="list-count">{tx(`${t.count} ${t.count === 1 ? "play" : "plays"}`, `${t.count}回`)}</span>
                 <PlayButton uri={`spotify:track:${t.track_id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
               </div>
             );
@@ -390,7 +393,7 @@ function HeatGrid({ heat }: { heat: Heatmap | null }) {
               return (
                 <div
                   key={`${dow}-${h}`}
-                  title={tx(`${d} ${h}:00: ${v} plays`, `${d} ${h}時: ${v}回`)}
+                  title={tx(`${d} ${h}:00: ${v} ${v === 1 ? "play" : "plays"}`, `${d} ${h}時: ${v}回`)}
                   style={{
                     aspectRatio: "1", borderRadius: 2,
                     background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#2a2a2a",

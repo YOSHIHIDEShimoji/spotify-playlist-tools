@@ -178,7 +178,7 @@ function WrappedMonth({ month }: { month: string }) {
             <div className="list-row" key={a.name}>
               <span className="list-rank">{i + 1}</span>
               <span className="list-main"><div className="name">{a.name}</div></span>
-              <span className="list-count">{tx(`${a.count} plays`, `${a.count}回`)}</span>
+              <span className="list-count">{tx(`${a.count} ${a.count === 1 ? "play" : "plays"}`, `${a.count}回`)}</span>
             </div>
           ))}
         </div>

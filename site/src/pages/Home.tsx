@@ -159,7 +159,8 @@ function PipeStep(
     <button type="button" className="pipe-step pipe-step--btn" onClick={onClick} aria-label={tx(`View ${name} details`, `${name} の内訳を見る`)}>
       <span className="k">{n} · {name}</span>
       <span className={cls}>{prefix && value > 0 ? prefix : ""}{value}</span>
-      <span className="d">{detail} ›</span>
+      {/* 矢印は直前の語と非改行スペースで結合し、モバイルで › だけが孤立して折り返すのを防ぐ（fable5 レビュー）。 */}
+      <span className="d">{detail}{" ›"}</span>
     </button>
   );
 }
