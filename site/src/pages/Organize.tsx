@@ -7,8 +7,14 @@ import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
 import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib/processing";
 import { PlayButton } from "../lib/player";
+import { useT } from "../lib/i18n";
+
+type Tx = (en: string, ja: string) => string;
+const noPatHint = (tx: Tx) => tx("🔒 No operation token set", "🔒 操作トークン未設定で実行できません");
+const failMsg = (tx: Tx, m: string) => tx(`Failed: ${m}`, `失敗: ${m}`);
 
 export function Organize() {
+  const tx = useT();
   const dupes = useJson<Dupes>("dupes");
   const unknown = useJson<Unknown>("unknown");
   const undoIdx = useJson<UndoIndex>("undo_index");
@@ -57,41 +63,41 @@ export function Organize() {
     <>
       {!pat && (
         <div className="auth-banner auth-banner--warn auth-banner--compact viewonly-note">
-          <span>👁 閲覧のみ</span>
-          <span className="muted">— 削除・振り分けはヘッダ「操作 OFF」から有効化</span>
+          <span>{tx("👁 View only", "👁 閲覧のみ")}</span>
+          <span className="muted">{tx("— enable delete/sort from “Ops OFF” in the header", "— 削除・振り分けはヘッダ「操作 OFF」から有効化")}</span>
         </div>
       )}
 
       <UndoSection pat={pat} anyProcessing={anyProcessing} processing={processing} />
 
-      <div className="seg" role="tablist" aria-label="整理の種類">
+      <div className="seg" role="tablist" aria-label={tx("Organize type", "整理の種類")}>
         <button role="tab" aria-selected={tab === "dupes"} className={tab === "dupes" ? "is-active" : ""} onClick={() => setTab("dupes")}>
-          重複{dupeCount > 0 && <span className="seg-count">{dupeCount}</span>}
+          {tx("Duplicates", "重複")}{dupeCount > 0 && <span className="seg-count">{dupeCount}</span>}
         </button>
         <button role="tab" aria-selected={tab === "unknown"} className={tab === "unknown" ? "is-active" : ""} onClick={() => setTab("unknown")}>
-          判定できなかった曲{unknownCount > 0 && <span className="seg-count">{unknownCount}</span>}
+          {tx("Unclassified", "判定できなかった曲")}{unknownCount > 0 && <span className="seg-count">{unknownCount}</span>}
         </button>
         <button role="tab" aria-selected={tab === "keep"} className={tab === "keep" ? "is-active" : ""} onClick={() => setTab("keep")}>
-          保留{keepCount > 0 && <span className="seg-count">{keepCount}</span>}
+          {tx("On hold", "保留")}{keepCount > 0 && <span className="seg-count">{keepCount}</span>}
         </button>
       </div>
 
       {tab === "keep" ? (
-        <Section title="保留中（両方残す）">
+        <Section title={tx("On hold (keep both)", "保留中（両方残す）")}>
           {keep.loading ? (
             <Loading />
           ) : keepCount === 0 ? (
-            <Empty>「両方残す」にした重複はありません。ここに移すと、いつでも重複チェックに戻せます。</Empty>
+            <Empty>{tx("No duplicates set to “keep both”. Items moved here can always be sent back to the dupe check.", "「両方残す」にした重複はありません。ここに移すと、いつでも重複チェックに戻せます。")}</Empty>
           ) : (
             <KeepSection groups={keep.data!.groups} pat={pat} />
           )}
         </Section>
       ) : tab === "dupes" ? (
-        <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
+        <Section title={tx("Duplicates & alternate versions", "重複・別バージョン")} aside={dupes.data && <Counts d={dupes.data} />}>
           {dupes.loading ? (
             <Loading />
           ) : !dupes.data || dupeCount === 0 ? (
-            <Empty>重複は見つかっていません。きれいな状態です。</Empty>
+            <Empty>{tx("No duplicates found. All clean.", "重複は見つかっていません。きれいな状態です。")}</Empty>
           ) : (
             dupes.data.groups.map((g) => (
               <GroupCard
@@ -105,11 +111,11 @@ export function Organize() {
           )}
         </Section>
       ) : (
-        <Section title="判定できなかった曲">
+        <Section title={tx("Unclassified tracks", "判定できなかった曲")}>
           {unknown.loading ? (
             <Loading />
           ) : !unknown.data || unknownCount === 0 ? (
-            <Empty>未判定の曲はありません。</Empty>
+            <Empty>{tx("No unclassified tracks.", "未判定の曲はありません。")}</Empty>
           ) : (
             unknown.data.tracks.map((t) => (
               <div className="card" key={t.id} style={{ marginBottom: "var(--sp-3)" }}>
@@ -118,7 +124,7 @@ export function Organize() {
                     <div className="cand-name"><span className="txt">{t.name}</span></div>
                     <div className="cand-meta">{t.artists.join(", ")}</div>
                   </div>
-                  <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
+                  <PlayButton uri={`spotify:track:${t.id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
                 </div>
                 <ClassifyActions
                   trackId={t.id}
@@ -136,37 +142,40 @@ export function Organize() {
 }
 
 function Counts({ d }: { d: Dupes }) {
+  const tx = useT();
   return (
     <span className="t-small">
-      完全 {d.counts.A} / 同一録音 {d.counts.B} / 別バージョン {d.counts.C}
+      {tx("Exact", "完全")} {d.counts.A} / {tx("Same recording", "同一録音")} {d.counts.B} / {tx("Alt version", "別バージョン")} {d.counts.C}
     </span>
   );
 }
 
-const TIER_LABEL: Record<string, string> = { A: "完全重複", B: "同一録音", C: "別バージョン候補" };
-
-// 判定理由スラッグ（データ由来）を日本語に。未知の値はそのまま出す。
-const REASON_LABEL: Record<string, string> = {
-  "same-id-in-playlist": "同じ曲がプレイリスト内に重複",
-  isrc: "録音が同一（ISRC 一致）",
-  title: "曲名が一致（別バージョンの可能性）",
+const TIER_LABEL: Record<string, { en: string; ja: string }> = {
+  A: { en: "Exact duplicate", ja: "完全重複" },
+  B: { en: "Same recording", ja: "同一録音" },
+  C: { en: "Possible alt version", ja: "別バージョン候補" },
 };
-function humanizeReason(reason: string): string {
-  return REASON_LABEL[reason] ?? reason;
-}
 
-// 残す1曲を選ぶラジオ行。選んだ曲＝緑チェック、選ばれなかった曲＝赤枠＋取り消し線。
+// 判定理由スラッグ（データ由来）を表示用に。未知の値はそのまま出す。
+const REASON_LABEL: Record<string, { en: string; ja: string }> = {
+  "same-id-in-playlist": { en: "Same track appears twice in the playlist", ja: "同じ曲がプレイリスト内に重複" },
+  isrc: { en: "Same recording (ISRC match)", ja: "録音が同一（ISRC 一致）" },
+  title: { en: "Title matches (possibly a different version)", ja: "曲名が一致（別バージョンの可能性）" },
+};
+
+// 残す1曲を選ぶラジオ行。選んだ曲＝緑チェック＋緑枠、選ばれなかった曲＝赤枠。
 function KeepRow(
   { t, i, radioName, kept, onKeep, meta }:
     { t: { id: string; name: string; image?: string | null }; i: number; radioName: string; kept: boolean; onKeep: () => void; meta: ReactNode },
 ) {
+  const tx = useT();
   return (
     <label className={"dupe-cand cand-pick" + (kept ? " is-keep" : " is-del")}>
       <input
         type="radio"
         className="keep-radio"
         name={radioName}
-        aria-label={`${t.name} を残す`}
+        aria-label={tx(`Keep ${t.name}`, `${t.name} を残す`)}
         checked={kept}
         onChange={onKeep}
       />
@@ -174,12 +183,12 @@ function KeepRow(
       <div className="cand-main">
         <div className="cand-name">
           <span className="txt">{t.name}</span>
-          {i === 0 && <span className="badge badge-b">推奨</span>}
-          <span className={"cand-tag" + (kept ? "" : " cand-tag--del")}>{kept ? "残す" : "削除"}</span>
+          {i === 0 && <span className="badge badge-b">{tx("Recommended", "推奨")}</span>}
+          <span className={"cand-tag" + (kept ? "" : " cand-tag--del")}>{kept ? tx("Keep", "残す") : tx("Delete", "削除")}</span>
         </div>
         <div className="cand-meta">{meta}</div>
       </div>
-      <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
+      <PlayButton uri={`spotify:track:${t.id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
     </label>
   );
 }
@@ -187,6 +196,7 @@ function KeepRow(
 function GroupCard(
   { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
 ) {
+  const tx = useT();
   // ラジオ選択＝「残す1曲」。既定で先頭（推奨）。選ばなかった曲を削除する。
   const [keepId, setKeepId] = useState<string>(() => g.tracks?.[0]?.id ?? "");
   const [status, setStatus] = useState<string | null>(null);
@@ -208,7 +218,7 @@ function GroupCard(
     });
     setBusy(false);
     if (res.ok) markProcessing(g.id);
-    setStatus(res.ok ? "処理中… 数分後にサイトへ反映されます。" : `失敗: ${res.message}`);
+    setStatus(res.ok ? tx("Processing… reflected on the site in a few minutes.", "処理中… 数分後にサイトへ反映されます。") : failMsg(tx, res.message));
   }
 
   async function keepBoth() {
@@ -219,18 +229,13 @@ function GroupCard(
     });
     setBusy(false);
     if (res.ok) markProcessing(g.id);
-    setStatus(res.ok ? "「両方残す」を記録しました。" : `失敗: ${res.message}`);
+    setStatus(res.ok ? tx("Saved “keep both”.", "「両方残す」を記録しました。") : failMsg(tx, res.message));
   }
 
   return (
     <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
       <Header g={g} />
-      {processing && (
-        <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
-          処理中… 反映まで数分（30分で自動解除）{" "}
-          <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions で確認</a>
-        </div>
-      )}
+      {processing && <ProcessingBanner />}
       {tracks.map((t, i) => (
         <KeepRow
           key={t.id}
@@ -239,23 +244,33 @@ function GroupCard(
           radioName={`keep-${g.id}`}
           kept={t.id === keepId}
           onKeep={() => setKeepId(t.id)}
-          meta={<>{t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}</>}
+          meta={<>{t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · {tx("Popularity", "人気")} {t.popularity ?? "—"}</>}
         />
       ))}
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
-          選ばなかった曲を削除{remove.length > 0 && `（${remove.length}）`}
+          {tx("Delete the ones not chosen", "選ばなかった曲を削除")}{remove.length > 0 && `（${remove.length}）`}
         </button>
         <button className="pill" disabled={!pat || busy || processing || blocked} onClick={keepBoth}>
-          両方残す
+          {tx("Keep both", "両方残す")}
         </button>
-        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
         {status && (
           <span className="t-small" style={{ alignSelf: "center" }}>
             {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
           </span>
         )}
       </div>
+    </div>
+  );
+}
+
+function ProcessingBanner() {
+  const tx = useT();
+  return (
+    <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
+      {tx("Processing… a few minutes to reflect (auto-clears in 30 min)", "処理中… 反映まで数分（30分で自動解除）")}{" "}
+      <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">{tx("Check on Actions", "Actions で確認")}</a>
     </div>
   );
 }
@@ -273,6 +288,7 @@ function Art({ image }: { image?: string | null }) {
 function TierACard(
   { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
 ) {
+  const tx = useT();
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const disabled = !pat || busy || processing || blocked;
@@ -283,37 +299,35 @@ function TierACard(
     const res = await dispatchOp(pat!, "dedupe-trim", { group_id: g.id });
     setBusy(false);
     if (res.ok) markProcessing(g.id);
-    setStatus(res.ok ? "余分な1つを削除中… 数分後に反映されます。" : `失敗: ${res.message}`);
+    setStatus(res.ok ? tx("Removing the extras… reflected in a few minutes.", "余分な1つを削除中… 数分後に反映されます。") : failMsg(tx, res.message));
   }
 
   return (
     <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
       <Header g={g} />
-      {processing && (
-        <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
-          処理中… 反映まで数分（30分で自動解除）{" "}
-          <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions で確認</a>
-        </div>
-      )}
+      {processing && <ProcessingBanner />}
       <div className="dupe-cand">
         <Art image={g.track?.image} />
         <div className="cand-main">
           <div className="cand-name"><span className="txt">{g.track?.name}</span></div>
-          <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
+          <div className="cand-meta">{g.track?.artists.join(", ")} — {tx(`${g.count}× in ${g.playlist?.name}`, `${g.playlist?.name} に ${g.count} 回`)}</div>
         </div>
-        {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} label={`${g.track.name} を再生`} />}
+        {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} label={tx(`Play ${g.track.name}`, `${g.track.name} を再生`)} />}
       </div>
       <p className="t-small" style={{ margin: "var(--sp-2) 0 0" }}>
-        同じ曲がこのプレイリストに {g.count} 回入っています。1つだけ残して余分を削除します（位置指定なので他の曲には触れません・取り消し可）。
+        {tx(
+          `This track appears ${g.count}× in this playlist. Keeps one and removes the extras (position-based, so other tracks are untouched; undoable).`,
+          `同じ曲がこのプレイリストに ${g.count} 回入っています。1つだけ残して余分を削除します（位置指定なので他の曲には触れません・取り消し可）。`,
+        )}
       </p>
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={disabled} onClick={trim}>
-          余分を削除（1つ残す）
+          {tx("Remove extras (keep 1)", "余分を削除（1つ残す）")}
         </button>
-        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
         {(processing || status) && (
           <span className="t-small" style={{ alignSelf: "center" }}>
-            {processing ? "余分な1つを削除中… 数分後に反映されます。" : status}{" "}
+            {processing ? tx("Removing the extras… reflected in a few minutes.", "余分な1つを削除中… 数分後に反映されます。") : status}{" "}
             <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
           </span>
         )}
@@ -337,6 +351,7 @@ function KeepSection({ groups, pat }: { groups: KeepGroup[]; pat: string | null 
 function KeepCard(
   { g, pat, byId }: { g: KeepGroup; pat: string | null; byId: Map<string, SearchTrack> },
 ) {
+  const tx = useT();
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   // スナップショットがあればそれを、無ければ track_ids を search_index で名前解決する。
@@ -355,7 +370,7 @@ function KeepCard(
     setStatus(null);
     const res = await dispatchOp(pat!, "keep-trim", { group_id: g.group_id, keep: [keepId], remove });
     setBusy(false);
-    setStatus(res.ok ? "選ばなかった曲を削除中… 数分後に反映されます。" : `失敗: ${res.message}`);
+    setStatus(res.ok ? tx("Deleting the ones not chosen… reflected in a few minutes.", "選ばなかった曲を削除中… 数分後に反映されます。") : failMsg(tx, res.message));
   }
 
   async function restore() {
@@ -363,13 +378,13 @@ function KeepCard(
     setStatus(null);
     const res = await dispatchOp(pat!, "keep-apply", { add: [], remove: [g.group_id] });
     setBusy(false);
-    setStatus(res.ok ? "重複チェックに戻しています… 数分後に反映されます。" : `失敗: ${res.message}`);
+    setStatus(res.ok ? tx("Sending back to the dupe check… reflected in a few minutes.", "重複チェックに戻しています… 数分後に反映されます。") : failMsg(tx, res.message));
   }
 
   return (
     <div className="card dupe-group">
       <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
-        両方残す{g.decided_at ? ` · ${g.decided_at}` : ""}
+        {tx("Keep both", "両方残す")}{g.decided_at ? ` · ${g.decided_at}` : ""}
       </div>
       {tracks.map((t, i) => (
         <KeepRow
@@ -384,12 +399,12 @@ function KeepCard(
       ))}
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={!canTrim} onClick={trim}>
-          選ばなかった曲を削除{remove.length > 0 && `（${remove.length}）`}
+          {tx("Delete the ones not chosen", "選ばなかった曲を削除")}{remove.length > 0 && `（${remove.length}）`}
         </button>
         <button className="pill" disabled={!pat || busy} onClick={restore}>
-          重複チェックに戻す
+          {tx("Back to dupe check", "重複チェックに戻す")}
         </button>
-        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
         {status && (
           <span className="t-small" style={{ alignSelf: "center" }}>
             {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
@@ -401,10 +416,13 @@ function KeepCard(
 }
 
 function Header({ g }: { g: DupeGroup }) {
+  const tx = useT();
+  const tier = TIER_LABEL[g.tier];
+  const reason = REASON_LABEL[g.reason];
   return (
     <div style={{ display: "flex", gap: 8, alignItems: "center", marginBottom: "var(--sp-3)" }}>
-      <span className={"badge badge-" + g.tier.toLowerCase()}>{TIER_LABEL[g.tier]}</span>
-      <span className="t-small">{humanizeReason(g.reason)}</span>
+      <span className={"badge badge-" + g.tier.toLowerCase()}>{tier ? tx(tier.en, tier.ja) : g.tier}</span>
+      <span className="t-small">{reason ? tx(reason.en, reason.ja) : g.reason}</span>
     </div>
   );
 }
@@ -413,27 +431,28 @@ function UndoSection(
   { pat, anyProcessing, processing }:
     { pat: string | null; anyProcessing: boolean; processing: Record<string, string> },
 ) {
+  const tx = useT();
   const undo = useJson<UndoIndex>("undo_index");
   const [status, setStatus] = useState<Record<string, string>>({});
   const entries = undo.data?.entries ?? [];
   if (!entries.length) return null;
 
   async function run(id: string) {
-    setStatus((s) => ({ ...s, [id]: "取り消し中…" }));
+    setStatus((s) => ({ ...s, [id]: tx("Undoing…", "取り消し中…") }));
     const res = await dispatchOp(pat!, "undo", { undo_id: id });
     if (res.ok) markProcessing(`undo-${id}`); // M-A: undo も直列化の枠内に入れる
-    setStatus((s) => ({ ...s, [id]: res.ok ? "取り消し中… 数分後に反映" : `失敗: ${res.message}` }));
+    setStatus((s) => ({ ...s, [id]: res.ok ? tx("Undoing… reflected in a few minutes", "取り消し中… 数分後に反映") : failMsg(tx, res.message) }));
   }
 
   return (
-    <Section title="最近の操作（取り消し可）">
+    <Section title={tx("Recent operations (undoable)", "最近の操作（取り消し可）")}>
       <div className="card">
         {entries.slice(0, 8).map((e) => {
           const busy = !!processing[`undo-${e.id}`];
           return (
             <div className="list-row" key={e.id}>
               <span className="list-main">
-                <div className="name">{e.op} — {e.count}曲</div>
+                <div className="name">{e.op} — {tx(`${e.count} songs`, `${e.count}曲`)}</div>
                 <div className="t-small">{e.created_at?.slice(0, 16).replace("T", " ")} {e.tracks.slice(0, 2).join(", ")}</div>
               </span>
               {e.op === "dedupe-apply" && (
@@ -442,10 +461,10 @@ function UndoSection(
                   disabled={!pat || busy || (anyProcessing && !busy)}
                   onClick={() => run(e.id)}
                 >
-                  取り消し
+                  {tx("Undo", "取り消し")}
                 </button>
               )}
-              {busy ? <span className="t-small">取り消し中…</span> : status[e.id] && <span className="t-small">{status[e.id]}</span>}
+              {busy ? <span className="t-small">{tx("Undoing…", "取り消し中…")}</span> : status[e.id] && <span className="t-small">{status[e.id]}</span>}
             </div>
           );
         })}
@@ -457,6 +476,7 @@ function UndoSection(
 function ClassifyActions(
   { trackId, pat, processing, blocked }: { trackId: string; pat: string | null; processing: boolean; blocked: boolean },
 ) {
+  const tx = useT();
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const disabled = !pat || busy || processing || blocked;
@@ -465,15 +485,16 @@ function ClassifyActions(
     const res = await dispatchOp(pat!, "classify-apply", { decisions: [{ track_id: trackId, class: cls }] });
     setBusy(false);
     if (res.ok) markProcessing(trackId); // L-6: 連打で2本目が「unknown に無い」失敗 Issue を防ぐ
-    setStatus(res.ok ? `${cls === "japanese" ? "邦楽" : "洋楽"}へ振り分け中…` : `失敗: ${res.message}`);
+    const dest = cls === "japanese" ? tx("Japanese", "邦楽") : tx("Western", "洋楽");
+    setStatus(res.ok ? tx(`Sorting to ${dest}…`, `${dest}へ振り分け中…`) : failMsg(tx, res.message));
   }
   return (
     <div className="dupe-actions">
-      <button className="pill pill-green" disabled={disabled} onClick={() => classify("japanese")}>邦楽</button>
-      <button className="pill" disabled={disabled} onClick={() => classify("western")}>洋楽</button>
-      {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+      <button className="pill pill-green" disabled={disabled} onClick={() => classify("japanese")}>{tx("Japanese", "邦楽")}</button>
+      <button className="pill" disabled={disabled} onClick={() => classify("western")}>{tx("Western", "洋楽")}</button>
+      {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
       {(processing || status) && (
-        <span className="t-small" style={{ alignSelf: "center" }}>{processing ? "振り分け中…" : status}</span>
+        <span className="t-small" style={{ alignSelf: "center" }}>{processing ? tx("Sorting…", "振り分け中…") : status}</span>
       )}
     </div>
   );

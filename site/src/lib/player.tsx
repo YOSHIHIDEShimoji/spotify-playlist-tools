@@ -9,6 +9,7 @@
 //     最悪でも「埋め込み内の再生ボタンをもう一度押す」= 従来挙動にフォールバックする。
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
+import { useT } from "./i18n";
 
 interface PlayerCtx {
   play: (uri: string) => void;
@@ -44,6 +45,7 @@ declare global {
 }
 
 export function PlayerProvider({ children }: { children: ReactNode }) {
+  const t = useT();
   const [uri, setUri] = useState<string | null>(null);
   const [apiReady, setApiReady] = useState(false);
   const [fallback, setFallback] = useState(false); // API が読めない→素の iframe に切替
@@ -134,7 +136,7 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
                 />
               )}
             </div>
-            <button className="player-close" onClick={value.close} aria-label="プレイヤーを閉じる">
+            <button className="player-close" onClick={value.close} aria-label={t("Close player", "プレイヤーを閉じる")}>
               <CloseIcon />
             </button>
           </div>
@@ -145,13 +147,15 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
 }
 
 /** どこからでも使える再生ボタン。行の onClick を止めて常駐プレイヤーに送る。 */
-export function PlayButton({ uri, label = "再生" }: { uri: string; label?: string }) {
+export function PlayButton({ uri, label }: { uri: string; label?: string }) {
   const { play } = usePlayer();
+  const t = useT();
+  const lbl = label ?? t("Play", "再生");
   return (
     <button
       className="play-btn"
-      aria-label={label}
-      title={label}
+      aria-label={lbl}
+      title={lbl}
       onClick={(e) => {
         e.stopPropagation();
         play(uri);

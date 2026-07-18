@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
+import { useT } from "../lib/i18n";
 
 /**
  * 横スクロールする行（ナビ・ピッカー）を包み、内容が画面外に続くときだけ
@@ -57,7 +58,8 @@ export function Section({ title, children, aside }: { title: string; children: R
 }
 
 export function Loading() {
-  return <div className="t-caption" style={{ padding: "var(--sp-4)" }}>読み込み中…</div>;
+  const t = useT();
+  return <div className="t-caption" style={{ padding: "var(--sp-4)" }}>{t("Loading…", "読み込み中…")}</div>;
 }
 
 export function Empty({ children }: { children: ReactNode }) {

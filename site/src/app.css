@@ -13,6 +13,31 @@
   align-items: center;
   gap: var(--sp-3);
   padding: var(--sp-3) 0 var(--sp-4);
+  flex-wrap: wrap;
+  row-gap: var(--sp-2);
+}
+/* 言語切替（EN / 日本語）。小さなセグメント。 */
+.lang-toggle {
+  display: inline-flex;
+  flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--r-pill);
+  overflow: hidden;
+}
+.lang-toggle button {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 5px 9px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.lang-toggle button.is-active {
+  background: var(--text-base);
+  color: #121212;
 }
 .app-logo {
   display: inline-flex;

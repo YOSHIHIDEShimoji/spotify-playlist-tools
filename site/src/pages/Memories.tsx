@@ -3,8 +3,7 @@ import { useJson } from "../lib/data";
 import type { ArchiveWeekly, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { PlayButton } from "../lib/player";
-
-const DOW = ["月", "火", "水", "木", "金", "土", "日"];
+import { dowLabels, useLang, useT } from "../lib/i18n";
 
 // 曲ID → アルバムアート URL。search_index から補完する（管理プレイリストに在る曲は必ず出る）。
 function useTrackImages(): Map<string, string | null> {
@@ -47,6 +46,7 @@ function TrackRow(
   { track, rank, image }:
     { track: { id: string; name: string; artists: string[] }; rank?: number; image?: string | null },
 ) {
+  const tx = useT();
   return (
     <div className="list-row">
       {rank != null && <span className="list-rank">{rank}</span>}
@@ -59,12 +59,13 @@ function TrackRow(
         <div className="name">{track.name}</div>
         <div className="t-small">{track.artists.join(", ")}</div>
       </span>
-      <PlayButton uri={`spotify:track:${track.id}`} label={`${track.name} を再生`} />
+      <PlayButton uri={`spotify:track:${track.id}`} label={tx(`Play ${track.name}`, `${track.name} を再生`)} />
     </div>
   );
 }
 
 export function Memories() {
+  const tx = useT();
   const weekly = useJson<ArchiveWeekly>("archive_weekly");
   const img = useTrackImages();
 
@@ -77,11 +78,16 @@ export function Memories() {
 
   return (
     <>
-      <Section title={`1年前の今週（${isoWeekRange(targetWeek)}）`}>
+      <Section title={tx(`This week last year (${isoWeekRange(targetWeek)})`, `1年前の今週（${isoWeekRange(targetWeek)}）`)}>
         {weekly.loading ? (
           <Loading />
         ) : !match ? (
-          <Empty>該当する週のデータがまだありません（Top50 アーカイブが1年分たまると出ます）。</Empty>
+          <Empty>
+            {tx(
+              "No data for this week yet (appears once a year of Top50 archives has accumulated).",
+              "該当する週のデータがまだありません（Top50 アーカイブが1年分たまると出ます）。",
+            )}
+          </Empty>
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
@@ -91,16 +97,17 @@ export function Memories() {
         )}
       </Section>
 
-      <Section title="最近アーカイブ入りした週">
+      <Section title={tx("Recently archived weeks", "最近アーカイブ入りした週")}>
         {weekly.loading ? (
           <Loading />
         ) : recent.length === 0 ? (
-          <Empty>まだアーカイブ週がありません。</Empty>
+          <Empty>{tx("No archived weeks yet.", "まだアーカイブ週がありません。")}</Empty>
         ) : (
           recent.map((w) => (
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
-                {isoWeekRange(w.iso_week)} の週 <code className="muted">{w.iso_week}</code> · {w.tracks.length}曲
+                {tx(`Week of ${isoWeekRange(w.iso_week)}`, `${isoWeekRange(w.iso_week)} の週`)}{" "}
+                <code className="muted">{w.iso_week}</code> · {tx(`${w.tracks.length} songs`, `${w.tracks.length}曲`)}
               </div>
               {w.tracks.slice(0, 8).map((t) => (
                 <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />
@@ -110,7 +117,7 @@ export function Memories() {
         )}
       </Section>
 
-      <Section title="月間 Wrapped">
+      <Section title={tx("Monthly Wrapped", "月間 Wrapped")}>
         <WrappedBlock />
       </Section>
     </>
@@ -118,39 +125,60 @@ export function Memories() {
 }
 
 function WrappedBlock() {
+  const tx = useT();
   const idx = useJson<WrappedIndex>("wrapped/index");
   if (idx.loading) return <Loading />;
   const month = idx.data?.months?.[0];
-  if (!month) return <Empty>毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。</Empty>;
+  if (!month)
+    return (
+      <Empty>
+        {tx(
+          "Auto-generated at the end of each month (this month's top tracks, new additions, peak time).",
+          "毎月末に自動生成されます（今月のTop曲・新規追加・ピーク時間帯）。",
+        )}
+      </Empty>
+    );
   return <WrappedMonth month={month} />;
 }
 
 function WrappedMonth({ month }: { month: string }) {
+  const tx = useT();
+  const { lang } = useLang();
+  const DOW = dowLabels(lang);
   const w = useJson<Wrapped>(`wrapped/${month}`);
   const img = useTrackImages();
   if (w.loading) return <Loading />;
-  if (!w.data) return <Empty>{month} のデータを読めませんでした。</Empty>;
+  if (!w.data) return <Empty>{tx(`Could not load data for ${month}.`, `${month} のデータを読めませんでした。`)}</Empty>;
   const d = w.data;
   return (
     <>
       <div className="row" style={{ marginBottom: "var(--sp-3)" }}>
-        <StatCard label={`${d.month} の再生`} value={d.plays.toLocaleString()} sub={`新規追加 ${d.new_tracks}曲`} />
-        {d.peak && <StatCard label="ピーク時間帯" value={`${DOW[d.peak.dow]} ${d.peak.hour}時`} />}
+        <StatCard
+          label={tx(`Plays in ${d.month}`, `${d.month} の再生`)}
+          value={d.plays.toLocaleString()}
+          sub={tx(`${d.new_tracks} new`, `新規追加 ${d.new_tracks}曲`)}
+        />
+        {d.peak && (
+          <StatCard
+            label={tx("Peak time", "ピーク時間帯")}
+            value={tx(`${DOW[d.peak.dow]} ${d.peak.hour}:00`, `${DOW[d.peak.dow]} ${d.peak.hour}時`)}
+          />
+        )}
       </div>
       <div className="row" style={{ alignItems: "flex-start" }}>
         <div className="card" style={{ flex: "1 1 260px" }}>
-          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
+          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{tx("Top tracks", "Top 曲")}</div>
           {d.top_tracks.map((t, i) => (
             <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} image={img.get(t.track_id)} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>
-          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top アーティスト</div>
+          <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{tx("Top artists", "Top アーティスト")}</div>
           {d.top_artists.map((a, i) => (
             <div className="list-row" key={a.name}>
               <span className="list-rank">{i + 1}</span>
               <span className="list-main"><div className="name">{a.name}</div></span>
-              <span className="list-count">{a.count}回</span>
+              <span className="list-count">{tx(`${a.count} plays`, `${a.count}回`)}</span>
             </div>
           ))}
         </div>

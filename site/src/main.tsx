@@ -5,13 +5,16 @@ import "./theme.css";
 import "./app.css";
 import { App } from "./App";
 import { PlayerProvider } from "./lib/player";
+import { LangProvider } from "./lib/i18n";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HashRouter>
-      <PlayerProvider>
-        <App />
-      </PlayerProvider>
+      <LangProvider>
+        <PlayerProvider>
+          <App />
+        </PlayerProvider>
+      </LangProvider>
     </HashRouter>
   </StrictMode>,
 );

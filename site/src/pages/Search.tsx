@@ -3,8 +3,10 @@ import { useJson } from "../lib/data";
 import type { SearchIndex } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
 import { PlayButton } from "../lib/player";
+import { useT } from "../lib/i18n";
 
 export function SearchPage() {
+  const tx = useT();
   const idx = useJson<SearchIndex>("search_index");
   const [q, setQ] = useState("");
 
@@ -21,10 +23,10 @@ export function SearchPage() {
   }, [q, idx.data]);
 
   return (
-    <Section title="全プレイリスト横断検索">
+    <Section title={tx("Search across all playlists", "全プレイリスト横断検索")}>
       <input
         className="input-search"
-        placeholder="曲名・アーティストで検索（この曲どこに入ってる?）"
+        placeholder={tx("Search by title or artist (where is this song?)", "曲名・アーティストで検索（この曲どこに入ってる?）")}
         value={q}
         onChange={(e) => setQ(e.target.value)}
         style={{ marginBottom: "var(--sp-4)" }}
@@ -32,9 +34,11 @@ export function SearchPage() {
       {idx.loading ? (
         <Loading />
       ) : !q.trim() ? (
-        <Empty>{idx.data ? `${idx.data.tracks.length} 曲から検索します。` : "…"}</Empty>
+        <Empty>
+          {idx.data ? tx(`Searching ${idx.data.tracks.length} songs.`, `${idx.data.tracks.length} 曲から検索します。`) : "…"}
+        </Empty>
       ) : results.length === 0 ? (
-        <Empty>一致する曲がありません。</Empty>
+        <Empty>{tx("No matching songs.", "一致する曲がありません。")}</Empty>
       ) : (
         <div className="card">
           {results.map((t) => (
@@ -47,9 +51,9 @@ export function SearchPage() {
               <span className="list-main">
                 <div className="name">{t.name}</div>
                 <div className="t-small">{t.artists.join(", ")}</div>
-                <div className="t-small search-in">収録: {t.playlists.join(" / ")}</div>
+                <div className="t-small search-in">{tx("In: ", "収録: ")}{t.playlists.join(" / ")}</div>
               </span>
-              <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
+              <PlayButton uri={`spotify:track:${t.id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
             </div>
           ))}
         </div>

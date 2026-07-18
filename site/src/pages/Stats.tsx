@@ -6,15 +6,16 @@ import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayButton, PlayIcon, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
+import { dowLabels, useLang, useT } from "../lib/i18n";
 
 const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
 const GRID = "#2a2a2a";
 const TIP = { background: "#282828", border: "1px solid #4d4d4d", borderRadius: 8 };
-const DOW = ["月", "火", "水", "木", "金", "土", "日"];
 const LIB_ROW = "__library__"; // ユニーク曲数の番兵行（延べ合計ではない）
 
 export function StatsPage() {
+  const tx = useT();
   const stats = useJson<Stats>("stats");
   const history = useJsonl<StatsHistoryRow>("stats_history");
   const heat = useJson<Heatmap>("heatmap");
@@ -35,10 +36,11 @@ export function StatsPage() {
   }
   const { group, name: selName } = pick(sel);
   const { group: decGroup, names: decGroupNames, name: decSelName } = pick(decSel);
+  const combined = tx("3 playlists combined", "3プレイリスト合算");
 
   // ユニーク曲数の履歴が2点以上あって初めて「成長」グラフになる（それまでは「規模」）。
   const growthRows = (history.data ?? []).filter((r) => r.playlist_id === LIB_ROW);
-  const growthTitle = growthRows.length > 1 ? "ライブラリの成長" : "ライブラリの規模";
+  const growthTitle = growthRows.length > 1 ? tx("Library growth", "ライブラリの成長") : tx("Library size", "ライブラリの規模");
   // 聴取ログが有効か（再認証前は since=null・total=0 のダミーが来るので実数ゼロと区別する）。
   const listenActive = !!listen.data && (listen.data.since != null || listen.data.milestone.total > 0);
 
@@ -49,8 +51,8 @@ export function StatsPage() {
       </Section>
 
       <Section
-        title="アーティスト分布"
-        aside={group && <span className="t-small">{selName ?? "3プレイリスト合算"} · {group.total.toLocaleString()}曲</span>}
+        title={tx("Artist distribution", "アーティスト分布")}
+        aside={group && <span className="t-small">{selName ?? combined} · {tx(`${group.total.toLocaleString()} songs`, `${group.total.toLocaleString()}曲`)}</span>}
       >
         {stats.loading ? (
           <Loading />
@@ -58,7 +60,10 @@ export function StatsPage() {
           <>
             {dist && <PlaylistPicker playlists={dist.playlists} sel={sel} onSel={setSel} />}
             <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
-              対象プレイリストを選ぶと、その中での分布に切り替わります（未選択＝Western・Japanese・1900's の合算）。バーをタップで情報、右の ▶ で再生。
+              {tx(
+                "Pick a playlist to switch to its distribution (unselected = Western, Japanese and 1900's combined). Tap a bar for info, ▶ on the right to play.",
+                "対象プレイリストを選ぶと、その中での分布に切り替わります（未選択＝Western・Japanese・1900's の合算）。バーをタップで情報、右の ▶ で再生。",
+              )}
             </p>
             <ArtistBars group={group} />
           </>
@@ -66,8 +71,8 @@ export function StatsPage() {
       </Section>
 
       <Section
-        title="リリース年代分布"
-        aside={decGroup && <span className="t-small">{decSelName ?? "3プレイリスト合算"} · {decGroup.total.toLocaleString()}曲</span>}
+        title={tx("Release-decade distribution", "リリース年代分布")}
+        aside={decGroup && <span className="t-small">{decSelName ?? combined} · {tx(`${decGroup.total.toLocaleString()} songs`, `${decGroup.total.toLocaleString()}曲`)}</span>}
       >
         {stats.loading ? (
           <Loading />
@@ -84,18 +89,27 @@ export function StatsPage() {
         )}
       </Section>
 
-      <Section title="連続聴取">
+      <Section title={tx("Listening streak", "連続聴取")}>
         {listenActive ? (
           <div className="row">
-            <StatCard label="現在の streak" value={`${listen.data!.streak}日`} />
-            <StatCard label="累計再生" value={listen.data!.milestone.total.toLocaleString()} sub={listen.data!.milestone.next ? `次のマイルストーン ${listen.data!.milestone.next.toLocaleString()}回` : ""} />
+            <StatCard label={tx("Current streak", "現在の streak")} value={tx(`${listen.data!.streak} days`, `${listen.data!.streak}日`)} />
+            <StatCard
+              label={tx("Total plays", "累計再生")}
+              value={listen.data!.milestone.total.toLocaleString()}
+              sub={listen.data!.milestone.next ? tx(`Next milestone: ${listen.data!.milestone.next.toLocaleString()}`, `次のマイルストーン ${listen.data!.milestone.next.toLocaleString()}回`) : ""}
+            />
           </div>
         ) : (
-          <Empty>聴取ログはまだ有効化されていません。再認証すると、連続聴取と累計再生の計測が始まります。</Empty>
+          <Empty>
+            {tx(
+              "Listening log isn't enabled yet. Re-authenticate to start measuring streak and total plays.",
+              "聴取ログはまだ有効化されていません。再認証すると、連続聴取と累計再生の計測が始まります。",
+            )}
+          </Empty>
         )}
       </Section>
 
-      <Section title="聴取ヒートマップ（曜日 × 時間帯）">
+      <Section title={tx("Listening heatmap (day × hour)", "聴取ヒートマップ（曜日 × 時間帯）")}>
         {heat.loading ? <Loading /> : <HeatGrid heat={heat.data} />}
       </Section>
     </>
@@ -106,9 +120,10 @@ function PlaylistPicker(
   { playlists, sel, onSel }:
     { playlists: { id: string; name: string }[]; sel: string | null; onSel: (id: string | null) => void },
 ) {
+  const tx = useT();
   return (
-    <ScrollRow className="pl-picker" role="tablist" ariaLabel="統計の対象プレイリスト">
-      <button role="tab" aria-selected={!sel} className={!sel ? "is-active" : ""} onClick={() => onSel(null)}>すべて</button>
+    <ScrollRow className="pl-picker" role="tablist" ariaLabel={tx("Stats target playlist", "統計の対象プレイリスト")}>
+      <button role="tab" aria-selected={!sel} className={!sel ? "is-active" : ""} onClick={() => onSel(null)}>{tx("All", "すべて")}</button>
       {playlists.map((p) => (
         <button role="tab" aria-selected={sel === p.id} key={p.id} className={sel === p.id ? "is-active" : ""} onClick={() => onSel(p.id)}>
           {p.name}
@@ -119,6 +134,7 @@ function PlaylistPicker(
 }
 
 function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null }) {
+  const tx = useT();
   // 番兵行（ユニーク曲数）だけを時系列に使う。延べ合計（プレイリスト横断）は二重計上になるため使わない。
   const uniqueRows = rows.filter((r) => r.playlist_id === LIB_ROW);
   const byDate = new Map<string, number>();
@@ -127,30 +143,39 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
   // total（正規のユニーク数）→ 番兵履歴の最新 → 年代分布の合計（≒ユニーク数）の順にフォールバック。
   const decadeSum = stats?.decades?.reduce((s, d) => s + d.count, 0) ?? 0;
   const current = stats?.total ?? (data.length ? data[data.length - 1].total : decadeSum || null);
+  const uniqueLabel = tx("unique tracks", "ユニーク曲数");
 
   return (
     <div className="card">
       {current != null && (
         <div style={{ marginBottom: "var(--sp-3)" }}>
           <div className="t-small" style={{ textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 700 }}>
-            夜間管理ライブラリ（ユニーク曲数）
+            {tx("Nightly-managed library (unique tracks)", "夜間管理ライブラリ（ユニーク曲数）")}
           </div>
           <div className="t-display num" style={{ fontSize: "2.4rem", marginTop: 2 }}>{current.toLocaleString()}</div>
           <div className="t-small" style={{ marginTop: 2 }}>
-            毎晩 sort が整える邦・洋プレイリストの重複なし曲数。下の分布は Western・Japanese・1900's を合算するため数が異なります。
+            {tx(
+              "Deduplicated track count of the Western/Japanese playlists that sort tidies nightly. The distribution below combines Western, Japanese and 1900's, so the number differs.",
+              "毎晩 sort が整える邦・洋プレイリストの重複なし曲数。下の分布は Western・Japanese・1900's を合算するため数が異なります。",
+            )}
           </div>
         </div>
       )}
       {data.length === 0 ? (
-        <Empty>ユニーク曲数の履歴は次回の夜間更新から記録します（毎晩1点ずつ増えます）。</Empty>
+        <Empty>
+          {tx(
+            "Unique-track history starts recording from the next nightly update (one point per night).",
+            "ユニーク曲数の履歴は次回の夜間更新から記録します（毎晩1点ずつ増えます）。",
+          )}
+        </Empty>
       ) : (
         <ResponsiveContainer width="100%" height={200}>
           <LineChart data={data} margin={{ left: -10, right: 8, top: 8 }}>
             <CartesianGrid stroke={GRID} vertical={false} />
             <XAxis dataKey="date" stroke={AXIS} fontSize={11} />
             <YAxis stroke={AXIS} fontSize={11} />
-            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} formatter={(v: number) => [v.toLocaleString(), "ユニーク曲数"]} />
-            <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name="ユニーク曲数" isAnimationActive={false} />
+            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} formatter={(v: number) => [v.toLocaleString(), uniqueLabel]} />
+            <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name={uniqueLabel} isAnimationActive={false} />
           </LineChart>
         </ResponsiveContainer>
       )}
@@ -159,9 +184,10 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
 }
 
 function ArtistBars({ group }: { group: StatsGroup | null }) {
+  const tx = useT();
   const { play } = usePlayer();
   const [modal, setModal] = useState<ModalArtist | null>(null);
-  if (!group || !group.artists_top.length) return <Empty>データなし</Empty>;
+  if (!group || !group.artists_top.length) return <Empty>{tx("No data", "データなし")}</Empty>;
   const data = group.artists_top.slice(0, 15);
   const max = Math.max(...data.map((a) => a.count), 1);
   // 右の▶だけが再生。バー本体はアーティスト情報モーダル（自動再生しない）。
@@ -176,7 +202,7 @@ function ArtistBars({ group }: { group: StatsGroup | null }) {
           <button
             className="art-body"
             onClick={() => setModal({ name: a.name, count: a.count, id: a.id })}
-            title={`${a.name} の情報`}
+            title={tx(`${a.name} info`, `${a.name} の情報`)}
           >
             <span className="art-name">{a.name}</span>
             <span className="art-bar"><i style={{ width: `${(a.count / max) * 100}%` }} /></span>
@@ -184,8 +210,8 @@ function ArtistBars({ group }: { group: StatsGroup | null }) {
           </button>
           <button
             className="play-btn"
-            aria-label={`${a.name} を再生`}
-            title={`${a.name} を再生`}
+            aria-label={tx(`Play ${a.name}`, `${a.name} を再生`)}
+            title={tx(`Play ${a.name}`, `${a.name} を再生`)}
             onClick={() => playArtist(a)}
           >
             <PlayIcon />
@@ -213,8 +239,9 @@ function DecadeBars(
   { group, searchTracks, groupNames }:
     { group: StatsGroup | null; searchTracks: SearchTrack[]; groupNames: string[] | null },
 ) {
+  const tx = useT();
   const [decade, setDecade] = useState<number | null>(null);
-  if (!group || !group.decades.length) return <Empty>データなし</Empty>;
+  if (!group || !group.decades.length) return <Empty>{tx("No data", "データなし")}</Empty>;
   const data = group.decades.map((d) => ({ label: `${d.decade}s`, count: d.count, decade: d.decade }));
   const tracks = decade != null ? decadeTracks(searchTracks, groupNames, decade) : [];
   return (
@@ -234,21 +261,18 @@ function DecadeBars(
             <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
             <YAxis stroke={AXIS} fontSize={11} />
             <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
-            <Bar
-              dataKey="count"
-              fill={GREEN}
-              radius={[4, 4, 0, 0]}
-              name="曲数"
-              isAnimationActive={false}
-            />
+            <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name={tx("songs", "曲数")} isAnimationActive={false} />
           </BarChart>
         </ResponsiveContainer>
       </div>
       {decade != null && (
-        <Modal title={`${decade}年代の曲`} subtitle={`${tracks.length}曲 · 古い順`} onClose={() => setDecade(null)}>
+        <Modal title={tx(`${decade}s tracks`, `${decade}年代の曲`)} subtitle={tx(`${tracks.length} songs · oldest first`, `${tracks.length}曲 · 古い順`)} onClose={() => setDecade(null)}>
           {tracks.length === 0 ? (
             <p className="t-small" style={{ padding: "var(--sp-2) 0" }}>
-              この年代の曲一覧は次回の夜間更新後に表示されます（リリース日データを取り込み中）。
+              {tx(
+                "This decade's track list appears after the next nightly update (release-date data is being imported).",
+                "この年代の曲一覧は次回の夜間更新後に表示されます（リリース日データを取り込み中）。",
+              )}
             </p>
           ) : (
             <div className="modal-list">
@@ -259,7 +283,7 @@ function DecadeBars(
                     <div className="name">{t.name}</div>
                     <div className="t-small">{t.artists.join(", ")}</div>
                   </span>
-                  <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
+                  <PlayButton uri={`spotify:track:${t.id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
                 </div>
               ))}
             </div>
@@ -271,8 +295,11 @@ function DecadeBars(
 }
 
 function HeatGrid({ heat }: { heat: Heatmap | null }) {
+  const tx = useT();
+  const { lang } = useLang();
+  const DOW = dowLabels(lang);
   if (!heat || !heat.cells.length)
-    return <Empty>聴取ログが貯まると、曜日×時間帯の傾向が出ます。</Empty>;
+    return <Empty>{tx("As listening data accumulates, day × hour trends appear here.", "聴取ログが貯まると、曜日×時間帯の傾向が出ます。")}</Empty>;
   const max = Math.max(...heat.cells.map((c) => c.count), 1);
   const lookup = new Map(heat.cells.map((c) => [`${c.dow}-${c.hour}`, c.count]));
   return (
@@ -290,7 +317,7 @@ function HeatGrid({ heat }: { heat: Heatmap | null }) {
               return (
                 <div
                   key={`${dow}-${h}`}
-                  title={`${d} ${h}時: ${v}回`}
+                  title={tx(`${d} ${h}:00: ${v} plays`, `${d} ${h}時: ${v}回`)}
                   style={{
                     aspectRatio: "1", borderRadius: 2,
                     background: v ? `rgba(30,215,96,${0.15 + 0.85 * (v / max)})` : "#2a2a2a",
