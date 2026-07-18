@@ -209,6 +209,8 @@ h3 {
 
 .badge {
   display: inline-block;
+  white-space: nowrap; /* 「推奨で残す」等が折り返して曲名を押し潰さない */
+  flex: 0 0 auto;
   font-size: 0.66rem;
   font-weight: 700;
   text-transform: capitalize;

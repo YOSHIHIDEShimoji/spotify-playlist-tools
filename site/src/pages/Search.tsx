@@ -44,7 +44,7 @@ export function SearchPage() {
                 <div className="t-small">{t.artists.join(", ")}</div>
                 <div className="t-small search-in">収録: {t.playlists.join(" / ")}</div>
               </span>
-              <PlayButton uri={`spotify:track:${t.id}`} />
+              <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
             </div>
           ))}
         </div>

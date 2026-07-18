@@ -105,7 +105,7 @@ function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
   if (!hasAny)
     return <DisabledOrEmpty disabled={disabled} empty="公式 Top のデータがまだありません（Spotify が計算したあなたの Top 曲・アーティスト）。" />;
   return (
-    <div className="row top-row">
+    <div className="top-row">
       {TERMS.map((t) => {
         const tracks = top!.tracks[t.key] ?? [];
         if (!tracks.length) return null;
@@ -119,7 +119,7 @@ function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
                   <div className="name clamp-1">{tr.name}</div>
                   <div className="t-small clamp-1">{(tr.artists ?? []).join(", ")}</div>
                 </span>
-                <PlayButton uri={`spotify:track:${tr.id}`} />
+                <PlayButton uri={`spotify:track:${tr.id}`} label={`${tr.name} を再生`} />
               </div>
             ))}
           </div>

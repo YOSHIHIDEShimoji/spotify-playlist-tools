@@ -41,7 +41,7 @@ function TrackRow({ track, rank }: { track: { id: string; name: string; artists:
         <div className="name">{track.name}</div>
         <div className="t-small">{track.artists.join(", ")}</div>
       </span>
-      <PlayButton uri={`spotify:track:${track.id}`} />
+      <PlayButton uri={`spotify:track:${track.id}`} label={`${track.name} を再生`} />
     </div>
   );
 }

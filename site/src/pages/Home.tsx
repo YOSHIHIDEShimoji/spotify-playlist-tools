@@ -197,7 +197,7 @@ function WeeklyTop({ listen, loading }: { listen: ListeningStats | null; loading
             <div className="t-small">{t.artists.join(", ")}</div>
           </span>
           <span className="list-count">{t.count}回</span>
-          <PlayButton uri={`spotify:track:${t.track_id}`} />
+          <PlayButton uri={`spotify:track:${t.track_id}`} label={`${t.name} を再生`} />
         </div>
       ))}
     </div>

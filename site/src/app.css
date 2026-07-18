@@ -534,8 +534,11 @@
 .dupe-cand.cand-pick {
   cursor: pointer;
 }
-.dupe-cand.is-del {
-  opacity: 0.5;
+/* 削除対象は「消える側」の見た目（アート＋テキストだけ淡く／取り消し線）にし、
+   チェックと再生ボタンは通常表示のまま（消す前に聴き比べられるように）。 */
+.dupe-cand.is-del .cand-art,
+.dupe-cand.is-del .cand-main {
+  opacity: 0.45;
 }
 .dupe-cand.is-del .cand-name .txt {
   text-decoration: line-through;
@@ -571,6 +574,7 @@
   font-weight: 700;
 }
 .dupe-cand .cand-name .txt {
+  min-width: 0; /* バッジと並んだとき曲名側が縮んで省略できるように */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -606,8 +610,13 @@
 }
 
 /* ── 公式 Top（3カラムの高さを揃える: 各行を1行省略で固定高に） ─────── */
+/* grid にして中間幅でも各カラム同幅で並べる（flex-wrap だと折返した1枚が全幅になり不揃い）。 */
+.top-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--sp-3);
+}
 .top-col {
-  flex: 1 1 260px;
   min-width: 0;
 }
 .top-item {
@@ -617,6 +626,56 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+/* 新譜ウォッチ: メタ行も1行省略にして、行高をデスクトップの均一値に保つ（モバイル） */
+.rel-row .list-main .t-small {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 年代分布バーはクリックで年代モーダルを開く（下のチップと同じ動作）ので指カーソルに */
+.recharts-bar-rectangle,
+.recharts-bar-rectangle path {
+  cursor: pointer;
+}
+/* 年代を選ぶチップ（棒グラフのアクセシブルな操作手段） */
+.decade-chips {
+  display: flex;
+  gap: var(--sp-2);
+  overflow-x: auto;
+  padding: var(--sp-1) 0 var(--sp-2);
+  margin-top: var(--sp-2);
+  scrollbar-width: none;
+}
+.decade-chips::-webkit-scrollbar {
+  display: none;
+}
+.decade-chip {
+  flex: 0 0 auto;
+  border: none;
+  border-radius: var(--r-pill);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  min-height: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.decade-chip:hover {
+  background: var(--surface-hover);
+  color: var(--text-base);
+}
+.decade-chip .num {
+  color: var(--text-secondary);
+  margin-left: 4px;
+  font-weight: 600;
+}
+.decade-chip:hover .num {
+  color: var(--text-base);
 }
 
 /* ── モーダル内のスクロールする曲リスト（年代モーダル等） ─────── */

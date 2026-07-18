@@ -212,7 +212,7 @@ function DecadeBars(
   const tracks = decade != null ? decadeTracks(searchTracks, groupNames, decade) : [];
   return (
     <div className="card">
-      <p className="t-small" style={{ margin: "0 0 var(--sp-2)" }}>棒をタップすると、その年代の曲を古い順で一覧します。</p>
+      <p className="t-small" style={{ margin: "0 0 var(--sp-2)" }}>年代を選ぶと、その年代の曲を古い順で一覧します。</p>
       {/* 初回に「軸だけでバー0本」になる recharts のアニメ由来の描画抜けを止める（isAnimationActive=false）。 */}
       <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data} margin={{ left: -10, right: 8 }}>
@@ -233,6 +233,14 @@ function DecadeBars(
           />
         </BarChart>
       </ResponsiveContainer>
+      {/* グラフの棒は SVG でキーボード操作できないので、押せる年代チップを添える（a11y・アフォーダンス） */}
+      <div className="decade-chips" role="group" aria-label="年代を選んで曲を一覧">
+        {data.map((d) => (
+          <button key={d.decade} className="decade-chip" onClick={() => setDecade(d.decade)}>
+            {d.label}<span className="num">{d.count}</span>
+          </button>
+        ))}
+      </div>
       {decade != null && (
         <Modal title={`${decade}年代の曲`} subtitle={`${tracks.length}曲 · 古い順`} onClose={() => setDecade(null)}>
           {tracks.length === 0 ? (
@@ -248,7 +256,7 @@ function DecadeBars(
                     <div className="name">{t.name}</div>
                     <div className="t-small">{t.artists.join(", ")}</div>
                   </span>
-                  <PlayButton uri={`spotify:track:${t.id}`} />
+                  <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
                 </div>
               ))}
             </div>

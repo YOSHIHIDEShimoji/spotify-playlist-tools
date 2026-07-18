@@ -117,7 +117,7 @@ export function Organize() {
                     <div className="cand-name"><span className="txt">{t.name}</span></div>
                     <div className="cand-meta">{t.artists.join(", ")}</div>
                   </div>
-                  <PlayButton uri={`spotify:track:${t.id}`} />
+                  <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
                 </div>
                 <ClassifyActions
                   trackId={t.id}
@@ -226,7 +226,7 @@ function GroupCard(
               {t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}
             </div>
           </div>
-          <PlayButton uri={`spotify:track:${t.id}`} />
+          <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
         </label>
       ))}
       <div className="dupe-actions">
@@ -285,7 +285,7 @@ function TierACard(
           <div className="cand-name"><span className="txt">{g.track?.name}</span></div>
           <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
         </div>
-        {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} />}
+        {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} label={`${g.track.name} を再生`} />}
       </div>
       <p className="t-small" style={{ margin: "var(--sp-2) 0 0" }}>
         同じ曲がこのプレイリストに {g.count} 回入っています。1つだけ残して余分を削除します（位置指定なので他の曲には触れません・取り消し可）。
@@ -347,7 +347,7 @@ function KeepCard(
             <div className="cand-name"><span className="txt">{t.name}</span></div>
             <div className="cand-meta">{t.artists.join(", ")}</div>
           </div>
-          <PlayButton uri={`spotify:track:${t.id}`} />
+          <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
         </div>
       ))}
       <div className="dupe-actions">
