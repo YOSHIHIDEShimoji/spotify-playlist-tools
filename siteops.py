@@ -248,7 +248,7 @@ def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
     _refresh_undo_index(data)
 
 
-def op_keep_apply(_sp, data: Path, payload: dict, logger) -> None:
+def op_keep_apply(sp, data: Path, payload: dict, logger) -> None:
     # レビュー M4: add を現在の dupes と照合（group_id 実在＋track_ids==グループ構成）。
     # 不一致は OpError（docstring「payload は必ず照合」の唯一の例外を解消）。
     dupes = json.loads((data / "dupes.json").read_text())
@@ -265,21 +265,35 @@ def op_keep_apply(_sp, data: Path, payload: dict, logger) -> None:
     keep = json.loads(path.read_text()) if path.exists() else {"groups": []}
     groups = {g["group_id"]: g for g in keep.get("groups", [])}
     for add in payload.get("add", []):
+        g = by_id[add["group_id"]]
+        # サイトの「保留（両方残す）」タブ表示用に曲のスナップショットも保存する（後で見返す・戻すため）。
         groups[add["group_id"]] = {
-            "group_id": add["group_id"], "track_ids": add.get("track_ids", []),
+            "group_id": add["group_id"],
+            "track_ids": add.get("track_ids", []),
+            "tier": g.get("tier"),
             "decided_at": datetime.now(core.JST).date().isoformat(),
+            "tracks": [
+                {"id": t["id"], "name": t.get("name", ""),
+                 "artists": t.get("artists", []), "image": t.get("image")}
+                for t in g["tracks"]
+            ],
         }
-    for gid in payload.get("remove", []):
+    removes = payload.get("remove", [])
+    for gid in removes:
         groups.pop(gid, None)
     core.atomic_write_json(path, {"groups": list(groups.values())})
 
-    # レビュー M4: full scan せず dupes.json から該当グループを除いて即時反映（API 呼び出しゼロ）
-    keep_ids = {add["group_id"] for add in payload.get("add", [])}
-    kept = [g for g in dupes.get("groups", []) if g.get("id") not in keep_ids]
-    dupes["groups"] = kept
-    dupes["counts"] = {t: sum(1 for g in kept if g.get("tier") == t) for t in ("A", "B", "C")}
-    core.atomic_write_json(data / "dupes.json", dupes)
-    logger.info(f"keep 更新: +{len(payload.get('add', []))} / -{len(payload.get('remove', []))}（dupes 即時反映）")
+    if removes:
+        # 「保留」から戻す場合は再スキャンで dupes を作り直す（除外を解いた group を復活させるため）。
+        _regenerate_dupes(sp, data)
+    else:
+        # レビュー M4: add だけなら full scan せず dupes.json から該当グループを除いて即時反映（API ゼロ）。
+        keep_ids = {add["group_id"] for add in payload.get("add", [])}
+        kept = [g for g in dupes.get("groups", []) if g.get("id") not in keep_ids]
+        dupes["groups"] = kept
+        dupes["counts"] = {t: sum(1 for g in kept if g.get("tier") == t) for t in ("A", "B", "C")}
+        core.atomic_write_json(data / "dupes.json", dupes)
+    logger.info(f"keep 更新: +{len(payload.get('add', []))} / -{len(removes)}")
 
 
 def op_undo(sp, data: Path, payload: dict, logger) -> None:

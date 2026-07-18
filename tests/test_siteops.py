@@ -202,18 +202,22 @@ def _write_dupes(tmp_path):
     }))
 
 
-def test_op_keep_apply_validates_and_updates_dupes(tmp_path):
-    # keep-apply は Spotify を触らない（sp 未使用）ので orchestration をそのまま検証できる
+def test_op_keep_apply_validates_and_updates_dupes(tmp_path, monkeypatch):
+    # add は Spotify を触らない（sp 未使用）ので orchestration をそのまま検証できる
     _write_dupes(tmp_path)
     siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "g-1", "track_ids": ["a", "b"]}], "remove": []}, _LOG)
-    # dedupe_keep に記録
-    assert json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"][0]["group_id"] == "g-1"
+    kept = json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"][0]
+    assert kept["group_id"] == "g-1"
+    assert {t["id"] for t in kept["tracks"]} == {"a", "b"}  # 保留タブ表示用のスナップショット
     # dupes.json から即時に消える（M-4）
     dupes = json.loads((tmp_path / "dupes.json").read_text())
     assert dupes["groups"] == [] and dupes["counts"]["B"] == 0
-    # remove で keep から消える
-    siteops.op_keep_apply(None, tmp_path, {"add": [], "remove": ["g-1"]}, _LOG)
+    # remove（保留を戻す）は再スキャンで dupes を作り直す。scan 自体は別テストなのでここは呼び出しを検証。
+    called = {}
+    monkeypatch.setattr(siteops, "_regenerate_dupes", lambda sp, data: called.setdefault("ran", True))
+    siteops.op_keep_apply(_FakeSp({}), tmp_path, {"add": [], "remove": ["g-1"]}, _LOG)
     assert json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"] == []
+    assert called.get("ran") is True  # 除外解除→再スキャンで元の重複グループが復活する
 
 
 def test_op_keep_apply_rejects_mismatched_track_ids(tmp_path):

@@ -52,6 +52,18 @@ export interface Dupes {
   groups: DupeGroup[];
 }
 
+// 「両方残す」で保留にした重複グループ（保留タブで一覧・取り消し）
+export interface KeepGroup {
+  group_id: string;
+  track_ids: string[];
+  tier?: "A" | "B" | "C";
+  decided_at?: string;
+  tracks?: { id: string; name: string; artists: string[]; image?: string | null }[];
+}
+export interface KeepIndex {
+  groups: KeepGroup[];
+}
+
 export interface UnknownTrack {
   id: string;
   name: string;

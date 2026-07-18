@@ -421,6 +421,7 @@
 /* ── サブナビ（重複 / 未判定 の切替） ─────────────── */
 .seg {
   display: inline-flex;
+  flex-wrap: wrap; /* 3タブ以上のときモバイルで折り返し、ページ横あふれを防ぐ */
   gap: 4px;
   background: var(--surface-1);
   border-radius: var(--r-pill);

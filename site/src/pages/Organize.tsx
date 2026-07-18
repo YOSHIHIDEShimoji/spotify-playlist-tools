@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useJson } from "../lib/data";
-import type { Dupes, DupeGroup, Unknown, UndoIndex } from "../lib/types";
+import type { Dupes, DupeGroup, KeepGroup, KeepIndex, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
@@ -11,10 +11,11 @@ export function Organize() {
   const dupes = useJson<Dupes>("dupes");
   const unknown = useJson<Unknown>("unknown");
   const undoIdx = useJson<UndoIndex>("undo_index");
+  const keep = useJson<KeepIndex>("dedupe_keep");
   const pat = usePat();
   const processing = useProcessing();
   const anyProcessing = Object.keys(processing).length > 0; // M-2: 実行中は他の dispatch を止める
-  const [tab, setTab] = useState<"dupes" | "unknown">("dupes");
+  const [tab, setTab] = useState<"dupes" | "unknown" | "keep">("dupes");
 
   // 処理中の解消（M2）: データ更新で対象が消えた／30分経っても反映されない（M-1）ものをクリア
   useEffect(() => {
@@ -49,6 +50,7 @@ export function Organize() {
 
   const dupeCount = dupes.data?.groups.length ?? 0;
   const unknownCount = unknown.data?.tracks.length ?? 0;
+  const keepCount = keep.data?.groups.length ?? 0;
 
   return (
     <>
@@ -68,9 +70,22 @@ export function Organize() {
         <button role="tab" aria-selected={tab === "unknown"} className={tab === "unknown" ? "is-active" : ""} onClick={() => setTab("unknown")}>
           判定できなかった曲{unknownCount > 0 && <span className="seg-count">{unknownCount}</span>}
         </button>
+        <button role="tab" aria-selected={tab === "keep"} className={tab === "keep" ? "is-active" : ""} onClick={() => setTab("keep")}>
+          保留{keepCount > 0 && <span className="seg-count">{keepCount}</span>}
+        </button>
       </div>
 
-      {tab === "dupes" ? (
+      {tab === "keep" ? (
+        <Section title="保留中（両方残す）">
+          {keep.loading ? (
+            <Loading />
+          ) : keepCount === 0 ? (
+            <Empty>「両方残す」にした重複はありません。ここに移すと、いつでも重複チェックに戻せます。</Empty>
+          ) : (
+            (keep.data?.groups ?? []).map((g) => <KeepCard key={g.group_id} g={g} pat={pat} />)
+          )}
+        </Section>
+      ) : tab === "dupes" ? (
         <Section title="重複・別バージョン" aside={dupes.data && <Counts d={dupes.data} />}>
           {dupes.loading ? (
             <Loading />
@@ -222,9 +237,6 @@ function GroupCard(
           両方残す
         </button>
         {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
-        {pat && !processing && del.size === 0 && (
-          <span className="action-hint">削除する曲にチェックを付けてください</span>
-        )}
         {pat && !processing && tooMany && (
           <span className="action-hint">全部は削除できません（1曲は残してください）</span>
         )}
@@ -286,6 +298,50 @@ function TierACard(
         {(processing || status) && (
           <span className="t-small" style={{ alignSelf: "center" }}>{processing ? "処理中…" : status}</span>
         )}
+      </div>
+    </div>
+  );
+}
+
+// 「両方残す」で保留にした重複。ここから重複チェックに戻せる（keep-apply の remove → 再スキャンで復活）。
+function KeepCard({ g, pat }: { g: KeepGroup; pat: string | null }) {
+  const [status, setStatus] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const tracks = g.tracks ?? [];
+
+  async function restore() {
+    setBusy(true);
+    setStatus(null);
+    const res = await dispatchOp(pat!, "keep-apply", { add: [], remove: [g.group_id] });
+    setBusy(false);
+    setStatus(res.ok ? "重複チェックに戻しています… 数分後に反映されます。" : `失敗: ${res.message}`);
+  }
+
+  return (
+    <div className="card dupe-group">
+      <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
+        両方残す{g.decided_at ? ` · ${g.decided_at}` : ""}
+      </div>
+      {tracks.length ? (
+        tracks.map((t) => (
+          <div className="dupe-cand" key={t.id}>
+            <Art image={t.image} />
+            <div className="cand-main">
+              <div className="cand-name"><span className="txt">{t.name}</span></div>
+              <div className="cand-meta">{t.artists.join(", ")}</div>
+            </div>
+            <PlayButton uri={`spotify:track:${t.id}`} />
+          </div>
+        ))
+      ) : (
+        <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>曲 {g.track_ids.length} 件（詳細は次回更新後に表示）</div>
+      )}
+      <div className="dupe-actions">
+        <button className="pill pill-green" disabled={!pat || busy} onClick={restore}>
+          重複チェックに戻す
+        </button>
+        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {status && <span className="t-small" style={{ alignSelf: "center" }}>{status}</span>}
       </div>
     </div>
   );

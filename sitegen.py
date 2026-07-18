@@ -482,6 +482,9 @@ def main() -> int:
     pl_records, intra = dedupe.collect_records(sp, playlists)
     keep_sets = dedupe.load_keep_sets(data)  # 「両方残す」をスキャンから除外（H2）
     core.atomic_write_json(data / "dupes.json", dedupe.dupes_from_records(pl_records, intra, keep_sets))
+    # 「保留（両方残す）」タブ用。site-ops が書く dedupe_keep.json を無ければ空で用意（サイトが 404 しない）。
+    if not (data / "dedupe_keep.json").exists():
+        core.atomic_write_json(data / "dedupe_keep.json", {"groups": []})
     # stats: 管理ライブラリの top-level（Growth 用）＋ 選択式の per-playlist（Western/Japanese/1900's）
     stats_json = build_stats(pl_records)
     # 検索インデックスは既定で管理PLのみ。1900's が読めたら merged に差し替え（統計と齟齬を作らない）。
