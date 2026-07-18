@@ -1,9 +1,19 @@
+import { useMemo } from "react";
 import { useJson } from "../lib/data";
-import type { ArchiveWeekly, Wrapped, WrappedIndex } from "../lib/types";
+import type { ArchiveWeekly, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { PlayButton } from "../lib/player";
 
 const DOW = ["月", "火", "水", "木", "金", "土", "日"];
+
+// 曲ID → アルバムアート URL。search_index から補完する（管理プレイリストに在る曲は必ず出る）。
+function useTrackImages(): Map<string, string | null> {
+  const search = useJson<SearchIndex>("search_index");
+  return useMemo(
+    () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t.image ?? null] as const)),
+    [search.data],
+  );
+}
 
 // 現在の ISO 週（JST）を "YYYY-Www" で返す。1年前の同じ週を archive_weekly から探す。
 function isoWeekLabel(d: Date): string {
@@ -32,11 +42,19 @@ function isoWeekRange(isoWeek: string): string {
   return `${fmt(monday)}–${fmt(sunday)}`;
 }
 
-// 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。
-function TrackRow({ track, rank }: { track: { id: string; name: string; artists: string[] }; rank?: number }) {
+// 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。アルバムアート付き。
+function TrackRow(
+  { track, rank, image }:
+    { track: { id: string; name: string; artists: string[] }; rank?: number; image?: string | null },
+) {
   return (
     <div className="list-row">
       {rank != null && <span className="list-rank">{rank}</span>}
+      {image ? (
+        <img className="cand-art top-art" src={image} alt="" loading="lazy" width={40} height={40} />
+      ) : (
+        <span className="cand-art cand-art--ph top-art" aria-hidden />
+      )}
       <span className="list-main">
         <div className="name">{track.name}</div>
         <div className="t-small">{track.artists.join(", ")}</div>
@@ -48,6 +66,7 @@ function TrackRow({ track, rank }: { track: { id: string; name: string; artists:
 
 export function Memories() {
   const weekly = useJson<ArchiveWeekly>("archive_weekly");
+  const img = useTrackImages();
 
   const lastYear = new Date();
   lastYear.setFullYear(lastYear.getFullYear() - 1);
@@ -66,7 +85,7 @@ export function Memories() {
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
-              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
+              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={img.get(t.id)} />
             ))}
           </div>
         )}
@@ -84,7 +103,7 @@ export function Memories() {
                 {isoWeekRange(w.iso_week)} の週 <code className="muted">{w.iso_week}</code> · {w.tracks.length}曲
               </div>
               {w.tracks.slice(0, 8).map((t) => (
-                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} />
+                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={img.get(t.id)} />
               ))}
             </div>
           ))
@@ -108,6 +127,7 @@ function WrappedBlock() {
 
 function WrappedMonth({ month }: { month: string }) {
   const w = useJson<Wrapped>(`wrapped/${month}`);
+  const img = useTrackImages();
   if (w.loading) return <Loading />;
   if (!w.data) return <Empty>{month} のデータを読めませんでした。</Empty>;
   const d = w.data;
@@ -121,7 +141,7 @@ function WrappedMonth({ month }: { month: string }) {
         <div className="card" style={{ flex: "1 1 260px" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>Top 曲</div>
           {d.top_tracks.map((t, i) => (
-            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} />
+            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} image={img.get(t.track_id)} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>

@@ -20,20 +20,21 @@ export function StatsPage() {
   const heat = useJson<Heatmap>("heatmap");
   const listen = useJson<ListeningStats>("listening_stats");
   const search = useJson<SearchIndex>("search_index"); // 年代モーダルの曲一覧に使う
-  // 統計の対象プレイリスト選択（null = 3つ全部）。分布・年代の両方に効く。
+  // 統計の対象プレイリスト選択（null = 3つ全部）。アーティスト分布と年代分布で別々に選べる。
   const [sel, setSel] = useState<string | null>(null);
+  const [decSel, setDecSel] = useState<string | null>(null);
 
   const dist = stats.data?.dist;
-  const group: StatsGroup | null = dist
-    ? (sel && dist.by[sel] ? dist.by[sel] : dist.all)
-    : (stats.data ?? null);
-  const selName = dist && sel ? dist.playlists.find((p) => p.id === sel)?.name : null;
-  // 年代モーダルで対象曲を絞るためのプレイリスト名。null=全 search track（dist 無し時）。
-  const groupNames: string[] | null = dist
-    ? (sel
-        ? ([dist.playlists.find((p) => p.id === sel)?.name].filter(Boolean) as string[])
-        : dist.playlists.map((p) => p.name))
-    : null;
+  // 選択（null=全部）から、その分布(group)・年代モーダルで曲を絞る名前(names)・表示名(name)を求める。
+  function pick(selection: string | null): { group: StatsGroup | null; names: string[] | null; name: string | null } {
+    if (!dist) return { group: stats.data ?? null, names: null, name: null };
+    const group = selection && dist.by[selection] ? dist.by[selection] : dist.all;
+    const name = selection ? (dist.playlists.find((p) => p.id === selection)?.name ?? null) : null;
+    const names = selection ? ([name].filter(Boolean) as string[]) : dist.playlists.map((p) => p.name);
+    return { group, names, name };
+  }
+  const { group, name: selName } = pick(sel);
+  const { group: decGroup, names: decGroupNames, name: decSelName } = pick(decSel);
 
   // ユニーク曲数の履歴が2点以上あって初めて「成長」グラフになる（それまでは「規模」）。
   const growthRows = (history.data ?? []).filter((r) => r.playlist_id === LIB_ROW);
@@ -64,16 +65,22 @@ export function StatsPage() {
         )}
       </Section>
 
-      <Section title="リリース年代分布">
+      <Section
+        title="リリース年代分布"
+        aside={decGroup && <span className="t-small">{decSelName ?? "3プレイリスト合算"} · {decGroup.total.toLocaleString()}曲</span>}
+      >
         {stats.loading ? (
           <Loading />
         ) : (
-          <DecadeBars
-            key={sel ?? "all"}
-            group={group}
-            searchTracks={search.data?.tracks ?? []}
-            groupNames={groupNames}
-          />
+          <>
+            {dist && <PlaylistPicker playlists={dist.playlists} sel={decSel} onSel={setDecSel} />}
+            <DecadeBars
+              key={decSel ?? "all"}
+              group={decGroup}
+              searchTracks={search.data?.tracks ?? []}
+              groupNames={decGroupNames}
+            />
+          </>
         )}
       </Section>
 
@@ -212,7 +219,6 @@ function DecadeBars(
   const tracks = decade != null ? decadeTracks(searchTracks, groupNames, decade) : [];
   return (
     <div className="card">
-      <p className="t-small" style={{ margin: "0 0 var(--sp-2)" }}>年代を選ぶと、その年代の曲を古い順で一覧します。</p>
       {/* 初回に「軸だけでバー0本」になる recharts のアニメ由来の描画抜けを止める（isAnimationActive=false）。 */}
       {/* 棒だけでなく、その年代の列（灰色の余白）を押しても開くよう BarChart 全体で onClick を拾う。 */}
       <div className="decade-chart">
