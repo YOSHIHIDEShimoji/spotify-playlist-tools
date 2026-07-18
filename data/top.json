@@ -361,13 +361,13 @@
         "rank": 11
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 12
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 13
       },
       {
@@ -376,8 +376,8 @@
         "rank": 14
       },
       {
-        "id": "5WUlDfRSoLAfcVSX1WnrxN",
-        "name": "Sia",
+        "id": "7hr9W3IjXcm3UlLY7guLk5",
+        "name": "Henry Moodie",
         "rank": 15
       },
       {
@@ -386,18 +386,18 @@
         "rank": 16
       },
       {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
-        "rank": 17
-      },
-      {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 18
+        "rank": 17
       },
       {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
+        "rank": 18
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
         "rank": 19
       },
       {
@@ -406,33 +406,33 @@
         "rank": 20
       },
       {
-        "id": "7hr9W3IjXcm3UlLY7guLk5",
-        "name": "Henry Moodie",
-        "rank": 21
-      },
-      {
         "id": "4dpARuHxo51G3z768sgnrY",
         "name": "Adele",
-        "rank": 22
+        "rank": 21
       },
       {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 23
+        "rank": 22
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 24
+        "rank": 23
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 25
+        "rank": 24
       },
       {
         "id": "3dRfiJ2650SZu6GbydcHNb",
         "name": "John Williams",
+        "rank": 25
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
         "rank": 26
       },
       {
@@ -441,23 +441,23 @@
         "rank": 27
       },
       {
-        "id": "64KEffDW9EtZ1y2vBYgq8T",
-        "name": "Marshmello",
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
         "rank": 28
       },
       {
-        "id": "53XhwfbYqKCa1cC15pYq2q",
-        "name": "Imagine Dragons",
+        "id": "58lV9VcRSjABbAbfWS6skp",
+        "name": "Bon Jovi",
         "rank": 29
       },
       {
-        "id": "3pc0bOVB5whxmD50W79wwO",
-        "name": "keshi",
+        "id": "7k73EtZwoPs516ZxE72KsO",
+        "name": "ONE OK ROCK",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-07-17T17:02:51.265034+00:00",
+  "generated_at": "2026-07-18T03:55:06.323053+00:00",
   "tracks": {
     "long_term": [
       {
@@ -763,9 +763,17 @@
         "artists": [
           "OneRepublic"
         ],
+        "id": "3IQF4xCQUPicbA4hWfTxPo",
+        "name": "I Lived",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "name": "Kids",
-        "rank": 8
+        "rank": 9
       },
       {
         "artists": [
@@ -773,14 +781,6 @@
         ],
         "id": "0baR1QmlC8CruupaxA1IYA",
         "name": "Beautiful Colors - from Kaiju No. 8",
-        "rank": 9
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "3IQF4xCQUPicbA4hWfTxPo",
-        "name": "I Lived",
         "rank": 10
       },
       {
@@ -956,25 +956,17 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "1NrJYpdAi7uosDRPmSYrsG",
-        "name": "Apologize",
+        "id": "2tpWsVSb9UEmDRxAl1zhX1",
+        "name": "Counting Stars",
         "rank": 1
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "2tpWsVSb9UEmDRxAl1zhX1",
-        "name": "Counting Stars",
+        "id": "1NrJYpdAi7uosDRPmSYrsG",
+        "name": "Apologize",
         "rank": 2
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0qdpBSgdFsOPGv9QLxEjdu",
-        "name": "Good Life - from One Night In Malibu",
-        "rank": 3
       },
       {
         "artists": [
@@ -982,15 +974,15 @@
         ],
         "id": "2CJD3LSIVidK6nu4suUusa",
         "name": "All The Right Moves",
-        "rank": 4
+        "rank": 3
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "4fYte8ZvTK14NEhAOZocBi",
-        "name": "I Ain't Worried",
-        "rank": 5
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "name": "Good Life - from One Night In Malibu",
+        "rank": 4
       },
       {
         "artists": [
@@ -998,15 +990,7 @@
         ],
         "id": "17Vqwvat9EmRmfDvmYqoi0",
         "name": "Give Me Something (for Arknights Endfield)",
-        "rank": 6
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "1B7Vir1E4FcFPP5tUzDSmR",
-        "name": "West Coast",
-        "rank": 7
+        "rank": 5
       },
       {
         "artists": [
@@ -1014,7 +998,7 @@
         ],
         "id": "2JATE4qxTuVgKEKe12sqLp",
         "name": "Future Looks Good",
-        "rank": 8
+        "rank": 6
       },
       {
         "artists": [
@@ -1022,7 +1006,15 @@
         ],
         "id": "3cOO5IQtOYs7huq4Z6lYfr",
         "name": "Love Runs Out",
-        "rank": 9
+        "rank": 7
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "name": "I Ain't Worried",
+        "rank": 8
       },
       {
         "artists": [
@@ -1031,15 +1023,15 @@
         ],
         "id": "0xSjAuPhm9tJXX2nRt2Avv",
         "name": "Chasing Paradise",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "2gPWnjEtKZaCcEXRlH9yT4",
-        "name": "Distance - from One Night In Malibu",
-        "rank": 11
+        "id": "1B7Vir1E4FcFPP5tUzDSmR",
+        "name": "West Coast",
+        "rank": 10
       },
       {
         "artists": [
@@ -1047,7 +1039,7 @@
         ],
         "id": "3FK9wVJHNdJhqVPbIcoZsn",
         "name": "Need Your Love",
-        "rank": 12
+        "rank": 11
       },
       {
         "artists": [
@@ -1055,7 +1047,7 @@
         ],
         "id": "4FDDExmv76Da7aaFqxbxVp",
         "name": "Sink Or Swim",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1064,7 +1056,7 @@
         ],
         "id": "4sJqSKPc5fZ5OZ8JiVI44N",
         "name": "Stranger Things (feat. OneRepublic)",
-        "rank": 14
+        "rank": 13
       },
       {
         "artists": [
@@ -1073,15 +1065,7 @@
         ],
         "id": "53Ji6ZvVjsBl4pIuiETfhN",
         "name": "Bones (feat. OneRepublic)",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "5mQNY6pTeSDl2doFB7uLbE",
-        "name": "Kids",
-        "rank": 16
+        "rank": 14
       },
       {
         "artists": [
@@ -1091,7 +1075,7 @@
         ],
         "id": "7MYLHLCf0YWR4TVs3owDny",
         "name": "Fire - Official UEFA EURO 2024 Song",
-        "rank": 17
+        "rank": 15
       },
       {
         "artists": [
@@ -1100,7 +1084,7 @@
         ],
         "id": "7dOeiXeTSfA1ixaYmQcWu7",
         "name": "Rich Love (with Seeb)",
-        "rank": 18
+        "rank": 16
       },
       {
         "artists": [
@@ -1108,7 +1092,7 @@
         ],
         "id": "2e42fb37LVhtCOescNb1yN",
         "name": "Everybody Loves Me",
-        "rank": 19
+        "rank": 17
       },
       {
         "artists": [
@@ -1116,6 +1100,22 @@
         ],
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "name": "RUNAWAY",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3IQF4xCQUPicbA4hWfTxPo",
+        "name": "I Lived",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "name": "Kids",
         "rank": 20
       },
       {
@@ -1130,16 +1130,16 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "0baR1QmlC8CruupaxA1IYA",
-        "name": "Beautiful Colors - from Kaiju No. 8",
+        "id": "2SLxgJ2YFohfd8KwuJZTUE",
+        "name": "Better Days",
         "rank": 22
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "2SLxgJ2YFohfd8KwuJZTUE",
-        "name": "Better Days",
+        "id": "2gPWnjEtKZaCcEXRlH9yT4",
+        "name": "Distance - from One Night In Malibu",
         "rank": 23
       },
       {
@@ -1170,19 +1170,11 @@
       },
       {
         "artists": [
-          "Maroon 5"
-        ],
-        "id": "4cktbXiXOapiLBMprHFErI",
-        "name": "Memories",
-        "rank": 27
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "6aDsgHPZsMztSbZernzlF8",
         "name": "Someday",
-        "rank": 28
+        "rank": 27
       },
       {
         "artists": [
@@ -1190,14 +1182,22 @@
         ],
         "id": "1zjJg21AG4sXU9wzbQnQiQ",
         "name": "All Fall Down",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0baR1QmlC8CruupaxA1IYA",
+        "name": "Beautiful Colors - from Kaiju No. 8",
         "rank": 29
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "5aIZ2jtxZ4o4GHQXTybkIa",
-        "name": "Something I Need",
+        "id": "1nE1VjP943pIuFdNWcLgYM",
+        "name": "Feel Again - With Heartbeats",
         "rank": 30
       }
     ]

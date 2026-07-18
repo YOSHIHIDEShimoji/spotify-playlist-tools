@@ -737,13 +737,63 @@
       "count": 1,
       "name": "Counting Stars",
       "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "name": "drunk text",
+      "track_id": "6EIMUjQ7Q8Zr2VtIUik4He"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "name": "MISS U",
+      "track_id": "48FfsXjz8rd8CLhnIwWQNw"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "name": "pick up the phone",
+      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+    },
+    {
+      "artists": [
+        "American Authors"
+      ],
+      "count": 1,
+      "name": "Best Day Of My Life",
+      "track_id": "5Hroj5K7vLpIG4FNCRIjbP"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "name": "Au Revoir",
+      "track_id": "1oh5FOxndjZVz1wjiBeBmY"
     }
   ],
-  "generated_at": "2026-07-17T17:02:40.476983+00:00",
+  "generated_at": "2026-07-18T03:54:57.638695+00:00",
   "milestone": {
-    "next": 100,
-    "reached": [],
-    "total": 94
+    "next": 250,
+    "reached": [
+      100
+    ],
+    "total": 100
   },
   "since": "2026-07-17T08:24:09.681Z",
   "streak": 2,
