@@ -47,3 +47,19 @@ def test_append_line_empty_file(tmp_path):
     p.write_text("", encoding="utf-8")
     core.append_line(p, "first=1")
     assert p.read_text(encoding="utf-8") == "first=1\n"
+
+
+def test_remove_saved_in_batches_uses_me_tracks_and_50_chunks():
+    # spotipy 2.26 の me/library(uris) は50件で400になるため、me/tracks(ids) を直接叩く
+    calls = []
+
+    class Sp:
+        def _delete(self, url, **kwargs):
+            calls.append((url, kwargs))
+
+    ids = [f"id{i:02d}" for i in range(120)]
+    core.remove_saved_in_batches(Sp(), ids)
+    assert [u for u, _ in calls] == ["me/tracks"] * 3
+    sizes = [len(k["ids"].split(",")) for _, k in calls]
+    assert sizes == [50, 50, 20]
+    assert calls[0][1]["ids"].startswith("id00,id01")

@@ -115,6 +115,18 @@ def remove_in_batches(sp: spotipy.Spotify, playlist_id: str, track_ids, batch: i
         sp.playlist_remove_all_occurrences_of_items(playlist_id, uris[i : i + batch])
 
 
+def remove_saved_in_batches(sp: spotipy.Spotify, track_ids, batch: int = 50) -> None:
+    """お気に入り（Liked Songs）から削除する。
+
+    spotipy 2.26 の current_user_saved_tracks_delete は新エンドポイント
+    DELETE /me/library（uris 形式）を叩くが、こちらは50件で
+    400「Too many uris requested」になる（上限が公開仕様より小さい）。
+    従来の DELETE /me/tracks は ids 上限50が仕様で保証されているため直接叩く。
+    """
+    for i in range(0, len(track_ids), batch):
+        sp._delete("me/tracks", ids=",".join(track_ids[i : i + batch]))
+
+
 def parse_config(path: Path) -> dict[str, str]:
     """KEY=VALUE 形式（#コメント・空行スキップ、値に = を含んでも可）。"""
     cfg: dict[str, str] = {}

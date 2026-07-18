@@ -190,8 +190,7 @@ def main() -> int:
 
     if processed:
         ids = [t["id"] for t in processed]
-        for i in range(0, len(ids), 50):
-            sp.current_user_saved_tracks_delete(ids[i : i + 50])
+        core.remove_saved_in_batches(sp, ids)
         logger.info(f"お気に入りから{len(processed)}曲を移動しました")
         for t in processed:
             dests = " / ".join(t["dest"]) if t["dest"] else "既に振り分け済み"
