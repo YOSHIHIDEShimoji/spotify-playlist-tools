@@ -126,10 +126,10 @@ function LangToggle() {
   return (
     <div className="lang-toggle" role="group" aria-label="Language">
       <button className={lang === "en" ? "is-active" : ""} aria-pressed={lang === "en"} onClick={() => setLang("en")}>
-        EN
+        en
       </button>
       <button className={lang === "ja" ? "is-active" : ""} aria-pressed={lang === "ja"} onClick={() => setLang("ja")}>
-        日本語
+        ja
       </button>
     </div>
   );
