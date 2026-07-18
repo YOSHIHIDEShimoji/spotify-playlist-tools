@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { useJson } from "../lib/data";
 import type { Dupes, DupeGroup, KeepGroup, KeepIndex, SearchIndex, SearchTrack, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
+import { Modal } from "../components/Modal";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
 import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib/processing";
@@ -23,6 +24,10 @@ export function Organize() {
   const processing = useProcessing();
   const anyProcessing = Object.keys(processing).length > 0; // M-2: 実行中は他の dispatch を止める
   const [tab, setTab] = useState<"dupes" | "unknown" | "keep">("dupes");
+  // 各グループで「残す1曲」の選択（group_id → track_id）。未設定は各グループの推奨(先頭)を既定に。
+  const [keepSel, setKeepSel] = useState<Record<string, string>>({});
+  const [confirmBulk, setConfirmBulk] = useState(false);
+  const keepFor = (g: DupeGroup) => keepSel[g.id] ?? g.tracks?.[0]?.id ?? "";
 
   // 処理中の解消（M2）: データ更新で対象が消えた／30分経っても反映されない（M-1）ものをクリア
   useEffect(() => {
@@ -58,6 +63,24 @@ export function Organize() {
   const dupeCount = dupes.data?.groups.length ?? 0;
   const unknownCount = unknown.data?.tracks.length ?? 0;
   const keepCount = keep.data?.groups.length ?? 0;
+
+  // 一括対象＝B/C グループ（Tier A の trim は別操作）で、まだ処理中でないもの。
+  const bulkGroups = (dupes.data?.groups ?? []).filter(
+    (g) => g.tier !== "A" && (g.tracks?.length ?? 0) >= 2 && !processing[g.id],
+  );
+
+  async function applyBulk() {
+    const decisions = bulkGroups
+      .map((g) => {
+        const kid = keepFor(g);
+        return { group_id: g.id, keep: [kid], remove: (g.tracks ?? []).filter((t) => t.id !== kid).map((t) => t.id) };
+      })
+      .filter((d) => d.remove.length > 0);
+    if (!decisions.length || !pat) return;
+    const res = await dispatchOp(pat, "dedupe-apply", { decisions });
+    if (res.ok) decisions.forEach((d) => markProcessing(d.group_id));
+    setConfirmBulk(false);
+  }
 
   return (
     <>
@@ -99,15 +122,29 @@ export function Organize() {
           ) : !dupes.data || dupeCount === 0 ? (
             <Empty>{tx("No duplicates found. All clean.", "重複は見つかっていません。きれいな状態です。")}</Empty>
           ) : (
-            dupes.data.groups.map((g) => (
-              <GroupCard
-                key={g.id}
-                g={g}
-                pat={pat}
-                processing={!!processing[g.id]}
-                blocked={anyProcessing && !processing[g.id]}
-              />
-            ))
+            <>
+              {pat && bulkGroups.length > 0 && (
+                <div className="bulk-bar">
+                  <button className="pill pill-green" disabled={anyProcessing} onClick={() => setConfirmBulk(true)}>
+                    {tx(`Apply selection to all (${bulkGroups.length})`, `選択を一括で反映（${bulkGroups.length}）`)}
+                  </button>
+                  <span className="t-small muted">
+                    {tx("Keeps the selected track in each group and deletes the rest.", "各グループで選んだ1曲を残し、他を削除します。")}
+                  </span>
+                </div>
+              )}
+              {dupes.data.groups.map((g) => (
+                <GroupCard
+                  key={g.id}
+                  g={g}
+                  pat={pat}
+                  processing={!!processing[g.id]}
+                  blocked={anyProcessing && !processing[g.id]}
+                  keepId={keepFor(g)}
+                  onKeep={(id) => setKeepSel((s) => ({ ...s, [g.id]: id }))}
+                />
+              ))}
+            </>
           )}
         </Section>
       ) : (
@@ -137,7 +174,56 @@ export function Organize() {
           )}
         </Section>
       )}
+
+      {confirmBulk && (
+        <BulkConfirm groups={bulkGroups} keepFor={keepFor} onCancel={() => setConfirmBulk(false)} onApply={applyBulk} />
+      )}
     </>
+  );
+}
+
+// 一括適用の確認モーダル。各グループの「保持／削除」を並べて見せてから実行する。
+function BulkConfirm(
+  { groups, keepFor, onCancel, onApply }:
+    { groups: DupeGroup[]; keepFor: (g: DupeGroup) => string; onCancel: () => void; onApply: () => void | Promise<void> },
+) {
+  const tx = useT();
+  const [busy, setBusy] = useState(false);
+  const delTotal = groups.reduce((n, g) => n + Math.max(0, (g.tracks?.length ?? 0) - 1), 0);
+  async function go() {
+    setBusy(true);
+    await onApply();
+    setBusy(false);
+  }
+  return (
+    <Modal
+      title={tx("Apply selection to all groups?", "全グループに選択を反映しますか？")}
+      subtitle={tx(`${groups.length} groups · keep 1 each, delete ${delTotal}`, `${groups.length} グループ · 各1曲残して ${delTotal} 曲を削除`)}
+      onClose={onCancel}
+      footer={
+        <>
+          <button className="pill pill-green" disabled={busy} onClick={go}>
+            {tx(`Delete ${delTotal} tracks`, `${delTotal} 曲を削除`)}
+          </button>
+          <button className="pill" disabled={busy} onClick={onCancel}>{tx("Cancel", "キャンセル")}</button>
+        </>
+      }
+    >
+      <div className="modal-list">
+        {groups.map((g) => {
+          const kid = keepFor(g);
+          const tracks = g.tracks ?? [];
+          const keepTrack = tracks.find((t) => t.id === kid);
+          const del = tracks.filter((t) => t.id !== kid);
+          return (
+            <div className="keep-preview" key={g.id}>
+              <div className="kp-keep">✓ {tx("Keep", "保持")}: {keepTrack?.name ?? kid}</div>
+              <div className="kp-del">✕ {tx("Delete", "削除")}: {del.map((t) => t.name).join(", ")}</div>
+            </div>
+          );
+        })}
+      </div>
+    </Modal>
   );
 }
 
@@ -194,11 +280,11 @@ function KeepRow(
 }
 
 function GroupCard(
-  { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
+  { g, pat, processing, blocked, keepId, onKeep }:
+    { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean; keepId: string; onKeep: (id: string) => void },
 ) {
   const tx = useT();
-  // ラジオ選択＝「残す1曲」。既定で先頭（推奨）。選ばなかった曲を削除する。
-  const [keepId, setKeepId] = useState<string>(() => g.tracks?.[0]?.id ?? "");
+  // ラジオ選択＝「残す1曲」。選択状態は親（Organize）が持つ＝一括ボタンから全グループを読める。
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -243,7 +329,7 @@ function GroupCard(
           i={i}
           radioName={`keep-${g.id}`}
           kept={t.id === keepId}
-          onKeep={() => setKeepId(t.id)}
+          onKeep={() => onKeep(t.id)}
           meta={<>{t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · {tx("Popularity", "人気")} {t.popularity ?? "—"}</>}
         />
       ))}

@@ -639,6 +639,31 @@
   background: rgba(255, 255, 255, 0.08);
   color: var(--text-secondary);
 }
+/* 一括適用バー＋確認モーダルの保持/削除プレビュー */
+.bulk-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-4);
+}
+.keep-preview {
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.keep-preview:last-child {
+  border-bottom: none;
+}
+.kp-keep {
+  color: #1ed760;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.kp-del {
+  color: #f0625a;
+  font-size: 0.82rem;
+  margin-top: 2px;
+}
 .cand-check {
   flex: 0 0 auto;
   width: 20px;
