@@ -107,7 +107,7 @@ export function Memories() {
             <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
               <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
                 {tx(`Week of ${isoWeekRange(w.iso_week)}`, `${isoWeekRange(w.iso_week)} の週`)}{" "}
-                <code className="muted">{w.iso_week}</code> · {tx(`${w.tracks.length} songs`, `${w.tracks.length}曲`)}
+                <code className="muted">{w.iso_week}</code> · {tx(`${w.tracks.length} ${w.tracks.length === 1 ? "song" : "songs"}`, `${w.tracks.length}曲`)}
               </div>
               {w.tracks.slice(0, 8).map((t) => (
                 <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />

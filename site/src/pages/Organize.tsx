@@ -538,7 +538,7 @@ function UndoSection(
           return (
             <div className="list-row" key={e.id}>
               <span className="list-main">
-                <div className="name">{e.op} — {tx(`${e.count} songs`, `${e.count}曲`)}</div>
+                <div className="name">{e.op} — {tx(`${e.count} ${e.count === 1 ? "song" : "songs"}`, `${e.count}曲`)}</div>
                 <div className="t-small">{e.created_at?.slice(0, 16).replace("T", " ")} {e.tracks.slice(0, 2).join(", ")}</div>
               </span>
               {e.op === "dedupe-apply" && (

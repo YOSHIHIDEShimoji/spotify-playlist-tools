@@ -237,7 +237,7 @@ function StepDetailBody({ step, detail }: { step: StepKey; detail: RunDetail }) 
         {rows.map((r, i) => (
           <div className="list-row" key={i}>
             <span className="list-main"><div className="name">{r.name}</div></span>
-            <span className="t-small num">{tx(`${r.count} songs`, `${r.count}曲`)}</span>
+            <span className="t-small num">{tx(`${r.count} ${r.count === 1 ? "song" : "songs"}`, `${r.count}曲`)}</span>
             <span className={"badge " + (r.status === "skipped" ? "badge-c" : "badge-b")}>{label(r.status)}</span>
           </div>
         ))}

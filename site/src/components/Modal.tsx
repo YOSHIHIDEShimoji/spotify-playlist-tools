@@ -80,7 +80,7 @@ export function ArtistModal({ artist, onClose }: { artist: ModalArtist; onClose:
   return (
     <Modal
       title={artist.name}
-      subtitle={tx(`${artist.count} songs in library`, `ライブラリに ${artist.count} 曲`)}
+      subtitle={tx(`${artist.count} ${artist.count === 1 ? "song" : "songs"} in library`, `ライブラリに ${artist.count} 曲`)}
       onClose={onClose}
       className="modal-dialog--wide"
       footer={

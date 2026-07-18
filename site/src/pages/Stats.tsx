@@ -52,7 +52,7 @@ export function StatsPage() {
 
       <Section
         title={tx("Artist distribution", "アーティスト分布")}
-        aside={group && <span className="t-small">{selName ?? combined} · {tx(`${group.total.toLocaleString()} songs`, `${group.total.toLocaleString()}曲`)}</span>}
+        aside={group && <span className="t-small">{selName ?? combined} · {tx(`${group.total.toLocaleString()} ${group.total === 1 ? "song" : "songs"}`, `${group.total.toLocaleString()}曲`)}</span>}
       >
         {stats.loading ? (
           <Loading />
@@ -72,7 +72,7 @@ export function StatsPage() {
 
       <Section
         title={tx("Release-decade distribution", "リリース年代分布")}
-        aside={decGroup && <span className="t-small">{decSelName ?? combined} · {tx(`${decGroup.total.toLocaleString()} songs`, `${decGroup.total.toLocaleString()}曲`)}</span>}
+        aside={decGroup && <span className="t-small">{decSelName ?? combined} · {tx(`${decGroup.total.toLocaleString()} ${decGroup.total === 1 ? "song" : "songs"}`, `${decGroup.total.toLocaleString()}曲`)}</span>}
       >
         {stats.loading ? (
           <Loading />
@@ -342,7 +342,7 @@ function DecadeBars(
         </ResponsiveContainer>
       </div>
       {decade != null && (
-        <Modal title={tx(`${decade}s tracks`, `${decade}年代の曲`)} subtitle={tx(`${tracks.length} songs · oldest first`, `${tracks.length}曲 · 古い順`)} onClose={() => setDecade(null)}>
+        <Modal title={tx(`${decade}s tracks`, `${decade}年代の曲`)} subtitle={tx(`${tracks.length} ${tracks.length === 1 ? "song" : "songs"} · oldest first`, `${tracks.length}曲 · 古い順`)} onClose={() => setDecade(null)}>
           {tracks.length === 0 ? (
             <p className="t-small" style={{ padding: "var(--sp-2) 0" }}>
               {tx(

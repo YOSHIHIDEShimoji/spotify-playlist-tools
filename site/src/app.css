@@ -466,13 +466,18 @@
 /* ── サブナビ（重複 / 未判定 の切替） ─────────────── */
 .seg {
   display: inline-flex;
-  flex-wrap: wrap; /* 3タブ以上のときモバイルで折り返し、ページ横あふれを防ぐ */
+  flex-wrap: nowrap; /* 折り返さず1行。入り切らなければ下の overflow で横スクロール（例: おすすめの Spotify Official Top） */
   gap: 4px;
   background: var(--surface-1);
   border-radius: var(--r-pill);
   padding: 4px;
   margin-bottom: var(--sp-5);
   max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+}
+.seg::-webkit-scrollbar {
+  display: none; /* WebKit: スクロールバーを隠す（ピル列と同じ見た目） */
 }
 .seg button {
   border: none;
