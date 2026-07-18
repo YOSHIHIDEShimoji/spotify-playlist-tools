@@ -28,6 +28,13 @@
   display: inline-flex;
   align-items: center;
 }
+/* データ最終更新（タイトルの右）。控えめ・数字は等幅。 */
+.app-updated {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
 .app-header .spacer {
   flex: 1;
 }
@@ -933,6 +940,16 @@ table.data-table {
 @media (max-width: 480px) {
   .shell {
     padding: var(--sp-3) var(--sp-3) var(--sp-8);
+  }
+  /* ヘッダが横あふれしないよう、狭い幅ではロゴを少し縮小し「更新」ラベルを省く */
+  .app-logo {
+    font-size: 1rem;
+  }
+  .app-updated {
+    font-size: 0.62rem;
+  }
+  .app-updated .upd-label {
+    display: none;
   }
   .nightband {
     padding: var(--sp-4);

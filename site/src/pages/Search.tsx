@@ -39,6 +39,11 @@ export function SearchPage() {
         <div className="card">
           {results.map((t) => (
             <div className="list-row" key={t.id}>
+              {t.image ? (
+                <img className="cand-art top-art" src={t.image} alt="" loading="lazy" width={40} height={40} />
+              ) : (
+                <span className="cand-art cand-art--ph top-art" aria-hidden />
+              )}
               <span className="list-main">
                 <div className="name">{t.name}</div>
                 <div className="t-small">{t.artists.join(", ")}</div>

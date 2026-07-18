@@ -2,8 +2,24 @@ import { useEffect, useState } from "react";
 import { NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { AuthBanner } from "./components/AuthBanner";
 import { ScrollRow } from "./components/ui";
+import { useJson } from "./lib/data";
+import type { AuthStatus } from "./lib/types";
 import { clearPat, setPat, usePat } from "./lib/pat";
 import { verifyPat } from "./lib/github";
+
+// データ最終更新（夜間ラン等の sitegen 実行時刻）を JST の「M/D HH:MM」で。
+function jstStamp(iso?: string): string {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleString("ja-JP", {
+    timeZone: "Asia/Tokyo",
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
 import { Home } from "./pages/Home";
 import { Organize } from "./pages/Organize";
 import { StatsPage } from "./pages/Stats";
@@ -24,6 +40,8 @@ export function App() {
   const pat = usePat();
   const [showSettings, setShowSettings] = useState(false);
   const location = useLocation();
+  const auth = useJson<AuthStatus>("auth_status"); // 最終更新の表示に使う
+  const updated = jstStamp(auth.data?.checked_at);
 
   // ルート変更（ディープリンク／リロード含む）時、横スクロールするナビ内でアクティブな
   // ピルを中央寄せに。scroller の scrollLeft を直接指定するのでページ縦スクロールは動かさない。
@@ -55,6 +73,11 @@ export function App() {
           </span>
           Spotify Dashboard
         </span>
+        {updated && (
+          <span className="app-updated" title="データの最終更新（JST）">
+            <span className="upd-label">更新 </span>{updated}
+          </span>
+        )}
         <span className="spacer" />
         <button
           className={"pill" + (pat ? " is-active" : "")}
