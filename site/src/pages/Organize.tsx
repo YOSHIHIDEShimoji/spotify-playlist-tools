@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useJson } from "../lib/data";
-import type { Dupes, DupeGroup, KeepGroup, KeepIndex, Unknown, UndoIndex } from "../lib/types";
+import type { Dupes, DupeGroup, KeepGroup, KeepIndex, SearchIndex, SearchTrack, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
 import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
@@ -82,7 +82,7 @@ export function Organize() {
           ) : keepCount === 0 ? (
             <Empty>「両方残す」にした重複はありません。ここに移すと、いつでも重複チェックに戻せます。</Empty>
           ) : (
-            (keep.data?.groups ?? []).map((g) => <KeepCard key={g.group_id} g={g} pat={pat} />)
+            <KeepSection groups={keep.data!.groups} pat={pat} />
           )}
         </Section>
       ) : tab === "dupes" ? (
@@ -303,11 +303,29 @@ function TierACard(
   );
 }
 
+// 保留タブ。曲名スナップショットが無い旧エントリは search_index から名前を補完して表示する。
+function KeepSection({ groups, pat }: { groups: KeepGroup[]; pat: string | null }) {
+  const search = useJson<SearchIndex>("search_index");
+  const byId = useMemo(
+    () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t] as const)),
+    [search.data],
+  );
+  return <>{groups.map((g) => <KeepCard key={g.group_id} g={g} pat={pat} byId={byId} />)}</>;
+}
+
 // 「両方残す」で保留にした重複。ここから重複チェックに戻せる（keep-apply の remove → 再スキャンで復活）。
-function KeepCard({ g, pat }: { g: KeepGroup; pat: string | null }) {
+function KeepCard(
+  { g, pat, byId }: { g: KeepGroup; pat: string | null; byId: Map<string, SearchTrack> },
+) {
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
-  const tracks = g.tracks ?? [];
+  // スナップショットがあればそれを、無ければ track_ids を search_index で名前解決する。
+  const tracks = g.tracks?.length
+    ? g.tracks
+    : g.track_ids.map((id) => {
+        const s = byId.get(id);
+        return { id, name: s?.name ?? id, artists: s?.artists ?? [], image: null as string | null };
+      });
 
   async function restore() {
     setBusy(true);
@@ -322,20 +340,16 @@ function KeepCard({ g, pat }: { g: KeepGroup; pat: string | null }) {
       <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
         両方残す{g.decided_at ? ` · ${g.decided_at}` : ""}
       </div>
-      {tracks.length ? (
-        tracks.map((t) => (
-          <div className="dupe-cand" key={t.id}>
-            <Art image={t.image} />
-            <div className="cand-main">
-              <div className="cand-name"><span className="txt">{t.name}</span></div>
-              <div className="cand-meta">{t.artists.join(", ")}</div>
-            </div>
-            <PlayButton uri={`spotify:track:${t.id}`} />
+      {tracks.map((t) => (
+        <div className="dupe-cand" key={t.id}>
+          <Art image={t.image} />
+          <div className="cand-main">
+            <div className="cand-name"><span className="txt">{t.name}</span></div>
+            <div className="cand-meta">{t.artists.join(", ")}</div>
           </div>
-        ))
-      ) : (
-        <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>曲 {g.track_ids.length} 件（詳細は次回更新後に表示）</div>
-      )}
+          <PlayButton uri={`spotify:track:${t.id}`} />
+        </div>
+      ))}
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={!pat || busy} onClick={restore}>
           重複チェックに戻す
