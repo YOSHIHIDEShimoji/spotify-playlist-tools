@@ -1,17 +1,17 @@
 name: listen-log
 
-# 聴取ログ収集（dashboard-design §6.1）。毎時 recently-played を取得し
+# 聴取ログ収集（dashboard-design §6.1）。30分毎に recently-played を取得し
 # data ブランチの listening/*.jsonl へ追記する。読み取り専用（プレイリストは変更しない）。
 #
 # 頻度: Spotify の recently-played は直近50件しか保持しないため、間隔中に50曲を超えて
 # 再生すると超過分は API から失われる（何度ページングしても取れない）。2分/曲の連続再生でも
-# 1時間なら最大30曲 < 50 で余裕を持って取りこぼしを防ぐ（3時間だと最大90曲で溢れうる）。
-# public リポなので Actions 分は無料・無制限。cron の分は毎時0分（GitHub の scheduled が最も
-# 混んで遅延しやすい）を避けて 17 分にしている。
+# 30分なら最大15曲 << 50 で、1分曲を連続で流すような極端なケースでも溢れない安全側。
+# public リポなので Actions 分は無料・無制限。cron の分は毎時0/30分（GitHub の scheduled が
+# 最も混んで遅延しやすい）を避けて 17 分・47 分にしている。
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 permissions:

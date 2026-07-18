@@ -134,13 +134,14 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
   if (loading) return <Loading />;
   const rows: RankedTrack[] = range === "week" ? (listen?.weekly_top ?? []) : (listen?.cumulative_top ?? []);
   const since = range === "all" && listen?.since ? monthDay(listen.since, lang) : null;
-  // キャプションは今週/累計どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
+  // キャプションは今週/記録全体どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
+  // 「記録全体」は計測開始からの全再生であって生涯履歴ではない旨を明示する（誤解防止）。
   const caption =
     range === "week"
       ? tx("Plays this calendar week (Mon–Sun).", "今週（月〜日）の再生。")
       : since
-        ? tx(`Since ${since} (when logging started).`, `${since}（計測開始）からの累計。`)
-        : tx("All-time total since logging started.", "計測開始からの累計。");
+        ? tx(`All plays since ${since}, when logging started — not your full history yet.`, `${since}の計測開始からの全再生。まだ全期間の履歴ではありません。`)
+        : tx("All logged plays so far — not your full history yet.", "これまでに記録した全再生。まだ全期間の履歴ではありません。");
 
   return (
     <>
@@ -149,7 +150,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
           {tx("This week", "今週")}
         </button>
         <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
-          {tx("All time", "累計")}
+          {tx("All logged", "記録全体")}
         </button>
       </div>
       <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>{caption}</p>
