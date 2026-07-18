@@ -86,10 +86,11 @@ export interface Unknown {
 }
 
 export interface RankedTrack {
-  track_id: string;
+  track_id: string; // Spotify track id、または Last.fm 由来で未解決なら "lastfm:<key>"
   name: string;
   artists: string[];
   count: number;
+  image?: string | null; // Last.fm scrobble はアート URL を持つ（未解決トラックのサムネ用）
 }
 
 export interface ListeningStats {

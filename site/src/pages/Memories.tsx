@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { useJson } from "../lib/data";
 import type { ArchiveWeekly, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
-import { PlayButton } from "../lib/player";
+import { TrackPlayButton } from "../lib/player";
 import { dowLabels, useLang, useT } from "../lib/i18n";
 
 // 曲ID → アルバムアート URL。search_index から補完する（管理プレイリストに在る曲は必ず出る）。
@@ -59,7 +59,7 @@ function TrackRow(
         <div className="name">{track.name}</div>
         <div className="t-small">{track.artists.join(", ")}</div>
       </span>
-      <PlayButton uri={`spotify:track:${track.id}`} label={tx(`Play ${track.name}`, `${track.name} を再生`)} />
+      <TrackPlayButton id={track.id} name={track.name} artists={track.artists} label={tx(`Play ${track.name}`, `${track.name} を再生`)} />
     </div>
   );
 }
@@ -169,7 +169,7 @@ function WrappedMonth({ month }: { month: string }) {
         <div className="card" style={{ flex: "1 1 260px" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{tx("Top tracks", "Top 曲")}</div>
           {d.top_tracks.map((t, i) => (
-            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} image={img.get(t.track_id)} />
+            <TrackRow key={t.track_id} rank={i + 1} track={{ id: t.track_id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.track_id)} />
           ))}
         </div>
         <div className="card" style={{ flex: "1 1 260px" }}>

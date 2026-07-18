@@ -49,6 +49,7 @@ def _track_meta(records: list[dict]) -> dict[str, dict]:
             meta[tid] = {
                 "name": r.get("name", ""),
                 "artists": [a.get("name", "") for a in (r.get("artists") or [])],
+                "image": r.get("image"),  # Last.fm 由来の scrobble はアート URL を持つ
             }
     return meta
 
@@ -56,10 +57,13 @@ def _track_meta(records: list[dict]) -> dict[str, dict]:
 def cumulative_ranking(records: list[dict], limit: int = CUMULATIVE_TOP) -> list[dict]:
     counts: Counter[str] = Counter(r["track_id"] for r in records)
     meta = _track_meta(records)
-    return [
-        {"track_id": tid, "name": meta[tid]["name"], "artists": meta[tid]["artists"], "count": c}
-        for tid, c in counts.most_common(limit)
-    ]
+    out: list[dict] = []
+    for tid, c in counts.most_common(limit):
+        row = {"track_id": tid, "name": meta[tid]["name"], "artists": meta[tid]["artists"], "count": c}
+        if meta[tid].get("image"):  # 画像は持っているときだけ載せる（自前ログ由来は付かない）
+            row["image"] = meta[tid]["image"]
+        out.append(row)
+    return out
 
 
 def weekly_ranking(records: list[dict], now_jst: datetime, limit: int = WEEKLY_TOP) -> list[dict]:
@@ -460,7 +464,8 @@ def main() -> int:
     )
 
     # 3) 聴取ログ集計 → weekly/cumulative/heatmap/streak（トークン不要・ファイルのみ）
-    records = _load_all_listening(data / "listening")
+    #    Last.fm scrobble があればそれを正とし、無い期間だけ自前ログで補完する（_listening_records）。
+    records = _listening_records(data)
     core.atomic_write_json(data / "listening_stats.json", {
         "generated_at": _now_utc_iso(),
         "since": min((r["played_at"] for r in records), default=None),
@@ -579,6 +584,101 @@ def _load_all_listening(listening_dir: Path) -> list[dict]:
     if listening_dir.exists():
         for p in sorted(listening_dir.glob("*.jsonl")):
             records.extend(core.read_jsonl(p))
+    return records
+
+
+def _load_all_scrobbles(scrobbles_dir: Path) -> list[dict]:
+    """Last.fm scrobble（lastfm_log.py が書く <data>/scrobbles/*.jsonl）を全部読む。"""
+    records: list[dict] = []
+    if scrobbles_dir.exists():
+        for p in sorted(scrobbles_dir.glob("*.jsonl")):
+            records.extend(core.read_jsonl(p))
+    return records
+
+
+def _norm_key(name: str, artist: str) -> str:
+    """曲名＋アーティストを緩く正規化した突き合わせキー（大小・記号・空白差を吸収）。
+    Last.fm の scrobble は Spotify の曲名をそのまま持つので、この程度の正規化で照合できる。"""
+    import re
+
+    def n(s: str) -> str:
+        return re.sub(r"[^0-9a-z぀-ヿ一-鿿]+", "", (s or "").lower())
+
+    return f"{n(name)}|{n(artist)}"
+
+
+def _scrobble_resolver(search_index_path: Path) -> dict:
+    """search_index.json（前回ラン生成分）から (曲名, アーティスト) → {id, image} の索引を作る。
+    Last.fm scrobble を Spotify track_id・アルバムアートに解決して、再生ボタン/アートを効かせる。"""
+    import json
+
+    na: dict[str, dict] = {}  # 曲名＋各アーティスト
+    n_only: dict[str, dict] = {}  # 曲名のみ（アーティスト不一致時のフォールバック）
+    try:
+        data = json.loads(search_index_path.read_text())
+    except (OSError, ValueError):
+        return {"na": na, "n": n_only}
+    for t in data.get("tracks", []):
+        tid = t.get("id")
+        if not tid:
+            continue
+        name = t.get("name", "")
+        img = t.get("image")
+        for a in t.get("artists") or []:
+            na.setdefault(_norm_key(name, a), {"id": tid, "image": img})
+        n_only.setdefault(_norm_key(name, ""), {"id": tid, "image": img})
+    return {"na": na, "n": n_only}
+
+
+def _scrobbles_to_records(scrobbles: list[dict], resolver: dict) -> list[dict]:
+    """scrobble を聴取レコード形（track_id/name/artists/played_at/image）に変換する。
+    Spotify に解決できれば spotify id（＝自前ログと同じ id で集計が合流する）、
+    解決できなければ 'lastfm:<key>' の合成 id と Last.fm 画像を使う。"""
+    na, n_only = resolver.get("na", {}), resolver.get("n", {})
+    out: list[dict] = []
+    for s in scrobbles:
+        name = s.get("name", "")
+        artist = s.get("artist", "")
+        m = na.get(_norm_key(name, artist)) or n_only.get(_norm_key(name, ""))
+        if m:
+            tid = m["id"]
+            image = m.get("image") or s.get("image")
+        else:
+            tid = "lastfm:" + _norm_key(name, artist)
+            image = s.get("image")
+        out.append({
+            "track_id": tid,
+            "name": name,
+            "artists": [{"name": artist}] if artist else [],
+            "played_at": s.get("played_at"),
+            "image": image,
+        })
+    return out
+
+
+def _listening_records(data: Path) -> list[dict]:
+    """聴取統計の元レコードを返す。Last.fm scrobble があればそれを正とし（50件制約なし）、
+    scrobble が覆う期間の外側（連携前の先行分・連携停止後の穴）だけ自前 recently-played ログで
+    補完する（重複計上を避けつつ、Last.fm 障害時のフォールバックも兼ねる）。scrobble が無ければ
+    従来どおり自前ログを使う。"""
+    scrobbles = _load_all_scrobbles(data / "scrobbles")
+    if not scrobbles:
+        return _load_all_listening(data / "listening")
+    resolver = _scrobble_resolver(data / "search_index.json")
+    records = _scrobbles_to_records(scrobbles, resolver)
+    times = [core.parse_iso(r["played_at"]) for r in records if r.get("played_at")]
+    if times:
+        lo, hi = min(times), max(times)
+        for r in _load_all_listening(data / "listening"):
+            pa = r.get("played_at")
+            if not pa:
+                continue
+            try:
+                t = core.parse_iso(pa)
+            except (ValueError, TypeError):
+                continue
+            if t < lo or t > hi:  # scrobble 未カバー期間（連携前／停止後）だけ補完
+                records.append(r)
     return records
 
 

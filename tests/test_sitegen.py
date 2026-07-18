@@ -187,3 +187,64 @@ def test_release_class_map(monkeypatch):
     assert m["artA"] == "western"
     assert m["artB"] == "japanese"
     assert m["artC"] == "japanese"  # classify cache が在籍推定より優先される
+
+
+# ─────────────────────────── Last.fm scrobble 取り込み ───────────────────────────
+
+def test_cumulative_ranking_keeps_image_when_present():
+    recs = [
+        {"played_at": "2026-07-01T10:00:00Z", "track_id": "t1", "name": "n", "artists": [{"name": "A"}], "image": "http://i/1.jpg"},
+        {"played_at": "2026-07-02T10:00:00Z", "track_id": "t1", "name": "n", "artists": [{"name": "A"}], "image": "http://i/1.jpg"},
+    ]
+    r = sitegen.cumulative_ranking(recs)
+    assert r[0]["image"] == "http://i/1.jpg" and r[0]["count"] == 2
+    # 画像の無いレコード（自前ログ由来）は image キーを付けない＝既存出力を変えない
+    assert "image" not in sitegen.cumulative_ranking([_rec("2026-07-01T10:00:00Z", "t2")])[0]
+
+
+def test_scrobbles_resolve_to_spotify_or_synthesize(tmp_path):
+    import json
+    (tmp_path / "search_index.json").write_text(json.dumps({
+        "tracks": [
+            {"id": "3xhc0Y528hLu0Rc4iBrDP1", "name": "STAY (with Justin Bieber)",
+             "artists": ["The Kid LAROI", "Justin Bieber"], "image": "http://img/stay.jpg"},
+        ]
+    }), encoding="utf-8")
+    resolver = sitegen._scrobble_resolver(tmp_path / "search_index.json")
+    scrobbles = [
+        {"played_at": "2026-07-19T10:00:00+00:00", "uts": 1, "name": "STAY (with Justin Bieber)",
+         "artist": "The Kid LAROI", "image": "http://lfm/stay.jpg"},
+        {"played_at": "2026-07-19T11:00:00+00:00", "uts": 2, "name": "Unknown Song",
+         "artist": "Nobody", "image": "http://lfm/unk.jpg"},
+    ]
+    recs = sitegen._scrobbles_to_records(scrobbles, resolver)
+    # ライブラリ内は Spotify id とアートに解決（アートは search_index 優先）
+    assert recs[0]["track_id"] == "3xhc0Y528hLu0Rc4iBrDP1"
+    assert recs[0]["image"] == "http://img/stay.jpg"
+    assert recs[0]["artists"] == [{"name": "The Kid LAROI"}]
+    # 未解決は lastfm: 合成id ＋ Last.fm 画像
+    assert recs[1]["track_id"].startswith("lastfm:")
+    assert recs[1]["image"] == "http://lfm/unk.jpg"
+
+
+def test_listening_records_prefers_scrobbles_and_fills_gaps(tmp_path):
+    (tmp_path / "scrobbles").mkdir()
+    (tmp_path / "listening").mkdir()
+    core.append_jsonl(tmp_path / "scrobbles" / "2026-07.jsonl", [
+        {"played_at": "2026-07-18T10:00:00+00:00", "uts": 100, "name": "B", "artist": "X", "image": None},
+        {"played_at": "2026-07-19T10:00:00+00:00", "uts": 200, "name": "C", "artist": "Y", "image": None},
+    ])
+    core.append_jsonl(tmp_path / "listening" / "2026-07.jsonl", [
+        _rec("2026-07-17T10:00:00Z", "before"),   # 連携前（先行）→ 補完される
+        _rec("2026-07-18T12:00:00Z", "inside"),   # scrobble カバー内 → 重複回避で除外
+        _rec("2026-07-20T10:00:00Z", "after"),    # 連携停止後（穴）→ 補完される
+    ])
+    ids = [r["track_id"] for r in sitegen._listening_records(tmp_path)]
+    assert "before" in ids and "after" in ids and "inside" not in ids
+
+
+def test_listening_records_falls_back_to_selflog(tmp_path):
+    (tmp_path / "listening").mkdir()
+    core.append_jsonl(tmp_path / "listening" / "2026-07.jsonl", [_rec("2026-07-17T10:00:00Z", "x")])
+    # scrobbles ディレクトリ無し → 自前ログにフォールバック
+    assert [r["track_id"] for r in sitegen._listening_records(tmp_path)] == ["x"]

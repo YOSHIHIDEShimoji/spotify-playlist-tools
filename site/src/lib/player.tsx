@@ -166,6 +166,35 @@ export function PlayButton({ uri, label }: { uri: string; label?: string }) {
   );
 }
 
+/** Spotify の track id（22文字 base62）か。Last.fm 由来の未解決 id（"lastfm:..."）を弾く。 */
+export function isSpotifyTrackId(id: string): boolean {
+  return /^[A-Za-z0-9]{22}$/.test(id);
+}
+
+/** ランキング行の再生ボタン。Spotify に解決済みなら常駐プレイヤーで再生、未解決（Last.fm のみで
+ *  Spotify に無い曲）は Spotify 検索を新規タブで開くフォールバックにする。 */
+export function TrackPlayButton(
+  { id, name, artists, label }: { id: string; name: string; artists: string[]; label?: string },
+) {
+  const t = useT();
+  const lbl = label ?? t("Play", "再生");
+  if (isSpotifyTrackId(id)) return <PlayButton uri={`spotify:track:${id}`} label={lbl} />;
+  const url = `https://open.spotify.com/search/${encodeURIComponent([name, ...artists].join(" "))}`;
+  return (
+    <a
+      className="play-btn"
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      title={lbl}
+      aria-label={lbl}
+      onClick={(e) => e.stopPropagation()}
+    >
+      <PlayIcon />
+    </a>
+  );
+}
+
 export function PlayIcon({ size = 15 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 16 16" fill="currentColor" aria-hidden>

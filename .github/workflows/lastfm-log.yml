@@ -1,0 +1,66 @@
+name: lastfm-log
+
+# Last.fm scrobble 取り込み（聴取統計の正）。30分毎に user.getRecentTracks を取得し
+# data ブランチの scrobbles/*.jsonl へ追記する。読み取り専用（Spotify も Last.fm も変更しない）。
+#
+# Last.fm は全再生を50件制限なく永続保持するので、Spotify recently-played の自前ログ（listen-log）
+# より確実。sitegen は scrobbles があればそれを優先集計し、無い期間だけ自前ログで補完する。
+# listen-log(17,47) と衝突しない分（5,35）にしている（同じ concurrency group で直列化もされる）。
+
+on:
+  schedule:
+    - cron: '5,35 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # nightly / site-ops / listen-log と同一グループにして data ブランチへの並行 push を無くす。
+  group: spotify-serial
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+  LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+  LASTFM_USER: shimoji_
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/checkout@v5
+        with:
+          ref: data
+          path: _data
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Poll Last.fm scrobbles
+        run: python lastfm_log.py --data-dir _data/data
+
+      - name: Push if changed
+        working-directory: _data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "scrobble に変更なし"
+            exit 0
+          fi
+          git commit -m "data: Last.fm scrobble 更新"
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "push 競合。rebase して再試行 ($i/3)"
+            git pull --rebase origin data
+          done
+          exit 1

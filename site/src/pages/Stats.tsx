@@ -3,7 +3,7 @@ import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Too
 import { useJson, useJsonl } from "../lib/data";
 import type { Heatmap, ListeningStats, RankedTrack, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
-import { PlayButton, PlayIcon, usePlayer } from "../lib/player";
+import { PlayButton, PlayIcon, TrackPlayButton, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
 import { dowLabels, monthDay, useLang, useT } from "../lib/i18n";
@@ -169,7 +169,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
       ) : (
         <div className="card">
           {rows.slice(0, 20).map((t, i) => {
-            const img = byId.get(t.track_id)?.image;
+            const img = t.image ?? byId.get(t.track_id)?.image; // Last.fm 画像 → search_index の順で補完
             return (
               <div className="list-row" key={t.track_id}>
                 <span className="list-rank">{i + 1}</span>
@@ -183,7 +183,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
                   <div className="t-small">{t.artists.join(", ")}</div>
                 </span>
                 <span className="list-count">{tx(`${t.count} ${t.count === 1 ? "play" : "plays"}`, `${t.count}回`)}</span>
-                <PlayButton uri={`spotify:track:${t.track_id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
+                <TrackPlayButton id={t.track_id} name={t.name} artists={t.artists} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
               </div>
             );
           })}
