@@ -341,13 +341,13 @@
         "rank": 7
       },
       {
-        "id": "6VuMaDnrHyPL1p4EHjYLi7",
-        "name": "Charlie Puth",
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
         "rank": 8
       },
       {
-        "id": "6eUKZXaKkcviH0Ku9w2n3V",
-        "name": "Ed Sheeran",
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
         "rank": 9
       },
       {
@@ -361,13 +361,13 @@
         "rank": 11
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
+        "id": "23fqKkggKUBHNkbKtXEls4",
+        "name": "Kygo",
         "rank": 12
       },
       {
-        "id": "23fqKkggKUBHNkbKtXEls4",
-        "name": "Kygo",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 13
       },
       {
@@ -381,8 +381,8 @@
         "rank": 15
       },
       {
-        "id": "5ZsFI1h6hIdQRw2ti0hz81",
-        "name": "ZAYN",
+        "id": "7k73EtZwoPs516ZxE72KsO",
+        "name": "ONE OK ROCK",
         "rank": 16
       },
       {
@@ -411,53 +411,53 @@
         "rank": 21
       },
       {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 22
+      },
+      {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 22
+        "rank": 23
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 23
+        "rank": 24
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 24
+        "rank": 25
       },
       {
         "id": "3dRfiJ2650SZu6GbydcHNb",
         "name": "John Williams",
-        "rank": 25
+        "rank": 26
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 26
+        "rank": 27
       },
       {
         "id": "74KM79TiuVKeVCqs8QtB0B",
         "name": "Sabrina Carpenter",
-        "rank": 27
+        "rank": 28
       },
       {
-        "id": "3pc0bOVB5whxmD50W79wwO",
-        "name": "keshi",
-        "rank": 28
+        "id": "4tuJ0bMpJh08umKkEXKUI5",
+        "name": "Gracie Abrams",
+        "rank": 29
       },
       {
         "id": "58lV9VcRSjABbAbfWS6skp",
         "name": "Bon Jovi",
-        "rank": 29
-      },
-      {
-        "id": "7k73EtZwoPs516ZxE72KsO",
-        "name": "ONE OK ROCK",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-07-18T09:19:50.011615+00:00",
+  "generated_at": "2026-07-18T11:06:18.204780+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1052,28 +1052,10 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "17Vqwvat9EmRmfDvmYqoi0",
-        "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
-        "name": "Give Me Something (for Arknights Endfield)",
-        "rank": 5
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2JATE4qxTuVgKEKe12sqLp",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Future Looks Good",
-        "rank": 6
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
         "id": "3cOO5IQtOYs7huq4Z6lYfr",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "Love Runs Out",
-        "rank": 7
+        "rank": 5
       },
       {
         "artists": [
@@ -1082,7 +1064,16 @@
         "id": "4fYte8ZvTK14NEhAOZocBi",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "I Ain't Worried",
-        "rank": 8
+        "rank": 6
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "17Vqwvat9EmRmfDvmYqoi0",
+        "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
+        "name": "Give Me Something (for Arknights Endfield)",
+        "rank": 7
       },
       {
         "artists": [
@@ -1091,6 +1082,15 @@
         "id": "1B7Vir1E4FcFPP5tUzDSmR",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "West Coast",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2JATE4qxTuVgKEKe12sqLp",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Future Looks Good",
         "rank": 9
       },
       {
@@ -1133,33 +1133,12 @@
       },
       {
         "artists": [
-          "MEDUZA",
-          "OneRepublic",
-          "Leony"
-        ],
-        "id": "7MYLHLCf0YWR4TVs3owDny",
-        "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
-        "name": "Fire - Official UEFA EURO 2024 Song",
-        "rank": 14
-      },
-      {
-        "artists": [
-          "OneRepublic",
-          "Seeb"
-        ],
-        "id": "7dOeiXeTSfA1ixaYmQcWu7",
-        "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
-        "name": "Rich Love (with Seeb)",
-        "rank": 15
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "2e42fb37LVhtCOescNb1yN",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Everybody Loves Me",
-        "rank": 16
+        "rank": 14
       },
       {
         "artists": [
@@ -1168,7 +1147,7 @@
         "id": "3IQF4xCQUPicbA4hWfTxPo",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "I Lived",
-        "rank": 17
+        "rank": 15
       },
       {
         "artists": [
@@ -1177,7 +1156,7 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 18
+        "rank": 16
       },
       {
         "artists": [
@@ -1187,7 +1166,7 @@
         "id": "331l3xABO0HMr1Kkyh2LZq",
         "image": "https://i.scdn.co/image/ab67616d000048517ce51d1a9049162e7e2fcf60",
         "name": "I Don't Wanna Wait",
-        "rank": 19
+        "rank": 17
       },
       {
         "artists": [
@@ -1196,7 +1175,7 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
-        "rank": 20
+        "rank": 18
       },
       {
         "artists": [
@@ -1205,7 +1184,7 @@
         "id": "05sCp83gcMm1iecYydKJS3",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Let's Hurt Tonight",
-        "rank": 21
+        "rank": 19
       },
       {
         "artists": [
@@ -1215,16 +1194,7 @@
         "id": "0xSjAuPhm9tJXX2nRt2Avv",
         "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
         "name": "Chasing Paradise",
-        "rank": 22
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2SLxgJ2YFohfd8KwuJZTUE",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Better Days",
-        "rank": 23
+        "rank": 20
       },
       {
         "artists": [
@@ -1233,7 +1203,7 @@
         "id": "2gPWnjEtKZaCcEXRlH9yT4",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Distance - from One Night In Malibu",
-        "rank": 24
+        "rank": 21
       },
       {
         "artists": [
@@ -1243,7 +1213,7 @@
         "id": "3ScJy88F8KqGDfWu8XJhHx",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 25
+        "rank": 22
       },
       {
         "artists": [
@@ -1252,16 +1222,28 @@
         "id": "48s0QHJgmiNsth3WEO6U4M",
         "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
         "name": "Stop And Stare",
-        "rank": 26
+        "rank": 23
       },
       {
         "artists": [
-          "OneRepublic"
+          "MEDUZA",
+          "OneRepublic",
+          "Leony"
         ],
-        "id": "6aDsgHPZsMztSbZernzlF8",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Someday",
-        "rank": 27
+        "id": "7MYLHLCf0YWR4TVs3owDny",
+        "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
+        "name": "Fire - Official UEFA EURO 2024 Song",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "OneRepublic",
+          "Seeb"
+        ],
+        "id": "7dOeiXeTSfA1ixaYmQcWu7",
+        "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
+        "name": "Rich Love (with Seeb)",
+        "rank": 25
       },
       {
         "artists": [
@@ -1270,16 +1252,7 @@
         "id": "1zjJg21AG4sXU9wzbQnQiQ",
         "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
         "name": "All Fall Down",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "37LNNQNbL1YLyutBG6aWRx",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Rescue Me",
-        "rank": 29
+        "rank": 26
       },
       {
         "artists": [
@@ -1288,6 +1261,33 @@
         "id": "0baR1QmlC8CruupaxA1IYA",
         "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
         "name": "Beautiful Colors - from Kaiju No. 8",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2IPpyxIgVLoDmYGIffJrol",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "Marchin On",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2SLxgJ2YFohfd8KwuJZTUE",
+        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+        "name": "Better Days",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Maroon 5"
+        ],
+        "id": "4cktbXiXOapiLBMprHFErI",
+        "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
+        "name": "Memories",
         "rank": 30
       }
     ]
