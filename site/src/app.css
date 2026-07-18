@@ -255,8 +255,12 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: var(--sp-3);
+  gap: var(--sp-1) var(--sp-3);
   margin-bottom: var(--sp-4);
+  flex-wrap: wrap; /* 見出しと右のメタが入り切らないとき、メタを下に折り返す（見出しの語中改行を防ぐ） */
+}
+.sec-head > h2 {
+  min-width: 0;
 }
 
 /* ── 汎用グリッド ───────────────────────────────── */
@@ -264,6 +268,12 @@
   display: flex;
   gap: var(--sp-3);
   flex-wrap: wrap;
+}
+/* .row 内のカードは中身（長い曲名など）が min-content 幅を押し広げないよう縮められる。
+ * これが無いとモバイルで公式Top/Wrapped カードがビューポートを突き破り横スクロールする。 */
+.row > .card,
+.row > .stat {
+  min-width: 0;
 }
 .grid-cards {
   display: grid;
