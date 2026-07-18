@@ -411,7 +411,7 @@ def _empty_top() -> dict:
 def build_archive_weekly(sp, dest_id: str) -> dict:
     weeks: dict[str, list[dict]] = {}
     results = sp.playlist_items(
-        dest_id, fields="items(added_at,track(id,name,artists(name))),next",
+        dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
         additional_types=("track",), limit=100,
     )
     while results:
@@ -424,7 +424,8 @@ def build_archive_weekly(sp, dest_id: str) -> dict:
             key = f"{iso[0]}-W{iso[1]:02d}"
             weeks.setdefault(key, []).append(
                 {"id": track["id"], "name": track.get("name", ""),
-                 "artists": [a["name"] for a in track.get("artists", [])], "added_at": added_at}
+                 "artists": [a["name"] for a in track.get("artists", [])], "added_at": added_at,
+                 "image": _album_image(track.get("album") or {})}
             )
         results = sp.next(results) if results.get("next") else None
     return {

@@ -190,7 +190,7 @@ export interface Wrapped {
 
 export interface ArchiveWeek {
   iso_week: string;
-  tracks: { id: string; name: string; artists: string[]; added_at: string }[];
+  tracks: { id: string; name: string; artists: string[]; added_at: string; image?: string | null }[];
 }
 export interface ArchiveWeekly {
   generated_at: string;

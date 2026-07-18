@@ -85,7 +85,7 @@ export function Memories() {
         ) : (
           <div className="card">
             {match.tracks.map((t) => (
-              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={img.get(t.id)} />
+              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />
             ))}
           </div>
         )}
@@ -103,7 +103,7 @@ export function Memories() {
                 {isoWeekRange(w.iso_week)} の週 <code className="muted">{w.iso_week}</code> · {w.tracks.length}曲
               </div>
               {w.tracks.slice(0, 8).map((t) => (
-                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={img.get(t.id)} />
+                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />
               ))}
             </div>
           ))
