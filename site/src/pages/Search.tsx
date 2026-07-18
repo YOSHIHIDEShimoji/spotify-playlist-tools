@@ -35,7 +35,7 @@ export function SearchPage() {
         <Loading />
       ) : !q.trim() ? (
         <Empty>
-          {idx.data ? tx(`Searching ${idx.data.tracks.length} ${idx.data.tracks.length === 1 ? "song" : "songs"}.`, `${idx.data.tracks.length} 曲から検索します。`) : "…"}
+          {idx.data ? tx(`Searching ${idx.data.tracks.length.toLocaleString()} ${idx.data.tracks.length === 1 ? "song" : "songs"}.`, `${idx.data.tracks.length.toLocaleString()}曲から検索します。`) : "…"}
         </Empty>
       ) : results.length === 0 ? (
         <Empty>{tx("No matching songs.", "一致する曲がありません。")}</Empty>
