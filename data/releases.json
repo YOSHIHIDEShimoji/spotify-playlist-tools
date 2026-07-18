@@ -1,19 +1,36 @@
 {
-  "generated_at": "2026-07-18T04:01:43.832029+00:00",
+  "generated_at": "2026-07-18T05:08:29.890187+00:00",
   "items": [
     {
       "album_id": "6pHEI6UgQrfYkCW6K0irla",
       "album_name": "F.A.C.E.",
       "album_type": "single",
       "artist": "Tatsuya Kitani",
+      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c97b3b91183f522dfc42aebc",
       "is_new": false,
       "release_date": "2026-07-18"
+    },
+    {
+      "album_id": "6ue29u7MnmM7oVtnHDXzAq",
+      "album_name": "Weekend",
+      "album_type": "single",
+      "artist": "MEDUZA",
+      "artist_id": "0xRXCcSX89eobfrshSVdyu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c2eaf5876973becf19a8051e",
+      "is_new": false,
+      "release_date": "2026-07-17"
     },
     {
       "album_id": "1QY871uDh8leKT0faCZ5dA",
       "album_name": "猫日",
       "album_type": "single",
       "artist": "suis from Yorushika",
+      "artist_id": "4UOdwKkaWHJ5k6UqnfC2w0",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851de9df23210231e35ea1d0afe",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -22,14 +39,9 @@
       "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
       "album_type": "album",
       "artist": "Descendants – Cast",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
-      "album_id": "6ue29u7MnmM7oVtnHDXzAq",
-      "album_name": "Weekend",
-      "album_type": "single",
-      "artist": "MEDUZA",
+      "artist_id": "4J79AY6Z2927FTTAgHChuv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -38,6 +50,9 @@
       "album_name": "Daughter from Hell",
       "album_type": "album",
       "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -46,6 +61,9 @@
       "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
       "album_type": "album",
       "artist": "OFFICIAL HIGE DANDISM",
+      "artist_id": "5Vo1hnCRmCM6M4thZCInCj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851d6cee70d808284182149685b",
       "is_new": false,
       "release_date": "2026-07-15"
     },
@@ -54,6 +72,9 @@
       "album_name": "かげろう",
       "album_type": "single",
       "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485163567c526abb91aa4a7ca589",
       "is_new": false,
       "release_date": "2026-07-15"
     },
@@ -62,6 +83,9 @@
       "album_name": "LEMONADE (Zedd Extended Mix)",
       "album_type": "single",
       "artist": "aespa",
+      "artist_id": "6YVMFz59CuY7ngCxTxjpxE",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d7ad2d7b32a093b3c8fd36ea",
       "is_new": false,
       "release_date": "2026-07-14"
     },
@@ -70,70 +94,20 @@
       "album_name": "夜鷹 - Yodaka",
       "album_type": "single",
       "artist": "Kenshi Yonezu",
+      "artist_id": "1snhtMLeb2DYoMOcVbb8iB",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485162249e32fd6ee1ce0b34640b",
       "is_new": false,
       "release_date": "2026-07-13"
-    },
-    {
-      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
-      "album_name": "juliet",
-      "album_type": "single",
-      "artist": "JVKE",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
-      "album_name": "Moana (Original Score)",
-      "album_type": "album",
-      "artist": "Disney",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
-      "album_name": "サンダーボルト",
-      "album_type": "single",
-      "artist": "Yuuri",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "19iGAah99flFtnRqaQ2E1J",
-      "album_name": "Universal Language",
-      "album_type": "single",
-      "artist": "Gym Class Heroes",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "0pFlE0rc68RS8f3UHzioQY",
-      "album_name": "The Real Me",
-      "album_type": "album",
-      "artist": "Future",
-      "is_new": false,
-      "release_date": "2026-07-10"
     },
     {
       "album_id": "2tUuyJcwwzCtmHKuP9j95s",
       "album_name": "Dedication",
       "album_type": "single",
       "artist": "Clever",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
-      "album_name": "Joven y Salvaje (with Bb trickz)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "0V3YKC3QI5P1sAjM4csXju",
-      "album_name": "Take Me Back",
-      "album_type": "single",
-      "artist": "Kygo",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485111513abcefecff5c5b50044c",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -142,6 +116,64 @@
       "album_name": "TOKA",
       "album_type": "single",
       "artist": "Dhurata Dora",
+      "artist_id": "6t7U7sYlVCtlMWzbecJcHd",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485154d607b62c5c2f117062b29b",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "0pFlE0rc68RS8f3UHzioQY",
+      "album_name": "The Real Me",
+      "album_type": "album",
+      "artist": "Future",
+      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485178337626e83628a76aa7e0a4",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
+      "album_name": "juliet",
+      "album_type": "single",
+      "artist": "JVKE",
+      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485167b60d1886c070b25e57df93",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
+      "album_name": "Joven y Salvaje (with Bb trickz)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851622746b637048741b093c7b0",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "19iGAah99flFtnRqaQ2E1J",
+      "album_name": "Universal Language",
+      "album_type": "single",
+      "artist": "Gym Class Heroes",
+      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a81f6cb60b74257a0d593e93",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
+      "album_name": "Moana (Original Score)",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e28482f95e3efe9fe4d59cc9",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -150,6 +182,9 @@
       "album_name": "Orion (English Version)",
       "album_type": "single",
       "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851fea4ed3662cf52857a6b47c1",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -158,6 +193,31 @@
       "album_name": "Body So Tea",
       "album_type": "single",
       "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d95c42a7ccdb1560cd624ab4",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "0V3YKC3QI5P1sAjM4csXju",
+      "album_name": "Take Me Back",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513038bbb448472f7aa59dc0ae",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
+      "album_name": "サンダーボルト",
+      "album_type": "single",
+      "artist": "Yuuri",
+      "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851ad30451cb8e45b83ea3d4e72",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -166,14 +226,20 @@
       "album_name": "Zoomania 2: Die Geschichte einer Schlange",
       "album_type": "album",
       "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f381562444a34bd503b02adb",
       "is_new": false,
       "release_date": "2026-07-09"
     },
     {
-      "album_id": "02LNxzssBjZ13PR2ivizCk",
-      "album_name": "Stella",
+      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
+      "album_name": "Blue",
       "album_type": "single",
-      "artist": "SEKAI NO OWARI",
+      "artist": "MILLENNIUM PARADE",
+      "artist_id": "0GZ65zwBwkkwGNJ3zagtTZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513e977b9cc8b7fdee4e887d1c",
       "is_new": false,
       "release_date": "2026-07-08"
     },
@@ -182,6 +248,9 @@
       "album_name": "Soy Luna: Volver a rodar (Banda Sonora Original)",
       "album_type": "album",
       "artist": "Elenco de Soy Luna",
+      "artist_id": "2mvVgc0UMgFwXGktcNmA6l",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b9609f5de7e46452e490ec27",
       "is_new": false,
       "release_date": "2026-07-08"
     },
@@ -190,14 +259,20 @@
       "album_name": "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
       "album_type": "album",
       "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b211c8ac40aff9231684e63c",
       "is_new": false,
       "release_date": "2026-07-08"
     },
     {
-      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
-      "album_name": "Blue",
+      "album_id": "02LNxzssBjZ13PR2ivizCk",
+      "album_name": "Stella",
       "album_type": "single",
-      "artist": "MILLENNIUM PARADE",
+      "artist": "SEKAI NO OWARI",
+      "artist_id": "7HwzlRPa9Ad0I8rK0FPzzK",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851001ecfba14e8cce99e12374d",
       "is_new": false,
       "release_date": "2026-07-08"
     },
@@ -206,6 +281,9 @@
       "album_name": "Kygo Jo (feat. Lyng) [Kygo Remix]",
       "album_type": "single",
       "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048510b00c491971f061b7cf617db",
       "is_new": false,
       "release_date": "2026-07-07"
     },
@@ -214,6 +292,9 @@
       "album_name": "back shot",
       "album_type": "single",
       "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c9716c02888e17bfe0b2a264",
       "is_new": false,
       "release_date": "2026-07-05"
     },
@@ -222,6 +303,9 @@
       "album_name": "孔雀",
       "album_type": "single",
       "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048511fdf3e358717907cbef2bfac",
       "is_new": false,
       "release_date": "2026-07-04"
     },
@@ -230,6 +314,9 @@
       "album_name": "遺書",
       "album_type": "single",
       "artist": "Tatsuya Kitani",
+      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851b708ace9804e46dcc30bddd2",
       "is_new": false,
       "release_date": "2026-07-04"
     }
