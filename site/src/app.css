@@ -366,39 +366,32 @@
   opacity: 1;
 }
 
-/* ── アーティスト分布（クリックできる横棒リスト） ─────────── */
+/* ── アーティスト分布（本体=情報モーダル / 右の▶=再生） ─────────── */
 .art-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  width: 100%;
+  padding: 2px var(--sp-2);
+  border-radius: var(--r-input);
+}
+.art-row:hover {
+  background: var(--surface-hover);
+}
+.art-body {
+  flex: 1;
+  min-width: 0;
   display: grid;
-  grid-template-columns: minmax(88px, 0.42fr) 1fr auto auto;
+  grid-template-columns: minmax(88px, 0.42fr) 1fr auto;
   align-items: center;
   gap: var(--sp-3);
-  width: 100%;
-  padding: var(--sp-2);
+  padding: var(--sp-2) 0;
   border: none;
-  border-radius: var(--r-input);
   background: none;
   color: inherit;
   font: inherit;
   text-align: left;
   cursor: pointer;
-}
-.art-row:hover {
-  background: var(--surface-hover);
-}
-.art-play {
-  flex: 0 0 auto;
-  width: 34px;
-  height: 34px;
-  border-radius: var(--r-circle);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--surface-2);
-  color: var(--text-base);
-}
-.art-row:hover .art-play {
-  background: var(--green);
-  color: #000;
 }
 .art-name {
   white-space: nowrap;
@@ -536,9 +529,35 @@
   border: 1px solid transparent;
   margin-bottom: var(--sp-2);
 }
-.dupe-cand.is-keep {
-  border-color: var(--green);
-  background: rgba(30, 215, 96, 0.07);
+/* チェック＝削除対象。選ぶと薄くグレーアウトして「消える側」だと分かる。 */
+.dupe-cand.cand-pick {
+  cursor: pointer;
+}
+.dupe-cand.is-del {
+  opacity: 0.5;
+}
+.dupe-cand.is-del .cand-name .txt {
+  text-decoration: line-through;
+}
+.cand-check {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  accent-color: var(--text-base);
+  cursor: pointer;
+}
+/* アルバムのサムネイル（新データのみ・無ければプレースホルダ） */
+.cand-art {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--surface-1);
+}
+.cand-art--ph {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--surface-2), var(--surface-1));
 }
 .dupe-cand .cand-main {
   flex: 1;
@@ -563,34 +582,51 @@
   text-overflow: ellipsis;
 }
 /* 「残す」トグル（大きめのタップ領域・44px） */
-.keep-toggle {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: 44px;
-  padding: 0 6px;
-  color: var(--text-secondary);
-  cursor: pointer;
-  font-size: 0.8rem;
-  font-weight: 700;
-  user-select: none;
-}
-.keep-toggle input {
-  width: 20px;
-  height: 20px;
-  accent-color: var(--green);
-  cursor: pointer;
-}
-.dupe-cand.is-keep .keep-toggle {
-  color: var(--green);
-}
 .dupe-actions {
   display: flex;
   gap: var(--sp-2);
   flex-wrap: wrap;
   align-items: center;
   margin-top: var(--sp-3);
+}
+
+/* ── 新譜ウォッチ（邦/洋タブ・均一な行） ─────────────── */
+.rel-art {
+  flex: 0 0 auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--surface-1);
+}
+.rel-art--ph {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--surface-2), var(--surface-1));
+}
+
+/* ── 公式 Top（3カラムの高さを揃える: 各行を1行省略で固定高に） ─────── */
+.top-col {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+.top-item {
+  min-height: 46px;
+}
+.clamp-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── モーダル内のスクロールする曲リスト（年代モーダル等） ─────── */
+.modal-list {
+  max-height: 52vh;
+  overflow-y: auto;
+  margin: 0 calc(-1 * var(--sp-2));
+}
+.modal-list .list-rank {
+  width: 3.2rem;
+  font-size: 0.8rem;
 }
 
 /* ── 常駐プレイヤー（画面下バー・DESIGN §5 now-playing bar） ─────── */

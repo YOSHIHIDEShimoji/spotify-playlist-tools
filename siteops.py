@@ -6,6 +6,7 @@
 
 op:
   dedupe-apply   重複グループの remove を全出現プレイリストから同時削除（sync 整合・undo 記録）
+  dedupe-trim    Tier A（同一プレイリスト内の重複）を1つ残して余分だけ位置指定削除（undo 記録）
   classify-apply unknown 曲を邦楽/洋楽へ移動（cache に manual 記録）
   keep-apply     「両方残す」を dedupe_keep.json に記録
   undo           過去の削除を再追加で復元
@@ -148,6 +149,64 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
     logger.info(f"完了: undo={undo['id']}")
 
 
+def _track_positions(sp, playlist_id: str, track_id: str) -> list[int]:
+    """playlist 内で track_id が出現する 0 始まりの位置を、並び順どおりに返す。"""
+    positions: list[int] = []
+    idx = 0
+    results = sp.playlist_items(
+        playlist_id, fields="items(track(id)),next", additional_types=("track",), limit=100
+    )
+    while results:
+        for item in results.get("items", []):
+            tr = item.get("track") or {}
+            if tr.get("id") == track_id:
+                positions.append(idx)
+            idx += 1
+        results = sp.next(results) if results.get("next") else None
+    return positions
+
+
+def op_dedupe_trim(sp, data: Path, payload: dict, logger) -> None:
+    """Tier A（同一プレイリスト内に同じ track_id が複数）を、1つだけ残して余分を削除する。
+    位置指定削除（remove_specific_occurrences）を使うので、他の同名曲や別プレイリストには触れない。"""
+    dupes = json.loads((data / "dupes.json").read_text())
+    gid = payload.get("group_id")
+    g = next((x for x in dupes.get("groups", []) if x.get("id") == gid), None)
+    if not g:
+        raise OpError(f"グループが存在しません: {gid}")
+    if g.get("tier") != "A":
+        raise OpError(f"trim は Tier A（同一プレイリスト内の重複）専用です: {gid}")
+    pid = (g.get("playlist") or {}).get("id")
+    track = g.get("track") or {}
+    tid, name = track.get("id"), track.get("name", "")
+    if not pid or not tid:
+        raise OpError(f"グループ情報が不完全です: {gid}")
+
+    # スナップショットを先に取り、その並びに対する位置で削除する（位置ずれ防止）。
+    snapshot = sp.playlist(pid, fields="snapshot_id").get("snapshot_id")
+    positions = _track_positions(sp, pid, tid)
+    if len(positions) < 2:
+        logger.info("重複はすでに解消済み（削除なし）")
+        _regenerate_dupes(sp, data)
+        return
+    remove_positions = positions[1:]  # 先頭の1つは必ず残す
+
+    # undo を先に確定（記録できないなら削除しない・§7.3-2）。削除した個数だけ再追加できるよう
+    # playlist_id を個数ぶん列挙する（op_undo は playlists の要素ごとに1回 add する）。
+    undo = {
+        "id": _ts(), "op": "dedupe-trim", "created_at": datetime.now(core.JST).isoformat(),
+        "removed": [{"track_id": tid, "name": name, "playlists": [pid] * len(remove_positions)}],
+    }
+    _write_undo(data, undo)
+    _refresh_undo_index(data)
+
+    sp.playlist_remove_specific_occurrences_of_items(
+        pid, [{"uri": f"spotify:track:{tid}", "positions": remove_positions}], snapshot_id=snapshot
+    )
+    logger.info(f"trim: {name} を {len(remove_positions)} 個削除（1つ残す） pl={pid} undo={undo['id']}")
+    _regenerate_dupes(sp, data)
+
+
 def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
     import classify
     import inbox
@@ -252,6 +311,7 @@ def _refresh_undo_index(data: Path) -> None:
 
 OPS = {
     "dedupe-apply": op_dedupe_apply,
+    "dedupe-trim": op_dedupe_trim,
     "classify-apply": op_classify_apply,
     "keep-apply": op_keep_apply,
     "undo": op_undo,

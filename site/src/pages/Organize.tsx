@@ -142,39 +142,26 @@ function humanizeReason(reason: string): string {
 function GroupCard(
   { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
 ) {
-  const [keep, setKeep] = useState<Set<string>>(new Set());
+  const [del, setDel] = useState<Set<string>>(new Set());
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
   if (g.tier === "A") {
-    return (
-      <div className="card dupe-group">
-        <Header g={g} />
-        <div className="dupe-cand">
-          <div className="cand-main">
-            <div className="cand-name"><span className="txt">{g.track?.name}</span></div>
-            <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
-          </div>
-          {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} />}
-        </div>
-        <div className="t-small" style={{ marginTop: "var(--sp-2)" }}>
-          同じ曲がこのプレイリストに {g.count} 回入っています。片方だけ残す操作はここにはありません
-          （全消しを避けるため）。余分な1つは Spotify アプリ側で削除してください。
-        </div>
-      </div>
-    );
+    return <TierACard g={g} pat={pat} processing={processing} blocked={blocked} />;
   }
 
   const tracks = g.tracks ?? [];
-  const remove = tracks.filter((t) => !keep.has(t.id)).map((t) => t.id);
-  const canApply =
-    !!pat && !processing && !blocked && keep.size > 0 && remove.length > 0 && remove.length < tracks.length;
+  // チェックした曲を「削除対象」にする（グレーアウト）。未チェックは残る。全消しは禁止（1曲は残す）。
+  const remove = [...del];
+  const canApply = !!pat && !processing && !blocked && del.size > 0 && del.size < tracks.length;
+  const tooMany = del.size > 0 && del.size >= tracks.length;
 
   async function apply() {
     setBusy(true);
     setStatus(null);
+    const keep = tracks.filter((t) => !del.has(t.id)).map((t) => t.id);
     const res = await dispatchOp(pat!, "dedupe-apply", {
-      decisions: [{ group_id: g.id, keep: [...keep], remove }],
+      decisions: [{ group_id: g.id, keep, remove }],
     });
     setBusy(false);
     if (res.ok) markProcessing(g.id);
@@ -202,46 +189,102 @@ function GroupCard(
         </div>
       )}
       {tracks.map((t, i) => (
-        <div className={"dupe-cand" + (keep.has(t.id) ? " is-keep" : "")} key={t.id}>
-          <label className="keep-toggle">
-            <input
-              type="checkbox"
-              checked={keep.has(t.id)}
-              onChange={(e) => {
-                const next = new Set(keep);
-                e.target.checked ? next.add(t.id) : next.delete(t.id);
-                setKeep(next);
-              }}
-            />
-            残す
-          </label>
+        <label className={"dupe-cand cand-pick" + (del.has(t.id) ? " is-del" : "")} key={t.id}>
+          <input
+            type="checkbox"
+            className="cand-check"
+            aria-label={`${t.name} を削除対象にする`}
+            checked={del.has(t.id)}
+            onChange={(e) => {
+              const next = new Set(del);
+              e.target.checked ? next.add(t.id) : next.delete(t.id);
+              setDel(next);
+            }}
+          />
+          <Art image={t.image} />
           <div className="cand-main">
             <div className="cand-name">
               <span className="txt">{t.name}</span>
-              {i === 0 && <span className="badge badge-b">推奨</span>}
+              {i === 0 && <span className="badge badge-b">推奨で残す</span>}
             </div>
             <div className="cand-meta">
               {t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}
             </div>
           </div>
           <PlayButton uri={`spotify:track:${t.id}`} />
-        </div>
+        </label>
       ))}
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
-          選んだ方を残して削除
+          選んだ曲を削除{del.size > 0 && `（${del.size}）`}
         </button>
         <button className="pill" disabled={!pat || busy || processing || blocked} onClick={keepBoth}>
           両方残す
         </button>
         {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
-        {pat && !processing && keep.size === 0 && (
-          <span className="action-hint">残す方にチェックを付けてください</span>
+        {pat && !processing && del.size === 0 && (
+          <span className="action-hint">削除する曲にチェックを付けてください</span>
+        )}
+        {pat && !processing && tooMany && (
+          <span className="action-hint">全部は削除できません（1曲は残してください）</span>
         )}
         {status && (
           <span className="t-small" style={{ alignSelf: "center" }}>
             {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
           </span>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// アルバムのサムネイル。新データにしか image が無いので、無いときはプレースホルダを出す。
+function Art({ image }: { image?: string | null }) {
+  return image ? (
+    <img className="cand-art" src={image} alt="" loading="lazy" width={44} height={44} />
+  ) : (
+    <span className="cand-art cand-art--ph" aria-hidden />
+  );
+}
+
+// Tier A（同一プレイリスト内に同じ曲が複数）: 1つだけ残して余分を削除する。
+function TierACard(
+  { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
+) {
+  const [status, setStatus] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const disabled = !pat || busy || processing || blocked;
+
+  async function trim() {
+    setBusy(true);
+    setStatus(null);
+    const res = await dispatchOp(pat!, "dedupe-trim", { group_id: g.id });
+    setBusy(false);
+    if (res.ok) markProcessing(g.id);
+    setStatus(res.ok ? "余分な1つを削除中… 数分後に反映されます。" : `失敗: ${res.message}`);
+  }
+
+  return (
+    <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
+      <Header g={g} />
+      <div className="dupe-cand">
+        <Art image={g.track?.image} />
+        <div className="cand-main">
+          <div className="cand-name"><span className="txt">{g.track?.name}</span></div>
+          <div className="cand-meta">{g.track?.artists.join(", ")} — {g.playlist?.name} に {g.count} 回</div>
+        </div>
+        {g.track && <PlayButton uri={`spotify:track:${g.track.id}`} />}
+      </div>
+      <p className="t-small" style={{ margin: "var(--sp-2) 0 0" }}>
+        同じ曲がこのプレイリストに {g.count} 回入っています。1つだけ残して余分を削除します（位置指定なので他の曲には触れません・取り消し可）。
+      </p>
+      <div className="dupe-actions">
+        <button className="pill pill-green" disabled={disabled} onClick={trim}>
+          余分を削除（1つ残す）
+        </button>
+        {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
+        {(processing || status) && (
+          <span className="t-small" style={{ alignSelf: "center" }}>{processing ? "処理中…" : status}</span>
         )}
       </div>
     </div>

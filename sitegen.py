@@ -187,6 +187,7 @@ def build_search_index(records: list[dict]) -> dict:
                 "name": r.get("name", ""),
                 "artists": [a.get("name", "") for a in (r.get("artists") or [])],
                 "playlists": [p["name"] for p in r.get("playlists", [])],
+                "release_date": (r.get("album") or {}).get("release_date", ""),
             }
             for r in records
         ],
@@ -294,17 +295,48 @@ def select_recent_albums(albums: list[dict], cutoff: str, seen: set) -> tuple[li
         ids.add(aid)
         rd = al.get("release_date", "") or ""
         if len(rd) == 10 and rd >= cutoff:
+            primary = (al.get("artists") or [{}])[0]
+            imgs = al.get("images") or []
             out.append(
                 {
                     "album_id": aid,
                     "album_name": al.get("name", ""),
                     "album_type": al.get("album_type", ""),
-                    "artist": (al.get("artists") or [{}])[0].get("name", ""),
+                    "artist": primary.get("name", ""),
+                    "artist_id": primary.get("id", ""),
                     "release_date": rd,
                     "is_new": aid not in seen,
+                    "image": imgs[-1].get("url") if imgs else None,
                 }
             )
     return out, ids
+
+
+def _release_class_map(pl_records: list[dict]) -> dict[str, str]:
+    """artist_id → 'japanese'/'western'。master プレイリスト在籍と classify cache から推定。
+    新譜を邦/洋タブに振り分けるための材料（未知はサイト側で western 既定）。"""
+    out: dict[str, str] = {}
+    try:
+        import inbox
+        jp_id, western_id, _ = inbox.load_inbox_config(inbox.INBOX_CONFIG_PATH)
+    except Exception:  # noqa: BLE001
+        jp_id = western_id = None
+    for r in pl_records:
+        pids = {p.get("id") for p in r.get("playlists", [])}
+        cls = "japanese" if jp_id in pids else ("western" if western_id in pids else None)
+        if not cls:
+            continue
+        for a in r.get("artists") or []:
+            if a.get("id"):
+                out.setdefault(a["id"], cls)
+    try:  # classify cache（手動/自動で確定した邦/洋）を上書き（最優先）
+        import classify
+        for aid, info in classify.load_cache().items():
+            if info.get("class") in ("japanese", "western"):
+                out[aid] = info["class"]
+    except Exception:  # noqa: BLE001
+        pass
+    return out
 
 
 def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, within_days: int = 14) -> dict:
@@ -348,7 +380,10 @@ def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, wi
         all_seen |= ids
 
     core.atomic_write_json(seen_path, {"album_ids": sorted(all_seen)})
+    class_map = _release_class_map(pl_records)
     items = sorted(by_album.values(), key=lambda x: x["release_date"], reverse=True)
+    for it in items:  # 邦/洋の振り分け。未知アーティストは western 既定（サイトのタブ分け用）。
+        it["class"] = class_map.get(it.get("artist_id") or "", "western")
     return {"generated_at": _now_utc_iso(), "items": items}
 
 

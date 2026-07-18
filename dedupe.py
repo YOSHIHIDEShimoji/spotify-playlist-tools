@@ -144,9 +144,11 @@ def build_groups(records: list[dict]) -> list[dict]:
     return groups
 
 
-def build_intra_dupes(intra: dict[tuple, int]) -> list[dict]:
+def build_intra_dupes(intra: dict[tuple, int], images: dict[str, str] | None = None) -> list[dict]:
     """Tier A（同一プレイリスト内で同じ track_id が2回以上）を報告用に整形。
-    intra: {(playlist_id, playlist_name, track_id, name, artists_tuple): count}。"""
+    intra: {(playlist_id, playlist_name, track_id, name, artists_tuple): count}。
+    images: track_id → サムネイル URL（あればカードに表示）。"""
+    images = images or {}
     out: list[dict] = []
     for (pid, pname, tid, name, artists), count in intra.items():
         if count > 1:
@@ -156,7 +158,8 @@ def build_intra_dupes(intra: dict[tuple, int]) -> list[dict]:
                     "tier": "A",
                     "reason": "same-id-in-playlist",
                     "playlist": {"id": pid, "name": pname},
-                    "track": {"id": tid, "name": name, "artists": list(artists)},
+                    "track": {"id": tid, "name": name, "artists": list(artists),
+                              "image": images.get(tid)},
                     "count": count,
                 }
             )
@@ -179,14 +182,21 @@ def _track_view(r: dict) -> dict:
         "duration_ms": r.get("duration_ms"),
         "popularity": r.get("popularity"),
         "isrc": (r.get("isrc") or ""),
+        "image": _album_image(album),
         "playlists": r.get("playlists", []),
     }
 
 
 _SCAN_FIELDS = (
     "items(track(id,name,artists(id,name),external_ids,duration_ms,popularity,"
-    "album(name,album_type,release_date))),next"
+    "album(name,album_type,release_date,images))),next"
 )
+
+
+def _album_image(album: dict) -> str | None:
+    """アルバム画像のうち最小サイズ（末尾）の URL を返す。サムネイル表示用（帯域節約）。"""
+    imgs = album.get("images") or []
+    return imgs[-1].get("url") if imgs else None
 
 
 def collect_records(sp, playlists: list[dict]) -> tuple[list[dict], dict]:
@@ -226,7 +236,8 @@ def dupes_from_records(records: list[dict], intra: dict, keep_sets: set | None =
     groups = build_groups(records)
     if keep_sets:
         groups = [g for g in groups if frozenset(t["id"] for t in g["tracks"]) not in keep_sets]
-    groups = groups + build_intra_dupes(intra)
+    images = {r["id"]: _album_image(r.get("album") or {}) for r in records}
+    groups = groups + build_intra_dupes(intra, images)
     groups.sort(key=lambda g: {"A": 0, "B": 1, "C": 2}.get(g["tier"], 9))
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),

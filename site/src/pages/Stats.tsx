@@ -1,9 +1,11 @@
 import { Fragment, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
-import type { Heatmap, ListeningStats, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
+import type { Heatmap, ListeningStats, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
-import { PlayIcon, usePlayer } from "../lib/player";
+import { PlayButton, PlayIcon, usePlayer } from "../lib/player";
+import { ArtistModal, Modal } from "../components/Modal";
+import type { ModalArtist } from "../components/Modal";
 
 const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
@@ -17,6 +19,7 @@ export function StatsPage() {
   const history = useJsonl<StatsHistoryRow>("stats_history");
   const heat = useJson<Heatmap>("heatmap");
   const listen = useJson<ListeningStats>("listening_stats");
+  const search = useJson<SearchIndex>("search_index"); // 年代モーダルの曲一覧に使う
   // 統計の対象プレイリスト選択（null = 3つ全部）。分布・年代の両方に効く。
   const [sel, setSel] = useState<string | null>(null);
 
@@ -25,6 +28,12 @@ export function StatsPage() {
     ? (sel && dist.by[sel] ? dist.by[sel] : dist.all)
     : (stats.data ?? null);
   const selName = dist && sel ? dist.playlists.find((p) => p.id === sel)?.name : null;
+  // 年代モーダルで対象曲を絞るためのプレイリスト名。null=全 search track（dist 無し時）。
+  const groupNames: string[] | null = dist
+    ? (sel
+        ? ([dist.playlists.find((p) => p.id === sel)?.name].filter(Boolean) as string[])
+        : dist.playlists.map((p) => p.name))
+    : null;
 
   // ユニーク曲数の履歴が2点以上あって初めて「成長」グラフになる（それまでは「規模」）。
   const growthRows = (history.data ?? []).filter((r) => r.playlist_id === LIB_ROW);
@@ -48,7 +57,7 @@ export function StatsPage() {
           <>
             {dist && <PlaylistPicker playlists={dist.playlists} sel={sel} onSel={setSel} />}
             <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
-              対象プレイリストを選ぶと、その中での分布に切り替わります（未選択＝Western・Japanese・1900's の合算）。タップで再生。
+              対象プレイリストを選ぶと、その中での分布に切り替わります（未選択＝Western・Japanese・1900's の合算）。バーをタップで情報、右の ▶ で再生。
             </p>
             <ArtistBars group={group} />
           </>
@@ -56,7 +65,16 @@ export function StatsPage() {
       </Section>
 
       <Section title="リリース年代分布">
-        {stats.loading ? <Loading /> : <DecadeBars key={sel ?? "all"} group={group} />}
+        {stats.loading ? (
+          <Loading />
+        ) : (
+          <DecadeBars
+            key={sel ?? "all"}
+            group={group}
+            searchTracks={search.data?.tracks ?? []}
+            groupNames={groupNames}
+          />
+        )}
       </Section>
 
       <Section title="連続聴取">
@@ -135,42 +153,108 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
 
 function ArtistBars({ group }: { group: StatsGroup | null }) {
   const { play } = usePlayer();
+  const [modal, setModal] = useState<ModalArtist | null>(null);
   if (!group || !group.artists_top.length) return <Empty>データなし</Empty>;
   const data = group.artists_top.slice(0, 15);
   const max = Math.max(...data.map((a) => a.count), 1);
-  // id があれば常駐プレイヤーでそのアーティストを再生、無ければ（旧データ）名前で Spotify 検索。
-  function open(a: { name: string; id?: string }) {
+  // 右の▶だけが再生。バー本体はアーティスト情報モーダル（自動再生しない）。
+  function playArtist(a: { name: string; id?: string }) {
     if (a.id) play(`spotify:artist:${a.id}`);
     else window.open(`https://open.spotify.com/search/${encodeURIComponent(a.name)}`, "_blank", "noopener");
   }
   return (
     <div className="card">
       {data.map((a) => (
-        <button className="art-row" key={a.name} onClick={() => open(a)} title={`${a.name} を再生`}>
-          <span className="art-name">{a.name}</span>
-          <span className="art-bar"><i style={{ width: `${(a.count / max) * 100}%` }} /></span>
-          <span className="art-count num">{a.count}</span>
-          <span className="art-play" aria-hidden><PlayIcon /></span>
-        </button>
+        <div className="art-row" key={a.name}>
+          <button
+            className="art-body"
+            onClick={() => setModal({ name: a.name, count: a.count, id: a.id })}
+            title={`${a.name} の情報`}
+          >
+            <span className="art-name">{a.name}</span>
+            <span className="art-bar"><i style={{ width: `${(a.count / max) * 100}%` }} /></span>
+            <span className="art-count num">{a.count}</span>
+          </button>
+          <button
+            className="play-btn"
+            aria-label={`${a.name} を再生`}
+            title={`${a.name} を再生`}
+            onClick={() => playArtist(a)}
+          >
+            <PlayIcon />
+          </button>
+        </div>
       ))}
+      {modal && <ArtistModal artist={modal} onClose={() => setModal(null)} />}
     </div>
   );
 }
 
-function DecadeBars({ group }: { group: StatsGroup | null }) {
+// search_index のトラックを「対象グループ内・その年代・古い順」に絞る（バーの数と一致させる）。
+function decadeTracks(tracks: SearchTrack[], groupNames: string[] | null, decade: number): SearchTrack[] {
+  return tracks
+    .filter((t) => {
+      const rd = t.release_date || "";
+      if (rd.length < 4 || !/^\d{4}/.test(rd)) return false;
+      if (Math.floor(parseInt(rd.slice(0, 4), 10) / 10) * 10 !== decade) return false;
+      return groupNames === null || groupNames.some((n) => t.playlists.includes(n));
+    })
+    .sort((a, b) => (a.release_date || "").localeCompare(b.release_date || ""));
+}
+
+function DecadeBars(
+  { group, searchTracks, groupNames }:
+    { group: StatsGroup | null; searchTracks: SearchTrack[]; groupNames: string[] | null },
+) {
+  const [decade, setDecade] = useState<number | null>(null);
   if (!group || !group.decades.length) return <Empty>データなし</Empty>;
-  const data = group.decades.map((d) => ({ label: `${d.decade}s`, count: d.count }));
+  const data = group.decades.map((d) => ({ label: `${d.decade}s`, count: d.count, decade: d.decade }));
+  const tracks = decade != null ? decadeTracks(searchTracks, groupNames, decade) : [];
   return (
     <div className="card">
+      <p className="t-small" style={{ margin: "0 0 var(--sp-2)" }}>棒をタップすると、その年代の曲を古い順で一覧します。</p>
       {/* 初回に「軸だけでバー0本」になる recharts のアニメ由来の描画抜けを止める（isAnimationActive=false）。 */}
       <ResponsiveContainer width="100%" height={200}>
         <BarChart data={data} margin={{ left: -10, right: 8 }}>
           <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
           <YAxis stroke={AXIS} fontSize={11} />
           <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
-          <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name="曲数" isAnimationActive={false} />
+          <Bar
+            dataKey="count"
+            fill={GREEN}
+            radius={[4, 4, 0, 0]}
+            name="曲数"
+            isAnimationActive={false}
+            cursor="pointer"
+            onClick={(d: { decade?: number; payload?: { decade?: number } }) => {
+              const dec = d?.decade ?? d?.payload?.decade;
+              if (dec != null) setDecade(dec);
+            }}
+          />
         </BarChart>
       </ResponsiveContainer>
+      {decade != null && (
+        <Modal title={`${decade}年代の曲`} subtitle={`${tracks.length}曲 · 古い順`} onClose={() => setDecade(null)}>
+          {tracks.length === 0 ? (
+            <p className="t-small" style={{ padding: "var(--sp-2) 0" }}>
+              この年代の曲一覧は次回の夜間更新後に表示されます（リリース日データを取り込み中）。
+            </p>
+          ) : (
+            <div className="modal-list">
+              {tracks.map((t) => (
+                <div className="list-row" key={t.id}>
+                  <span className="list-rank num">{(t.release_date || "").slice(0, 4)}</span>
+                  <span className="list-main">
+                    <div className="name">{t.name}</div>
+                    <div className="t-small">{t.artists.join(", ")}</div>
+                  </span>
+                  <PlayButton uri={`spotify:track:${t.id}`} />
+                </div>
+              ))}
+            </div>
+          )}
+        </Modal>
+      )}
     </div>
   );
 }

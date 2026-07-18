@@ -30,6 +30,7 @@ export interface DupeTrack {
   duration_ms: number | null;
   popularity: number | null;
   isrc: string;
+  image?: string | null; // アルバムのサムネイル URL（新データのみ）
   playlists: { id: string; name: string }[];
 }
 
@@ -41,7 +42,7 @@ export interface DupeGroup {
   tracks?: DupeTrack[];
   // Tier A
   playlist?: { id: string; name: string };
-  track?: { id: string; name: string; artists: string[] };
+  track?: { id: string; name: string; artists: string[]; image?: string | null };
   count?: number;
 }
 
@@ -130,8 +131,11 @@ export interface ReleaseItem {
   album_name: string;
   album_type: string;
   artist: string;
+  artist_id?: string;
   release_date: string;
   is_new?: boolean;
+  image?: string | null;
+  class?: "japanese" | "western"; // 邦/洋の振り分け（新データのみ・無ければ western 扱い）
 }
 export interface Releases {
   generated_at: string;
@@ -176,6 +180,7 @@ export interface SearchTrack {
   name: string;
   artists: string[];
   playlists: string[];
+  release_date?: string; // 年代モーダル用（新データのみ）
 }
 export interface SearchIndex {
   generated_at: string;

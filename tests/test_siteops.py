@@ -29,6 +29,13 @@ class _FakeSp:
         for tid in ids:
             self.playlists.setdefault(pid, []).append(_mk(tid, "ZZ0"))
 
+    def playlist(self, pid, fields=None):
+        return {"snapshot_id": f"snap-{pid}"}
+
+    def playlist_remove_specific_occurrences_of_items(self, pid, items, snapshot_id=None):
+        remove_idx = {pos for it in items for pos in it.get("positions", [])}
+        self.playlists[pid] = [t for i, t in enumerate(self.playlists.get(pid, [])) if i not in remove_idx]
+
 
 def _mk(tid, isrc):
     return {"id": tid, "name": "Song", "artists": [{"id": "art", "name": "Art"}],
@@ -77,6 +84,39 @@ def test_op_dedupe_apply_and_undo_end_to_end(tmp_path, monkeypatch):
     # 二重 undo は拒否
     with pytest.raises(siteops.OpError):
         siteops.op_undo(sp, tmp_path, {"undo_id": rec["id"]}, _LOG)
+
+
+def test_op_dedupe_trim_keeps_one_and_is_undoable(tmp_path, monkeypatch):
+    # pW に同じ曲 x が3回・別曲 y が1回。trim すると x は1つだけ残り、y は無傷。
+    sp = _FakeSp({"pW": [_mk("x", "GBX"), _mk("y", "GBY"), _mk("x", "GBX"), _mk("x", "GBX")]})
+    monkeypatch.setattr(dedupe, "managed_playlists", lambda: [{"id": "pW", "name": "W"}])
+    dupes = {"counts": {"A": 1, "B": 0, "C": 0}, "groups": [
+        {"id": "g-A", "tier": "A", "reason": "same-id-in-playlist",
+         "track": {"id": "x", "name": "Dup"}, "playlist": {"id": "pW", "name": "W"}, "count": 3}]}
+    (tmp_path / "dupes.json").write_text(json.dumps(dupes))
+
+    siteops.op_dedupe_trim(sp, tmp_path, {"group_id": "g-A"}, _LOG)
+
+    assert len([t for t in sp.playlists["pW"] if t["id"] == "x"]) == 1  # 1つだけ残す
+    assert any(t["id"] == "y" for t in sp.playlists["pW"])              # 別曲には触れない
+
+    # undo は削除した2個ぶんの再追加を記録（playlists を個数ぶん列挙）
+    rec = json.loads(next((tmp_path / "undo").glob("*.json")).read_text())
+    assert rec["op"] == "dedupe-trim"
+    assert rec["removed"][0]["playlists"] == ["pW", "pW"]
+
+    # undo で x が3つに戻る
+    siteops.op_undo(sp, tmp_path, {"undo_id": rec["id"]}, _LOG)
+    assert len([t for t in sp.playlists["pW"] if t["id"] == "x"]) == 3
+
+
+def test_op_dedupe_trim_rejects_non_tier_a(tmp_path):
+    sp = _FakeSp({})
+    (tmp_path / "dupes.json").write_text(
+        json.dumps({"groups": [{"id": "g-1", "tier": "B", "tracks": []}]})
+    )
+    with pytest.raises(siteops.OpError):
+        siteops.op_dedupe_trim(sp, tmp_path, {"group_id": "g-1"}, _LOG)
 
 
 def _dupes():

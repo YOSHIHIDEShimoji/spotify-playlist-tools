@@ -95,6 +95,7 @@ def test_build_stats_and_search():
     idx = sitegen.build_search_index(records)
     b = next(t for t in idx["tracks"] if t["id"] == "b")
     assert b["playlists"] == ["W", "Ed"]
+    assert b["release_date"] == "2011-01-01"  # 年代モーダル用に載せる
 
     rows = sitegen.playlist_count_rows(records, [{"id": "p1", "name": "W"}, {"id": "p2", "name": "Ed"}], "2026-07-15")
     counts = {r["playlist_id"]: r["count"] for r in rows}
@@ -129,7 +130,8 @@ def test_merge_records_and_stats_dist():
 
 def test_select_recent_albums():
     albums = [
-        {"id": "al1", "name": "New", "album_type": "single", "artists": [{"name": "X"}], "release_date": "2026-07-15"},
+        {"id": "al1", "name": "New", "album_type": "single", "artists": [{"name": "X", "id": "artX"}],
+         "release_date": "2026-07-15", "images": [{"url": "u640"}, {"url": "u300"}, {"url": "u64"}]},
         {"id": "al2", "name": "Old", "album_type": "album", "artists": [{"name": "X"}], "release_date": "2020-01-01"},
         {"id": "al3", "name": "Seen", "album_type": "single", "artists": [{"name": "X"}], "release_date": "2026-07-14"},
         {"id": "al4", "name": "YearOnly", "album_type": "album", "artists": [{"name": "X"}], "release_date": "2026"},
@@ -139,3 +141,22 @@ def test_select_recent_albums():
     got = {f["album_id"]: f["is_new"] for f in window}
     assert got == {"al1": True, "al3": False}  # al1 新着 / al3 既読だが窓内なので出す / al2 古い / al4 年のみ
     assert ids == {"al1", "al2", "al3", "al4"}
+    al1 = next(f for f in window if f["album_id"] == "al1")
+    assert al1["artist_id"] == "artX"       # 邦/洋分けに使う primary artist id
+    assert al1["image"] == "u64"            # 最小サイズ（末尾）のサムネイル
+
+
+def test_release_class_map(monkeypatch):
+    import classify
+    import inbox
+    monkeypatch.setattr(inbox, "load_inbox_config", lambda _p: ("pJP", "pW", {}))
+    monkeypatch.setattr(classify, "load_cache", lambda: {"artC": {"class": "japanese"}})
+    pl_records = [
+        {"artists": [{"id": "artA", "name": "A"}], "playlists": [{"id": "pW", "name": "W"}]},
+        {"artists": [{"id": "artB", "name": "B"}], "playlists": [{"id": "pJP", "name": "JP"}]},
+        {"artists": [{"id": "artC", "name": "C"}], "playlists": [{"id": "pW", "name": "W"}]},
+    ]
+    m = sitegen._release_class_map(pl_records)
+    assert m["artA"] == "western"
+    assert m["artB"] == "japanese"
+    assert m["artC"] == "japanese"  # classify cache が在籍推定より優先される
