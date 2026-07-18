@@ -226,3 +226,41 @@ def test_op_keep_apply_rejects_mismatched_track_ids(tmp_path):
         siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "g-1", "track_ids": ["a"]}], "remove": []}, _LOG)
     with pytest.raises(siteops.OpError):
         siteops.op_keep_apply(None, tmp_path, {"add": [{"group_id": "nope", "track_ids": ["a", "b"]}], "remove": []}, _LOG)
+
+
+def test_op_keep_trim_removes_others_and_clears_keep(tmp_path, monkeypatch):
+    # 保留グループ g-1 = {a, b}。a を残し b を削除すると b は全管理PLから消え、保留から外れる。
+    sp = _FakeSp({"pW": [_mk("a", "GB1"), _mk("b", "GB1")], "pAP": [_mk("b", "GB1")]})
+    monkeypatch.setattr(dedupe, "managed_playlists",
+                        lambda: [{"id": "pW", "name": "W"}, {"id": "pAP", "name": "AP"}])
+    monkeypatch.setattr(siteops, "_regenerate_dupes", lambda sp, data: None)
+    (tmp_path / "dedupe_keep.json").write_text(json.dumps({"groups": [
+        {"group_id": "g-1", "track_ids": ["a", "b"], "tier": "B",
+         "tracks": [{"id": "a", "name": "A"}, {"id": "b", "name": "B"}]},
+    ]}))
+
+    siteops.op_keep_trim(sp, tmp_path, {"group_id": "g-1", "keep": ["a"], "remove": ["b"]}, _LOG)
+
+    # b は全管理PLから消え、a は残る
+    assert all(t["id"] != "b" for t in sp.playlists["pW"])
+    assert all(t["id"] != "b" for t in sp.playlists["pAP"])
+    assert any(t["id"] == "a" for t in sp.playlists["pW"])
+    # 保留から外れる
+    assert json.loads((tmp_path / "dedupe_keep.json").read_text())["groups"] == []
+    # undo に live 在籍（pW+pAP）を記録し、undo で b が復活する
+    rec = json.loads(next(iter((tmp_path / "undo").glob("*.json"))).read_text())
+    assert rec["op"] == "keep-trim" and set(rec["removed"][0]["playlists"]) == {"pW", "pAP"}
+    siteops.op_undo(sp, tmp_path, {"undo_id": rec["id"]}, _LOG)
+    assert any(t["id"] == "b" for t in sp.playlists["pW"])
+
+
+def test_op_keep_trim_rejects_bad_selection(tmp_path):
+    (tmp_path / "dedupe_keep.json").write_text(json.dumps({"groups": [
+        {"group_id": "g-1", "track_ids": ["a", "b"]},
+    ]}))
+    # keep∪remove がグループ構成と不一致（remove 空）
+    with pytest.raises(siteops.OpError):
+        siteops.op_keep_trim(_FakeSp({}), tmp_path, {"group_id": "g-1", "keep": ["a"], "remove": []}, _LOG)
+    # 存在しないグループ
+    with pytest.raises(siteops.OpError):
+        siteops.op_keep_trim(_FakeSp({}), tmp_path, {"group_id": "nope", "keep": ["a"], "remove": ["b"]}, _LOG)

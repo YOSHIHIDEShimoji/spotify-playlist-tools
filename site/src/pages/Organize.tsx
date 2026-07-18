@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import type { ReactNode } from "react";
 import { useJson } from "../lib/data";
 import type { Dupes, DupeGroup, KeepGroup, KeepIndex, SearchIndex, SearchTrack, Unknown, UndoIndex } from "../lib/types";
 import { Empty, Loading, Section, Duration } from "../components/ui";
@@ -154,14 +155,40 @@ function humanizeReason(reason: string): string {
   return REASON_LABEL[reason] ?? reason;
 }
 
+// 残す1曲を選ぶラジオ行。選んだ曲＝緑チェック、選ばれなかった曲＝赤枠＋取り消し線。
+function KeepRow(
+  { t, i, radioName, kept, onKeep, meta }:
+    { t: { id: string; name: string; image?: string | null }; i: number; radioName: string; kept: boolean; onKeep: () => void; meta: ReactNode },
+) {
+  return (
+    <label className={"dupe-cand cand-pick" + (kept ? " is-keep" : " is-del")}>
+      <input
+        type="radio"
+        className="keep-radio"
+        name={radioName}
+        aria-label={`${t.name} を残す`}
+        checked={kept}
+        onChange={onKeep}
+      />
+      <Art image={t.image} />
+      <div className="cand-main">
+        <div className="cand-name">
+          <span className="txt">{t.name}</span>
+          {i === 0 && <span className="badge badge-b">推奨</span>}
+          <span className={"cand-tag" + (kept ? "" : " cand-tag--del")}>{kept ? "残す" : "削除"}</span>
+        </div>
+        <div className="cand-meta">{meta}</div>
+      </div>
+      <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
+    </label>
+  );
+}
+
 function GroupCard(
   { g, pat, processing, blocked }: { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean },
 ) {
-  // チェック＝「残す」曲。既定で先頭（推奨）を残す。チェックしていない曲が削除される（全消しは禁止）。
-  const [keepSet, setKeepSet] = useState<Set<string>>(() => {
-    const first = g.tracks?.[0]?.id;
-    return new Set(first ? [first] : []);
-  });
+  // ラジオ選択＝「残す1曲」。既定で先頭（推奨）。選ばなかった曲を削除する。
+  const [keepId, setKeepId] = useState<string>(() => g.tracks?.[0]?.id ?? "");
   const [status, setStatus] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -170,24 +197,14 @@ function GroupCard(
   }
 
   const tracks = g.tracks ?? [];
-  const remove = tracks.filter((t) => !keepSet.has(t.id)).map((t) => t.id);
-  // 残す曲が1つ以上、かつ削除する曲が1つ以上あるときだけ実行できる（全消しは禁止）。
-  const canApply = !!pat && !processing && !blocked && keepSet.size > 0 && remove.length > 0;
-  const noneKept = keepSet.size === 0;
-
-  function toggleKeep(id: string, keep: boolean) {
-    setKeepSet((prev) => {
-      const next = new Set(prev);
-      keep ? next.add(id) : next.delete(id);
-      return next;
-    });
-  }
+  const remove = tracks.filter((t) => t.id !== keepId).map((t) => t.id);
+  const canApply = !!pat && !processing && !blocked && !!keepId && remove.length > 0;
 
   async function apply() {
     setBusy(true);
     setStatus(null);
     const res = await dispatchOp(pat!, "dedupe-apply", {
-      decisions: [{ group_id: g.id, keep: [...keepSet], remove }],
+      decisions: [{ group_id: g.id, keep: [keepId], remove }],
     });
     setBusy(false);
     if (res.ok) markProcessing(g.id);
@@ -214,33 +231,18 @@ function GroupCard(
           <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions で確認</a>
         </div>
       )}
-      <p className="t-small dupe-hint">残す曲にチェック。チェックしていない曲を削除します（1曲は必ず残ります）。</p>
-      {tracks.map((t, i) => {
-        const kept = keepSet.has(t.id);
-        return (
-          <label className={"dupe-cand cand-pick" + (kept ? "" : " is-del")} key={t.id}>
-            <input
-              type="checkbox"
-              className="cand-check"
-              aria-label={`${t.name} を残す`}
-              checked={kept}
-              onChange={(e) => toggleKeep(t.id, e.target.checked)}
-            />
-            <Art image={t.image} />
-            <div className="cand-main">
-              <div className="cand-name">
-                <span className="txt">{t.name}</span>
-                {i === 0 && <span className="badge badge-b">推奨</span>}
-                <span className={"cand-tag" + (kept ? "" : " cand-tag--del")}>{kept ? "残す" : "削除"}</span>
-              </div>
-              <div className="cand-meta">
-                {t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}
-              </div>
-            </div>
-            <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
-          </label>
-        );
-      })}
+      <p className="t-small dupe-hint">残す1曲を選ぶと、他は削除対象（赤枠）になります。</p>
+      {tracks.map((t, i) => (
+        <KeepRow
+          key={t.id}
+          t={t}
+          i={i}
+          radioName={`keep-${g.id}`}
+          kept={t.id === keepId}
+          onKeep={() => setKeepId(t.id)}
+          meta={<>{t.album} · {t.release_date} · <Duration ms={t.duration_ms} /> · 人気 {t.popularity ?? "—"}</>}
+        />
+      ))}
       <div className="dupe-actions">
         <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
           選ばなかった曲を削除{remove.length > 0 && `（${remove.length}）`}
@@ -249,9 +251,6 @@ function GroupCard(
           両方残す
         </button>
         {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
-        {!processing && noneKept && (
-          <span className="action-hint">残す曲を1つ以上チェックしてください</span>
-        )}
         {status && (
           <span className="t-small" style={{ alignSelf: "center" }}>
             {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
@@ -334,7 +333,8 @@ function KeepSection({ groups, pat }: { groups: KeepGroup[]; pat: string | null 
   return <>{groups.map((g) => <KeepCard key={g.group_id} g={g} pat={pat} byId={byId} />)}</>;
 }
 
-// 「両方残す」で保留にした重複。ここから重複チェックに戻せる（keep-apply の remove → 再スキャンで復活）。
+// 「両方残す」で保留にした重複。ここで残す1曲を選んでその場で削除もできる（keep-trim）。
+// 判断を保留したいときは「重複チェックに戻す」（keep-apply の remove → 再スキャンで復活）。
 function KeepCard(
   { g, pat, byId }: { g: KeepGroup; pat: string | null; byId: Map<string, SearchTrack> },
 ) {
@@ -347,6 +347,17 @@ function KeepCard(
         const s = byId.get(id);
         return { id, name: s?.name ?? id, artists: s?.artists ?? [], image: s?.image ?? null };
       });
+  const [keepId, setKeepId] = useState<string>(() => tracks[0]?.id ?? "");
+  const remove = tracks.filter((t) => t.id !== keepId).map((t) => t.id);
+  const canTrim = !!pat && !busy && !!keepId && remove.length > 0;
+
+  async function trim() {
+    setBusy(true);
+    setStatus(null);
+    const res = await dispatchOp(pat!, "keep-trim", { group_id: g.group_id, keep: [keepId], remove });
+    setBusy(false);
+    setStatus(res.ok ? "選ばなかった曲を削除中… 数分後に反映されます。" : `失敗: ${res.message}`);
+  }
 
   async function restore() {
     setBusy(true);
@@ -361,22 +372,31 @@ function KeepCard(
       <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
         両方残す{g.decided_at ? ` · ${g.decided_at}` : ""}
       </div>
-      {tracks.map((t) => (
-        <div className="dupe-cand" key={t.id}>
-          <Art image={t.image} />
-          <div className="cand-main">
-            <div className="cand-name"><span className="txt">{t.name}</span></div>
-            <div className="cand-meta">{t.artists.join(", ")}</div>
-          </div>
-          <PlayButton uri={`spotify:track:${t.id}`} label={`${t.name} を再生`} />
-        </div>
+      <p className="t-small dupe-hint">残す1曲を選ぶと、その場で他を削除できます。判断を保留するなら重複チェックへ戻せます。</p>
+      {tracks.map((t, i) => (
+        <KeepRow
+          key={t.id}
+          t={t}
+          i={i}
+          radioName={`keeptrim-${g.group_id}`}
+          kept={t.id === keepId}
+          onKeep={() => setKeepId(t.id)}
+          meta={t.artists.join(", ")}
+        />
       ))}
       <div className="dupe-actions">
-        <button className="pill pill-green" disabled={!pat || busy} onClick={restore}>
+        <button className="pill pill-green" disabled={!canTrim} onClick={trim}>
+          選ばなかった曲を削除{remove.length > 0 && `（${remove.length}）`}
+        </button>
+        <button className="pill" disabled={!pat || busy} onClick={restore}>
           重複チェックに戻す
         </button>
         {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
-        {status && <span className="t-small" style={{ alignSelf: "center" }}>{status}</span>}
+        {status && (
+          <span className="t-small" style={{ alignSelf: "center" }}>
+            {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
+          </span>
+        )}
       </div>
     </div>
   );

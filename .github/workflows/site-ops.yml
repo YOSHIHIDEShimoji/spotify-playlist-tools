@@ -15,6 +15,7 @@ on:
           - dedupe-trim
           - classify-apply
           - keep-apply
+          - keep-trim
           - undo
       payload:
         description: 'JSON 文字列（サイトが生成）'

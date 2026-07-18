@@ -556,6 +556,45 @@
 .dupe-cand.is-del .cand-name .txt {
   text-decoration: line-through;
 }
+/* 残す1曲＝緑枠、削除する曲＝赤枠で一目で分かるように */
+.dupe-cand.is-keep {
+  border-color: rgba(30, 215, 96, 0.5);
+  background: rgba(30, 215, 96, 0.06);
+}
+.dupe-cand.is-del {
+  border-color: rgba(240, 90, 90, 0.6);
+}
+/* Spotify 風の丸いセレクタ（残す1曲を選ぶラジオ）。選択で緑丸＋チェック。 */
+.keep-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid var(--text-secondary);
+  background: transparent;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.keep-radio:hover {
+  border-color: var(--text-base);
+}
+.keep-radio:checked {
+  border-color: #1ed760;
+  background: #1ed760;
+}
+.keep-radio:checked::after {
+  content: "";
+  width: 10px;
+  height: 5px;
+  border-left: 2px solid #0a0a0a;
+  border-bottom: 2px solid #0a0a0a;
+  transform: translateY(-1px) rotate(-45deg);
+}
 /* 各行が「残す／削除」のどちらかを一目で分かるタグ（チェック＝残す） */
 .cand-tag {
   flex: 0 0 auto;
@@ -670,7 +709,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* 年代分布バーはクリックで年代モーダルを開く（下のチップと同じ動作）ので指カーソルに */
+/* 年代分布は棒でも灰色の列でもクリックで年代モーダルを開くので、プロット全体を指カーソルに */
+.decade-chart,
+.decade-chart .recharts-surface,
 .recharts-bar-rectangle,
 .recharts-bar-rectangle path {
   cursor: pointer;

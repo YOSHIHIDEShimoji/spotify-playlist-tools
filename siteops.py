@@ -9,6 +9,7 @@ op:
   dedupe-trim    Tier A（同一プレイリスト内の重複）を1つ残して余分だけ位置指定削除（undo 記録）
   classify-apply unknown 曲を邦楽/洋楽へ移動（cache に manual 記録）
   keep-apply     「両方残す」を dedupe_keep.json に記録
+  keep-trim      保留グループから残す1曲以外を削除し保留を解除（undo 記録）
   undo           過去の削除を再追加で復元
 
 安全（§7.3）:
@@ -296,6 +297,54 @@ def op_keep_apply(sp, data: Path, payload: dict, logger) -> None:
     logger.info(f"keep 更新: +{len(payload.get('add', []))} / -{len(removes)}")
 
 
+def op_keep_trim(sp, data: Path, payload: dict, logger) -> None:
+    """保留（両方残す）グループから、残す1曲以外を全管理プレイリストから削除し、
+    そのグループを保留から外す。dedupe-apply と同じく undo を先に確定してから削除する。"""
+    import dedupe
+    import inbox
+
+    gid = payload.get("group_id")
+    keep = set(payload.get("keep", []))
+    remove = list(dict.fromkeys(payload.get("remove", [])))  # 重複除去・順序維持
+
+    path = data / "dedupe_keep.json"
+    keepdata = json.loads(path.read_text()) if path.exists() else {"groups": []}
+    g = next((x for x in keepdata.get("groups", []) if x.get("group_id") == gid), None)
+    if not g:
+        raise OpError(f"保留グループが存在しません: {gid}")
+    members = set(g.get("track_ids", []))
+    if keep & set(remove):
+        raise OpError("keep と remove が重複しています")
+    if keep | set(remove) != members:
+        raise OpError("keep∪remove が保留グループの構成と一致しません")
+    if not keep or not remove:
+        raise OpError("残す・削除は各1件以上必要です")
+
+    names = {t["id"]: t.get("name", "") for t in (g.get("tracks") or [])}
+    managed = dedupe.managed_playlists()
+
+    # 削除前に remove 対象の実在籍を全管理プレイリストで取得して undo に記録（dedupe-apply と同様・M3）。
+    live: dict[str, list[str]] = {}
+    for pl in managed:
+        ids = inbox.playlist_track_ids(sp, pl["id"])
+        for tid in remove:
+            if tid in ids:
+                live.setdefault(tid, []).append(pl["id"])
+    undo = {"id": _ts(), "op": "keep-trim", "created_at": datetime.now(core.JST).isoformat(),
+            "removed": [{"track_id": tid, "name": names.get(tid, ""), "playlists": live.get(tid, [])}
+                        for tid in remove]}
+    _write_undo(data, undo)
+    _refresh_undo_index(data)
+
+    for pl in managed:
+        core.remove_in_batches(sp, pl["id"], remove)
+    # このグループは解消したので保留から外す。
+    keepdata["groups"] = [x for x in keepdata.get("groups", []) if x.get("group_id") != gid]
+    core.atomic_write_json(path, keepdata)
+    _regenerate_dupes(sp, data)
+    logger.info(f"keep-trim: {gid} から {len(remove)} 曲削除・保留解除 undo={undo['id']}")
+
+
 def op_undo(sp, data: Path, payload: dict, logger) -> None:
     undo_id = payload.get("undo_id")
     path = data / "undo" / f"{undo_id}.json"
@@ -328,6 +377,7 @@ OPS = {
     "dedupe-trim": op_dedupe_trim,
     "classify-apply": op_classify_apply,
     "keep-apply": op_keep_apply,
+    "keep-trim": op_keep_trim,
     "undo": op_undo,
 }
 

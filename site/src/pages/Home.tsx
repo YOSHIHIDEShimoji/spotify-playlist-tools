@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useJson, useJsonl } from "../lib/data";
-import type { ListeningStats, RunDetail, RunRecord } from "../lib/types";
+import type { ListeningStats, RunDetail, RunRecord, SearchIndex } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section } from "../components/ui";
 import { Modal } from "../components/Modal";
 import { PlayButton } from "../lib/player";
@@ -285,22 +285,36 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
 }
 
 function WeeklyTop({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
+  // アルバムアートは search_index から曲IDで補完する（管理プレイリストに在る曲は必ず出る）。
+  const search = useJson<SearchIndex>("search_index");
+  const byId = useMemo(
+    () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t] as const)),
+    [search.data],
+  );
   if (loading) return <Loading />;
   if (!listen || listen.weekly_top.length === 0)
     return <Empty>聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。</Empty>;
   return (
     <div className="card">
-      {listen.weekly_top.slice(0, 15).map((t, i) => (
-        <div className="list-row" key={t.track_id}>
-          <span className="list-rank">{i + 1}</span>
-          <span className="list-main">
-            <div className="name">{t.name}</div>
-            <div className="t-small">{t.artists.join(", ")}</div>
-          </span>
-          <span className="list-count">{t.count}回</span>
-          <PlayButton uri={`spotify:track:${t.track_id}`} label={`${t.name} を再生`} />
-        </div>
-      ))}
+      {listen.weekly_top.slice(0, 15).map((t, i) => {
+        const img = byId.get(t.track_id)?.image;
+        return (
+          <div className="list-row" key={t.track_id}>
+            <span className="list-rank">{i + 1}</span>
+            {img ? (
+              <img className="cand-art top-art" src={img} alt="" loading="lazy" width={40} height={40} />
+            ) : (
+              <span className="cand-art cand-art--ph top-art" aria-hidden />
+            )}
+            <span className="list-main">
+              <div className="name">{t.name}</div>
+              <div className="t-small">{t.artists.join(", ")}</div>
+            </span>
+            <span className="list-count">{t.count}回</span>
+            <PlayButton uri={`spotify:track:${t.track_id}`} label={`${t.name} を再生`} />
+          </div>
+        );
+      })}
     </div>
   );
 }

@@ -214,25 +214,30 @@ function DecadeBars(
     <div className="card">
       <p className="t-small" style={{ margin: "0 0 var(--sp-2)" }}>年代を選ぶと、その年代の曲を古い順で一覧します。</p>
       {/* 初回に「軸だけでバー0本」になる recharts のアニメ由来の描画抜けを止める（isAnimationActive=false）。 */}
-      <ResponsiveContainer width="100%" height={200}>
-        <BarChart data={data} margin={{ left: -10, right: 8 }}>
-          <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
-          <YAxis stroke={AXIS} fontSize={11} />
-          <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
-          <Bar
-            dataKey="count"
-            fill={GREEN}
-            radius={[4, 4, 0, 0]}
-            name="曲数"
-            isAnimationActive={false}
-            cursor="pointer"
-            onClick={(d: { decade?: number; payload?: { decade?: number } }) => {
-              const dec = d?.decade ?? d?.payload?.decade;
+      {/* 棒だけでなく、その年代の列（灰色の余白）を押しても開くよう BarChart 全体で onClick を拾う。 */}
+      <div className="decade-chart">
+        <ResponsiveContainer width="100%" height={200}>
+          <BarChart
+            data={data}
+            margin={{ left: -10, right: 8 }}
+            onClick={(s: { activePayload?: { payload?: { decade?: number } }[] }) => {
+              const dec = s?.activePayload?.[0]?.payload?.decade;
               if (dec != null) setDecade(dec);
             }}
-          />
-        </BarChart>
-      </ResponsiveContainer>
+          >
+            <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
+            <YAxis stroke={AXIS} fontSize={11} />
+            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
+            <Bar
+              dataKey="count"
+              fill={GREEN}
+              radius={[4, 4, 0, 0]}
+              name="曲数"
+              isAnimationActive={false}
+            />
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
       {/* グラフの棒は SVG でキーボード操作できないので、押せる年代チップを添える（a11y・アフォーダンス） */}
       <div className="decade-chips" role="group" aria-label="年代を選んで曲を一覧">
         {data.map((d) => (
