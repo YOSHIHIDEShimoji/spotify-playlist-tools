@@ -1,7 +1,7 @@
 {
   "counts": {
     "A": 1,
-    "B": 10,
+    "B": 9,
     "C": 1
   },
   "generated_at": "2026-07-18T04:00:50.394868+00:00",
@@ -482,55 +482,6 @@
           ],
           "popularity": 54,
           "release_date": "2018-07-18"
-        }
-      ]
-    },
-    {
-      "id": "g-53a212b8a7d7",
-      "reason": "isrc",
-      "tier": "B",
-      "tracks": [
-        {
-          "album": "CIRCUS",
-          "album_type": "album",
-          "artists": [
-            "Novelbright"
-          ],
-          "duration_ms": 230240,
-          "id": "0gMFrSk8tcpREhI7xtoQIE",
-          "isrc": "JPPO02304209",
-          "name": "雪の音",
-          "playlists": [
-            {
-              "id": "1NMKQVChOdoOy1o6bLw564",
-              "name": "Japanese Musics"
-            }
-          ],
-          "popularity": 46,
-          "release_date": "2024-04-03"
-        },
-        {
-          "album": "雪の音",
-          "album_type": "single",
-          "artists": [
-            "Novelbright"
-          ],
-          "duration_ms": 228133,
-          "id": "2Wahb8YS7s2zPFRVK3l5gT",
-          "isrc": "JPPO02304209",
-          "name": "雪の音",
-          "playlists": [
-            {
-              "id": "1NMKQVChOdoOy1o6bLw564",
-              "name": "Japanese Musics"
-            },
-            {
-              "id": "7lX5F3GCBG3q8PtqofskDm",
-              "name": "novelbright"
-            }
-          ],
-          "popularity": 52,
-          "release_date": "2023-12-13"
         }
       ]
     },
