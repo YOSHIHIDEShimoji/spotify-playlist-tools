@@ -345,7 +345,7 @@ function KeepCard(
     ? g.tracks
     : g.track_ids.map((id) => {
         const s = byId.get(id);
-        return { id, name: s?.name ?? id, artists: s?.artists ?? [], image: null as string | null };
+        return { id, name: s?.name ?? id, artists: s?.artists ?? [], image: s?.image ?? null };
       });
 
   async function restore() {
