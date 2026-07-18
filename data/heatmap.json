@@ -61,10 +61,35 @@
       "hour": 18
     },
     {
-      "count": 1,
+      "count": 9,
       "dow": 5,
       "hour": 19
+    },
+    {
+      "count": 15,
+      "dow": 5,
+      "hour": 20
+    },
+    {
+      "count": 13,
+      "dow": 5,
+      "hour": 21
+    },
+    {
+      "count": 9,
+      "dow": 5,
+      "hour": 22
+    },
+    {
+      "count": 2,
+      "dow": 5,
+      "hour": 23
+    },
+    {
+      "count": 4,
+      "dow": 6,
+      "hour": 1
     }
   ],
-  "generated_at": "2026-07-18T11:06:08.224537+00:00"
+  "generated_at": "2026-07-18T16:45:42.006509+00:00"
 }

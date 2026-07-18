@@ -27,6 +27,30 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "drunk text",
+      "track_id": "6EIMUjQ7Q8Zr2VtIUik4He"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "pick up the phone",
+      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -751,24 +775,8 @@
         "Henry Moodie"
       ],
       "count": 1,
-      "name": "drunk text",
-      "track_id": "6EIMUjQ7Q8Zr2VtIUik4He"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
       "name": "MISS U",
       "track_id": "48FfsXjz8rd8CLhnIwWQNw"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "name": "pick up the phone",
-      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
     },
     {
       "artists": [
@@ -793,26 +801,18 @@
       "count": 1,
       "name": "Sucker",
       "track_id": "22vgEDb5hykfaTwLuskFGD"
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 1,
-      "name": "Happier",
-      "track_id": "2RttW7RAu5nOAfq6YFvApB"
     }
   ],
-  "generated_at": "2026-07-18T11:06:08.222494+00:00",
+  "generated_at": "2026-07-18T16:45:42.002747+00:00",
   "milestone": {
     "next": 250,
     "reached": [
       100
     ],
-    "total": 130
+    "total": 181
   },
   "since": "2026-07-17T08:24:09.681Z",
-  "streak": 2,
+  "streak": 3,
   "weekly_top": [
     {
       "artists": [
@@ -838,6 +838,30 @@
       "count": 2,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "drunk text",
+      "track_id": "6EIMUjQ7Q8Zr2VtIUik4He"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "pick up the phone",
+      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
     },
     {
       "artists": [
@@ -1190,31 +1214,6 @@
       "count": 1,
       "name": "Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009",
       "track_id": "4fUKE8EULjQdHF4zb0M8FO"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "name": "With A Little Help From My Friends - Remastered 2009",
-      "track_id": "2RnPATK99oGOZygnD2GTO6"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "name": "Lucy In The Sky With Diamonds - Remastered 2009",
-      "track_id": "25yQPHgC35WNnnOUqFhgVR"
-    },
-    {
-      "artists": [
-        "eńau",
-        "Ari Lesmana"
-      ],
-      "count": 1,
-      "name": "Sesi Potret",
-      "track_id": "4xoY4lZNoTjEuHsSmhgF1G"
     }
   ]
 }
