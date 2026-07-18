@@ -122,6 +122,9 @@ def main() -> int:
     total_added = 0
     total_removed = 0
     total_new_playlists = 0
+    # サイトのステップ内訳用: どのアーティストPLに何曲追加/削除したか。名前は元曲から引く。
+    changes: list[dict] = []
+    src_names = {t["id"]: t.get("name", "") for t in source_tracks}
 
     # 自動検出: threshold 以上の未設定アーティストにプレイリストを作る
     artist_counts = count_artists(source_tracks)
@@ -143,6 +146,7 @@ def main() -> int:
     # 同期
     for artist_lower, dest_id in artists.items():
         current_ap_ids = get_dest_track_ids(sp, dest_id)
+        removed_here = 0
 
         # 逆方向: AP から削除された曲をソースからも削除
         if not is_first_run and dest_id in prev_state:
@@ -155,6 +159,7 @@ def main() -> int:
                     source_tracks = [t for t in source_tracks if t["id"] not in deleted]
                     logger.info(f"[{today}] {artist_lower}: removed {len(deleted)} from source")
                 total_removed += len(deleted)
+                removed_here = len(deleted)
 
         # 順方向: ソースの新規曲を AP へ追加
         candidates, spotify_name = match_tracks_for_artist(source_tracks, artist_lower)
@@ -168,6 +173,12 @@ def main() -> int:
         verb = "would add" if dry else "added"
         logger.info(f"[{today}] {spotify_name or artist_lower}: {verb} {len(to_add)} (skipped {skipped})")
         new_state[dest_id] = current_ap_ids
+        if to_add or removed_here:
+            changes.append({
+                "playlist": spotify_name or artist_lower,
+                "added": [src_names.get(tid, "") for tid in to_add],
+                "removed": removed_here,
+            })
 
     if dry:
         logger.info("[DRY-RUN] sync_state.json は更新しません")
@@ -176,7 +187,8 @@ def main() -> int:
 
     core.write_step_summary(
         "sync",
-        {"added": total_added, "removed": total_removed, "new_playlists": total_new_playlists},
+        {"added": total_added, "removed": total_removed, "new_playlists": total_new_playlists,
+         "changes": changes},
     )
     return core.EXIT_OK
 

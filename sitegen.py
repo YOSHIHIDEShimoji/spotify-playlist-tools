@@ -178,6 +178,12 @@ def build_stats_dist(records: list[dict], selectable: list[dict]) -> dict:
     }
 
 
+def _album_image(album: dict) -> str | None:
+    """album.images の最小サイズ（末尾）URL を返す。サムネイル用。"""
+    imgs = (album or {}).get("images") or []
+    return imgs[-1].get("url") if imgs else None
+
+
 def build_search_index(records: list[dict]) -> dict:
     return {
         "generated_at": _now_utc_iso(),
@@ -188,6 +194,7 @@ def build_search_index(records: list[dict]) -> dict:
                 "artists": [a.get("name", "") for a in (r.get("artists") or [])],
                 "playlists": [p["name"] for p in r.get("playlists", [])],
                 "release_date": (r.get("album") or {}).get("release_date", ""),
+                "image": _album_image(r.get("album") or {}),
             }
             for r in records
         ],
@@ -233,6 +240,14 @@ def build_run_record(summaries: dict, run_id, date_str: str, dry_run: bool) -> d
             "sort": {"playlists": sort.get("playlists", 0), "skipped": sort.get("skipped", 0)},
             "archive": {"added": archive.get("added", 0)},
         },
+        # 各ステップの内訳（サイトでステップをタップすると「どの曲がどこへ動いたか」を出す）。
+        # 長くなり過ぎないよう各リストは上限を設ける。ステップが何もしていなければ空リスト。
+        "detail": {
+            "inbox": inbox.get("moved", [])[:200],
+            "sync": sync.get("changes", [])[:100],
+            "sort": sort.get("changes", [])[:100],
+            "archive": archive.get("added_tracks", [])[:200],
+        },
         "generated_at": _now_utc_iso(),
     }
 
@@ -271,7 +286,8 @@ def build_top(sp) -> dict:
             tr = sp.current_user_top_tracks(limit=30, time_range=term).get("items", [])
             out["tracks"][term] = [
                 {"id": t["id"], "name": t["name"],
-                 "artists": [a["name"] for a in t.get("artists", [])], "rank": i + 1}
+                 "artists": [a["name"] for a in t.get("artists", [])], "rank": i + 1,
+                 "image": _album_image(t.get("album") or {})}
                 for i, t in enumerate(tr)
             ]
             ar = sp.current_user_top_artists(limit=30, time_range=term).get("items", [])

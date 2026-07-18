@@ -119,6 +119,8 @@ function PatSettings({ onDone, hasPat }: { onDone: () => void; hasPat: boolean }
       <p className="t-small" style={{ marginTop: 0 }}>
         重複削除・unknown 振り分けをサイトから実行するための GitHub PAT。ブラウザ内（localStorage）にのみ保存し、
         リポジトリや URL には送りません。権限は対象リポジトリの <code>Actions: Read and write</code> のみで十分です。
+        一度保存すれば再読み込み（<code>⌘⇧R</code> 含む）では消えません。スマホ等で入力が手間なら
+        URL の末尾に <code>#token=github_pat_…</code> を付けて開くと自動で取り込み、URL からは即座に消します。
       </p>
       <div className="pat-box">
         <input

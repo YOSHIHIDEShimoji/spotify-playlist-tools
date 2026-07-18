@@ -67,23 +67,34 @@ def test_monthly_wrapped():
 
 def test_build_run_record_status():
     summaries = {
-        "inbox": {"processed": 4, "japanese": 1, "western": 3, "unknown_count": 0, "unknown": []},
-        "sync": {"added": 3, "removed": 0, "new_playlists": 0},
-        "sort": {"playlists": 8, "skipped": 0},
-        "archive": {"added": 0},
+        "inbox": {"processed": 4, "japanese": 1, "western": 3, "unknown_count": 0, "unknown": [],
+                  "moved": [{"name": "s1", "artist": "A", "dest": ["Japanese Musics"]}]},
+        "sync": {"added": 3, "removed": 0, "new_playlists": 0,
+                 "changes": [{"playlist": "AP", "added": ["s1", "s2", "s3"], "removed": 0}]},
+        "sort": {"playlists": 8, "skipped": 0,
+                 "changes": [{"name": "Western Musics", "status": "sorted", "count": 100}]},
+        "archive": {"added": 0, "added_tracks": []},
     }
     r = sitegen.build_run_record(summaries, 123, "2026-07-15", False)
     assert r["status"] == "success"
     assert r["run_id"] == 123
     assert r["steps"]["inbox"]["western"] == 3
+    # ステップ内訳がそのまま載る（サイトのモーダル用）
+    assert r["detail"]["inbox"][0]["dest"] == ["Japanese Musics"]
+    assert r["detail"]["sync"][0]["added"] == ["s1", "s2", "s3"]
+    assert r["detail"]["sort"][0]["name"] == "Western Musics"
     assert sitegen.build_run_record({"inbox": {}}, 1, "d", False)["status"] == "partial"
+    # 旧サマリ（detail 無し）は各ステップ空リストにフォールバックする
+    r2 = sitegen.build_run_record({"inbox": {}}, 1, "d", False)
+    assert r2["detail"]["inbox"] == [] and r2["detail"]["sort"] == []
 
 
 def test_build_stats_and_search():
     records = [
         {"id": "a", "name": "x", "artists": [{"name": "Ed", "id": "art_ed"}], "album": {"release_date": "2014-06-20"},
          "playlists": [{"id": "p1", "name": "W"}]},
-        {"id": "b", "name": "y", "artists": [{"name": "Ed", "id": "art_ed"}], "album": {"release_date": "2011-01-01"},
+        {"id": "b", "name": "y", "artists": [{"name": "Ed", "id": "art_ed"}],
+         "album": {"release_date": "2011-01-01", "images": [{"url": "big"}, {"url": "small"}]},
          "playlists": [{"id": "p1", "name": "W"}, {"id": "p2", "name": "Ed"}]},
     ]
     s = sitegen.build_stats(records)
@@ -96,10 +107,26 @@ def test_build_stats_and_search():
     b = next(t for t in idx["tracks"] if t["id"] == "b")
     assert b["playlists"] == ["W", "Ed"]
     assert b["release_date"] == "2011-01-01"  # 年代モーダル用に載せる
+    assert b["image"] == "small"  # 保留タブ等のサムネイル用（最小サイズ）
+    a = next(t for t in idx["tracks"] if t["id"] == "a")
+    assert a["image"] is None  # images 無しは None
 
     rows = sitegen.playlist_count_rows(records, [{"id": "p1", "name": "W"}, {"id": "p2", "name": "Ed"}], "2026-07-15")
     counts = {r["playlist_id"]: r["count"] for r in rows}
     assert counts == {"p1": 2, "p2": 1}
+
+
+def test_build_top_includes_image():
+    class Sp:
+        def current_user_top_tracks(self, limit, time_range):
+            return {"items": [{"id": "t1", "name": "T", "artists": [{"name": "A"}],
+                               "album": {"images": [{"url": "big"}, {"url": "sm"}]}}]}
+
+        def current_user_top_artists(self, limit, time_range):
+            return {"items": [{"id": "a1", "name": "AA"}]}
+
+    top = sitegen.build_top(Sp())
+    assert top["tracks"]["short_term"][0]["image"] == "sm"  # 公式 Top のサムネイル（最小サイズ）
 
 
 def test_merge_records_and_stats_dist():

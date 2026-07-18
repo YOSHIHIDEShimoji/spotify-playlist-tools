@@ -195,6 +195,19 @@
   background: rgba(0, 0, 0, 0.25);
   border-radius: var(--r-card);
 }
+/* タップで内訳モーダルを開くステップ（button として描画する） */
+.pipe-step--btn {
+  border: 0;
+  width: 100%;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.pipe-step--btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
 .pipe-step .k {
   display: block;
   font-size: 0.68rem;
@@ -543,6 +556,25 @@
 .dupe-cand.is-del .cand-name .txt {
   text-decoration: line-through;
 }
+/* 各行が「残す／削除」のどちらかを一目で分かるタグ（チェック＝残す） */
+.cand-tag {
+  flex: 0 0 auto;
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: rgba(30, 215, 96, 0.16);
+  color: #1ed760;
+}
+.cand-tag--del {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-secondary);
+}
+.dupe-hint {
+  margin: 0 0 var(--sp-3);
+  color: var(--text-secondary);
+}
 .cand-check {
   flex: 0 0 auto;
   width: 20px;
@@ -621,6 +653,11 @@
 }
 .top-item {
   min-height: 46px;
+}
+/* 公式 Top のアルバムサムネイル（rank の隣） */
+.top-art {
+  width: 40px;
+  height: 40px;
 }
 .clamp-1 {
   white-space: nowrap;
@@ -856,6 +893,24 @@ table.data-table {
   display: flex;
   gap: var(--sp-2);
   flex-wrap: wrap;
+}
+/* アーティストモーダル: PC で埋め込みが小さく見えないよう縦を大きく＋ダイアログを広めに */
+.artist-embed {
+  width: 100%;
+  height: 60vh;
+  min-height: 380px;
+  max-height: 460px;
+  border: 0;
+  border-radius: var(--r-panel);
+}
+@media (min-width: 600px) {
+  .modal-dialog--wide {
+    max-width: 560px;
+  }
+  .artist-embed {
+    height: 520px;
+    max-height: 72vh;
+  }
 }
 
 /* ── モーション配慮 ─────────────────────────────── */

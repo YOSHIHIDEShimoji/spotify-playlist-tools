@@ -1,5 +1,13 @@
 // dashboard-design.md §5.3 のデータスキーマに対応する TS 型。
 
+// ステップをタップしたとき出す内訳（どの曲がどこへ動いたか）。無い回もある（旧データ）。
+export interface RunDetail {
+  inbox?: { name: string; artist: string; dest: string[] }[];
+  sync?: { playlist: string; added: string[]; removed: number }[];
+  sort?: { name: string; status: string; count: number }[];
+  archive?: { name: string; artists: string[] }[];
+}
+
 export interface RunRecord {
   date: string;
   run_id: number | null;
@@ -11,6 +19,7 @@ export interface RunRecord {
     sort: { playlists: number; skipped: number };
     archive: { added: number };
   };
+  detail?: RunDetail;
   generated_at: string;
 }
 
@@ -131,6 +140,7 @@ export interface TopEntry {
   name: string;
   artists?: string[];
   rank: number;
+  image?: string | null; // アルバムのサムネイル URL（新データのみ）
 }
 export interface Top {
   generated_at: string;
@@ -193,6 +203,7 @@ export interface SearchTrack {
   artists: string[];
   playlists: string[];
   release_date?: string; // 年代モーダル用（新データのみ）
+  image?: string | null; // アルバムのサムネイル URL（新データのみ・保留タブ等の見た目に使う）
 }
 export interface SearchIndex {
   generated_at: string;

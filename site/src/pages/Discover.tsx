@@ -36,45 +36,59 @@ export function Discover() {
   const top = useJson<Top>("top");
   const auth = useJson<AuthStatus>("auth_status");
   const disabled = (auth.data?.missing_scopes.length ?? 0) > 0;
+  const [tab, setTab] = useState<"western" | "japanese" | "top">("western");
 
-  return (
-    <>
-      <Section title="新譜ウォッチ">
-        {releases.loading ? (
-          <Loading />
-        ) : !releases.data || releases.data.items.length === 0 ? (
-          <DisabledOrEmpty disabled={disabled} empty="直近14日の新譜はありません（フォロー中＋在籍アーティストを毎晩チェック）。" />
-        ) : (
-          <ReleaseWatch items={releases.data.items} />
-        )}
-      </Section>
-
-      <Section title="Spotify 公式 Top">
-        {top.loading ? <Loading /> : <TopBlock top={top.data} disabled={disabled} />}
-      </Section>
-    </>
-  );
-}
-
-function ReleaseWatch({ items }: { items: ReleaseItem[] }) {
-  const [tab, setTab] = useState<"western" | "japanese">("western");
+  const items = releases.data?.items ?? [];
   const jp = items.filter((r) => r.class === "japanese");
   const west = items.filter((r) => r.class !== "japanese"); // class 未設定（旧データ）は western 側へ
-  const shown = tab === "japanese" ? jp : west;
 
   return (
-    <>
-      <div className="seg" role="tablist" aria-label="新譜の言語">
+    <Section title="おすすめ">
+      <div className="seg" role="tablist" aria-label="おすすめの種類">
         <button role="tab" aria-selected={tab === "western"} className={tab === "western" ? "is-active" : ""} onClick={() => setTab("western")}>
           Western{west.length > 0 && <span className="seg-count">{west.length}</span>}
         </button>
         <button role="tab" aria-selected={tab === "japanese"} className={tab === "japanese" ? "is-active" : ""} onClick={() => setTab("japanese")}>
           Japanese{jp.length > 0 && <span className="seg-count">{jp.length}</span>}
         </button>
+        <button role="tab" aria-selected={tab === "top"} className={tab === "top" ? "is-active" : ""} onClick={() => setTab("top")}>
+          Spotify 公式 Top
+        </button>
       </div>
 
+      {tab === "top" ? (
+        top.loading ? <Loading /> : <TopBlock top={top.data} disabled={disabled} />
+      ) : releases.loading ? (
+        <Loading />
+      ) : (
+        <ReleaseList
+          shown={tab === "japanese" ? jp : west}
+          isJapanese={tab === "japanese"}
+          totalEmpty={items.length === 0}
+          disabled={disabled}
+        />
+      )}
+    </Section>
+  );
+}
+
+// 新譜の一覧（邦/洋タブ共通の行）。均一な高さのサムネイル行で並べる。
+function ReleaseList(
+  { shown, isJapanese, totalEmpty, disabled }:
+    { shown: ReleaseItem[]; isJapanese: boolean; totalEmpty: boolean; disabled: boolean },
+) {
+  if (totalEmpty) {
+    return (
+      <DisabledOrEmpty disabled={disabled} empty="直近14日の新譜はありません（フォロー中＋在籍アーティストを毎晩チェック）。" />
+    );
+  }
+  return (
+    <>
+      <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
+        直近14日の新譜（フォロー中＋在籍アーティスト）。
+      </p>
       {shown.length === 0 ? (
-        <Empty>{tab === "japanese" ? "邦楽の新譜はありません。" : "洋楽の新譜はありません。"}</Empty>
+        <Empty>{isJapanese ? "邦楽の新譜はありません。" : "洋楽の新譜はありません。"}</Empty>
       ) : (
         <div className="card">
           {shown.map((r) => (
@@ -115,6 +129,11 @@ function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
             {tracks.slice(0, 10).map((tr) => (
               <div className="list-row top-item" key={tr.id}>
                 <span className="list-rank">{tr.rank}</span>
+                {tr.image ? (
+                  <img className="cand-art top-art" src={tr.image} alt="" loading="lazy" width={40} height={40} />
+                ) : (
+                  <span className="cand-art cand-art--ph top-art" aria-hidden />
+                )}
                 <span className="list-main">
                   <div className="name clamp-1">{tr.name}</div>
                   <div className="t-small clamp-1">{(tr.artists ?? []).join(", ")}</div>

@@ -4,8 +4,8 @@ import { EmbedPlayer } from "./EmbedPlayer";
 
 /** Spotify のダイアログ相当（重い影・Esc / 背景クリックで閉じる・スクロールロック）。 */
 export function Modal(
-  { title, subtitle, onClose, children, footer }:
-    { title: string; subtitle?: string; onClose: () => void; children?: ReactNode; footer?: ReactNode },
+  { title, subtitle, onClose, children, footer, className }:
+    { title: string; subtitle?: string; onClose: () => void; children?: ReactNode; footer?: ReactNode; className?: string },
 ) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -22,7 +22,7 @@ export function Modal(
 
   return (
     <div className="modal-overlay" onClick={onClose} role="dialog" aria-modal="true">
-      <div className="modal-dialog" onClick={(e) => e.stopPropagation()}>
+      <div className={"modal-dialog" + (className ? " " + className : "")} onClick={(e) => e.stopPropagation()}>
         <div className="modal-head">
           <div className="grow">
             <div className="t-heading">{title}</div>
@@ -78,6 +78,7 @@ export function ArtistModal({ artist, onClose }: { artist: ModalArtist; onClose:
       title={artist.name}
       subtitle={`ライブラリに ${artist.count} 曲`}
       onClose={onClose}
+      className="modal-dialog--wide"
       footer={
         <a className="pill pill-green" href={openUrl} target="_blank" rel="noreferrer">
           Spotify で開く
@@ -86,6 +87,7 @@ export function ArtistModal({ artist, onClose }: { artist: ModalArtist; onClose:
     >
       {artist.id ? (
         <iframe
+          className="artist-embed"
           title={`artist-${artist.id}`}
           src={`https://open.spotify.com/embed/artist/${artist.id}`}
           width="100%"

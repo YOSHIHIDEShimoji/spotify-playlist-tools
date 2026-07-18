@@ -66,7 +66,7 @@ def main() -> int:
         logger.info("お気に入りに新しい曲はありません")
         core.write_step_summary(
             "inbox",
-            {"processed": 0, "japanese": 0, "western": 0, "unknown_count": 0, "unknown": []},
+            {"processed": 0, "japanese": 0, "western": 0, "unknown_count": 0, "unknown": [], "moved": []},
         )
         return core.EXIT_OK
 
@@ -162,6 +162,11 @@ def main() -> int:
             "western": sum(1 for t in liked if labels[t["id"]] == "western"),
             "unknown_count": len(unknown_final),
             "unknown": unknown_final,
+            # サイトのステップ内訳用: 実際に振り分け先が付いた曲だけ（どのプレイリストへ入ったか）。
+            "moved": [
+                {"name": p["name"], "artist": p["artist"], "dest": p["dest"]}
+                for p in processed if p.get("dest")
+            ],
         },
     )
 

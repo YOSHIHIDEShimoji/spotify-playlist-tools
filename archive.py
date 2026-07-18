@@ -61,17 +61,35 @@ def main() -> int:
     to_add = [t for t in source if t not in existing and not (t in seen or seen.add(t))]
     skipped = len(source) - len(to_add)
     today = date.today().isoformat()
+    added_tracks = _resolve_track_names(sp, to_add)  # サイトのステップ内訳用（追加曲名）
 
     if dry:
         logger.info(f"[{today}][DRY-RUN] would add {len(to_add)} (skipped {skipped})")
-        core.write_step_summary("archive", {"added": len(to_add), "skipped": skipped})
+        core.write_step_summary(
+            "archive", {"added": len(to_add), "skipped": skipped, "added_tracks": added_tracks})
         return core.EXIT_OK
 
     if to_add:
         core.add_in_batches(sp, dest_id, to_add)
     logger.info(f"[{today}] added {len(to_add)} (skipped {skipped})")
-    core.write_step_summary("archive", {"added": len(to_add), "skipped": skipped})
+    core.write_step_summary(
+        "archive", {"added": len(to_add), "skipped": skipped, "added_tracks": added_tracks})
     return core.EXIT_OK
+
+
+def _resolve_track_names(sp, track_ids: list[str]) -> list[dict]:
+    """track_id を {name, artists} へ解決する（50件ずつ）。失敗しても集計は続ける。"""
+    out: list[dict] = []
+    for i in range(0, len(track_ids), 50):
+        try:
+            res = sp.tracks(track_ids[i:i + 50]).get("tracks", [])
+        except Exception:  # noqa: BLE001 — 名前解決失敗は無視（件数は別途出る）
+            continue
+        for t in res:
+            if t:
+                out.append({"name": t.get("name", ""),
+                            "artists": [a["name"] for a in t.get("artists", [])]})
+    return out
 
 
 def _entry() -> int:

@@ -1,7 +1,17 @@
+import { useState } from "react";
 import { useJson, useJsonl } from "../lib/data";
-import type { ListeningStats, RunRecord } from "../lib/types";
+import type { ListeningStats, RunDetail, RunRecord } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section } from "../components/ui";
+import { Modal } from "../components/Modal";
 import { PlayButton } from "../lib/player";
+
+type StepKey = "inbox" | "sync" | "sort" | "archive";
+const STEP_TITLE: Record<StepKey, string> = {
+  inbox: "inbox — 振り分け",
+  sync: "sync — 同期",
+  sort: "sort — 並べ替え",
+  archive: "archive — Top50 追加",
+};
 
 export function Home() {
   const runs = useJsonl<RunRecord>("runs");
@@ -53,6 +63,7 @@ function jstTime(iso: string | undefined): string {
 
 /** Home ヒーロー: 昨晩の夜間ランを署名要素として最前面に出す。 */
 function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats | null }) {
+  const [step, setStep] = useState<StepKey | null>(null);
   const real = realRuns(runs);
   // 本番ランがあればそれを、無ければ最新の dry run を出す（下の履歴と食い違わせない）。
   const latest = real.length ? real[real.length - 1] : (runs.length ? runs[runs.length - 1] : null);
@@ -110,11 +121,13 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
       <p className="nightband-sub">{sub}</p>
 
       <div className="pipe">
-        <PipeStep n="01" name="inbox" value={s.inbox.processed} detail={`邦 ${s.inbox.japanese} · 洋 ${s.inbox.western} · 不明 ${s.inbox.unknown}`} />
-        <PipeStep n="02" name="sync" value={s.sync.added} prefix="+" detail={`−${s.sync.removed} · 新規AP ${s.sync.new_playlists}`} />
-        <PipeStep n="03" name="sort" value={s.sort.playlists} detail={`見送り ${s.sort.skipped}`} />
-        <PipeStep n="04" name="archive" value={s.archive.added} prefix="+" detail="Top50 追加" />
+        <PipeStep n="01" name="inbox" value={s.inbox.processed} detail={`邦 ${s.inbox.japanese} · 洋 ${s.inbox.western} · 不明 ${s.inbox.unknown}`} onClick={() => setStep("inbox")} />
+        <PipeStep n="02" name="sync" value={s.sync.added} prefix="+" detail={`−${s.sync.removed} · 新規AP ${s.sync.new_playlists}`} onClick={() => setStep("sync")} />
+        <PipeStep n="03" name="sort" value={s.sort.playlists} detail={`見送り ${s.sort.skipped}`} onClick={() => setStep("sort")} />
+        <PipeStep n="04" name="archive" value={s.archive.added} prefix="+" detail="Top50 追加" onClick={() => setStep("archive")} />
       </div>
+
+      {step && <StepDetailModal step={step} run={latest} onClose={() => setStep(null)} />}
 
       <div className="nightband-foot">
         <div className="foot-stat">
@@ -137,14 +150,102 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
 }
 
 function PipeStep(
-  { n, name, value, prefix, detail }: { n: string; name: string; value: number; prefix?: string; detail: string },
+  { n, name, value, prefix, detail, onClick }:
+    { n: string; name: string; value: number; prefix?: string; detail: string; onClick?: () => void },
 ) {
   const cls = value > 0 ? "v pos" : "v zero";
   return (
-    <div className="pipe-step">
+    <button type="button" className="pipe-step pipe-step--btn" onClick={onClick} aria-label={`${name} の内訳を見る`}>
       <span className="k">{n} · {name}</span>
       <span className={cls}>{prefix && value > 0 ? prefix : ""}{value}</span>
-      <span className="d">{detail}</span>
+      <span className="d">{detail} ›</span>
+    </button>
+  );
+}
+
+// ステップをタップしたときの内訳モーダル（どの曲がどこへ動いたか）。
+function StepDetailModal({ step, run, onClose }: { step: StepKey; run: RunRecord; onClose: () => void }) {
+  const d = run.detail;
+  return (
+    <Modal
+      title={STEP_TITLE[step]}
+      subtitle={`${jpDate(run.date)}${run.dry_run ? "・dry run（予定）" : ""}`}
+      onClose={onClose}
+    >
+      {!d ? (
+        <p className="t-small">
+          この回はステップ別の内訳が記録されていません（次回の夜間ランから表示されます）。
+        </p>
+      ) : (
+        <StepDetailBody step={step} detail={d} />
+      )}
+    </Modal>
+  );
+}
+
+function StepDetailBody({ step, detail }: { step: StepKey; detail: RunDetail }) {
+  if (step === "inbox") {
+    const rows = detail.inbox ?? [];
+    if (!rows.length) return <Empty>この回は新しい振り分けはありません（0件）。</Empty>;
+    return (
+      <div className="modal-list">
+        {rows.map((r, i) => (
+          <div className="list-row" key={i}>
+            <span className="list-main">
+              <div className="name">{r.name}</div>
+              <div className="t-small">{r.artist}</div>
+            </span>
+            <span className="t-small">{r.dest.join(" / ")}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+  if (step === "sync") {
+    const rows = detail.sync ?? [];
+    if (!rows.length) return <Empty>同期による変更はありません（0件）。</Empty>;
+    return (
+      <div className="modal-list">
+        {rows.map((r, i) => (
+          <div className="list-row" key={i} style={{ alignItems: "flex-start" }}>
+            <span className="list-main">
+              <div className="name">{r.playlist}</div>
+              {r.added.length > 0 && <div className="t-small">＋ {r.added.join(", ")}</div>}
+            </span>
+            <span className="t-small num">+{r.added.length}{r.removed ? ` / −${r.removed}` : ""}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+  if (step === "sort") {
+    const rows = detail.sort ?? [];
+    if (!rows.length) return <Empty>並べ替えたプレイリストはありません（0件）。</Empty>;
+    const label = (s: string) => (s === "skipped" ? "見送り" : s === "dry" ? "予定" : "並べ替え");
+    return (
+      <div className="modal-list">
+        {rows.map((r, i) => (
+          <div className="list-row" key={i}>
+            <span className="list-main"><div className="name">{r.name}</div></span>
+            <span className="t-small num">{r.count}曲</span>
+            <span className={"badge " + (r.status === "skipped" ? "badge-c" : "badge-b")}>{label(r.status)}</span>
+          </div>
+        ))}
+      </div>
+    );
+  }
+  const rows = detail.archive ?? [];
+  if (!rows.length) return <Empty>Top50 への追加はありません（0件）。</Empty>;
+  return (
+    <div className="modal-list">
+      {rows.map((r, i) => (
+        <div className="list-row" key={i}>
+          <span className="list-main">
+            <div className="name">{r.name}</div>
+            <div className="t-small">{r.artists.join(", ")}</div>
+          </span>
+        </div>
+      ))}
     </div>
   );
 }

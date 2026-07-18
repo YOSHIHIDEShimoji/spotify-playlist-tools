@@ -66,27 +66,35 @@ def replace_playlist(sp, playlist_id: str, track_ids: list[str]) -> None:
         sp.playlist_add_items(playlist_id, track_ids[i : i + 100])
 
 
-def sort_one(sp, url_or_id: str, logger, dry: bool) -> str:
-    """"sorted" / "skipped" / "dry" を返す（サマリ集計用）。"""
+def sort_one(sp, url_or_id: str, logger, dry: bool, report: list | None = None) -> str:
+    """"sorted" / "skipped" / "dry" を返す（サマリ集計用）。
+    report を渡すと {name, status, count} を1件追記する（サイトのステップ内訳用）。"""
     playlist_id = core.extract_playlist_id(url_or_id)
     # 全置換の競合ガード（bugs §1）: 取得時と置換直前で snapshot_id が変われば見送る
-    snapshot_before = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
+    meta = sp.playlist(playlist_id, fields="snapshot_id,name")
+    snapshot_before = meta["snapshot_id"]
+    name = meta.get("name") or playlist_id
     tracks = get_all_tracks(sp, playlist_id)
     sorted_tracks = sort_tracks(tracks)
     sorted_ids = [t["id"] for t in sorted_tracks]
 
+    def done(status: str) -> str:
+        if report is not None:
+            report.append({"name": name, "status": status, "count": len(sorted_ids)})
+        return status
+
     if dry:
         logger.info(f"[DRY-RUN] {playlist_id}: {len(sorted_ids)} 曲をソート予定（置換なし）")
-        return "dry"
+        return done("dry")
 
     snapshot_now = sp.playlist(playlist_id, fields="snapshot_id")["snapshot_id"]
     if snapshot_now != snapshot_before:
         logger.info(f"[skip] {playlist_id}: 取得中に変更を検出（次回再ソート）")
-        return "skipped"
+        return done("skipped")
 
     replace_playlist(sp, playlist_id, sorted_ids)
     logger.info(f"更新完了: {len(sorted_ids)} 曲をソートしました ({playlist_id})")
-    return "sorted"
+    return done("sorted")
 
 
 def load_sort_targets(path: Path) -> list[str]:
@@ -203,14 +211,16 @@ def main() -> int:
         targets = load_sort_targets(SORT_CONFIG_PATH)
         logger.info(f"ソート対象: {len(targets)} プレイリスト" + (" [DRY-RUN]" if dry else ""))
         counts = {"sorted": 0, "skipped": 0, "dry": 0}
+        report: list[dict] = []
         for url in targets:
             try:
-                counts[sort_one(sp, url, logger, dry)] += 1
+                counts[sort_one(sp, url, logger, dry, report)] += 1
             except Exception as e:
                 logger.info(f"[error] {url}: {e}")
         core.write_step_summary(
             "sort",
-            {"playlists": counts["sorted"] + counts["dry"], "skipped": counts["skipped"]},
+            {"playlists": counts["sorted"] + counts["dry"], "skipped": counts["skipped"],
+             "changes": report},
         )
         return core.EXIT_OK
 
