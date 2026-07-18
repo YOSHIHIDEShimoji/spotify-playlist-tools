@@ -5,7 +5,7 @@
         "The Kid LAROI",
         "Justin Bieber"
       ],
-      "count": 2,
+      "count": 3,
       "name": "STAY (with Justin Bieber)",
       "track_id": "5HCyWlXZPP0y6Gqq8TgA20"
     },
@@ -16,6 +16,14 @@
       "count": 2,
       "name": "While My Guitar Gently Weeps - Remastered 2009",
       "track_id": "389QX9Q1eUOEZ19vtzzI9O"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -727,14 +735,6 @@
         "OneRepublic"
       ],
       "count": 1,
-      "name": "I Lived",
-      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
       "name": "Counting Stars",
       "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },
@@ -785,15 +785,31 @@
       "count": 1,
       "name": "Au Revoir",
       "track_id": "1oh5FOxndjZVz1wjiBeBmY"
+    },
+    {
+      "artists": [
+        "Jonas Brothers"
+      ],
+      "count": 1,
+      "name": "Sucker",
+      "track_id": "22vgEDb5hykfaTwLuskFGD"
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 1,
+      "name": "Happier",
+      "track_id": "2RttW7RAu5nOAfq6YFvApB"
     }
   ],
-  "generated_at": "2026-07-18T05:07:40.861117+00:00",
+  "generated_at": "2026-07-18T05:23:05.267332+00:00",
   "milestone": {
     "next": 250,
     "reached": [
       100
     ],
-    "total": 100
+    "total": 123
   },
   "since": "2026-07-17T08:24:09.681Z",
   "streak": 2,
@@ -803,7 +819,7 @@
         "The Kid LAROI",
         "Justin Bieber"
       ],
-      "count": 2,
+      "count": 3,
       "name": "STAY (with Justin Bieber)",
       "track_id": "5HCyWlXZPP0y6Gqq8TgA20"
     },
@@ -814,6 +830,14 @@
       "count": 2,
       "name": "While My Guitar Gently Weeps - Remastered 2009",
       "track_id": "389QX9Q1eUOEZ19vtzzI9O"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -1191,14 +1215,6 @@
       "count": 1,
       "name": "Sesi Potret",
       "track_id": "4xoY4lZNoTjEuHsSmhgF1G"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "name": "Getting Better - Remastered 2009",
-      "track_id": "3LtOmWpTXLhilL5odoKysR"
     }
   ]
 }
