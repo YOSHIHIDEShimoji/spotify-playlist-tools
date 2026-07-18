@@ -963,4 +963,8 @@ table.data-table {
     -webkit-box-orient: vertical;
     line-height: 1.4;
   }
+  /* 「推奨／残す／削除」タグに押されて曲名が潰れないよう、狭い幅ではタグを次行へ折り返す */
+  .dupe-cand .cand-name {
+    flex-wrap: wrap;
+  }
 }

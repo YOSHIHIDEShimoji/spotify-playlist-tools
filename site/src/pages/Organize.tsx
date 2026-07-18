@@ -249,7 +249,7 @@ function GroupCard(
           両方残す
         </button>
         {!pat && <span className="action-hint">🔒 操作トークン未設定で実行できません</span>}
-        {pat && !processing && noneKept && (
+        {!processing && noneKept && (
           <span className="action-hint">残す曲を1つ以上チェックしてください</span>
         )}
         {status && (
