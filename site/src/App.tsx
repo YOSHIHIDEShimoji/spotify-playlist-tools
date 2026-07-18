@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { AuthBanner } from "./components/AuthBanner";
 import { ScrollRow } from "./components/ui";
 import { clearPat, setPat, usePat } from "./lib/pat";
@@ -23,6 +23,21 @@ const NAV = [
 export function App() {
   const pat = usePat();
   const [showSettings, setShowSettings] = useState(false);
+  const location = useLocation();
+
+  // ルート変更（ディープリンク／リロード含む）時、横スクロールするナビ内でアクティブな
+  // ピルを中央寄せに。scroller の scrollLeft を直接指定するのでページ縦スクロールは動かさない。
+  // 初回マウントはレイアウト確定を待つため少し遅らせる。
+  useEffect(() => {
+    const id = window.setTimeout(() => {
+      const active = document.querySelector<HTMLElement>(".nav a.is-active");
+      const scroller = active?.closest<HTMLElement>(".nav");
+      if (!active || !scroller) return;
+      const target = active.offsetLeft - (scroller.clientWidth - active.offsetWidth) / 2;
+      scroller.scrollTo({ left: Math.max(0, target), behavior: "auto" });
+    }, 150);
+    return () => window.clearTimeout(id);
+  }, [location.pathname]);
 
   return (
     <div className="shell">
