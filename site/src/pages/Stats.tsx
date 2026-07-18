@@ -238,14 +238,6 @@ function DecadeBars(
           </BarChart>
         </ResponsiveContainer>
       </div>
-      {/* グラフの棒は SVG でキーボード操作できないので、押せる年代チップを添える（a11y・アフォーダンス） */}
-      <div className="decade-chips" role="group" aria-label="年代を選んで曲を一覧">
-        {data.map((d) => (
-          <button key={d.decade} className="decade-chip" onClick={() => setDecade(d.decade)}>
-            {d.label}<span className="num">{d.count}</span>
-          </button>
-        ))}
-      </div>
       {decade != null && (
         <Modal title={`${decade}年代の曲`} subtitle={`${tracks.length}曲 · 古い順`} onClose={() => setDecade(null)}>
           {tracks.length === 0 ? (

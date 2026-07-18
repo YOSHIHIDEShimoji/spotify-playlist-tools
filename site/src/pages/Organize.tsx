@@ -231,7 +231,6 @@ function GroupCard(
           <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions で確認</a>
         </div>
       )}
-      <p className="t-small dupe-hint">残す1曲を選ぶと、他は削除対象（赤枠）になります。</p>
       {tracks.map((t, i) => (
         <KeepRow
           key={t.id}
@@ -372,7 +371,6 @@ function KeepCard(
       <div className="t-small" style={{ marginBottom: "var(--sp-2)" }}>
         両方残す{g.decided_at ? ` · ${g.decided_at}` : ""}
       </div>
-      <p className="t-small dupe-hint">残す1曲を選ぶと、その場で他を削除できます。判断を保留するなら重複チェックへ戻せます。</p>
       {tracks.map((t, i) => (
         <KeepRow
           key={t.id}

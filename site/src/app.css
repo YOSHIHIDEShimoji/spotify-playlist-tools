@@ -607,10 +607,6 @@
   background: rgba(255, 255, 255, 0.08);
   color: var(--text-secondary);
 }
-.dupe-hint {
-  margin: 0 0 var(--sp-3);
-  color: var(--text-secondary);
-}
 .cand-check {
   flex: 0 0 auto;
   width: 20px;
@@ -713,46 +709,6 @@
 .recharts-bar-rectangle path {
   cursor: pointer;
 }
-/* 年代を選ぶチップ（棒グラフのアクセシブルな操作手段） */
-.decade-chips {
-  display: flex;
-  gap: var(--sp-2);
-  overflow-x: auto;
-  padding: var(--sp-1) 0 var(--sp-2);
-  margin-top: var(--sp-2);
-  scrollbar-width: none;
-}
-.decade-chips::-webkit-scrollbar {
-  display: none;
-}
-.decade-chip {
-  flex: 0 0 auto;
-  border: none;
-  border-radius: var(--r-pill);
-  background: var(--surface-2);
-  color: var(--text-secondary);
-  font: inherit;
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 8px 14px;
-  min-height: 40px;
-  white-space: nowrap;
-  cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-.decade-chip:hover {
-  background: var(--surface-hover);
-  color: var(--text-base);
-}
-.decade-chip .num {
-  color: var(--text-secondary);
-  margin-left: 4px;
-  font-weight: 600;
-}
-.decade-chip:hover .num {
-  color: var(--text-base);
-}
-
 /* ── モーダル内のスクロールする曲リスト（年代モーダル等） ─────── */
 .modal-list {
   max-height: 52vh;
