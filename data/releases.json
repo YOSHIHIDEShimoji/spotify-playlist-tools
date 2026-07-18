@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T03:55:47.839801+00:00",
+  "generated_at": "2026-07-18T04:01:43.832029+00:00",
   "items": [
     {
       "album_id": "6pHEI6UgQrfYkCW6K0irla",
@@ -14,6 +14,14 @@
       "album_name": "猫日",
       "album_type": "single",
       "artist": "suis from Yorushika",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
+      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Descendants – Cast",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -34,26 +42,18 @@
       "release_date": "2026-07-17"
     },
     {
-      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
-      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
+      "album_id": "5HHOA8rO74KsoAnKv85MXS",
+      "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
       "album_type": "album",
-      "artist": "Descendants – Cast",
+      "artist": "OFFICIAL HIGE DANDISM",
       "is_new": false,
-      "release_date": "2026-07-17"
+      "release_date": "2026-07-15"
     },
     {
       "album_id": "2et7q2u7h9RYelRR24tCPQ",
       "album_name": "かげろう",
       "album_type": "single",
       "artist": "Vaundy",
-      "is_new": false,
-      "release_date": "2026-07-15"
-    },
-    {
-      "album_id": "5HHOA8rO74KsoAnKv85MXS",
-      "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
-      "album_type": "album",
-      "artist": "OFFICIAL HIGE DANDISM",
       "is_new": false,
       "release_date": "2026-07-15"
     },
@@ -74,6 +74,38 @@
       "release_date": "2026-07-13"
     },
     {
+      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
+      "album_name": "juliet",
+      "album_type": "single",
+      "artist": "JVKE",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
+      "album_name": "Moana (Original Score)",
+      "album_type": "album",
+      "artist": "Disney",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
+      "album_name": "サンダーボルト",
+      "album_type": "single",
+      "artist": "Yuuri",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "19iGAah99flFtnRqaQ2E1J",
+      "album_name": "Universal Language",
+      "album_type": "single",
+      "artist": "Gym Class Heroes",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
       "album_id": "0pFlE0rc68RS8f3UHzioQY",
       "album_name": "The Real Me",
       "album_type": "album",
@@ -82,18 +114,18 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
-      "album_name": "Joven y Salvaje (with Bb trickz)",
+      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
+      "album_name": "Dedication",
       "album_type": "single",
-      "artist": "benny blanco",
+      "artist": "Clever",
       "is_new": false,
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
-      "album_name": "juliet",
+      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
+      "album_name": "Joven y Salvaje (with Bb trickz)",
       "album_type": "single",
-      "artist": "JVKE",
+      "artist": "benny blanco",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -114,14 +146,6 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
-      "album_name": "Dedication",
-      "album_type": "single",
-      "artist": "Clever",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
       "album_id": "2ZBozfFpgOH5rVVXk7BKXO",
       "album_name": "Orion (English Version)",
       "album_type": "single",
@@ -134,30 +158,6 @@
       "album_name": "Body So Tea",
       "album_type": "single",
       "artist": "Coco Jones",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
-      "album_name": "サンダーボルト",
-      "album_type": "single",
-      "artist": "Yuuri",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
-      "album_name": "Moana (Original Score)",
-      "album_type": "album",
-      "artist": "Disney",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "19iGAah99flFtnRqaQ2E1J",
-      "album_name": "Universal Language",
-      "album_type": "single",
-      "artist": "Gym Class Heroes",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -178,14 +178,6 @@
       "release_date": "2026-07-08"
     },
     {
-      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
-      "album_name": "Blue",
-      "album_type": "single",
-      "artist": "MILLENNIUM PARADE",
-      "is_new": false,
-      "release_date": "2026-07-08"
-    },
-    {
       "album_id": "6glYGr5mPdY0m1vt9mzNuO",
       "album_name": "Soy Luna: Volver a rodar (Banda Sonora Original)",
       "album_type": "album",
@@ -198,6 +190,14 @@
       "album_name": "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
       "album_type": "album",
       "artist": "Disney",
+      "is_new": false,
+      "release_date": "2026-07-08"
+    },
+    {
+      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
+      "album_name": "Blue",
+      "album_type": "single",
+      "artist": "MILLENNIUM PARADE",
       "is_new": false,
       "release_date": "2026-07-08"
     },
@@ -218,18 +218,18 @@
       "release_date": "2026-07-05"
     },
     {
-      "album_id": "7Ex3hlv37lOp1yyoml6zUL",
-      "album_name": "遺書",
-      "album_type": "single",
-      "artist": "Tatsuya Kitani",
-      "is_new": false,
-      "release_date": "2026-07-04"
-    },
-    {
       "album_id": "6ewmyxqBW8I7YUzzh1J0Pv",
       "album_name": "孔雀",
       "album_type": "single",
       "artist": "音田 雅則",
+      "is_new": false,
+      "release_date": "2026-07-04"
+    },
+    {
+      "album_id": "7Ex3hlv37lOp1yyoml6zUL",
+      "album_name": "遺書",
+      "album_type": "single",
+      "artist": "Tatsuya Kitani",
       "is_new": false,
       "release_date": "2026-07-04"
     }
