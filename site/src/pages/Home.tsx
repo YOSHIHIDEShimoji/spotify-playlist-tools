@@ -1,9 +1,8 @@
-import { useMemo, useState } from "react";
-import { useJson, useJsonl } from "../lib/data";
-import type { ListeningStats, RunDetail, RunRecord, SearchIndex } from "../lib/types";
+import { useState } from "react";
+import { useJsonl } from "../lib/data";
+import type { RunDetail, RunRecord } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section } from "../components/ui";
 import { Modal } from "../components/Modal";
-import { PlayButton } from "../lib/player";
 import { monthDay, useLang, useT } from "../lib/i18n";
 
 type StepKey = "inbox" | "sync" | "sort" | "archive";
@@ -20,7 +19,6 @@ function stepTitle(step: StepKey, tx: (en: string, ja: string) => string): strin
 export function Home() {
   const tx = useT();
   const runs = useJsonl<RunRecord>("runs");
-  const listen = useJson<ListeningStats>("listening_stats");
 
   return (
     <>
@@ -29,15 +27,11 @@ export function Home() {
           <Loading />
         </div>
       ) : (
-        <NightBand runs={runs.data ?? []} listen={listen.data} />
+        <NightBand runs={runs.data ?? []} />
       )}
 
       <Section title={tx("Run history", "実行履歴")}>
         {runs.loading ? <Loading /> : <RunTimeline runs={runs.data ?? []} />}
-      </Section>
-
-      <Section title={tx("Most played this week", "今週よく聴いた曲")}>
-        <WeeklyTop listen={listen.data} loading={listen.loading} />
       </Section>
     </>
   );
@@ -62,7 +56,7 @@ function jstTime(iso: string | undefined): string {
 }
 
 /** Home ヒーロー: 昨晩の夜間ランを署名要素として最前面に出す。 */
-function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats | null }) {
+function NightBand({ runs }: { runs: RunRecord[] }) {
   const tx = useT();
   const { lang } = useLang();
   const [step, setStep] = useState<StepKey | null>(null);
@@ -79,8 +73,6 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
   const successRate = real.length
     ? Math.round((real.filter((r) => r.status === "success").length / real.length) * 100)
     : 0;
-  // 聴取ログが有効か（再認証前は since=null・total=0 のダミー。実数ゼロと区別する）。
-  const listenActive = !!listen && (listen.since != null || listen.milestone.total > 0);
 
   if (!latest) {
     return (
@@ -150,14 +142,6 @@ function NightBand({ runs, listen }: { runs: RunRecord[]; listen: ListeningStats
             {isDryOnly
               ? <span className="muted">{tx("awaiting production run", "本番ラン待ち")}</span>
               : <>{streak}<span className="muted"> {tx("days", "日")}</span> · {tx(`${successRate}% success`, `成功率 ${successRate}%`)}</>}
-          </span>
-        </div>
-        <div className="foot-stat">
-          <span className="k">{tx("Total plays", "累計再生")}</span>
-          <span className="v">
-            {listenActive
-              ? <>{listen!.milestone.total.toLocaleString()}{listen!.milestone.next ? <span className="muted"> {tx("/ next", "/ 次")} {listen!.milestone.next.toLocaleString()}</span> : null}</>
-              : <span className="muted">{tx("not measured", "未計測")}</span>}
           </span>
         </div>
       </div>
@@ -310,45 +294,3 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
   );
 }
 
-function WeeklyTop({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
-  const tx = useT();
-  // アルバムアートは search_index から曲IDで補完する（管理プレイリストに在る曲は必ず出る）。
-  const search = useJson<SearchIndex>("search_index");
-  const byId = useMemo(
-    () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t] as const)),
-    [search.data],
-  );
-  if (loading) return <Loading />;
-  if (!listen || listen.weekly_top.length === 0)
-    return (
-      <Empty>
-        {tx(
-          "As listening data accumulates, your most-played tracks this week appear here (collected every 3 hours).",
-          "聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。",
-        )}
-      </Empty>
-    );
-  return (
-    <div className="card">
-      {listen.weekly_top.slice(0, 15).map((t, i) => {
-        const img = byId.get(t.track_id)?.image;
-        return (
-          <div className="list-row" key={t.track_id}>
-            <span className="list-rank">{i + 1}</span>
-            {img ? (
-              <img className="cand-art top-art" src={img} alt="" loading="lazy" width={40} height={40} />
-            ) : (
-              <span className="cand-art cand-art--ph top-art" aria-hidden />
-            )}
-            <span className="list-main">
-              <div className="name">{t.name}</div>
-              <div className="t-small">{t.artists.join(", ")}</div>
-            </span>
-            <span className="list-count">{tx(`${t.count} plays`, `${t.count}回`)}</span>
-            <PlayButton uri={`spotify:track:${t.track_id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
-          </div>
-        );
-      })}
-    </div>
-  );
-}

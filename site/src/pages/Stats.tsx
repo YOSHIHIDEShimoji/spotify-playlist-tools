@@ -1,12 +1,12 @@
-import { Fragment, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
-import type { Heatmap, ListeningStats, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
+import type { Heatmap, ListeningStats, RankedTrack, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayButton, PlayIcon, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
-import { dowLabels, useLang, useT } from "../lib/i18n";
+import { dowLabels, monthDay, useLang, useT } from "../lib/i18n";
 
 const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
@@ -109,9 +109,82 @@ export function StatsPage() {
         )}
       </Section>
 
+      <Section title={tx("Most played", "よく聴いた曲")}>
+        <MostPlayed listen={listen.data} loading={listen.loading} />
+      </Section>
+
       <Section title={tx("Listening heatmap (day × hour)", "聴取ヒートマップ（曜日 × 時間帯）")}>
         {heat.loading ? <Loading /> : <HeatGrid heat={heat.data} />}
       </Section>
+    </>
+  );
+}
+
+/** よく聴いた曲: 今週 / 累計（計測開始から）をトグルで切り替える。累計は cumulative_top。
+ * アルバムアートは search_index から曲IDで補完する（管理プレイリストに在る曲は必ず出る）。 */
+function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
+  const tx = useT();
+  const { lang } = useLang();
+  const [range, setRange] = useState<"week" | "all">("week");
+  const search = useJson<SearchIndex>("search_index");
+  const byId = useMemo(
+    () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t] as const)),
+    [search.data],
+  );
+  if (loading) return <Loading />;
+  const rows: RankedTrack[] = range === "week" ? (listen?.weekly_top ?? []) : (listen?.cumulative_top ?? []);
+  const since = range === "all" && listen?.since ? monthDay(listen.since, lang) : null;
+
+  return (
+    <>
+      <div className="seg" role="tablist" aria-label={tx("Most played range", "よく聴いた期間")}>
+        <button role="tab" aria-selected={range === "week"} className={range === "week" ? "is-active" : ""} onClick={() => setRange("week")}>
+          {tx("This week", "今週")}
+        </button>
+        <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
+          {tx("All time", "累計")}
+        </button>
+      </div>
+      {since && (
+        <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
+          {tx(`Since ${since} (when logging started).`, `${since}（計測開始）からの累計。`)}
+        </p>
+      )}
+      {rows.length === 0 ? (
+        <Empty>
+          {range === "week"
+            ? tx(
+                "As listening data accumulates, your most-played tracks this week appear here (collected every 3 hours).",
+                "聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。",
+              )
+            : tx(
+                "Your all-time most-played tracks build up here as listening data accumulates (collected every 3 hours).",
+                "聴取ログが貯まるほど、計測開始からの累計でよく聴いた曲がここに出ます（3時間ごとに収集）。",
+              )}
+        </Empty>
+      ) : (
+        <div className="card">
+          {rows.slice(0, 20).map((t, i) => {
+            const img = byId.get(t.track_id)?.image;
+            return (
+              <div className="list-row" key={t.track_id}>
+                <span className="list-rank">{i + 1}</span>
+                {img ? (
+                  <img className="cand-art top-art" src={img} alt="" loading="lazy" width={40} height={40} />
+                ) : (
+                  <span className="cand-art cand-art--ph top-art" aria-hidden />
+                )}
+                <span className="list-main">
+                  <div className="name">{t.name}</div>
+                  <div className="t-small">{t.artists.join(", ")}</div>
+                </span>
+                <span className="list-count">{tx(`${t.count} plays`, `${t.count}回`)}</span>
+                <PlayButton uri={`spotify:track:${t.track_id}`} label={tx(`Play ${t.name}`, `${t.name} を再生`)} />
+              </div>
+            );
+          })}
+        </div>
+      )}
     </>
   );
 }
