@@ -1,7 +1,7 @@
 {
   "artists_top": [
     {
-      "count": 123,
+      "count": 112,
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "name": "OneRepublic"
     },
@@ -21,24 +21,24 @@
       "name": "Charlie Puth"
     },
     {
-      "count": 33,
-      "id": "06HL4z0CvFAxyc27GXpf02",
-      "name": "Taylor Swift"
-    },
-    {
       "count": 32,
       "id": "6rs1KAoQnFalSqSU4LTh8g",
       "name": "back number"
     },
     {
-      "count": 29,
-      "id": "7hr9W3IjXcm3UlLY7guLk5",
-      "name": "Henry Moodie"
+      "count": 31,
+      "id": "06HL4z0CvFAxyc27GXpf02",
+      "name": "Taylor Swift"
     },
     {
-      "count": 28,
+      "count": 27,
       "id": "6eUKZXaKkcviH0Ku9w2n3V",
       "name": "Ed Sheeran"
+    },
+    {
+      "count": 25,
+      "id": "7hr9W3IjXcm3UlLY7guLk5",
+      "name": "Henry Moodie"
     },
     {
       "count": 22,
@@ -51,7 +51,7 @@
       "name": "Novelbright"
     },
     {
-      "count": 20,
+      "count": 19,
       "id": "04gDigrS5kc9YWfZHwBETP",
       "name": "Maroon 5"
     },
@@ -91,6 +91,11 @@
       "name": "ONE OK ROCK"
     },
     {
+      "count": 8,
+      "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+      "name": "One Direction"
+    },
+    {
       "count": 7,
       "id": "1snhtMLeb2DYoMOcVbb8iB",
       "name": "Kenshi Yonezu"
@@ -111,16 +116,6 @@
       "name": "Avicii"
     },
     {
-      "count": 7,
-      "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-      "name": "One Direction"
-    },
-    {
-      "count": 6,
-      "id": "5kVZa4lFUmAQlBogl1fkd6",
-      "name": "Aimyon"
-    },
-    {
       "count": 6,
       "id": "0fTSzq9jAh4c36UVb4V7CB",
       "name": "Alex Warren"
@@ -134,6 +129,11 @@
       "count": 6,
       "id": "1Xyo4u8uXC1ZmMpatF05PJ",
       "name": "The Weeknd"
+    },
+    {
+      "count": 5,
+      "id": "5kVZa4lFUmAQlBogl1fkd6",
+      "name": "Aimyon"
     },
     {
       "count": 5,
@@ -161,15 +161,15 @@
       "decade": 1990
     },
     {
-      "count": 79,
+      "count": 74,
       "decade": 2000
     },
     {
-      "count": 334,
+      "count": 329,
       "decade": 2010
     },
     {
-      "count": 325,
+      "count": 315,
       "decade": 2020
     }
   ],
@@ -182,7 +182,7 @@
           "name": "The Beatles"
         },
         {
-          "count": 123,
+          "count": 112,
           "id": "5Pwc4xIPtQLFEnJriah9YJ",
           "name": "OneRepublic"
         },
@@ -212,24 +212,24 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 32,
-          "id": "06HL4z0CvFAxyc27GXpf02",
-          "name": "Taylor Swift"
-        },
-        {
           "count": 31,
           "id": "6rs1KAoQnFalSqSU4LTh8g",
           "name": "back number"
         },
         {
-          "count": 29,
-          "id": "7hr9W3IjXcm3UlLY7guLk5",
-          "name": "Henry Moodie"
+          "count": 30,
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift"
         },
         {
-          "count": 28,
+          "count": 27,
           "id": "6eUKZXaKkcviH0Ku9w2n3V",
           "name": "Ed Sheeran"
+        },
+        {
+          "count": 25,
+          "id": "7hr9W3IjXcm3UlLY7guLk5",
+          "name": "Henry Moodie"
         },
         {
           "count": 22,
@@ -247,7 +247,7 @@
           "name": "Queen"
         },
         {
-          "count": 20,
+          "count": 19,
           "id": "04gDigrS5kc9YWfZHwBETP",
           "name": "Maroon 5"
         },
@@ -293,6 +293,11 @@
         },
         {
           "count": 8,
+          "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+          "name": "One Direction"
+        },
+        {
+          "count": 8,
           "id": "2yrbLiuBmc9j81lTX3XUuI",
           "name": "The Jacksons"
         },
@@ -318,11 +323,6 @@
         },
         {
           "count": 7,
-          "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-          "name": "One Direction"
-        },
-        {
-          "count": 7,
           "id": "4Fgf6RvuWpiwDXSE7Vammx",
           "name": "George Martin"
         }
@@ -345,19 +345,19 @@
           "decade": 1990
         },
         {
-          "count": 89,
+          "count": 84,
           "decade": 2000
         },
         {
-          "count": 343,
+          "count": 338,
           "decade": 2010
         },
         {
-          "count": 337,
+          "count": 327,
           "decade": 2020
         }
       ],
-      "total": 1114
+      "total": 1094
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -393,7 +393,7 @@
             "name": "ONE OK ROCK"
           },
           {
-            "count": 6,
+            "count": 5,
             "id": "5kVZa4lFUmAQlBogl1fkd6",
             "name": "Aimyon"
           },
@@ -406,11 +406,6 @@
             "count": 4,
             "id": "6wxfx1yhyqjCPYwwxJktR2",
             "name": "King Gnu"
-          },
-          {
-            "count": 4,
-            "id": "0ixzjrK1wkN2zWBXt3VW3W",
-            "name": "Yuuri"
           },
           {
             "count": 4,
@@ -431,6 +426,11 @@
             "count": 3,
             "id": "7KSbqXHO0xzNQhzaIWILIo",
             "name": "音田 雅則"
+          },
+          {
+            "count": 3,
+            "id": "0ixzjrK1wkN2zWBXt3VW3W",
+            "name": "Yuuri"
           },
           {
             "count": 2,
@@ -527,20 +527,20 @@
             "decade": 2000
           },
           {
-            "count": 81,
+            "count": 80,
             "decade": 2010
           },
           {
-            "count": 82,
+            "count": 81,
             "decade": 2020
           }
         ],
-        "total": 198
+        "total": 196
       },
       "3gWeVkYJPREpkdCpDRjHFw": {
         "artists_top": [
           {
-            "count": 123,
+            "count": 112,
             "id": "5Pwc4xIPtQLFEnJriah9YJ",
             "name": "OneRepublic"
           },
@@ -560,22 +560,22 @@
             "name": "Charlie Puth"
           },
           {
-            "count": 32,
+            "count": 30,
             "id": "06HL4z0CvFAxyc27GXpf02",
             "name": "Taylor Swift"
           },
           {
-            "count": 29,
-            "id": "7hr9W3IjXcm3UlLY7guLk5",
-            "name": "Henry Moodie"
-          },
-          {
-            "count": 28,
+            "count": 27,
             "id": "6eUKZXaKkcviH0Ku9w2n3V",
             "name": "Ed Sheeran"
           },
           {
-            "count": 20,
+            "count": 25,
+            "id": "7hr9W3IjXcm3UlLY7guLk5",
+            "name": "Henry Moodie"
+          },
+          {
+            "count": 19,
             "id": "04gDigrS5kc9YWfZHwBETP",
             "name": "Maroon 5"
           },
@@ -605,6 +605,11 @@
             "name": "ZAYN"
           },
           {
+            "count": 8,
+            "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+            "name": "One Direction"
+          },
+          {
             "count": 7,
             "id": "74KM79TiuVKeVCqs8QtB0B",
             "name": "Sabrina Carpenter"
@@ -618,11 +623,6 @@
             "count": 7,
             "id": "1vCWHaC5f2uS3yhpwWbIA6",
             "name": "Avicii"
-          },
-          {
-            "count": 7,
-            "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-            "name": "One Direction"
           },
           {
             "count": 6,
@@ -696,19 +696,19 @@
             "decade": 1990
           },
           {
-            "count": 53,
+            "count": 48,
             "decade": 2000
           },
           {
-            "count": 250,
+            "count": 246,
             "decade": 2010
           },
           {
-            "count": 241,
+            "count": 232,
             "decade": 2020
           }
         ],
-        "total": 553
+        "total": 535
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -846,6 +846,6 @@
       }
     ]
   },
-  "generated_at": "2026-07-19T05:27:50.047300+00:00",
-  "total": 756
+  "generated_at": "2026-07-19T05:34:31.046564+00:00",
+  "total": 736
 }
