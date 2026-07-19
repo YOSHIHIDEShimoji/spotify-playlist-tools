@@ -1,7 +1,9 @@
 # dedupe 自動化 — 「好みのバージョンを絶対に消さない」自動整理 要件定義
 
 作成: 2026-07-19（Claude Code / Opus 4.8）。親要件 [dedupe-requirements.md](dedupe-requirements.md) の拡張。
-**本ドキュメントは要件定義であり、実装はまだ行っていない。**
+**実装済み・本番稼働（2026-07-19・commit e86c9d7）。** dedupe.auto_select / dedupe_auto.py /
+siteops._apply_removals / sitegen build_run_record・ホーム dedupe ステップ。test-auditor 監査 pass・
+pytest 96 passed。初回本番ランで21曲を安全側で自動整理（手動対象は不可侵）・undo 記録済み。
 
 > 親要件 §7「やらないこと」は "自動判断・自動削除" を禁じ、§2 は "nightly 見張り = 後で検討" とした。
 > 本ドキュメントは本人決定により、**「音が完全に同一と証明できるものだけ」に限定して**その禁を解く。
