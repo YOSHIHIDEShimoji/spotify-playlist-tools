@@ -1,5 +1,6 @@
 .env
 .cache-spotify
+.cache
 .artist_cache_*.tmp
 *.log
 log/
