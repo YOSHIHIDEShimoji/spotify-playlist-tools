@@ -5,12 +5,13 @@ import { Empty, Loading, ScrollRow, Section } from "../components/ui";
 import { Modal } from "../components/Modal";
 import { monthDay, useLang, useT } from "../lib/i18n";
 
-type StepKey = "inbox" | "sync" | "sort" | "archive";
+type StepKey = "inbox" | "sync" | "sort" | "dedupe" | "archive";
 function stepTitle(step: StepKey, tx: (en: string, ja: string) => string): string {
   const map: Record<StepKey, string> = {
     inbox: tx("inbox — sorting", "inbox — 振り分け"),
     sync: tx("sync — sync", "sync — 同期"),
     sort: tx("sort — reorder", "sort — 並べ替え"),
+    dedupe: tx("dedupe — auto-tidy", "dedupe — 自動整理"),
     archive: tx("archive — Top50", "archive — Top50 追加"),
   };
   return map[step];
@@ -92,8 +93,9 @@ function NightBand({ runs }: { runs: RunRecord[] }) {
   }
 
   const s = latest.steps;
+  const dedupeDeleted = s.dedupe?.deleted ?? 0;
   const badge = STATUS_BADGE[latest.status] ?? STATUS_BADGE.partial;
-  const touched = s.inbox.processed + s.sync.added + s.sync.removed + s.archive.added;
+  const touched = s.inbox.processed + s.sync.added + s.sync.removed + s.archive.added + dedupeDeleted;
   const sub = isDryOnly
     ? tx(
         "The pipeline is wired up. No production nightly run has happened yet (below is a dry-run check). Real data will appear here from tonight's run onward.",
@@ -130,7 +132,8 @@ function NightBand({ runs }: { runs: RunRecord[] }) {
         <PipeStep n="01" name="inbox" value={s.inbox.processed} detail={tx(`JP ${s.inbox.japanese} · West ${s.inbox.western} · unknown ${s.inbox.unknown}`, `邦 ${s.inbox.japanese} · 洋 ${s.inbox.western} · 不明 ${s.inbox.unknown}`)} onClick={() => setStep("inbox")} />
         <PipeStep n="02" name="sync" value={s.sync.added} prefix="+" detail={tx(`−${s.sync.removed} · new AP ${s.sync.new_playlists}`, `−${s.sync.removed} · 新規AP ${s.sync.new_playlists}`)} onClick={() => setStep("sync")} />
         <PipeStep n="03" name="sort" value={s.sort.playlists} detail={tx(`skipped ${s.sort.skipped}`, `見送り ${s.sort.skipped}`)} onClick={() => setStep("sort")} />
-        <PipeStep n="04" name="archive" value={s.archive.added} prefix="+" detail={tx("Top50 added", "Top50 追加")} onClick={() => setStep("archive")} />
+        <PipeStep n="04" name="dedupe" value={dedupeDeleted} prefix="−" detail={tx(`${s.dedupe?.groups ?? 0} groups`, `${s.dedupe?.groups ?? 0} グループ`)} onClick={() => setStep("dedupe")} />
+        <PipeStep n="05" name="archive" value={s.archive.added} prefix="+" detail={tx("Top50 added", "Top50 追加")} onClick={() => setStep("archive")} />
       </div>
 
       {step && <StepDetailModal step={step} run={latest} lang={lang} onClose={() => setStep(null)} />}
@@ -227,6 +230,34 @@ function StepDetailBody({ step, detail }: { step: StepKey; detail: RunDetail }) 
       </div>
     );
   }
+  if (step === "dedupe") {
+    const rows = detail.dedupe ?? [];
+    if (!rows.length)
+      return <Empty>{tx("No auto-tidy this run (0). Only identical recordings are ever auto-removed; different versions (feat / remaster / live) always wait for you.", "この回の自動整理はありません（0件）。自動で消すのは同一録音だけで、別バージョン（feat / リマスター / ライブ等）は必ずあなたの確認待ちに残ります。")}</Empty>;
+    const kind = (t: string) => (t === "album" ? tx("album", "アルバム") : t === "single" ? tx("single", "シングル") : t === "compilation" ? tx("compilation", "ベスト盤") : t);
+    return (
+      <div className="modal-list">
+        {rows.map((r, i) => (
+          <div className="list-row" key={i} style={{ alignItems: "flex-start" }}>
+            <span className="list-main">
+              <div className="name">{r.name}</div>
+              {r.artists && r.artists.length > 0 && <div className="t-small">{r.artists.join(", ")}</div>}
+              <div className="t-small">
+                {tx("kept", "残した")}: {kind(r.kept.album_type)}「{r.kept.album}」
+                {" · "}
+                {tx("removed", "消した")}: {r.removed.map((x) => `${kind(x.album_type)}「${x.album}」`).join(", ")}
+              </div>
+              <div className="t-small muted">
+                {tx("same ISRC", "同一ISRC")}
+                {typeof r.delta_ms === "number" ? ` · Δ${(r.delta_ms / 1000).toFixed(1)}s` : ""}
+                {r.undo_id ? ` · undo ${r.undo_id}` : ""}
+              </div>
+            </span>
+          </div>
+        ))}
+      </div>
+    );
+  }
   if (step === "sort") {
     const rows = detail.sort ?? [];
     if (!rows.length) return <Empty>{tx("No playlists reordered (0).", "並べ替えたプレイリストはありません（0件）。")}</Empty>;
@@ -268,7 +299,7 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
     <ScrollRow className="card table-scroll" variant="surface" ariaLabel={tx("Run history", "実行履歴")}>
       <table className="data-table">
         <thead>
-          <tr><th>{tx("Time", "日時")}</th><th>{tx("Status", "状態")}</th><th>inbox</th><th>sync</th><th>sort</th><th>archive</th></tr>
+          <tr><th>{tx("Time", "日時")}</th><th>{tx("Status", "状態")}</th><th>inbox</th><th>sync</th><th>sort</th><th>dedupe</th><th>archive</th></tr>
         </thead>
         <tbody>
           {recent.map((r, i) => (
@@ -286,6 +317,7 @@ function RunTimeline({ runs }: { runs: RunRecord[] }) {
               <td className="num">{r.steps.inbox.processed}</td>
               <td className="num">+{r.steps.sync.added}/-{r.steps.sync.removed}</td>
               <td className="num">{r.steps.sort.playlists}</td>
+              <td className="num">{(r.steps.dedupe?.deleted ?? 0) ? `−${r.steps.dedupe?.deleted}` : "—"}</td>
               <td className="num">+{r.steps.archive.added}</td>
             </tr>
           ))}

@@ -1,11 +1,23 @@
 // dashboard-design.md §5.3 のデータスキーマに対応する TS 型。
 
 // ステップをタップしたとき出す内訳（どの曲がどこへ動いたか）。無い回もある（旧データ）。
+export interface DedupeChange {
+  name: string;
+  artists?: string[];
+  kept: { album: string; album_type: string };
+  removed: { album: string; album_type: string }[];
+  isrc?: string;
+  delta_ms?: number;
+  undo_id?: string | null;
+}
+
 export interface RunDetail {
   inbox?: { name: string; artist: string; dest: string[] }[];
   sync?: { playlist: string; added: string[]; removed: number }[];
   sort?: { name: string; status: string; count: number }[];
   archive?: { name: string; artists: string[] }[];
+  // 自動整理（同一録音を1曲に畳んだ内訳）。残した版 / 消した版 / undo ID。
+  dedupe?: DedupeChange[];
 }
 
 export interface RunRecord {
@@ -18,6 +30,8 @@ export interface RunRecord {
     sync: { added: number; removed: number; new_playlists: number };
     sort: { playlists: number; skipped: number };
     archive: { added: number };
+    // 旧データには無いので optional。UI は ?? 0 でガードする。
+    dedupe?: { deleted: number; groups: number };
   };
   detail?: RunDetail;
   generated_at: string;

@@ -74,19 +74,29 @@ def test_build_run_record_status():
         "sort": {"playlists": 8, "skipped": 0,
                  "changes": [{"name": "Western Musics", "status": "sorted", "count": 100}]},
         "archive": {"added": 0, "added_tracks": []},
+        "dedupe": {"deleted": 3, "groups": 2, "changes": [
+            {"name": "drunk text", "kept": {"album": "mood swings", "album_type": "album"},
+             "removed": [{"album": "in all of my lonely nights", "album_type": "single"}],
+             "delta_ms": 0, "undo_id": "u1"}]},
     }
     r = sitegen.build_run_record(summaries, 123, "2026-07-15", False)
-    assert r["status"] == "success"
+    assert r["status"] == "success"  # 5ステップ全て揃って成功
     assert r["run_id"] == 123
     assert r["steps"]["inbox"]["western"] == 3
+    assert r["steps"]["dedupe"] == {"deleted": 3, "groups": 2}
     # ステップ内訳がそのまま載る（サイトのモーダル用）
     assert r["detail"]["inbox"][0]["dest"] == ["Japanese Musics"]
     assert r["detail"]["sync"][0]["added"] == ["s1", "s2", "s3"]
     assert r["detail"]["sort"][0]["name"] == "Western Musics"
+    assert r["detail"]["dedupe"][0]["undo_id"] == "u1"
+    # dedupe が欠けたら partial（1ステップでも欠落）
+    assert sitegen.build_run_record({k: {} for k in ("inbox", "sync", "sort", "archive")},
+                                    1, "d", False)["status"] == "partial"
     assert sitegen.build_run_record({"inbox": {}}, 1, "d", False)["status"] == "partial"
     # 旧サマリ（detail 無し）は各ステップ空リストにフォールバックする
     r2 = sitegen.build_run_record({"inbox": {}}, 1, "d", False)
-    assert r2["detail"]["inbox"] == [] and r2["detail"]["sort"] == []
+    assert r2["detail"]["inbox"] == [] and r2["detail"]["dedupe"] == []
+    assert r2["steps"]["dedupe"] == {"deleted": 0, "groups": 0}
 
 
 def test_build_stats_and_search():

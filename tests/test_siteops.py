@@ -14,6 +14,14 @@ class _FakeSp:
 
     def __init__(self, playlists):
         self.playlists = {pid: list(tracks) for pid, tracks in playlists.items()}
+        self.deleted: list[tuple] = []   # me/tracks 経由の削除記録（お気に入り外し）
+
+    def track(self, tid):
+        return {"id": tid, "name": "S", "artists": [{"id": "art", "name": "A"}]}
+
+    def _delete(self, url, **kwargs):
+        # current_user_saved_tracks_delete は定義しない＝旧・壊れた API を呼んだら AttributeError で落ちる
+        self.deleted.append((url, kwargs.get("ids")))
 
     def playlist_items(self, pid, fields=None, additional_types=None, limit=100):
         return {"items": [{"track": t} for t in self.playlists.get(pid, [])], "next": None}
@@ -117,6 +125,63 @@ def test_op_dedupe_trim_rejects_non_tier_a(tmp_path):
     )
     with pytest.raises(siteops.OpError):
         siteops.op_dedupe_trim(sp, tmp_path, {"group_id": "g-1"}, _LOG)
+
+
+def test_apply_removals_deletes_all_playlists_and_is_undoable(tmp_path, monkeypatch):
+    # dedupe-auto が使う共有削除経路: b を全管理 PL から消し、undo で復元できる
+    sp = _FakeSp({"pW": [_mk("a", "GB1"), _mk("b", "GB1")], "pAP": [_mk("b", "GB1")]})
+    monkeypatch.setattr(dedupe, "managed_playlists",
+                        lambda: [{"id": "pW", "name": "W"}, {"id": "pAP", "name": "AP"}])
+
+    undo_id = siteops._apply_removals(sp, tmp_path, [{"track_id": "b", "name": "Song"}], "dedupe-auto", _LOG)
+
+    assert all(t["id"] != "b" for t in sp.playlists["pW"])
+    assert all(t["id"] != "b" for t in sp.playlists["pAP"])
+    rec = json.loads((tmp_path / "undo" / f"{undo_id}.json").read_text())
+    assert rec["op"] == "dedupe-auto"
+    assert set(rec["removed"][0]["playlists"]) == {"pW", "pAP"}
+
+    siteops.op_undo(sp, tmp_path, {"undo_id": undo_id}, _LOG)
+    assert any(t["id"] == "b" for t in sp.playlists["pW"])
+    assert any(t["id"] == "b" for t in sp.playlists["pAP"])
+
+
+def test_apply_removals_noop_when_empty(tmp_path):
+    assert siteops._apply_removals(_FakeSp({}), tmp_path, [], "dedupe-auto", _LOG) is None
+
+
+def test_apply_removals_writes_undo_before_delete(tmp_path, monkeypatch):
+    # 削除途中でクラッシュしても復元できるよう、undo は削除より先に確定されている（§4.4/§5.3）
+    import core
+    sp = _FakeSp({"pW": [_mk("a", "GB1"), _mk("b", "GB1")]})
+    monkeypatch.setattr(dedupe, "managed_playlists", lambda: [{"id": "pW", "name": "W"}])
+
+    def boom(*a, **k):
+        raise RuntimeError("delete failed")
+
+    monkeypatch.setattr(core, "remove_in_batches", boom)
+    with pytest.raises(RuntimeError):
+        siteops._apply_removals(sp, tmp_path, [{"track_id": "b", "name": "Song"}], "dedupe-auto", _LOG)
+    # 削除は失敗したが undo ファイルと undo_index は既に存在する＝復元可能
+    assert len(list((tmp_path / "undo").glob("*.json"))) == 1
+    assert len(json.loads((tmp_path / "undo_index.json").read_text())["entries"]) == 1
+
+
+def test_op_classify_apply_removes_saved_via_me_tracks(tmp_path, monkeypatch):
+    # §8 回帰: お気に入り外しが me/tracks 直叩き（壊れた current_user_saved_tracks_delete を使わない）
+    import classify
+    import inbox
+    (tmp_path / "unknown.json").write_text(
+        json.dumps({"tracks": [{"id": "t1", "name": "S", "artists": ["A"], "isrc": ""}]})
+    )
+    monkeypatch.setattr(inbox, "load_inbox_config", lambda _p: ("jp", "west", {}))
+    monkeypatch.setattr(inbox, "playlist_track_ids", lambda sp, pid: set())
+    monkeypatch.setattr(classify, "load_cache", lambda: {})
+    monkeypatch.setattr(classify, "save_cache", lambda c: None)
+
+    sp = _FakeSp({})
+    siteops.op_classify_apply(sp, tmp_path, {"decisions": [{"track_id": "t1", "class": "western"}]}, _LOG)
+    assert ("me/tracks", "t1") in sp.deleted
 
 
 def _dupes():

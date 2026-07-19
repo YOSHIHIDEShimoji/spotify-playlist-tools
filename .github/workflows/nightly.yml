@@ -50,7 +50,7 @@ jobs:
         env:
           SPOTIFY_TOKEN_CACHE: ${{ secrets.SPOTIFY_TOKEN_CACHE }}
 
-      - name: Run nightly pipeline (inbox -> sync -> sort -> archive)
+      - name: Run nightly pipeline (inbox -> sync -> sort -> dedupe -> archive)
         run: |
           # GitHub Actions のデフォルトシェルは bash -eo pipefail。errexit のままだと
           # パイプが非0を返した時点で exit code 判定前にステップが死ぬため、明示的に無効化する。
@@ -68,6 +68,8 @@ jobs:
           run_step python inbox.py
           run_step python sync.py
           run_step python sort.py --all
+          # 自動整理（同一録音のみ）。inbox→sync→sort で在籍が整った後・undo は data ブランチへ。
+          run_step python dedupe_auto.py --data-dir _data/data
           run_step python archive.py
 
       - name: Commit state files

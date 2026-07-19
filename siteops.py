@@ -106,17 +106,16 @@ def _write_undo(data: Path, record: dict) -> None:
     core.atomic_write_json(data / "undo" / f"{record['id']}.json", record)
 
 
-def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
+def _apply_removals(sp, data: Path, removals: list[dict], op_name: str, logger) -> str | None:
+    """removals（[{track_id, name}]）を全管理プレイリストから同時削除し、undo を先に確定する。
+    dedupe-apply（サイト発）と dedupe-auto（nightly 自動）が共有する唯一の削除経路。
+    返り値: 記録した undo_id（削除対象が無ければ None）。"""
     import dedupe
     import inbox
 
-    dupes = json.loads((data / "dupes.json").read_text())
-    removals = plan_dedupe(dupes, payload.get("decisions", []))
-    if not removals:
-        logger.info("削除対象なし")
-        return
-
     remove_ids = [r["track_id"] for r in removals]
+    if not remove_ids:
+        return None
     managed = dedupe.managed_playlists()
 
     # レビュー M3: 削除前に remove 対象の「実在籍」を全管理プレイリストで取得し undo に記録する。
@@ -134,7 +133,7 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
         {"track_id": r["track_id"], "name": r["name"], "playlists": live.get(r["track_id"], [])}
         for r in removals
     ]
-    undo = {"id": _ts(), "op": "dedupe-apply", "created_at": datetime.now(core.JST).isoformat(),
+    undo = {"id": _ts(), "op": op_name, "created_at": datetime.now(core.JST).isoformat(),
             "removed": undo_removed}
     _write_undo(data, undo)
     _refresh_undo_index(data)  # レビュー L-B: 削除でクラッシュしても取り消せるよう先に index 更新
@@ -145,9 +144,18 @@ def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
     for pl in managed:
         core.remove_in_batches(sp, pl["id"], remove_ids)
     logger.info(f"削除: {len(remove_ids)} 曲を全 {len(managed)} プレイリストから除去")
+    return undo["id"]
 
+
+def op_dedupe_apply(sp, data: Path, payload: dict, logger) -> None:
+    dupes = json.loads((data / "dupes.json").read_text())
+    removals = plan_dedupe(dupes, payload.get("decisions", []))
+    if not removals:
+        logger.info("削除対象なし")
+        return
+    undo_id = _apply_removals(sp, data, removals, "dedupe-apply", logger)
     _regenerate_dupes(sp, data)
-    logger.info(f"完了: undo={undo['id']}")
+    logger.info(f"完了: undo={undo_id}")
 
 
 def _track_positions(sp, playlist_id: str, track_id: str) -> list[int]:
@@ -229,7 +237,7 @@ def op_classify_apply(sp, data: Path, payload: dict, logger) -> None:
         if tid not in existing[dest]:
             core.add_in_batches(sp, dest, [tid])
             existing[dest].add(tid)
-        sp.current_user_saved_tracks_delete([tid])  # お気に入りから外して処理済みに
+        core.remove_saved_in_batches(sp, [tid])  # お気に入りから外して処理済みに（me/tracks 直叩き）
         artist = (track.get("artists") or [{}])[0]
         if artist.get("id"):
             cache[artist["id"]] = {

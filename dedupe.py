@@ -170,6 +170,86 @@ def _album_rank(album_type: str) -> int:
     return {"album": 0, "compilation": 1, "single": 2}.get(album_type, 3)
 
 
+# ─────────────────────── 自動整理（同一録音のみ・安全側） ───────────────────────
+# docs/dedupe-auto-requirements.md の適格判定。手動レビュー対象には絶対に触れないため、
+# 「音が同一と証明できる」ものだけを通す純関数群（テスト対象）。
+
+# 自動 keep 選択の優先順（本人確定 2026-07-19: album > single > compilation）。
+# 表示用の _album_rank（album>compilation>single）とは別物。
+_AUTO_KEEP_RANK = {"album": 0, "single": 1, "compilation": 2}
+_AUTO_MAX_DELTA_MS = 3000  # 同一 ISRC でも秒数差がこれを超えたら別編集の疑いで手動へ
+
+
+def _version_tokens(name: str) -> frozenset:
+    """タイトルに含まれる版差語（feat/with/remix/live/acoustic 等）の集合を返す。
+    NFKC・小文字化してから _VERSION_WORD で拾う。メンバー間でこの集合が食い違えば
+    「版差表記の差がある」＝自動対象外（本人の『feat で重複しているのだけ見たい』）。"""
+    t = unicodedata.normalize("NFKC", name or "").lower()
+    return frozenset(m.lower() for m in _VERSION_WORD.findall(t))
+
+
+def auto_eligible(group: dict, keep_sets: set | None = None,
+                  max_delta_ms: int = _AUTO_MAX_DELTA_MS) -> bool:
+    """group が「自動で1曲に畳んでよい＝音が同一と証明できる」かを判定する。
+    1つでも外れたら False（＝手動レビューへ落とす。フォールバックは常に手動）。"""
+    keep_sets = keep_sets or set()
+    if group.get("tier") != "B":            # ISRC 一致（同一録音）以外は永久に対象外
+        return False
+    tracks = group.get("tracks") or []
+    if len(tracks) < 2:
+        return False
+    durs = [t.get("duration_ms") for t in tracks]
+    if any(d is None for d in durs):        # 秒数不明は安全側で除外
+        return False
+    if max(durs) - min(durs) > max_delta_ms:  # 同一 ISRC でも大きくズレたら別編集の疑い
+        return False
+    if len({_version_tokens(t.get("name", "")) for t in tracks}) != 1:  # 版差語の差
+        return False
+    # 「両方残す(k)」と決めたトラックを1つでも含むグループは自動対象外（§2.4）。
+    # 完全一致だと、keep 済みペア {a,b} に同一 ISRC の3枚目 c が後から加わって
+    # グループが {a,b,c} になった瞬間に照合が外れ、keep したはずの b まで消えてしまう。
+    # だから「交差が1件でもあれば除外」＝あなたの明示的意思を常に最優先する。
+    ids = frozenset(t["id"] for t in tracks)
+    if any(ids & ks for ks in keep_sets):
+        return False
+    return True
+
+
+def _auto_keep_key(t: dict):
+    return (_AUTO_KEEP_RANK.get(t.get("album_type", ""), 9),
+            -(t.get("popularity") or 0),
+            -len(t.get("playlists") or []),
+            t.get("id", ""))
+
+
+def auto_select(groups: list[dict], keep_sets: set | None = None,
+                max_delta_ms: int = _AUTO_MAX_DELTA_MS) -> tuple[list[dict], list[dict]]:
+    """適格グループだけを対象に、残す1曲（album>single>compilation→人気→在籍数→id）を選び、
+    残りを削除対象にする。返り値: (removals, changes)。
+      removals: [{track_id, name}]  … siteops._apply_removals に渡す削除対象
+      changes:  ホームの内訳表示用（残した版 / 消した版 / 秒数差 / undo_id は後で付与）"""
+    removals: list[dict] = []
+    changes: list[dict] = []
+    for g in groups:
+        if not auto_eligible(g, keep_sets, max_delta_ms):
+            continue
+        ranked = sorted(g["tracks"], key=_auto_keep_key)
+        keep_t, rest = ranked[0], ranked[1:]
+        durs = [t.get("duration_ms") or 0 for t in g["tracks"]]
+        for t in rest:
+            removals.append({"track_id": t["id"], "name": t.get("name", "")})
+        changes.append({
+            "name": keep_t.get("name", ""),
+            "artists": keep_t.get("artists", []),
+            "kept": {"album": keep_t.get("album", ""), "album_type": keep_t.get("album_type", "")},
+            "removed": [{"album": t.get("album", ""), "album_type": t.get("album_type", "")} for t in rest],
+            "isrc": keep_t.get("isrc", ""),
+            "delta_ms": max(durs) - min(durs),
+            "undo_id": None,
+        })
+    return removals, changes
+
+
 def _track_view(r: dict) -> dict:
     album = r.get("album") or {}
     return {
@@ -247,7 +327,9 @@ def dupes_from_records(records: list[dict], intra: dict, keep_sets: set | None =
 
 
 def load_keep_sets(data_dir) -> set:
-    """dedupe_keep.json から「両方残す」トラック ID 集合の集合を読む。"""
+    """dedupe_keep.json から「両方残す」トラック ID 集合の集合を読む。
+    表示・スキャン用は fail-open（壊れても空で続行）。自動削除の可否は別途
+    keep_file_readable() で fail-closed 判定すること（保護を落としたまま消さないため）。"""
     from pathlib import Path
 
     path = Path(data_dir) / "dedupe_keep.json"
@@ -260,6 +342,24 @@ def load_keep_sets(data_dir) -> set:
     except (OSError, ValueError):
         return set()
     return {frozenset(g.get("track_ids", [])) for g in raw.get("groups", [])}
+
+
+def keep_file_readable(data_dir) -> bool:
+    """dedupe_keep.json が「無い（＝空で正常）」か「読めて JSON として妥当」なら True。
+    存在するのに壊れている場合だけ False。自動整理は False のとき実行を諦める
+    （保護（両方残す）を保証できないまま削除しないための fail-closed ゲート）。"""
+    from pathlib import Path
+
+    path = Path(data_dir) / "dedupe_keep.json"
+    if not path.exists():
+        return True
+    try:
+        import json
+
+        json.loads(path.read_text())
+        return True
+    except (OSError, ValueError):
+        return False
 
 
 def managed_playlists() -> list[dict]:

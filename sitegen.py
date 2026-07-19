@@ -218,16 +218,20 @@ def playlist_count_rows(records: list[dict], playlists: list[dict], date_str: st
 
 # ─────────────────────────── 実行サマリ（純関数） ───────────────────────────
 
+_RUN_STEPS = ("inbox", "sync", "sort", "archive", "dedupe")
+
+
 def build_run_record(summaries: dict, run_id, date_str: str, dry_run: bool) -> dict:
     inbox = summaries.get("inbox", {})
     sync = summaries.get("sync", {})
     sort = summaries.get("sort", {})
     archive = summaries.get("archive", {})
-    present = [k for k in ("inbox", "sync", "sort", "archive") if k in summaries]
+    dedupe_s = summaries.get("dedupe", {})
+    present = [k for k in _RUN_STEPS if k in summaries]
     return {
         "date": date_str,
         "run_id": run_id,
-        "status": "success" if len(present) == 4 else "partial",
+        "status": "success" if len(present) == len(_RUN_STEPS) else "partial",
         "dry_run": dry_run,
         "steps": {
             "inbox": {
@@ -243,6 +247,8 @@ def build_run_record(summaries: dict, run_id, date_str: str, dry_run: bool) -> d
             },
             "sort": {"playlists": sort.get("playlists", 0), "skipped": sort.get("skipped", 0)},
             "archive": {"added": archive.get("added", 0)},
+            # 自動整理（同一録音のみ）。消した曲数とグループ数。
+            "dedupe": {"deleted": dedupe_s.get("deleted", 0), "groups": dedupe_s.get("groups", 0)},
         },
         # 各ステップの内訳（サイトでステップをタップすると「どの曲がどこへ動いたか」を出す）。
         # 長くなり過ぎないよう各リストは上限を設ける。ステップが何もしていなければ空リスト。
@@ -251,6 +257,8 @@ def build_run_record(summaries: dict, run_id, date_str: str, dry_run: bool) -> d
             "sync": sync.get("changes", [])[:100],
             "sort": sort.get("changes", [])[:100],
             "archive": archive.get("added_tracks", [])[:200],
+            # 自動整理の内訳: 残した版 / 消した版 / 秒数差 / undo ID。
+            "dedupe": dedupe_s.get("changes", [])[:100],
         },
         "generated_at": _now_utc_iso(),
     }
