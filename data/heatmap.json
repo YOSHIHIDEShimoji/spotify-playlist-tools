@@ -1,6 +1,11 @@
 {
   "cells": [
     {
+      "count": 1,
+      "dow": 0,
+      "hour": 0
+    },
+    {
       "count": 15,
       "dow": 4,
       "hour": 17
@@ -99,7 +104,47 @@
       "count": 2,
       "dow": 6,
       "hour": 6
+    },
+    {
+      "count": 9,
+      "dow": 6,
+      "hour": 13
+    },
+    {
+      "count": 6,
+      "dow": 6,
+      "hour": 15
+    },
+    {
+      "count": 16,
+      "dow": 6,
+      "hour": 16
+    },
+    {
+      "count": 7,
+      "dow": 6,
+      "hour": 17
+    },
+    {
+      "count": 2,
+      "dow": 6,
+      "hour": 18
+    },
+    {
+      "count": 6,
+      "dow": 6,
+      "hour": 19
+    },
+    {
+      "count": 1,
+      "dow": 6,
+      "hour": 20
+    },
+    {
+      "count": 10,
+      "dow": 6,
+      "hour": 23
     }
   ],
-  "generated_at": "2026-07-19T05:34:22.697204+00:00"
+  "generated_at": "2026-07-19T16:47:25.018839+00:00"
 }

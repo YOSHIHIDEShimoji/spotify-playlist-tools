@@ -2,9 +2,9 @@
   "counts": {
     "A": 0,
     "B": 2,
-    "C": 3
+    "C": 2
   },
-  "generated_at": "2026-07-19T05:34:31.045882+00:00",
+  "generated_at": "2026-07-19T16:47:32.764437+00:00",
   "groups": [
     {
       "id": "g-9fcc76608516",
@@ -165,62 +165,6 @@
           ],
           "popularity": 42,
           "release_date": "2023-05-12"
-        }
-      ]
-    },
-    {
-      "id": "g-0604e20a7fdc",
-      "reason": "title",
-      "tier": "C",
-      "tracks": [
-        {
-          "album": "Human (Deluxe)",
-          "album_type": "album",
-          "artists": [
-            "OneRepublic"
-          ],
-          "duration_ms": 168259,
-          "id": "6KL88T4Ma4ABXqzgUoEwkd",
-          "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-          "isrc": "USUM72004315",
-          "name": "Run",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "1PVdmHB8QhiTk22VKts2oA",
-              "name": "onerepublic"
-            }
-          ],
-          "popularity": 76,
-          "release_date": "2021-08-27"
-        },
-        {
-          "album": "Run (with Mariah Angeliq) [Latin Version]",
-          "album_type": "single",
-          "artists": [
-            "OneRepublic",
-            "Mariah Angeliq"
-          ],
-          "duration_ms": 136133,
-          "id": "0RpCZ17BXI0x8b14UFrgDQ",
-          "image": "https://i.scdn.co/image/ab67616d00004851cb93f7c938129eb2cc8afd36",
-          "isrc": "USUM72112880",
-          "name": "Run (with Mariah Angeliq) - Latin Version",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "1PVdmHB8QhiTk22VKts2oA",
-              "name": "onerepublic"
-            }
-          ],
-          "popularity": 36,
-          "release_date": "2021-07-23"
         }
       ]
     },
