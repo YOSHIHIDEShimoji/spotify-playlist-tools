@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T22:21:58.782502+00:00",
+  "generated_at": "2026-07-19T05:26:53.091405+00:00",
   "items": [
     {
       "album_id": "6pHEI6UgQrfYkCW6K0irla",
@@ -35,17 +35,6 @@
       "release_date": "2026-07-17"
     },
     {
-      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
-      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
-      "album_type": "album",
-      "artist": "Descendants – Cast",
-      "artist_id": "4J79AY6Z2927FTTAgHChuv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
       "album_id": "4BZydSQMfJNphTFZzyIxh5",
       "album_name": "Daughter from Hell",
       "album_type": "album",
@@ -53,6 +42,17 @@
       "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
+      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Descendants – Cast",
+      "artist_id": "4J79AY6Z2927FTTAgHChuv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -68,17 +68,6 @@
       "release_date": "2026-07-17"
     },
     {
-      "album_id": "5HHOA8rO74KsoAnKv85MXS",
-      "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
-      "album_type": "album",
-      "artist": "OFFICIAL HIGE DANDISM",
-      "artist_id": "5Vo1hnCRmCM6M4thZCInCj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851d6cee70d808284182149685b",
-      "is_new": false,
-      "release_date": "2026-07-15"
-    },
-    {
       "album_id": "2et7q2u7h9RYelRR24tCPQ",
       "album_name": "かげろう",
       "album_type": "single",
@@ -86,6 +75,17 @@
       "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485163567c526abb91aa4a7ca589",
+      "is_new": false,
+      "release_date": "2026-07-15"
+    },
+    {
+      "album_id": "5HHOA8rO74KsoAnKv85MXS",
+      "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
+      "album_type": "album",
+      "artist": "OFFICIAL HIGE DANDISM",
+      "artist_id": "5Vo1hnCRmCM6M4thZCInCj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851d6cee70d808284182149685b",
       "is_new": false,
       "release_date": "2026-07-15"
     },
@@ -112,24 +112,13 @@
       "release_date": "2026-07-13"
     },
     {
-      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
-      "album_name": "Dedication",
+      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
+      "album_name": "juliet",
       "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "artist": "JVKE",
+      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485111513abcefecff5c5b50044c",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "1aKVX5Eiql11CnPwUYgRXW",
-      "album_name": "Assassin's Creed Black Flag: Resynced (Original Game Soundtrack)",
-      "album_type": "album",
-      "artist": "Stephen Lukach",
-      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d877f92b59e16dfff4e50d3a",
+      "image": "https://i.scdn.co/image/ab67616d0000485167b60d1886c070b25e57df93",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -145,35 +134,13 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
-      "album_name": "juliet",
+      "album_id": "2nOFbs0Q59D6M1Swr1MbTk",
+      "album_name": "TOKA",
       "album_type": "single",
-      "artist": "JVKE",
-      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+      "artist": "Dhurata Dora",
+      "artist_id": "6t7U7sYlVCtlMWzbecJcHd",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485167b60d1886c070b25e57df93",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
-      "album_name": "Joven y Salvaje (with Bb trickz)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851622746b637048741b093c7b0",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
-      "album_name": "Moana (Original Score)",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e28482f95e3efe9fe4d59cc9",
+      "image": "https://i.scdn.co/image/ab67616d0000485154d607b62c5c2f117062b29b",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -189,13 +156,13 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
-      "album_name": "サンダーボルト",
-      "album_type": "single",
-      "artist": "Yuuri",
-      "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851ad30451cb8e45b83ea3d4e72",
+      "album_id": "1aKVX5Eiql11CnPwUYgRXW",
+      "album_name": "Assassin's Creed Black Flag: Resynced (Original Game Soundtrack)",
+      "album_type": "album",
+      "artist": "Stephen Lukach",
+      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d877f92b59e16dfff4e50d3a",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -211,24 +178,35 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "2nOFbs0Q59D6M1Swr1MbTk",
-      "album_name": "TOKA",
+      "album_id": "2mG7Jq4OnkQdpmemAmtXAQ",
+      "album_name": "Body So Tea",
       "album_type": "single",
-      "artist": "Dhurata Dora",
-      "artist_id": "6t7U7sYlVCtlMWzbecJcHd",
+      "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485154d607b62c5c2f117062b29b",
+      "image": "https://i.scdn.co/image/ab67616d00004851d95c42a7ccdb1560cd624ab4",
       "is_new": false,
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "0V3YKC3QI5P1sAjM4csXju",
-      "album_name": "Take Me Back",
+      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
+      "album_name": "Joven y Salvaje (with Bb trickz)",
       "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513038bbb448472f7aa59dc0ae",
+      "image": "https://i.scdn.co/image/ab67616d00004851622746b637048741b093c7b0",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "1iShXaXcWgFIuCEYn4gqyD",
+      "album_name": "サンダーボルト",
+      "album_type": "single",
+      "artist": "Yuuri",
+      "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851ad30451cb8e45b83ea3d4e72",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -244,13 +222,35 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "2mG7Jq4OnkQdpmemAmtXAQ",
-      "album_name": "Body So Tea",
+      "album_id": "0V3YKC3QI5P1sAjM4csXju",
+      "album_name": "Take Me Back",
       "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d95c42a7ccdb1560cd624ab4",
+      "image": "https://i.scdn.co/image/ab67616d000048513038bbb448472f7aa59dc0ae",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
+      "album_name": "Moana (Original Score)",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e28482f95e3efe9fe4d59cc9",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
+      "album_name": "Dedication",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485111513abcefecff5c5b50044c",
       "is_new": false,
       "release_date": "2026-07-10"
     },

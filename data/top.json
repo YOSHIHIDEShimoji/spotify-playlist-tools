@@ -341,43 +341,43 @@
         "rank": 7
       },
       {
-        "id": "6VuMaDnrHyPL1p4EHjYLi7",
-        "name": "Charlie Puth",
-        "rank": 8
-      },
-      {
         "id": "6eUKZXaKkcviH0Ku9w2n3V",
         "name": "Ed Sheeran",
-        "rank": 9
+        "rank": 8
       },
       {
         "id": "7hr9W3IjXcm3UlLY7guLk5",
         "name": "Henry Moodie",
-        "rank": 10
+        "rank": 9
       },
       {
-        "id": "3FUY2gzHeIiaesXtOAdB7A",
-        "name": "Train",
-        "rank": 11
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "rank": 10
       },
       {
         "id": "23fqKkggKUBHNkbKtXEls4",
         "name": "Kygo",
-        "rank": 12
+        "rank": 11
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 13
+        "rank": 12
       },
       {
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
-        "rank": 14
+        "rank": 13
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
+        "rank": 14
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
         "rank": 15
       },
       {
@@ -406,23 +406,23 @@
         "rank": 20
       },
       {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "rank": 21
+      },
+      {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 22
+        "rank": 23
       },
       {
         "id": "3dRfiJ2650SZu6GbydcHNb",
         "name": "John Williams",
-        "rank": 23
-      },
-      {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
         "rank": 24
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-18T22:21:12.294353+00:00",
+  "generated_at": "2026-07-19T05:26:05.172129+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1113,23 +1113,13 @@
       },
       {
         "artists": [
-          "Kygo",
-          "OneRepublic"
-        ],
-        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
-        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-        "name": "Stranger Things (feat. OneRepublic)",
-        "rank": 12
-      },
-      {
-        "artists": [
           "Galantis",
           "OneRepublic"
         ],
         "id": "53Ji6ZvVjsBl4pIuiETfhN",
         "image": "https://i.scdn.co/image/ab67616d00004851b3e70fb498006743b7412305",
         "name": "Bones (feat. OneRepublic)",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1140,7 +1130,7 @@
         "id": "7MYLHLCf0YWR4TVs3owDny",
         "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
         "name": "Fire - Official UEFA EURO 2024 Song",
-        "rank": 14
+        "rank": 13
       },
       {
         "artists": [
@@ -1149,7 +1139,7 @@
         "id": "2e42fb37LVhtCOescNb1yN",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Everybody Loves Me",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -1158,7 +1148,7 @@
         "id": "3IQF4xCQUPicbA4hWfTxPo",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "I Lived",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -1167,7 +1157,7 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1177,7 +1167,7 @@
         "id": "331l3xABO0HMr1Kkyh2LZq",
         "image": "https://i.scdn.co/image/ab67616d000048517ce51d1a9049162e7e2fcf60",
         "name": "I Don't Wanna Wait",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -1186,7 +1176,7 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
-        "rank": 19
+        "rank": 18
       },
       {
         "artists": [
@@ -1196,7 +1186,7 @@
         "id": "0xSjAuPhm9tJXX2nRt2Avv",
         "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
         "name": "Chasing Paradise",
-        "rank": 20
+        "rank": 19
       },
       {
         "artists": [
@@ -1205,7 +1195,7 @@
         "id": "1B7Vir1E4FcFPP5tUzDSmR",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "West Coast",
-        "rank": 21
+        "rank": 20
       },
       {
         "artists": [
@@ -1214,7 +1204,7 @@
         "id": "2gPWnjEtKZaCcEXRlH9yT4",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Distance - from One Night In Malibu",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -1224,7 +1214,7 @@
         "id": "3ScJy88F8KqGDfWu8XJhHx",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 23
+        "rank": 22
       },
       {
         "artists": [
@@ -1233,6 +1223,16 @@
         "id": "48s0QHJgmiNsth3WEO6U4M",
         "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
         "name": "Stop And Stare",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
+        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
+        "name": "Stranger Things (feat. OneRepublic)",
         "rank": 24
       },
       {
