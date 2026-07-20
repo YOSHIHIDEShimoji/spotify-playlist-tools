@@ -65,3 +65,12 @@ export function monthDay(iso: string, lang: Lang): string {
   const day = Number(m[3]);
   return lang === "ja" ? `${mo}月${day}日` : `${MONTH_EN[mo - 1]} ${day}`;
 }
+
+/** "YYYY-MM…" → ja "YYYY年M月" / en "Mon YYYY"。生涯履歴のように年をまたぐ起点の表示用。 */
+export function monthYear(iso: string, lang: Lang): string {
+  const m = /^(\d{4})-(\d{2})/.exec(iso);
+  if (!m) return iso;
+  const year = Number(m[1]);
+  const mo = Number(m[2]);
+  return lang === "ja" ? `${year}年${mo}月` : `${MONTH_EN[mo - 1]} ${year}`;
+}

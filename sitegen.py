@@ -16,6 +16,8 @@ Usage:
 """
 
 import argparse
+import gzip
+import json
 import os
 import sys
 from collections import Counter
@@ -664,11 +666,33 @@ def _scrobbles_to_records(scrobbles: list[dict], resolver: dict) -> list[dict]:
     return out
 
 
-def _listening_records(data: Path) -> list[dict]:
-    """聴取統計の元レコードを返す。Last.fm scrobble があればそれを正とし（50件制約なし）、
-    scrobble が覆う期間の外側（連携前の先行分・連携停止後の穴）だけ自前 recently-played ログで
-    補完する（重複計上を避けつつ、Last.fm 障害時のフォールバックも兼ねる）。scrobble が無ければ
-    従来どおり自前ログを使う。"""
+def _load_history(history_dir: Path) -> list[dict]:
+    """import_history.py が書く拡張ストリーミング履歴（<data>/history/*.jsonl.gz）を全部読む。
+    gz でも素の .jsonl でも読めるようにしておく（将来 gz をやめても壊れない）。"""
+    records: list[dict] = []
+    if not history_dir.exists():
+        return records
+    for p in sorted(history_dir.glob("*.jsonl.gz")):
+        try:
+            with gzip.open(p, "rt", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if line:
+                        try:
+                            records.append(json.loads(line))
+                        except json.JSONDecodeError:
+                            continue
+        except OSError:
+            continue
+    for p in sorted(history_dir.glob("*.jsonl")):
+        records.extend(core.read_jsonl(p))
+    return records
+
+
+def _live_listening_records(data: Path) -> list[dict]:
+    """going-forward の聴取レコード（Last.fm scrobble ＋ 自前 recently-played ログ）を返す。
+    Last.fm scrobble があればそれを正とし（50件制約なし）、scrobble が覆う期間の外側
+    （連携前の先行分・連携停止後の穴）だけ自前ログで補完する。scrobble が無ければ自前ログのみ。"""
     scrobbles = _load_all_scrobbles(data / "scrobbles")
     if not scrobbles:
         return _load_all_listening(data / "listening")
@@ -688,6 +712,37 @@ def _listening_records(data: Path) -> list[dict]:
             if t < lo or t > hi:  # scrobble 未カバー期間（連携前／停止後）だけ補完
                 records.append(r)
     return records
+
+
+def _listening_records(data: Path) -> list[dict]:
+    """聴取統計の元レコードを返す。
+
+    拡張ストリーミング履歴（history/*.jsonl.gz・2019〜エクスポート日）があればそれを生涯の土台とし、
+    その最終再生より後の分だけ going-forward ソース（scrobble/自前ログ）で継ぎ足す。history が
+    連続した1ブロック（2019→エクスポート日）で穴が無いため、末尾以降だけ足せば二重計上は起きない。
+    history が無ければ従来どおり going-forward ソースだけを使う。"""
+    history = _load_history(data / "history")
+    live = _live_listening_records(data)
+    if not history:
+        return live
+    cutoff = max(
+        (core.parse_iso(r["played_at"]) for r in history if r.get("played_at")),
+        default=None,
+    )
+    if cutoff is None:
+        return live
+    tail: list[dict] = []
+    for r in live:
+        pa = r.get("played_at")
+        if not pa:
+            continue
+        try:
+            t = core.parse_iso(pa)
+        except (ValueError, TypeError):
+            continue
+        if t > cutoff:  # 履歴エクスポート後の新しい再生だけ継ぎ足す
+            tail.append(r)
+    return history + tail
 
 
 def write_undo_index(data: Path, keep_days: int = 30) -> None:

@@ -258,3 +258,69 @@ def test_listening_records_falls_back_to_selflog(tmp_path):
     core.append_jsonl(tmp_path / "listening" / "2026-07.jsonl", [_rec("2026-07-17T10:00:00Z", "x")])
     # scrobbles ディレクトリ無し → 自前ログにフォールバック
     assert [r["track_id"] for r in sitegen._listening_records(tmp_path)] == ["x"]
+
+
+def _write_history_gz(history_dir, records):
+    import gzip
+    import json
+
+    history_dir.mkdir(parents=True, exist_ok=True)
+    by_year = {}
+    for r in records:
+        by_year.setdefault(r["played_at"][:4], []).append(r)
+    for year, recs in by_year.items():
+        with gzip.open(history_dir / f"{year}.jsonl.gz", "wt", encoding="utf-8") as f:
+            for rec in recs:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
+def test_load_history_reads_gz(tmp_path):
+    _write_history_gz(tmp_path / "history", [
+        _rec("2019-09-05T13:00:00Z", "h1"),
+        _rec("2020-01-01T00:00:00Z", "h2"),
+    ])
+    ids = sorted(r["track_id"] for r in sitegen._load_history(tmp_path / "history"))
+    assert ids == ["h1", "h2"]
+
+
+def test_load_history_absent_is_empty(tmp_path):
+    assert sitegen._load_history(tmp_path / "history") == []
+
+
+def test_load_history_reads_plain_jsonl_too(tmp_path):
+    # gz をやめても壊れないフォールバック分岐（素 .jsonl）を保証する
+    (tmp_path / "history").mkdir()
+    core.append_jsonl(tmp_path / "history" / "2019.jsonl", [_rec("2019-09-05T13:00:00Z", "plain")])
+    assert [r["track_id"] for r in sitegen._load_history(tmp_path / "history")] == ["plain"]
+
+
+def test_listening_records_uses_history_as_base_and_only_appends_tail(tmp_path):
+    # 生涯履歴（2019〜2026-07-18）
+    _write_history_gz(tmp_path / "history", [
+        _rec("2019-09-05T13:00:00Z", "hist_old"),
+        _rec("2026-07-18T21:00:00Z", "hist_last"),  # 履歴の末尾（cutoff）
+    ])
+    # going-forward の自前ログ: cutoff より前は履歴と二重計上しないため無視、後だけ継ぎ足す
+    (tmp_path / "listening").mkdir()
+    core.append_jsonl(tmp_path / "listening" / "2026-07.jsonl", [
+        _rec("2026-07-10T10:00:00Z", "live_before"),   # 履歴が覆う期間 → 無視
+        _rec("2026-07-18T21:00:00Z", "live_eq"),        # cutoff と同時刻（== 境界）→ 無視（二重計上の継ぎ目）
+        _rec("2026-07-19T10:00:00Z", "live_tail"),      # cutoff より後 → 継ぎ足す
+    ])
+    ids = [r["track_id"] for r in sitegen._listening_records(tmp_path)]
+    # 継ぎ目 == cutoff は必ず除外（`>` を `>=` に緩めるとここで落ちる）。件数も固定して二重計上を面で検出。
+    assert sorted(ids) == ["hist_last", "hist_old", "live_tail"]
+    assert ids.count("hist_last") == 1  # history が二重連結されない
+
+
+def test_listening_records_history_prefers_scrobble_tail(tmp_path):
+    _write_history_gz(tmp_path / "history", [_rec("2026-07-18T21:00:00Z", "hist_last")])
+    # scrobble がある場合も cutoff より後のものだけ継ぎ足す
+    (tmp_path / "scrobbles").mkdir()
+    core.append_jsonl(tmp_path / "scrobbles" / "2026-07.jsonl", [
+        {"played_at": "2026-07-18T10:00:00+00:00", "uts": 1, "name": "old", "artist": "X", "image": None},
+        {"played_at": "2026-07-20T10:00:00+00:00", "uts": 2, "name": "new", "artist": "Y", "image": None},
+    ])
+    names = [r.get("name") for r in sitegen._listening_records(tmp_path)]
+    assert "new" in names        # cutoff 後の scrobble は入る
+    assert "old" not in names    # cutoff 前の scrobble は履歴側が正なので入らない

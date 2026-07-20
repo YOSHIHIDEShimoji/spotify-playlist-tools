@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .vercel
+# Spotify のデータエクスポート（個人の生の再生ログ＝public リポに絶対コミットしない）
+Spotify Extended Streaming History/
+data/streaming_history/

@@ -6,7 +6,7 @@ import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayButton, PlayIcon, TrackPlayButton, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
-import { dowLabels, monthDay, useLang, useT } from "../lib/i18n";
+import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
 
 const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
@@ -120,7 +120,7 @@ export function StatsPage() {
   );
 }
 
-/** よく聴いた曲: 今週 / 累計（計測開始から）をトグルで切り替える。累計は cumulative_top。
+/** よく聴いた曲: 今週 / 生涯（拡張履歴＝2019〜）をトグルで切り替える。累計は cumulative_top。
  * アルバムアートは search_index から曲IDで補完する（管理プレイリストに在る曲は必ず出る）。 */
 function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
   const tx = useT();
@@ -133,15 +133,15 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
   );
   if (loading) return <Loading />;
   const rows: RankedTrack[] = range === "week" ? (listen?.weekly_top ?? []) : (listen?.cumulative_top ?? []);
-  const since = range === "all" && listen?.since ? monthDay(listen.since, lang) : null;
-  // キャプションは今週/記録全体どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
-  // 「記録全体」は計測開始からの全再生であって生涯履歴ではない旨を明示する（誤解防止）。
+  const since = range === "all" && listen?.since ? monthYear(listen.since, lang) : null;
+  // キャプションは今週/生涯どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
+  // 「生涯」は拡張ストリーミング履歴を取り込んだ 2019 以降の全再生（recently-played の50件制約に縛られない）。
   const caption =
     range === "week"
       ? tx("Plays this calendar week (Mon–Sun).", "今週（月〜日）の再生。")
       : since
-        ? tx(`All plays since ${since}, when logging started — not your full history yet.`, `${since}の計測開始からの全再生。まだ全期間の履歴ではありません。`)
-        : tx("All logged plays so far — not your full history yet.", "これまでに記録した全再生。まだ全期間の履歴ではありません。");
+        ? tx(`Every play since ${since} — your full listening history.`, `${since}からの全再生（生涯の全履歴）。`)
+        : tx("Your full listening history.", "生涯の全再生。");
 
   return (
     <>
@@ -150,7 +150,7 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
           {tx("This week", "今週")}
         </button>
         <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
-          {tx("All logged", "記録全体")}
+          {tx("All-time", "生涯")}
         </button>
       </div>
       <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>{caption}</p>
@@ -162,8 +162,8 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
                 "聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。",
               )
             : tx(
-                "Your all-time most-played tracks build up here as listening data accumulates (collected every 3 hours).",
-                "聴取ログが貯まるほど、計測開始からの累計でよく聴いた曲がここに出ます（3時間ごとに収集）。",
+                "Your all-time most-played tracks, from your full listening history, appear here.",
+                "生涯の全再生から集計した、いちばん聴いた曲がここに出ます。",
               )}
         </Empty>
       ) : (
