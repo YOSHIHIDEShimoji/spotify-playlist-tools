@@ -30,6 +30,7 @@ import dedupe
 STATS_ARTIST_TOP = 30
 CUMULATIVE_TOP = 100
 WEEKLY_TOP = 50
+WRAPPED_TOP = 20
 MILESTONES = [100, 250, 500, 1000, 2500, 5000, 10000]
 
 # stats タブで選択できる「完成済み」プレイリスト。管理対象（夜間更新）ではないので
@@ -114,8 +115,8 @@ def monthly_wrapped(records: list[dict], month: str, new_tracks: int = 0) -> dic
     return {
         "month": month,
         "plays": len(recs),
-        "top_tracks": cumulative_ranking(recs, 10),
-        "top_artists": [{"name": n, "count": c} for n, c in artist_counts.most_common(10)],
+        "top_tracks": cumulative_ranking(recs, WRAPPED_TOP),
+        "top_artists": [{"name": n, "count": c} for n, c in artist_counts.most_common(WRAPPED_TOP)],
         "new_tracks": new_tracks,
         "peak": {"dow": peak[0], "hour": peak[1]} if peak else None,
     }
@@ -486,11 +487,15 @@ def main() -> int:
     })
     core.atomic_write_json(data / "heatmap.json", {"generated_at": _now_utc_iso(), "cells": heatmap_cells(records)})
 
-    # 月末なら wrapped
+    # 月末なら wrapped（進行中の当月・new_tracks は nightly の runs.jsonl 由来＝inbox 追加数）
     if (now_jst + timedelta(days=1)).month != now_jst.month:
         month = now_jst.strftime("%Y-%m")
         new_tracks = _month_new_tracks(data / "runs.jsonl", month)
         core.atomic_write_json(data / "wrapped" / f"{month}.json", monthly_wrapped(records, month, new_tracks))
+
+    # 過去の完了済み月で wrapped が無いものを埋める（拡張履歴の取り込みで新たに遡れるようになった分・
+    # 冪等＝既存ファイルはスキップするので毎晩ほぼ無コスト。当月（進行中）は上のブロックに任せて対象外）。
+    _backfill_wrapped(data, records, now_jst)
 
     # 静的サイトはディレクトリ列挙できないので、undo と wrapped のインデックスを出す（H5・M3）
     write_undo_index(data)
@@ -779,6 +784,39 @@ def _write_wrapped_index(data: Path) -> None:
     if wrapped_dir.exists():
         months = sorted((p.stem for p in wrapped_dir.glob("*.json") if p.stem != "index"), reverse=True)
     core.atomic_write_json(data / "wrapped" / "index.json", {"months": months})
+
+
+def _first_play_months(records: list[dict]) -> dict[str, str]:
+    """track_id → その曲を最初に聴いた月（JST 'YYYY-MM'）。過去分 wrapped の new_tracks 算出に使う。"""
+    first: dict[str, str] = {}
+    for r in records:
+        tid, pa = r.get("track_id"), r.get("played_at")
+        if not tid or not pa:
+            continue
+        m = core.to_jst(pa).strftime("%Y-%m")
+        if tid not in first or m < first[tid]:
+            first[tid] = m
+    return first
+
+
+def _backfill_wrapped(data: Path, records: list[dict], now_jst: datetime) -> None:
+    """履歴が覆う過去月のうち wrapped/YYYY-MM.json が無いものを埋める（拡張履歴の取り込みで
+    新たに遡れるようになった分）。当月（進行中）は対象外＝上の月末ブロックに任せる。冪等（既存は
+    スキップ）なので拡張履歴が無い環境でも無害・毎晩ほぼ無コスト。new_tracks は「その曲をライブラリ
+    運用で追加した数」（当月ブロックの _month_new_tracks・runs.jsonl 由来）が過去分には無いため、
+    代わりに「その月に初めて聴いた曲の数」を使う（全期間データからのみ求まる、より汎用的な代替指標）。"""
+    if not records:
+        return
+    current_month = now_jst.strftime("%Y-%m")
+    months_present = sorted({
+        core.to_jst(r["played_at"]).strftime("%Y-%m") for r in records if r.get("played_at")
+    })
+    pending = [m for m in months_present if m < current_month and not (data / "wrapped" / f"{m}.json").exists()]
+    if not pending:
+        return
+    new_counts = Counter(_first_play_months(records).values())
+    for month in pending:
+        core.atomic_write_json(data / "wrapped" / f"{month}.json", monthly_wrapped(records, month, new_counts.get(month, 0)))
 
 
 def _month_new_tracks(runs_path: Path, month: str) -> int:

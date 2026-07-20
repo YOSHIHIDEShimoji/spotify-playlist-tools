@@ -1,9 +1,9 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useJson } from "../lib/data";
 import type { ArchiveWeekly, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { TrackPlayButton } from "../lib/player";
-import { dowLabels, useLang, useT } from "../lib/i18n";
+import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
 
 // 曲ID → アルバムアート URL。search_index から補完する（管理プレイリストに在る曲は必ず出る）。
 function useTrackImages(): Map<string, string | null> {
@@ -124,12 +124,17 @@ export function Memories() {
   );
 }
 
+/** 月間 Wrapped のナビゲーション。months は新しい順（[0]=最新）。Prev/Next で1ヶ月ずつ、
+ * ドロップダウンで任意の月へ直接ジャンプできる（拡張履歴の取り込みで 2019年まで遡れるようになったため、
+ * ボタン連打だけに頼らない導線を用意する）。 */
 function WrappedBlock() {
   const tx = useT();
+  const { lang } = useLang();
   const idx = useJson<WrappedIndex>("wrapped/index");
+  const [at, setAt] = useState(0);
   if (idx.loading) return <Loading />;
-  const month = idx.data?.months?.[0];
-  if (!month)
+  const months = idx.data?.months ?? [];
+  if (months.length === 0)
     return (
       <Empty>
         {tx(
@@ -138,7 +143,33 @@ function WrappedBlock() {
         )}
       </Empty>
     );
-  return <WrappedMonth month={month} />;
+  const i = Math.min(at, months.length - 1);
+  const month = months[i];
+  return (
+    <>
+      <div className="row" style={{ alignItems: "center", gap: "var(--sp-2)", marginBottom: "var(--sp-3)", flexWrap: "wrap" }}>
+        <button className="pill" disabled={i === 0} onClick={() => setAt(i - 1)}>
+          {tx("← Newer", "← 新しい月")}
+        </button>
+        <select
+          className="input-search"
+          value={month}
+          onChange={(e) => setAt(months.indexOf(e.target.value))}
+          aria-label={tx("Jump to month", "月を選ぶ")}
+        >
+          {months.map((m) => (
+            <option key={m} value={m}>
+              {monthYear(m, lang)}
+            </option>
+          ))}
+        </select>
+        <button className="pill" disabled={i === months.length - 1} onClick={() => setAt(i + 1)}>
+          {tx("Older →", "古い月 →")}
+        </button>
+      </div>
+      <WrappedMonth month={month} />
+    </>
+  );
 }
 
 function WrappedMonth({ month }: { month: string }) {

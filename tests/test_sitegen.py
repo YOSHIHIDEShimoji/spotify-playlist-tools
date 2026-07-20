@@ -65,6 +65,67 @@ def test_monthly_wrapped():
     assert w["top_tracks"][0]["track_id"] == "t1"
 
 
+def test_monthly_wrapped_top_tracks_and_artists_not_capped_at_ten():
+    # WRAPPED_TOP=20: 25曲の月で先頭20件だけ（15や100など別の値では緑にならないよう両端を固定）
+    recs = [_rec(f"2026-07-{d:02d}T02:00:00Z", f"t{d}", artists=[{"id": f"a{d}", "name": f"A{d}"}]) for d in range(1, 26)]
+    w = sitegen.monthly_wrapped(recs, "2026-07")
+    assert len(w["top_tracks"]) == sitegen.WRAPPED_TOP == 20
+    assert len(w["top_artists"]) == sitegen.WRAPPED_TOP == 20
+
+
+def test_first_play_months_uses_earliest_play_per_track():
+    recs = [
+        # t1: 後ろの行のほうが早い月（到着順ではなく本当の最小月を選ぶこと・"or m < first[tid]" の検証）
+        _rec("2020-03-01T00:00:00Z", "t1"),
+        _rec("2020-01-15T00:00:00Z", "t1"),
+        _rec("2021-06-01T00:00:00Z", "t2"),
+    ]
+    fm = sitegen._first_play_months(recs)
+    assert fm == {"t1": "2020-01", "t2": "2021-06"}
+
+
+def test_backfill_wrapped_fills_past_months_only_and_is_idempotent(tmp_path):
+    now = datetime(2026, 7, 20, 12, 0, tzinfo=core.JST)
+    recs = [
+        _rec("2019-09-05T13:00:00Z", "old"),
+        _rec("2019-09-20T13:00:00Z", "old"),   # old の同月内の再々生（distinct曲数/再生数と区別するため）
+        _rec("2020-01-01T00:00:00Z", "old"),   # old の既出再生（2020-01 の new_tracks は old2 の1曲のみ）
+        _rec("2020-01-01T00:05:00Z", "old2"),
+        # JST 境界: UTC では前日=1月31日夜だが JST では2月1日 → 2020-02 側に計上されること
+        _rec("2020-01-31T20:00:00Z", "boundary"),
+        _rec("2026-07-10T00:00:00Z", "current_month_track"),  # 当月＝進行中 → 対象外
+    ]
+    sitegen._backfill_wrapped(tmp_path, recs, now)
+    assert (tmp_path / "wrapped" / "2019-09.json").exists()
+    assert (tmp_path / "wrapped" / "2020-01.json").exists()
+    assert not (tmp_path / "wrapped" / "2026-07.json").exists()  # 当月は月末ブロックの担当
+
+    import json
+    # 2019-09: old を2回再生（再生数2）だが「初めて聴いた曲」は old の1曲のみ
+    w0909 = json.loads((tmp_path / "wrapped" / "2019-09.json").read_text())
+    assert w0909["plays"] == 2 and w0909["new_tracks"] == 1
+    # 2020-01: old（既出）+ old2（新規）+ boundary は JST では2020-02 側 → 2020-01 の new_tracks は old2 のみ
+    w0101 = json.loads((tmp_path / "wrapped" / "2020-01.json").read_text())
+    assert w0101["new_tracks"] == 1
+    assert "boundary" not in [t["track_id"] for t in w0101["top_tracks"]]
+    # boundary の再生は JST 基準で 2020-02 に計上され、2020-02.json が生成される
+    assert (tmp_path / "wrapped" / "2020-02.json").exists()
+    w0202 = json.loads((tmp_path / "wrapped" / "2020-02.json").read_text())
+    assert w0202["plays"] == 1 and w0202["new_tracks"] == 1
+    assert [t["track_id"] for t in w0202["top_tracks"]] == ["boundary"]
+
+    # 冪等: 既存ファイルを人為的に変えても上書きしない（同一月を再度書かない）
+    (tmp_path / "wrapped" / "2019-09.json").write_text('{"month": "2019-09", "sentinel": true}')
+    sitegen._backfill_wrapped(tmp_path, recs, now)
+    assert json.loads((tmp_path / "wrapped" / "2019-09.json").read_text()) == {"month": "2019-09", "sentinel": True}
+
+
+def test_backfill_wrapped_noop_when_no_records(tmp_path):
+    now = datetime(2026, 7, 20, 12, 0, tzinfo=core.JST)
+    sitegen._backfill_wrapped(tmp_path, [], now)
+    assert not (tmp_path / "wrapped").exists()
+
+
 def test_build_run_record_status():
     summaries = {
         "inbox": {"processed": 4, "japanese": 1, "western": 3, "unknown_count": 0, "unknown": [],
