@@ -1,66 +1,11 @@
 {
   "counts": {
     "A": 0,
-    "B": 2,
+    "B": 1,
     "C": 2
   },
-  "generated_at": "2026-07-19T16:47:32.764437+00:00",
+  "generated_at": "2026-07-20T07:22:12.298723+00:00",
   "groups": [
-    {
-      "id": "g-9fcc76608516",
-      "reason": "isrc",
-      "tier": "B",
-      "tracks": [
-        {
-          "album": "Waking Up",
-          "album_type": "album",
-          "artists": [
-            "OneRepublic"
-          ],
-          "duration_ms": 214400,
-          "id": "0Q0Vl9fKJF5MDxfVKbD78e",
-          "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
-          "isrc": "USUM70974275",
-          "name": "Everybody Loves Me",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "1PVdmHB8QhiTk22VKts2oA",
-              "name": "onerepublic"
-            }
-          ],
-          "popularity": 55,
-          "release_date": "2009-01-01"
-        },
-        {
-          "album": "Waking Up (Deluxe)",
-          "album_type": "album",
-          "artists": [
-            "OneRepublic"
-          ],
-          "duration_ms": 218973,
-          "id": "2e42fb37LVhtCOescNb1yN",
-          "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-          "isrc": "USUM70974275",
-          "name": "Everybody Loves Me",
-          "playlists": [
-            {
-              "id": "3gWeVkYJPREpkdCpDRjHFw",
-              "name": "Western Musics"
-            },
-            {
-              "id": "1PVdmHB8QhiTk22VKts2oA",
-              "name": "onerepublic"
-            }
-          ],
-          "popularity": 52,
-          "release_date": "2009-01-01"
-        }
-      ]
-    },
     {
       "id": "g-7f232cf1a682",
       "reason": "isrc",
