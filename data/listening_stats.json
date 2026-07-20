@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 644,
+      "count": 646,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -12,7 +12,7 @@
       "artists": [
         "Katsuo Ohno"
       ],
-      "count": 367,
+      "count": 368,
       "name": "蘭のテーマ - 世紀末ヴァージョン",
       "track_id": "6lJq0JMOFI9MN47AOJrwEC"
     },
@@ -44,7 +44,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 195,
+      "count": 196,
       "name": "Help! - Remastered 2009",
       "track_id": "7DD7eSuYSC5xk2ArU62esN"
     },
@@ -84,7 +84,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 173,
+      "count": 174,
       "name": "The Night Before - Remastered 2009",
       "track_id": "5xcfepnz1v7a83T8An9gjw"
     },
@@ -801,7 +801,7 @@
       "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     }
   ],
-  "generated_at": "2026-07-20T07:04:40.189933+00:00",
+  "generated_at": "2026-07-20T17:26:12.380187+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 61637
+    "total": 61685
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 242,
+  "streak": 243,
   "weekly_top": [
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
+      "name": "Everybody Loves Me",
+      "track_id": "0Q0Vl9fKJF5MDxfVKbD78e"
+    },
     {
       "artists": [
         "Henry Moodie"
@@ -829,12 +838,21 @@
     },
     {
       "artists": [
-        "Henry Moodie"
+        "Spitz"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "favourite mistake",
-      "track_id": "6bnKECEvkntGfJMiRMPH41"
+      "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
+      "name": "美しい鰭",
+      "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+    },
+    {
+      "artists": [
+        "Coldplay"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048517749ecd2742e95db24897759",
+      "name": "Viva la Vida",
+      "track_id": "2LnmFzNEQ2N79WVCWQzKwz"
     },
     {
       "artists": [
@@ -907,6 +925,348 @@
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
       "name": "good old days",
       "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "favourite mistake",
+      "track_id": "6bnKECEvkntGfJMiRMPH41"
+    },
+    {
+      "artists": [
+        "Katsuo Ohno"
+      ],
+      "count": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/fcfc426220f88c0126ed8a562b339f1a.jpg",
+      "name": "蘭のテーマ - 世紀末ヴァージョン",
+      "track_id": "lastfm:蘭のテーマ世紀末ヴァージョン|katsuoohno"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+      "name": "Help! - Remastered 2009",
+      "track_id": "7DD7eSuYSC5xk2ArU62esN"
+    },
+    {
+      "artists": [
+        "Idina Menzel"
+      ],
+      "count": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/f4ea7db923ba84cf65f0210ea70c9b0b.jpg",
+      "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
+      "track_id": "lastfm:letitgofromfrozensoundtrackversion|idinamenzel"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Nobody - from Kaiju No. 8",
+      "track_id": "3SiVMpHxTS1gspWzRZE50S"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851f00eb59292abe2249b18f0b7",
+      "name": "I Ain't Worried (feat. Becky G) - Latin Version",
+      "track_id": "0kljJKo5ibiYiLQkzEXKsG"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
+      "name": "Beautiful Colors - from Kaiju No. 8",
+      "track_id": "0baR1QmlC8CruupaxA1IYA"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
+      "name": "Give Me Something (for Arknights Endfield)",
+      "track_id": "17Vqwvat9EmRmfDvmYqoi0"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Hurt",
+      "track_id": "6eZEuLvZDa5cQy8bX22oZT"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "name": "Life in Color",
+      "track_id": "2JDMJhjJmx2GtMz5HFSTim"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Someone to Save You",
+      "track_id": "1mXiSrqOdR09yT43TwkSLh"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "Love Runs Out",
+      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Lift Me Up",
+      "track_id": "0x7oCog91UWqiYJQEee3uK"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Light It Up",
+      "track_id": "5pHICu0E2S5JytwgIXL4CS"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Prodigal",
+      "track_id": "5rvS6QdcKCXXLGq4YpinQe"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
+      "name": "Something's Gotta Give",
+      "track_id": "1WY42ffdMgNO6q15cePW2g"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
+      "name": "Sunshine",
+      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+    },
+    {
+      "artists": [
+        "Alesso"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
+      "name": "In Your Eyes",
+      "track_id": "0NIIKZEed0nXPz4lHnMaZg"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Wild Life",
+      "track_id": "4zD9RBG51Lj8bnQwolLnyu"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
+      "name": "Rich Love (with Seeb)",
+      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+      "name": "Good Life - from One Night In Malibu",
+      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Don't Look Down",
+      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+      "name": "Distance - from One Night In Malibu",
+      "track_id": "2gPWnjEtKZaCcEXRlH9yT4"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Let's Hurt Tonight",
+      "track_id": "05sCp83gcMm1iecYydKJS3"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "All We Are",
+      "track_id": "1Jx69b09LKTuBQxkEiFfVX"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Tyrant",
+      "track_id": "2NQBsh7D6bDS5tv5VcvdoN"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Oh My My",
+      "track_id": "0QaCNjtdot0XiD8E347iQn"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
+    },
+    {
+      "artists": [
+        "Karan Aujla"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ab7e63a11e638cf711ab7f46",
+      "name": "Tell Me",
+      "track_id": "7KH7qQDC34EPT0sK3EJP3s"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "All These Things",
+      "track_id": "5SlNjNaibdMLveJPYqAAaE"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519590d8a74a43f820bd11a638",
+      "name": "Invincible - from Kaiju No. 8",
+      "track_id": "2ndG3pjTjbUWaJxFo9dWi8"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
+      "name": "Stranger Things (feat. OneRepublic)",
+      "track_id": "4sJqSKPc5fZ5OZ8JiVI44N"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "Lullaby",
+      "track_id": "76b0tV3rkhmn0dyqtVbVe4"
+    },
+    {
+      "artists": [
+        "Olivia Rodrigo"
+      ],
+      "count": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/06ccc3cc0cfe1e4ca42a26ac00d97a7b.jpg",
+      "name": "purple",
+      "track_id": "lastfm:purple|oliviarodrigo"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851bf4cf0f48b94d0c8297b751a",
+      "name": "Heal the World",
+      "track_id": "7woW97CfcWaKtuC6W5BP2K"
+    },
+    {
+      "artists": [
+        "I'll Take You There Choir"
+      ],
+      "count": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/980b5ba4325faadbdfb8a036570ceabe.png",
+      "name": "Like a Prayer - Choir Version From “Deadpool & Wolverine”",
+      "track_id": "lastfm:likeaprayerchoirversionfromdeadpoolwolverine|illtakeyoutherechoir"
     }
   ]
 }

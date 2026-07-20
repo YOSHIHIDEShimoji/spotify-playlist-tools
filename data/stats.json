@@ -1,7 +1,7 @@
 {
   "artists_top": [
     {
-      "count": 109,
+      "count": 107,
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "name": "OneRepublic"
     },
@@ -46,7 +46,7 @@
       "name": "OFFICIAL HIGE DANDISM"
     },
     {
-      "count": 21,
+      "count": 20,
       "id": "0jWCX6zp4RjWrmZRxJ2uri",
       "name": "Novelbright"
     },
@@ -67,13 +67,13 @@
     },
     {
       "count": 16,
-      "id": "4gzpq5DPGxSnKTe4SA8HAU",
-      "name": "Coldplay"
-    },
-    {
-      "count": 16,
       "id": "3FUY2gzHeIiaesXtOAdB7A",
       "name": "Train"
+    },
+    {
+      "count": 15,
+      "id": "4gzpq5DPGxSnKTe4SA8HAU",
+      "name": "Coldplay"
     },
     {
       "count": 13,
@@ -154,6 +154,10 @@
   "decades": [
     {
       "count": 1,
+      "decade": 1970
+    },
+    {
+      "count": 2,
       "decade": 1980
     },
     {
@@ -161,7 +165,7 @@
       "decade": 1990
     },
     {
-      "count": 74,
+      "count": 72,
       "decade": 2000
     },
     {
@@ -169,7 +173,7 @@
       "decade": 2010
     },
     {
-      "count": 312,
+      "count": 311,
       "decade": 2020
     }
   ],
@@ -182,7 +186,7 @@
           "name": "The Beatles"
         },
         {
-          "count": 109,
+          "count": 107,
           "id": "5Pwc4xIPtQLFEnJriah9YJ",
           "name": "OneRepublic"
         },
@@ -238,13 +242,13 @@
         },
         {
           "count": 21,
-          "id": "0jWCX6zp4RjWrmZRxJ2uri",
-          "name": "Novelbright"
-        },
-        {
-          "count": 21,
           "id": "1dfeR4HaWDbWqFHLkxsg1d",
           "name": "Queen"
+        },
+        {
+          "count": 20,
+          "id": "0jWCX6zp4RjWrmZRxJ2uri",
+          "name": "Novelbright"
         },
         {
           "count": 19,
@@ -263,13 +267,13 @@
         },
         {
           "count": 16,
-          "id": "4gzpq5DPGxSnKTe4SA8HAU",
-          "name": "Coldplay"
-        },
-        {
-          "count": 16,
           "id": "3FUY2gzHeIiaesXtOAdB7A",
           "name": "Train"
+        },
+        {
+          "count": 15,
+          "id": "4gzpq5DPGxSnKTe4SA8HAU",
+          "name": "Coldplay"
         },
         {
           "count": 13,
@@ -333,11 +337,11 @@
           "decade": 1960
         },
         {
-          "count": 38,
+          "count": 39,
           "decade": 1970
         },
         {
-          "count": 83,
+          "count": 84,
           "decade": 1980
         },
         {
@@ -345,7 +349,7 @@
           "decade": 1990
         },
         {
-          "count": 84,
+          "count": 82,
           "decade": 2000
         },
         {
@@ -353,11 +357,11 @@
           "decade": 2010
         },
         {
-          "count": 324,
+          "count": 323,
           "decade": 2020
         }
       ],
-      "total": 1091
+      "total": 1090
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -373,7 +377,7 @@
             "name": "OFFICIAL HIGE DANDISM"
           },
           {
-            "count": 21,
+            "count": 20,
             "id": "0jWCX6zp4RjWrmZRxJ2uri",
             "name": "Novelbright"
           },
@@ -531,16 +535,16 @@
             "decade": 2010
           },
           {
-            "count": 81,
+            "count": 80,
             "decade": 2020
           }
         ],
-        "total": 196
+        "total": 195
       },
       "3gWeVkYJPREpkdCpDRjHFw": {
         "artists_top": [
           {
-            "count": 109,
+            "count": 107,
             "id": "5Pwc4xIPtQLFEnJriah9YJ",
             "name": "OneRepublic"
           },
@@ -591,13 +595,13 @@
           },
           {
             "count": 16,
-            "id": "4gzpq5DPGxSnKTe4SA8HAU",
-            "name": "Coldplay"
-          },
-          {
-            "count": 16,
             "id": "3FUY2gzHeIiaesXtOAdB7A",
             "name": "Train"
+          },
+          {
+            "count": 15,
+            "id": "4gzpq5DPGxSnKTe4SA8HAU",
+            "name": "Coldplay"
           },
           {
             "count": 9,
@@ -692,11 +696,19 @@
         ],
         "decades": [
           {
+            "count": 1,
+            "decade": 1970
+          },
+          {
+            "count": 1,
+            "decade": 1980
+          },
+          {
             "count": 9,
             "decade": 1990
           },
           {
-            "count": 48,
+            "count": 46,
             "decade": 2000
           },
           {
@@ -846,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-07-19T16:47:32.765068+00:00",
-  "total": 733
+  "generated_at": "2026-07-20T17:26:21.374049+00:00",
+  "total": 732
 }

@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-07-19T16:48:20.636722+00:00",
+  "generated_at": "2026-07-20T17:27:06.821098+00:00",
   "items": [
+    {
+      "album_id": "24FQwFR3VF4G6gwPbqO5Fx",
+      "album_name": "Red again",
+      "album_type": "single",
+      "artist": "WO6EPH",
+      "artist_id": "6eqbT46uvgI5KW7o8qZrXF",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485131b3d86e4c42cd902e260879",
+      "is_new": true,
+      "release_date": "2026-07-20"
+    },
     {
       "album_id": "6pHEI6UgQrfYkCW6K0irla",
       "album_name": "F.A.C.E.",
@@ -13,17 +24,6 @@
       "release_date": "2026-07-18"
     },
     {
-      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
-      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
-      "album_type": "album",
-      "artist": "Descendants – Cast",
-      "artist_id": "4J79AY6Z2927FTTAgHChuv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
       "album_id": "6ue29u7MnmM7oVtnHDXzAq",
       "album_name": "Weekend",
       "album_type": "single",
@@ -31,6 +31,17 @@
       "artist_id": "0xRXCcSX89eobfrshSVdyu",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c2eaf5876973becf19a8051e",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
+      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Descendants – Cast",
+      "artist_id": "4J79AY6Z2927FTTAgHChuv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -112,39 +123,6 @@
       "release_date": "2026-07-13"
     },
     {
-      "album_id": "2mG7Jq4OnkQdpmemAmtXAQ",
-      "album_name": "Body So Tea",
-      "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d95c42a7ccdb1560cd624ab4",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
-      "album_name": "juliet",
-      "album_type": "single",
-      "artist": "JVKE",
-      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485167b60d1886c070b25e57df93",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "0pFlE0rc68RS8f3UHzioQY",
-      "album_name": "The Real Me",
-      "album_type": "album",
-      "artist": "Future",
-      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485178337626e83628a76aa7e0a4",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
       "album_id": "7MYCDfdmVq2Mgrh4iLRy7d",
       "album_name": "Moana (Original Score)",
       "album_type": "album",
@@ -152,28 +130,6 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851e28482f95e3efe9fe4d59cc9",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
-      "album_name": "Joven y Salvaje (with Bb trickz)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851622746b637048741b093c7b0",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
-      "album_name": "Dedication",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485111513abcefecff5c5b50044c",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -189,35 +145,13 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "0V3YKC3QI5P1sAjM4csXju",
-      "album_name": "Take Me Back",
+      "album_id": "2tUuyJcwwzCtmHKuP9j95s",
+      "album_name": "Dedication",
       "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513038bbb448472f7aa59dc0ae",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "2nOFbs0Q59D6M1Swr1MbTk",
-      "album_name": "TOKA",
-      "album_type": "single",
-      "artist": "Dhurata Dora",
-      "artist_id": "6t7U7sYlVCtlMWzbecJcHd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485154d607b62c5c2f117062b29b",
-      "is_new": false,
-      "release_date": "2026-07-10"
-    },
-    {
-      "album_id": "1aKVX5Eiql11CnPwUYgRXW",
-      "album_name": "Assassin's Creed Black Flag: Resynced (Original Game Soundtrack)",
-      "album_type": "album",
-      "artist": "Stephen Lukach",
-      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d877f92b59e16dfff4e50d3a",
+      "image": "https://i.scdn.co/image/ab67616d0000485111513abcefecff5c5b50044c",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -233,13 +167,13 @@
       "release_date": "2026-07-10"
     },
     {
-      "album_id": "1UdIETjUPNwCRaYRrELqM7",
-      "album_name": "EPA (Don Diablo Remix)",
+      "album_id": "2nOFbs0Q59D6M1Swr1MbTk",
+      "album_name": "TOKA",
       "album_type": "single",
-      "artist": "Becky G",
-      "artist_id": "4obzFoKoKRHIphyHzJ35G3",
+      "artist": "Dhurata Dora",
+      "artist_id": "6t7U7sYlVCtlMWzbecJcHd",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b1c8c83ec4aeb6935f15ac64",
+      "image": "https://i.scdn.co/image/ab67616d0000485154d607b62c5c2f117062b29b",
       "is_new": false,
       "release_date": "2026-07-10"
     },
@@ -255,6 +189,72 @@
       "release_date": "2026-07-10"
     },
     {
+      "album_id": "1aKVX5Eiql11CnPwUYgRXW",
+      "album_name": "Assassin's Creed Black Flag: Resynced (Original Game Soundtrack)",
+      "album_type": "album",
+      "artist": "Stephen Lukach",
+      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d877f92b59e16dfff4e50d3a",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "5xDgBZvS8EFi4kh4jKcpP9",
+      "album_name": "juliet",
+      "album_type": "single",
+      "artist": "JVKE",
+      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485167b60d1886c070b25e57df93",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "0V3YKC3QI5P1sAjM4csXju",
+      "album_name": "Take Me Back",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513038bbb448472f7aa59dc0ae",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "0pFlE0rc68RS8f3UHzioQY",
+      "album_name": "The Real Me",
+      "album_type": "album",
+      "artist": "Future",
+      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485178337626e83628a76aa7e0a4",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "7FfZfslQwa0TUrQkRFqeKk",
+      "album_name": "Joven y Salvaje (with Bb trickz)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851622746b637048741b093c7b0",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
+      "album_id": "2mG7Jq4OnkQdpmemAmtXAQ",
+      "album_name": "Body So Tea",
+      "album_type": "single",
+      "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d95c42a7ccdb1560cd624ab4",
+      "is_new": false,
+      "release_date": "2026-07-10"
+    },
+    {
       "album_id": "7pwBDce8t6Yfha7DalmiWh",
       "album_name": "Zoomania 2: Die Geschichte einer Schlange",
       "album_type": "album",
@@ -264,17 +264,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851f381562444a34bd503b02adb",
       "is_new": false,
       "release_date": "2026-07-09"
-    },
-    {
-      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
-      "album_name": "Blue",
-      "album_type": "single",
-      "artist": "MILLENNIUM PARADE",
-      "artist_id": "0GZ65zwBwkkwGNJ3zagtTZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513e977b9cc8b7fdee4e887d1c",
-      "is_new": false,
-      "release_date": "2026-07-08"
     },
     {
       "album_id": "6glYGr5mPdY0m1vt9mzNuO",
@@ -295,6 +284,17 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b211c8ac40aff9231684e63c",
+      "is_new": false,
+      "release_date": "2026-07-08"
+    },
+    {
+      "album_id": "4iOj6nJVkB4K9nbfLFIHC0",
+      "album_name": "Blue",
+      "album_type": "single",
+      "artist": "MILLENNIUM PARADE",
+      "artist_id": "0GZ65zwBwkkwGNJ3zagtTZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513e977b9cc8b7fdee4e887d1c",
       "is_new": false,
       "release_date": "2026-07-08"
     },
