@@ -1,0 +1,253 @@
+{
+  "month": "2023-05",
+  "new_tracks": 17,
+  "peak": {
+    "dow": 2,
+    "hour": 22
+  },
+  "plays": 403,
+  "top_artists": [
+    {
+      "count": 116,
+      "name": "back number"
+    },
+    {
+      "count": 89,
+      "name": "SPITZ"
+    },
+    {
+      "count": 25,
+      "name": "The Beatles"
+    },
+    {
+      "count": 17,
+      "name": "Mai Kuraki"
+    },
+    {
+      "count": 16,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 13,
+      "name": "John Lennon"
+    },
+    {
+      "count": 12,
+      "name": "Idina Menzel"
+    },
+    {
+      "count": 9,
+      "name": "Wings"
+    },
+    {
+      "count": 6,
+      "name": "Dua Lipa"
+    },
+    {
+      "count": 6,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 5,
+      "name": "Taylor Swift"
+    },
+    {
+      "count": 5,
+      "name": "Yoko Takahashi"
+    },
+    {
+      "count": 4,
+      "name": "Stephen Sanchez"
+    },
+    {
+      "count": 4,
+      "name": "Mr.Children"
+    },
+    {
+      "count": 4,
+      "name": "Alan Silvestri"
+    },
+    {
+      "count": 4,
+      "name": "Mika Nakashima"
+    },
+    {
+      "count": 3,
+      "name": "Lea Salonga"
+    },
+    {
+      "count": 3,
+      "name": "平松剛一"
+    },
+    {
+      "count": 3,
+      "name": "Azumi Inoue"
+    },
+    {
+      "count": 3,
+      "name": "SEKAI NO OWARI"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 36,
+      "name": "美しい鰭",
+      "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+    },
+    {
+      "artists": [
+        "Mai Kuraki"
+      ],
+      "count": 16,
+      "name": "渡月橋 ~君 想ふ~",
+      "track_id": "1060Rq2jA1jKckSZV67y7H"
+    },
+    {
+      "artists": [
+        "Idina Menzel"
+      ],
+      "count": 12,
+      "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
+      "track_id": "0qcr5FMsEO85NAQjrlDRKo"
+    },
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 12,
+      "name": "ロビンソン",
+      "track_id": "0sVnyL71jTOuMt9TZ59bws"
+    },
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 11,
+      "name": "チェリー",
+      "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 10,
+      "name": "恋",
+      "track_id": "7f9DsQEsIoeTwKxV6shsom"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 8,
+      "name": "クリスマスソング",
+      "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 8,
+      "name": "幸せ",
+      "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
+    },
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 8,
+      "name": "空も飛べるはず",
+      "track_id": "3P2aSkjcbUYbcYr13EFE8n"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 7,
+      "name": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
+      "track_id": "1WutVejYvP7220sofj3xId"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 6,
+      "name": "黄色",
+      "track_id": "1MwOfRqCALxvx9keUhGCdV"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 6,
+      "name": "水平線",
+      "track_id": "5m1i6hq7dmRlp3c1utE48L"
+    },
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 6,
+      "name": "楓",
+      "track_id": "0b7IBgZjedM53ufZV4f4CL"
+    },
+    {
+      "artists": [
+        "SPITZ"
+      ],
+      "count": 6,
+      "name": "春の歌",
+      "track_id": "56ISW3rNZJHEkUfVbZ61bq"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 5,
+      "name": "怪盗",
+      "track_id": "10Eyo4juZQFthKqlJgGMdp"
+    },
+    {
+      "artists": [
+        "Yoko Takahashi"
+      ],
+      "count": 5,
+      "name": "残酷な天使のテーゼ",
+      "track_id": "23phSRwoMy48rwFpmuAP8q"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 5,
+      "name": "チェックのワンピース",
+      "track_id": "3TpD7kfsRSbXYzYvug4yey"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 5,
+      "name": "ヒロイン",
+      "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
+    },
+    {
+      "artists": [
+        "Stephen Sanchez"
+      ],
+      "count": 4,
+      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
+      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
+    },
+    {
+      "artists": [
+        "Mr.Children"
+      ],
+      "count": 4,
+      "name": "足音 ～Be Strong",
+      "track_id": "0hxitdpUBO7Bt1uJktICUC"
+    }
+  ]
+}

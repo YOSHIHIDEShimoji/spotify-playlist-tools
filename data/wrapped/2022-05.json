@@ -1,0 +1,253 @@
+{
+  "month": "2022-05",
+  "new_tracks": 14,
+  "peak": {
+    "dow": 2,
+    "hour": 19
+  },
+  "plays": 214,
+  "top_artists": [
+    {
+      "count": 58,
+      "name": "The Beatles"
+    },
+    {
+      "count": 22,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 20,
+      "name": "Queen"
+    },
+    {
+      "count": 20,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 6,
+      "name": "Sia"
+    },
+    {
+      "count": 4,
+      "name": "Alan Silvestri"
+    },
+    {
+      "count": 4,
+      "name": "Taylor Swift"
+    },
+    {
+      "count": 4,
+      "name": "Dua Lipa"
+    },
+    {
+      "count": 3,
+      "name": "Engelbert Humperdinck"
+    },
+    {
+      "count": 3,
+      "name": "League of Legends"
+    },
+    {
+      "count": 3,
+      "name": "Maroon 5"
+    },
+    {
+      "count": 3,
+      "name": "Lea Salonga"
+    },
+    {
+      "count": 3,
+      "name": "Felax"
+    },
+    {
+      "count": 3,
+      "name": "Cartoon"
+    },
+    {
+      "count": 3,
+      "name": "Arc North"
+    },
+    {
+      "count": 2,
+      "name": "The Weeknd"
+    },
+    {
+      "count": 2,
+      "name": "Ellie Goulding"
+    },
+    {
+      "count": 2,
+      "name": "ZAYN"
+    },
+    {
+      "count": 2,
+      "name": "Clean Bandit"
+    },
+    {
+      "count": 2,
+      "name": "Wings"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "Engelbert Humperdinck"
+      ],
+      "count": 3,
+      "name": "A Man Without Love",
+      "track_id": "0oUBuOO4g9P4lREqfqR5nq"
+    },
+    {
+      "artists": [
+        "League of Legends"
+      ],
+      "count": 3,
+      "name": "Legends Never Die",
+      "track_id": "1FpVJ7HpZInE2GvhVE2TwT"
+    },
+    {
+      "artists": [
+        "Lea Salonga"
+      ],
+      "count": 3,
+      "name": "A Whole New World",
+      "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
+    },
+    {
+      "artists": [
+        "Felax"
+      ],
+      "count": 3,
+      "name": "Into Your Arms",
+      "track_id": "3qf9Gk7w7aSF4pc3VCO1NW"
+    },
+    {
+      "artists": [
+        "Cartoon"
+      ],
+      "count": 3,
+      "name": "On & On",
+      "track_id": "4B2kkxg3wKSTZw5JPaUtzQ"
+    },
+    {
+      "artists": [
+        "Arc North"
+      ],
+      "count": 3,
+      "name": "Meant To Be",
+      "track_id": "4unpXe9GYrqsD3eIL3QGZp"
+    },
+    {
+      "artists": [
+        "Dua Lipa"
+      ],
+      "count": 3,
+      "name": "Levitating (feat. DaBaby)",
+      "track_id": "5nujrmhLynf4yMoMtj8AQF"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "Love Never Felt So Good",
+      "track_id": "0S5EEpFAHcT7cm5XOASc29"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "Hold My Hand (with Akon)",
+      "track_id": "0pCyoA5o2uxUwIovECCziF"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "History",
+      "track_id": "1EdzLQKCE066beJkDfaagd"
+    },
+    {
+      "artists": [
+        "ZAYN"
+      ],
+      "count": 2,
+      "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
+    },
+    {
+      "artists": [
+        "Clean Bandit"
+      ],
+      "count": 2,
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
+        "Wings"
+      ],
+      "count": 2,
+      "name": "Listen To What The Man Said - 2014 Remaster",
+      "track_id": "26q2FdGu71XhOlpJoXtfjx"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "Thriller",
+      "track_id": "2LlQb7Uoj1kKyGhlkBf9aC"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "Heal the World",
+      "track_id": "37HyO9EKIh9jgQcPNq1RfL"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 2,
+      "name": "Band On The Run - Remastered 2010",
+      "track_id": "3Zr60od5K99n7okfdpRYBz"
+    },
+    {
+      "artists": [
+        "Carly Rae Jepsen"
+      ],
+      "count": 2,
+      "name": "Call Me Maybe",
+      "track_id": "4L3Vw8hTyqJ1AdyypY4e61"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 2,
+      "name": "For All Time",
+      "track_id": "4NYi8J4w2AuI9qyv5bY2Nt"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 2,
+      "name": "Only Love Remains - 1993 Digital Remaster",
+      "track_id": "4Sl4cJFonzHMn2VN2i8Dfg"
+    },
+    {
+      "artists": [
+        "Sia"
+      ],
+      "count": 2,
+      "name": "Chandelier",
+      "track_id": "4VrWlk8IQxevMvERoX08iC"
+    }
+  ]
+}

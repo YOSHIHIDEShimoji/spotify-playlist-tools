@@ -1,0 +1,253 @@
+{
+  "month": "2022-12",
+  "new_tracks": 12,
+  "peak": {
+    "dow": 4,
+    "hour": 22
+  },
+  "plays": 537,
+  "top_artists": [
+    {
+      "count": 142,
+      "name": "back number"
+    },
+    {
+      "count": 78,
+      "name": "The Beatles"
+    },
+    {
+      "count": 71,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 14,
+      "name": "Dua Lipa"
+    },
+    {
+      "count": 12,
+      "name": "Mika Nakashima"
+    },
+    {
+      "count": 11,
+      "name": "SEKAI NO OWARI"
+    },
+    {
+      "count": 11,
+      "name": "Sia"
+    },
+    {
+      "count": 10,
+      "name": "Kenji Sawada"
+    },
+    {
+      "count": 10,
+      "name": "Shawn Mendes"
+    },
+    {
+      "count": 9,
+      "name": "Keane"
+    },
+    {
+      "count": 9,
+      "name": "Taylor Swift"
+    },
+    {
+      "count": 9,
+      "name": "The Jacksons"
+    },
+    {
+      "count": 8,
+      "name": "Ikimonogakari"
+    },
+    {
+      "count": 6,
+      "name": "Yuuri"
+    },
+    {
+      "count": 5,
+      "name": "Alessia Cara"
+    },
+    {
+      "count": 5,
+      "name": "Uru"
+    },
+    {
+      "count": 5,
+      "name": "Marshmello"
+    },
+    {
+      "count": 5,
+      "name": "OFFICIAL HIGE DANDISM"
+    },
+    {
+      "count": 5,
+      "name": "John Lennon"
+    },
+    {
+      "count": 4,
+      "name": "Avicii"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 13,
+      "name": "ヒロイン",
+      "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 13,
+      "name": "幸せ",
+      "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 12,
+      "name": "クリスマスソング",
+      "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+    },
+    {
+      "artists": [
+        "SEKAI NO OWARI"
+      ],
+      "count": 11,
+      "name": "silent",
+      "track_id": "6c5k0VC9TBzlcKwtjpzFW2"
+    },
+    {
+      "artists": [
+        "Kenji Sawada"
+      ],
+      "count": 10,
+      "name": "ヤマトより愛をこめて",
+      "track_id": "04sRMRy0XH1hP3PKUfGyLW"
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 10,
+      "name": "In My Blood",
+      "track_id": "2QZ7WLBE8h2y1Y5Fb8RYbH"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 10,
+      "name": "恋",
+      "track_id": "7f9DsQEsIoeTwKxV6shsom"
+    },
+    {
+      "artists": [
+        "Keane"
+      ],
+      "count": 9,
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
+    },
+    {
+      "artists": [
+        "Mika Nakashima"
+      ],
+      "count": 7,
+      "name": "雪の華",
+      "track_id": "6Zyizxfz4NXdCgVLwhuBNw"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 7,
+      "name": "高嶺の花子さん",
+      "track_id": "2iH7om9rE3QRWOXpuGEgic"
+    },
+    {
+      "artists": [
+        "Yuuri"
+      ],
+      "count": 6,
+      "name": "ドライフラワー",
+      "track_id": "7dH0dpi751EoguDDg3xx6J"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 5,
+      "name": "For All Time",
+      "track_id": "4NYi8J4w2AuI9qyv5bY2Nt"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 5,
+      "name": "Shake It Off",
+      "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
+    },
+    {
+      "artists": [
+        "Alessia Cara"
+      ],
+      "count": 5,
+      "name": "How Far I'll Go - Alessia Cara Version",
+      "track_id": "5VBEyc4i8MIS1IVVvgBDr6"
+    },
+    {
+      "artists": [
+        "Dua Lipa"
+      ],
+      "count": 5,
+      "name": "Break My Heart",
+      "track_id": "017PF4Q3l4DBUiWoXk4OWT"
+    },
+    {
+      "artists": [
+        "Dua Lipa"
+      ],
+      "count": 5,
+      "name": "Don't Start Now",
+      "track_id": "6WrI0LAC5M1Rw2MnX2ZvEg"
+    },
+    {
+      "artists": [
+        "Uru"
+      ],
+      "count": 5,
+      "name": "プロローグ",
+      "track_id": "4YMukCV1BsdK8V9kZoQpT6"
+    },
+    {
+      "artists": [
+        "Mika Nakashima"
+      ],
+      "count": 5,
+      "name": "愛詞 (あいことば)",
+      "track_id": "1B2fP25HizaqNEDPYeLrx1"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 5,
+      "name": "チェックのワンピース",
+      "track_id": "3TpD7kfsRSbXYzYvug4yey"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 5,
+      "name": "リッツパーティー",
+      "track_id": "1FDrCBlNru2OrVXePw1BFQ"
+    }
+  ]
+}

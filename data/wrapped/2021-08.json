@@ -1,0 +1,253 @@
+{
+  "month": "2021-08",
+  "new_tracks": 120,
+  "peak": {
+    "dow": 1,
+    "hour": 23
+  },
+  "plays": 651,
+  "top_artists": [
+    {
+      "count": 265,
+      "name": "The Beatles"
+    },
+    {
+      "count": 174,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 11,
+      "name": "Elektronomia"
+    },
+    {
+      "count": 9,
+      "name": "Syn Cole"
+    },
+    {
+      "count": 8,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 8,
+      "name": "Tobu"
+    },
+    {
+      "count": 8,
+      "name": "Jim Yosef"
+    },
+    {
+      "count": 7,
+      "name": "Elton John"
+    },
+    {
+      "count": 6,
+      "name": "Stevie Wonder"
+    },
+    {
+      "count": 5,
+      "name": "Sia"
+    },
+    {
+      "count": 5,
+      "name": "The Jackson 5"
+    },
+    {
+      "count": 5,
+      "name": "Elvis Presley"
+    },
+    {
+      "count": 5,
+      "name": "Lionel Richie"
+    },
+    {
+      "count": 4,
+      "name": "Kontekst"
+    },
+    {
+      "count": 4,
+      "name": "RetroVision"
+    },
+    {
+      "count": 4,
+      "name": "Bee Gees"
+    },
+    {
+      "count": 4,
+      "name": "John Lennon"
+    },
+    {
+      "count": 4,
+      "name": "Rod Stewart"
+    },
+    {
+      "count": 4,
+      "name": "Mariah Carey"
+    },
+    {
+      "count": 4,
+      "name": "Axol"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 29,
+      "name": "Heal the World",
+      "track_id": "7woW97CfcWaKtuC6W5BP2K"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 11,
+      "name": "Thriller",
+      "track_id": "2LlQb7Uoj1kKyGhlkBf9aC"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 10,
+      "name": "Don't Stop 'Til You Get Enough",
+      "track_id": "46eu3SBuFCXWsPT39Yg3tJ"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 10,
+      "name": "Remember the Time",
+      "track_id": "4jnFqNWeJCeCRHc4HCdxfd"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 10,
+      "name": "Black or White",
+      "track_id": "7EsjkelQuoUlJXEw7SeVV4"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 8,
+      "name": "Smooth Criminal - 2012 Remaster",
+      "track_id": "5T7ywazdGIydr6JCW6t02j"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 8,
+      "name": "Rock with You - Single Version",
+      "track_id": "7oOOI85fVQvVnK5ynNMdW7"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Wanna Be Startin' Somethin'",
+      "track_id": "1hu2s7qkm5bo03eODpRQO3"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "(I Like) The Way You Love Me",
+      "track_id": "0DnKKKmHKzojMODmrQ7F9i"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Man in the Mirror - 2012 Remaster",
+      "track_id": "3c7Ctlw9MKlIQPxRH3fOTt"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Beat It",
+      "track_id": "3BovdzfaX4jb5KFQwoPfAw"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 6,
+      "name": "Say Say Say - Remastered 2015",
+      "track_id": "5BxoKS16fDiOpcwTztQF30"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "The Way You Make Me Feel - 2012 Remaster",
+      "track_id": "76HKOVWqsEg26SECtmw7Rz"
+    },
+    {
+      "artists": [
+        "Tobu"
+      ],
+      "count": 6,
+      "name": "Candyland",
+      "track_id": "0euyZh7zSUmpNXVpVBdcN2"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 5,
+      "name": "Billie Jean",
+      "track_id": "7J1uxwnxfQLu4APicE5Rnj"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 5,
+      "name": "Bad - 2012 Remaster",
+      "track_id": "2gSNBigeWMVtY3QBIvPAEc"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 5,
+      "name": "I Just Can't Stop Loving You (feat. Siedah Garrett) - 2012 Remaster",
+      "track_id": "5DVK3a3p37V9cLjzNa32Xo"
+    },
+    {
+      "artists": [
+        "Syn Cole"
+      ],
+      "count": 5,
+      "name": "Gizmo",
+      "track_id": "03As1KdZnUfricQT09te8C"
+    },
+    {
+      "artists": [
+        "Kontekst"
+      ],
+      "count": 4,
+      "name": "Buddha",
+      "track_id": "2eFHbrvjYbZkVexsclJffS"
+    },
+    {
+      "artists": [
+        "Syn Cole"
+      ],
+      "count": 4,
+      "name": "Feel Good",
+      "track_id": "2yox08l4o0FnOL8Ih4yEfM"
+    }
+  ]
+}

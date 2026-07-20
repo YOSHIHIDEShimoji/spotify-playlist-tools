@@ -1,0 +1,253 @@
+{
+  "month": "2021-09",
+  "new_tracks": 40,
+  "peak": {
+    "dow": 3,
+    "hour": 17
+  },
+  "plays": 507,
+  "top_artists": [
+    {
+      "count": 270,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 115,
+      "name": "The Beatles"
+    },
+    {
+      "count": 32,
+      "name": "The Jacksons"
+    },
+    {
+      "count": 14,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 7,
+      "name": "Jim Yosef"
+    },
+    {
+      "count": 7,
+      "name": "Wings"
+    },
+    {
+      "count": 6,
+      "name": "Raven & Kreyn"
+    },
+    {
+      "count": 4,
+      "name": "Kontekst"
+    },
+    {
+      "count": 4,
+      "name": "John Lennon"
+    },
+    {
+      "count": 4,
+      "name": "ellis"
+    },
+    {
+      "count": 3,
+      "name": "Syn Cole"
+    },
+    {
+      "count": 3,
+      "name": "Alan Silvestri"
+    },
+    {
+      "count": 3,
+      "name": "Elektronomia"
+    },
+    {
+      "count": 3,
+      "name": "Robin Hustin"
+    },
+    {
+      "count": 3,
+      "name": "Axol"
+    },
+    {
+      "count": 3,
+      "name": "RetroVision"
+    },
+    {
+      "count": 2,
+      "name": "NIVIRO"
+    },
+    {
+      "count": 2,
+      "name": "Ampyx"
+    },
+    {
+      "count": 2,
+      "name": "a-ha"
+    },
+    {
+      "count": 2,
+      "name": "Queen"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 15,
+      "name": "Heal the World",
+      "track_id": "37HyO9EKIh9jgQcPNq1RfL"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 14,
+      "name": "Thriller",
+      "track_id": "2LlQb7Uoj1kKyGhlkBf9aC"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 13,
+      "name": "I Just Can't Stop Loving You (feat. Siedah Garrett) - 2012 Remaster",
+      "track_id": "5DVK3a3p37V9cLjzNa32Xo"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 9,
+      "name": "Black or White",
+      "track_id": "7EsjkelQuoUlJXEw7SeVV4"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 8,
+      "name": "Billie Jean",
+      "track_id": "7J1uxwnxfQLu4APicE5Rnj"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Smooth Criminal - 2012 Remaster",
+      "track_id": "5T7ywazdGIydr6JCW6t02j"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Don't Stop 'Til You Get Enough",
+      "track_id": "46eu3SBuFCXWsPT39Yg3tJ"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Wanna Be Startin' Somethin'",
+      "track_id": "1hu2s7qkm5bo03eODpRQO3"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Man in the Mirror - 2012 Remaster",
+      "track_id": "3c7Ctlw9MKlIQPxRH3fOTt"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "The Way You Make Me Feel - 2012 Remaster",
+      "track_id": "76HKOVWqsEg26SECtmw7Rz"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 7,
+      "name": "Rock with You - Single Version",
+      "track_id": "7oOOI85fVQvVnK5ynNMdW7"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Beat It",
+      "track_id": "3BovdzfaX4jb5KFQwoPfAw"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Remember the Time",
+      "track_id": "4jnFqNWeJCeCRHc4HCdxfd"
+    },
+    {
+      "artists": [
+        "Raven & Kreyn"
+      ],
+      "count": 6,
+      "name": "Bubble",
+      "track_id": "2cEpZegmyaOrQ31sWvWJbe"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Bad - 2012 Remaster",
+      "track_id": "2gSNBigeWMVtY3QBIvPAEc"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 6,
+      "name": "Say Say Say - Remastered 2015",
+      "track_id": "5BxoKS16fDiOpcwTztQF30"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Human Nature",
+      "track_id": "4cgjA7B4fJBHyB9Ya2bu0t"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Love Never Felt So Good",
+      "track_id": "0S5EEpFAHcT7cm5XOASc29"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "Hold My Hand (with Akon)",
+      "track_id": "0pCyoA5o2uxUwIovECCziF"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 6,
+      "name": "P.Y.T. (Pretty Young Thing)",
+      "track_id": "1CgmY8fVN7kstVDZmsdM5k"
+    }
+  ]
+}
