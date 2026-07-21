@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 646,
+      "count": 647,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -12,7 +12,7 @@
       "artists": [
         "Katsuo Ohno"
       ],
-      "count": 368,
+      "count": 367,
       "name": "蘭のテーマ - 世紀末ヴァージョン",
       "track_id": "6lJq0JMOFI9MN47AOJrwEC"
     },
@@ -36,7 +36,7 @@
       "artists": [
         "back number"
       ],
-      "count": 209,
+      "count": 210,
       "name": "恋",
       "track_id": "7f9DsQEsIoeTwKxV6shsom"
     },
@@ -44,7 +44,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 196,
+      "count": 197,
       "name": "Help! - Remastered 2009",
       "track_id": "7DD7eSuYSC5xk2ArU62esN"
     },
@@ -108,7 +108,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 160,
+      "count": 161,
       "name": "Yesterday - Remastered 2009",
       "track_id": "3BQHpFgAp4l80e1XslIjNI"
     },
@@ -346,6 +346,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 122,
+      "name": "Free As A Bird - Anthology 1 Version",
+      "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
+    },
+    {
+      "artists": [
         "髙見 優/長岡 成貢"
       ],
       "count": 122,
@@ -359,14 +367,6 @@
       "count": 121,
       "name": "I've Just Seen A Face - Remastered 2009",
       "track_id": "788U1Sqej9M6c4iikuDGxO"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 121,
-      "name": "Free As A Bird - Anthology 1 Version",
-      "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
     },
     {
       "artists": [
@@ -586,19 +586,19 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 109,
+      "name": "Here Comes The Sun - Remastered 2009",
+      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 109,
       "name": "SISTER",
       "track_id": "1ZmiUiQn7Q2qEKLlIznoXZ"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 108,
-      "name": "Here Comes The Sun - Remastered 2009",
-      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
     },
     {
       "artists": [
@@ -778,6 +778,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 100,
+      "name": "Real Love - Anthology 2 Version",
+      "track_id": "5frMgt4jqRGJk3yMKfqOyl"
+    },
+    {
+      "artists": [
         "Zara Larsson"
       ],
       "count": 100,
@@ -791,17 +799,9 @@
       "count": 100,
       "name": "Blinding Lights",
       "track_id": "0VjIjW4GlUZAMYd2vXMi3b"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 100,
-      "name": "Payphone",
-      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     }
   ],
-  "generated_at": "2026-07-20T17:26:12.380187+00:00",
+  "generated_at": "2026-07-21T17:08:33.303405+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,25 +813,34 @@
       5000,
       10000
     ],
-    "total": 61685
+    "total": 61822
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 243,
+  "streak": 244,
   "weekly_top": [
     {
       "artists": [
         "OneRepublic"
       ],
       "count": 4,
-      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
       "name": "Everybody Loves Me",
-      "track_id": "0Q0Vl9fKJF5MDxfVKbD78e"
+      "track_id": "2e42fb37LVhtCOescNb1yN"
     },
     {
       "artists": [
         "Henry Moodie"
       ],
-      "count": 2,
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "good old days",
+      "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
       "name": "closure",
       "track_id": "0LDDluRE805Dvt7WA0tDvA"
@@ -840,19 +849,154 @@
       "artists": [
         "Spitz"
       ],
-      "count": 2,
+      "count": 3,
       "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
     {
       "artists": [
+        "Katsuo Ohno"
+      ],
+      "count": 3,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/fcfc426220f88c0126ed8a562b339f1a.jpg",
+      "name": "蘭のテーマ - 世紀末ヴァージョン",
+      "track_id": "lastfm:蘭のテーマ世紀末ヴァージョン|katsuoohno"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "orbit",
+      "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "favourite mistake",
+      "track_id": "6bnKECEvkntGfJMiRMPH41"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+      "name": "Help! - Remastered 2009",
+      "track_id": "7DD7eSuYSC5xk2ArU62esN"
+    },
+    {
+      "artists": [
         "Coldplay"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048517749ecd2742e95db24897759",
+      "image": "https://i.scdn.co/image/ab67616d00004851adcc90bbf8ffa384c25c4478",
       "name": "Viva la Vida",
-      "track_id": "2LnmFzNEQ2N79WVCWQzKwz"
+      "track_id": "1SLxVWqXo9zNrrDKRa3m1G"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Prodigal",
+      "track_id": "5rvS6QdcKCXXLGq4YpinQe"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "All These Things",
+      "track_id": "5SlNjNaibdMLveJPYqAAaE"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "name": "Hey Jude - Remastered 2009",
+      "track_id": "2iGtdYI4lI0jDpnxJOqZRw"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
+      "name": "eighteen",
+      "track_id": "37ZOqyxz7B7bmIa2sq5odC"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "the old me",
+      "track_id": "3pe2SgiSoeCRb5IqvZZ5tS"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "still dancing",
+      "track_id": "0utXblV7w6d6FylfW9yFzB"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "right person, wrong time",
+      "track_id": "1ZbYQqBVYetCszJHUzdNvf"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "name": "Let It Be - Remastered 2009",
+      "track_id": "7iN1s7xHE4ifF5povM6A48"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "name": "Get Back - Remastered 2009",
+      "track_id": "4MLBqAEzNN89o2M9h92Z26"
     },
     {
       "artists": [
@@ -910,51 +1054,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "name": "orbit",
-      "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "name": "good old days",
-      "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "favourite mistake",
-      "track_id": "6bnKECEvkntGfJMiRMPH41"
-    },
-    {
-      "artists": [
-        "Katsuo Ohno"
-      ],
-      "count": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/fcfc426220f88c0126ed8a562b339f1a.jpg",
-      "name": "蘭のテーマ - 世紀末ヴァージョン",
-      "track_id": "lastfm:蘭のテーマ世紀末ヴァージョン|katsuoohno"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
-      "name": "Help! - Remastered 2009",
-      "track_id": "7DD7eSuYSC5xk2ArU62esN"
-    },
-    {
-      "artists": [
         "Idina Menzel"
       ],
       "count": 1,
@@ -976,9 +1075,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851f00eb59292abe2249b18f0b7",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/d5846665b36ab4301c7ab33308854412.png",
       "name": "I Ain't Worried (feat. Becky G) - Latin Version",
-      "track_id": "0kljJKo5ibiYiLQkzEXKsG"
+      "track_id": "lastfm:iaintworriedfeatbeckyglatinversion|onerepublic"
     },
     {
       "artists": [
@@ -1060,15 +1159,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
       "name": "Lose Somebody",
       "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Prodigal",
-      "track_id": "5rvS6QdcKCXXLGq4YpinQe"
     },
     {
       "artists": [
@@ -1177,96 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Tyrant",
       "track_id": "2NQBsh7D6bDS5tv5VcvdoN"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Oh My My",
-      "track_id": "0QaCNjtdot0XiD8E347iQn"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Apologize",
-      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
-    },
-    {
-      "artists": [
-        "Karan Aujla"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851ab7e63a11e638cf711ab7f46",
-      "name": "Tell Me",
-      "track_id": "7KH7qQDC34EPT0sK3EJP3s"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "All These Things",
-      "track_id": "5SlNjNaibdMLveJPYqAAaE"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519590d8a74a43f820bd11a638",
-      "name": "Invincible - from Kaiju No. 8",
-      "track_id": "2ndG3pjTjbUWaJxFo9dWi8"
-    },
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-      "name": "Stranger Things (feat. OneRepublic)",
-      "track_id": "4sJqSKPc5fZ5OZ8JiVI44N"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "Lullaby",
-      "track_id": "76b0tV3rkhmn0dyqtVbVe4"
-    },
-    {
-      "artists": [
-        "Olivia Rodrigo"
-      ],
-      "count": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/06ccc3cc0cfe1e4ca42a26ac00d97a7b.jpg",
-      "name": "purple",
-      "track_id": "lastfm:purple|oliviarodrigo"
-    },
-    {
-      "artists": [
-        "Michael Jackson"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851bf4cf0f48b94d0c8297b751a",
-      "name": "Heal the World",
-      "track_id": "7woW97CfcWaKtuC6W5BP2K"
-    },
-    {
-      "artists": [
-        "I'll Take You There Choir"
-      ],
-      "count": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/980b5ba4325faadbdfb8a036570ceabe.png",
-      "name": "Like a Prayer - Choir Version From “Deadpool & Wolverine”",
-      "track_id": "lastfm:likeaprayerchoirversionfromdeadpoolwolverine|illtakeyoutherechoir"
     }
   ]
 }
