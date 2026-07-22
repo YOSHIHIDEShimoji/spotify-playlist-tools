@@ -173,7 +173,7 @@
       "decade": 2010
     },
     {
-      "count": 318,
+      "count": 320,
       "decade": 2020
     }
   ],
@@ -357,11 +357,11 @@
           "decade": 2010
         },
         {
-          "count": 330,
+          "count": 332,
           "decade": 2020
         }
       ],
-      "total": 1103
+      "total": 1105
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -665,6 +665,11 @@
           },
           {
             "count": 5,
+            "id": "6wlhqnATSJIc0NQ64VxOVJ",
+            "name": "Matt Hansen"
+          },
+          {
+            "count": 5,
             "id": "1McMsnEElThX1knmY4oliG",
             "name": "Olivia Rodrigo"
           },
@@ -687,11 +692,6 @@
             "count": 4,
             "id": "0YC192cP3KPCRWx8zr8MfZ",
             "name": "Hans Zimmer"
-          },
-          {
-            "count": 4,
-            "id": "53XhwfbYqKCa1cC15pYq2q",
-            "name": "Imagine Dragons"
           }
         ],
         "decades": [
@@ -716,11 +716,11 @@
             "decade": 2010
           },
           {
-            "count": 236,
+            "count": 238,
             "decade": 2020
           }
         ],
-        "total": 545
+        "total": 547
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -858,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-07-21T17:08:42.818287+00:00",
-  "total": 745
+  "generated_at": "2026-07-22T17:09:17.920607+00:00",
+  "total": 747
 }

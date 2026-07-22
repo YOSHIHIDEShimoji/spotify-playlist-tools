@@ -224,13 +224,13 @@
         "rank": 14
       },
       {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
+        "id": "7hr9W3IjXcm3UlLY7guLk5",
+        "name": "Henry Moodie",
         "rank": 15
       },
       {
-        "id": "7hr9W3IjXcm3UlLY7guLk5",
-        "name": "Henry Moodie",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
         "rank": 16
       },
       {
@@ -244,28 +244,28 @@
         "rank": 18
       },
       {
+        "id": "23fqKkggKUBHNkbKtXEls4",
+        "name": "Kygo",
+        "rank": 19
+      },
+      {
         "id": "6wxfx1yhyqjCPYwwxJktR2",
         "name": "King Gnu",
-        "rank": 19
+        "rank": 20
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "74KM79TiuVKeVCqs8QtB0B",
         "name": "Sabrina Carpenter",
-        "rank": 22
-      },
-      {
-        "id": "23fqKkggKUBHNkbKtXEls4",
-        "name": "Kygo",
         "rank": 23
       },
       {
@@ -391,18 +391,18 @@
         "rank": 17
       },
       {
-        "id": "1vCWHaC5f2uS3yhpwWbIA6",
-        "name": "Avicii",
-        "rank": 18
-      },
-      {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 19
+        "rank": 18
       },
       {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
+        "rank": 19
+      },
+      {
+        "id": "3dRfiJ2650SZu6GbydcHNb",
+        "name": "John Williams",
         "rank": 20
       },
       {
@@ -411,18 +411,18 @@
         "rank": 21
       },
       {
-        "id": "3dRfiJ2650SZu6GbydcHNb",
-        "name": "John Williams",
-        "rank": 22
-      },
-      {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
-        "rank": 23
+        "rank": 22
       },
       {
         "id": "4tuJ0bMpJh08umKkEXKUI5",
         "name": "Gracie Abrams",
+        "rank": 23
+      },
+      {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
         "rank": 24
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-21T17:08:44.893181+00:00",
+  "generated_at": "2026-07-22T17:09:20.089925+00:00",
   "tracks": {
     "long_term": [
       {
@@ -843,12 +843,21 @@
       },
       {
         "artists": [
+          "OneRepublic"
+        ],
+        "id": "2IPpyxIgVLoDmYGIffJrol",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "Marchin On",
+        "rank": 13
+      },
+      {
+        "artists": [
           "King Gnu"
         ],
         "id": "5oQpH1uuZte4axR411rIlN",
         "image": "https://i.scdn.co/image/ab67616d00004851bd626097eb1af7ddfeaaeadc",
         "name": "SPECIALZ",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -857,7 +866,7 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -866,16 +875,16 @@
         "id": "1kmex5eDBvfniYJpmmIizl",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Secrets",
-        "rank": 15
+        "rank": 16
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "2IPpyxIgVLoDmYGIffJrol",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "Marchin On",
-        "rank": 16
+        "id": "2LsFnG9KYkWSk8dVopmHw2",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "RUNAWAY",
+        "rank": 17
       },
       {
         "artists": [
@@ -888,15 +897,6 @@
         "id": "1CPZ5BxNNd0n0nF4Orb9JS",
         "image": "https://i.scdn.co/image/ab67616d000048514dcb6c5df15cf74596ab25a4",
         "name": "Golden",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2LsFnG9KYkWSk8dVopmHw2",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "RUNAWAY",
         "rank": 18
       },
       {
@@ -1003,11 +1003,12 @@
       },
       {
         "artists": [
-          "YUNGBLUD"
+          "Kygo",
+          "OneRepublic"
         ],
-        "id": "2kLWSmKHhfUBepkIA9oNe5",
-        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
-        "name": "Abyss - from Kaiju No. 8",
+        "id": "0xSjAuPhm9tJXX2nRt2Avv",
+        "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
+        "name": "Chasing Paradise",
         "rank": 30
       }
     ],
@@ -1041,11 +1042,11 @@
       },
       {
         "artists": [
-          "OneRepublic"
+          "Henry Moodie"
         ],
-        "id": "2CJD3LSIVidK6nu4suUusa",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "All The Right Moves",
+        "id": "2XhYeR0oaKHvm4p1Z5Uj1L",
+        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+        "name": "drunk text",
         "rank": 4
       },
       {
@@ -1061,57 +1062,37 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "4fYte8ZvTK14NEhAOZocBi",
-        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
-        "name": "I Ain't Worried",
+        "id": "0lKsG4FoO1mfnkUR3SdKj4",
+        "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
+        "name": "Life In Color",
         "rank": 6
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "0lKsG4FoO1mfnkUR3SdKj4",
-        "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
-        "name": "Life In Color",
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
+        "name": "I Ain't Worried",
         "rank": 7
       },
       {
         "artists": [
-          "OneRepublic"
+          "Henry Moodie"
         ],
-        "id": "05sCp83gcMm1iecYydKJS3",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Let's Hurt Tonight",
+        "id": "2jBt7c8o1dDuyIIgepcNsz",
+        "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+        "name": "you were there for me",
         "rank": 8
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "0qdpBSgdFsOPGv9QLxEjdu",
-        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-        "name": "Good Life - from One Night In Malibu",
+        "id": "2CJD3LSIVidK6nu4suUusa",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "All The Right Moves",
         "rank": 9
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "17Vqwvat9EmRmfDvmYqoi0",
-        "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
-        "name": "Give Me Something (for Arknights Endfield)",
-        "rank": 10
-      },
-      {
-        "artists": [
-          "MEDUZA",
-          "OneRepublic",
-          "Leony"
-        ],
-        "id": "7MYLHLCf0YWR4TVs3owDny",
-        "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
-        "name": "Fire - Official UEFA EURO 2024 Song",
-        "rank": 11
       },
       {
         "artists": [
@@ -1120,7 +1101,16 @@
         "id": "3IQF4xCQUPicbA4hWfTxPo",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "I Lived",
-        "rank": 12
+        "rank": 10
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "05sCp83gcMm1iecYydKJS3",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Let's Hurt Tonight",
+        "rank": 11
       },
       {
         "artists": [
@@ -1130,7 +1120,7 @@
         "id": "0NIIKZEed0nXPz4lHnMaZg",
         "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
         "name": "In Your Eyes",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1139,16 +1129,24 @@
         "id": "0baR1QmlC8CruupaxA1IYA",
         "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
         "name": "Beautiful Colors - from Kaiju No. 8",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+        "name": "Good Life - from One Night In Malibu",
         "rank": 14
       },
       {
         "artists": [
-          "Kygo",
           "OneRepublic"
         ],
-        "id": "0xSjAuPhm9tJXX2nRt2Avv",
-        "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
-        "name": "Chasing Paradise",
+        "id": "17Vqwvat9EmRmfDvmYqoi0",
+        "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
+        "name": "Give Me Something (for Arknights Endfield)",
         "rank": 15
       },
       {
@@ -1162,60 +1160,52 @@
       },
       {
         "artists": [
-          "OneRepublic",
-          "Alesso"
+          "Galantis",
+          "OneRepublic"
         ],
-        "id": "3ScJy88F8KqGDfWu8XJhHx",
-        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-        "name": "If I Lose Myself - Alesso vs OneRepublic",
+        "id": "53Ji6ZvVjsBl4pIuiETfhN",
+        "image": "https://i.scdn.co/image/ab67616d00004851b3e70fb498006743b7412305",
+        "name": "Bones (feat. OneRepublic)",
         "rank": 17
       },
       {
         "artists": [
-          "Kygo",
-          "OneRepublic"
+          "MEDUZA",
+          "OneRepublic",
+          "Leony"
         ],
-        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
-        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-        "name": "Stranger Things (feat. OneRepublic)",
+        "id": "7MYLHLCf0YWR4TVs3owDny",
+        "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
+        "name": "Fire - Official UEFA EURO 2024 Song",
         "rank": 18
       },
       {
         "artists": [
-          "OneRepublic"
+          "Henry Moodie"
         ],
-        "id": "6keF0sk7i4WU3cVnMkTtS3",
-        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
-        "name": "Sunshine",
+        "id": "0LDDluRE805Dvt7WA0tDvA",
+        "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+        "name": "closure",
         "rank": 19
       },
       {
         "artists": [
-          "David Guetta",
-          "OneRepublic"
+          "Henry Moodie"
         ],
-        "id": "331l3xABO0HMr1Kkyh2LZq",
-        "image": "https://i.scdn.co/image/ab67616d000048517ce51d1a9049162e7e2fcf60",
-        "name": "I Don't Wanna Wait",
+        "id": "3O0OhpTJu2DV2yIYZAfhzf",
+        "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+        "name": "orbit",
         "rank": 20
       },
       {
         "artists": [
-          "OneRepublic"
+          "The Kid LAROI",
+          "Justin Bieber"
         ],
-        "id": "3FQrnheOyqkoJPVgS7ZjoH",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Burning Bridges",
+        "id": "567e29TDzLwZwfDuEpGTwo",
+        "image": "https://i.scdn.co/image/ab67616d00004851b4d59e6fa7e5e7cbc57ac33a",
+        "name": "STAY (with Justin Bieber)",
         "rank": 21
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "4FDDExmv76Da7aaFqxbxVp",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "Sink Or Swim",
-        "rank": 22
       },
       {
         "artists": [
@@ -1224,6 +1214,16 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "0xSjAuPhm9tJXX2nRt2Avv",
+        "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
+        "name": "Chasing Paradise",
         "rank": 23
       },
       {
@@ -1239,55 +1239,57 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "2SLxgJ2YFohfd8KwuJZTUE",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Better Days",
+        "id": "3FQrnheOyqkoJPVgS7ZjoH",
+        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+        "name": "Burning Bridges",
         "rank": 25
       },
       {
         "artists": [
-          "OneRepublic"
+          "OneRepublic",
+          "Alesso"
         ],
-        "id": "2gPWnjEtKZaCcEXRlH9yT4",
-        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-        "name": "Distance - from One Night In Malibu",
+        "id": "3ScJy88F8KqGDfWu8XJhHx",
+        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+        "name": "If I Lose Myself - Alesso vs OneRepublic",
         "rank": 26
       },
       {
         "artists": [
+          "Kygo",
           "OneRepublic"
         ],
-        "id": "3FK9wVJHNdJhqVPbIcoZsn",
-        "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
-        "name": "Need Your Love",
+        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
+        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
+        "name": "Stranger Things (feat. OneRepublic)",
         "rank": 27
       },
       {
         "artists": [
-          "OneRepublic"
+          "OneRepublic",
+          "Seeb"
         ],
-        "id": "3SiVMpHxTS1gspWzRZE50S",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "Nobody - from Kaiju No. 8",
+        "id": "7dOeiXeTSfA1ixaYmQcWu7",
+        "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
+        "name": "Rich Love (with Seeb)",
         "rank": 28
       },
       {
         "artists": [
-          "OneRepublic"
+          "Michael Jackson"
         ],
-        "id": "48s0QHJgmiNsth3WEO6U4M",
-        "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-        "name": "Stop And Stare",
+        "id": "7woW97CfcWaKtuC6W5BP2K",
+        "image": "https://i.scdn.co/image/ab67616d00004851bf4cf0f48b94d0c8297b751a",
+        "name": "Heal the World",
         "rank": 29
       },
       {
         "artists": [
-          "Galantis",
-          "OneRepublic"
+          "Henry Moodie"
         ],
-        "id": "53Ji6ZvVjsBl4pIuiETfhN",
-        "image": "https://i.scdn.co/image/ab67616d00004851b3e70fb498006743b7412305",
-        "name": "Bones (feat. OneRepublic)",
+        "id": "1XcPFhBIMCUgXlBC5CuBOM",
+        "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+        "name": "good old days",
         "rank": 30
       }
     ]
