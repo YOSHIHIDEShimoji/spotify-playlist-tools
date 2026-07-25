@@ -106,6 +106,14 @@
     },
     {
       "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 162,
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 161,
@@ -135,14 +143,6 @@
       "count": 158,
       "name": "Nobody - from Kaiju No. 8",
       "track_id": "47N81NMkB488fuOwOC3Oip"
-    },
-    {
-      "artists": [
-        "YUNGBLUD"
-      ],
-      "count": 158,
-      "name": "Abyss - from Kaiju No. 8",
-      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
     {
       "artists": [
@@ -578,19 +578,19 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 110,
+      "name": "Here Comes The Sun - Remastered 2009",
+      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
+    },
+    {
+      "artists": [
         "Hans Zimmer"
       ],
       "count": 110,
       "name": "Time",
       "track_id": "6ZFbXIJkuI1dVNWvzJzown"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 109,
-      "name": "Here Comes The Sun - Remastered 2009",
-      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "0VjIjW4GlUZAMYd2vXMi3b"
     }
   ],
-  "generated_at": "2026-07-24T17:22:05.536878+00:00",
+  "generated_at": "2026-07-25T16:47:10.668230+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,16 +813,16 @@
       5000,
       10000
     ],
-    "total": 61944
+    "total": 62014
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 246,
+  "streak": 247,
   "weekly_top": [
     {
       "artists": [
         "Henry Moodie"
       ],
-      "count": 7,
+      "count": 8,
       "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
       "name": "closure",
       "track_id": "0LDDluRE805Dvt7WA0tDvA"
@@ -831,7 +831,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 7,
+      "count": 8,
       "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
       "name": "you were there for me",
       "track_id": "2jBt7c8o1dDuyIIgepcNsz"
@@ -840,7 +840,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 6,
+      "count": 7,
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
       "name": "good old days",
       "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
@@ -849,7 +849,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 6,
+      "count": 7,
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
       "name": "the old me",
       "track_id": "3pe2SgiSoeCRb5IqvZZ5tS"
@@ -858,10 +858,46 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 5,
+      "count": 6,
       "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
       "name": "orbit",
       "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
+      "name": "eighteen",
+      "track_id": "37ZOqyxz7B7bmIa2sq5odC"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "still dancing",
+      "track_id": "0utXblV7w6d6FylfW9yFzB"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
     },
     {
       "artists": [
@@ -871,15 +907,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
       "name": "Everybody Loves Me",
       "track_id": "2e42fb37LVhtCOescNb1yN"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 5,
-      "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
-      "name": "eighteen",
-      "track_id": "37ZOqyxz7B7bmIa2sq5odC"
     },
     {
       "artists": [
@@ -896,24 +923,6 @@
       ],
       "count": 5,
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "name": "still dancing",
-      "track_id": "0utXblV7w6d6FylfW9yFzB"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 5,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "drunk text",
-      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 4,
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
       "name": "beat up car",
       "track_id": "0dGDhJ1hQco0OjlHEH97Q8"
     },
@@ -921,7 +930,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 4,
+      "count": 5,
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
       "name": "bad emotions",
       "track_id": "0EPINaCMN2i8A0MBCmoZVm"
@@ -930,7 +939,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 4,
+      "count": 5,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
       "name": "right person, wrong time",
       "track_id": "1ZbYQqBVYetCszJHUzdNvf"
@@ -939,7 +948,7 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 4,
+      "count": 5,
       "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
       "name": "MISS U",
       "track_id": "48FfsXjz8rd8CLhnIwWQNw"
@@ -948,10 +957,82 @@
       "artists": [
         "Henry Moodie"
       ],
-      "count": 3,
+      "count": 4,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
       "name": "favourite mistake",
       "track_id": "6bnKECEvkntGfJMiRMPH41"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "pick up the phone",
+      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "indigo",
+      "track_id": "2W4mVlRQZPJWNl59RI5stf"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "ten years time",
+      "track_id": "2OupMbGCv1k6UDN0ay6sdt"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "mood swings",
+      "track_id": "1sjqZ6Q3YTA2RyEjG8uGYs"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "people pleaser",
+      "track_id": "0UO8qysepsd0eppPu7bYp0"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "me, myself and i",
+      "track_id": "0eqqORX2j2REFwmdoJaRkH"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Counting Stars",
+      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
+    },
+    {
+      "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
     {
       "artists": [
@@ -982,12 +1063,12 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "Henry Moodie"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Kids",
-      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "growing pains",
+      "track_id": "2p94AwHAjRlENlD3NQDnmd"
     },
     {
       "artists": [
@@ -995,8 +1076,8 @@
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "pick up the phone",
-      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+      "name": "sunday morning",
+      "track_id": "1yOcU2ioxHKuKa1lsrdaur"
     },
     {
       "artists": [
@@ -1004,8 +1085,8 @@
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "indigo",
-      "track_id": "2W4mVlRQZPJWNl59RI5stf"
+      "name": "cigarette",
+      "track_id": "6zGtBBymxJ4IEV2xEF73Ty"
     },
     {
       "artists": [
@@ -1013,8 +1094,8 @@
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "ten years time",
-      "track_id": "2OupMbGCv1k6UDN0ay6sdt"
+      "name": "comedown",
+      "track_id": "2fraUeZU02Ipv96u6d6vGw"
     },
     {
       "artists": [
@@ -1022,26 +1103,35 @@
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "mood swings",
-      "track_id": "1sjqZ6Q3YTA2RyEjG8uGYs"
+      "name": "dear drew",
+      "track_id": "3qji3M6fG6w9Sj9nL2tG7m"
     },
     {
       "artists": [
-        "Henry Moodie"
+        "ザ・ビートルズ"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "people pleaser",
-      "track_id": "0UO8qysepsd0eppPu7bYp0"
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "name": "Let It Be - Remastered 2009",
+      "track_id": "7iN1s7xHE4ifF5povM6A48"
     },
     {
       "artists": [
-        "Henry Moodie"
+        "ワンリパブリック"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "me, myself and i",
-      "track_id": "0eqqORX2j2REFwmdoJaRkH"
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "name": "Sugar",
+      "track_id": "6eV7eK07znOHcKz3bzEmpS"
     },
     {
       "artists": [
@@ -1084,6 +1174,15 @@
         "OneRepublic"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "All These Things",
       "track_id": "5SlNjNaibdMLveJPYqAAaE"
@@ -1108,165 +1207,66 @@
     },
     {
       "artists": [
-        "Henry Moodie"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "growing pains",
-      "track_id": "2p94AwHAjRlENlD3NQDnmd"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "sunday morning",
-      "track_id": "1yOcU2ioxHKuKa1lsrdaur"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "cigarette",
-      "track_id": "6zGtBBymxJ4IEV2xEF73Ty"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "comedown",
-      "track_id": "2fraUeZU02Ipv96u6d6vGw"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "dear drew",
-      "track_id": "3qji3M6fG6w9Sj9nL2tG7m"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Come Together - Remastered 2009",
+      "track_id": "2EqlS6tkEnglzr7tkKAAYD"
     },
     {
       "artists": [
         "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "name": "Let It Be - Remastered 2009",
-      "track_id": "7iN1s7xHE4ifF5povM6A48"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Something - Remastered 2009",
+      "track_id": "0pNeVovbiZHkulpGeOx1Gj"
     },
     {
       "artists": [
         "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "name": "Get Back - Remastered 2009",
-      "track_id": "4MLBqAEzNN89o2M9h92Z26"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Maxwell's Silver Hammer - Remastered 2009",
+      "track_id": "2S8xyNRJX1XQdo3qnTuovI"
     },
     {
       "artists": [
-        "ハリー・スタイルズ"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "name": "Daylight",
-      "track_id": "1NNAI51EuoRWw1ydX1zV7S"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Oh! Darling - Remastered 2009",
+      "track_id": "2mxByJWOajjiVsLWjNXvDJ"
     },
     {
       "artists": [
-        "Matt Hansen"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851b9b3b7524e3713240c48fd01",
-      "name": "WHERE YOU BELONG",
-      "track_id": "3W1FAAdNDVdyJxJwV8Lps2"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Octopus's Garden - Remastered 2009",
+      "track_id": "0suLngfo7rJoetk7Ub6N8l"
     },
     {
       "artists": [
-        "ワンリパブリック"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Counting Stars",
-      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "I Want You (She's So Heavy) - Remastered 2009",
+      "track_id": "3Z25k4ZF6QENy2d9YatsM5"
     },
     {
       "artists": [
-        "マルーン５"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
-      "name": "Sugar",
-      "track_id": "6eV7eK07znOHcKz3bzEmpS"
-    },
-    {
-      "artists": [
-        "ジョン・レノン"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Woman - Ultimate Mix",
-      "track_id": "2iUFoI8nFeMe8cZaSBWuCK"
-    },
-    {
-      "artists": [
-        "ジョン・レノン"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Grow Old With Me - Ultimate Mix",
-      "track_id": "1fbgnbWxDJldZyXAsRjLfP"
-    },
-    {
-      "artists": [
-        "ジョン・レノン"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Happy Xmas (War Is Over) - Ultimate Mix",
-      "track_id": "5uyij3UbVMQYsqPusvPf1B"
-    },
-    {
-      "artists": [
-        "ジョン・レノン"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Love - Ultimate Mix",
-      "track_id": "4LZT2skcl1n16bUsY3L4eu"
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
-      "name": "Company",
-      "track_id": "61uyGDPJ06MkxJtHgPmuyO"
-    },
-    {
-      "artists": [
-        "DAOKO"
-      ],
-      "count": 1,
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/84b0fa0ac8911414452e395945ce45a8.jpg",
-      "name": "打上花火",
-      "track_id": "lastfm:打上花火|daoko"
-    },
-    {
-      "artists": [
-        "Novelbright"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048517b5dacdec4e8cc4ce9b93665",
-      "name": "愛とか恋とか",
-      "track_id": "1VHL1PIkhDwWbFc65xHwOr"
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Here Comes The Sun - Remastered 2009",
+      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
     }
   ]
 }

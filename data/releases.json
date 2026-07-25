@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-24T17:25:01.968091+00:00",
+  "generated_at": "2026-07-25T16:48:02.255375+00:00",
   "items": [
     {
-      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
-      "album_name": "World Away",
+      "album_id": "6VYjqAdWExFAfDdAudVT23",
+      "album_name": "Fireflies",
       "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
+      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -20,17 +20,6 @@
       "artist_id": "2sil8z5kiy4r76CRTXxBCA",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851737d220896f34eeef231dfcd",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "6VYjqAdWExFAfDdAudVT23",
-      "album_name": "Fireflies",
-      "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -57,13 +46,13 @@
       "release_date": "2026-07-24"
     },
     {
-      "album_id": "5SxwYJiJUV8p0EinXqbBjM",
-      "album_name": "I-BULL - iburu - BLEACH: Thousand-Year Blood War - The Calamity",
+      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
+      "album_name": "World Away",
       "album_type": "single",
-      "artist": "jo0ji",
-      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -75,7 +64,18 @@
       "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048516b3fba1816cbadfa7e001be4",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "5SxwYJiJUV8p0EinXqbBjM",
+      "album_name": "I-BULL - iburu - BLEACH: Thousand-Year Blood War - The Calamity",
+      "album_type": "single",
+      "artist": "jo0ji",
+      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
+      "is_new": false,
       "release_date": "2026-07-24"
     },
     {
@@ -134,24 +134,13 @@
       "release_date": "2026-07-17"
     },
     {
-      "album_id": "4BZydSQMfJNphTFZzyIxh5",
-      "album_name": "Daughter from Hell",
-      "album_type": "album",
-      "artist": "Gracie Abrams",
-      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
-      "album_id": "0gvHmrlKzS8I0am7TKMWwc",
-      "album_name": "Desire (Official FIFA Anthem) (feat. Nicole Scherzinger & Laura Pausini)",
+      "album_id": "1QY871uDh8leKT0faCZ5dA",
+      "album_name": "猫日",
       "album_type": "single",
-      "artist": "Robbie Williams",
-      "artist_id": "2HcwFjNelS49kFbfvMxQYw",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f6a3458c1d166348b15c1169",
+      "artist": "suis from Yorushika",
+      "artist_id": "4UOdwKkaWHJ5k6UqnfC2w0",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e733c0fe4a28c24ed8af9cac",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -178,15 +167,37 @@
       "release_date": "2026-07-17"
     },
     {
-      "album_id": "1QY871uDh8leKT0faCZ5dA",
-      "album_name": "猫日",
-      "album_type": "single",
-      "artist": "suis from Yorushika",
-      "artist_id": "4UOdwKkaWHJ5k6UqnfC2w0",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e733c0fe4a28c24ed8af9cac",
+      "album_id": "4BZydSQMfJNphTFZzyIxh5",
+      "album_name": "Daughter from Hell",
+      "album_type": "album",
+      "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
       "is_new": false,
       "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "0gvHmrlKzS8I0am7TKMWwc",
+      "album_name": "Desire (Official FIFA Anthem) (feat. Nicole Scherzinger & Laura Pausini)",
+      "album_type": "single",
+      "artist": "Robbie Williams",
+      "artist_id": "2HcwFjNelS49kFbfvMxQYw",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f6a3458c1d166348b15c1169",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "2et7q2u7h9RYelRR24tCPQ",
+      "album_name": "かげろう",
+      "album_type": "single",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485163567c526abb91aa4a7ca589",
+      "is_new": false,
+      "release_date": "2026-07-15"
     },
     {
       "album_id": "5HHOA8rO74KsoAnKv85MXS",
@@ -207,17 +218,6 @@
       "artist_id": "67hb7towEyKvt5Z8Bx306c",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513b972be1685e21dc5320c34a",
-      "is_new": false,
-      "release_date": "2026-07-15"
-    },
-    {
-      "album_id": "2et7q2u7h9RYelRR24tCPQ",
-      "album_name": "かげろう",
-      "album_type": "single",
-      "artist": "Vaundy",
-      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485163567c526abb91aa4a7ca589",
       "is_new": false,
       "release_date": "2026-07-15"
     },
