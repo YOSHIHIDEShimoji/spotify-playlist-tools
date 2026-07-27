@@ -801,7 +801,7 @@
       "track_id": "0VjIjW4GlUZAMYd2vXMi3b"
     }
   ],
-  "generated_at": "2026-07-26T16:50:01.603390+00:00",
+  "generated_at": "2026-07-27T17:37:19.250959+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,9 +813,73 @@
       5000,
       10000
     ],
-    "total": 62037
+    "total": 62045
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 248,
-  "weekly_top": []
+  "streak": 1,
+  "weekly_top": [
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
+      "name": "MISS U",
+      "track_id": "48FfsXjz8rd8CLhnIwWQNw"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "closure",
+      "track_id": "0LDDluRE805Dvt7WA0tDvA"
+    },
+    {
+      "artists": [
+        "Hailee Steinfeld"
+      ],
+      "count": 1,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Let Me Go - Personal Collection",
+      "track_id": "lastfm:letmegopersonalcollection|haileesteinfeld"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "fight or flight",
+      "track_id": "2O7TmAEKiBLQUTNBq2yH9W"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "pick up the phone",
+      "track_id": "5LOCCIGEVJZ1B8fwu4h9UA"
+    }
+  ]
 }
