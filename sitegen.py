@@ -851,6 +851,15 @@ def main() -> int:
         recommend.build_recs(sp, data, logger)
     except Exception as e:  # noqa: BLE001 — おすすめが無くてもサイトは成立する
         logger.info(f"recs スキップ: {e}")
+
+    # 発売予定（MusicBrainz 由来）。Spotify は未発売のリリースを返さないため外部ソースを使う。
+    # 1req/秒の作法を守って毎晩少しずつ進むので、初回は件数が少ない。
+    if "user-follow-read" not in missing:
+        try:
+            import upcoming
+            upcoming.build_upcoming(sp, data, logger)
+        except Exception as e:  # noqa: BLE001 — 予定が無くてもサイトは成立する
+            logger.info(f"upcoming スキップ: {e}")
     # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
     # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。
     history_rows = playlist_count_rows(pl_records, playlists, date_str)

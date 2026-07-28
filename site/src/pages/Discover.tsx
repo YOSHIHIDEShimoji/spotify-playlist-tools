@@ -5,7 +5,7 @@
 // そのため「似ている」系は Last.fm の類似度に生涯再生回数を掛けて出している。
 import { useState } from "react";
 import { useJson } from "../lib/data";
-import type { AuthStatus, RecArtist, RecTrack, Recs, ReleaseItem, Releases, Top } from "../lib/types";
+import type { AuthStatus, RecArtist, RecTrack, Recs, ReleaseItem, Releases, Top, Upcoming } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
 import { PlayButton } from "../lib/player";
 import { useLifetimeArtists } from "../lib/lifetime";
@@ -24,7 +24,7 @@ const ALBUM_TYPE: Record<string, { en: string; ja: string }> = {
   ep: { en: "EP", ja: "EP" },
 };
 
-type Tab = "similar" | "releases" | "top";
+type Tab = "similar" | "releases" | "upcoming" | "top";
 
 // 未有効（要再認証）か、単にデータが無いだけかを分けて伝えるカード。
 function DisabledOrEmpty({ disabled, empty }: { disabled: boolean; empty: string }) {
@@ -58,6 +58,7 @@ export function Discover() {
   const releases = useJson<Releases>("releases");
   const top = useJson<Top>("top");
   const recs = useJson<Recs>("recs");
+  const upcoming = useJson<Upcoming>("upcoming");
   const auth = useJson<AuthStatus>("auth_status");
   const disabled = (auth.data?.missing_scopes.length ?? 0) > 0;
   const [tab, setTab] = useState<Tab>("similar");
@@ -77,6 +78,11 @@ export function Discover() {
           onClick={() => setTab("releases")}>
           {tx("New releases", "新譜")}{items.length > 0 && <span className="seg-count">{items.length}</span>}
         </button>
+        <button role="tab" aria-selected={tab === "upcoming"} className={tab === "upcoming" ? "is-active" : ""}
+          onClick={() => setTab("upcoming")}>
+          {tx("Coming soon", "リリース予定")}
+          {(upcoming.data?.items.length ?? 0) > 0 && <span className="seg-count">{upcoming.data!.items.length}</span>}
+        </button>
         <button role="tab" aria-selected={tab === "top"} className={tab === "top" ? "is-active" : ""}
           onClick={() => setTab("top")}>
           {tx("Spotify Official Top", "Spotify 公式 Top")}
@@ -85,6 +91,8 @@ export function Discover() {
 
       {tab === "similar" ? (
         recs.loading ? <Loading /> : <SimilarBlock recs={recs.data} />
+      ) : tab === "upcoming" ? (
+        upcoming.loading ? <Loading /> : <UpcomingBlock data={upcoming.data} />
       ) : tab === "top" ? (
         top.loading ? <Loading /> : <TopBlock top={top.data} disabled={disabled} />
       ) : releases.loading ? (
@@ -216,6 +224,58 @@ function RecTrackRow({ rec }: { rec: RecTrack }) {
         </a>
       )}
     </div>
+  );
+}
+
+/** これから出るリリース。Spotify は未発売を返さないので MusicBrainz から拾っている。 */
+function UpcomingBlock({ data }: { data: Upcoming | null }) {
+  const tx = useT();
+  const items = data?.items ?? [];
+  const known = data?.known ?? 0;
+  const followed = data?.followed ?? 0;
+  return (
+    <>
+      <Basis>
+        {tx(
+          "Announced release dates from MusicBrainz for artists you follow. Spotify has no API for unreleased music, so this comes from an external database and only shows dates that are fixed to the day.",
+          "フォロー中アーティストの発売予定を MusicBrainz から取得しています。Spotify には未発売のリリースを返す API が無いため外部データベースを使っており、日付が日まで確定しているものだけを出しています。",
+        )}
+        {followed > 0 && (
+          <>
+            {" "}
+            {tx(
+              `Matched ${known} of ${followed} followed artists so far (a few more each night).`,
+              `フォロー中 ${followed} 人のうち ${known} 人を照合済み（毎晩少しずつ増えます）。`,
+            )}
+          </>
+        )}
+      </Basis>
+      {items.length === 0 ? (
+        <Empty>
+          {tx(
+            "No announced release dates right now. This fills in as artists get matched and labels announce dates.",
+            "いま公表されている発売予定はありません。照合が進み、レーベルが日付を発表すると出てきます。",
+          )}
+        </Empty>
+      ) : (
+        <div className="card">
+          {items.map((r) => (
+            <div className="list-row" key={`${r.artist_id}-${r.title}-${r.date}`}>
+              <span className="cand-art cand-art--ph top-art" aria-hidden />
+              <span className="list-main">
+                <div className="name">{r.title}</div>
+                <div className="t-small">{r.artist}{r.type ? ` · ${r.type}` : ""}</div>
+              </span>
+              <span className="list-count num">{r.date}</span>
+              <a className="pill" target="_blank" rel="noreferrer"
+                href={`https://open.spotify.com/artist/${r.artist_id}`}>
+                {tx("Artist", "アーティスト")}
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
+    </>
   );
 }
 

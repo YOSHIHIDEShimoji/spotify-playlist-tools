@@ -287,6 +287,23 @@ export interface Recs {
   tracks: RecTrack[];
 }
 
+// ── 発売予定（MusicBrainz 由来・Spotify は未発売を返さない） ──
+
+export interface UpcomingItem {
+  artist: string;
+  artist_id: string;
+  title: string;
+  date: string;   // YYYY-MM-DD（日まで確定しているものだけ）
+  type: string;
+}
+export interface Upcoming {
+  generated_at: string;
+  source: string;
+  items: UpcomingItem[];
+  known: number;      // MBID を解決できたフォロー中アーティスト数
+  followed: number;
+}
+
 export interface ArchiveWeek {
   iso_week: string;
   tracks: { id: string; name: string; artists: string[]; added_at: string; image?: string | null }[];
