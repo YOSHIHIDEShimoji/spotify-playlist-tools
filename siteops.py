@@ -162,8 +162,11 @@ def _track_positions(sp, playlist_id: str, track_id: str) -> list[int]:
     """playlist 内で track_id が出現する 0 始まりの位置を、並び順どおりに返す。"""
     positions: list[int] = []
     idx = 0
-    results = sp.playlist_items(
-        playlist_id, fields="items(track(id)),next", additional_types=("track",), limit=100
+    results = core.retry_api(
+        lambda: sp.playlist_items(
+            playlist_id, fields="items(track(id)),next", additional_types=("track",), limit=100
+        ),
+        what="playlist_items",
     )
     while results:
         for item in results.get("items", []):
@@ -171,7 +174,7 @@ def _track_positions(sp, playlist_id: str, track_id: str) -> list[int]:
             if tr.get("id") == track_id:
                 positions.append(idx)
             idx += 1
-        results = sp.next(results) if results.get("next") else None
+        results = core.next_page(sp, results)
     return positions
 
 

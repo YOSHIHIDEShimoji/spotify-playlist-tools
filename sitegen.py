@@ -707,9 +707,12 @@ def _empty_top() -> dict:
 
 def build_archive_weekly(sp, dest_id: str) -> dict:
     weeks: dict[str, list[dict]] = {}
-    results = sp.playlist_items(
-        dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
-        additional_types=("track",), limit=100,
+    results = core.retry_api(
+        lambda: sp.playlist_items(
+            dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
+            additional_types=("track",), limit=100,
+        ),
+        what="archive playlist_items",
     )
     while results:
         for item in results.get("items", []):

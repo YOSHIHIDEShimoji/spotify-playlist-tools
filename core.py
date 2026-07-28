@@ -49,8 +49,54 @@ SCOPE_ALL = (
 )
 
 
+# API 再試行のパラメータ。Spotify 側の一過性障害（503 連発）で夜間バッチ全体が落ちるのを防ぐ。
+# spotipy 内蔵の urllib3 リトライ（既定 retries=3 / backoff 0.3秒＝実質1秒未満）は短すぎるため、
+# 内蔵ぶんを伸ばしたうえで、呼び出し側でもページ単位のリトライを重ねる二段構えにする。
+API_RETRIES = 6
+API_BACKOFF_FACTOR = 1.0     # urllib3: 0,2,4,8,16,32秒（合計約1分）
+API_TIMEOUT = 30
+RETRY_ATTEMPTS = 4           # 呼び出し側の再試行回数
+RETRY_BASE_DELAY = 3.0       # 3,6,12秒（合計21秒）を上乗せ
+RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
+
+
 class AuthRequired(Exception):
     """ヘッドレス実行でトークンが無効。人手の再認証が必要。"""
+
+
+def _is_transient(exc: Exception) -> bool:
+    """一過性（時間を置けば直る）API 障害かどうか。恒久的な 401/403/404 は再試行しない。
+
+    spotipy は urllib3 のリトライ枯渇を SpotifyException(http_status=429, "Max Retries,
+    reason: too many 503 error responses") として投げてくる。これも一過性として扱う。
+    """
+    import requests
+
+    if isinstance(exc, spotipy.SpotifyException):
+        if exc.http_status in RETRY_STATUSES:
+            return True
+        # http_status=-1（接続断など spotipy が分類できなかったもの）も時間を置けば直る
+        return exc.http_status == -1
+    return isinstance(exc, requests.exceptions.RequestException)
+
+
+def retry_api(fn, *, attempts: int = RETRY_ATTEMPTS, base_delay: float = RETRY_BASE_DELAY,
+              logger=None, what: str = "API"):
+    """一過性の Spotify 障害に対して指数バックオフで fn() を再試行する。
+
+    最後の試行でも失敗したら例外をそのまま送出する（呼び出し側の exit code 判定を変えない）。
+    ページング読み取りのように「同じ呼び出しをやり直せば済む」箇所に使う。
+    """
+    for i in range(attempts):
+        try:
+            return fn()
+        except Exception as e:  # noqa: BLE001 — 種別判定は _is_transient に委譲
+            if i == attempts - 1 or not _is_transient(e):
+                raise
+            delay = base_delay * (2**i)
+            if logger:
+                logger.info(f"[retry] {what} が一過性エラー（{type(e).__name__}）。{delay:.0f}秒待って再試行 ({i+1}/{attempts-1})")
+            time.sleep(delay)
 
 
 def is_headless() -> bool:
@@ -88,20 +134,41 @@ def build_client(scope: str) -> spotipy.Spotify:
     else:
         _free_redirect_port()  # 対話実行時のみ、残留した OAuth サーバを掃除する
 
-    return spotipy.Spotify(auth_manager=auth)
+    return spotipy.Spotify(
+        auth_manager=auth,
+        requests_timeout=API_TIMEOUT,
+        retries=API_RETRIES,
+        status_retries=API_RETRIES,
+        backoff_factor=API_BACKOFF_FACTOR,
+    )
+
+
+def next_page(sp: spotipy.Spotify, results):
+    """ページングの次ページを返す（無ければ None）。一過性エラーは retry_api で吸収する。
+
+    全ツールのページングはここを通す。2026-07-26 の nightly 失敗は、この継続取得中に
+    Spotify が 503 を連発し、spotipy 内蔵リトライ（約1秒）が枯れて夜間バッチ全体が
+    落ちたもの。同じページをやり直せば済むので、待って再試行する。
+    """
+    if not results or not results.get("next"):
+        return None
+    return retry_api(
+        lambda: sp.next(results), logger=logging.getLogger("spotify-api"), what="next page"
+    )
 
 
 def iter_playlist_tracks(sp: spotipy.Spotify, playlist_id: str, fields: str):
     """プレイリストの全 track を順に yield する。fields には ',next' を必ず含めて渡す。"""
-    results = sp.playlist_items(
-        playlist_id, fields=fields, additional_types=("track",), limit=100
+    results = retry_api(
+        lambda: sp.playlist_items(playlist_id, fields=fields, additional_types=("track",), limit=100),
+        logger=logging.getLogger("spotify-api"), what=f"playlist_items({playlist_id})",
     )
     while results:
         for item in results.get("items", []):
             track = item.get("track")
             if track and track.get("id"):
                 yield track
-        results = sp.next(results) if results.get("next") else None
+        results = next_page(sp, results)
 
 
 def add_in_batches(sp: spotipy.Spotify, playlist_id: str, track_ids, batch: int = 100) -> None:
@@ -110,9 +177,15 @@ def add_in_batches(sp: spotipy.Spotify, playlist_id: str, track_ids, batch: int 
 
 
 def remove_in_batches(sp: spotipy.Spotify, playlist_id: str, track_ids, batch: int = 100) -> None:
+    """全出現を削除するので冪等＝一過性エラーは安全に再試行できる（追加系は二重登録に
+    なりうるので retry しない。失敗したら素直に落として issue で気づく）。"""
     uris = [f"spotify:track:{tid}" for tid in track_ids]
     for i in range(0, len(uris), batch):
-        sp.playlist_remove_all_occurrences_of_items(playlist_id, uris[i : i + batch])
+        chunk = uris[i : i + batch]
+        retry_api(
+            lambda c=chunk: sp.playlist_remove_all_occurrences_of_items(playlist_id, c),
+            logger=logging.getLogger("spotify-api"), what="playlist_remove",
+        )
 
 
 def remove_saved_in_batches(sp: spotipy.Spotify, track_ids, batch: int = 50) -> None:

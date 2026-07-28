@@ -15,6 +15,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from datetime import date
@@ -72,15 +73,49 @@ def create_artist_playlist(sp, artist_name: str) -> str:
     return playlist["id"]
 
 
+# 曲名に書かれた客演のパターン。"feat." 系と "with" を拾う。括弧の有無は問わない。
+_FEAT_RE = re.compile(r"(?:feat\.?|ft\.?|featuring|with)\s+([^()\[\]]+)", re.IGNORECASE)
+# 客演が複数のときの区切り。"A & B" / "A, B" / "A and B" / "A x B"
+_FEAT_SPLIT_RE = re.compile(r"\s*(?:,|&|\+|/|\band\b|\bx\b)\s*", re.IGNORECASE)
+
+
+def extract_featured_artists(track_name: str) -> list[str]:
+    """曲名から客演アーティスト名を取り出す（例: "Song (feat. Charlie Puth)" → ["Charlie Puth"]）。
+
+    Spotify の artists 配列に載らない客演を拾うための補助。曲名の自由記述が相手なので誤検出は
+    避けられない（"Dance with Me" → "Me"）が、呼び出し側は「設定済みアーティスト名と完全一致
+    したときだけ」使うので、実害のある誤爆は起きない。
+    """
+    out: list[str] = []
+    for m in _FEAT_RE.finditer(track_name or ""):
+        for part in _FEAT_SPLIT_RE.split(m.group(1)):
+            name = part.strip(" -–—\"'")
+            if name:
+                out.append(name)
+    return out
+
+
 def match_tracks_for_artist(tracks: list[dict], artist_lower: str) -> tuple[list[str], str]:
+    """artist_lower が関与する曲の ID を返す。
+
+    クレジット（track.artists）に載っていれば当然対象。コラボ曲は各アーティストのループで
+    それぞれ拾われるので、1曲が複数のアーティストプレイリストに入る（ソース側は1曲のまま）。
+    加えて、クレジットに載らず曲名にだけ "feat." で書かれている客演も拾う。
+    """
     matched: list[str] = []
     spotify_name = ""
     for track in tracks:
-        for artist in track.get("artists", []):
-            if artist.get("name", "").lower() == artist_lower:
-                spotify_name = spotify_name or artist["name"]
-                matched.append(track["id"])
-                break
+        credited = [a.get("name", "") for a in track.get("artists", [])]
+        hit = next((n for n in credited if n.lower() == artist_lower), "")
+        if not hit:
+            # クレジット漏れの客演（曲名の "feat. X"）。設定済みの名前と一致したときだけ採用する。
+            hit = next(
+                (n for n in extract_featured_artists(track.get("name", "")) if n.lower() == artist_lower),
+                "",
+            )
+        if hit:
+            spotify_name = spotify_name or hit
+            matched.append(track["id"])
     return matched, spotify_name
 
 
