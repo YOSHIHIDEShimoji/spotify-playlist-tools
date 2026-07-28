@@ -1309,3 +1309,35 @@ table.data-table {
   color: var(--text-base);
   font-weight: 600;
 }
+
+/* ── 決定キュー（整理タブ・issue #5） ─────────────────
+ * 押した決定をためて一括送信する。常駐プレイヤーの上に重ねる（下端から積む）。 */
+.queue-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 45;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: var(--sp-3) var(--sp-4);
+  padding-bottom: calc(var(--sp-3) + env(safe-area-inset-bottom, 0px));
+  background: var(--surface-elev);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.5);
+}
+body.has-player .queue-bar {
+  bottom: 96px; /* 常駐プレイヤーの上に重ねる */
+}
+.queue-main {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.queued-note {
+  align-self: center;
+  color: var(--warning);
+}
