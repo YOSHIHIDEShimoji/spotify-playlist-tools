@@ -1,4 +1,5 @@
 import { Fragment, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
 import type { Heatmap, ListeningStats, RankedTrack, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
@@ -6,6 +7,9 @@ import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayButton, PlayIcon, TrackPlayButton, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
+import { ArtistDetail, LifetimeRow, TrackDetail } from "../components/Detail";
+import { formatDuration, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
+import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
 
 const GREEN = "#1ed760";
@@ -120,20 +124,64 @@ export function StatsPage() {
   );
 }
 
-/** よく聴いた曲: 今週 / 生涯（拡張履歴＝2019〜）をトグルで切り替える。累計は cumulative_top。
- * アルバムアートは search_index から曲IDで補完する（管理プレイリストに在る曲は必ず出る）。 */
+/** よく聴いた曲: 今週 / 生涯（拡張履歴＝2019〜）をトグルで切り替える。
+ * 生涯側は全曲ぶんのランキング（lifetime_tracks）から先頭を出し、行をタップすると
+ * その曲の生涯詳細（順位・総再生時間・年別の推移）が開く。全件は検索タブで遡れる。 */
 function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
   const tx = useT();
   const { lang } = useLang();
   const [range, setRange] = useState<"week" | "all">("week");
+  const [detail, setDetail] = useState<RankedLifetimeTrack | null>(null);
+  const life = useLifetimeTracks();
   const search = useJson<SearchIndex>("search_index");
   const byId = useMemo(
     () => new Map((search.data?.tracks ?? []).map((t) => [t.id, t] as const)),
     [search.data],
   );
   if (loading) return <Loading />;
-  const rows: RankedTrack[] = range === "week" ? (listen?.weekly_top ?? []) : (listen?.cumulative_top ?? []);
-  const since = range === "all" && listen?.since ? monthYear(listen.since, lang) : null;
+
+  if (range === "all") {
+    return (
+      <>
+        <RangeTabs range={range} setRange={setRange} />
+        <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
+          {life.totals?.since
+            ? tx(
+                `Every play since ${monthYear(life.totals.since, lang)} — ${life.totals.plays.toLocaleString()} plays, ${formatDuration(life.totals.ms, lang, true)}.`,
+                `${monthYear(life.totals.since, lang)}からの全再生 — ${life.totals.plays.toLocaleString()}回・${formatDuration(life.totals.ms, lang, true)}。`,
+              )
+            : tx("Your full listening history.", "生涯の全再生。")}
+        </p>
+        {life.loading ? (
+          <Loading />
+        ) : life.tracks.length === 0 ? (
+          <Empty>
+            {tx(
+              "Your all-time most-played tracks, from your full listening history, appear here.",
+              "生涯の全再生から集計した、いちばん聴いた曲がここに出ます。",
+            )}
+          </Empty>
+        ) : (
+          <>
+            <div className="card">
+              {life.tracks.slice(0, 20).map((t) => (
+                <LifetimeRow key={t.id} track={t} onOpen={() => setDetail(t)} />
+              ))}
+            </div>
+            <div style={{ marginTop: "var(--sp-3)" }}>
+              <Link className="pill" to="/search">
+                {tx(`See all ${life.tracks.length.toLocaleString()} songs`, `全${life.tracks.length.toLocaleString()}曲を見る`)}
+              </Link>
+            </div>
+          </>
+        )}
+        {detail && <TrackDetail track={detail} onClose={() => setDetail(null)} />}
+      </>
+    );
+  }
+
+  const rows: RankedTrack[] = listen?.weekly_top ?? [];
+  const since = null;
   // キャプションは今週/生涯どちらでも1行を常設し、トグル切替時のリスト縦ジャンプを防ぐ（fable5 レビュー）。
   // 「生涯」は拡張ストリーミング履歴を取り込んだ 2019 以降の全再生（recently-played の50件制約に縛られない）。
   const caption =
@@ -145,26 +193,14 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
 
   return (
     <>
-      <div className="seg" role="tablist" aria-label={tx("Most played range", "よく聴いた期間")}>
-        <button role="tab" aria-selected={range === "week"} className={range === "week" ? "is-active" : ""} onClick={() => setRange("week")}>
-          {tx("This week", "今週")}
-        </button>
-        <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
-          {tx("All-time", "生涯")}
-        </button>
-      </div>
+      <RangeTabs range={range} setRange={setRange} />
       <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>{caption}</p>
       {rows.length === 0 ? (
         <Empty>
-          {range === "week"
-            ? tx(
-                "As listening data accumulates, your most-played tracks this week appear here (collected every 3 hours).",
-                "聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。",
-              )
-            : tx(
-                "Your all-time most-played tracks, from your full listening history, appear here.",
-                "生涯の全再生から集計した、いちばん聴いた曲がここに出ます。",
-              )}
+          {tx(
+            "As listening data accumulates, your most-played tracks this week appear here (collected every 3 hours).",
+            "聴取ログが貯まると、今週よく聴いた曲がここに出ます（3時間ごとに収集）。",
+          )}
         </Empty>
       ) : (
         <div className="card">
@@ -190,6 +226,20 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
         </div>
       )}
     </>
+  );
+}
+
+function RangeTabs({ range, setRange }: { range: "week" | "all"; setRange: (r: "week" | "all") => void }) {
+  const tx = useT();
+  return (
+    <div className="seg" role="tablist" aria-label={tx("Most played range", "よく聴いた期間")}>
+      <button role="tab" aria-selected={range === "week"} className={range === "week" ? "is-active" : ""} onClick={() => setRange("week")}>
+        {tx("This week", "今週")}
+      </button>
+      <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
+        {tx("All-time", "生涯")}
+      </button>
+    </div>
   );
 }
 
@@ -264,6 +314,9 @@ function ArtistBars({ group }: { group: StatsGroup | null }) {
   const tx = useT();
   const { play } = usePlayer();
   const [modal, setModal] = useState<ModalArtist | null>(null);
+  const [lifeArtist, setLifeArtist] = useState<RankedLifetimeArtist | null>(null);
+  const [detail, setDetail] = useState<RankedLifetimeTrack | null>(null);
+  const { byName } = useLifetimeArtists();
   if (!group || !group.artists_top.length) return <Empty>{tx("No data", "データなし")}</Empty>;
   const data = group.artists_top.slice(0, 15);
   const max = Math.max(...data.map((a) => a.count), 1);
@@ -278,7 +331,13 @@ function ArtistBars({ group }: { group: StatsGroup | null }) {
         <div className="art-row" key={a.name}>
           <button
             className="art-body"
-            onClick={() => setModal({ name: a.name, count: a.count, id: a.id })}
+            onClick={() => {
+              // 生涯履歴にいるアーティストは、再生回数・順位まで出せる詳細を開く。
+              // 履歴に無い（プレイリストにあるだけの）人は従来の埋め込みモーダルへ。
+              const life = byName.get(a.name.toLowerCase());
+              if (life) setLifeArtist(life);
+              else setModal({ name: a.name, count: a.count, id: a.id });
+            }}
             title={tx(`${a.name} info`, `${a.name} の情報`)}
           >
             <span className="art-name">{a.name}</span>
@@ -296,6 +355,11 @@ function ArtistBars({ group }: { group: StatsGroup | null }) {
         </div>
       ))}
       {modal && <ArtistModal artist={modal} onClose={() => setModal(null)} />}
+      {lifeArtist && (
+        <ArtistDetail artist={lifeArtist} onClose={() => setLifeArtist(null)}
+          onTrack={(t) => { setLifeArtist(null); setDetail(t); }} />
+      )}
+      {detail && <TrackDetail track={detail} onClose={() => setDetail(null)} />}
     </div>
   );
 }
