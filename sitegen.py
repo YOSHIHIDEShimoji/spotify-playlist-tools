@@ -753,35 +753,6 @@ def _empty_top() -> dict:
     return {"generated_at": _now_utc_iso(), "tracks": dict(empty), "artists": dict(empty)}
 
 
-def build_archive_weekly(sp, dest_id: str) -> dict:
-    weeks: dict[str, list[dict]] = {}
-    results = core.retry_api(
-        lambda: sp.playlist_items(
-            dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
-            additional_types=("track",), limit=100,
-        ),
-        what="archive playlist_items",
-    )
-    while results:
-        for item in results.get("items", []):
-            track = item.get("track") or {}
-            added_at = item.get("added_at")
-            if not track.get("id") or not added_at:
-                continue
-            iso = core.to_jst(added_at).isocalendar()
-            key = f"{iso[0]}-W{iso[1]:02d}"
-            weeks.setdefault(key, []).append(
-                {"id": track["id"], "name": track.get("name", ""),
-                 "artists": [a["name"] for a in track.get("artists", [])], "added_at": added_at,
-                 "image": _album_image(track.get("album") or {})}
-            )
-        results = sp.next(results) if results.get("next") else None
-    return {
-        "generated_at": _now_utc_iso(),
-        "weeks": [{"iso_week": k, "tracks": v} for k, v in sorted(weeks.items())],
-    }
-
-
 # ─────────────────────────── オーケストレーション ───────────────────────────
 
 def main() -> int:
@@ -937,15 +908,6 @@ def main() -> int:
         if "user-follow-read" not in missing
         else {"generated_at": _now_utc_iso(), "items": []},
     )
-
-    # archive_weekly（DEST を added_at で週集計）
-    try:
-        import archive
-        cfg = archive.load_config(archive.CONFIG_PATH)
-        dest = core.extract_playlist_id(cfg["DEST_PLAYLIST_ID"])
-        core.atomic_write_json(data / "archive_weekly.json", build_archive_weekly(sp, dest))
-    except Exception as e:  # noqa: BLE001
-        logger.info(f"archive_weekly スキップ: {e}")
 
     c = summaries.get("inbox", {})
     logger.info(

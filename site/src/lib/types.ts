@@ -304,14 +304,6 @@ export interface Upcoming {
   followed: number;
 }
 
-export interface ArchiveWeek {
-  iso_week: string;
-  tracks: { id: string; name: string; artists: string[]; added_at: string; image?: string | null }[];
-}
-export interface ArchiveWeekly {
-  generated_at: string;
-  weeks: ArchiveWeek[];
-}
 
 export interface SearchTrack {
   id: string;

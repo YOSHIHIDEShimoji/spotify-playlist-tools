@@ -81,15 +81,30 @@ function OnThisDayBlock({ onTrack }: { onTrack: (id: string) => void }) {
   const tx = useT();
   const otd = useJson<OnThisDay>("on_this_day");
   const img = useTrackImages();
+  const [all, setAll] = useState(false);
   const years = otd.data?.years ?? [];
-  if (otd.loading || years.length === 0) return null;
+  // 読み込み中も節の枠を出す。null を返すと、あとから上に挿入されて Wrapped が下へ跳ねる。
+  if (otd.loading) {
+    return <Section title={tx("On this day", "◯年前の今日")}><Loading /></Section>;
+  }
+  if (years.length === 0) return null;
   const thisYear = new Date().getFullYear();
+  const shown = all ? years : years.slice(0, 3);
   return (
-    <Section title={tx("On this day", "◯年前の今日")}>
+    <Section
+      title={tx("On this day", "◯年前の今日")}
+      aside={
+        years.length > 3 ? (
+          <button className="pill" onClick={() => setAll((v) => !v)}>
+            {all ? tx("Show less", "たたむ") : tx(`All ${years.length} years`, `全${years.length}年`)}
+          </button>
+        ) : undefined
+      }
+    >
       <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
         {tx("What you were playing on this date in past years.", "同じ日付に、過去の年で聴いていた曲。")}
       </p>
-      {years.slice(0, 3).map((y) => (
+      {shown.map((y) => (
         <div className="card" key={y.year} style={{ marginBottom: "var(--sp-3)" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
             {tx(`${thisYear - Number(y.year)} years ago (${y.year})`, `${thisYear - Number(y.year)}年前（${y.year}年）`)}
@@ -113,7 +128,10 @@ function RediscoverBlock({ onTrack }: { onTrack: (t: RankedLifetimeTrack) => voi
   const { byId } = useLifetimeTracks();
   const [all, setAll] = useState(false);
   const rows = data.data?.tracks ?? [];
-  if (data.loading || rows.length === 0) return null;
+  if (data.loading) {
+    return <Section title={tx("Forgotten favourites", "忘れられた名曲")}><Loading /></Section>;
+  }
+  if (rows.length === 0) return null;
   const shown = all ? rows : rows.slice(0, 8);
   return (
     <Section

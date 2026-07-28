@@ -5,17 +5,11 @@
 // そのため「似ている」系は Last.fm の類似度に生涯再生回数を掛けて出している。
 import { useState } from "react";
 import { useJson } from "../lib/data";
-import type { AuthStatus, RecArtist, RecTrack, Recs, ReleaseItem, Releases, Top, Upcoming } from "../lib/types";
+import type { AuthStatus, RecArtist, RecTrack, Recs, ReleaseItem, Releases, Upcoming } from "../lib/types";
 import { Empty, Loading, Section } from "../components/ui";
 import { PlayButton } from "../lib/player";
 import { useLifetimeArtists } from "../lib/lifetime";
 import { useT } from "../lib/i18n";
-
-const TERMS: { key: string; en: string; ja: string }[] = [
-  { key: "short_term", en: "Last 4 weeks", ja: "最近（約4週間）" },
-  { key: "medium_term", en: "6 months", ja: "半年" },
-  { key: "long_term", en: "Long term", ja: "長期" },
-];
 
 const ALBUM_TYPE: Record<string, { en: string; ja: string }> = {
   album: { en: "Album", ja: "アルバム" },
@@ -24,7 +18,7 @@ const ALBUM_TYPE: Record<string, { en: string; ja: string }> = {
   ep: { en: "EP", ja: "EP" },
 };
 
-type Tab = "similar" | "releases" | "upcoming" | "top";
+type Tab = "similar" | "releases" | "upcoming";
 
 // 未有効（要再認証）か、単にデータが無いだけかを分けて伝えるカード。
 function DisabledOrEmpty({ disabled, empty }: { disabled: boolean; empty: string }) {
@@ -56,7 +50,6 @@ function Basis({ children }: { children: React.ReactNode }) {
 export function Discover() {
   const tx = useT();
   const releases = useJson<Releases>("releases");
-  const top = useJson<Top>("top");
   const recs = useJson<Recs>("recs");
   const upcoming = useJson<Upcoming>("upcoming");
   const auth = useJson<AuthStatus>("auth_status");
@@ -83,18 +76,13 @@ export function Discover() {
           {tx("Coming soon", "リリース予定")}
           {(upcoming.data?.items.length ?? 0) > 0 && <span className="seg-count">{upcoming.data!.items.length}</span>}
         </button>
-        <button role="tab" aria-selected={tab === "top"} className={tab === "top" ? "is-active" : ""}
-          onClick={() => setTab("top")}>
-          {tx("Spotify Official Top", "Spotify 公式 Top")}
-        </button>
       </div>
 
       {tab === "similar" ? (
         recs.loading ? <Loading /> : <SimilarBlock recs={recs.data} />
       ) : tab === "upcoming" ? (
         upcoming.loading ? <Loading /> : <UpcomingBlock data={upcoming.data} />
-      ) : tab === "top" ? (
-        top.loading ? <Loading /> : <TopBlock top={top.data} disabled={disabled} />
+
       ) : releases.loading ? (
         <Loading />
       ) : (
@@ -349,56 +337,5 @@ function ReleaseList(
         </div>
       ))}
     </div>
-  );
-}
-
-function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
-  const tx = useT();
-  const hasAny = top && TERMS.some((t) => (top.tracks[t.key]?.length ?? 0) > 0);
-  if (!hasAny)
-    return (
-      <DisabledOrEmpty
-        disabled={disabled}
-        empty={tx(
-          "No official Top data yet (your Top tracks and artists as computed by Spotify).",
-          "公式 Top のデータがまだありません（Spotify が計算したあなたの Top 曲・アーティスト）。",
-        )}
-      />
-    );
-  return (
-    <>
-      <Basis>
-        {tx(
-          "Spotify's own ranking of your top tracks, over three time windows. Their weighting is not published.",
-          "Spotify 自身が計算したあなたの Top 曲を3つの期間で。重み付けの中身は公開されていません。",
-        )}
-      </Basis>
-      <div className="top-row">
-        {TERMS.map((term) => {
-          const tracks = top!.tracks[term.key] ?? [];
-          if (!tracks.length) return null;
-          return (
-            <div className="card top-col" key={term.key}>
-              <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{tx(term.en, term.ja)}</div>
-              {tracks.slice(0, 10).map((tr) => (
-                <div className="list-row top-item" key={tr.id}>
-                  <span className="list-rank">{tr.rank}</span>
-                  {tr.image ? (
-                    <img className="cand-art top-art" src={tr.image} alt="" loading="lazy" width={40} height={40} />
-                  ) : (
-                    <span className="cand-art cand-art--ph top-art" aria-hidden />
-                  )}
-                  <span className="list-main">
-                    <div className="name clamp-1">{tr.name}</div>
-                    <div className="t-small clamp-1">{(tr.artists ?? []).join(", ")}</div>
-                  </span>
-                  <PlayButton uri={`spotify:track:${tr.id}`} label={tx(`Play ${tr.name}`, `${tr.name} を再生`)} />
-                </div>
-              ))}
-            </div>
-          );
-        })}
-      </div>
-    </>
   );
 }

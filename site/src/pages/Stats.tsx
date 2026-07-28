@@ -2,7 +2,7 @@ import { Fragment, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Bar, BarChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { useJson, useJsonl } from "../lib/data";
-import type { Heatmap, ListeningStats, RankedTrack, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow } from "../lib/types";
+import type { AuthStatus, Heatmap, ListeningStats, RankedTrack, SearchIndex, SearchTrack, Stats, StatsGroup, StatsHistoryRow, Top } from "../lib/types";
 import { Empty, Loading, ScrollRow, Section, StatCard } from "../components/ui";
 import { PlayButton, PlayIcon, TrackPlayButton, usePlayer } from "../lib/player";
 import { ArtistModal, Modal } from "../components/Modal";
@@ -18,6 +18,12 @@ const GRID = "#2a2a2a";
 const TIP = { background: "#282828", border: "1px solid #4d4d4d", borderRadius: 8 };
 // ツールチップの項目色は系列色から取られる。暗い背景に黒文字が出るのを防ぐため明示する。
 const TIP_ITEM = { color: "#fff" };
+const TERMS: { key: string; en: string; ja: string }[] = [
+  { key: "short_term", en: "Last 4 weeks", ja: "最近（約4週間）" },
+  { key: "medium_term", en: "6 months", ja: "半年" },
+  { key: "long_term", en: "Long term", ja: "長期" },
+];
+
 const LIB_ROW = "__library__"; // ユニーク曲数の番兵行（延べ合計ではない）
 
 export function StatsPage() {
@@ -52,6 +58,27 @@ export function StatsPage() {
 
   return (
     <>
+      <Section title={tx("Your listening, all time", "生涯の記録")}>
+        {listenActive ? (
+          <LifetimeTotals streak={listen.data!.streak} />
+        ) : (
+          <Empty>
+            {tx(
+              "Listening log isn't enabled yet. Re-authenticate to start measuring streak and total plays.",
+              "聴取ログはまだ有効化されていません。再認証すると、連続聴取と累計再生の計測が始まります。",
+            )}
+          </Empty>
+        )}
+      </Section>
+
+      <Section title={tx("Most played", "よく聴いた曲")}>
+        <MostPlayed listen={listen.data} loading={listen.loading} />
+      </Section>
+
+      <Section title={tx("Listening heatmap (day × hour)", "聴取ヒートマップ（曜日 × 時間帯）")}>
+        {heat.loading ? <Loading /> : <HeatGrid heat={heat.data} />}
+      </Section>
+
       <Section title={growthTitle}>
         {history.loading || stats.loading ? <Loading /> : <Growth rows={history.data ?? []} stats={stats.data} />}
       </Section>
@@ -94,27 +121,6 @@ export function StatsPage() {
           </>
         )}
       </Section>
-
-      <Section title={tx("Your listening, all time", "生涯の記録")}>
-        {listenActive ? (
-          <LifetimeTotals streak={listen.data!.streak} />
-        ) : (
-          <Empty>
-            {tx(
-              "Listening log isn't enabled yet. Re-authenticate to start measuring streak and total plays.",
-              "聴取ログはまだ有効化されていません。再認証すると、連続聴取と累計再生の計測が始まります。",
-            )}
-          </Empty>
-        )}
-      </Section>
-
-      <Section title={tx("Most played", "よく聴いた曲")}>
-        <MostPlayed listen={listen.data} loading={listen.loading} />
-      </Section>
-
-      <Section title={tx("Listening heatmap (day × hour)", "聴取ヒートマップ（曜日 × 時間帯）")}>
-        {heat.loading ? <Loading /> : <HeatGrid heat={heat.data} />}
-      </Section>
     </>
   );
 }
@@ -125,7 +131,7 @@ export function StatsPage() {
 function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loading: boolean }) {
   const tx = useT();
   const { lang } = useLang();
-  const [range, setRange] = useState<"week" | "all">("week");
+  const [range, setRange] = useState<Range>("week");
   const [detail, setDetail] = useState<RankedLifetimeTrack | null>(null);
   const life = useLifetimeTracks();
   const search = useJson<SearchIndex>("search_index");
@@ -134,6 +140,15 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
     [search.data],
   );
   if (loading) return <Loading />;
+
+  if (range === "spotify") {
+    return (
+      <>
+        <RangeTabs range={range} setRange={setRange} />
+        <SpotifyTop />
+      </>
+    );
+  }
 
   if (range === "all") {
     return (
@@ -256,16 +271,32 @@ function LifetimeTotals({ streak }: { streak: number }) {
   );
 }
 
-function RangeTabs({ range, setRange }: { range: "week" | "all"; setRange: (r: "week" | "all") => void }) {
+/** Spotify 公式の Top（自分の聴取統計なので、おすすめではなくここに置く）。 */
+function SpotifyTop() {
+  const top = useJson<Top>("top");
+  const auth = useJson<AuthStatus>("auth_status");
+  if (top.loading) return <Loading />;
+  return <TopBlock top={top.data} disabled={(auth.data?.missing_scopes.length ?? 0) > 0} />;
+}
+
+type Range = "week" | "all" | "spotify";
+
+function RangeTabs({ range, setRange }: { range: Range; setRange: (r: Range) => void }) {
   const tx = useT();
+  const tabs: { key: Range; en: string; ja: string }[] = [
+    { key: "week", en: "This week", ja: "今週" },
+    { key: "all", en: "All-time", ja: "生涯" },
+    // 公式 Top は推薦ではなく「自分の聴取統計」なので、おすすめタブではなくここに置く。
+    { key: "spotify", en: "Per Spotify", ja: "Spotify調べ" },
+  ];
   return (
     <div className="seg" role="tablist" aria-label={tx("Most played range", "よく聴いた期間")}>
-      <button role="tab" aria-selected={range === "week"} className={range === "week" ? "is-active" : ""} onClick={() => setRange("week")}>
-        {tx("This week", "今週")}
-      </button>
-      <button role="tab" aria-selected={range === "all"} className={range === "all" ? "is-active" : ""} onClick={() => setRange("all")}>
-        {tx("All-time", "生涯")}
-      </button>
+      {tabs.map((t) => (
+        <button key={t.key} role="tab" aria-selected={range === t.key}
+          className={range === t.key ? "is-active" : ""} onClick={() => setRange(t.key)}>
+          {tx(t.en, t.ja)}
+        </button>
+      ))}
     </div>
   );
 }
@@ -497,5 +528,55 @@ function HeatGrid({ heat }: { heat: Heatmap | null }) {
         ))}
       </div>
     </div>
+  );
+}
+
+function TopBlock({ top, disabled }: { top: Top | null; disabled: boolean }) {
+  const tx = useT();
+  const hasAny = top && TERMS.some((t) => (top.tracks[t.key]?.length ?? 0) > 0);
+  if (!hasAny)
+    return (
+      <Empty>
+        {disabled
+          ? tx("Re-authenticate (run python reauth.py locally) to enable.",
+               "再認証（ローカルで python reauth.py）すると有効になります。")
+          : tx("No official Top data yet.", "公式 Top のデータがまだありません。")}
+      </Empty>
+    );
+  return (
+    <>
+      <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
+        {tx(
+          "Spotify's own ranking, over three time windows. Their weighting is not published, so it differs from the counts above.",
+          "Spotify 自身が計算した順位を3つの期間で。重み付けの中身は公開されていないので、上の実測値とは一致しません。",
+        )}
+      </p>
+      <div className="top-row">
+        {TERMS.map((term) => {
+          const tracks = top!.tracks[term.key] ?? [];
+          if (!tracks.length) return null;
+          return (
+            <div className="card top-col" key={term.key}>
+              <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>{tx(term.en, term.ja)}</div>
+              {tracks.slice(0, 10).map((tr) => (
+                <div className="list-row top-item" key={tr.id}>
+                  <span className="list-rank">{tr.rank}</span>
+                  {tr.image ? (
+                    <img className="cand-art top-art" src={tr.image} alt="" loading="lazy" width={40} height={40} />
+                  ) : (
+                    <span className="cand-art cand-art--ph top-art" aria-hidden />
+                  )}
+                  <span className="list-main">
+                    <div className="name clamp-1">{tr.name}</div>
+                    <div className="t-small clamp-1">{(tr.artists ?? []).join(", ")}</div>
+                  </span>
+                  <PlayButton uri={`spotify:track:${tr.id}`} label={tx(`Play ${tr.name}`, `${tr.name} を再生`)} />
+                </div>
+              ))}
+            </div>
+          );
+        })}
+      </div>
+    </>
   );
 }
