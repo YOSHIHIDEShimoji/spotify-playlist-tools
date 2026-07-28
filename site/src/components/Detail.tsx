@@ -5,7 +5,7 @@ import { Bar, BarChart, Cell, ResponsiveContainer, Tooltip, XAxis } from "rechar
 import { Modal } from "./Modal";
 import { TrackPlayButton } from "../lib/player";
 import { useJson } from "../lib/data";
-import { monthDay, useLang, useT } from "../lib/i18n";
+import { fullDate, useLang, useT } from "../lib/i18n";
 import { finishRate, formatDuration, useLifetimeTracks, yearSeries } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import type { Recs, SearchIndex } from "../lib/types";
@@ -86,9 +86,9 @@ export function TrackDetail({ track, onClose }: { track: RankedLifetimeTrack; on
           : []),
       ]} />
       <div className="t-small detail-span">
-        {tx("First played", "初めて聴いたのは")} <b>{monthDay(track.first, lang)}, {track.first.slice(0, 4)}</b>
+        {tx("First played", "初めて聴いたのは")} <b>{fullDate(track.first, lang)}</b>
         {" · "}
-        {tx("last played", "最後に聴いたのは")} <b>{monthDay(track.last, lang)}, {track.last.slice(0, 4)}</b>
+        {tx("last played", "最後に聴いたのは")} <b>{fullDate(track.last, lang)}</b>
       </div>
       <YearBars years={track.years} label={tx("plays", "再生")} />
       {inPlaylists.length > 0 && (
@@ -149,9 +149,9 @@ export function ArtistDetail(
         </div>
       </div>
       <div className="t-small detail-span">
-        {tx("First played", "初めて聴いたのは")} <b>{monthDay(artist.first, lang)}, {artist.first.slice(0, 4)}</b>
+        {tx("First played", "初めて聴いたのは")} <b>{fullDate(artist.first, lang)}</b>
         {" · "}
-        {tx("last played", "最後に聴いたのは")} <b>{monthDay(artist.last, lang)}, {artist.last.slice(0, 4)}</b>
+        {tx("last played", "最後に聴いたのは")} <b>{fullDate(artist.last, lang)}</b>
       </div>
       <YearBars years={artist.years} label={tx("plays", "再生")} />
 

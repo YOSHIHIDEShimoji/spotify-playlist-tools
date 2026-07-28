@@ -80,7 +80,7 @@ def main() -> int:
         if pid not in name_cache:
             try:
                 name_cache[pid] = sp.playlist(pid, fields="name")["name"]
-            except Exception:
+            except Exception:  # noqa: BLE001 — 表示名が引けなければ ID で代用する
                 name_cache[pid] = pid
         return name_cache[pid]
 

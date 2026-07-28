@@ -132,7 +132,7 @@ class _SearchSp:
         self.queries = []
         self.hits = hits or {}
 
-    def search(self, q, type, limit):  # noqa: A002
+    def search(self, q, type, limit):
         self.queries.append(q)
         hit = self.hits.get(q)
         return {"tracks": {"items": [hit] if hit else []}}

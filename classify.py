@@ -108,7 +108,7 @@ def classify_track(sp, track: dict, cache: dict) -> str:
     if aid:
         try:
             genres = sp.artist(aid).get("genres", [])
-        except Exception:
+        except Exception:  # noqa: BLE001 — genres が引けないだけなら他の判定材料で続行する
             genres = []
         if genres:
             cls = "japanese" if _is_japanese_genre(genres) else "western"
@@ -166,7 +166,7 @@ def classify_unknowns_with_gemini(unknown_artists: dict, cache: dict, logger=Non
             config={"response_mime_type": "application/json", "response_schema": schema},
         )
         data = json.loads(response.text)
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 — Gemini が落ちても分類全体は続ける
         if logger:
             logger.info(f"[gemini error] {e}")
         return result

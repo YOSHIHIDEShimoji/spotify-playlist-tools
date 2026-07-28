@@ -177,7 +177,7 @@ def _entry() -> int:
     except (HTTPError, URLError) as e:
         core.setup_logging("lastfm_log").info(f"Last.fm への通信に失敗（次回再試行）: {e}")
         return core.EXIT_OK
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         core.setup_logging("lastfm_log").info(f"Last.fm 取り込みでエラー: {e}")
         raise
 

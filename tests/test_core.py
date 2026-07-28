@@ -132,8 +132,8 @@ def test_retry_api_does_not_retry_permanent_errors(no_sleep):
     for status in (401, 403, 404):
         calls = {"n": 0}
 
-        def boom(s=status):
-            calls["n"] += 1
+        def boom(s=status, c=calls):
+            c["n"] += 1
             raise _spotify_error(s)
 
         with pytest.raises(spotipy.SpotifyException):

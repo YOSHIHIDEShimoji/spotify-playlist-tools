@@ -600,7 +600,7 @@ class _FakeSp:
         self.artist_batches: list[list[str]] = []
         self._search_hit = search_hit or {}
 
-    def search(self, q, type, limit):  # noqa: A002 — spotipy の実シグネチャに合わせる
+    def search(self, q, type, limit):
         self.searched.append(q)
         hit = self._search_hit.get(q)
         return {"artists": {"items": [hit] if hit else []}}

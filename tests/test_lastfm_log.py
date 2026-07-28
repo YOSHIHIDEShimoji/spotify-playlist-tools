@@ -44,7 +44,7 @@ def test_append_records_dedupes_by_uts(tmp_path):
             lastfm_log._to_record(_track("B", "Y", 1_752_900_100))]
     assert lastfm_log.append_records(scr, recs) == 2
     # 同じ uts を含めて再追記 → 新規1件だけ
-    again = recs + [lastfm_log._to_record(_track("C", "Z", 1_752_900_200))]
+    again = [*recs, lastfm_log._to_record(_track("C", "Z", 1_752_900_200))]
     assert lastfm_log.append_records(scr, again) == 1
     total = sum(len(core.read_jsonl(p)) for p in scr.glob("*.jsonl"))
     assert total == 3

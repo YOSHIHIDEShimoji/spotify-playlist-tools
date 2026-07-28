@@ -688,7 +688,7 @@ def build_artist_meta(sp, wanted: list[str], pl_records: list[dict], existing: d
             got = sp.artists([aid for _, aid in chunk]).get("artists", [])
         except Exception:  # noqa: BLE001
             continue
-        for (key, _), art in zip(chunk, got):
+        for (key, _), art in zip(chunk, got, strict=True):
             if not art:
                 continue
             meta[key].update({

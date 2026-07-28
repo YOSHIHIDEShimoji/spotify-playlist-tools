@@ -90,7 +90,7 @@ def retry_api(fn, *, attempts: int = RETRY_ATTEMPTS, base_delay: float = RETRY_B
     for i in range(attempts):
         try:
             return fn()
-        except Exception as e:  # noqa: BLE001 — 種別判定は _is_transient に委譲
+        except Exception as e:
             if i == attempts - 1 or not _is_transient(e):
                 raise
             delay = base_delay * (2**i)

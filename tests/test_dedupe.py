@@ -127,7 +127,7 @@ def test_auto_select_rank_album_single_compilation():
         _arec("c", "Song", "GB1", "album"),
     ])
     removals, changes = dedupe.auto_select(groups)
-    assert set(r["track_id"] for r in removals) == {"a", "b"}  # album(c) だけ残る
+    assert {r["track_id"] for r in removals} == {"a", "b"}  # album(c) だけ残る
     assert changes[0]["kept"]["album_type"] == "album"
 
 

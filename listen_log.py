@@ -140,7 +140,7 @@ def _entry() -> int:
             "recently-played を取得できません（再認証で有効化）。スキップします。"
         )
         return core.EXIT_OK
-    except Exception as e:  # noqa: BLE001
+    except Exception as e:
         msg = str(e).lower()
         if "403" in msg or "scope" in msg or "forbidden" in msg:
             core.setup_logging("listen_log").info(f"スコープ不足のためスキップ: {e}")

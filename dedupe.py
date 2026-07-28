@@ -210,9 +210,7 @@ def auto_eligible(group: dict, keep_sets: set | None = None,
     # グループが {a,b,c} になった瞬間に照合が外れ、keep したはずの b まで消えてしまう。
     # だから「交差が1件でもあれば除外」＝あなたの明示的意思を常に最優先する。
     ids = frozenset(t["id"] for t in tracks)
-    if any(ids & ks for ks in keep_sets):
-        return False
-    return True
+    return not any(ids & ks for ks in keep_sets)
 
 
 def _auto_keep_key(t: dict):
@@ -378,7 +376,7 @@ def managed_playlists() -> list[dict]:
         _src, sync_artists = sync.load_config(sync.CONFIG_PATH)
         for name, pid in sync_artists.items():
             ids.setdefault(pid, name)
-    except Exception:
+    except Exception:  # noqa: BLE001 — sync 設定が読めなくても既定のプレイリストで続行する
         pass
     return [{"id": pid, "name": name} for pid, name in ids.items()]
 
