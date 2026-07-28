@@ -627,7 +627,10 @@ def _artist_image(artist: dict) -> str | None:
     return imgs[len(imgs) // 2].get("url") or imgs[-1].get("url")
 
 
-TRACK_META_BUDGET = 3000  # 1晩にアルバムアートを引く曲数の上限（/v1/tracks は50件バッチ）
+# 1晩にアルバムアートを引く曲数の上限（/v1/tracks は50件バッチ＝100回で全曲）。
+# 呼び出し側は再生回数の多い順に渡すこと。予算で打ち切られたとき、画面上で最初に目に入る
+# 上位の曲から埋まる（初回実測: 順不同で渡していたため生涯1位に画像が付かなかった）。
+TRACK_META_BUDGET = 5000
 
 _SPOTIFY_ID_RE = re.compile(r"^[A-Za-z0-9]{22}$")
 
@@ -652,6 +655,9 @@ def build_track_meta(sp, track_ids, existing: dict[str, str],
     拡張履歴は曲名と ID しか持たないので、そのままだと生涯ランキングの大半がサムネイル無しに
     なる。/v1/tracks は50件バッチで album.images を返すので、未取得の曲だけまとめて引く。
     Last.fm 由来の未解決 ID（"lastfm:..."）は Spotify に無いので対象外。
+
+    track_ids は**再生回数の多い順**で渡す。予算で打ち切られたときに、画面で最初に目に入る
+    上位の曲から埋まるようにするため（順序を保つので set ではなく列で受ける）。
     """
     meta = dict(existing)
     pending = [
@@ -862,8 +868,10 @@ def main() -> int:
             sp, [a["name"] for a in lifetime_names], search_records, _load_artist_meta(data)
         )
         core.atomic_write_json(data / "artist_meta.json", {"generated_at": _now_utc_iso(), "artists": meta})
+        # 再生回数の多い順に渡す（予算で切れても上位から埋まるように）
+        play_counts = Counter(r["track_id"] for r in records if r.get("track_id"))
         track_meta = build_track_meta(
-            sp, {r["track_id"] for r in records if r.get("track_id")}, _load_track_meta(data)
+            sp, [tid for tid, _ in play_counts.most_common()], _load_track_meta(data)
         )
         core.atomic_write_json(
             data / "track_meta.json", {"generated_at": _now_utc_iso(), "images": track_meta}

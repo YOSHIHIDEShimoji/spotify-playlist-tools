@@ -800,3 +800,15 @@ def test_write_lifetime_applies_track_images(tmp_path):
     rows = {t["id"]: t for t in json.loads((tmp_path / "lifetime_tracks.json").read_text())["tracks"]}
     assert rows["t1"]["image"] == "https://img/t1.jpg"
     assert "image" not in rows["t2"]  # 空文字は「画像なし」なので付けない
+
+
+def test_build_track_meta_keeps_caller_order_under_budget():
+    """予算で打ち切られるときは渡された順（＝再生回数の多い順）に埋める。
+
+    set で渡していた初回は順序が不定で、生涯1位の曲に画像が付かなかった。
+    """
+    sp = _TracksSp()
+    ids = [f"{i:022d}" for i in range(10)]
+    meta = sitegen.build_track_meta(sp, ids, {}, budget=3)
+    assert sp.batches == [ids[:3]]
+    assert set(meta) == set(ids[:3])
