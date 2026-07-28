@@ -209,3 +209,39 @@ def test_remove_in_batches_retries_transient_errors(no_sleep):
     sp = _Sp()
     core.remove_in_batches(sp, "pid", ["t1"])
     assert sp.calls == 2
+
+
+def test_retry_api_retries_unclassified_errors(no_sleep):
+    """http_status=-1（spotipy が分類できなかった接続断など）も一過性として再試行する。
+
+    ここが False に退行すると、この変更の動機だった「一過性障害で夜間バッチ全体が落ちる」が
+    そのまま再発するので、明示的に固定する。
+    """
+    calls = {"n": 0}
+
+    def flaky():
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise _spotify_error(-1, "connection reset")
+        return "ok"
+
+    assert core.retry_api(flaky) == "ok"
+    assert calls["n"] == 2
+
+
+def test_iter_playlist_tracks_retries_the_first_page(no_sleep):
+    """初回ページの取得も retry でくるまれていること（next だけ守っても意味がない）。"""
+    class _Sp(_PagingSp):
+        def __init__(self):
+            super().__init__([_page(["a"], False)])
+            self.first_calls = 0
+
+        def playlist_items(self, pid, fields=None, additional_types=None, limit=100):
+            self.first_calls += 1
+            if self.first_calls == 1:
+                raise _spotify_error(503)
+            return self.pages[0]
+
+    sp = _Sp()
+    assert [t["id"] for t in core.iter_playlist_tracks(sp, "pid", "f,next")] == ["a"]
+    assert sp.first_calls == 2

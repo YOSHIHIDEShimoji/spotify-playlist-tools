@@ -48,8 +48,29 @@ def test_extract_featured_artists_handles_common_notations():
     assert sync.extract_featured_artists("Song ft. A") == ["A"]
     assert sync.extract_featured_artists("Song [featuring A]") == ["A"]
     assert sync.extract_featured_artists("Song (with A)") == ["A"]
-    assert sync.extract_featured_artists("Song (feat. A & B)") == ["A", "B"]
-    assert sync.extract_featured_artists("Song (feat. A, B and C)") == ["A", "B", "C"]
+    assert set(sync.extract_featured_artists("Song (feat. A & B)")) >= {"A", "B"}
+    assert set(sync.extract_featured_artists("Song (feat. A, B and C)")) >= {"A", "B", "C"}
+
+
+def test_extract_featured_artists_keeps_names_containing_separators():
+    # 区切り文字を名前の一部に持つ実在アーティスト。分割した断片だけを候補にすると拾えない。
+    assert "Lil Nas X" in sync.extract_featured_artists("MONTERO (feat. Lil Nas X)")
+    assert "Tyler, The Creator" in sync.extract_featured_artists("Song (feat. Tyler, The Creator)")
+    assert "Florence and the Machine" in sync.extract_featured_artists("Song (feat. Florence and the Machine)")
+
+
+def test_featured_artist_with_separator_in_name_is_matched():
+    # 実バグの回帰: "Lil Nas X" の末尾 X を区切りとして食い、客演を取りこぼしていた
+    tracks = [_track("t1", "MONTERO (feat. Lil Nas X)", "Jack Harlow")]
+    ids, name = sync.match_tracks_for_artist(tracks, "lil nas x")
+    assert ids == ["t1"] and name == "Lil Nas X"
+
+
+def test_extract_featured_artists_still_splits_real_collaborations():
+    # 全体を残すようにしても、本物の連名は個別に取れること（両立の担保）
+    tracks = [_track("t1", "Song (feat. A & B)", "Main")]
+    assert sync.match_tracks_for_artist(tracks, "a")[0] == ["t1"]
+    assert sync.match_tracks_for_artist(tracks, "b")[0] == ["t1"]
 
 
 def test_extract_featured_artists_empty_when_absent():

@@ -666,3 +666,72 @@ def test_build_artist_meta_survives_api_failure():
 
     meta = sitegen.build_artist_meta(_Boom(), ["Queen"], [{"artists": [{"name": "Queen", "id": "Q"}]}], {})
     assert meta["queen"]["id"] == "Q" and "image" not in meta["queen"]  # ID だけ残り翌晩リトライ
+
+
+def test_backfill_yearly_wrapped_counts_new_tracks_per_year(tmp_path):
+    """年間 wrapped の new_tracks が「その年に初めて聴いた曲の数」で配線されていること。
+
+    月間側と同じ検証。ここが 0 固定に退行しても他のテストは緑のままなので明示的に固定する。
+    """
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    recs = [
+        _play("2019-10-01T00:00:00Z", "a"),   # 2019 の新規: a
+        _play("2019-11-01T00:00:00Z", "b"),   # 2019 の新規: b
+        _play("2020-02-01T00:00:00Z", "a"),   # a は2019が初回なので 2020 の新規ではない
+        _play("2020-03-01T00:00:00Z", "c"),   # 2020 の新規: c
+    ]
+    sitegen._backfill_yearly_wrapped(tmp_path, recs, now)
+    y2019 = json.loads((tmp_path / "wrapped" / "2019.json").read_text())
+    y2020 = json.loads((tmp_path / "wrapped" / "2020.json").read_text())
+    assert y2019["new_tracks"] == 2
+    assert y2020["new_tracks"] == 1
+
+
+def test_first_play_periods_by_year_uses_earliest_play():
+    # 到着順ではなく最も早い年を採る（後の行に早い年を置いて順序依存を落とす）
+    recs = [_play("2021-01-01T00:00:00Z", "t1"), _play("2019-05-01T00:00:00Z", "t1")]
+    assert sitegen._first_play_periods(recs, "%Y") == {"t1": "2019"}
+
+
+def test_accumulate_first_last_independent_of_record_order():
+    # 履歴ファイルの読み込み順は保証されないので、逆順でも first/last が正しいこと
+    recs = [_play("2026-01-02T00:00:00Z", "t"), _play("2019-10-01T00:00:00Z", "t")]
+    (row,) = sitegen.lifetime_tracks(recs)
+    assert row["first"] == "2019-10-01" and row["last"] == "2026-01-02"
+
+
+def test_write_lifetime_wires_short_plays_and_artist_images(tmp_path):
+    """生涯集計の書き出し配線（extra.json → short、artist_meta → image）を通しで検証する。
+
+    純関数側は個別に検証済みだが、繋ぎ目が切れても他のテストは緑のままだったため。
+    """
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    (tmp_path / "history").mkdir()
+    (tmp_path / "history" / "extra.json").write_text(
+        json.dumps({"min_ms": 30000, "short_plays": {"t1": 5}})
+    )
+    recs = [
+        _play("2020-01-01T00:00:00Z", "t1", artist="Queen"),
+        _play("2020-01-02T00:00:00Z", "t1", artist="Queen"),
+        _play("2026-07-01T00:00:00Z", "t2", artist="Queen"),
+    ]
+    meta = {"queen": {"name": "Queen", "id": "Q1", "image": "https://img/queen.jpg"}}
+
+    sitegen.write_lifetime(tmp_path, recs, now, meta)
+
+    tracks = json.loads((tmp_path / "lifetime_tracks.json").read_text())
+    assert tracks["tracks"][0]["id"] == "t1"
+    assert tracks["tracks"][0]["short"] == 5          # extra.json が届いている
+    assert tracks["totals"]["plays"] == 3
+
+    artists = json.loads((tmp_path / "lifetime_artists.json").read_text())["artists"]
+    assert artists[0]["image"] == "https://img/queen.jpg"  # artist_meta が届いている
+    assert artists[0]["id"] == "Q1"
+
+    assert json.loads((tmp_path / "rediscover.json").read_text())["quiet_days"] == sitegen.REDISCOVER_QUIET_DAYS
+    assert json.loads((tmp_path / "on_this_day.json").read_text())["date"] == "07-29"
+
+
+def test_write_lifetime_noop_without_records(tmp_path):
+    assert sitegen.write_lifetime(tmp_path, [], datetime(2026, 7, 29, tzinfo=core.JST), {}) == []
+    assert not (tmp_path / "lifetime_tracks.json").exists()

@@ -170,3 +170,66 @@ def test_build_upcoming_writes_cache(tmp_path, monkeypatch):
     cache = json.loads((tmp_path / "mb_cache.json").read_text())["artists"]
     assert cache["S9"]["mbid"] == "MB-NEW"
     assert [i["title"] for i in payload["items"]] == ["Future"]
+
+
+class _CountingSp(_FollowSp):
+    pass
+
+
+def test_build_upcoming_caps_mbid_lookups_per_night(tmp_path, monkeypatch):
+    """1晩の MBID 解決は LOOKUP_BUDGET まで。無制限になると 1.1秒/件で夜間ジョブが延びる。"""
+    monkeypatch.setattr(upcoming.time, "sleep", lambda s: None)
+    monkeypatch.setattr(upcoming, "LOOKUP_BUDGET", 1)
+    monkeypatch.setattr(upcoming, "REFRESH_BUDGET", 0)
+    seen: list[str] = []
+
+    def fake_lookup(sid):
+        seen.append(sid)
+        return f"MB-{sid}"
+
+    monkeypatch.setattr(upcoming, "lookup_mbid", fake_lookup)
+    sp = _CountingSp([{"id": "S1", "name": "A"}, {"id": "S2", "name": "B"}, {"id": "S3", "name": "C"}])
+    upcoming.build_upcoming(sp, tmp_path, now=datetime(2026, 7, 29, 12, 0, tzinfo=core.JST))
+    assert len(seen) == 1  # 残りは翌晩に回す
+
+
+def test_build_upcoming_records_checked_so_misses_are_not_retried_nightly(tmp_path, monkeypatch):
+    """見つからなかった人にも checked を記録する。記録しないと毎晩同じ空振りに予算を使い切る。"""
+    monkeypatch.setattr(upcoming.time, "sleep", lambda s: None)
+    monkeypatch.setattr(upcoming, "REFRESH_BUDGET", 0)
+    monkeypatch.setattr(upcoming, "lookup_mbid", lambda sid: None)  # MusicBrainz に居ない
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    sp = _CountingSp([{"id": "S1", "name": "A"}])
+
+    upcoming.build_upcoming(sp, tmp_path, now=now)
+    entry = json.loads((tmp_path / "mb_cache.json").read_text())["artists"]["S1"]
+    assert entry["mbid"] is None and entry["checked"]
+
+    # 記録があるので、翌晩（30日以内）は再度引きにいかない
+    calls: list[str] = []
+    monkeypatch.setattr(upcoming, "lookup_mbid", lambda sid: calls.append(sid))
+    upcoming.build_upcoming(sp, tmp_path, now=now + timedelta(days=1))
+    assert calls == []
+
+
+def test_future_releases_includes_the_horizon_day_itself():
+    # horizon ちょうどは含む（境界の <= を < にずらすと落ちる）
+    payload = {"release-groups": [_rg("Edge", "2027-09-01")]}
+    assert [r["title"] for r in upcoming.future_releases(payload, "2026-07-29", "2027-09-01")] == ["Edge"]
+
+
+def test_build_upcoming_sorts_items_deterministically(tmp_path, monkeypatch):
+    # 同じ日のものは アーティスト名昇順。毎晩の生成物に無意味な差分を出さないため。
+    monkeypatch.setattr(upcoming.time, "sleep", lambda s: None)
+    monkeypatch.setattr(upcoming, "REFRESH_BUDGET", 0)
+    (tmp_path / "mb_cache.json").write_text(json.dumps({"artists": {
+        "S2": {"name": "Zeta", "mbid": "M2", "refreshed": "2026-07-28T00:00:00+00:00",
+               "upcoming": [{"title": "T", "date": "2026-09-01", "type": "Album"}]},
+        "S1": {"name": "Alpha", "mbid": "M1", "refreshed": "2026-07-28T00:00:00+00:00",
+               "upcoming": [{"title": "T", "date": "2026-09-01", "type": "Album"}]},
+    }}))
+    payload = upcoming.build_upcoming(
+        _CountingSp([{"id": "S2", "name": "Zeta"}, {"id": "S1", "name": "Alpha"}]),
+        tmp_path, now=datetime(2026, 7, 29, 12, 0, tzinfo=core.JST),
+    )
+    assert [i["artist"] for i in payload["items"]] == ["Alpha", "Zeta"]

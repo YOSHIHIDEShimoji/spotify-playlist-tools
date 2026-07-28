@@ -80,17 +80,26 @@ _FEAT_SPLIT_RE = re.compile(r"\s*(?:,|&|\+|/|\band\b|\bx\b)\s*", re.IGNORECASE)
 
 
 def extract_featured_artists(track_name: str) -> list[str]:
-    """曲名から客演アーティスト名を取り出す（例: "Song (feat. Charlie Puth)" → ["Charlie Puth"]）。
+    """曲名から客演アーティスト名の候補を取り出す（例: "Song (feat. Charlie Puth)" → ["Charlie Puth"]）。
 
-    Spotify の artists 配列に載らない客演を拾うための補助。曲名の自由記述が相手なので誤検出は
-    避けられない（"Dance with Me" → "Me"）が、呼び出し側は「設定済みアーティスト名と完全一致
-    したときだけ」使うので、実害のある誤爆は起きない。
+    Spotify の artists 配列に載らない客演を拾うための補助。
+
+    **区切りで分割した断片だけでなく、分割前の全体も候補に残す。** 区切り文字を名前の一部に持つ
+    アーティストが実在するため（"Lil Nas X" の X、"Tyler, The Creator" のカンマ、
+    "Florence and the Machine" の and）、分割だけだと拾えない。両方を候補に入れておけば、
+    "feat. A & B" のような本物の連名も、区切りを含む単独名も、どちらも取りこぼさない。
+
+    曲名の自由記述が相手なので誤検出は避けられない（"Dance with Me" → "Me"）が、呼び出し側は
+    「設定済みアーティスト名と完全一致したときだけ」使うので、実害のある誤爆は起きない。
     """
     out: list[str] = []
     for m in _FEAT_RE.finditer(track_name or ""):
+        segment = m.group(1).strip(" -–—\"'")
+        if segment:
+            out.append(segment)  # 分割前の全体（区切り文字を名前に含むアーティスト用）
         for part in _FEAT_SPLIT_RE.split(m.group(1)):
             name = part.strip(" -–—\"'")
-            if name:
+            if name and name != segment:
                 out.append(name)
     return out
 
