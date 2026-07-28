@@ -78,6 +78,24 @@ def test_extract_featured_artists_empty_when_absent():
     assert sync.extract_featured_artists("") == []
 
 
+def test_match_requires_exact_name_not_substring():
+    """照合は完全一致でなければならない（部分一致に緩めると誤爆が実害になる）。
+
+    このツールは双方向同期で、アーティストPLから曲を消すとソースからも消える。誤って
+    追加された曲を本人が手で外すと、ソース側の曲まで失われる。曲名解析は "Lil Nas X" から
+    "Lil Nas" のような断片も候補に出すので、部分一致を許すとその断片が別人に刺さる。
+    """
+    # 候補（"Lil Nas X" / 断片の "Lil Nas"）のどれとも等しくない名前には反応しない。
+    # なお断片そのものと完全一致する設定名は拾う（"feat. A & B" を成立させるための意図的な代償）。
+    feat_track = [_track("t1", "MONTERO (feat. Lil Nas X)", "Jack Harlow")]
+    assert sync.match_tracks_for_artist(feat_track, "nas") == ([], "")
+    assert sync.match_tracks_for_artist(feat_track, "lil") == ([], "")
+    # クレジット側も同じ。設定名が実在アーティスト名の一部でも一致させない
+    credited = [_track("t2", "Song", "Charlie Puth")]
+    assert sync.match_tracks_for_artist(credited, "puth") == ([], "")
+    assert sync.match_tracks_for_artist(credited, "charlie") == ([], "")
+
+
 def test_title_false_positive_does_not_match_unconfigured_name():
     # "Dance with Me" は "Me" を客演として取り出すが、設定済みアーティスト名と一致しない限り
     # プレイリストには影響しない（誤爆が実害にならない設計）
