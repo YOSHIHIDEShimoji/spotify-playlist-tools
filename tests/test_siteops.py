@@ -176,7 +176,7 @@ def test_op_classify_apply_removes_saved_via_me_tracks(tmp_path, monkeypatch):
     )
     monkeypatch.setattr(inbox, "load_inbox_config", lambda _p: ("jp", "west", {}))
     monkeypatch.setattr(inbox, "playlist_track_ids", lambda sp, pid: set())
-    monkeypatch.setattr(classify, "load_cache", lambda: {})
+    monkeypatch.setattr(classify, "load_cache", dict)
     monkeypatch.setattr(classify, "save_cache", lambda c: None)
 
     sp = _FakeSp({})

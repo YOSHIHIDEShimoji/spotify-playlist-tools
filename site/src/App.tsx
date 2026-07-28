@@ -42,9 +42,19 @@ export function App() {
   const pat = usePat();
   const t = useT();
   const [showSettings, setShowSettings] = useState(false);
+  const [compact, setCompact] = useState(false);
   const location = useLocation();
   const auth = useJson<AuthStatus>("auth_status"); // 最終更新の表示に使う
   const updated = jstStamp(auth.data?.checked_at);
+
+  // ヘッダーは常時追従させる。ただし2段のままだとスマホで画面を食うので、少しでも
+  // スクロールしたらロゴ行を畳んでナビのピルだけ残す（Spotify アプリと同じ挙動）。
+  useEffect(() => {
+    const onScroll = () => setCompact(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   // ルート変更（ディープリンク／リロード含む）時、横スクロールするナビ内でアクティブな
   // ピルを中央寄せに。scroller の scrollLeft を直接指定するのでページ縦スクロールは動かさない。
@@ -62,6 +72,7 @@ export function App() {
 
   return (
     <div className="shell">
+      <div className={"topbar" + (compact ? " is-compact" : "")}>
       <header className="app-header">
         <span className="app-logo">
           <span className="mark" aria-hidden>
@@ -92,8 +103,6 @@ export function App() {
         </button>
       </header>
 
-      {showSettings && <PatSettings onDone={() => setShowSettings(false)} hasPat={!!pat} />}
-
       <ScrollRow className="nav" role="navigation" ariaLabel={t("Main navigation", "メインナビ")}>
         {NAV.map((n) => (
           <NavLink
@@ -106,6 +115,9 @@ export function App() {
           </NavLink>
         ))}
       </ScrollRow>
+      </div>
+
+      {showSettings && <PatSettings onDone={() => setShowSettings(false)} hasPat={!!pat} />}
 
       <AuthBanner />
 

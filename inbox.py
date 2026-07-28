@@ -41,13 +41,13 @@ def load_inbox_config(path: Path) -> tuple[str, str, dict[str, str]]:
 
 def get_liked_tracks(sp) -> list[dict]:
     tracks: list[dict] = []
-    results = sp.current_user_saved_tracks(limit=50)
+    results = core.retry_api(lambda: sp.current_user_saved_tracks(limit=50), what="saved_tracks")
     while results:
         for item in results["items"]:
             track = item.get("track")
             if track and track.get("id"):
                 tracks.append(track)
-        results = sp.next(results) if results.get("next") else None
+        results = core.next_page(sp, results)
     return tracks
 
 
@@ -80,7 +80,7 @@ def main() -> int:
         if pid not in name_cache:
             try:
                 name_cache[pid] = sp.playlist(pid, fields="name")["name"]
-            except Exception:
+            except Exception:  # noqa: BLE001 — 表示名が引けなければ ID で代用する
                 name_cache[pid] = pid
         return name_cache[pid]
 

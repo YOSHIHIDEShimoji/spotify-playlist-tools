@@ -19,9 +19,10 @@ import argparse
 import gzip
 import json
 import os
+import re
 import sys
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import core
@@ -33,13 +34,19 @@ WEEKLY_TOP = 50
 WRAPPED_TOP = 20
 MILESTONES = [100, 250, 500, 1000, 2500, 5000, 10000]
 
+# 「忘れられた名曲」の条件: 生涯 REDISCOVER_MIN_PLAYS 回以上聴いたのに、直近
+# REDISCOVER_QUIET_DAYS 日は一度も再生していない曲。生涯データがあって初めて成立する。
+REDISCOVER_MIN_PLAYS = 10
+REDISCOVER_QUIET_DAYS = 365
+REDISCOVER_LIMIT = 60
+
 # stats タブで選択できる「完成済み」プレイリスト。管理対象（夜間更新）ではないので
 # dedupe（重複検出）には入れず、統計の閲覧だけ対象にする。Western/Japanese は inbox 設定から取る。
 STATS_EXTRA_PLAYLISTS = [{"id": "6sqoiZw75RIvnUFC058VJv", "name": "1900's songs"}]
 
 
 def _now_utc_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
+    return core.now_utc_iso()
 
 
 # ─────────────────────────── 聴取ログ集計（純関数） ───────────────────────────
@@ -120,6 +127,192 @@ def monthly_wrapped(records: list[dict], month: str, new_tracks: int = 0) -> dic
         "new_tracks": new_tracks,
         "peak": {"dow": peak[0], "hour": peak[1]} if peak else None,
     }
+
+
+# ─────────────────────────── 生涯集計（純関数） ───────────────────────────
+#
+# 拡張ストリーミング履歴（2019〜）を土台にした「生涯」の集計。ランキングを上位N件で切らず
+# 全件出すのが要点で、これがサイト側の逆引き（この曲は生涯何回・何位か）の材料になる。
+# rank は配列の並び順そのもの（count 降順）なので JSON には持たせない。
+
+def _play_ms(r: dict) -> int:
+    """その再生の再生時間(ms)。拡張履歴だけが持ち、live ログ/scrobble には無いので既定 0。"""
+    ms = r.get("ms")
+    return ms if isinstance(ms, int) and ms > 0 else 0
+
+
+def _artist_names(r: dict) -> list[str]:
+    return [a.get("name", "") for a in (r.get("artists") or []) if a.get("name")]
+
+
+def _accumulate(bucket: dict, r: dict, jst: datetime) -> None:
+    """1再生ぶんを集計バケットへ足す（曲・アーティスト共通）。first/last は JST の日付。"""
+    day = jst.date().isoformat()
+    bucket["count"] += 1
+    bucket["ms"] += _play_ms(r)
+    bucket["years"][jst.strftime("%Y")] = bucket["years"].get(jst.strftime("%Y"), 0) + 1
+    if not bucket["first"] or day < bucket["first"]:
+        bucket["first"] = day
+    if not bucket["last"] or day > bucket["last"]:
+        bucket["last"] = day
+
+
+def _new_bucket() -> dict:
+    return {"count": 0, "ms": 0, "years": {}, "first": "", "last": ""}
+
+
+def lifetime_tracks(records: list[dict], short_plays: dict[str, int] | None = None) -> list[dict]:
+    """全曲の生涯集計を count 降順（同数は曲名昇順）で返す。上位N件で切らない。
+
+    short_plays（import_history の extra.json 由来）があれば、その曲を途中でやめた回数を
+    `short` として載せる。サイト側は count/(count+short) を完走率として出す。
+    """
+    short_plays = short_plays or {}
+    buckets: dict[str, dict] = {}
+    meta = _track_meta(records)
+    for r in records:
+        tid, pa = r.get("track_id"), r.get("played_at")
+        if not tid or not pa:
+            continue
+        _accumulate(buckets.setdefault(tid, _new_bucket()), r, core.to_jst(pa))
+    out = []
+    for tid, b in buckets.items():
+        row = {
+            "id": tid,
+            "name": meta[tid]["name"],
+            "artists": meta[tid]["artists"],
+            "count": b["count"],
+            "ms": b["ms"],
+            "first": b["first"],
+            "last": b["last"],
+            "years": b["years"],
+        }
+        if meta[tid].get("image"):
+            row["image"] = meta[tid]["image"]
+        if short_plays.get(tid):
+            row["short"] = short_plays[tid]
+        out.append(row)
+    out.sort(key=lambda x: (-x["count"], x["name"]))
+    return out
+
+
+def lifetime_artists(records: list[dict], artist_ids: dict[str, str] | None = None) -> list[dict]:
+    """全アーティストの生涯集計を count 降順（同数は名前昇順）で返す。
+
+    1再生は、その曲に credit された全アーティストにそれぞれ1回として数える（monthly_wrapped と
+    同じ数え方）。拡張履歴はアルバムアーティスト1名しか持たないため、履歴由来の再生は代表1名に
+    付く。artist_ids は 名前(小文字) → Spotify アーティストID の対応（画像・直リンク用）。
+    """
+    artist_ids = artist_ids or {}
+    buckets: dict[str, dict] = {}
+    tracks: dict[str, set] = {}
+    display: dict[str, str] = {}
+    for r in records:
+        pa = r.get("played_at")
+        if not pa:
+            continue
+        jst = core.to_jst(pa)
+        for name in _artist_names(r):
+            key = name.lower()
+            display.setdefault(key, name)
+            _accumulate(buckets.setdefault(key, _new_bucket()), r, jst)
+            if r.get("track_id"):
+                tracks.setdefault(key, set()).add(r["track_id"])
+    out = []
+    for key, b in buckets.items():
+        row = {
+            "name": display[key],
+            "count": b["count"],
+            "tracks": len(tracks.get(key, ())),
+            "ms": b["ms"],
+            "first": b["first"],
+            "last": b["last"],
+            "years": b["years"],
+        }
+        if artist_ids.get(key):
+            row["id"] = artist_ids[key]
+        out.append(row)
+    out.sort(key=lambda x: (-x["count"], x["name"]))
+    return out
+
+
+def lifetime_totals(records: list[dict], tracks: list[dict], artists: list[dict]) -> dict:
+    """生涯の総量。plays / 曲数 / アーティスト数 / 総再生時間(ms) / 起点 / 聴いた日数。"""
+    days = {core.to_jst(r["played_at"]).date().isoformat() for r in records if r.get("played_at")}
+    return {
+        "plays": len(records),
+        "tracks": len(tracks),
+        "artists": len(artists),
+        "ms": sum(t["ms"] for t in tracks),
+        "since": min(days) if days else None,
+        "days": len(days),
+    }
+
+
+def yearly_wrapped(records: list[dict], year: str, new_tracks: int = 0) -> dict:
+    """year: 'YYYY'（JST）。その年の Top 曲・アーティスト・月別再生・総再生時間を出す。
+
+    月間 wrapped と同じ形（month キーの代わりに year）＋ ms / months を足したもの。
+    サイトは同じコンポーネントで月/年どちらも描ける。
+    """
+    recs = [r for r in records if r.get("played_at") and core.to_jst(r["played_at"]).strftime("%Y") == year]
+    artist_counts: Counter[str] = Counter()
+    months: Counter[str] = Counter()
+    cells: Counter[tuple] = Counter()
+    for r in recs:
+        jst = core.to_jst(r["played_at"])
+        months[jst.strftime("%Y-%m")] += 1
+        cells[(jst.weekday(), jst.hour)] += 1
+        for name in _artist_names(r):
+            artist_counts[name] += 1
+    peak = max(cells, key=cells.get) if cells else None
+    return {
+        "year": year,
+        "plays": len(recs),
+        "ms": sum(_play_ms(r) for r in recs),
+        "top_tracks": cumulative_ranking(recs, WRAPPED_TOP),
+        "top_artists": [{"name": n, "count": c} for n, c in artist_counts.most_common(WRAPPED_TOP)],
+        "new_tracks": new_tracks,
+        "peak": {"dow": peak[0], "hour": peak[1]} if peak else None,
+        "months": [{"month": m, "count": months[m]} for m in sorted(months)],
+    }
+
+
+def rediscover(
+    tracks: list[dict],
+    now_jst: datetime,
+    min_plays: int = REDISCOVER_MIN_PLAYS,
+    quiet_days: int = REDISCOVER_QUIET_DAYS,
+    limit: int = REDISCOVER_LIMIT,
+) -> list[dict]:
+    """「忘れられた名曲」= よく聴いたのに最近ぱったり聴いていない曲。
+
+    tracks は lifetime_tracks の出力。last（最終再生日・JST）が quiet_days 日より前で、
+    生涯 min_plays 回以上のものを再生回数の多い順に返す。
+    """
+    cutoff = (now_jst - timedelta(days=quiet_days)).date().isoformat()
+    hits = [t for t in tracks if t["count"] >= min_plays and t["last"] and t["last"] < cutoff]
+    hits.sort(key=lambda t: (-t["count"], t["name"]))
+    return hits[:limit]
+
+
+def on_this_day(records: list[dict], now_jst: datetime) -> list[dict]:
+    """今日と同じ月日（JST）に、過去の年で何を聴いていたか。新しい年から順に返す。"""
+    md = now_jst.strftime("%m-%d")
+    this_year = now_jst.strftime("%Y")
+    by_year: dict[str, list[dict]] = {}
+    for r in records:
+        pa = r.get("played_at")
+        if not pa:
+            continue
+        jst = core.to_jst(pa)
+        if jst.strftime("%m-%d") != md or jst.strftime("%Y") == this_year:
+            continue
+        by_year.setdefault(jst.strftime("%Y"), []).append(r)
+    return [
+        {"year": y, "plays": len(recs), "tracks": cumulative_ranking(recs, 10)}
+        for y, recs in sorted(by_year.items(), reverse=True)
+    ]
 
 
 # ─────────────────────── プレイリスト由来（純関数・records から） ───────────────────────
@@ -418,6 +611,95 @@ def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, wi
     return {"generated_at": _now_utc_iso(), "items": items}
 
 
+ARTIST_META_SEARCH_BUDGET = 40  # 1晩に検索で新規解決するアーティスト数の上限（API 負荷の頭打ち）
+
+
+def _artist_image(artist: dict) -> str | None:
+    """artist.images から中サイズ（無ければ最小）の URL を返す。一覧のサムネイル用。"""
+    imgs = (artist or {}).get("images") or []
+    if not imgs:
+        return None
+    return imgs[len(imgs) // 2].get("url") or imgs[-1].get("url")
+
+
+def _load_artist_meta(data: Path) -> dict:
+    """artist_meta.json（名前(小文字) → {id, name, image, genres, followers}）を読む。"""
+    path = data / "artist_meta.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    meta = payload.get("artists")
+    return meta if isinstance(meta, dict) else {}
+
+
+def known_artist_ids(pl_records: list[dict]) -> dict[str, str]:
+    """プレイリスト在籍曲から 名前(小文字) → Spotify アーティストID を作る（検索なしで解決できる分）。"""
+    out: dict[str, str] = {}
+    for r in pl_records:
+        for a in r.get("artists") or []:
+            name, aid = a.get("name"), a.get("id")
+            if name and aid:
+                out.setdefault(name.lower(), aid)
+    return out
+
+
+def build_artist_meta(sp, wanted: list[str], pl_records: list[dict], existing: dict,
+                      search_budget: int = ARTIST_META_SEARCH_BUDGET) -> dict:
+    """アーティストの画像・ジャンル・フォロワーを取得して名前キーのキャッシュを育てる。
+
+    wanted は表示名のリスト（生涯集計に出てくる全アーティスト）。ID は
+      1) プレイリスト在籍曲の artists[].id（無料・確実）
+      2) 既存キャッシュ
+      3) それでも未解決なら search API（1晩 search_budget 件まで）
+    の順に解決し、GET /v1/artists（50件バッチ）で画像等をまとめて引く。
+
+    キャッシュは名前をキーにする（拡張履歴が ID を持たず名前しか持たないため）。既存エントリは
+    再取得しない＝毎晩の API 消費は「新しく増えたアーティストぶん」だけで済む。
+    """
+    meta = {k: dict(v) for k, v in existing.items()}
+    from_playlists = known_artist_ids(pl_records)
+
+    need_id: list[str] = []
+    for name in wanted:
+        key = name.lower()
+        if meta.get(key, {}).get("image"):
+            continue  # 取得済み（画像まで入っている）ものは触らない
+        aid = meta.get(key, {}).get("id") or from_playlists.get(key)
+        if aid:
+            meta.setdefault(key, {"name": name})["id"] = aid
+        else:
+            need_id.append(name)
+
+    for name in need_id[:search_budget]:  # 未解決は検索で ID を引く（上限つき）
+        try:
+            items = sp.search(q=name, type="artist", limit=1).get("artists", {}).get("items", [])
+        except Exception:  # noqa: BLE001 — 1件の検索失敗で夜間全体を止めない
+            continue
+        if items and items[0].get("name", "").lower() == name.lower():
+            meta.setdefault(name.lower(), {"name": name})["id"] = items[0]["id"]
+
+    pending = [(k, v["id"]) for k, v in meta.items() if v.get("id") and not v.get("image")]
+    for i in range(0, len(pending), 50):
+        chunk = pending[i : i + 50]
+        try:
+            got = sp.artists([aid for _, aid in chunk]).get("artists", [])
+        except Exception:  # noqa: BLE001
+            continue
+        for (key, _), art in zip(chunk, got, strict=True):
+            if not art:
+                continue
+            meta[key].update({
+                "name": art.get("name", meta[key].get("name", "")),
+                "image": _artist_image(art),
+                "genres": (art.get("genres") or [])[:3],
+                "followers": (art.get("followers") or {}).get("total"),
+            })
+    return meta
+
+
 def _empty_top() -> dict:
     empty = {t: [] for t in ("short_term", "medium_term", "long_term")}
     return {"generated_at": _now_utc_iso(), "tracks": dict(empty), "artists": dict(empty)}
@@ -425,9 +707,12 @@ def _empty_top() -> dict:
 
 def build_archive_weekly(sp, dest_id: str) -> dict:
     weeks: dict[str, list[dict]] = {}
-    results = sp.playlist_items(
-        dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
-        additional_types=("track",), limit=100,
+    results = core.retry_api(
+        lambda: sp.playlist_items(
+            dest_id, fields="items(added_at,track(id,name,artists(name),album(images))),next",
+            additional_types=("track",), limit=100,
+        ),
+        what="archive playlist_items",
     )
     while results:
         for item in results.get("items", []):
@@ -496,6 +781,12 @@ def main() -> int:
     # 過去の完了済み月で wrapped が無いものを埋める（拡張履歴の取り込みで新たに遡れるようになった分・
     # 冪等＝既存ファイルはスキップするので毎晩ほぼ無コスト。当月（進行中）は上のブロックに任せて対象外）。
     _backfill_wrapped(data, records, now_jst)
+    # 年間 wrapped（過去年は確定なので冪等スキップ・当年だけ毎晩更新）
+    _backfill_yearly_wrapped(data, records, now_jst)
+
+    # 生涯集計（全曲・全アーティストのランキング／忘れられた名曲／◯年前の今日）。
+    # アーティスト画像は前回のキャッシュで載せ、後段（API 節）で取得し直して上書きする。
+    lifetime_names = write_lifetime(data, records, now_jst, _load_artist_meta(data))
 
     # 静的サイトはディレクトリ列挙できないので、undo と wrapped のインデックスを出す（H5・M3）
     write_undo_index(data)
@@ -542,6 +833,33 @@ def main() -> int:
         logger.info(f"stats dist スキップ: {e}")
     core.atomic_write_json(data / "stats.json", stats_json)
     core.atomic_write_json(data / "search_index.json", build_search_index(search_records))
+
+    # アーティストの画像・ジャンルを取得してキャッシュを育て、生涯アーティスト一覧に載せ直す。
+    # 既存エントリは再取得しないので、毎晩の API 消費は新しく増えたぶんだけ。
+    try:
+        meta = build_artist_meta(
+            sp, [a["name"] for a in lifetime_names], search_records, _load_artist_meta(data)
+        )
+        core.atomic_write_json(data / "artist_meta.json", {"generated_at": _now_utc_iso(), "artists": meta})
+        write_lifetime_artists(data, records, meta)
+    except Exception as e:  # noqa: BLE001 — 画像が無くてもサイトは成立する
+        logger.info(f"artist_meta スキップ: {e}")
+
+    # 似ているアーティスト/曲（Last.fm 由来）。Spotify の推薦 API は廃止済みなので唯一の推薦源。
+    try:
+        import recommend
+        recommend.build_recs(sp, data, logger)
+    except Exception as e:  # noqa: BLE001 — おすすめが無くてもサイトは成立する
+        logger.info(f"recs スキップ: {e}")
+
+    # 発売予定（MusicBrainz 由来）。Spotify は未発売のリリースを返さないため外部ソースを使う。
+    # 1req/秒の作法を守って毎晩少しずつ進むので、初回は件数が少ない。
+    if "user-follow-read" not in missing:
+        try:
+            import upcoming
+            upcoming.build_upcoming(sp, data, logger)
+        except Exception as e:  # noqa: BLE001 — 予定が無くてもサイトは成立する
+            logger.info(f"upcoming スキップ: {e}")
     # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
     # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。
     history_rows = playlist_count_rows(pl_records, playlists, date_str)
@@ -778,25 +1096,122 @@ def write_undo_index(data: Path, keep_days: int = 30) -> None:
 
 
 def _write_wrapped_index(data: Path) -> None:
-    """data/wrapped/YYYY-MM.json の存在月一覧。サイトの Wrapped 表示に使う（M3）。"""
+    """data/wrapped/ の一覧。月（YYYY-MM）と年（YYYY）を分けて出す（M3）。
+
+    静的サイトはディレクトリを列挙できないのでこのインデックスが唯一の導線になる。年と月は
+    ファイル名の形で判別する（4桁＝年 / 7桁＝月）。判別を stem の長さでやると将来 'index' 以外の
+    付随ファイルが増えたとき壊れるので、正規表現で厳密に振り分ける。
+    """
     wrapped_dir = data / "wrapped"
     months: list[str] = []
+    years: list[str] = []
     if wrapped_dir.exists():
-        months = sorted((p.stem for p in wrapped_dir.glob("*.json") if p.stem != "index"), reverse=True)
-    core.atomic_write_json(data / "wrapped" / "index.json", {"months": months})
+        for p in wrapped_dir.glob("*.json"):
+            if re.fullmatch(r"\d{4}-\d{2}", p.stem):
+                months.append(p.stem)
+            elif re.fullmatch(r"\d{4}", p.stem):
+                years.append(p.stem)
+    core.atomic_write_json(
+        data / "wrapped" / "index.json",
+        {"months": sorted(months, reverse=True), "years": sorted(years, reverse=True)},
+    )
 
 
-def _first_play_months(records: list[dict]) -> dict[str, str]:
-    """track_id → その曲を最初に聴いた月（JST 'YYYY-MM'）。過去分 wrapped の new_tracks 算出に使う。"""
+def _backfill_yearly_wrapped(data: Path, records: list[dict], now_jst: datetime) -> None:
+    """年間 wrapped（wrapped/YYYY.json）を用意する。
+
+    過去の年は履歴が確定しているので既存ファイルがあればスキップ（冪等）。当年だけは毎晩
+    上書きして進行中の内容を反映する。new_tracks は「その年に初めて聴いた曲の数」。
+    """
+    if not records:
+        return
+    current_year = now_jst.strftime("%Y")
+    years_present = sorted({
+        core.to_jst(r["played_at"]).strftime("%Y") for r in records if r.get("played_at")
+    })
+    new_counts = Counter(_first_play_periods(records, "%Y").values())
+    for year in years_present:
+        path = data / "wrapped" / f"{year}.json"
+        if year != current_year and path.exists():
+            continue
+        core.atomic_write_json(path, yearly_wrapped(records, year, new_counts.get(year, 0)))
+
+
+def _load_history_extra(history_dir: Path) -> dict[str, int]:
+    """import_history.py が書く extra.json（曲ごとの短再生回数）を読む。無ければ空。"""
+    path = history_dir / "extra.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    short = payload.get("short_plays")
+    return short if isinstance(short, dict) else {}
+
+
+def write_lifetime_artists(data: Path, records: list[dict], artist_meta: dict) -> list[dict]:
+    """lifetime_artists.json を書き、書いた一覧を返す。
+
+    artist_meta は 名前(小文字) → {id, image, ...} のキャッシュ（build_artist_meta が育てる）。
+    初回は空でも成立し、同じ晩の後段でキャッシュを取得し直してから呼び直せば画像が載る。
+    """
+    ids = {k: v["id"] for k, v in artist_meta.items() if v.get("id")}
+    artists = lifetime_artists(records, ids)
+    for a in artists:  # 画像はキャッシュから引く（無い間はサイト側がプレースホルダを出す）
+        img = (artist_meta.get(a["name"].lower()) or {}).get("image")
+        if img:
+            a["image"] = img
+    core.atomic_write_json(data / "lifetime_artists.json", {
+        "generated_at": _now_utc_iso(), "artists": artists,
+    })
+    return artists
+
+
+def write_lifetime(data: Path, records: list[dict], now_jst: datetime, artist_meta: dict) -> list[dict]:
+    """生涯集計のデータ一式を書く（曲・アーティスト・忘れられた名曲・◯年前の今日）。
+    アーティスト一覧を返す（後段の画像取得で「誰を引くか」に使う）。"""
+    if not records:
+        return []
+    short_plays = _load_history_extra(data / "history")
+    tracks = lifetime_tracks(records, short_plays)
+    artists = write_lifetime_artists(data, records, artist_meta)
+    core.atomic_write_json(data / "lifetime_tracks.json", {
+        "generated_at": _now_utc_iso(),
+        "totals": lifetime_totals(records, tracks, artists),
+        "tracks": tracks,
+    })
+    core.atomic_write_json(data / "rediscover.json", {
+        "generated_at": _now_utc_iso(),
+        "quiet_days": REDISCOVER_QUIET_DAYS,
+        "min_plays": REDISCOVER_MIN_PLAYS,
+        "tracks": rediscover(tracks, now_jst),
+    })
+    core.atomic_write_json(data / "on_this_day.json", {
+        "generated_at": _now_utc_iso(),
+        "date": now_jst.strftime("%m-%d"),
+        "years": on_this_day(records, now_jst),
+    })
+    return artists
+
+
+def _first_play_periods(records: list[dict], fmt: str) -> dict[str, str]:
+    """track_id → その曲を最初に聴いた期間（JST・strftime の fmt で丸めたもの）。
+    wrapped の new_tracks（その期間に初めて聴いた曲の数）を数えるための材料。"""
     first: dict[str, str] = {}
     for r in records:
         tid, pa = r.get("track_id"), r.get("played_at")
         if not tid or not pa:
             continue
-        m = core.to_jst(pa).strftime("%Y-%m")
-        if tid not in first or m < first[tid]:
-            first[tid] = m
+        p = core.to_jst(pa).strftime(fmt)
+        if tid not in first or p < first[tid]:
+            first[tid] = p
     return first
+
+
+def _first_play_months(records: list[dict]) -> dict[str, str]:
+    """track_id → その曲を最初に聴いた月（JST 'YYYY-MM'）。過去分 wrapped の new_tracks 算出に使う。"""
+    return _first_play_periods(records, "%Y-%m")
 
 
 def _backfill_wrapped(data: Path, records: list[dict], now_jst: datetime) -> None:

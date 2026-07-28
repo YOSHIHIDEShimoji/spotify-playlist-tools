@@ -193,14 +193,115 @@ export interface UndoIndex {
 
 export interface WrappedIndex {
   months: string[];
+  years?: string[]; // 年間 Wrapped（新データのみ・無ければ月だけ）
 }
 export interface Wrapped {
-  month: string;
+  month?: string; // 月間のみ
+  year?: string;  // 年間のみ
   plays: number;
+  ms?: number;    // 年間のみ（その年の総再生時間）
   top_tracks: RankedTrack[];
   top_artists: { name: string; count: number }[];
   new_tracks: number;
   peak: { dow: number; hour: number } | null;
+  months?: { month: string; count: number }[]; // 年間のみ（月別の再生数）
+}
+
+// ── 生涯集計（history/*.jsonl.gz 由来・全件） ──
+
+export interface LifetimeTrack {
+  id: string;
+  name: string;
+  artists: string[];
+  count: number;
+  ms: number;
+  first: string;               // 初めて聴いた日（JST・YYYY-MM-DD）
+  last: string;                // 最後に聴いた日
+  years: Record<string, number>;
+  image?: string | null;
+  short?: number;              // 30秒未満でやめた回数（完走率の分母）
+}
+export interface LifetimeTracks {
+  generated_at: string;
+  totals: {
+    plays: number;
+    tracks: number;
+    artists: number;
+    ms: number;
+    since: string | null;
+    days: number;              // 1回でも聴いた日の数
+  };
+  tracks: LifetimeTrack[];     // count 降順＝配列の並びがそのまま順位
+}
+
+export interface LifetimeArtist {
+  name: string;
+  count: number;
+  tracks: number;
+  ms: number;
+  first: string;
+  last: string;
+  years: Record<string, number>;
+  id?: string;
+  image?: string | null;
+}
+export interface LifetimeArtists {
+  generated_at: string;
+  artists: LifetimeArtist[];
+}
+
+export interface Rediscover {
+  generated_at: string;
+  quiet_days: number;
+  min_plays: number;
+  tracks: LifetimeTrack[];
+}
+
+export interface OnThisDay {
+  generated_at: string;
+  date: string;
+  years: { year: string; plays: number; tracks: RankedTrack[] }[];
+}
+
+// ── おすすめ（Last.fm 由来・Spotify の推薦 API は廃止済み） ──
+
+export interface RecArtist {
+  name: string;
+  score: number;
+  because: { name: string; count: number }[];
+}
+export interface RecTrack {
+  name: string;
+  artist: string;
+  score: number;
+  because: { name: string; count: number };
+  id?: string;
+  image?: string | null;
+}
+export interface Recs {
+  generated_at: string;
+  source: string;
+  available: boolean;
+  reason?: string;
+  artists: RecArtist[];
+  tracks: RecTrack[];
+}
+
+// ── 発売予定（MusicBrainz 由来・Spotify は未発売を返さない） ──
+
+export interface UpcomingItem {
+  artist: string;
+  artist_id: string;
+  title: string;
+  date: string;   // YYYY-MM-DD（日まで確定しているものだけ）
+  type: string;
+}
+export interface Upcoming {
+  generated_at: string;
+  source: string;
+  items: UpcomingItem[];
+  known: number;      // MBID を解決できたフォロー中アーティスト数
+  followed: number;
 }
 
 export interface ArchiveWeek {

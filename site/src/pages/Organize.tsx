@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import { useJson } from "../lib/data";
 import type { Dupes, DupeGroup, KeepGroup, KeepIndex, SearchIndex, SearchTrack, Unknown, UndoIndex } from "../lib/types";
@@ -8,6 +8,8 @@ import { usePat } from "../lib/pat";
 import { dispatchOp, runsUrl } from "../lib/github";
 import { clearProcessing, markProcessing, stuckIds, useProcessing } from "../lib/processing";
 import { PlayButton } from "../lib/player";
+import { clearQueue, dequeue, enqueue, SEND_DELAY_MS, snapshot, toPayloads, useQueue } from "../lib/queue";
+import type { Pending } from "../lib/queue";
 import { useT } from "../lib/i18n";
 
 type Tx = (en: string, ja: string) => string;
@@ -82,6 +84,51 @@ export function Organize() {
     setConfirmBulk(false);
   }
 
+  // ── 決定キュー（issue #5）──
+  // ボタンを押した瞬間はローカルに積むだけ。最後の操作から SEND_DELAY_MS 経ったら
+  // まとめて1回 dispatch する。連打しても待たされず、送信前ならいつでも取り消せる。
+  const queued = useQueue();
+  const queuedIds = useMemo(() => new Set(queued.map((q) => q.groupId)), [queued]);
+  const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState<string | null>(null);
+
+  const sendQueue = useCallback(async () => {
+    const items = snapshot();
+    if (!items.length || !pat) return;
+    setSending(true);
+    setSendError(null);
+    const { decisions, keeps, classify } = toPayloads(items);
+    // op ごとに1回ずつ。同じ op を複数回に分けると site-ops の直列化待ちで後続が
+    // 追い出されるため、必ず1回にまとめる。
+    const sends: { op: string; payload: unknown; ids: string[] }[] = [];
+    if (decisions.length) sends.push({ op: "dedupe-apply", payload: { decisions }, ids: decisions.map((d) => d.group_id) });
+    if (keeps.length) sends.push({ op: "keep-apply", payload: { add: keeps, remove: [] }, ids: keeps.map((k) => k.group_id) });
+    if (classify.length) sends.push({ op: "classify-apply", payload: { decisions: classify }, ids: classify.map((c) => c.track_id) });
+
+    let failed: string | null = null;
+    for (const s of sends) {
+      const res = await dispatchOp(pat, s.op, s.payload);
+      if (res.ok) {
+        s.ids.forEach(markProcessing);
+        // 送れたぶんはキューから外す。残したまま再送すると、既に適用済みの決定を
+        // もう一度送ることになり site-ops 側が「対象が無い」で失敗する。
+        s.ids.forEach(dequeue);
+      } else {
+        failed = res.message;
+      }
+    }
+    setSending(false);
+    setSendError(failed);
+  }, [pat]);
+
+  useEffect(() => {
+    // 失敗が残っている間は自動送信しない。ここを見ないと、PAT 失効のような恒久的な失敗で
+    // 8秒ごとに dispatch を投げ続ける無限リトライになる。復帰は「今すぐ送信」の明示操作で行う。
+    if (!queued.length || !pat || sending || sendError) return;
+    const id = window.setTimeout(() => { void sendQueue(); }, SEND_DELAY_MS);
+    return () => window.clearTimeout(id); // 押すたびに猶予がリセットされる
+  }, [queued, pat, sending, sendError, sendQueue]);
+
   return (
     <>
       {!pat && (
@@ -140,6 +187,7 @@ export function Organize() {
                   pat={pat}
                   processing={!!processing[g.id]}
                   blocked={anyProcessing && !processing[g.id]}
+                  queued={queuedIds.has(g.id)}
                   keepId={keepFor(g)}
                   onKeep={(id) => setKeepSel((s) => ({ ...s, [g.id]: id }))}
                 />
@@ -165,9 +213,10 @@ export function Organize() {
                 </div>
                 <ClassifyActions
                   trackId={t.id}
+                  name={t.name}
                   pat={pat}
                   processing={!!processing[t.id]}
-                  blocked={anyProcessing && !processing[t.id]}
+                  queued={queuedIds.has(t.id)}
                 />
               </div>
             ))
@@ -178,7 +227,61 @@ export function Organize() {
       {confirmBulk && (
         <BulkConfirm groups={bulkGroups} keepFor={keepFor} onCancel={() => setConfirmBulk(false)} onApply={applyBulk} />
       )}
+
+      {queued.length > 0 && (
+        <QueueBar items={queued} sending={sending} error={sendError}
+          onSendNow={() => void sendQueue()} onCancelAll={clearQueue} />
+      )}
     </>
+  );
+}
+
+/** 送信待ちの決定をまとめて出すバー。送信までのカウントダウンと取り消しをここに集約する。 */
+function QueueBar(
+  { items, sending, error, onSendNow, onCancelAll }:
+    { items: Pending[]; sending: boolean; error: string | null; onSendNow: () => void; onCancelAll: () => void },
+) {
+  const tx = useT();
+  const [left, setLeft] = useState(Math.ceil(SEND_DELAY_MS / 1000));
+
+  // キューが変わるたびに猶予を数え直す（親のタイマーと同じ起点にする）
+  useEffect(() => {
+    setLeft(Math.ceil(SEND_DELAY_MS / 1000));
+    const id = window.setInterval(() => setLeft((s) => (s > 0 ? s - 1 : 0)), 1000);
+    return () => window.clearInterval(id);
+  }, [items]);
+
+  const del = items.filter((i) => i.kind === "delete").length;
+  const keep = items.filter((i) => i.kind === "keep-both").length;
+  const cls = items.filter((i) => i.kind === "classify").length;
+  const parts = [
+    del > 0 ? tx(`${del} delete`, `削除 ${del}`) : "",
+    keep > 0 ? tx(`${keep} keep both`, `両方残す ${keep}`) : "",
+    cls > 0 ? tx(`${cls} sort`, `振り分け ${cls}`) : "",
+  ].filter(Boolean);
+
+  return (
+    <div className="queue-bar">
+      <div className="queue-main">
+        <div className="t-body-bold">
+          {tx(`${items.length} pending`, `${items.length}件を送信待ち`)}
+          <span className="t-small muted"> · {parts.join(" / ")}</span>
+        </div>
+        <div className="t-small">
+          {error
+            ? tx(`Failed: ${error} — press Send now to retry.`, `失敗: ${error} — 「今すぐ送信」で再試行できます。`)
+            : sending
+              ? tx("Sending…", "送信中…")
+              : tx(`Sending in ${left}s — you can keep deciding or cancel.`, `${left}秒後に送信します。続けて決めても、取り消してもかまいません。`)}
+        </div>
+      </div>
+      <button className="pill pill-green" disabled={sending} onClick={onSendNow}>
+        {tx("Send now", "今すぐ送信")}
+      </button>
+      <button className="pill" disabled={sending} onClick={onCancelAll}>
+        {tx("Cancel all", "すべて取り消し")}
+      </button>
+    </div>
   );
 }
 
@@ -280,43 +383,22 @@ function KeepRow(
 }
 
 function GroupCard(
-  { g, pat, processing, blocked, keepId, onKeep }:
-    { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean; keepId: string; onKeep: (id: string) => void },
+  { g, pat, processing, blocked, queued, keepId, onKeep }:
+    { g: DupeGroup; pat: string | null; processing: boolean; blocked: boolean; queued: boolean;
+      keepId: string; onKeep: (id: string) => void },
 ) {
   const tx = useT();
-  // ラジオ選択＝「残す1曲」。選択状態は親（Organize）が持つ＝一括ボタンから全グループを読める。
-  const [status, setStatus] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
 
   if (g.tier === "A") {
     return <TierACard g={g} pat={pat} processing={processing} blocked={blocked} />;
   }
 
+  // ラジオ選択＝「残す1曲」。選択状態は親（Organize）が持つ＝一括ボタンから全グループを読める。
   const tracks = g.tracks ?? [];
   const remove = tracks.filter((t) => t.id !== keepId).map((t) => t.id);
-  const canApply = !!pat && !processing && !blocked && !!keepId && remove.length > 0;
-
-  async function apply() {
-    setBusy(true);
-    setStatus(null);
-    const res = await dispatchOp(pat!, "dedupe-apply", {
-      decisions: [{ group_id: g.id, keep: [keepId], remove }],
-    });
-    setBusy(false);
-    if (res.ok) markProcessing(g.id);
-    setStatus(res.ok ? tx("Processing… reflected on the site in a few minutes.", "処理中… 数分後にサイトへ反映されます。") : failMsg(tx, res.message));
-  }
-
-  async function keepBoth() {
-    setBusy(true);
-    const res = await dispatchOp(pat!, "keep-apply", {
-      add: [{ group_id: g.id, track_ids: tracks.map((t) => t.id) }],
-      remove: [],
-    });
-    setBusy(false);
-    if (res.ok) markProcessing(g.id);
-    setStatus(res.ok ? tx("Saved “keep both”.", "「両方残す」を記録しました。") : failMsg(tx, res.message));
-  }
+  // 押しても即送信しないので、他のカードの処理中かどうかで無効化しない（issue #5）。
+  const canApply = !!pat && !processing && !!keepId && remove.length > 0;
+  const keptName = tracks.find((t) => t.id === keepId)?.name ?? g.id;
 
   return (
     <div className="card dupe-group" style={processing ? { opacity: 0.6 } : undefined}>
@@ -334,18 +416,24 @@ function GroupCard(
         />
       ))}
       <div className="dupe-actions">
-        <button className="pill pill-green" disabled={!canApply || busy} onClick={apply}>
-          {tx("Delete the ones not chosen", "選ばなかった曲を削除")}{remove.length > 0 && `（${remove.length}）`}
-        </button>
-        <button className="pill" disabled={!pat || busy || processing || blocked} onClick={keepBoth}>
-          {tx("Keep both", "両方残す")}
-        </button>
-        {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
-        {status && (
-          <span className="t-small" style={{ alignSelf: "center" }}>
-            {status} <a className="muted" href={runsUrl()} target="_blank" rel="noreferrer">Actions</a>
-          </span>
+        {queued ? (
+          <>
+            <span className="t-small queued-note">{tx("Queued — not sent yet.", "決定をキューに入れました（まだ送っていません）。")}</span>
+            <button className="pill" onClick={() => dequeue(g.id)}>{tx("Undo", "取り消す")}</button>
+          </>
+        ) : (
+          <>
+            <button className="pill pill-green" disabled={!canApply}
+              onClick={() => enqueue({ kind: "delete", groupId: g.id, keep: [keepId], remove, label: keptName })}>
+              {tx("Delete the ones not chosen", "選ばなかった曲を削除")}{remove.length > 0 && `（${remove.length}）`}
+            </button>
+            <button className="pill" disabled={!pat || processing}
+              onClick={() => enqueue({ kind: "keep-both", groupId: g.id, trackIds: tracks.map((t) => t.id), label: keptName })}>
+              {tx("Keep both", "両方残す")}
+            </button>
+          </>
         )}
+        {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
       </div>
     </div>
   );
@@ -560,28 +648,28 @@ function UndoSection(
 }
 
 function ClassifyActions(
-  { trackId, pat, processing, blocked }: { trackId: string; pat: string | null; processing: boolean; blocked: boolean },
+  { trackId, name, pat, processing, queued }:
+    { trackId: string; name: string; pat: string | null; processing: boolean; queued: boolean },
 ) {
   const tx = useT();
-  const [status, setStatus] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
-  const disabled = !pat || busy || processing || blocked;
-  async function classify(cls: "japanese" | "western") {
-    setBusy(true);
-    const res = await dispatchOp(pat!, "classify-apply", { decisions: [{ track_id: trackId, class: cls }] });
-    setBusy(false);
-    if (res.ok) markProcessing(trackId); // L-6: 連打で2本目が「unknown に無い」失敗 Issue を防ぐ
-    const dest = cls === "japanese" ? tx("Japanese", "邦楽") : tx("Western", "洋楽");
-    setStatus(res.ok ? tx(`Sorting to ${dest}…`, `${dest}へ振り分け中…`) : failMsg(tx, res.message));
-  }
+  // 振り分けもキュー経由（押した瞬間は送らない）。連続で何曲でも決められる。
+  const add = (cls: "japanese" | "western") =>
+    enqueue({ kind: "classify", groupId: trackId, cls, label: name });
   return (
     <div className="dupe-actions">
-      <button className="pill pill-green" disabled={disabled} onClick={() => classify("japanese")}>{tx("Japanese", "邦楽")}</button>
-      <button className="pill" disabled={disabled} onClick={() => classify("western")}>{tx("Western", "洋楽")}</button>
-      {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
-      {(processing || status) && (
-        <span className="t-small" style={{ alignSelf: "center" }}>{processing ? tx("Sorting…", "振り分け中…") : status}</span>
+      {queued ? (
+        <>
+          <span className="t-small queued-note">{tx("Queued — not sent yet.", "決定をキューに入れました（まだ送っていません）。")}</span>
+          <button className="pill" onClick={() => dequeue(trackId)}>{tx("Undo", "取り消す")}</button>
+        </>
+      ) : (
+        <>
+          <button className="pill pill-green" disabled={!pat || processing} onClick={() => add("japanese")}>{tx("Japanese", "邦楽")}</button>
+          <button className="pill" disabled={!pat || processing} onClick={() => add("western")}>{tx("Western", "洋楽")}</button>
+        </>
       )}
+      {!pat && <span className="action-hint">{noPatHint(tx)}</span>}
+      {processing && <span className="t-small" style={{ alignSelf: "center" }}>{tx("Sorting…", "振り分け中…")}</span>}
     </div>
   );
 }

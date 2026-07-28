@@ -139,7 +139,7 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
     ax1.set_title("Top 15 Artists by Track Count", fontweight="bold")
     ax1.set_xlabel("Tracks")
     ax1.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
-    for bar, cnt in zip(bars, top15_counts):
+    for bar, cnt in zip(bars, top15_counts, strict=True):
         ax1.text(bar.get_width() + 0.1, bar.get_y() + bar.get_height() / 2, str(cnt),
                  va="center", fontsize=8)
 
@@ -175,7 +175,7 @@ def analyze(tracks: list[dict], playlist_name: str) -> None:
     table.auto_set_font_size(False)
     table.set_fontsize(8.5)
     table.scale(1, 1.35)
-    for (r, c), cell in table.get_celld().items():
+    for (r, _c), cell in table.get_celld().items():
         cell.set_edgecolor("#cccccc")
         if r == 0:
             cell.set_facecolor("#1DB954")
@@ -215,7 +215,7 @@ def main() -> int:
         for url in targets:
             try:
                 counts[sort_one(sp, url, logger, dry, report)] += 1
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001 — 1つのプレイリストの失敗で全体を止めない
                 logger.info(f"[error] {url}: {e}")
         core.write_step_summary(
             "sort",

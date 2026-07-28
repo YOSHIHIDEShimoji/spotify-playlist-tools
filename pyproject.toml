@@ -1,0 +1,37 @@
+# ruff の設定。
+#
+# ruff は既定ルールがバージョンで増える。requirements-dev.txt が `ruff>=0.6` と緩いので、
+# 新しい ruff が出た日に、コードを1行も触っていないのに CI が赤くなる（実際 0.16.0 で
+# 42件の指摘が出て失敗した）。何を採用するかをここに明示して、版が上がっても結果が
+# 変わらないようにする。
+#
+# 採用しないルールと理由:
+#   S110/S112  防御的な try/except pass|continue は意図的（1件の失敗で夜間バッチを止めない）
+#   DTZ011     date.today() はローカル日付が欲しい箇所で意図的に使っている
+#   EXE001     shebang はあるが実行属性は付けない（`python xxx.py` で起動する運用）
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E4", "E7", "E9",  # pycodestyle（既定の範囲）
+    "F",               # pyflakes
+    "B",               # flake8-bugbear（ループ変数の束縛漏れなど実バグを拾う）
+    "C4",              # flake8-comprehensions
+    "SIM",             # flake8-simplify
+    "PIE",
+    "RUF",
+    "BLE001",          # 裸の except。既存の # noqa: BLE001 を意味のあるものに保つ
+]
+ignore = [
+    "SIM105",  # contextlib.suppress より try/except の方が意図が読める箇所がある
+    "SIM108",  # 三項演算子への畳み込みは可読性が下がる場合がある
+    # 全角の約物（（）「」…）を「紛らわしい文字」として弾くルール。コメントも docstring も
+    # 日本語で書く方針なので、そのままだと1000件以上出て意味を成さない。
+    "RUF001", "RUF002", "RUF003",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# テストは意図的に長い期待値リテラルを並べる
+"tests/*" = ["E501"]

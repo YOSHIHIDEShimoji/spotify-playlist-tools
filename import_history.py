@@ -10,10 +10,16 @@ Spotify のプライバシーページから請求できる「拡張ストリー
 - **1再生の定義 = ms_played >= 30秒**。Spotify の stream 定義・Last.fm scrobble の意味論に合わせ、
   数秒のスキップを再生として数えない（これで cumulative_top が実感と一致する）。
 - **PII は落とす**。生の履歴には ip_addr / platform / offline_timestamp 等が含まれる。出力には
-  track_id / name / artists / played_at だけを残す（scrobble・自前ログと同じ最小形）。
+  track_id / name / artists / played_at / ms だけを残す（scrobble・自前ログと同じ最小形＋再生時間）。
 - **エピソード/ポッドキャスト/オーディオブックは除外**。spotify_track_uri と曲名がある行だけ通す。
 - 年別に分割（純粋にファイルサイズ都合。読み込み側は全ファイルを連結する）。
 - 出力は sort 済み・決定論的。何度流しても同じ結果（再エクスポートの上書き取り込みが安全）。
+
+ms（再生時間）と短再生:
+- 各レコードに `ms`（その再生の ms_played）を持たせる。これで「生涯の総再生時間」「この曲だけで◯時間」
+  が出せる。live の recently-played / scrobble には ms が無いので、集計側は ms 欠損を 0 として扱う。
+- 30秒未満で終わった再生は履歴本体に入れないが、曲ごとの件数だけ extra.json へ集計する。完走率
+  ＝full/(full+short) を出すためで、タイムスタンプは持たない（サイズ・PII の両面で不要）。
 
 生の履歴（"Spotify Extended Streaming History/" や data/streaming_history/）は個人の生ログ＝
 public リポに絶対コミットしない（.gitignore 済み）。出力の gz だけを data ブランチへ載せる。
@@ -49,7 +55,7 @@ def iter_play_records(events, min_ms: int = MIN_MS_PLAYED):
     - spotify_track_uri が spotify:track: で track_id に解決できる
     - ms_played >= min_ms（短いスキップを再生に数えない）
 
-    出力レコード: {track_id, name, artists:[{name}], played_at}（scrobble/自前ログと同形）。
+    出力レコード: {track_id, name, artists:[{name}], played_at, ms}（scrobble/自前ログと同形＋ms）。
     """
     for ev in events:
         name = ev.get("master_metadata_track_name")
@@ -58,7 +64,8 @@ def iter_play_records(events, min_ms: int = MIN_MS_PLAYED):
         tid = _track_id(ev.get("spotify_track_uri"))
         if not tid:
             continue
-        if (ev.get("ms_played") or 0) < min_ms:
+        ms = ev.get("ms_played") or 0
+        if ms < min_ms:
             continue
         played_at = ev.get("ts")
         if not played_at:
@@ -69,7 +76,26 @@ def iter_play_records(events, min_ms: int = MIN_MS_PLAYED):
             "name": name,
             "artists": [{"name": artist}] if artist else [],
             "played_at": played_at,
+            "ms": ms,
         }
+
+
+def short_play_counts(events, min_ms: int = MIN_MS_PLAYED) -> dict[str, int]:
+    """「途中でやめた再生」を曲ごとに数える純関数。
+
+    対象は iter_play_records と同じ行（楽曲・track_id 解決済み）のうち ms_played が min_ms 未満の
+    もの。ms_played が 0 の行も「開いて即やめた」= 短再生として数える。完走率の分母に使う。
+    """
+    counts: dict[str, int] = defaultdict(int)
+    for ev in events:
+        if not ev.get("master_metadata_track_name"):
+            continue
+        tid = _track_id(ev.get("spotify_track_uri"))
+        if not tid:
+            continue
+        if (ev.get("ms_played") or 0) < min_ms:
+            counts[tid] += 1
+    return dict(counts)
 
 
 def _load_events(src: Path) -> tuple[list[dict], list[str]]:
@@ -89,11 +115,13 @@ def write_history(records: list[dict], out_dir: Path) -> dict[str, int]:
     """レコードを played_at の年（UTC）ごとに YYYY.jsonl.gz へ書き出す。年→件数を返す。
 
     決定論的にするため played_at で安定ソートし、同一 (played_at, track_id) の重複行は畳む
-    （同じエクスポートを2回渡しても増えない）。既存の history/*.jsonl.gz は上書きする。
+    （同じエクスポートを2回渡しても増えない）。ms だけが違う重複は長いほうを残す（ソート鍵に -ms を
+    入れて順序を確定させる。そうしないと同着行の勝者が入力順に依存し、出力が非決定論になる）。
+    既存の history/*.jsonl.gz は上書きする。
     """
     seen: set[tuple[str, str]] = set()
     by_year: dict[str, list[dict]] = defaultdict(list)
-    for r in sorted(records, key=lambda x: (x["played_at"], x["track_id"])):
+    for r in sorted(records, key=lambda x: (x["played_at"], x["track_id"], -(x.get("ms") or 0))):
         key = (r["played_at"], r["track_id"])
         if key in seen:
             continue
@@ -110,6 +138,15 @@ def write_history(records: list[dict], out_dir: Path) -> dict[str, int]:
                 gz.write((json.dumps(rec, ensure_ascii=False) + "\n").encode("utf-8"))
         counts[year] = len(recs)
     return counts
+
+
+def write_extra(short: dict[str, int], out_dir: Path, min_ms: int = MIN_MS_PLAYED) -> Path:
+    """短再生の集計を <out_dir>/extra.json へ書く。曲IDでソートし決定論的に出力する。"""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / "extra.json"
+    payload = {"min_ms": min_ms, "short_plays": dict(sorted(short.items()))}
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return path
 
 
 def main() -> int:
@@ -132,14 +169,19 @@ def main() -> int:
 
     events, files = _load_events(src)
     records = list(iter_play_records(events, args.min_ms))
-    counts = write_history(records, Path(args.out_dir))
+    out_dir = Path(args.out_dir)
+    counts = write_history(records, out_dir)
+    short = short_play_counts(events, args.min_ms)
+    write_extra(short, out_dir, args.min_ms)
 
     total = sum(counts.values())
+    hours = sum(r.get("ms") or 0 for r in records) / 3_600_000
     print(f"入力ファイル: {len(files)}  生イベント: {len(events)}")
-    print(f"取り込んだ再生（>= {args.min_ms/1000:.0f}s）: {total}")
+    print(f"取り込んだ再生（>= {args.min_ms/1000:.0f}s）: {total}  総再生時間: {hours:,.0f}時間")
     for year, n in sorted(counts.items()):
         print(f"  {year}: {n:>6}")
-    print(f"出力: {args.out_dir}/*.jsonl.gz")
+    print(f"短再生（< {args.min_ms/1000:.0f}s）: {sum(short.values())} 件 / {len(short)} 曲")
+    print(f"出力: {args.out_dir}/*.jsonl.gz, {args.out_dir}/extra.json")
     return 0
 
 

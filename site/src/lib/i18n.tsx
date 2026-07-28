@@ -66,6 +66,16 @@ export function monthDay(iso: string, lang: Lang): string {
   return lang === "ja" ? `${mo}月${day}日` : `${MONTH_EN[mo - 1]} ${day}`;
 }
 
+/** "YYYY-MM-DD" → ja "YYYY年M月D日" / en "Mon D, YYYY"。年をまたぐ生涯履歴の日付表示用。 */
+export function fullDate(iso: string, lang: Lang): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
+  if (!m) return iso;
+  const [, y, mo, d] = m;
+  return lang === "ja"
+    ? `${Number(y)}年${Number(mo)}月${Number(d)}日`
+    : `${MONTH_EN[Number(mo) - 1]} ${Number(d)}, ${y}`;
+}
+
 /** "YYYY-MM…" → ja "YYYY年M月" / en "Mon YYYY"。生涯履歴のように年をまたぐ起点の表示用。 */
 export function monthYear(iso: string, lang: Lang): string {
   const m = /^(\d{4})-(\d{2})/.exec(iso);
