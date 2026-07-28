@@ -1060,7 +1060,8 @@ table.data-table {
 .topbar .app-header {
   overflow: hidden;
   transition: max-height 0.22s ease, opacity 0.22s ease, padding 0.22s ease;
-  max-height: 120px;
+  /* 狭い画面でヘッダーが2段に折り返しても切れない余裕を持たせる */
+  max-height: 180px;
 }
 .topbar.is-compact .app-header {
   max-height: 0;

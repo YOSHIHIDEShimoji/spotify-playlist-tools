@@ -23,6 +23,10 @@ Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub 
 ├── sync.py       # アーティスト別プレイリストへ自動振り分け・双方向同期
 ├── sync.txt      # 同期設定（SOURCE プレイリストID + アーティスト→プレイリストID）
 │
+├── import_history.py  # 拡張ストリーミング履歴（Spotify のエクスポート）→ 年別 gz JSONL（一度きり）
+├── recommend.py  # 似ているアーティスト/曲（Last.fm 類似度 × 生涯再生回数）
+├── upcoming.py   # 発売予定（MusicBrainz。Spotify に未発売を返す API が無いため）
+│
 ├── artist_class_cache.json  # classify.py の永続キャッシュ（コミット対象）
 ├── sync_state.json          # sync.py のスナップショット（双方向同期用・コミット対象）
 │
@@ -82,6 +86,7 @@ GEMINI_API_KEY=your_gemini_api_key_here  # オプション（判定不能曲の�
 | `SPOTIPY_CLIENT_ID` / `SPOTIPY_CLIENT_SECRET` | Spotify アプリの認証情報 |
 | `GEMINI_API_KEY` | Gemini（任意。未設定でも動く） |
 | `SPOTIFY_TOKEN_CACHE` | `.cache-spotify` の中身をそのまま（`gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify`） |
+| `LASTFM_API_KEY` | Last.fm 読み取りキー。scrobble 取り込みと「似ている」おすすめに使う（未設定でも動く） |
 
 ### エラーは GitHub Issue で通知
 
@@ -203,9 +208,19 @@ DEST_PLAYLIST_ID=<アーカイブ先のID>
 
 - **機能**: 昨晩サマリ・エラー統計・重複聴き比べ&削除・unknown 振り分け・週間/累計ランキング・
   成長グラフ・分布・ヒートマップ・新譜/公式Top・1年前の今週・横断検索
+- **生涯履歴の逆引き**: 2019年からの全再生（拡張ストリーミング履歴）を土台に、全曲・全アーティストの
+  ランキングを順位どおり遡れる。曲やアーティストをタップすると、生涯の再生回数・順位・総再生時間・
+  完走率・初回/最終再生日・年ごとの推移が出る
+- **Wrapped**: 月間（2019-09〜）と年間（2019〜）。‹ › で1つずつ、セレクトで任意の時点へ
+- **思い出**: ◯年前の今日・忘れられた名曲（よく聴いたのに直近1年ゼロ）
+- **おすすめ**: 各ブロックに判定基準を明記。「似ている」は Last.fm の類似度 × 生涯再生回数で、
+  1件ごとに根拠（どの曲・アーティストに似ているか）を出す。Spotify 公式の推薦 API は
+  2024-11 に新規アプリ向けへ閉じられており、このアプリからは使えない（実測: `/v1/recommendations`
+  と `related-artists` が 404、`audio-features` が 403）
 - **試聴**: Spotify iframe embed（APIキー不要）。重複の聴き比べがサイト内で完結
 - **操作**: fine-grained PAT をブラウザに1度貼るだけ（`Actions: Read and write`）。削除は全出現
-  プレイリストから同時実行し undo を記録（[docs/dedupe-requirements.md](docs/dedupe-requirements.md) §6）
+  プレイリストから同時実行し undo を記録（[docs/dedupe-requirements.md](docs/dedupe-requirements.md) §6）。
+  決定はキューに積んで一括送信するので、連打しても待たされず送信前なら取り消せる
 
 ```bash
 cd site
