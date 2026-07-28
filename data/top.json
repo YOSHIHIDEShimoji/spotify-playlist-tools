@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-28T18:45:28.309031+00:00",
+  "generated_at": "2026-07-28T22:20:02.350348+00:00",
   "tracks": {
     "long_term": [
       {
@@ -836,10 +836,19 @@
         "artists": [
           "OneRepublic"
         ],
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+        "name": "Good Life - from One Night In Malibu",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
         "id": "1kmex5eDBvfniYJpmmIizl",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Secrets",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -848,7 +857,7 @@
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -857,7 +866,7 @@
         "id": "2IPpyxIgVLoDmYGIffJrol",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Marchin On",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -866,15 +875,6 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0qdpBSgdFsOPGv9QLxEjdu",
-        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-        "name": "Good Life - from One Night In Malibu",
         "rank": 16
       },
       {
@@ -953,12 +953,31 @@
       },
       {
         "artists": [
+          "Kygo",
+          "OneRepublic"
+        ],
+        "id": "0xSjAuPhm9tJXX2nRt2Avv",
+        "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
+        "name": "Chasing Paradise",
+        "rank": 25
+      },
+      {
+        "artists": [
           "Charlie Puth"
         ],
         "id": "4nNZ4ra9sJnsdixXELkfW5",
         "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
         "name": "Does It Feel",
-        "rank": 25
+        "rank": 26
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "05sCp83gcMm1iecYydKJS3",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Let's Hurt Tonight",
+        "rank": 27
       },
       {
         "artists": [
@@ -971,17 +990,17 @@
         "id": "1CPZ5BxNNd0n0nF4Orb9JS",
         "image": "https://i.scdn.co/image/ab67616d000048514dcb6c5df15cf74596ab25a4",
         "name": "Golden",
-        "rank": 26
+        "rank": 28
       },
       {
         "artists": [
           "Kygo",
           "OneRepublic"
         ],
-        "id": "0xSjAuPhm9tJXX2nRt2Avv",
-        "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
-        "name": "Chasing Paradise",
-        "rank": 27
+        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
+        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
+        "name": "Stranger Things (feat. OneRepublic)",
+        "rank": 29
       },
       {
         "artists": [
@@ -990,24 +1009,6 @@
         "id": "6qNALlmZa1ESnCxJmXE1K9",
         "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
         "name": "The Way I Am",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "05sCp83gcMm1iecYydKJS3",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Let's Hurt Tonight",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "Charlie Puth"
-        ],
-        "id": "0wPKDeY4fZXT6k9bzV0kx0",
-        "image": "https://i.scdn.co/image/ab67616d00004851ab7a47f18916a10046212857",
-        "name": "That's Hilarious",
         "rank": 30
       }
     ],
