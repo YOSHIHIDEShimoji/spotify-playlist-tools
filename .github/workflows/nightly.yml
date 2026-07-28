@@ -24,6 +24,9 @@ env:
   SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIPY_CLIENT_SECRET }}
   SPOTIPY_REDIRECT_URI: 'http://127.0.0.1:8000/callback'
   GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  # おすすめ（似ているアーティスト/曲）の生成に使う。Spotify の推薦 API は廃止済みで、
+  # Last.fm が唯一の推薦源。未設定でも sitegen は落ちず「未設定」表示になるだけ。
+  LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
   DRY_RUN: ${{ inputs.dry_run == true && '1' || '0' }}
 
 jobs:

@@ -22,7 +22,7 @@ import os
 import re
 import sys
 from collections import Counter
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import core
@@ -46,7 +46,7 @@ STATS_EXTRA_PLAYLISTS = [{"id": "6sqoiZw75RIvnUFC058VJv", "name": "1900's songs"
 
 
 def _now_utc_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
+    return core.now_utc_iso()
 
 
 # ─────────────────────────── 聴取ログ集計（純関数） ───────────────────────────
@@ -844,6 +844,13 @@ def main() -> int:
         write_lifetime_artists(data, records, meta)
     except Exception as e:  # noqa: BLE001 — 画像が無くてもサイトは成立する
         logger.info(f"artist_meta スキップ: {e}")
+
+    # 似ているアーティスト/曲（Last.fm 由来）。Spotify の推薦 API は廃止済みなので唯一の推薦源。
+    try:
+        import recommend
+        recommend.build_recs(sp, data, logger)
+    except Exception as e:  # noqa: BLE001 — おすすめが無くてもサイトは成立する
+        logger.info(f"recs スキップ: {e}")
     # プレイリスト別の延べ数に加え、ユニーク曲数の番兵行を残す（サイトの成長チャートはこれを描く。
     # 延べ合計はアーティスト別 PL とマスターの重複で二重計上になるため成長指標に使わない）。
     history_rows = playlist_count_rows(pl_records, playlists, date_str)

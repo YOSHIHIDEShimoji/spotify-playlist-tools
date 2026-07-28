@@ -235,6 +235,11 @@ def append_line(path: Path, line: str) -> None:
         f.write(line if line.endswith("\n") else line + "\n")
 
 
+def now_utc_iso() -> str:
+    """UTC の現在時刻（ISO 8601）。生成物の generated_at に使う。"""
+    return datetime.now(timezone.utc).isoformat()
+
+
 def parse_iso(s: str) -> datetime:
     """ISO 8601（末尾 Z 可）を aware datetime にする。Spotify の played_at 用。"""
     if s.endswith("Z"):
