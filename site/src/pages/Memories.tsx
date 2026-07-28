@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react";
 import { useJson } from "../lib/data";
-import type { ArchiveWeekly, OnThisDay, Rediscover, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
+import type { OnThisDay, Rediscover, SearchIndex, Wrapped, WrappedIndex } from "../lib/types";
 import { Empty, Loading, Section, StatCard } from "../components/ui";
 import { TrackPlayButton } from "../lib/player";
 import { ArtistDetail, LifetimeRow, TrackDetail } from "../components/Detail";
-import { formatDuration, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
+import { formatDuration, formatDurationLong, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
 
@@ -17,32 +17,7 @@ function useTrackImages(): Map<string, string | null> {
   );
 }
 
-// 現在の ISO 週（JST）を "YYYY-Www" で返す。1年前の同じ週を archive_weekly から探す。
-function isoWeekLabel(d: Date): string {
-  const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
-  const day = date.getUTCDay() || 7;
-  date.setUTCDate(date.getUTCDate() + 4 - day);
-  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
-  const week = Math.ceil(((date.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
-  return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
-}
 
-// "YYYY-Www" → "M/D–M/D"（その週の月〜日）。ISO 週番号より直感的に。
-function isoWeekRange(isoWeek: string): string {
-  const m = /^(\d{4})-W(\d{2})$/.exec(isoWeek);
-  if (!m) return "";
-  const year = Number(m[1]);
-  const week = Number(m[2]);
-  // ISO 第1週は 1/4 を含む週。その週の月曜から (week-1)*7 日進める。
-  const jan4 = new Date(Date.UTC(year, 0, 4));
-  const jan4Day = jan4.getUTCDay() || 7;
-  const monday = new Date(jan4);
-  monday.setUTCDate(jan4.getUTCDate() - (jan4Day - 1) + (week - 1) * 7);
-  const sunday = new Date(monday);
-  sunday.setUTCDate(monday.getUTCDate() + 6);
-  const fmt = (x: Date) => `${x.getUTCMonth() + 1}/${x.getUTCDate()}`;
-  return `${fmt(monday)}–${fmt(sunday)}`;
-}
 
 // 再生ボタン付きのトラック行（タップで画面下の常駐プレイヤーが鳴る）。アルバムアート付き。
 // onOpen があれば曲名部分がタップ可能になり、生涯の詳細ダイアログを開く。
@@ -78,18 +53,9 @@ function TrackRow(
 
 export function Memories() {
   const tx = useT();
-  const weekly = useJson<ArchiveWeekly>("archive_weekly");
-  const img = useTrackImages();
   const [track, setTrack] = useState<RankedLifetimeTrack | null>(null);
   const [artist, setArtist] = useState<RankedLifetimeArtist | null>(null);
   const life = useLifetimeTracks();
-
-  const lastYear = new Date();
-  lastYear.setFullYear(lastYear.getFullYear() - 1);
-  const targetWeek = isoWeekLabel(lastYear);
-
-  const match = weekly.data?.weeks.find((w) => w.iso_week === targetWeek);
-  const recent = [...(weekly.data?.weeks ?? [])].reverse().slice(0, 6);
 
   return (
     <>
@@ -100,45 +66,6 @@ export function Memories() {
       </Section>
 
       <RediscoverBlock onTrack={setTrack} />
-
-      <Section title={tx(`This week last year (${isoWeekRange(targetWeek)})`, `1年前の今週（${isoWeekRange(targetWeek)}）`)}>
-        {weekly.loading ? (
-          <Loading />
-        ) : !match ? (
-          <Empty>
-            {tx(
-              "No data for this week yet (appears once a year of Top50 archives has accumulated).",
-              "該当する週のデータがまだありません（Top50 アーカイブが1年分たまると出ます）。",
-            )}
-          </Empty>
-        ) : (
-          <div className="card">
-            {match.tracks.map((t) => (
-              <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />
-            ))}
-          </div>
-        )}
-      </Section>
-
-      <Section title={tx("Recently archived weeks", "最近アーカイブ入りした週")}>
-        {weekly.loading ? (
-          <Loading />
-        ) : recent.length === 0 ? (
-          <Empty>{tx("No archived weeks yet.", "まだアーカイブ週がありません。")}</Empty>
-        ) : (
-          recent.map((w) => (
-            <div className="card" key={w.iso_week} style={{ marginBottom: "var(--sp-3)" }}>
-              <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
-                {tx(`Week of ${isoWeekRange(w.iso_week)}`, `${isoWeekRange(w.iso_week)} の週`)}{" "}
-                <code className="muted">{w.iso_week}</code> · {tx(`${w.tracks.length} ${w.tracks.length === 1 ? "song" : "songs"}`, `${w.tracks.length}曲`)}
-              </div>
-              {w.tracks.slice(0, 8).map((t) => (
-                <TrackRow key={t.id} track={{ id: t.id, name: t.name, artists: t.artists }} image={t.image ?? img.get(t.id)} />
-              ))}
-            </div>
-          ))
-        )}
-      </Section>
 
       {track && <TrackDetail track={track} onClose={() => setTrack(null)} />}
       {artist && (
@@ -309,7 +236,8 @@ function WrappedPanel(
           sub={tx(`${d.new_tracks} new`, `新規 ${d.new_tracks}曲`)}
         />
         {d.ms != null && d.ms > 0 && (
-          <StatCard label={tx("Time spent", "聴いた時間")} value={formatDuration(d.ms, lang, true)} />
+          <StatCard label={tx("Time spent", "聴いた時間")} value={formatDuration(d.ms, lang)}
+            sub={formatDurationLong(d.ms, lang)} />
         )}
         {d.peak && (
           <StatCard

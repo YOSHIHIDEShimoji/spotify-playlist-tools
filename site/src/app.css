@@ -1342,3 +1342,11 @@ body.has-player .queue-bar {
   align-self: center;
   color: var(--warning);
 }
+
+/* ネイティブ select のドロップダウン。option は OS 側の面に描かれるので、色を継承させると
+ * 明るい背景に白文字（＝読めない）になり得る。面と文字色を両方明示する。 */
+.pill-select option,
+select option {
+  background: var(--surface-elev);
+  color: var(--text-base);
+}

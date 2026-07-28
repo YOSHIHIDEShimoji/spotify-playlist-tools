@@ -3,18 +3,17 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useJson } from "../lib/data";
 import type { SearchIndex, SearchTrack } from "../lib/types";
-import { Empty, Loading, Section, StatCard } from "../components/ui";
+import { Empty, Loading, Section } from "../components/ui";
 import { ArtistDetail, LifetimeRow, TrackDetail } from "../components/Detail";
 import { PlayButton } from "../lib/player";
 import { formatDuration, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
-import { monthYear, useLang, useT } from "../lib/i18n";
+import { useLang, useT } from "../lib/i18n";
 
 const PAGE = 60; // 一度に描く行数（下端に来たら継ぎ足す）
 
 export function SearchPage() {
   const tx = useT();
-  const { lang } = useLang();
   const [q, setQ] = useState("");
   const [tab, setTab] = useState<"tracks" | "artists">("tracks");
   const [track, setTrack] = useState<RankedLifetimeTrack | null>(null);
@@ -64,32 +63,11 @@ export function SearchPage() {
     return () => io.disconnect();
   }, [rows.length]);
 
-  const totals = life.totals;
   const loading = life.loading || arts.loading;
 
   return (
     <>
-      <Section title={tx("Your listening, searchable", "生涯の記録を引く")}>
-        {totals && (
-          <div className="row" style={{ marginBottom: "var(--sp-3)" }}>
-            <StatCard
-              label={tx("Lifetime plays", "生涯の再生")}
-              value={totals.plays.toLocaleString()}
-              sub={totals.since ? tx(`since ${monthYear(totals.since, lang)}`, `${monthYear(totals.since, lang)}から`) : ""}
-            />
-            <StatCard
-              label={tx("Time spent listening", "聴いた時間")}
-              value={formatDuration(totals.ms, lang, true)}
-              sub={tx(`across ${totals.days.toLocaleString()} days`, `${totals.days.toLocaleString()}日ぶん`)}
-            />
-            <StatCard
-              label={tx("Distinct songs", "曲数")}
-              value={totals.tracks.toLocaleString()}
-              sub={tx(`${totals.artists.toLocaleString()} artists`, `${totals.artists.toLocaleString()}アーティスト`)}
-            />
-          </div>
-        )}
-
+      <Section title={tx("Search", "検索")}>
         <input
           className="input-search"
           placeholder={tx("Search a song or artist you've played", "曲名・アーティストで検索")}

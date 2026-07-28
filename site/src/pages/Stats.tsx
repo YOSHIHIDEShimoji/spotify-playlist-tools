@@ -8,7 +8,7 @@ import { PlayButton, PlayIcon, TrackPlayButton, usePlayer } from "../lib/player"
 import { ArtistModal, Modal } from "../components/Modal";
 import type { ModalArtist } from "../components/Modal";
 import { ArtistDetail, LifetimeRow, TrackDetail } from "../components/Detail";
-import { formatDuration, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
+import { formatDuration, formatDurationLong, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
 
@@ -16,6 +16,8 @@ const GREEN = "#1ed760";
 const AXIS = "#b3b3b3";
 const GRID = "#2a2a2a";
 const TIP = { background: "#282828", border: "1px solid #4d4d4d", borderRadius: 8 };
+// ツールチップの項目色は系列色から取られる。暗い背景に黒文字が出るのを防ぐため明示する。
+const TIP_ITEM = { color: "#fff" };
 const LIB_ROW = "__library__"; // ユニーク曲数の番兵行（延べ合計ではない）
 
 export function StatsPage() {
@@ -93,16 +95,9 @@ export function StatsPage() {
         )}
       </Section>
 
-      <Section title={tx("Listening streak", "連続聴取")}>
+      <Section title={tx("Your listening, all time", "生涯の記録")}>
         {listenActive ? (
-          <div className="row">
-            <StatCard label={tx("Current streak", "現在の streak")} value={tx(`${listen.data!.streak} days`, `${listen.data!.streak}日`)} />
-            <StatCard
-              label={tx("Total plays", "累計再生")}
-              value={listen.data!.milestone.total.toLocaleString()}
-              sub={listen.data!.milestone.next ? tx(`Next milestone: ${listen.data!.milestone.next.toLocaleString()}`, `次のマイルストーン ${listen.data!.milestone.next.toLocaleString()}回`) : ""}
-            />
-          </div>
+          <LifetimeTotals streak={listen.data!.streak} />
         ) : (
           <Empty>
             {tx(
@@ -147,8 +142,8 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
         <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
           {life.totals?.since
             ? tx(
-                `Every play since ${monthYear(life.totals.since, lang)} — ${life.totals.plays.toLocaleString()} plays, ${formatDuration(life.totals.ms, lang, true)}.`,
-                `${monthYear(life.totals.since, lang)}からの全再生 — ${life.totals.plays.toLocaleString()}回・${formatDuration(life.totals.ms, lang, true)}。`,
+                `Every play since ${monthYear(life.totals.since, lang)}.`,
+                `${monthYear(life.totals.since, lang)}からの全再生。`,
               )
             : tx("Your full listening history.", "生涯の全再生。")}
         </p>
@@ -229,6 +224,38 @@ function MostPlayed({ listen, loading }: { listen: ListeningStats | null; loadin
   );
 }
 
+/** 生涯の総量。数字は大きく1行で、体感スケール（何日・何年）はその下に添える。 */
+function LifetimeTotals({ streak }: { streak: number }) {
+  const tx = useT();
+  const { lang } = useLang();
+  const { totals } = useLifetimeTracks();
+  if (!totals) return <Loading />;
+  return (
+    <div className="row">
+      <StatCard
+        label={tx("Lifetime plays", "生涯の再生")}
+        value={totals.plays.toLocaleString()}
+        sub={totals.since ? tx(`since ${monthYear(totals.since, lang)}`, `${monthYear(totals.since, lang)}から`) : ""}
+      />
+      <StatCard
+        label={tx("Time spent listening", "聴いた時間")}
+        value={formatDuration(totals.ms, lang)}
+        sub={formatDurationLong(totals.ms, lang)}
+      />
+      <StatCard
+        label={tx("Distinct songs", "曲数")}
+        value={totals.tracks.toLocaleString()}
+        sub={tx(`${totals.artists.toLocaleString()} artists`, `${totals.artists.toLocaleString()}アーティスト`)}
+      />
+      <StatCard
+        label={tx("Days with music", "聴いた日数")}
+        value={totals.days.toLocaleString()}
+        sub={tx(`${streak}-day streak`, `連続 ${streak}日`)}
+      />
+    </div>
+  );
+}
+
 function RangeTabs({ range, setRange }: { range: "week" | "all"; setRange: (r: "week" | "all") => void }) {
   const tx = useT();
   return (
@@ -301,7 +328,7 @@ function Growth({ rows, stats }: { rows: StatsHistoryRow[]; stats: Stats | null 
             <CartesianGrid stroke={GRID} vertical={false} />
             <XAxis dataKey="date" stroke={AXIS} fontSize={11} />
             <YAxis stroke={AXIS} fontSize={11} />
-            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} formatter={(v: number) => [v.toLocaleString(), uniqueLabel]} />
+            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} itemStyle={TIP_ITEM} formatter={(v: number) => [v.toLocaleString(), uniqueLabel]} />
             <Line type="monotone" dataKey="total" stroke={GREEN} strokeWidth={2} dot={false} name={uniqueLabel} isAnimationActive={false} />
           </LineChart>
         </ResponsiveContainer>
@@ -401,7 +428,7 @@ function DecadeBars(
           >
             <XAxis dataKey="label" stroke={AXIS} fontSize={11} />
             <YAxis stroke={AXIS} fontSize={11} />
-            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }} />
+            <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} itemStyle={TIP_ITEM} cursor={{ fill: "#ffffff10" }} />
             <Bar dataKey="count" fill={GREEN} radius={[4, 4, 0, 0]} name={tx("songs", "曲数")} isAnimationActive={false} />
           </BarChart>
         </ResponsiveContainer>

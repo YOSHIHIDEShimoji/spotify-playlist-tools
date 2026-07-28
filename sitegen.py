@@ -36,9 +36,11 @@ MILESTONES = [100, 250, 500, 1000, 2500, 5000, 10000]
 
 # 「忘れられた名曲」の条件: 生涯 REDISCOVER_MIN_PLAYS 回以上聴いたのに、直近
 # REDISCOVER_QUIET_DAYS 日は一度も再生していない曲。生涯データがあって初めて成立する。
-REDISCOVER_MIN_PLAYS = 10
+# 閾値10回だと200曲出て「名曲」の感じが薄れるため50回に上げた（実測: 50回以上で41曲・
+# 60回以上で27曲）。表示は上位30曲に絞る。
+REDISCOVER_MIN_PLAYS = 50
 REDISCOVER_QUIET_DAYS = 365
-REDISCOVER_LIMIT = 60
+REDISCOVER_LIMIT = 30
 
 # stats タブで選択できる「完成済み」プレイリスト。管理対象（夜間更新）ではないので
 # dedupe（重複検出）には入れず、統計の閲覧だけ対象にする。Western/Japanese は inbox 設定から取る。
@@ -625,6 +627,49 @@ def _artist_image(artist: dict) -> str | None:
     return imgs[len(imgs) // 2].get("url") or imgs[-1].get("url")
 
 
+TRACK_META_BUDGET = 3000  # 1晩にアルバムアートを引く曲数の上限（/v1/tracks は50件バッチ）
+
+_SPOTIFY_ID_RE = re.compile(r"^[A-Za-z0-9]{22}$")
+
+
+def _load_track_meta(data: Path) -> dict[str, str]:
+    """track_meta.json（曲ID → アルバムアート URL）を読む。"""
+    path = data / "track_meta.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    meta = payload.get("images")
+    return meta if isinstance(meta, dict) else {}
+
+
+def build_track_meta(sp, track_ids, existing: dict[str, str],
+                     budget: int = TRACK_META_BUDGET) -> dict[str, str]:
+    """生涯ランキングの曲にアルバムアートを付ける（曲ID → 画像 URL のキャッシュを育てる）。
+
+    拡張履歴は曲名と ID しか持たないので、そのままだと生涯ランキングの大半がサムネイル無しに
+    なる。/v1/tracks は50件バッチで album.images を返すので、未取得の曲だけまとめて引く。
+    Last.fm 由来の未解決 ID（"lastfm:..."）は Spotify に無いので対象外。
+    """
+    meta = dict(existing)
+    pending = [
+        tid for tid in track_ids
+        if tid not in meta and _SPOTIFY_ID_RE.match(tid or "")
+    ][:budget]
+    for i in range(0, len(pending), 50):
+        chunk = pending[i : i + 50]
+        try:
+            got = sp.tracks(chunk).get("tracks", [])
+        except Exception:  # noqa: BLE001 — 1バッチの失敗で夜間全体を止めない
+            continue
+        for tid, tr in zip(chunk, got, strict=True):
+            # 取得できなかった曲（削除済み等）は空文字で覚え、毎晩引き直さない
+            meta[tid] = _album_image(tr.get("album") or {}) or "" if tr else ""
+    return meta
+
+
 def _load_artist_meta(data: Path) -> dict:
     """artist_meta.json（名前(小文字) → {id, name, image, genres, followers}）を読む。"""
     path = data / "artist_meta.json"
@@ -788,8 +833,10 @@ def main() -> int:
     _backfill_yearly_wrapped(data, records, now_jst)
 
     # 生涯集計（全曲・全アーティストのランキング／忘れられた名曲／◯年前の今日）。
-    # アーティスト画像は前回のキャッシュで載せ、後段（API 節）で取得し直して上書きする。
-    lifetime_names = write_lifetime(data, records, now_jst, _load_artist_meta(data))
+    # 画像は前回のキャッシュで載せ、後段（API 節）で取得し直して上書きする。
+    lifetime_names = write_lifetime(
+        data, records, now_jst, _load_artist_meta(data), _load_track_meta(data)
+    )
 
     # 静的サイトはディレクトリ列挙できないので、undo と wrapped のインデックスを出す（H5・M3）
     write_undo_index(data)
@@ -837,16 +884,24 @@ def main() -> int:
     core.atomic_write_json(data / "stats.json", stats_json)
     core.atomic_write_json(data / "search_index.json", build_search_index(search_records))
 
-    # アーティストの画像・ジャンルを取得してキャッシュを育て、生涯アーティスト一覧に載せ直す。
-    # 既存エントリは再取得しないので、毎晩の API 消費は新しく増えたぶんだけ。
+    # 画像（アーティストの写真・曲のアルバムアート）を取得してキャッシュを育て、
+    # 生涯集計に載せ直す。既存エントリは再取得しないので毎晩の API 消費は増分だけ。
     try:
         meta = build_artist_meta(
             sp, [a["name"] for a in lifetime_names], search_records, _load_artist_meta(data)
         )
         core.atomic_write_json(data / "artist_meta.json", {"generated_at": _now_utc_iso(), "artists": meta})
-        write_lifetime_artists(data, records, meta)
+        track_meta = build_track_meta(
+            sp, {r["track_id"] for r in records if r.get("track_id")}, _load_track_meta(data)
+        )
+        core.atomic_write_json(
+            data / "track_meta.json", {"generated_at": _now_utc_iso(), "images": track_meta}
+        )
+        got = sum(1 for v in track_meta.values() if v)
+        logger.info(f"画像: アーティスト {sum(1 for v in meta.values() if v.get('image'))} / 曲 {got}")
+        write_lifetime(data, records, now_jst, meta, track_meta)
     except Exception as e:  # noqa: BLE001 — 画像が無くてもサイトは成立する
-        logger.info(f"artist_meta スキップ: {e}")
+        logger.info(f"画像の取得をスキップ: {e}")
 
     # 似ているアーティスト/曲（Last.fm 由来）。Spotify の推薦 API は廃止済みなので唯一の推薦源。
     try:
@@ -1171,13 +1226,18 @@ def write_lifetime_artists(data: Path, records: list[dict], artist_meta: dict) -
     return artists
 
 
-def write_lifetime(data: Path, records: list[dict], now_jst: datetime, artist_meta: dict) -> list[dict]:
+def write_lifetime(data: Path, records: list[dict], now_jst: datetime, artist_meta: dict,
+                   track_meta: dict[str, str] | None = None) -> list[dict]:
     """生涯集計のデータ一式を書く（曲・アーティスト・忘れられた名曲・◯年前の今日）。
     アーティスト一覧を返す（後段の画像取得で「誰を引くか」に使う）。"""
     if not records:
         return []
     short_plays = _load_history_extra(data / "history")
     tracks = lifetime_tracks(records, short_plays)
+    for row in tracks:  # アルバムアートをキャッシュから載せる（未取得の曲は無印のまま）
+        img = (track_meta or {}).get(row["id"])
+        if img:
+            row["image"] = img
     artists = write_lifetime_artists(data, records, artist_meta)
     core.atomic_write_json(data / "lifetime_tracks.json", {
         "generated_at": _now_utc_iso(),

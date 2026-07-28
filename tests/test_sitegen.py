@@ -518,9 +518,17 @@ def test_rediscover_boundary_is_exactly_quiet_days():
 
 def test_rediscover_respects_limit_and_order():
     now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
-    tracks = [{"id": f"t{i}", "name": f"t{i}", "count": i, "last": "2020-01-01"} for i in (10, 30, 20)]
+    tracks = [{"id": f"t{i}", "name": f"t{i}", "count": i, "last": "2020-01-01"} for i in (60, 80, 70)]
     got = sitegen.rediscover(tracks, now, limit=2)
-    assert [t["id"] for t in got] == ["t30", "t20"]
+    assert [t["id"] for t in got] == ["t80", "t70"]
+
+
+def test_rediscover_threshold_is_selective():
+    """閾値は「名曲」と呼べる回数に置く（10回だと実データで200曲出て意味を失う）。"""
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    tracks = [{"id": "many", "name": "many", "count": 50, "last": "2020-01-01"},
+              {"id": "few", "name": "few", "count": 49, "last": "2020-01-01"}]
+    assert [t["id"] for t in sitegen.rediscover(tracks, now)] == ["many"]
 
 
 def test_on_this_day_matches_month_day_and_excludes_current_year():
@@ -735,3 +743,60 @@ def test_write_lifetime_wires_short_plays_and_artist_images(tmp_path):
 def test_write_lifetime_noop_without_records(tmp_path):
     assert sitegen.write_lifetime(tmp_path, [], datetime(2026, 7, 29, tzinfo=core.JST), {}) == []
     assert not (tmp_path / "lifetime_tracks.json").exists()
+
+
+class _TracksSp:
+    """build_track_meta 用のスタブ。バッチ内容を記録する。"""
+
+    def __init__(self, missing=()):
+        self.batches: list[list[str]] = []
+        self.missing = set(missing)
+
+    def tracks(self, ids):
+        self.batches.append(list(ids))
+        return {"tracks": [
+            None if i in self.missing else {"album": {"images": [{"url": f"big-{i}"}, {"url": f"small-{i}"}]}}
+            for i in ids
+        ]}
+
+
+def test_build_track_meta_fetches_album_art_in_batches():
+    sp = _TracksSp()
+    ids = [f"{i:022d}" for i in range(120)]
+    meta = sitegen.build_track_meta(sp, ids, {})
+    assert [len(b) for b in sp.batches] == [50, 50, 20]  # /v1/tracks の上限は50
+    assert meta[ids[0]] == "small-" + ids[0]            # サムネなので最小サイズ
+
+
+def test_build_track_meta_skips_cached_and_unresolvable_ids():
+    sp = _TracksSp()
+    cached = "a" * 22
+    meta = sitegen.build_track_meta(sp, [cached, "lastfm:foo", "b" * 22], {cached: "keep"})
+    # 取得済みは引き直さない。Last.fm 由来の未解決 ID は Spotify に無いので対象外。
+    assert sp.batches == [["b" * 22]]
+    assert meta[cached] == "keep"
+
+
+def test_build_track_meta_remembers_misses():
+    gone = "c" * 22
+    sp = _TracksSp(missing=[gone])
+    meta = sitegen.build_track_meta(sp, [gone], {})
+    assert meta[gone] == ""  # 空文字で「引いたが無かった」を覚え、毎晩引き直さない
+    sitegen.build_track_meta(sp, [gone], meta)
+    assert len(sp.batches) == 1
+
+
+def test_build_track_meta_respects_budget():
+    sp = _TracksSp()
+    ids = [f"{i:022d}" for i in range(200)]
+    sitegen.build_track_meta(sp, ids, {}, budget=60)
+    assert sum(len(b) for b in sp.batches) == 60
+
+
+def test_write_lifetime_applies_track_images(tmp_path):
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    recs = [_play("2020-01-01T00:00:00Z", "t1"), _play("2020-01-02T00:00:00Z", "t2")]
+    sitegen.write_lifetime(tmp_path, recs, now, {}, {"t1": "https://img/t1.jpg", "t2": ""})
+    rows = {t["id"]: t for t in json.loads((tmp_path / "lifetime_tracks.json").read_text())["tracks"]}
+    assert rows["t1"]["image"] == "https://img/t1.jpg"
+    assert "image" not in rows["t2"]  # 空文字は「画像なし」なので付けない

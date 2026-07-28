@@ -6,13 +6,16 @@ import { Modal } from "./Modal";
 import { TrackPlayButton } from "../lib/player";
 import { useJson } from "../lib/data";
 import { fullDate, useLang, useT } from "../lib/i18n";
-import { finishRate, formatDuration, useLifetimeTracks, yearSeries } from "../lib/lifetime";
+import { finishRate, formatDuration, formatDurationLong, useLifetimeTracks, useTrackArt, yearSeries } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import type { Recs, SearchIndex } from "../lib/types";
 
 const GREEN = "#1ed760";
 const DIM = "#535353";
 const TIP = { background: "#282828", border: "1px solid #4d4d4d", borderRadius: 8 };
+// recharts はツールチップの項目色を系列の fill から取る。Bar 側は Cell ごとに色を変えていて
+// Bar 自体の fill が無いため、指定しないと既定の黒文字になり暗い背景に埋もれる。
+const TIP_ITEM = { color: "#fff" };
 
 /** 詳細ダイアログ共通の数値ブロック。 */
 function Facts({ items }: { items: { k: string; v: string; s?: string }[] }) {
@@ -39,9 +42,10 @@ function YearBars({ years, label }: { years: Record<string, number>; label: stri
       <ResponsiveContainer width="100%" height={110}>
         <BarChart data={data} margin={{ top: 4, right: 4, bottom: 0, left: 4 }}>
           <XAxis dataKey="year" stroke="#b3b3b3" fontSize={10} tickLine={false} axisLine={false} interval={0} />
-          <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} cursor={{ fill: "#ffffff10" }}
+          <Tooltip contentStyle={TIP} labelStyle={{ color: "#fff" }} itemStyle={TIP_ITEM}
+            cursor={{ fill: "#ffffff10" }}
             formatter={(v: number) => [v.toLocaleString(), label]} />
-          <Bar dataKey="count" radius={[3, 3, 0, 0]} isAnimationActive={false}>
+          <Bar dataKey="count" fill={DIM} radius={[3, 3, 0, 0]} isAnimationActive={false}>
             {data.map((d) => (
               <Cell key={d.year} fill={d.count === max ? GREEN : DIM} />
             ))}
@@ -79,7 +83,8 @@ export function TrackDetail({ track, onClose }: { track: RankedLifetimeTrack; on
       <Facts items={[
         { k: tx("Lifetime plays", "生涯の再生"), v: `${track.count.toLocaleString()}`,
           s: tx(`#${track.rank} of all time`, `生涯 ${track.rank}位`) },
-        { k: tx("Time spent", "聴いた時間"), v: formatDuration(track.ms, lang) },
+        { k: tx("Time spent", "聴いた時間"), v: formatDuration(track.ms, lang),
+          s: formatDurationLong(track.ms, lang) },
         ...(rate != null
           ? [{ k: tx("Finish rate", "完走率"), v: `${rate}%`,
                s: tx(`skipped ${track.short} times`, `${track.short}回は途中でやめた`) }]
@@ -143,7 +148,8 @@ export function ArtistDetail(
         <div className="grow">
           <Facts items={[
             { k: tx("Lifetime plays", "生涯の再生"), v: artist.count.toLocaleString() },
-            { k: tx("Time spent", "聴いた時間"), v: formatDuration(artist.ms, lang) },
+            { k: tx("Time spent", "聴いた時間"), v: formatDuration(artist.ms, lang),
+              s: formatDurationLong(artist.ms, lang) },
             { k: tx("Distinct songs", "曲数"), v: artist.tracks.toLocaleString() },
           ]} />
         </div>
@@ -192,11 +198,13 @@ export function LifetimeRow(
 ) {
   const tx = useT();
   const { lang } = useLang();
+  const art = useTrackArt();
+  const image = art(track.id, track.image);
   return (
     <div className="list-row">
       <span className="list-rank">{rank ?? track.rank}</span>
-      {track.image ? (
-        <img className="cand-art top-art" src={track.image} alt="" loading="lazy" width={40} height={40} />
+      {image ? (
+        <img className="cand-art top-art" src={image} alt="" loading="lazy" width={40} height={40} />
       ) : (
         <span className="cand-art cand-art--ph top-art" aria-hidden />
       )}
