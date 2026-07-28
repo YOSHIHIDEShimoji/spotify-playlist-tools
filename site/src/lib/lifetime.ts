@@ -50,11 +50,13 @@ export function useLifetimeArtists() {
   return { ...res, artists: ranked, byName };
 }
 
-/** ミリ秒 → 「◯時間」「◯分」。数字を大きく1行で見せる用（主表示）。 */
+/** ミリ秒 → 「◯時間」「◯分」。数字を大きく1行で見せる用（主表示）。
+ * 切り捨てにするのは、下に添える formatDurationLong と食い違わせないため
+ * （四捨五入だと「2時間」の下に「1時間30分」と出て矛盾して見える）。 */
 export function formatDuration(ms: number, lang: string): string {
-  const minutes = Math.round(ms / 60000);
+  const minutes = Math.floor(ms / 60000);
   if (minutes < 60) return lang === "ja" ? `${minutes}分` : `${minutes} min`;
-  const hours = Math.round(ms / 3600000);
+  const hours = Math.floor(ms / 3600000);
   return lang === "ja" ? `${hours.toLocaleString()}時間` : `${hours.toLocaleString()} hr`;
 }
 
