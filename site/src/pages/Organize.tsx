@@ -108,19 +108,26 @@ export function Organize() {
     let failed: string | null = null;
     for (const s of sends) {
       const res = await dispatchOp(pat, s.op, s.payload);
-      if (res.ok) s.ids.forEach(markProcessing);
-      else failed = res.message;
+      if (res.ok) {
+        s.ids.forEach(markProcessing);
+        // 送れたぶんはキューから外す。残したまま再送すると、既に適用済みの決定を
+        // もう一度送ることになり site-ops 側が「対象が無い」で失敗する。
+        s.ids.forEach(dequeue);
+      } else {
+        failed = res.message;
+      }
     }
     setSending(false);
     setSendError(failed);
-    if (!failed) clearQueue();
   }, [pat]);
 
   useEffect(() => {
-    if (!queued.length || !pat || sending) return;
+    // 失敗が残っている間は自動送信しない。ここを見ないと、PAT 失効のような恒久的な失敗で
+    // 8秒ごとに dispatch を投げ続ける無限リトライになる。復帰は「今すぐ送信」の明示操作で行う。
+    if (!queued.length || !pat || sending || sendError) return;
     const id = window.setTimeout(() => { void sendQueue(); }, SEND_DELAY_MS);
     return () => window.clearTimeout(id); // 押すたびに猶予がリセットされる
-  }, [queued, pat, sending, sendQueue]);
+  }, [queued, pat, sending, sendError, sendQueue]);
 
   return (
     <>
@@ -262,7 +269,7 @@ function QueueBar(
         </div>
         <div className="t-small">
           {error
-            ? tx(`Failed: ${error}`, `失敗: ${error}`)
+            ? tx(`Failed: ${error} — press Send now to retry.`, `失敗: ${error} — 「今すぐ送信」で再試行できます。`)
             : sending
               ? tx("Sending…", "送信中…")
               : tx(`Sending in ${left}s — you can keep deciding or cancel.`, `${left}秒後に送信します。続けて決めても、取り消してもかまいません。`)}
