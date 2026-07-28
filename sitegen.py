@@ -611,7 +611,10 @@ def build_releases(sp, pl_records: list[dict], data: Path, now_jst: datetime, wi
     return {"generated_at": _now_utc_iso(), "items": items}
 
 
-ARTIST_META_SEARCH_BUDGET = 40  # 1晩に検索で新規解決するアーティスト数の上限（API 負荷の頭打ち）
+# 1晩に検索で新規解決するアーティスト数の上限（API 負荷の頭打ち）。
+# 在籍曲から ID を引ける人は無料で解決できるが、履歴にしかいない人（初回実測で約1000人）は
+# 1件ずつ検索が要る。40件だと埋まるまで1ヶ月近くかかるので、実測20秒/40件を踏まえて増やす。
+ARTIST_META_SEARCH_BUDGET = 150
 
 
 def _artist_image(artist: dict) -> str | None:
