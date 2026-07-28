@@ -1,0 +1,304 @@
+{
+  "months": [
+    {
+      "count": 309,
+      "month": "2021-01"
+    },
+    {
+      "count": 391,
+      "month": "2021-02"
+    },
+    {
+      "count": 871,
+      "month": "2021-03"
+    },
+    {
+      "count": 815,
+      "month": "2021-04"
+    },
+    {
+      "count": 819,
+      "month": "2021-05"
+    },
+    {
+      "count": 321,
+      "month": "2021-06"
+    },
+    {
+      "count": 800,
+      "month": "2021-07"
+    },
+    {
+      "count": 651,
+      "month": "2021-08"
+    },
+    {
+      "count": 507,
+      "month": "2021-09"
+    },
+    {
+      "count": 927,
+      "month": "2021-10"
+    },
+    {
+      "count": 612,
+      "month": "2021-11"
+    },
+    {
+      "count": 544,
+      "month": "2021-12"
+    }
+  ],
+  "ms": 1440301635,
+  "new_tracks": 624,
+  "peak": {
+    "dow": 6,
+    "hour": 22
+  },
+  "plays": 7567,
+  "top_artists": [
+    {
+      "count": 3189,
+      "name": "The Beatles"
+    },
+    {
+      "count": 871,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 404,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 314,
+      "name": "John Lennon"
+    },
+    {
+      "count": 252,
+      "name": "Queen"
+    },
+    {
+      "count": 134,
+      "name": "Sia"
+    },
+    {
+      "count": 104,
+      "name": "The Jacksons"
+    },
+    {
+      "count": 92,
+      "name": "Wings"
+    },
+    {
+      "count": 81,
+      "name": "Jim Yosef"
+    },
+    {
+      "count": 80,
+      "name": "The Weeknd"
+    },
+    {
+      "count": 63,
+      "name": "Katy Perry"
+    },
+    {
+      "count": 58,
+      "name": "a-ha"
+    },
+    {
+      "count": 55,
+      "name": "Hans Zimmer"
+    },
+    {
+      "count": 52,
+      "name": "Ellie Goulding"
+    },
+    {
+      "count": 49,
+      "name": "Elektronomia"
+    },
+    {
+      "count": 45,
+      "name": "Carly Rae Jepsen"
+    },
+    {
+      "count": 43,
+      "name": "Maroon 5"
+    },
+    {
+      "count": 39,
+      "name": "Culture Club"
+    },
+    {
+      "count": 38,
+      "name": "Clean Bandit"
+    },
+    {
+      "count": 37,
+      "name": "Tobu"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "a-ha"
+      ],
+      "count": 56,
+      "name": "Take on Me",
+      "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
+    },
+    {
+      "artists": [
+        "Sia"
+      ],
+      "count": 48,
+      "name": "Chandelier",
+      "track_id": "4VrWlk8IQxevMvERoX08iC"
+    },
+    {
+      "artists": [
+        "Sia"
+      ],
+      "count": 45,
+      "name": "Big Girls Cry",
+      "track_id": "75xgoXAGed7jiNDdV8TNOe"
+    },
+    {
+      "artists": [
+        "Carly Rae Jepsen"
+      ],
+      "count": 44,
+      "name": "Call Me Maybe",
+      "track_id": "4L3Vw8hTyqJ1AdyypY4e61"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 44,
+      "name": "Heal the World",
+      "track_id": "7woW97CfcWaKtuC6W5BP2K"
+    },
+    {
+      "artists": [
+        "Ellie Goulding"
+      ],
+      "count": 43,
+      "name": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+      "track_id": "3kEeZiBHzg8aIJ7iVJPl7y"
+    },
+    {
+      "artists": [
+        "The Weeknd"
+      ],
+      "count": 39,
+      "name": "Save Your Tears",
+      "track_id": "5QO79kh1waicV47BqGRL3g"
+    },
+    {
+      "artists": [
+        "Culture Club"
+      ],
+      "count": 38,
+      "name": "Karma Chameleon - Remastered 2002",
+      "track_id": "2wSAWEYUHkt92X4SBAPqZE"
+    },
+    {
+      "artists": [
+        "The Weeknd"
+      ],
+      "count": 38,
+      "name": "Blinding Lights",
+      "track_id": "0VjIjW4GlUZAMYd2vXMi3b"
+    },
+    {
+      "artists": [
+        "Clean Bandit"
+      ],
+      "count": 37,
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
+        "David Guetta"
+      ],
+      "count": 36,
+      "name": "The Whisperer (feat. Sia)",
+      "track_id": "4J1DXVKlC7h5wSgeuULPYh"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 35,
+      "name": "Black or White",
+      "track_id": "7EsjkelQuoUlJXEw7SeVV4"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 35,
+      "name": "Thriller",
+      "track_id": "2LlQb7Uoj1kKyGhlkBf9aC"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 34,
+      "name": "No Reply - Remastered 2009",
+      "track_id": "4ltC6PrqkTtpcRNi5lvS4z"
+    },
+    {
+      "artists": [
+        "ZAYN"
+      ],
+      "count": 34,
+      "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 34,
+      "name": "Payphone",
+      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
+    },
+    {
+      "artists": [
+        "Kontekst"
+      ],
+      "count": 33,
+      "name": "Buddha",
+      "track_id": "2eFHbrvjYbZkVexsclJffS"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 33,
+      "name": "It's Only Love - Remastered 2009",
+      "track_id": "2ue1KRstSKHF8jQkIJZiNC"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 33,
+      "name": "I'll Be Back - Remastered 2009",
+      "track_id": "3lSi6qfnp2YZazTzcOLBZk"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 32,
+      "name": "Say Say Say - Remastered 2015",
+      "track_id": "5BxoKS16fDiOpcwTztQF30"
+    }
+  ],
+  "year": "2021"
+}

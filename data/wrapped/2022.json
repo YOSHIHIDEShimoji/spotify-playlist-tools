@@ -1,0 +1,304 @@
+{
+  "months": [
+    {
+      "count": 610,
+      "month": "2022-01"
+    },
+    {
+      "count": 375,
+      "month": "2022-02"
+    },
+    {
+      "count": 464,
+      "month": "2022-03"
+    },
+    {
+      "count": 226,
+      "month": "2022-04"
+    },
+    {
+      "count": 214,
+      "month": "2022-05"
+    },
+    {
+      "count": 437,
+      "month": "2022-06"
+    },
+    {
+      "count": 156,
+      "month": "2022-07"
+    },
+    {
+      "count": 235,
+      "month": "2022-08"
+    },
+    {
+      "count": 176,
+      "month": "2022-09"
+    },
+    {
+      "count": 309,
+      "month": "2022-10"
+    },
+    {
+      "count": 360,
+      "month": "2022-11"
+    },
+    {
+      "count": 537,
+      "month": "2022-12"
+    }
+  ],
+  "ms": 887943568,
+  "new_tracks": 331,
+  "peak": {
+    "dow": 3,
+    "hour": 23
+  },
+  "plays": 4099,
+  "top_artists": [
+    {
+      "count": 1086,
+      "name": "The Beatles"
+    },
+    {
+      "count": 763,
+      "name": "back number"
+    },
+    {
+      "count": 362,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 150,
+      "name": "Queen"
+    },
+    {
+      "count": 103,
+      "name": "John Lennon"
+    },
+    {
+      "count": 71,
+      "name": "Sia"
+    },
+    {
+      "count": 68,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 55,
+      "name": "Dua Lipa"
+    },
+    {
+      "count": 50,
+      "name": "Taylor Swift"
+    },
+    {
+      "count": 43,
+      "name": "Alan Silvestri"
+    },
+    {
+      "count": 35,
+      "name": "The Jacksons"
+    },
+    {
+      "count": 33,
+      "name": "Mika Nakashima"
+    },
+    {
+      "count": 31,
+      "name": "Ikimonogakari"
+    },
+    {
+      "count": 29,
+      "name": "Lea Salonga"
+    },
+    {
+      "count": 29,
+      "name": "Keane"
+    },
+    {
+      "count": 28,
+      "name": "BTS"
+    },
+    {
+      "count": 26,
+      "name": "Shawn Mendes"
+    },
+    {
+      "count": 25,
+      "name": "The Weeknd"
+    },
+    {
+      "count": 24,
+      "name": "Marshmello"
+    },
+    {
+      "count": 22,
+      "name": "Michael Giacchino"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 52,
+      "name": "クリスマスソング",
+      "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 51,
+      "name": "恋",
+      "track_id": "7f9DsQEsIoeTwKxV6shsom"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 48,
+      "name": "ヒロイン",
+      "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 43,
+      "name": "幸せ",
+      "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 36,
+      "name": "高嶺の花子さん",
+      "track_id": "2iH7om9rE3QRWOXpuGEgic"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 34,
+      "name": "For All Time",
+      "track_id": "4NYi8J4w2AuI9qyv5bY2Nt"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 29,
+      "name": "水平線",
+      "track_id": "5m1i6hq7dmRlp3c1utE48L"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 29,
+      "name": "黄色",
+      "track_id": "1MwOfRqCALxvx9keUhGCdV"
+    },
+    {
+      "artists": [
+        "Keane"
+      ],
+      "count": 29,
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
+    },
+    {
+      "artists": [
+        "Michael Jackson"
+      ],
+      "count": 28,
+      "name": "Heal the World",
+      "track_id": "37HyO9EKIh9jgQcPNq1RfL"
+    },
+    {
+      "artists": [
+        "Lea Salonga"
+      ],
+      "count": 28,
+      "name": "A Whole New World",
+      "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 28,
+      "name": "SISTER",
+      "track_id": "1ZmiUiQn7Q2qEKLlIznoXZ"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 26,
+      "name": "リッツパーティー",
+      "track_id": "1FDrCBlNru2OrVXePw1BFQ"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 26,
+      "name": "怪盗",
+      "track_id": "10Eyo4juZQFthKqlJgGMdp"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 25,
+      "name": "わたがし",
+      "track_id": "37rQZTnbIE9JRJYzX2wCiw"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 25,
+      "name": "日曜日",
+      "track_id": "7a0rnqKRdCSHqqfx5Nfp6V"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 24,
+      "name": "繋いだ手から",
+      "track_id": "2u78pHUMyL60GbrmAf2Yhz"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 24,
+      "name": "思い出せなくなるその日まで",
+      "track_id": "3BbxLoUEcvMV4QZtcZyKMO"
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 24,
+      "name": "僕の名前を",
+      "track_id": "4q5eB08azjHq4g1vEJwOMS"
+    },
+    {
+      "artists": [
+        "Dua Lipa"
+      ],
+      "count": 22,
+      "name": "Levitating (feat. DaBaby)",
+      "track_id": "5nujrmhLynf4yMoMtj8AQF"
+    }
+  ],
+  "year": "2022"
+}

@@ -1,0 +1,304 @@
+{
+  "months": [
+    {
+      "count": 527,
+      "month": "2020-01"
+    },
+    {
+      "count": 1141,
+      "month": "2020-02"
+    },
+    {
+      "count": 1251,
+      "month": "2020-03"
+    },
+    {
+      "count": 900,
+      "month": "2020-04"
+    },
+    {
+      "count": 1580,
+      "month": "2020-05"
+    },
+    {
+      "count": 1877,
+      "month": "2020-06"
+    },
+    {
+      "count": 1534,
+      "month": "2020-07"
+    },
+    {
+      "count": 1031,
+      "month": "2020-08"
+    },
+    {
+      "count": 658,
+      "month": "2020-09"
+    },
+    {
+      "count": 609,
+      "month": "2020-10"
+    },
+    {
+      "count": 573,
+      "month": "2020-11"
+    },
+    {
+      "count": 579,
+      "month": "2020-12"
+    }
+  ],
+  "ms": 2272072957,
+  "new_tracks": 921,
+  "peak": {
+    "dow": 0,
+    "hour": 20
+  },
+  "plays": 12260,
+  "top_artists": [
+    {
+      "count": 4853,
+      "name": "The Beatles"
+    },
+    {
+      "count": 2543,
+      "name": "Paul McCartney"
+    },
+    {
+      "count": 722,
+      "name": "Queen"
+    },
+    {
+      "count": 596,
+      "name": "John Lennon"
+    },
+    {
+      "count": 557,
+      "name": "Wings"
+    },
+    {
+      "count": 214,
+      "name": "Alan Silvestri"
+    },
+    {
+      "count": 202,
+      "name": "Rick Astley"
+    },
+    {
+      "count": 155,
+      "name": "Jim Yosef"
+    },
+    {
+      "count": 90,
+      "name": "John Williams"
+    },
+    {
+      "count": 86,
+      "name": "OFFICIAL HIGE DANDISM"
+    },
+    {
+      "count": 86,
+      "name": "Elektronomia"
+    },
+    {
+      "count": 78,
+      "name": "Sia"
+    },
+    {
+      "count": 76,
+      "name": "M83"
+    },
+    {
+      "count": 66,
+      "name": "Hans Zimmer"
+    },
+    {
+      "count": 66,
+      "name": "Tobu"
+    },
+    {
+      "count": 64,
+      "name": "Brian Tyler"
+    },
+    {
+      "count": 64,
+      "name": "TheFatRat"
+    },
+    {
+      "count": 56,
+      "name": "YOASOBI"
+    },
+    {
+      "count": 55,
+      "name": "Syn Cole"
+    },
+    {
+      "count": 48,
+      "name": "魔王魂"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "Rick Astley"
+      ],
+      "count": 87,
+      "name": "Never Gonna Give You Up",
+      "track_id": "4uLU6hMCjMI75M1A2tKUQC"
+    },
+    {
+      "artists": [
+        "Wings"
+      ],
+      "count": 78,
+      "name": "Mary Had A Little Lamb - 2018 Remaster",
+      "track_id": "1SF8FzofinVngGEz329DdU"
+    },
+    {
+      "artists": [
+        "Rick Astley"
+      ],
+      "count": 78,
+      "name": "Together Forever",
+      "track_id": "76QJgXPE3oc1cnkE4PFHEn"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 71,
+      "name": "This One - Remastered 2017",
+      "track_id": "7lLrIlsAeatT28ExQk2aQH"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 68,
+      "name": "Another Day - 2012 Remaster",
+      "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 66,
+      "name": "Put It There - Remastered 2017",
+      "track_id": "71jQgXQy27qvhlL5SgeqdH"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 65,
+      "name": "Too Much Rain",
+      "track_id": "3zbWdTNDBnh0hdH5l8HNwh"
+    },
+    {
+      "artists": [
+        "Hans Zimmer"
+      ],
+      "count": 65,
+      "name": "Time",
+      "track_id": "6ZFbXIJkuI1dVNWvzJzown"
+    },
+    {
+      "artists": [
+        "John Williams"
+      ],
+      "count": 64,
+      "name": "Across the Stars (Love Theme from \"Star Wars: Attack of the Clones\")",
+      "track_id": "6Q78hpfm0ksdGvXvbH12qY"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 64,
+      "name": "Pipes Of Peace - 2015 Remaster",
+      "track_id": "38BhHsOGE3ly3q3IiRCh66"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 63,
+      "name": "The Pound Is Sinking - Remixed 2015",
+      "track_id": "62TJo0k86c745UjQwkxyzJ"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 63,
+      "name": "Only Love Remains - 1993 Digital Remaster",
+      "track_id": "4Sl4cJFonzHMn2VN2i8Dfg"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 63,
+      "name": "We Got Married - Remastered 2017",
+      "track_id": "7kYzs6cjwV1V5egcFHFtlO"
+    },
+    {
+      "artists": [
+        "Alan Silvestri"
+      ],
+      "count": 61,
+      "name": "Portals",
+      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 59,
+      "name": "Help! - Remastered 2009",
+      "track_id": "7DD7eSuYSC5xk2ArU62esN"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 59,
+      "name": "Distractions - Remastered 2017",
+      "track_id": "25WlmJXmZX1vEAElbJOCrT"
+    },
+    {
+      "artists": [
+        "Brian Tyler"
+      ],
+      "count": 57,
+      "name": "Iron Man 3",
+      "track_id": "7u5XBHnht6dyoRXRBb5soK"
+    },
+    {
+      "artists": [
+        "Wings"
+      ],
+      "count": 57,
+      "name": "Venus And Mars / Rock Show - Remastered 2016",
+      "track_id": "4bIqFVvHQQLwqKoRxJpjaC"
+    },
+    {
+      "artists": [
+        "Paul McCartney"
+      ],
+      "count": 56,
+      "name": "The Back Seat Of My Car - Remastered 2012",
+      "track_id": "05wvXK5IW9CjFQToL0N7Go"
+    },
+    {
+      "artists": [
+        "Wings"
+      ],
+      "count": 55,
+      "name": "Silly Love Songs - 2014 Remaster",
+      "track_id": "5nCom5BDdY7DL9uxsXW8CC"
+    }
+  ],
+  "year": "2020"
+}
