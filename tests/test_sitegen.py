@@ -1,3 +1,4 @@
+import json
 from datetime import date, datetime
 
 import core
@@ -385,3 +386,283 @@ def test_listening_records_history_prefers_scrobble_tail(tmp_path):
     names = [r.get("name") for r in sitegen._listening_records(tmp_path)]
     assert "new" in names        # cutoff 後の scrobble は入る
     assert "old" not in names    # cutoff 前の scrobble は履歴側が正なので入らない
+
+
+# ─────────────────────────── 生涯集計 ───────────────────────────
+
+def _play(played_at, tid, name="n", artist="A", ms=200000):
+    return {"played_at": played_at, "track_id": tid, "name": name,
+            "artists": [{"name": artist}], "ms": ms}
+
+
+def test_lifetime_tracks_aggregates_count_ms_span_and_years():
+    recs = [
+        _play("2019-10-01T00:00:00Z", "t1", ms=100),
+        _play("2020-03-05T00:00:00Z", "t1", ms=200),
+        _play("2026-01-02T00:00:00Z", "t1", ms=300),
+    ]
+    (row,) = sitegen.lifetime_tracks(recs)
+    assert row["count"] == 3
+    assert row["ms"] == 600                       # 総再生時間は各再生の ms の合計
+    assert row["first"] == "2019-10-01"           # JST の日付（初回/最終）
+    assert row["last"] == "2026-01-02"
+    assert row["years"] == {"2019": 1, "2020": 1, "2026": 1}
+
+
+def test_lifetime_tracks_sorted_by_count_then_name():
+    recs = [
+        _play("2020-01-01T00:00:00Z", "few", name="zzz"),
+        _play("2020-01-01T00:00:00Z", "many", name="mmm"),
+        _play("2020-01-02T00:00:00Z", "many", name="mmm"),
+        _play("2020-01-03T00:00:00Z", "tie", name="aaa"),
+    ]
+    order = [t["id"] for t in sitegen.lifetime_tracks(recs)]
+    # 再生回数の多い順、同数は曲名昇順（aaa < zzz）。順位＝配列の並びなので順序が仕様。
+    assert order == ["many", "tie", "few"]
+
+
+def test_lifetime_tracks_uses_jst_year_boundary():
+    # UTC 2019-12-31 15:30 は JST 2020-01-01 00:30 → 2020 年に数える
+    (row,) = sitegen.lifetime_tracks([_play("2019-12-31T15:30:00Z", "t")])
+    assert row["years"] == {"2020": 1} and row["first"] == "2020-01-01"
+
+
+def test_lifetime_tracks_merges_short_plays():
+    rows = sitegen.lifetime_tracks([_play("2020-01-01T00:00:00Z", "t1")], {"t1": 7, "other": 3})
+    assert rows[0]["short"] == 7
+    # 該当なしの曲に short キーを生やさない（完走率の分母を誤らせない）
+    rows2 = sitegen.lifetime_tracks([_play("2020-01-01T00:00:00Z", "t2")], {"t1": 7})
+    assert "short" not in rows2[0]
+
+
+def test_lifetime_tracks_treats_missing_ms_as_zero():
+    # live ログ / scrobble には ms が無い。欠損を 0 として扱い、例外にも None 混入にもしない。
+    rec = {"played_at": "2020-01-01T00:00:00Z", "track_id": "t", "name": "n", "artists": []}
+    (row,) = sitegen.lifetime_tracks([rec])
+    assert row["ms"] == 0
+
+
+def test_lifetime_artists_counts_every_credited_artist():
+    collab = {"played_at": "2020-01-01T00:00:00Z", "track_id": "t1", "name": "song",
+              "artists": [{"name": "Ed"}, {"name": "Charlie"}], "ms": 1000}
+    rows = {a["name"]: a for a in sitegen.lifetime_artists([collab])}
+    # コラボは両方に1回ずつ付く（どちらか一方に寄せない）
+    assert rows["Ed"]["count"] == 1 and rows["Charlie"]["count"] == 1
+    assert rows["Ed"]["ms"] == 1000 and rows["Charlie"]["ms"] == 1000
+
+
+def test_lifetime_artists_counts_unique_tracks_not_plays():
+    recs = [
+        _play("2020-01-01T00:00:00Z", "t1", artist="A"),
+        _play("2020-01-02T00:00:00Z", "t1", artist="A"),  # 同じ曲の再生
+        _play("2020-01-03T00:00:00Z", "t2", artist="A"),
+    ]
+    (row,) = sitegen.lifetime_artists(recs)
+    assert row["count"] == 3 and row["tracks"] == 2
+
+
+def test_lifetime_artists_is_case_insensitive_but_keeps_display_name():
+    recs = [
+        _play("2020-01-01T00:00:00Z", "t1", artist="Queen"),
+        _play("2020-01-02T00:00:00Z", "t2", artist="QUEEN"),
+    ]
+    (row,) = sitegen.lifetime_artists(recs, {"queen": "Q1"})
+    assert row["count"] == 2          # 表記揺れは1人に畳む
+    assert row["name"] == "Queen"     # 表示は初出の表記
+    assert row["id"] == "Q1"          # ID は小文字キーで引く
+
+
+def test_lifetime_totals():
+    recs = [
+        _play("2020-01-01T00:00:00Z", "t1", ms=100),
+        _play("2020-01-01T05:00:00Z", "t2", ms=200),  # 同じ JST 日
+        _play("2021-06-01T00:00:00Z", "t1", ms=300),
+    ]
+    tracks = sitegen.lifetime_tracks(recs)
+    artists = sitegen.lifetime_artists(recs)
+    tot = sitegen.lifetime_totals(recs, tracks, artists)
+    assert tot == {"plays": 3, "tracks": 2, "artists": 1, "ms": 600, "since": "2020-01-01", "days": 2}
+
+
+def test_yearly_wrapped_buckets_by_jst_year():
+    recs = [
+        _play("2019-12-31T15:30:00Z", "in"),   # JST 2020-01-01
+        _play("2020-06-01T03:00:00Z", "in"),
+        _play("2021-01-01T00:00:00Z", "out"),
+    ]
+    w = sitegen.yearly_wrapped(recs, "2020", new_tracks=5)
+    assert w["year"] == "2020" and w["plays"] == 2 and w["new_tracks"] == 5
+    assert w["ms"] == 400000
+    assert [m["month"] for m in w["months"]] == ["2020-01", "2020-06"]
+    assert {t["track_id"] for t in w["top_tracks"]} == {"in"}
+
+
+def test_rediscover_picks_loved_but_long_silent_tracks():
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    tracks = [
+        {"id": "gem", "name": "gem", "count": 50, "last": "2023-01-01"},   # 昔よく聴いた → 対象
+        {"id": "recent", "name": "recent", "count": 90, "last": "2026-07-01"},  # 最近聴いた → 除外
+        {"id": "rare", "name": "rare", "count": 3, "last": "2020-01-01"},  # 回数不足 → 除外
+    ]
+    got = sitegen.rediscover(tracks, now)
+    assert [t["id"] for t in got] == ["gem"]
+
+
+def test_rediscover_boundary_is_exactly_quiet_days():
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    base = {"id": "x", "name": "x", "count": 99}
+    # 365日前ちょうど（2025-07-29）は「まだ聴いている」側＝除外、その1日前は対象
+    assert sitegen.rediscover([{**base, "last": "2025-07-29"}], now) == []
+    assert len(sitegen.rediscover([{**base, "last": "2025-07-28"}], now)) == 1
+
+
+def test_rediscover_respects_limit_and_order():
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    tracks = [{"id": f"t{i}", "name": f"t{i}", "count": i, "last": "2020-01-01"} for i in (10, 30, 20)]
+    got = sitegen.rediscover(tracks, now, limit=2)
+    assert [t["id"] for t in got] == ["t30", "t20"]
+
+
+def test_on_this_day_matches_month_day_and_excludes_current_year():
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    recs = [
+        _play("2020-07-28T15:30:00Z", "a"),   # JST 2020-07-29 → 該当
+        _play("2024-07-29T03:00:00Z", "b"),   # JST 2024-07-29 → 該当
+        _play("2026-07-29T03:00:00Z", "now"),  # 今年 → 除外（思い出ではない）
+        _play("2022-03-03T03:00:00Z", "x"),   # 別の日 → 除外
+    ]
+    got = sitegen.on_this_day(recs, now)
+    assert [y["year"] for y in got] == ["2024", "2020"]   # 新しい年から
+    assert got[0]["tracks"][0]["track_id"] == "b"
+
+
+def test_write_wrapped_index_separates_years_and_months(tmp_path):
+    wd = tmp_path / "wrapped"
+    wd.mkdir()
+    for stem in ("2019-09", "2026-06", "2019", "2026", "index"):
+        (wd / f"{stem}.json").write_text("{}")
+    sitegen._write_wrapped_index(tmp_path)
+    idx = json.loads((wd / "index.json").read_text())
+    assert idx["months"] == ["2026-06", "2019-09"]   # 新しい順
+    assert idx["years"] == ["2026", "2019"]
+    # index.json 自身がどちらにも混ざらないこと（サイトが存在しない月を読みに行かない）
+    assert "index" not in idx["months"] and "index" not in idx["years"]
+
+
+def test_backfill_yearly_wrapped_skips_past_but_refreshes_current(tmp_path):
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    recs = [_play("2020-05-01T00:00:00Z", "old"), _play("2026-05-01T00:00:00Z", "new")]
+    (tmp_path / "wrapped").mkdir()
+    # 過去年は既存ファイルを尊重（履歴は確定済み＝上書きしない）
+    sentinel = {"year": "2020", "plays": 999}
+    (tmp_path / "wrapped" / "2020.json").write_text(json.dumps(sentinel))
+    # 当年は前回の途中経過が残っている状態
+    (tmp_path / "wrapped" / "2026.json").write_text(json.dumps({"year": "2026", "plays": 1}))
+
+    sitegen._backfill_yearly_wrapped(tmp_path, recs, now)
+
+    assert json.loads((tmp_path / "wrapped" / "2020.json").read_text()) == sentinel
+    cur = json.loads((tmp_path / "wrapped" / "2026.json").read_text())
+    assert cur["plays"] == 1 and cur["top_tracks"][0]["track_id"] == "new"  # 毎晩上書き
+
+
+def test_backfill_yearly_wrapped_creates_missing_past_year(tmp_path):
+    now = datetime(2026, 7, 29, 12, 0, tzinfo=core.JST)
+    sitegen._backfill_yearly_wrapped(tmp_path, [_play("2019-10-01T00:00:00Z", "t")], now)
+    assert json.loads((tmp_path / "wrapped" / "2019.json").read_text())["plays"] == 1
+
+
+def test_load_history_extra_reads_short_plays(tmp_path):
+    hd = tmp_path / "history"
+    hd.mkdir()
+    (hd / "extra.json").write_text(json.dumps({"min_ms": 30000, "short_plays": {"t1": 4}}))
+    assert sitegen._load_history_extra(hd) == {"t1": 4}
+
+
+def test_load_history_extra_tolerates_missing_or_broken(tmp_path):
+    assert sitegen._load_history_extra(tmp_path / "nope") == {}
+    hd = tmp_path / "history"
+    hd.mkdir()
+    (hd / "extra.json").write_text("{ broken")
+    assert sitegen._load_history_extra(hd) == {}
+
+
+def test_known_artist_ids_from_playlist_records():
+    recs = [{"id": "t", "artists": [{"name": "Queen", "id": "Q"}, {"name": "NoId"}]}]
+    assert sitegen.known_artist_ids(recs) == {"queen": "Q"}
+
+
+class _FakeSp:
+    """build_artist_meta 用のスタブ。呼ばれた回数と引数を記録する。"""
+
+    def __init__(self, search_hit=None):
+        self.searched: list[str] = []
+        self.artist_batches: list[list[str]] = []
+        self._search_hit = search_hit or {}
+
+    def search(self, q, type, limit):  # noqa: A002 — spotipy の実シグネチャに合わせる
+        self.searched.append(q)
+        hit = self._search_hit.get(q)
+        return {"artists": {"items": [hit] if hit else []}}
+
+    def artists(self, ids):
+        self.artist_batches.append(list(ids))
+        return {"artists": [
+            {"id": i, "name": f"name-{i}",
+             # Spotify は大きい順に 640/320/160 を返す。サムネには中央を使う。
+             "images": [{"url": f"big-{i}"}, {"url": f"mid-{i}"}, {"url": f"small-{i}"}],
+             "genres": ["g1", "g2", "g3", "g4"], "followers": {"total": 7}}
+            for i in ids
+        ]}
+
+
+def test_build_artist_meta_resolves_ids_from_playlists_without_searching():
+    sp = _FakeSp()
+    pl = [{"artists": [{"name": "Queen", "id": "Q"}]}]
+    meta = sitegen.build_artist_meta(sp, ["Queen"], pl, {})
+    assert sp.searched == []                 # 在籍曲から引けるものは検索しない（API の無駄打ち防止）
+    assert meta["queen"]["id"] == "Q"
+    assert meta["queen"]["image"] == "mid-Q"  # images の中央（大きすぎない版）
+    assert meta["queen"]["genres"] == ["g1", "g2", "g3"]  # 3件までに切る
+    assert meta["queen"]["followers"] == 7
+
+
+def test_build_artist_meta_skips_already_cached_artists():
+    sp = _FakeSp()
+    existing = {"queen": {"name": "Queen", "id": "Q", "image": "cached"}}
+    meta = sitegen.build_artist_meta(sp, ["Queen"], [{"artists": [{"name": "Queen", "id": "Q"}]}], existing)
+    # 画像まで揃っている人は再取得しない＝毎晩の API 消費が増えない
+    assert sp.artist_batches == [] and meta["queen"]["image"] == "cached"
+
+
+def test_build_artist_meta_searches_only_unresolved_and_respects_budget():
+    sp = _FakeSp(search_hit={"B": {"id": "IB", "name": "B"}, "C": {"id": "IC", "name": "C"}})
+    meta = sitegen.build_artist_meta(sp, ["A", "B", "C"], [{"artists": [{"name": "A", "id": "IA"}]}], {},
+                                     search_budget=1)
+    assert sp.searched == ["B"]          # A は在籍から解決、予算1なので B だけ検索
+    assert meta["b"]["id"] == "IB"
+    assert "c" not in meta               # 予算切れは翌晩に回す（積み残しても壊れない）
+
+
+def test_build_artist_meta_rejects_mismatched_search_result():
+    # 検索1位が別人（部分一致の誤爆）なら採用しない。誤った画像を出さないため。
+    sp = _FakeSp(search_hit={"The Beat": {"id": "WRONG", "name": "The Beatles"}})
+    meta = sitegen.build_artist_meta(sp, ["The Beat"], [], {})
+    assert "the beat" not in meta
+
+
+def test_build_artist_meta_batches_by_fifty():
+    sp = _FakeSp()
+    names = [f"a{i}" for i in range(120)]
+    pl = [{"artists": [{"name": n, "id": f"id-{n}"} for n in names]}]
+    sitegen.build_artist_meta(sp, names, pl, {})
+    assert [len(b) for b in sp.artist_batches] == [50, 50, 20]  # /v1/artists の上限は50
+
+
+def test_build_artist_meta_survives_api_failure():
+    class _Boom(_FakeSp):
+        def artists(self, ids):
+            raise RuntimeError("503")
+
+    meta = sitegen.build_artist_meta(_Boom(), ["Queen"], [{"artists": [{"name": "Queen", "id": "Q"}]}], {})
+    assert meta["queen"]["id"] == "Q" and "image" not in meta["queen"]  # ID だけ残り翌晩リトライ
