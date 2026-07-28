@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-07-28T17:21:38.264736+00:00",
+  "generated_at": "2026-07-28T18:46:10.604963+00:00",
   "items": [
-    {
-      "album_id": "6r4iLpQblsOsMClZ0KqKTN",
-      "album_name": "GO GHOST",
-      "album_type": "single",
-      "artist": "King Gnu",
-      "artist_id": "6wxfx1yhyqjCPYwwxJktR2",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485189f64a56f9c086a08fcac39d",
-      "is_new": true,
-      "release_date": "2026-07-29"
-    },
     {
       "album_id": "1XGmtAQOLQn5QMsz6o7ixt",
       "album_name": "好き",
@@ -20,7 +9,7 @@
       "artist_id": "1S2S00lgLYLGHWA44qGEUs",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485154c7fc01dee93a57c4aedcf5",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-07-29"
     },
     {
@@ -31,52 +20,19 @@
       "artist_id": "6S8w5rLsEwjN21jQeRES0n",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-07-29"
     },
     {
-      "album_id": "6VYjqAdWExFAfDdAudVT23",
-      "album_name": "Fireflies",
+      "album_id": "6r4iLpQblsOsMClZ0KqKTN",
+      "album_name": "GO GHOST",
       "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
+      "artist": "King Gnu",
+      "artist_id": "6wxfx1yhyqjCPYwwxJktR2",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485189f64a56f9c086a08fcac39d",
       "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "3ErrdBA5ZiII9WOb4QbJiD",
-      "album_name": "Where She Come From",
-      "album_type": "single",
-      "artist": "HUGEL",
-      "artist_id": "5PlfkPxwCpRRWQJBxCa0By",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c3514ff97f0262a70d0726c3",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "6dRaftlP9DBYK0JWuQeW9M",
-      "album_name": "Let Love In (20th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "The Goo Goo Dolls",
-      "artist_id": "2sil8z5kiy4r76CRTXxBCA",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851737d220896f34eeef231dfcd",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "4bPmHl65RVj5DYgpo3nxZH",
-      "album_name": "Her, The Kids, and Jesus",
-      "album_type": "single",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516b3fba1816cbadfa7e001be4",
-      "is_new": false,
-      "release_date": "2026-07-24"
+      "release_date": "2026-07-29"
     },
     {
       "album_id": "6k2I7QkXRPlWzylh7UsFIx",
@@ -101,6 +57,28 @@
       "release_date": "2026-07-24"
     },
     {
+      "album_id": "6VYjqAdWExFAfDdAudVT23",
+      "album_name": "Fireflies",
+      "album_type": "single",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "6dRaftlP9DBYK0JWuQeW9M",
+      "album_name": "Let Love In (20th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "The Goo Goo Dolls",
+      "artist_id": "2sil8z5kiy4r76CRTXxBCA",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851737d220896f34eeef231dfcd",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
       "album_id": "5SxwYJiJUV8p0EinXqbBjM",
       "album_name": "I-BULL - iburu - BLEACH: Thousand-Year Blood War - The Calamity",
       "album_type": "single",
@@ -108,6 +86,28 @@
       "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "3ErrdBA5ZiII9WOb4QbJiD",
+      "album_name": "Where She Come From",
+      "album_type": "single",
+      "artist": "HUGEL",
+      "artist_id": "5PlfkPxwCpRRWQJBxCa0By",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c3514ff97f0262a70d0726c3",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "4bPmHl65RVj5DYgpo3nxZH",
+      "album_name": "Her, The Kids, and Jesus",
+      "album_type": "single",
+      "artist": "Dan + Shay",
+      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048516b3fba1816cbadfa7e001be4",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -156,28 +156,6 @@
       "release_date": "2026-07-18"
     },
     {
-      "album_id": "7t9tDtV33PmsISIR0ymsaD",
-      "album_name": "Feeling For You (Fcukers & Junior Sanchez Remix)",
-      "album_type": "single",
-      "artist": "Cassius",
-      "artist_id": "4sf3QZW8a3xZ14IGsOAzoy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485154c3a53f472f5802bd5ca7c1",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
-      "album_id": "4BZydSQMfJNphTFZzyIxh5",
-      "album_name": "Daughter from Hell",
-      "album_type": "album",
-      "artist": "Gracie Abrams",
-      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
       "album_id": "6ue29u7MnmM7oVtnHDXzAq",
       "album_name": "Weekend",
       "album_type": "single",
@@ -185,17 +163,6 @@
       "artist_id": "0xRXCcSX89eobfrshSVdyu",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c2eaf5876973becf19a8051e",
-      "is_new": false,
-      "release_date": "2026-07-17"
-    },
-    {
-      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
-      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
-      "album_type": "album",
-      "artist": "Descendants – Cast",
-      "artist_id": "4J79AY6Z2927FTTAgHChuv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
       "is_new": false,
       "release_date": "2026-07-17"
     },
@@ -222,6 +189,50 @@
       "release_date": "2026-07-17"
     },
     {
+      "album_id": "4BZydSQMfJNphTFZzyIxh5",
+      "album_name": "Daughter from Hell",
+      "album_type": "album",
+      "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "7t9tDtV33PmsISIR0ymsaD",
+      "album_name": "Feeling For You (Fcukers & Junior Sanchez Remix)",
+      "album_type": "single",
+      "artist": "Cassius",
+      "artist_id": "4sf3QZW8a3xZ14IGsOAzoy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485154c3a53f472f5802bd5ca7c1",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "2vg5VhJdkiNNHKBTrHcV4q",
+      "album_name": "Descendants: Wicked Wonderland (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Descendants – Cast",
+      "artist_id": "4J79AY6Z2927FTTAgHChuv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a4d6f27a9e128bea3c1e5ced",
+      "is_new": false,
+      "release_date": "2026-07-17"
+    },
+    {
+      "album_id": "1JgwpOf45JaiwHpViQcyde",
+      "album_name": "Llego (FIFA World Cup 2026™)",
+      "album_type": "single",
+      "artist": "Empire Of The Sun",
+      "artist_id": "67hb7towEyKvt5Z8Bx306c",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513b972be1685e21dc5320c34a",
+      "is_new": false,
+      "release_date": "2026-07-15"
+    },
+    {
       "album_id": "5HHOA8rO74KsoAnKv85MXS",
       "album_name": "OFFICIAL HIGE DANDISM LIVE at STADIUM 2025",
       "album_type": "album",
@@ -240,17 +251,6 @@
       "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485163567c526abb91aa4a7ca589",
-      "is_new": false,
-      "release_date": "2026-07-15"
-    },
-    {
-      "album_id": "1JgwpOf45JaiwHpViQcyde",
-      "album_name": "Llego (FIFA World Cup 2026™)",
-      "album_type": "single",
-      "artist": "Empire Of The Sun",
-      "artist_id": "67hb7towEyKvt5Z8Bx306c",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513b972be1685e21dc5320c34a",
       "is_new": false,
       "release_date": "2026-07-15"
     }
