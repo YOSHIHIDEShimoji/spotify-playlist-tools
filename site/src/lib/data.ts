@@ -48,12 +48,13 @@ if (typeof document !== "undefined") {
 }
 
 // タブが可視に戻ったら再フェッチする共通フック（L-5: 楽観的 UI の解消に手動リロードを不要に）。
-function useFetching<T>(name: string, fetcher: (n: string) => Promise<T>): State<T> {
+function useFetching<T>(name: string, fetcher: (n: string) => Promise<T>, kind: string): State<T> {
   const [state, setState] = useState<State<T>>({ data: null, error: null, loading: true });
   useEffect(() => {
     let alive = true;
+    // json と jsonl は同じ名前でも別ファイルなので、キャッシュのキーを分ける
     const load = () =>
-      loadShared(name, fetcher)
+      loadShared(`${kind}:${name}`, () => fetcher(name))
         .then((data) => alive && setState({ data, error: null, loading: false }))
         .catch((e) => alive && setState((s) => ({ ...s, error: String(e), loading: false })));
     load();
@@ -65,16 +66,16 @@ function useFetching<T>(name: string, fetcher: (n: string) => Promise<T>): State
       alive = false;
       document.removeEventListener("visibilitychange", onVisible);
     };
-  }, [name, fetcher]);
+  }, [name, fetcher, kind]);
   return state;
 }
 
 /** JSON データファイルを読む React フック。data ブランチ由来の public/data を参照。 */
 export function useJson<T>(name: string): State<T> {
-  return useFetching<T>(name, fetchJson);
+  return useFetching<T>(name, fetchJson, "json");
 }
 
 /** JSONL データファイル（runs / stats_history）を読む React フック。 */
 export function useJsonl<T>(name: string): State<T[]> {
-  return useFetching<T[]>(name, fetchJsonl);
+  return useFetching<T[]>(name, fetchJsonl, "jsonl");
 }
