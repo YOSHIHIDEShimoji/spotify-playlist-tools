@@ -361,28 +361,28 @@
         "rank": 11
       },
       {
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "rank": 12
+      },
+      {
         "id": "4x1nvY2FN8jxqAFA0DA02H",
         "name": "John Lennon",
-        "rank": 12
+        "rank": 13
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 13
+        "rank": 14
       },
       {
         "id": "7k73EtZwoPs516ZxE72KsO",
         "name": "ONE OK ROCK",
-        "rank": 14
+        "rank": 15
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 15
-      },
-      {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
         "rank": 16
       },
       {
@@ -391,73 +391,73 @@
         "rank": 17
       },
       {
+        "id": "1j2WhcTW00Zd2SjFYsJVc6",
+        "name": "=LOVE",
+        "rank": 18
+      },
+      {
         "id": "4STHEaNw4mPZ2tzheohgXB",
         "name": "Paul McCartney",
-        "rank": 18
+        "rank": 19
       },
       {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 19
+        "rank": 20
       },
       {
         "id": "3dRfiJ2650SZu6GbydcHNb",
         "name": "John Williams",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 22
+        "rank": 23
+      },
+      {
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
+        "rank": 24
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 23
+        "rank": 25
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
-        "rank": 24
+        "rank": 26
       },
       {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
-        "rank": 25
+        "rank": 27
       },
       {
         "id": "4dpARuHxo51G3z768sgnrY",
         "name": "Adele",
-        "rank": 26
+        "rank": 28
       },
       {
         "id": "58lV9VcRSjABbAbfWS6skp",
         "name": "Bon Jovi",
-        "rank": 27
+        "rank": 29
       },
       {
         "id": "3sFhA6G1N0gG1pszb6kk1m",
         "name": "Wings",
-        "rank": 28
-      },
-      {
-        "id": "74KM79TiuVKeVCqs8QtB0B",
-        "name": "Sabrina Carpenter",
-        "rank": 29
-      },
-      {
-        "id": "6wlhqnATSJIc0NQ64VxOVJ",
-        "name": "Matt Hansen",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-07-28T22:30:01.118974+00:00",
+  "generated_at": "2026-07-29T17:08:41.064146+00:00",
   "tracks": {
     "long_term": [
       {
@@ -625,20 +625,20 @@
       },
       {
         "artists": [
-          "OFFICIAL HIGE DANDISM"
-        ],
-        "id": "66hblHI9wl1Nim70ZYLb6D",
-        "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
-        "name": "TATTOO",
-        "rank": 19
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "73PAbYaVbnFG0tQ4aBfxeN",
         "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
         "name": "I Ain't Worried",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "66hblHI9wl1Nim70ZYLb6D",
+        "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
+        "name": "TATTOO",
         "rank": 20
       },
       {
@@ -706,20 +706,20 @@
       },
       {
         "artists": [
-          "ONE OK ROCK"
-        ],
-        "id": "2SRmR6w3MMCA0UwAtKkVrZ",
-        "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
-        "name": "Broken Heart of Gold",
-        "rank": 28
-      },
-      {
-        "artists": [
           "Novelbright"
         ],
         "id": "3y3gIFisu61Qc3NtRE7a2r",
         "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
         "name": "アイビー",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "ONE OK ROCK"
+        ],
+        "id": "2SRmR6w3MMCA0UwAtKkVrZ",
+        "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
+        "name": "Broken Heart of Gold",
         "rank": 29
       },
       {
@@ -836,10 +836,19 @@
         "artists": [
           "OneRepublic"
         ],
+        "id": "2LsFnG9KYkWSk8dVopmHw2",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "RUNAWAY",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -848,7 +857,7 @@
         "id": "1kmex5eDBvfniYJpmmIizl",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Secrets",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -857,7 +866,7 @@
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -866,15 +875,6 @@
         "id": "2IPpyxIgVLoDmYGIffJrol",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Marchin On",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2LsFnG9KYkWSk8dVopmHw2",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "RUNAWAY",
         "rank": 16
       },
       {
@@ -1042,30 +1042,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "3IQF4xCQUPicbA4hWfTxPo",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "I Lived",
-        "rank": 4
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "2jBt7c8o1dDuyIIgepcNsz",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "you were there for me",
-        "rank": 5
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2e42fb37LVhtCOescNb1yN",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "Everybody Loves Me",
-        "rank": 6
+        "rank": 4
       },
       {
         "artists": [
@@ -1074,16 +1056,25 @@
         "id": "0LDDluRE805Dvt7WA0tDvA",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "closure",
-        "rank": 7
+        "rank": 5
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "1NrJYpdAi7uosDRPmSYrsG",
-        "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-        "name": "Apologize",
-        "rank": 8
+        "id": "3IQF4xCQUPicbA4hWfTxPo",
+        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+        "name": "I Lived",
+        "rank": 6
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2e42fb37LVhtCOescNb1yN",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "Everybody Loves Me",
+        "rank": 7
       },
       {
         "artists": [
@@ -1092,7 +1083,7 @@
         "id": "3O0OhpTJu2DV2yIYZAfhzf",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "orbit",
-        "rank": 9
+        "rank": 8
       },
       {
         "artists": [
@@ -1101,6 +1092,15 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "YUNGBLUD"
+        ],
+        "id": "2kLWSmKHhfUBepkIA9oNe5",
+        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
+        "name": "Abyss - from Kaiju No. 8",
         "rank": 10
       },
       {
@@ -1116,9 +1116,9 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "3cOO5IQtOYs7huq4Z6lYfr",
-        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-        "name": "Love Runs Out",
+        "id": "1NrJYpdAi7uosDRPmSYrsG",
+        "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+        "name": "Apologize",
         "rank": 12
       },
       {
@@ -1132,21 +1132,12 @@
       },
       {
         "artists": [
-          "YUNGBLUD"
-        ],
-        "id": "2kLWSmKHhfUBepkIA9oNe5",
-        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
-        "name": "Abyss - from Kaiju No. 8",
-        "rank": 14
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "1XcPFhBIMCUgXlBC5CuBOM",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "good old days",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -1155,7 +1146,7 @@
         "id": "3pe2SgiSoeCRb5IqvZZ5tS",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "the old me",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -1164,7 +1155,7 @@
         "id": "0UO8qysepsd0eppPu7bYp0",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "people pleaser",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1173,7 +1164,7 @@
         "id": "05sCp83gcMm1iecYydKJS3",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Let's Hurt Tonight",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -1182,6 +1173,15 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "3cOO5IQtOYs7huq4Z6lYfr",
+        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+        "name": "Love Runs Out",
         "rank": 19
       },
       {
@@ -1214,11 +1214,11 @@
       },
       {
         "artists": [
-          "OneRepublic"
+          "Novelbright"
         ],
-        "id": "2CJD3LSIVidK6nu4suUusa",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "All The Right Moves",
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
+        "name": "アイビー",
         "rank": 23
       },
       {
@@ -1250,11 +1250,11 @@
       },
       {
         "artists": [
-          "Novelbright"
+          "OneRepublic"
         ],
-        "id": "2jS3Oo8GqrhrBDAeU1stum",
-        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
-        "name": "アイビー",
+        "id": "2LsFnG9KYkWSk8dVopmHw2",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "RUNAWAY",
         "rank": 27
       },
       {
