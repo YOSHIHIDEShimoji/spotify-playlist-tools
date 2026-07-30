@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:07:33.841257+00:00",
+  "generated_at": "2026-07-30T17:18:37.096176+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -396,6 +396,24 @@
     },
     {
       "artists": [
+        "Tota"
+      ],
+      "count": 62,
+      "first": "2023-09-01",
+      "id": "53B8VwuDvaxVo1HmVgTECu",
+      "image": "https://i.scdn.co/image/ab67616d00004851a472b00a0bfe113949a73bde",
+      "last": "2025-07-30",
+      "ms": 14194594,
+      "name": "紡ぐ",
+      "short": 14,
+      "years": {
+        "2023": 29,
+        "2024": 29,
+        "2025": 4
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 61,
@@ -535,23 +553,6 @@
       "years": {
         "2024": 52,
         "2025": 4
-      }
-    },
-    {
-      "artists": [
-        "Electro-Light"
-      ],
-      "count": 56,
-      "first": "2020-05-16",
-      "id": "2zVJlAEB0ublkqJMIn43AE",
-      "image": "https://i.scdn.co/image/ab67616d00004851b44de5b9f5eba409dfa753e6",
-      "last": "2021-12-20",
-      "ms": 13358902,
-      "name": "Symbolism",
-      "short": 28,
-      "years": {
-        "2020": 36,
-        "2021": 20
       }
     }
   ]

@@ -336,28 +336,28 @@
         "rank": 6
       },
       {
-        "id": "04gDigrS5kc9YWfZHwBETP",
-        "name": "Maroon 5",
-        "rank": 7
-      },
-      {
         "id": "6VuMaDnrHyPL1p4EHjYLi7",
         "name": "Charlie Puth",
-        "rank": 8
+        "rank": 7
       },
       {
         "id": "06HL4z0CvFAxyc27GXpf02",
         "name": "Taylor Swift",
-        "rank": 9
+        "rank": 8
       },
       {
         "id": "49tQo2QULno7gxHutgccqF",
         "name": "LANY",
+        "rank": 9
+      },
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
         "rank": 10
       },
       {
-        "id": "23fqKkggKUBHNkbKtXEls4",
-        "name": "Kygo",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 11
       },
       {
@@ -371,18 +371,18 @@
         "rank": 13
       },
       {
+        "id": "23fqKkggKUBHNkbKtXEls4",
+        "name": "Kygo",
+        "rank": 14
+      },
+      {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 14
+        "rank": 15
       },
       {
         "id": "7k73EtZwoPs516ZxE72KsO",
         "name": "ONE OK ROCK",
-        "rank": 15
-      },
-      {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
         "rank": 16
       },
       {
@@ -431,23 +431,23 @@
         "rank": 25
       },
       {
-        "id": "1vCWHaC5f2uS3yhpwWbIA6",
-        "name": "Avicii",
-        "rank": 26
-      },
-      {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
-        "rank": 27
-      },
-      {
-        "id": "4dpARuHxo51G3z768sgnrY",
-        "name": "Adele",
-        "rank": 28
+        "rank": 26
       },
       {
         "id": "58lV9VcRSjABbAbfWS6skp",
         "name": "Bon Jovi",
+        "rank": 27
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
+        "rank": 28
+      },
+      {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
         "rank": 29
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-07-29T17:08:41.064146+00:00",
+  "generated_at": "2026-07-30T17:19:54.560425+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1087,21 +1087,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "5mQNY6pTeSDl2doFB7uLbE",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Kids",
-        "rank": 9
-      },
-      {
-        "artists": [
           "YUNGBLUD"
         ],
         "id": "2kLWSmKHhfUBepkIA9oNe5",
         "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
         "name": "Abyss - from Kaiju No. 8",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
@@ -1110,6 +1101,15 @@
         "id": "37ZOqyxz7B7bmIa2sq5odC",
         "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
         "name": "eighteen",
+        "rank": 10
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Kids",
         "rank": 11
       },
       {
@@ -1123,21 +1123,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "4fYte8ZvTK14NEhAOZocBi",
-        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
-        "name": "I Ain't Worried",
-        "rank": 13
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "1XcPFhBIMCUgXlBC5CuBOM",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "good old days",
-        "rank": 14
+        "rank": 13
       },
       {
         "artists": [
@@ -1146,7 +1137,7 @@
         "id": "3pe2SgiSoeCRb5IqvZZ5tS",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "the old me",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -1155,25 +1146,7 @@
         "id": "0UO8qysepsd0eppPu7bYp0",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "people pleaser",
-        "rank": 16
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "05sCp83gcMm1iecYydKJS3",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Let's Hurt Tonight",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0qdpBSgdFsOPGv9QLxEjdu",
-        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-        "name": "Good Life - from One Night In Malibu",
-        "rank": 18
+        "rank": 15
       },
       {
         "artists": [
@@ -1182,17 +1155,16 @@
         "id": "3cOO5IQtOYs7huq4Z6lYfr",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "Love Runs Out",
-        "rank": 19
+        "rank": 16
       },
       {
         "artists": [
-          "Alesso",
           "OneRepublic"
         ],
-        "id": "0NIIKZEed0nXPz4lHnMaZg",
-        "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
-        "name": "In Your Eyes",
-        "rank": 20
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
+        "name": "I Ain't Worried",
+        "rank": 17
       },
       {
         "artists": [
@@ -1201,7 +1173,7 @@
         "id": "1sjqZ6Q3YTA2RyEjG8uGYs",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "mood swings",
-        "rank": 21
+        "rank": 18
       },
       {
         "artists": [
@@ -1210,7 +1182,7 @@
         "id": "0utXblV7w6d6FylfW9yFzB",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "still dancing",
-        "rank": 22
+        "rank": 19
       },
       {
         "artists": [
@@ -1219,7 +1191,16 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
-        "rank": 23
+        "rank": 20
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "05sCp83gcMm1iecYydKJS3",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Let's Hurt Tonight",
+        "rank": 21
       },
       {
         "artists": [
@@ -1228,16 +1209,16 @@
         "id": "0baR1QmlC8CruupaxA1IYA",
         "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
         "name": "Beautiful Colors - from Kaiju No. 8",
-        "rank": 24
+        "rank": 22
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "0lKsG4FoO1mfnkUR3SdKj4",
-        "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
-        "name": "Life In Color",
-        "rank": 25
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+        "name": "Good Life - from One Night In Malibu",
+        "rank": 23
       },
       {
         "artists": [
@@ -1246,26 +1227,7 @@
         "id": "1ZbYQqBVYetCszJHUzdNvf",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "right person, wrong time",
-        "rank": 26
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2LsFnG9KYkWSk8dVopmHw2",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "RUNAWAY",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "Kygo",
-          "OneRepublic"
-        ],
-        "id": "4sJqSKPc5fZ5OZ8JiVI44N",
-        "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-        "name": "Stranger Things (feat. OneRepublic)",
-        "rank": 28
+        "rank": 24
       },
       {
         "artists": [
@@ -1275,16 +1237,52 @@
         "id": "567e29TDzLwZwfDuEpGTwo",
         "image": "https://i.scdn.co/image/ab67616d00004851b4d59e6fa7e5e7cbc57ac33a",
         "name": "STAY (with Justin Bieber)",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "Michael Jackson"
+        ],
+        "id": "7woW97CfcWaKtuC6W5BP2K",
+        "image": "https://i.scdn.co/image/ab67616d00004851bf4cf0f48b94d0c8297b751a",
+        "name": "Heal the World",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "5LOCCIGEVJZ1B8fwu4h9UA",
+        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+        "name": "pick up the phone",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "Alesso",
+          "OneRepublic"
+        ],
+        "id": "0NIIKZEed0nXPz4lHnMaZg",
+        "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
+        "name": "In Your Eyes",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "0dGDhJ1hQco0OjlHEH97Q8",
+        "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+        "name": "beat up car",
         "rank": 29
       },
       {
         "artists": [
-          "OneRepublic",
-          "Seeb"
+          "Henry Moodie"
         ],
-        "id": "7dOeiXeTSfA1ixaYmQcWu7",
-        "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
-        "name": "Rich Love (with Seeb)",
+        "id": "2W4mVlRQZPJWNl59RI5stf",
+        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+        "name": "indigo",
         "rank": 30
       }
     ]
