@@ -25,8 +25,12 @@
       "month": "2026-06"
     },
     {
-      "count": 1656,
+      "count": 1680,
       "month": "2026-07"
+    },
+    {
+      "count": 10,
+      "month": "2026-08"
     }
   ],
   "ms": 1987489094,
@@ -35,14 +39,14 @@
     "dow": 3,
     "hour": 21
   },
-  "plays": 10525,
+  "plays": 10559,
   "top_artists": [
     {
       "count": 1472,
       "name": "OneRepublic"
     },
     {
-      "count": 852,
+      "count": 858,
       "name": "The Beatles"
     },
     {
@@ -58,27 +62,27 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 274,
+      "count": 275,
       "name": "Justin Bieber"
     },
     {
-      "count": 265,
+      "count": 268,
       "name": "Henry Moodie"
+    },
+    {
+      "count": 261,
+      "name": "Maroon 5"
     },
     {
       "count": 260,
       "name": "Ed Sheeran"
     },
     {
-      "count": 256,
-      "name": "Maroon 5"
-    },
-    {
       "count": 244,
       "name": "Novelbright"
     },
     {
-      "count": 217,
+      "count": 216,
       "name": "Train"
     },
     {

@@ -349,6 +349,14 @@
         "The Beatles"
       ],
       "count": 122,
+      "name": "I've Just Seen A Face - Remastered 2009",
+      "track_id": "788U1Sqej9M6c4iikuDGxO"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 122,
       "name": "Free As A Bird - Anthology 1 Version",
       "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
     },
@@ -359,14 +367,6 @@
       "count": 122,
       "name": "南方仁のテーマ",
       "track_id": "2p71NDW60CTBSDnIqDpXYP"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 121,
-      "name": "I've Just Seen A Face - Remastered 2009",
-      "track_id": "788U1Sqej9M6c4iikuDGxO"
     },
     {
       "artists": [
@@ -653,6 +653,14 @@
         "The Beatles"
       ],
       "count": 105,
+      "name": "Till There Was You - Remastered 2009",
+      "track_id": "0ESIjVxnDnCDaTPo6sStHm"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 105,
       "name": "Your Mother Should Know - Remastered 2009",
       "track_id": "1dxbAIfCASqv6jix2R1Taj"
     },
@@ -711,14 +719,6 @@
       "count": 103,
       "name": "マリーゴールド",
       "track_id": "2cKiHG16JBiqHdi7Llq0r7"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 103,
-      "name": "Till There Was You - Remastered 2009",
-      "track_id": "0ESIjVxnDnCDaTPo6sStHm"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-07-30T17:17:23.502168+00:00",
+  "generated_at": "2026-07-31T17:21:39.437105+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 62207
+    "total": 62241
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 3,
+  "streak": 5,
   "weekly_top": [
     {
       "artists": [
@@ -835,6 +835,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
       "name": "MISS U",
       "track_id": "48FfsXjz8rd8CLhnIwWQNw"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "closure",
+      "track_id": "0LDDluRE805Dvt7WA0tDvA"
     },
     {
       "artists": [
@@ -862,6 +871,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
       "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
       "track_id": "3GCdLUSnKSMJhs4Tj6CV3s"
+    },
+    {
+      "artists": [
+        "ウィズ・カリファ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514e5df11b17b2727da2b718d8",
+      "name": "See You Again (feat. Charlie Puth)",
+      "track_id": "2JzZzZUQj3Qff7wapcbKjc"
     },
     {
       "artists": [
@@ -910,30 +928,21 @@
     },
     {
       "artists": [
-        "Maroon 5"
+        "Gabby Barrett"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "name": "Beautiful Goodbye",
-      "track_id": "0ehxWIhybOYQ3acRhmcNVF"
+      "image": "https://i.scdn.co/image/ab67616d00004851816075488bdd893d09ef85eb",
+      "name": "I Hope (feat. Charlie Puth)",
+      "track_id": "5cYFwgA5dHoqR3xGnlr9ew"
     },
     {
       "artists": [
-        "Train"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851bde344cc54eedc35050f4c61",
-      "name": "50 Ways to Say Goodbye",
-      "track_id": "2NniAhAtkRACaMeYt48xlD"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "name": "closure",
-      "track_id": "0LDDluRE805Dvt7WA0tDvA"
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "name": "Till There Was You - Remastered 2009",
+      "track_id": "0ESIjVxnDnCDaTPo6sStHm"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
       "name": "Ships + Tides",
       "track_id": "0GUncXNah8KoaErnDd7H1L"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Heaven",
-      "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
     }
   ]
 }

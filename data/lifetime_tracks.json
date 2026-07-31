@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T17:18:36.923536+00:00",
+  "generated_at": "2026-07-31T17:22:44.696541+00:00",
   "totals": {
     "artists": 1297,
-    "days": 2057,
+    "days": 2059,
     "ms": 12440720283,
-    "plays": 62207,
+    "plays": 62241,
     "since": "2019-09-05",
     "tracks": 4601
   },
@@ -928,6 +928,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 122,
+      "first": "2019-09-06",
+      "id": "788U1Sqej9M6c4iikuDGxO",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+      "last": "2026-08-01",
+      "ms": 14691109,
+      "name": "I've Just Seen A Face - Remastered 2009",
+      "short": 35,
+      "years": {
+        "2019": 16,
+        "2020": 36,
+        "2021": 24,
+        "2022": 9,
+        "2023": 6,
+        "2024": 18,
+        "2025": 6,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "髙見 優/長岡 成貢"
       ],
       "count": 122,
@@ -942,29 +965,6 @@
         "2024": 80,
         "2025": 40,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 121,
-      "first": "2019-09-06",
-      "id": "788U1Sqej9M6c4iikuDGxO",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
-      "last": "2026-07-17",
-      "ms": 14691109,
-      "name": "I've Just Seen A Face - Remastered 2009",
-      "short": 35,
-      "years": {
-        "2019": 16,
-        "2020": 36,
-        "2021": 24,
-        "2022": 9,
-        "2023": 6,
-        "2024": 18,
-        "2025": 6,
-        "2026": 6
       }
     },
     {
@@ -1764,6 +1764,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 105,
+      "first": "2019-09-07",
+      "id": "0ESIjVxnDnCDaTPo6sStHm",
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "last": "2026-08-01",
+      "ms": 13321781,
+      "name": "Till There Was You - Remastered 2009",
+      "short": 21,
+      "years": {
+        "2019": 5,
+        "2020": 32,
+        "2021": 20,
+        "2022": 9,
+        "2023": 6,
+        "2024": 16,
+        "2025": 9,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 105,
@@ -1856,29 +1879,6 @@
       "short": 15,
       "years": {
         "2025": 97,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 103,
-      "first": "2019-09-07",
-      "id": "0ESIjVxnDnCDaTPo6sStHm",
-      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-      "last": "2026-07-16",
-      "ms": 13321781,
-      "name": "Till There Was You - Remastered 2009",
-      "short": 21,
-      "years": {
-        "2019": 5,
-        "2020": 32,
-        "2021": 20,
-        "2022": 9,
-        "2023": 6,
-        "2024": 16,
-        "2025": 9,
         "2026": 6
       }
     },
@@ -5032,6 +5032,29 @@
         "The Beatles"
       ],
       "count": 72,
+      "first": "2019-09-07",
+      "id": "0KogQrSowDnZoU8GSpaxkj",
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "last": "2026-08-01",
+      "ms": 7411554,
+      "name": "Little Child - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2019": 2,
+        "2020": 11,
+        "2021": 12,
+        "2022": 9,
+        "2023": 6,
+        "2024": 17,
+        "2025": 8,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 72,
       "first": "2019-12-07",
       "id": "1swmf4hFMJYRNA8Rq9PVaW",
       "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
@@ -5224,29 +5247,6 @@
         "2024": 7,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 71,
-      "first": "2019-09-07",
-      "id": "0KogQrSowDnZoU8GSpaxkj",
-      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-      "last": "2026-07-16",
-      "ms": 7411554,
-      "name": "Little Child - Remastered 2009",
-      "short": 23,
-      "years": {
-        "2019": 2,
-        "2020": 11,
-        "2021": 12,
-        "2022": 9,
-        "2023": 6,
-        "2024": 17,
-        "2025": 8,
-        "2026": 6
       }
     },
     {
@@ -6024,6 +6024,28 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 67,
+      "first": "2020-05-30",
+      "id": "2tBv9tAdqEbLNDi5smSjbg",
+      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
+      "last": "2026-08-01",
+      "ms": 12516295,
+      "name": "Sexy Sadie - Remastered 2009",
+      "short": 17,
+      "years": {
+        "2020": 22,
+        "2021": 19,
+        "2022": 7,
+        "2023": 4,
+        "2024": 6,
+        "2025": 5,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 67,
@@ -6084,28 +6106,6 @@
         "2022": 7,
         "2023": 6,
         "2024": 4,
-        "2025": 5,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 66,
-      "first": "2020-05-30",
-      "id": "2tBv9tAdqEbLNDi5smSjbg",
-      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
-      "last": "2026-07-18",
-      "ms": 12516295,
-      "name": "Sexy Sadie - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2020": 22,
-        "2021": 19,
-        "2022": 7,
-        "2023": 4,
-        "2024": 6,
         "2025": 5,
         "2026": 3
       }
@@ -6920,6 +6920,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 62,
+      "first": "2019-10-26",
+      "id": "3mlMpmY8oZIBFc39D9zLbh",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-08-01",
+      "ms": 12666466,
+      "name": "The Long And Winding Road - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 4,
+        "2020": 20,
+        "2021": 18,
+        "2022": 3,
+        "2023": 4,
+        "2024": 4,
+        "2025": 5,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "David Guetta"
       ],
       "count": 62,
@@ -7220,29 +7243,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 61,
-      "first": "2019-10-26",
-      "id": "3mlMpmY8oZIBFc39D9zLbh",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-07-21",
-      "ms": 12666466,
-      "name": "The Long And Winding Road - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 4,
-        "2020": 20,
-        "2021": 18,
-        "2022": 3,
-        "2023": 4,
-        "2024": 4,
-        "2025": 5,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Ayaka Hirahara"
       ],
       "count": 61,
@@ -7331,6 +7331,29 @@
         "2022": 1,
         "2023": 5,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 60,
+      "first": "2019-09-07",
+      "id": "19QXdPRZFHI5kNK3tN8Mh7",
+      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
+      "last": "2026-08-01",
+      "ms": 9598726,
+      "name": "What Goes On - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2019": 2,
+        "2020": 10,
+        "2021": 15,
+        "2022": 5,
+        "2023": 3,
+        "2024": 12,
+        "2025": 7,
+        "2026": 6
       }
     },
     {
@@ -7512,29 +7535,6 @@
       "years": {
         "2025": 9,
         "2026": 50
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 59,
-      "first": "2019-09-07",
-      "id": "19QXdPRZFHI5kNK3tN8Mh7",
-      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
-      "last": "2026-07-17",
-      "ms": 9598726,
-      "name": "What Goes On - Remastered 2009",
-      "short": 23,
-      "years": {
-        "2019": 2,
-        "2020": 10,
-        "2021": 15,
-        "2022": 5,
-        "2023": 3,
-        "2024": 12,
-        "2025": 7,
-        "2026": 5
       }
     },
     {
@@ -10587,23 +10587,6 @@
     },
     {
       "artists": [
-        "Train"
-      ],
-      "count": 43,
-      "first": "2025-02-25",
-      "id": "2NniAhAtkRACaMeYt48xlD",
-      "image": "https://i.scdn.co/image/ab67616d00004851bde344cc54eedc35050f4c61",
-      "last": "2026-07-30",
-      "ms": 9273138,
-      "name": "50 Ways to Say Goodbye",
-      "short": 9,
-      "years": {
-        "2025": 19,
-        "2026": 24
-      }
-    },
-    {
-      "artists": [
         "Side Saddle"
       ],
       "count": 43,
@@ -10867,6 +10850,23 @@
         "2022": 1,
         "2024": 1,
         "2025": 41
+      }
+    },
+    {
+      "artists": [
+        "Train"
+      ],
+      "count": 42,
+      "first": "2025-02-25",
+      "id": "2NniAhAtkRACaMeYt48xlD",
+      "image": "https://i.scdn.co/image/ab67616d00004851bde344cc54eedc35050f4c61",
+      "last": "2026-07-30",
+      "ms": 9273138,
+      "name": "50 Ways to Say Goodbye",
+      "short": 9,
+      "years": {
+        "2025": 19,
+        "2026": 23
       }
     },
     {
@@ -11197,6 +11197,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 41,
+      "first": "2025-12-20",
+      "id": "7uFhHMYpEC2MLXwxt64pMD",
+      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
+      "last": "2026-07-31",
+      "ms": 7270010,
+      "name": "I Won't Tell a Soul",
+      "short": 4,
+      "years": {
+        "2025": 7,
+        "2026": 34
+      }
+    },
+    {
+      "artists": [
         "Wings"
       ],
       "count": 41,
@@ -11514,15 +11531,15 @@
       ],
       "count": 40,
       "first": "2025-12-20",
-      "id": "7uFhHMYpEC2MLXwxt64pMD",
-      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
-      "last": "2026-06-21",
-      "ms": 7270010,
-      "name": "I Won't Tell a Soul",
-      "short": 4,
+      "id": "5TTyyKNJZHONhjtAiXL1nG",
+      "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
+      "last": "2026-07-31",
+      "ms": 7503419,
+      "name": "Hero",
+      "short": 1,
       "years": {
-        "2025": 7,
-        "2026": 33
+        "2025": 4,
+        "2026": 36
       }
     },
     {
@@ -11606,6 +11623,57 @@
     },
     {
       "artists": [
+        "JVKE"
+      ],
+      "count": 39,
+      "first": "2025-12-20",
+      "id": "0ApadYqa3GRQkJJ3E7pQDJ",
+      "image": "https://i.scdn.co/image/ab67616d000048513af4efcbc640cf0cb0888d63",
+      "last": "2026-07-31",
+      "ms": 6559697,
+      "name": "Angel Pt. 2 (feat. Jimin of BTS, Charlie Puth and Muni Long / FAST X Soundtrack)",
+      "short": 2,
+      "years": {
+        "2025": 5,
+        "2026": 34
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 39,
+      "first": "2025-12-20",
+      "id": "4kUI0vuDd0Zub4IvxxNreM",
+      "image": "https://i.scdn.co/image/ab67616d000048510bd42a81fa579f7a8d7c1312",
+      "last": "2026-07-31",
+      "ms": 6837727,
+      "name": "Changes",
+      "short": 5,
+      "years": {
+        "2025": 7,
+        "2026": 32
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 39,
+      "first": "2025-12-20",
+      "id": "4nNZ4ra9sJnsdixXELkfW5",
+      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+      "last": "2026-07-31",
+      "ms": 7761560,
+      "name": "Does It Feel",
+      "short": 2,
+      "years": {
+        "2025": 4,
+        "2026": 35
+      }
+    },
+    {
+      "artists": [
         "Charlie Puth"
       ],
       "count": 39,
@@ -11637,23 +11705,6 @@
         "2020": 30,
         "2021": 8,
         "2022": 1
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 39,
-      "first": "2025-12-20",
-      "id": "5TTyyKNJZHONhjtAiXL1nG",
-      "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
-      "last": "2026-07-15",
-      "ms": 7503419,
-      "name": "Hero",
-      "short": 1,
-      "years": {
-        "2025": 4,
-        "2026": 35
       }
     },
     {
@@ -11958,23 +12009,6 @@
     },
     {
       "artists": [
-        "JVKE"
-      ],
-      "count": 38,
-      "first": "2025-12-20",
-      "id": "0ApadYqa3GRQkJJ3E7pQDJ",
-      "image": "https://i.scdn.co/image/ab67616d000048513af4efcbc640cf0cb0888d63",
-      "last": "2026-07-03",
-      "ms": 6559697,
-      "name": "Angel Pt. 2 (feat. Jimin of BTS, Charlie Puth and Muni Long / FAST X Soundtrack)",
-      "short": 2,
-      "years": {
-        "2025": 5,
-        "2026": 33
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 38,
@@ -12011,40 +12045,6 @@
       "years": {
         "2025": 22,
         "2026": 16
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 38,
-      "first": "2025-12-20",
-      "id": "4kUI0vuDd0Zub4IvxxNreM",
-      "image": "https://i.scdn.co/image/ab67616d000048510bd42a81fa579f7a8d7c1312",
-      "last": "2026-07-06",
-      "ms": 6837727,
-      "name": "Changes",
-      "short": 5,
-      "years": {
-        "2025": 7,
-        "2026": 31
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 38,
-      "first": "2025-12-20",
-      "id": "4nNZ4ra9sJnsdixXELkfW5",
-      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
-      "last": "2026-07-11",
-      "ms": 7761560,
-      "name": "Does It Feel",
-      "short": 2,
-      "years": {
-        "2025": 4,
-        "2026": 34
       }
     },
     {
@@ -12153,6 +12153,23 @@
         "2024": 33,
         "2025": 3,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Elton John"
+      ],
+      "count": 37,
+      "first": "2025-12-20",
+      "id": "38UDoZyudPWXLzXRAb71oP",
+      "image": "https://i.scdn.co/image/ab67616d0000485198aaddea4894a4ae214f70d7",
+      "last": "2026-07-31",
+      "ms": 7056557,
+      "name": "After All",
+      "short": 3,
+      "years": {
+        "2025": 5,
+        "2026": 32
       }
     },
     {
@@ -12441,23 +12458,6 @@
     },
     {
       "artists": [
-        "Elton John"
-      ],
-      "count": 36,
-      "first": "2025-12-20",
-      "id": "38UDoZyudPWXLzXRAb71oP",
-      "image": "https://i.scdn.co/image/ab67616d0000485198aaddea4894a4ae214f70d7",
-      "last": "2026-07-23",
-      "ms": 7056557,
-      "name": "After All",
-      "short": 3,
-      "years": {
-        "2025": 5,
-        "2026": 31
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 36,
@@ -12622,6 +12622,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 36,
+      "first": "2025-12-20",
+      "id": "6qNALlmZa1ESnCxJmXE1K9",
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "last": "2026-07-31",
+      "ms": 6136890,
+      "name": "The Way I Am",
+      "short": 4,
+      "years": {
+        "2025": 4,
+        "2026": 32
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 35,
@@ -12660,6 +12677,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 35,
+      "first": "2025-12-20",
+      "id": "2EbseeW2cr5zK3J8VuYntw",
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "last": "2026-07-31",
+      "ms": 6564424,
+      "name": "Dangerously",
+      "short": 2,
+      "years": {
+        "2025": 6,
+        "2026": 29
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 35,
@@ -12676,6 +12710,23 @@
         "2021": 1,
         "2023": 2,
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 35,
+      "first": "2025-12-20",
+      "id": "197CUwGpX84IMI7aWB1Cjk",
+      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
+      "last": "2026-07-31",
+      "ms": 6735722,
+      "name": "Left Right Left",
+      "short": 1,
+      "years": {
+        "2025": 4,
+        "2026": 31
       }
     },
     {
@@ -12698,23 +12749,6 @@
         "2024": 3,
         "2025": 2,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 35,
-      "first": "2025-12-20",
-      "id": "6qNALlmZa1ESnCxJmXE1K9",
-      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
-      "last": "2026-06-20",
-      "ms": 6136890,
-      "name": "The Way I Am",
-      "short": 4,
-      "years": {
-        "2025": 4,
-        "2026": 31
       }
     },
     {
@@ -12846,23 +12880,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 34,
-      "first": "2025-12-20",
-      "id": "2EbseeW2cr5zK3J8VuYntw",
-      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
-      "last": "2026-07-09",
-      "ms": 6564424,
-      "name": "Dangerously",
-      "short": 2,
-      "years": {
-        "2025": 6,
-        "2026": 28
-      }
-    },
-    {
-      "artists": [
         "ONE OK ROCK"
       ],
       "count": 34,
@@ -12901,23 +12918,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 34,
-      "first": "2025-12-20",
-      "id": "197CUwGpX84IMI7aWB1Cjk",
-      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
-      "last": "2026-06-20",
-      "ms": 6735722,
-      "name": "Left Right Left",
-      "short": 1,
-      "years": {
-        "2025": 4,
-        "2026": 30
-      }
-    },
-    {
-      "artists": [
         "One Direction"
       ],
       "count": 34,
@@ -12932,6 +12932,23 @@
         "2023": 1,
         "2025": 19,
         "2026": 14
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 34,
+      "first": "2025-12-10",
+      "id": "4rpzPAbwJboZQw2p9T5T3f",
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "last": "2026-07-31",
+      "ms": 5539584,
+      "name": "Lucky Strike",
+      "short": 5,
+      "years": {
+        "2025": 5,
+        "2026": 29
       }
     },
     {
@@ -12988,6 +13005,23 @@
         "2024": 1,
         "2025": 8,
         "2026": 25
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 34,
+      "first": "2025-12-20",
+      "id": "2WNHUp4s806SJrsj698ZX3",
+      "image": "https://i.scdn.co/image/ab67616d00004851e4de0fd4124cbd385f1bd900",
+      "last": "2026-07-31",
+      "ms": 5327053,
+      "name": "That’s Not How This Works (feat. Dan + Shay & Sabrina Carpenter) - Sabrina’s Version",
+      "short": 1,
+      "years": {
+        "2025": 3,
+        "2026": 31
       }
     },
     {
@@ -13076,23 +13110,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 33,
-      "first": "2025-12-10",
-      "id": "4rpzPAbwJboZQw2p9T5T3f",
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "last": "2026-07-02",
-      "ms": 5539584,
-      "name": "Lucky Strike",
-      "short": 5,
-      "years": {
-        "2025": 5,
-        "2026": 28
-      }
-    },
-    {
-      "artists": [
         "Charlie Puth"
       ],
       "count": 33,
@@ -13114,15 +13131,15 @@
       ],
       "count": 33,
       "first": "2025-12-20",
-      "id": "2WNHUp4s806SJrsj698ZX3",
-      "image": "https://i.scdn.co/image/ab67616d00004851e4de0fd4124cbd385f1bd900",
-      "last": "2026-07-09",
-      "ms": 5327053,
-      "name": "That’s Not How This Works (feat. Dan + Shay & Sabrina Carpenter) - Sabrina’s Version",
-      "short": 1,
+      "id": "51cJFmn6j0LUaxef2lQ3dz",
+      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
+      "last": "2026-07-31",
+      "ms": 6080486,
+      "name": "Up All Night",
+      "short": 3,
       "years": {
-        "2025": 3,
-        "2026": 30
+        "2025": 5,
+        "2026": 28
       }
     },
     {
@@ -13410,23 +13427,6 @@
       "years": {
         "2025": 2,
         "2026": 30
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 32,
-      "first": "2025-12-20",
-      "id": "51cJFmn6j0LUaxef2lQ3dz",
-      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
-      "last": "2026-06-20",
-      "ms": 6080486,
-      "name": "Up All Night",
-      "short": 3,
-      "years": {
-        "2025": 5,
-        "2026": 27
       }
     },
     {
@@ -13881,6 +13881,24 @@
     },
     {
       "artists": [
+        "Wiz Khalifa"
+      ],
+      "count": 29,
+      "first": "2020-12-09",
+      "id": "2JzZzZUQj3Qff7wapcbKjc",
+      "image": "https://i.scdn.co/image/ab67616d000048514e5df11b17b2727da2b718d8",
+      "last": "2026-07-31",
+      "ms": 5436081,
+      "name": "See You Again (feat. Charlie Puth)",
+      "short": 6,
+      "years": {
+        "2020": 3,
+        "2025": 2,
+        "2026": 24
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 29,
@@ -13990,6 +14008,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 28,
+      "first": "2025-12-20",
+      "id": "42nDnUAPjhZFlj5wt2BjJm",
+      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
+      "last": "2026-07-31",
+      "ms": 4773876,
+      "name": "Light Switch - Acoustic",
+      "short": 5,
+      "years": {
+        "2025": 3,
+        "2026": 25
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 28,
@@ -14006,24 +14041,6 @@
         "2024": 12,
         "2025": 5,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Wiz Khalifa"
-      ],
-      "count": 28,
-      "first": "2020-12-09",
-      "id": "2JzZzZUQj3Qff7wapcbKjc",
-      "image": "https://i.scdn.co/image/ab67616d000048514e5df11b17b2727da2b718d8",
-      "last": "2026-07-29",
-      "ms": 5436081,
-      "name": "See You Again (feat. Charlie Puth)",
-      "short": 6,
-      "years": {
-        "2020": 3,
-        "2025": 2,
-        "2026": 23
       }
     },
     {
@@ -14151,15 +14168,15 @@
     },
     {
       "artists": [
-        "Charlie Puth"
+        "Sasha Alex Sloan"
       ],
       "count": 27,
       "first": "2025-12-20",
-      "id": "42nDnUAPjhZFlj5wt2BjJm",
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "last": "2026-06-13",
-      "ms": 4773876,
-      "name": "Light Switch - Acoustic",
+      "id": "5tqNWWiySiABLrGAvSWsO5",
+      "image": "https://i.scdn.co/image/ab67616d000048513d959a929b52a36362378ae3",
+      "last": "2026-07-31",
+      "ms": 4011150,
+      "name": "Is It Just Me? (feat. Charlie Puth)",
       "short": 5,
       "years": {
         "2025": 3,
@@ -14380,23 +14397,6 @@
         "2024": 3,
         "2025": 4,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "Sasha Alex Sloan"
-      ],
-      "count": 26,
-      "first": "2025-12-20",
-      "id": "5tqNWWiySiABLrGAvSWsO5",
-      "image": "https://i.scdn.co/image/ab67616d000048513d959a929b52a36362378ae3",
-      "last": "2026-06-20",
-      "ms": 4011150,
-      "name": "Is It Just Me? (feat. Charlie Puth)",
-      "short": 5,
-      "years": {
-        "2025": 3,
-        "2026": 23
       }
     },
     {
@@ -15103,6 +15103,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 23,
+      "first": "2025-12-20",
+      "id": "6wmAHw1szh5RCKSRjiXhPe",
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "last": "2026-07-31",
+      "ms": 3915120,
+      "name": "How Long",
+      "short": 5,
+      "years": {
+        "2025": 2,
+        "2026": 21
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 23,
@@ -15478,23 +15495,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 22,
-      "first": "2025-12-20",
-      "id": "6wmAHw1szh5RCKSRjiXhPe",
-      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
-      "last": "2026-06-21",
-      "ms": 3915120,
-      "name": "How Long",
-      "short": 5,
-      "years": {
-        "2025": 2,
-        "2026": 20
-      }
-    },
-    {
-      "artists": [
         "Ed Sheeran"
       ],
       "count": 22,
@@ -15510,6 +15510,23 @@
         "2023": 3,
         "2025": 1,
         "2026": 15
+      }
+    },
+    {
+      "artists": [
+        "Gabby Barrett"
+      ],
+      "count": 22,
+      "first": "2025-12-20",
+      "id": "5cYFwgA5dHoqR3xGnlr9ew",
+      "image": "https://i.scdn.co/image/ab67616d00004851816075488bdd893d09ef85eb",
+      "last": "2026-07-31",
+      "ms": 3597305,
+      "name": "I Hope (feat. Charlie Puth)",
+      "short": 4,
+      "years": {
+        "2025": 2,
+        "2026": 20
       }
     },
     {
@@ -15973,23 +15990,6 @@
       "short": 1,
       "years": {
         "2025": 21
-      }
-    },
-    {
-      "artists": [
-        "Gabby Barrett"
-      ],
-      "count": 21,
-      "first": "2025-12-20",
-      "id": "5cYFwgA5dHoqR3xGnlr9ew",
-      "image": "https://i.scdn.co/image/ab67616d00004851816075488bdd893d09ef85eb",
-      "last": "2026-07-30",
-      "ms": 3597305,
-      "name": "I Hope (feat. Charlie Puth)",
-      "short": 4,
-      "years": {
-        "2025": 2,
-        "2026": 19
       }
     },
     {
@@ -16585,6 +16585,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 19,
+      "first": "2025-12-20",
+      "id": "0ClPIeT6MSgfSgQ9ZrJbAq",
+      "image": "https://i.scdn.co/image/ab67616d000048512ae631366d7f8b875a11c195",
+      "last": "2026-07-31",
+      "ms": 3538926,
+      "name": "Cheating on You",
+      "short": 2,
+      "years": {
+        "2025": 2,
+        "2026": 17
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 19,
@@ -16934,23 +16951,6 @@
       "years": {
         "2022": 1,
         "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 18,
-      "first": "2025-12-20",
-      "id": "0ClPIeT6MSgfSgQ9ZrJbAq",
-      "image": "https://i.scdn.co/image/ab67616d000048512ae631366d7f8b875a11c195",
-      "last": "2026-06-29",
-      "ms": 3538926,
-      "name": "Cheating on You",
-      "short": 2,
-      "years": {
-        "2025": 2,
-        "2026": 16
       }
     },
     {
@@ -19131,6 +19131,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 14,
+      "first": "2026-07-12",
+      "id": "0LDDluRE805Dvt7WA0tDvA",
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "last": "2026-08-01",
+      "ms": 734268,
+      "name": "closure",
+      "years": {
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "ZONE"
       ],
       "count": 14,
@@ -19537,12 +19552,12 @@
         "Henry Moodie"
       ],
       "count": 13,
-      "first": "2026-07-12",
-      "id": "0LDDluRE805Dvt7WA0tDvA",
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "last": "2026-07-28",
-      "ms": 734268,
-      "name": "closure",
+      "first": "2026-07-11",
+      "id": "0EPINaCMN2i8A0MBCmoZVm",
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "last": "2026-08-01",
+      "ms": 1192385,
+      "name": "bad emotions",
       "years": {
         "2026": 13
       }
@@ -19910,21 +19925,6 @@
         "Henry Moodie"
       ],
       "count": 12,
-      "first": "2026-07-11",
-      "id": "0EPINaCMN2i8A0MBCmoZVm",
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "last": "2026-07-25",
-      "ms": 1192385,
-      "name": "bad emotions",
-      "years": {
-        "2026": 12
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 12,
       "first": "2026-07-12",
       "id": "3pe2SgiSoeCRb5IqvZZ5tS",
       "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
@@ -20206,6 +20206,24 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 11,
+      "first": "2021-07-19",
+      "id": "7pYfyrMNPn3wtoCyqcTVoI",
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "last": "2026-07-31",
+      "ms": 1857449,
+      "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+      "short": 1,
+      "years": {
+        "2021": 1,
+        "2025": 1,
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 11,
@@ -20218,6 +20236,23 @@
       "short": 5,
       "years": {
         "2020": 11
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 11,
+      "first": "2025-11-19",
+      "id": "4llK75pXNWZz6KAho2Gp16",
+      "image": "https://i.scdn.co/image/ab67616d0000485192f2d790c6a97b195f66d51e",
+      "last": "2026-07-31",
+      "ms": 2351203,
+      "name": "She Will Be Loved - Radio Mix",
+      "short": 1,
+      "years": {
+        "2025": 1,
+        "2026": 10
       }
     },
     {
@@ -20830,24 +20865,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 10,
-      "first": "2021-07-19",
-      "id": "7pYfyrMNPn3wtoCyqcTVoI",
-      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
-      "last": "2026-07-09",
-      "ms": 1857449,
-      "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
-      "short": 1,
-      "years": {
-        "2021": 1,
-        "2025": 1,
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Charlie Puth"
       ],
       "count": 10,
@@ -20946,23 +20963,6 @@
       "short": 1,
       "years": {
         "2026": 10
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 10,
-      "first": "2025-11-19",
-      "id": "4llK75pXNWZz6KAho2Gp16",
-      "image": "https://i.scdn.co/image/ab67616d0000485192f2d790c6a97b195f66d51e",
-      "last": "2026-07-02",
-      "ms": 2351203,
-      "name": "She Will Be Loved - Radio Mix",
-      "short": 1,
-      "years": {
-        "2025": 1,
-        "2026": 9
       }
     },
     {
@@ -21599,6 +21599,21 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 9,
+      "first": "2026-05-18",
+      "id": "5bpjnItVAZvbTtFl8zMslP",
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "last": "2026-07-31",
+      "ms": 1790296,
+      "name": "Just A Feeling",
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 9,
@@ -21666,6 +21681,22 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 9,
+      "first": "2026-05-09",
+      "id": "69ghzc538EQSVon2Gm3wrr",
+      "image": "https://i.scdn.co/image/ab67616d000048517c3bb9f74a98f60bdda6c9a7",
+      "last": "2026-07-30",
+      "ms": 1832856,
+      "name": "One Less Lonely Girl",
+      "short": 1,
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "George Martin"
       ],
       "count": 9,
@@ -21681,6 +21712,22 @@
         "2024": 4,
         "2025": 1,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 9,
+      "first": "2026-04-30",
+      "id": "3cq2IfK8NOuXDlc0cogY2K",
+      "image": "https://i.scdn.co/image/ab67616d00004851391d8b7f4d327cb0ec4f0aef",
+      "last": "2026-07-31",
+      "ms": 1884480,
+      "name": "Sideways (feat. Coco Jones)",
+      "short": 1,
+      "years": {
+        "2026": 9
       }
     },
     {
@@ -22030,6 +22077,23 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 8,
+      "first": "2021-07-04",
+      "id": "5zFglKYiknIxks8geR8rcL",
+      "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
+      "last": "2026-07-31",
+      "ms": 1439875,
+      "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
+      "short": 1,
+      "years": {
+        "2021": 2,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Ed Sheeran"
       ],
       "count": 8,
@@ -22328,21 +22392,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 8,
-      "first": "2026-05-18",
-      "id": "5bpjnItVAZvbTtFl8zMslP",
-      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
-      "last": "2026-07-02",
-      "ms": 1790296,
-      "name": "Just A Feeling",
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Wings"
       ],
       "count": 8,
@@ -22441,22 +22490,6 @@
     },
     {
       "artists": [
-        "Justin Bieber"
-      ],
-      "count": 8,
-      "first": "2026-05-09",
-      "id": "69ghzc538EQSVon2Gm3wrr",
-      "image": "https://i.scdn.co/image/ab67616d000048517c3bb9f74a98f60bdda6c9a7",
-      "last": "2026-07-04",
-      "ms": 1832856,
-      "name": "One Less Lonely Girl",
-      "short": 1,
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Michael DiMuccio"
       ],
       "count": 8,
@@ -22519,22 +22552,6 @@
       "years": {
         "2025": 1,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 8,
-      "first": "2026-04-30",
-      "id": "3cq2IfK8NOuXDlc0cogY2K",
-      "image": "https://i.scdn.co/image/ab67616d00004851391d8b7f4d327cb0ec4f0aef",
-      "last": "2026-06-20",
-      "ms": 1884480,
-      "name": "Sideways (feat. Coco Jones)",
-      "short": 1,
-      "years": {
-        "2026": 8
       }
     },
     {
@@ -22882,38 +22899,6 @@
       "name": "Back To December",
       "years": {
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 7,
-      "first": "2026-05-17",
-      "id": "0ehxWIhybOYQ3acRhmcNVF",
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "last": "2026-07-30",
-      "ms": 1276265,
-      "name": "Beautiful Goodbye",
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 7,
-      "first": "2021-07-04",
-      "id": "5zFglKYiknIxks8geR8rcL",
-      "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
-      "last": "2026-07-02",
-      "ms": 1439875,
-      "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
-      "short": 1,
-      "years": {
-        "2021": 2,
-        "2026": 5
       }
     },
     {
@@ -23782,6 +23767,21 @@
       "short": 3,
       "years": {
         "2020": 6
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 6,
+      "first": "2026-05-17",
+      "id": "0ehxWIhybOYQ3acRhmcNVF",
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "last": "2026-07-30",
+      "ms": 1276265,
+      "name": "Beautiful Goodbye",
+      "years": {
+        "2026": 6
       }
     },
     {
@@ -25756,6 +25756,21 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 5,
+      "first": "2026-05-20",
+      "id": "3ytuqgUI0BNCDijjxC6jZg",
+      "image": "https://i.scdn.co/image/ab67616d00004851fb7dcc6287dca96c1c8eda29",
+      "last": "2026-07-31",
+      "ms": 710768,
+      "name": "Reply To This",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Ampyx"
       ],
       "count": 5,
@@ -26226,6 +26241,21 @@
       "last": "2026-07-19",
       "ms": 756044,
       "name": "current location",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 5,
+      "first": "2026-07-18",
+      "id": "3qji3M6fG6w9Sj9nL2tG7m",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-08-01",
+      "ms": 215853,
+      "name": "dear drew",
       "years": {
         "2026": 5
       }
@@ -26953,6 +26983,21 @@
       "years": {
         "2019": 3,
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 4,
+      "first": "2026-03-31",
+      "id": "2nj8GB0PY5sbHjEXoWH4UR",
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "last": "2026-07-31",
+      "ms": 523606,
+      "name": "Don't Wanna Know (feat. Kendrick Lamar)",
+      "years": {
+        "2026": 4
       }
     },
     {
@@ -28083,21 +28128,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 4,
-      "first": "2026-05-20",
-      "id": "3ytuqgUI0BNCDijjxC6jZg",
-      "image": "https://i.scdn.co/image/ab67616d00004851fb7dcc6287dca96c1c8eda29",
-      "last": "2026-06-20",
-      "ms": 710768,
-      "name": "Reply To This",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "OneRepublic"
       ],
       "count": 4,
@@ -29034,21 +29064,6 @@
       "last": "2026-07-25",
       "ms": 192685,
       "name": "comedown",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 4,
-      "first": "2026-07-18",
-      "id": "3qji3M6fG6w9Sj9nL2tG7m",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-07-25",
-      "ms": 215853,
-      "name": "dear drew",
       "years": {
         "2026": 4
       }
@@ -30361,21 +30376,6 @@
         "2022": 1,
         "2024": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 3,
-      "first": "2026-03-31",
-      "id": "2nj8GB0PY5sbHjEXoWH4UR",
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "last": "2026-06-26",
-      "ms": 523606,
-      "name": "Don't Wanna Know (feat. Kendrick Lamar)",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -51827,8 +51827,8 @@
       ],
       "count": 1,
       "first": "2026-07-22",
-      "id": "7oOfd5BP16mS0Vrh1PdRHt",
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "id": "lastfm:goodlife|onerepublic",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/7af9bdacda27c32f88f494f801bd3187.jpg",
       "last": "2026-07-22",
       "ms": 0,
       "name": "Good Life",

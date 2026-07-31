@@ -1,11 +1,11 @@
 {
   "artists": [
     {
-      "count": 15597,
+      "count": 15603,
       "first": "2019-09-05",
       "id": "3WrFJ7ztbogyGnTHbHJFl2",
       "image": "https://i.scdn.co/image/ab67616100005174119b61b35985e3b957c5ecb7",
-      "last": "2026-07-21",
+      "last": "2026-08-01",
       "ms": 2380205759,
       "name": "The Beatles",
       "tracks": 460,
@@ -17,7 +17,7 @@
         "2023": 846,
         "2024": 2399,
         "2025": 1237,
-        "2026": 852
+        "2026": 858
       }
     },
     {
@@ -278,11 +278,11 @@
       }
     },
     {
-      "count": 407,
+      "count": 412,
       "first": "2020-05-19",
       "id": "04gDigrS5kc9YWfZHwBETP",
       "image": "https://i.scdn.co/image/ab67616100005174f8349dfb619a7f842242de77",
-      "last": "2026-07-30",
+      "last": "2026-07-31",
       "ms": 83904831,
       "name": "Maroon 5",
       "tracks": 34,
@@ -293,7 +293,7 @@
         "2023": 8,
         "2024": 9,
         "2025": 74,
-        "2026": 256
+        "2026": 261
       }
     },
     {
@@ -366,7 +366,7 @@
       }
     },
     {
-      "count": 352,
+      "count": 351,
       "first": "2025-02-24",
       "id": "3FUY2gzHeIiaesXtOAdB7A",
       "image": "https://i.scdn.co/image/ab67616100005174fe613747ea3666f4c75b9884",
@@ -376,15 +376,15 @@
       "tracks": 29,
       "years": {
         "2025": 135,
-        "2026": 217
+        "2026": 216
       }
     },
     {
-      "count": 310,
+      "count": 311,
       "first": "2021-03-14",
       "id": "1uNFoZAHBGtllmzznpCI3s",
       "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
-      "last": "2026-07-21",
+      "last": "2026-07-30",
       "ms": 58614017,
       "name": "Justin Bieber",
       "tracks": 49,
@@ -392,7 +392,7 @@
         "2021": 12,
         "2023": 5,
         "2025": 19,
-        "2026": 274
+        "2026": 275
       }
     },
     {
@@ -533,16 +533,16 @@
       }
     },
     {
-      "count": 265,
+      "count": 268,
       "first": "2026-03-31",
       "id": "7hr9W3IjXcm3UlLY7guLk5",
       "image": "https://i.scdn.co/image/ab67616100005174eb112262ba2e60bf90053a02",
-      "last": "2026-07-29",
+      "last": "2026-08-01",
       "ms": 19430514,
       "name": "Henry Moodie",
       "tracks": 29,
       "years": {
-        "2026": 265
+        "2026": 268
       }
     },
     {
@@ -1633,6 +1633,18 @@
       }
     },
     {
+      "count": 95,
+      "first": "2024-08-10",
+      "last": "2026-08-01",
+      "ms": 33920,
+      "name": "ザ・ビートルズ",
+      "tracks": 63,
+      "years": {
+        "2024": 1,
+        "2026": 94
+      }
+    },
+    {
       "count": 94,
       "first": "2022-12-09",
       "id": "3Y3xIwWyq5wnNHPp5gPjOW",
@@ -1647,18 +1659,6 @@
         "2024": 39,
         "2025": 15,
         "2026": 27
-      }
-    },
-    {
-      "count": 94,
-      "first": "2024-08-10",
-      "last": "2026-07-25",
-      "ms": 33920,
-      "name": "ザ・ビートルズ",
-      "tracks": 62,
-      "years": {
-        "2024": 1,
-        "2026": 93
       }
     },
     {
@@ -3071,6 +3071,21 @@
     },
     {
       "count": 43,
+      "first": "2023-03-22",
+      "id": "164Uj4eKjl6zTBKfJLFKKK",
+      "image": "https://i.scdn.co/image/ab676161000051749028079005146db88f6133d0",
+      "last": "2026-07-31",
+      "ms": 7218274,
+      "name": "JVKE",
+      "tracks": 2,
+      "years": {
+        "2023": 4,
+        "2025": 5,
+        "2026": 34
+      }
+    },
+    {
+      "count": 43,
       "first": "2024-07-12",
       "id": "4xuWl9MpICwyNQIIlsUPNT",
       "image": "https://i.scdn.co/image/ab676161000051747f6a03dd41d36602789f0812",
@@ -3087,6 +3102,8 @@
     {
       "count": 43,
       "first": "2020-05-18",
+      "id": "1bNEG4iSClCqQRyZgho3YV",
+      "image": "https://i.scdn.co/image/ab67616100005174733653a458b8e224bd78f0ac",
       "last": "2021-12-20",
       "ms": 12138208,
       "name": "Spektrem",
@@ -3124,21 +3141,6 @@
         "2024": 15,
         "2025": 19,
         "2026": 1
-      }
-    },
-    {
-      "count": 42,
-      "first": "2023-03-22",
-      "id": "164Uj4eKjl6zTBKfJLFKKK",
-      "image": "https://i.scdn.co/image/ab676161000051749028079005146db88f6133d0",
-      "last": "2026-07-03",
-      "ms": 7218274,
-      "name": "JVKE",
-      "tracks": 2,
-      "years": {
-        "2023": 4,
-        "2025": 5,
-        "2026": 33
       }
     },
     {
@@ -3759,6 +3761,20 @@
     },
     {
       "count": 27,
+      "first": "2025-12-20",
+      "id": "4xnihxcoXWK3UqryOSnbw5",
+      "image": "https://i.scdn.co/image/ab6761610000517410b7ef8a43b16465acdc0e1d",
+      "last": "2026-07-31",
+      "ms": 4011150,
+      "name": "Sasha Alex Sloan",
+      "tracks": 1,
+      "years": {
+        "2025": 3,
+        "2026": 24
+      }
+    },
+    {
+      "count": 27,
       "first": "2020-04-21",
       "id": "2NjfBq1NflQcKSeiDooVjY",
       "image": "https://i.scdn.co/image/ab67616100005174a2709df1d241734826f363e3",
@@ -3814,20 +3830,6 @@
       "years": {
         "2025": 1,
         "2026": 25
-      }
-    },
-    {
-      "count": 26,
-      "first": "2025-12-20",
-      "id": "4xnihxcoXWK3UqryOSnbw5",
-      "image": "https://i.scdn.co/image/ab6761610000517410b7ef8a43b16465acdc0e1d",
-      "last": "2026-06-20",
-      "ms": 4011150,
-      "name": "Sasha Alex Sloan",
-      "tracks": 1,
-      "years": {
-        "2025": 3,
-        "2026": 23
       }
     },
     {
@@ -3888,6 +3890,20 @@
     },
     {
       "count": 23,
+      "first": "2025-12-20",
+      "id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "image": "https://i.scdn.co/image/ab67616100005174afdddf514ddefe47d19c9b80",
+      "last": "2026-07-31",
+      "ms": 3762510,
+      "name": "Gabby Barrett",
+      "tracks": 2,
+      "years": {
+        "2025": 2,
+        "2026": 21
+      }
+    },
+    {
+      "count": 23,
       "first": "2024-12-02",
       "id": "5vV3bFXnN6D6N3Nj4xRvaV",
       "image": "https://i.scdn.co/image/ab6761610000517481e353e7475955f7e040af5e",
@@ -3918,6 +3934,8 @@
     {
       "count": 22,
       "first": "2025-12-25",
+      "id": "7GlBOeep6PqTfFi59PTUUN",
+      "image": "https://i.scdn.co/image/ab67616100005174d258ecb0d66244e6300bcf64",
       "last": "2026-04-18",
       "ms": 4905417,
       "name": "Chappell Roan",
@@ -3938,20 +3956,6 @@
       "tracks": 1,
       "years": {
         "2026": 22
-      }
-    },
-    {
-      "count": 22,
-      "first": "2025-12-20",
-      "id": "6Iz3eq2aQGFf7TbGT2iahL",
-      "image": "https://i.scdn.co/image/ab67616100005174afdddf514ddefe47d19c9b80",
-      "last": "2026-07-30",
-      "ms": 3762510,
-      "name": "Gabby Barrett",
-      "tracks": 2,
-      "years": {
-        "2025": 2,
-        "2026": 20
       }
     },
     {
@@ -4047,6 +4051,8 @@
     {
       "count": 21,
       "first": "2025-02-23",
+      "id": "6aJRwrwfOffz7RMh2Cfm8e",
+      "image": "https://i.scdn.co/image/ab67616100005174e7d3a2a2ab27fcae75541085",
       "last": "2025-10-09",
       "ms": 3580320,
       "name": "Jacob Tillberg",
@@ -4101,6 +4107,8 @@
     {
       "count": 19,
       "first": "2020-09-30",
+      "id": "0B1ce3uNrzkdm76NXI4mhX",
+      "image": "https://i.scdn.co/image/ab676161000051742d6cdcda470f59669bdc5b91",
       "last": "2025-11-09",
       "ms": 3963030,
       "name": "Tani Yuuki",
@@ -4291,6 +4299,17 @@
       "years": {
         "2025": 13,
         "2026": 4
+      }
+    },
+    {
+      "count": 17,
+      "first": "2026-07-26",
+      "last": "2026-07-31",
+      "ms": 0,
+      "name": "チャーリー・プース",
+      "tracks": 17,
+      "years": {
+        "2026": 17
       }
     },
     {
@@ -4652,6 +4671,8 @@
     {
       "count": 13,
       "first": "2020-11-05",
+      "id": "5cj0lLjcoR7YOSnhnX0Po5",
+      "image": "https://i.scdn.co/image/ab676161000051748a0644455ebfa7d3976f5101",
       "last": "2024-04-13",
       "ms": 1916567,
       "name": "Doja Cat",
@@ -7034,6 +7055,8 @@
     {
       "count": 3,
       "first": "2021-08-06",
+      "id": "26dSoYclwsYLMAKD3tpOr4",
+      "image": "https://i.scdn.co/image/ab67616100005174f2bcdcea5247d29042b55372",
       "last": "2026-02-01",
       "ms": 552185,
       "name": "Britney Spears",
@@ -7524,6 +7547,8 @@
     {
       "count": 3,
       "first": "2020-07-03",
+      "id": "3z8diLlUCkN1j9N9ZdnfBJ",
+      "image": "https://i.scdn.co/image/ab676161000051746006ecb95bf696ebd05bf2d1",
       "last": "2020-10-14",
       "ms": 421302,
       "name": "NiziU",
@@ -8005,17 +8030,6 @@
       "last": "2026-07-30",
       "ms": 0,
       "name": "ショーン・メンデス",
-      "tracks": 3,
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "count": 3,
-      "first": "2026-07-26",
-      "last": "2026-07-30",
-      "ms": 0,
-      "name": "チャーリー・プース",
       "tracks": 3,
       "years": {
         "2026": 3
@@ -8676,6 +8690,8 @@
     {
       "count": 2,
       "first": "2021-08-06",
+      "id": "34jw2BbxjoYalTp8cJFCPv",
+      "image": "https://i.scdn.co/image/ab6772690000bac3469d216a8920e0df099e4621",
       "last": "2024-07-13",
       "ms": 604333,
       "name": "Heart",
@@ -9303,6 +9319,8 @@
     {
       "count": 2,
       "first": "2024-04-13",
+      "id": "7z55f4aJkaPR4EF2BXqsq7",
+      "image": "https://i.scdn.co/image/ab67616100005174b03d8e895883187de1982c07",
       "last": "2024-04-22",
       "ms": 507976,
       "name": "OLWIK",
@@ -9325,6 +9343,8 @@
     {
       "count": 2,
       "first": "2020-06-06",
+      "id": "2LMuDaIIPATDV8EG97xLpj",
+      "image": "https://i.scdn.co/image/ab6761610000517467351954e362ce11c5c021b3",
       "last": "2020-07-24",
       "ms": 360058,
       "name": "Oshóva",
@@ -9336,6 +9356,8 @@
     {
       "count": 2,
       "first": "2021-04-14",
+      "id": "1KCSPY1glIKqW2TotWuXOR",
+      "image": "https://i.scdn.co/image/ab676161000051747bbad89a61061304ec842588",
       "last": "2021-04-17",
       "ms": 517506,
       "name": "P!nk",
@@ -9347,6 +9369,8 @@
     {
       "count": 2,
       "first": "2020-05-19",
+      "id": "2hfoi6OmVRrLmZG1huaD1e",
+      "image": "https://i.scdn.co/image/ab67616100005174059a0fea21ef77ebcd7b0abe",
       "last": "2024-05-05",
       "ms": 319540,
       "name": "PIKASONIC",
@@ -9359,6 +9383,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "5SMVzTJyKFJ7TUb46DglcH",
+      "image": "https://i.scdn.co/image/ab676161000051746d32e1e62d928ac057284b4c",
       "last": "2024-07-12",
       "ms": 693332,
       "name": "Parliament",
@@ -9371,6 +9397,8 @@
     {
       "count": 2,
       "first": "2024-05-01",
+      "id": "7daAovtbFBvpYCDg18wSU1",
+      "image": "https://i.scdn.co/image/ab676161000051744adeea0eae97607c7dd182e0",
       "last": "2024-05-31",
       "ms": 79982,
       "name": "Paul Flint",
@@ -9393,6 +9421,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "6qI4LTzMRpTxRzMZPvv2C6",
+      "image": "https://i.scdn.co/image/f1eef4840de69ef3e66ccd3d009e83c1edc9bb0e",
       "last": "2024-07-13",
       "ms": 493514,
       "name": "Peaches & Herb",
@@ -9417,6 +9447,8 @@
     {
       "count": 2,
       "first": "2026-05-28",
+      "id": "7ltDVBr6mKbRvohxheJ9h1",
+      "image": "https://i.scdn.co/image/ab676161000051749354faf80eb87961466edfbf",
       "last": "2026-05-28",
       "ms": 90460,
       "name": "ROSALÍA",
@@ -9428,6 +9460,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "6GdTXXdGQ99ZVTnTPkSwLm",
+      "image": "https://i.scdn.co/image/ab6761610000517435ee642341202e144ae920ff",
       "last": "2021-05-30",
       "ms": 180086,
       "name": "Ramsey Road",
@@ -9452,6 +9486,8 @@
     {
       "count": 2,
       "first": "2021-08-06",
+      "id": "0ZrpamOxcZybMHGg1AYtHP",
+      "image": "https://i.scdn.co/image/ab6761610000517402582bb3fa9d68f44a247f39",
       "last": "2021-08-06",
       "ms": 389838,
       "name": "Robin Thicke",
@@ -9463,6 +9499,8 @@
     {
       "count": 2,
       "first": "2020-05-21",
+      "id": "757aE44tKEUQEqRuT6GnEB",
+      "image": "https://i.scdn.co/image/ab6761610000517488d7900663b237167c4be332",
       "last": "2021-03-27",
       "ms": 120133,
       "name": "Roddy Ricch",
@@ -9475,6 +9513,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "6iP8ENSWlZujR7OZcnKEoQ",
+      "image": "https://i.scdn.co/image/ab67616d00001e02b541a5dc355df09621d68ab9",
       "last": "2021-05-29",
       "ms": 329326,
       "name": "S M O L K",
@@ -9486,6 +9526,8 @@
     {
       "count": 2,
       "first": "2025-02-25",
+      "id": "53pyDdbX1I71Wcyr8ZPJAP",
+      "image": "https://i.scdn.co/image/ab67616100005174b8ce35e274c18dde344d0d7a",
       "last": "2025-06-30",
       "ms": 206390,
       "name": "SARM",
@@ -9519,6 +9561,8 @@
     {
       "count": 2,
       "first": "2025-08-11",
+      "id": "5i84V8Zk7YqCN6xxb7SWgw",
+      "image": "https://i.scdn.co/image/ab67616100005174ee512635ac98fae9d94aedf9",
       "last": "2025-12-07",
       "ms": 433211,
       "name": "Samantha Jade",
@@ -9530,6 +9574,8 @@
     {
       "count": 2,
       "first": "2021-12-31",
+      "id": "3NRFinRTEqUCfaTTZmk8ek",
+      "image": "https://i.scdn.co/image/ab67616100005174a218283491135c3c72911719",
       "last": "2022-01-25",
       "ms": 467293,
       "name": "Savage Garden",
@@ -9564,6 +9610,8 @@
     {
       "count": 2,
       "first": "2020-06-12",
+      "id": "3SW7viaMu12cE2V3DQPBIx",
+      "image": "https://i.scdn.co/image/ab67616100005174834088401ea7f19600a426ce",
       "last": "2020-06-12",
       "ms": 136695,
       "name": "Shoko Haida",
@@ -9575,6 +9623,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "6TMEF8gGAMgtb4tRfGQGyD",
+      "image": "https://i.scdn.co/image/ab67616100005174b5830d64847bbf64a2a89575",
       "last": "2021-05-29",
       "ms": 185256,
       "name": "Silk Mhake",
@@ -9598,6 +9648,8 @@
     {
       "count": 2,
       "first": "2019-12-05",
+      "id": "70cRZdQywnSFp9pnc2WTCE",
+      "image": "https://i.scdn.co/image/852145f3972cb8b6c431ca7b1c9d5bc839a8a06a",
       "last": "2020-02-23",
       "ms": 61824,
       "name": "Simon & Garfunkel",
@@ -9610,6 +9662,8 @@
     {
       "count": 2,
       "first": "2019-12-02",
+      "id": "6IHkZ4mLQr4dLxiSJr3yJ8",
+      "image": "https://i.scdn.co/image/ab67616100005174845d3daa8b34b5457dd64150",
       "last": "2020-01-30",
       "ms": 87178,
       "name": "Sinfonieorchester Basel",
@@ -9622,6 +9676,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "1DK5TN3sWOFCRHTQYODjpH",
+      "image": "https://i.scdn.co/image/ab67616d00001e02f06457cddfaecb42d1dcdd1b",
       "last": "2021-05-29",
       "ms": 266701,
       "name": "Sleepy Tigers",
@@ -9633,6 +9689,8 @@
     {
       "count": 2,
       "first": "2021-01-31",
+      "id": "77X9A9UiAgiPubyPr7bWym",
+      "image": "https://i.scdn.co/image/ab676161000051746a588dc9238b2a8082b84f0b",
       "last": "2021-05-29",
       "ms": 238944,
       "name": "Smartface",
@@ -9644,6 +9702,8 @@
     {
       "count": 2,
       "first": "2025-08-16",
+      "id": "1ZrBGJWLL8NiAjgNifCy90",
+      "image": "https://i.scdn.co/image/ab676161000051743eef83b8500dbe4828eb463a",
       "last": "2025-10-24",
       "ms": 432266,
       "name": "Smith & Thell",
@@ -9655,6 +9715,8 @@
     {
       "count": 2,
       "first": "2024-04-13",
+      "id": "29O9ZebFa65aIEvMaW5pQY",
+      "image": "https://i.scdn.co/image/ab67616100005174101bbdf4e85accec38906b7c",
       "last": "2024-05-01",
       "ms": 161681,
       "name": "Snail's House",
@@ -9666,6 +9728,8 @@
     {
       "count": 2,
       "first": "2021-07-22",
+      "id": "1TMa2M8BSbJP1rqX83wALz",
+      "image": "https://i.scdn.co/image/ab6761610000517442103bd8d58e115fd7bf779f",
       "last": "2021-07-23",
       "ms": 70042,
       "name": "Steerner",
@@ -9677,6 +9741,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "5B57n0v18MD9SHsENLABP8",
+      "image": "https://i.scdn.co/image/ab67616d00001e02f2d5c2fb57f1665fb1bd6eee",
       "last": "2021-05-29",
       "ms": 250668,
       "name": "Suz Tain",
@@ -9688,6 +9754,8 @@
     {
       "count": 2,
       "first": "2026-05-28",
+      "id": "1zNqQNIdeOUZHb8zbZRFMX",
+      "image": "https://i.scdn.co/image/ab67616100005174bccdbb98ab5d54454cd0fe85",
       "last": "2026-05-29",
       "ms": 304044,
       "name": "Swae Lee",
@@ -9699,6 +9767,8 @@
     {
       "count": 2,
       "first": "2019-12-27",
+      "id": "6eENEVV44ityOYBRUhDxcW",
+      "image": "https://i.scdn.co/image/ab67616d00001e02566f6fc4db4d4d0342ee368f",
       "last": "2019-12-30",
       "ms": 78134,
       "name": "Tanikawa POP Gorilla",
@@ -9710,6 +9780,8 @@
     {
       "count": 2,
       "first": "2026-05-06",
+      "id": "2yWER4vAftcZCFPc7ednct",
+      "image": "https://i.scdn.co/image/ab6761610000517478b327c30e913f7109a78e90",
       "last": "2026-05-07",
       "ms": 186764,
       "name": "Tara Mcdonald",
@@ -9732,6 +9804,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "1uPhaXGb4PrQKmNnKXm0GI",
+      "image": "https://i.scdn.co/image/ab67616d00001e024cafc35717b1b57ccf088a9c",
       "last": "2021-05-29",
       "ms": 330802,
       "name": "Ten Tin Trumpets",
@@ -9743,6 +9817,8 @@
     {
       "count": 2,
       "first": "2020-05-18",
+      "id": "5DD5GZd4ElmQTy9NleMvKJ",
+      "image": "https://i.scdn.co/image/ab676161000051749076c160b7d5c475b6afca6c",
       "last": "2020-05-19",
       "ms": 82356,
       "name": "Tessa Violet",
@@ -9754,6 +9830,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "3Inrg8cs8oc4q8oPES4a6S",
+      "image": "https://i.scdn.co/image/ab67616d00001e02b4b2642b767f641a15c9fef1",
       "last": "2024-07-12",
       "ms": 394320,
       "name": "The Five Stairsteps",
@@ -9766,6 +9844,8 @@
     {
       "count": 2,
       "first": "2024-07-12",
+      "id": "2acqLrAZ1lspWmbpQzdiGE",
+      "image": "https://i.scdn.co/image/ab676161000051749c54b7ec1e4e67d9ea3dd817",
       "last": "2024-07-21",
       "ms": 305383,
       "name": "The Hourglass Effect",
@@ -9777,6 +9857,8 @@
     {
       "count": 2,
       "first": "2019-09-06",
+      "id": "22bE4uQ6baNwSHPVcDxLCe",
+      "image": "https://i.scdn.co/image/ab676161000051742b72b000ac948eba03bb3afe",
       "last": "2020-04-14",
       "ms": 91173,
       "name": "The Rolling Stones",
@@ -9789,6 +9871,8 @@
     {
       "count": 2,
       "first": "2020-02-20",
+      "id": "4ydeJG48hqnTKKop5GYLDF",
+      "image": "https://i.scdn.co/image/ab67616d00001e0268f0d4dd838a417fa2eabdfd",
       "last": "2020-02-21",
       "ms": 208735,
       "name": "The Routers",
@@ -9800,6 +9884,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "5eTq3PxbOh5vgeRXKNqPyV",
+      "image": "https://i.scdn.co/image/a27723373fa6b219ac8b6dfd030821a68ccb526f",
       "last": "2024-07-12",
       "ms": 277412,
       "name": "The Runaways",
@@ -9812,6 +9898,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "5JpSUY2Zpw62RWAQIejAXx",
+      "image": "https://i.scdn.co/image/ab67616d00001e024353fc20f3405b963e88b3aa",
       "last": "2024-07-12",
       "ms": 347592,
       "name": "The Sneepers",
@@ -9824,6 +9912,8 @@
     {
       "count": 2,
       "first": "2022-03-05",
+      "id": "5fbhwqYYh4YwUoEs582mq5",
+      "image": "https://i.scdn.co/image/ab67616100005174c973e7f9d1a3be98df8b8dbc",
       "last": "2024-07-13",
       "ms": 426000,
       "name": "The Spinners",
@@ -9859,6 +9949,8 @@
     {
       "count": 2,
       "first": "2021-05-28",
+      "id": "5gnerJQeC6DOhWziTjPITZ",
+      "image": "https://i.scdn.co/image/ab67616d00001e02682d0fca7e36560307ce5d6b",
       "last": "2021-05-29",
       "ms": 265600,
       "name": "TheDewk",
@@ -9881,6 +9973,8 @@
     {
       "count": 2,
       "first": "2021-03-23",
+      "id": "4lPl9gqgox3JDiaJ1yklKh",
+      "image": "https://i.scdn.co/image/ab6761610000517441c97b9ebb64c239c0f01598",
       "last": "2021-04-05",
       "ms": 224461,
       "name": "Tierra Whack",
@@ -9904,6 +9998,8 @@
     {
       "count": 2,
       "first": "2021-07-22",
+      "id": "7o9Nl7K1Al6NNAHX6jn6iG",
+      "image": "https://i.scdn.co/image/ab67616100005174af115cb8c3abf7629111fabc",
       "last": "2026-02-22",
       "ms": 203513,
       "name": "Travie McCoy",
@@ -9916,6 +10012,8 @@
     {
       "count": 2,
       "first": "2021-08-04",
+      "id": "7sF6m3PpW6G6m6J2gzzmzM",
+      "image": "https://i.scdn.co/image/ab67616100005174ad2d781df3337a2c0cde6630",
       "last": "2023-04-11",
       "ms": 205055,
       "name": "U.S.A. For Africa",
@@ -9928,6 +10026,8 @@
     {
       "count": 2,
       "first": "2020-05-17",
+      "id": "0okpgBQamDqOZazBeH0J3I",
+      "image": "https://i.scdn.co/image/ab676161000051746a1fbe842b26c53d8ada53da",
       "last": "2020-05-20",
       "ms": 364832,
       "name": "Unknown Brain",
@@ -10162,6 +10262,28 @@
       "tracks": 1,
       "years": {
         "2020": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-07-29",
+      "last": "2026-07-31",
+      "ms": 0,
+      "name": "ウィズ・カリファ",
+      "tracks": 1,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-07-23",
+      "last": "2026-07-31",
+      "ms": 0,
+      "name": "エルトン・ジョン",
+      "tracks": 1,
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -15966,17 +16088,6 @@
     },
     {
       "count": 1,
-      "first": "2026-07-29",
-      "last": "2026-07-29",
-      "ms": 0,
-      "name": "ウィズ・カリファ",
-      "tracks": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "count": 1,
       "first": "2024-10-07",
       "last": "2024-10-07",
       "ms": 150849,
@@ -15984,17 +16095,6 @@
       "tracks": 1,
       "years": {
         "2024": 1
-      }
-    },
-    {
-      "count": 1,
-      "first": "2026-07-23",
-      "last": "2026-07-23",
-      "ms": 0,
-      "name": "エルトン・ジョン",
-      "tracks": 1,
-      "years": {
-        "2026": 1
       }
     },
     {
@@ -16482,5 +16582,5 @@
       }
     }
   ],
-  "generated_at": "2026-07-30T17:18:36.906947+00:00"
+  "generated_at": "2026-07-31T17:22:44.684842+00:00"
 }
