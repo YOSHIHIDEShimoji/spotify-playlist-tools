@@ -260,7 +260,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 135,
+      "count": 136,
       "name": "All My Loving - Remastered 2009",
       "track_id": "4joiWvli4qJVEW6qZV2i2J"
     },
@@ -413,6 +413,14 @@
         "The Beatles"
       ],
       "count": 119,
+      "name": "Please Mister Postman - Remastered 2009",
+      "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 119,
       "name": "You've Got To Hide Your Love Away - Remastered 2009",
       "track_id": "4F1AgKpuFRMLEgtPETVwZk"
     },
@@ -439,14 +447,6 @@
       "count": 118,
       "name": "All I've Got To Do - Remastered 2009",
       "track_id": "5tztLBvTlNC15Np2tnQ5Ll"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 118,
-      "name": "Please Mister Postman - Remastered 2009",
-      "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-07-31T17:21:39.437105+00:00",
+  "generated_at": "2026-08-01T16:51:47.049635+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 62241
+    "total": 62269
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 5,
@@ -838,6 +838,15 @@
     },
     {
       "artists": [
+        "ケンドリック・ラマー"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+      "track_id": "3GCdLUSnKSMJhs4Tj6CV3s"
+    },
+    {
+      "artists": [
         "Henry Moodie"
       ],
       "count": 2,
@@ -859,18 +868,45 @@
         "OneRepublic"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
-      "name": "Beautiful Colors - from Kaiju No. 8",
-      "track_id": "0baR1QmlC8CruupaxA1IYA"
+      "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
+      "name": "Need Your Love",
+      "track_id": "3FK9wVJHNdJhqVPbIcoZsn"
     },
     {
       "artists": [
-        "ケンドリック・ラマー"
+        "OneRepublic"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
-      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
-      "track_id": "3GCdLUSnKSMJhs4Tj6CV3s"
+      "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
+      "name": "I Ain't Worried",
+      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "All This Time",
+      "track_id": "48FuVo0KwE3N7Fqmc8cT4r"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516d6be071aa09ee4c51a10ece",
+      "name": "Ordinary Human",
+      "track_id": "0VmdveDdlr2FMGwBljCfxA"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
+      "name": "Beautiful Colors - from Kaiju No. 8",
+      "track_id": "0baR1QmlC8CruupaxA1IYA"
     },
     {
       "artists": [
@@ -880,6 +916,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048514e5df11b17b2727da2b718d8",
       "name": "See You Again (feat. Charlie Puth)",
       "track_id": "2JzZzZUQj3Qff7wapcbKjc"
+    },
+    {
+      "artists": [
+        "ポスト・マローン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
+      "name": "Wrong Ones (Feat. Tim McGraw)",
+      "track_id": "2CIXO1jQbrV1hlfI7FUKld"
     },
     {
       "artists": [
@@ -943,6 +988,24 @@
       "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
       "name": "Till There Was You - Remastered 2009",
       "track_id": "0ESIjVxnDnCDaTPo6sStHm"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "name": "Little Child - Remastered 2009",
+      "track_id": "0KogQrSowDnZoU8GSpaxkj"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Nobody - from Kaiju No. 8",
+      "track_id": "3SiVMpHxTS1gspWzRZE50S"
     },
     {
       "artists": [
@@ -1183,36 +1246,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
-      "name": "Need Your Love",
-      "track_id": "3FK9wVJHNdJhqVPbIcoZsn"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
       "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
       "name": "Stargazing",
       "track_id": "1ZWp7uMlEwBhpedEw6F048"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "All This Time",
-      "track_id": "48FuVo0KwE3N7Fqmc8cT4r"
     },
     {
       "artists": [
@@ -1231,42 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
       "name": "Sucker Punch",
       "track_id": "5phIlbhXRbIgZwf8yFlSWv"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
-      "name": "All the Right Moves",
-      "track_id": "5XRHGXut00SrJUFmcn2lQF"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516d6be071aa09ee4c51a10ece",
-      "name": "Ordinary Human",
-      "track_id": "0VmdveDdlr2FMGwBljCfxA"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Ships + Tides",
-      "track_id": "0GUncXNah8KoaErnDd7H1L"
     }
   ]
 }
