@@ -17,16 +17,16 @@
     {
       "because": [
         {
-          "count": 984,
-          "name": "Taylor Swift"
-        },
-        {
           "count": 867,
           "name": "Charlie Puth"
+        },
+        {
+          "count": 380,
+          "name": "Ed Sheeran"
         }
       ],
       "name": "Niall Horan",
-      "score": 20.3141
+      "score": 18.361
     },
     {
       "because": [
@@ -45,16 +45,16 @@
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
-          "count": 412,
+          "count": 422,
           "name": "Maroon 5"
         }
       ],
       "name": "The Script",
-      "score": 15.2585
+      "score": 15.2741
     },
     {
       "because": [
@@ -115,21 +115,21 @@
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
-          "count": 412,
+          "count": 422,
           "name": "Maroon 5"
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.5316
+      "score": 9.5399
     },
     {
       "because": [
         {
-          "count": 861,
+          "count": 863,
           "name": "Novelbright"
         },
         {
@@ -138,7 +138,7 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.3939
+      "score": 9.3951
     },
     {
       "because": [
@@ -199,7 +199,7 @@
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
@@ -208,7 +208,7 @@
         }
       ],
       "name": "Matchbox Twenty",
-      "score": 8.3867
+      "score": 8.3871
     },
     {
       "because": [
@@ -259,12 +259,12 @@
           "name": "Ed Sheeran"
         },
         {
-          "count": 268,
+          "count": 274,
           "name": "Henry Moodie"
         }
       ],
       "name": "Myles Smith",
-      "score": 8.1977
+      "score": 8.2108
     },
     {
       "because": [
@@ -339,7 +339,7 @@
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
@@ -348,7 +348,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 7.4574
+      "score": 7.4579
     },
     {
       "because": [
@@ -367,16 +367,16 @@
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
-          "count": 268,
+          "count": 274,
           "name": "Henry Moodie"
         }
       ],
       "name": "BANNERS",
-      "score": 6.9902
+      "score": 6.9993
     },
     {
       "because": [
@@ -385,17 +385,17 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 412,
+          "count": 422,
           "name": "Maroon 5"
         }
       ],
       "name": "DNCE",
-      "score": 6.9239
+      "score": 6.9344
     },
     {
       "because": [
         {
-          "count": 1865,
+          "count": 1867,
           "name": "OneRepublic"
         },
         {
@@ -404,7 +404,7 @@
         }
       ],
       "name": "The Fray",
-      "score": 6.908
+      "score": 6.9085
     },
     {
       "because": [
@@ -422,7 +422,7 @@
     }
   ],
   "available": true,
-  "generated_at": "2026-08-01T16:53:23.051891+00:00",
+  "generated_at": "2026-08-02T16:52:03.729702+00:00",
   "source": "lastfm",
   "tracks": [
     {

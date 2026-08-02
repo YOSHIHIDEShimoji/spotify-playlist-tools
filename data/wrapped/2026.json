@@ -29,20 +29,20 @@
       "month": "2026-07"
     },
     {
-      "count": 38,
+      "count": 99,
       "month": "2026-08"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 885,
+  "new_tracks": 889,
   "peak": {
     "dow": 3,
     "hour": 21
   },
-  "plays": 10587,
+  "plays": 10648,
   "top_artists": [
     {
-      "count": 1473,
+      "count": 1475,
       "name": "OneRepublic"
     },
     {
@@ -66,11 +66,11 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 268,
+      "count": 274,
       "name": "Henry Moodie"
     },
     {
-      "count": 261,
+      "count": 271,
       "name": "Maroon 5"
     },
     {
@@ -78,7 +78,7 @@
       "name": "Ed Sheeran"
     },
     {
-      "count": 244,
+      "count": 246,
       "name": "Novelbright"
     },
     {
@@ -94,7 +94,7 @@
       "name": "Shawn Mendes"
     },
     {
-      "count": 139,
+      "count": 140,
       "name": "Bruno Mars"
     },
     {
@@ -151,7 +151,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 63,
+      "count": 64,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -159,7 +159,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 61,
+      "count": 62,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -175,15 +175,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 58,
-      "name": "Nobody - from Kaiju No. 8",
-      "track_id": "47N81NMkB488fuOwOC3Oip"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 58,
+      "count": 59,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
@@ -191,9 +183,17 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 58,
+      "count": 59,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 58,
+      "name": "Nobody - from Kaiju No. 8",
+      "track_id": "47N81NMkB488fuOwOC3Oip"
     },
     {
       "artists": [
@@ -253,6 +253,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 51,
+      "name": "Sunshine",
+      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+    },
+    {
+      "artists": [
         "Kygo"
       ],
       "count": 50,
@@ -266,14 +274,6 @@
       "count": 50,
       "name": "Marchin On",
       "track_id": "4BUtvtGTRvJB49Hx2F7lle"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 50,
-      "name": "Sunshine",
-      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
     },
     {
       "artists": [
