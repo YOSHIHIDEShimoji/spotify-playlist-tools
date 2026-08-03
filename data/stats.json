@@ -1,7 +1,7 @@
 {
   "artists_top": [
     {
-      "count": 106,
+      "count": 91,
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "name": "OneRepublic"
     },
@@ -86,6 +86,11 @@
       "name": "ZAYN"
     },
     {
+      "count": 9,
+      "id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "name": "Matt Hansen"
+    },
+    {
       "count": 8,
       "id": "7k73EtZwoPs516ZxE72KsO",
       "name": "ONE OK ROCK"
@@ -114,11 +119,6 @@
       "count": 7,
       "id": "1vCWHaC5f2uS3yhpwWbIA6",
       "name": "Avicii"
-    },
-    {
-      "count": 7,
-      "id": "6wlhqnATSJIc0NQ64VxOVJ",
-      "name": "Matt Hansen"
     },
     {
       "count": 6,
@@ -165,11 +165,11 @@
       "decade": 1990
     },
     {
-      "count": 71,
+      "count": 64,
       "decade": 2000
     },
     {
-      "count": 347,
+      "count": 341,
       "decade": 2010
     },
     {
@@ -186,7 +186,7 @@
           "name": "The Beatles"
         },
         {
-          "count": 106,
+          "count": 91,
           "id": "5Pwc4xIPtQLFEnJriah9YJ",
           "name": "OneRepublic"
         },
@@ -292,6 +292,11 @@
         },
         {
           "count": 9,
+          "id": "6wlhqnATSJIc0NQ64VxOVJ",
+          "name": "Matt Hansen"
+        },
+        {
+          "count": 9,
           "id": "3sFhA6G1N0gG1pszb6kk1m",
           "name": "Wings"
         },
@@ -324,11 +329,6 @@
           "count": 7,
           "id": "1vCWHaC5f2uS3yhpwWbIA6",
           "name": "Avicii"
-        },
-        {
-          "count": 7,
-          "id": "6wlhqnATSJIc0NQ64VxOVJ",
-          "name": "Matt Hansen"
         }
       ],
       "decades": [
@@ -349,11 +349,11 @@
           "decade": 1990
         },
         {
-          "count": 81,
+          "count": 74,
           "decade": 2000
         },
         {
-          "count": 356,
+          "count": 350,
           "decade": 2010
         },
         {
@@ -361,7 +361,7 @@
           "decade": 2020
         }
       ],
-      "total": 1119
+      "total": 1106
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -544,7 +544,7 @@
       "3gWeVkYJPREpkdCpDRjHFw": {
         "artists_top": [
           {
-            "count": 106,
+            "count": 91,
             "id": "5Pwc4xIPtQLFEnJriah9YJ",
             "name": "OneRepublic"
           },
@@ -609,6 +609,11 @@
             "name": "ZAYN"
           },
           {
+            "count": 9,
+            "id": "6wlhqnATSJIc0NQ64VxOVJ",
+            "name": "Matt Hansen"
+          },
+          {
             "count": 8,
             "id": "4AK6F7OLvEQ5QYCBNiQWHq",
             "name": "One Direction"
@@ -629,11 +634,6 @@
             "name": "Avicii"
           },
           {
-            "count": 7,
-            "id": "6wlhqnATSJIc0NQ64VxOVJ",
-            "name": "Matt Hansen"
-          },
-          {
             "count": 6,
             "id": "0fTSzq9jAh4c36UVb4V7CB",
             "name": "Alex Warren"
@@ -652,6 +652,11 @@
             "count": 6,
             "id": "1Xyo4u8uXC1ZmMpatF05PJ",
             "name": "The Weeknd"
+          },
+          {
+            "count": 5,
+            "id": "23fqKkggKUBHNkbKtXEls4",
+            "name": "Kygo"
           },
           {
             "count": 5,
@@ -685,11 +690,6 @@
           },
           {
             "count": 4,
-            "id": "23fqKkggKUBHNkbKtXEls4",
-            "name": "Kygo"
-          },
-          {
-            "count": 4,
             "id": "3Nrfpe0tUJi4K4DXYWgMUX",
             "name": "BTS"
           }
@@ -708,11 +708,11 @@
             "decade": 1990
           },
           {
-            "count": 45,
+            "count": 38,
             "decade": 2000
           },
           {
-            "count": 264,
+            "count": 258,
             "decade": 2010
           },
           {
@@ -720,7 +720,7 @@
             "decade": 2020
           }
         ],
-        "total": 561
+        "total": 548
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -858,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-08-02T16:50:36.098361+00:00",
-  "total": 761
+  "generated_at": "2026-08-03T17:47:17.141302+00:00",
+  "total": 748
 }

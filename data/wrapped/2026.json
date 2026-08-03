@@ -29,20 +29,20 @@
       "month": "2026-07"
     },
     {
-      "count": 99,
+      "count": 168,
       "month": "2026-08"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 889,
+  "new_tracks": 894,
   "peak": {
     "dow": 3,
     "hour": 21
   },
-  "plays": 10648,
+  "plays": 10717,
   "top_artists": [
     {
-      "count": 1475,
+      "count": 1515,
       "name": "OneRepublic"
     },
     {
@@ -59,14 +59,14 @@
     },
     {
       "count": 276,
-      "name": "Michael Jackson"
-    },
-    {
-      "count": 275,
       "name": "Justin Bieber"
     },
     {
-      "count": 274,
+      "count": 276,
+      "name": "Michael Jackson"
+    },
+    {
+      "count": 276,
       "name": "Henry Moodie"
     },
     {
@@ -78,7 +78,7 @@
       "name": "Ed Sheeran"
     },
     {
-      "count": 246,
+      "count": 245,
       "name": "Novelbright"
     },
     {
@@ -98,7 +98,7 @@
       "name": "Bruno Mars"
     },
     {
-      "count": 132,
+      "count": 134,
       "name": "Kygo"
     },
     {
@@ -159,7 +159,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 62,
+      "count": 63,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -175,7 +175,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 59,
+      "count": 60,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
@@ -183,7 +183,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 59,
+      "count": 60,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
     },
@@ -231,7 +231,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 54,
+      "count": 55,
       "name": "Rescue Me",
       "track_id": "37LNNQNbL1YLyutBG6aWRx"
     },
@@ -247,9 +247,17 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 51,
+      "count": 52,
       "name": "Good Life - from One Night In Malibu",
       "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 51,
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [
@@ -258,14 +266,6 @@
       "count": 51,
       "name": "Sunshine",
       "track_id": "6keF0sk7i4WU3cVnMkTtS3"
-    },
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 50,
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [
