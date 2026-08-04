@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-08-03T17:47:07.125202+00:00",
+  "generated_at": "2026-08-04T17:30:47.181102+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 62399
+    "total": 62422
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 7,
+  "streak": 8,
   "weekly_top": [
+    {
+      "artists": [
+        "ブルーノ・マーズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "name": "Marry You",
+      "track_id": "6SKwQghsR8AISlxhcwyA9R"
+    },
     {
       "artists": [
         "Gryffin"
@@ -856,30 +865,12 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
+        "デヴィッド・ゲッタ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Burning Bridges",
-      "track_id": "3FQrnheOyqkoJPVgS7ZjoH"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485133725895b46d20ffcbe26047",
-      "name": "We’re In This Together",
-      "track_id": "7EsQIwQRGUonT3vja1weWW"
-    },
-    {
-      "artists": [
-        "ブルーノ・マーズ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "name": "Marry You",
-      "track_id": "6SKwQghsR8AISlxhcwyA9R"
+      "image": "https://i.scdn.co/image/ab67616d00004851720d368aa9ea6335ca40a6f8",
+      "name": "S.T.O.P",
+      "track_id": "37TgrDSXlOQI1mAqASPI7F"
     },
     {
       "artists": [
@@ -931,9 +922,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851b40ba6894917eec8453356d8",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/e1772e4bec06c39aff2fbd40a2d52716.png",
       "name": "Something's Not Right Here",
-      "track_id": "02KhGhQeAieOyzqh1Ebu9h"
+      "track_id": "lastfm:somethingsnotrighthere|onerepublic"
     },
     {
       "artists": [
@@ -958,9 +949,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851acc995be2b5bdc62d622ccd3",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/dc9ec9026e229cfdfffd2ccf318a07bf.jpg",
       "name": "Start Again (feat. Logic)",
-      "track_id": "1Nj2oBISdFDSF8eDuXcALz"
+      "track_id": "lastfm:startagainfeatlogic|onerepublic"
     },
     {
       "artists": [
@@ -1048,18 +1039,18 @@
         "Leona Lewis"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485117bb3bedbfee5ef31eff2f59",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2b4a61148f8443be986736f604039974.png",
       "name": "Lost Then Found (feat. OneRepublic)",
-      "track_id": "4fGWnPwe58RbdTWD5ElNS1"
+      "track_id": "lastfm:lostthenfoundfeatonerepublic|leonalewis"
     },
     {
       "artists": [
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/e2b7450a5e3f7b88b75943ab71fc4aa0.jpg",
       "name": "Won't Stop",
-      "track_id": "5ZEY2HUEstaLlhxGoWmzCE"
+      "track_id": "lastfm:wontstop|onerepublic"
     },
     {
       "artists": [
@@ -1093,9 +1084,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/64f5844be54a443b8e5957afcee2eeb1.jpg",
       "name": "Made for You",
-      "track_id": "2XNJSBujmvPSPaLGu8TW7q"
+      "track_id": "lastfm:madeforyou|onerepublic"
     },
     {
       "artists": [
@@ -1120,9 +1111,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/64f5844be54a443b8e5957afcee2eeb1.jpg",
       "name": "Lullaby",
-      "track_id": "76b0tV3rkhmn0dyqtVbVe4"
+      "track_id": "lastfm:lullaby|onerepublic"
     },
     {
       "artists": [
@@ -1138,9 +1129,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/45dcbbf6e6bb5c645378d33ed671c01d.png",
       "name": "Savior",
-      "track_id": "4VhR9r9zgzikeruUScgj8A"
+      "track_id": "lastfm:savior|onerepublic"
     },
     {
       "artists": [
@@ -1192,9 +1183,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/64f5844be54a443b8e5957afcee2eeb1.jpg",
       "name": "Passenger",
-      "track_id": "3LzDGNWo1EuIN1bW2RTw2x"
+      "track_id": "lastfm:passenger|onerepublic"
     },
     {
       "artists": [
@@ -1267,6 +1258,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "All These Things",
       "track_id": "5SlNjNaibdMLveJPYqAAaE"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Runaway",
+      "track_id": "2LsFnG9KYkWSk8dVopmHw2"
     }
   ]
 }

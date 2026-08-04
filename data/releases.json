@@ -1,14 +1,25 @@
 {
-  "generated_at": "2026-08-03T17:49:58.098428+00:00",
+  "generated_at": "2026-08-04T17:33:52.473361+00:00",
   "items": [
     {
-      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
-      "album_name": "YOU CAN ALWAYS COME BACK HOME",
+      "album_id": "5qaeuy8IGvzIbWxemcfYv2",
+      "album_name": "Can’t Take My Eyes Off You",
       "album_type": "single",
-      "artist": "Jon Keith",
-      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3582f501b139ebf5569c724",
+      "is_new": true,
+      "release_date": "2026-08-04"
+    },
+    {
+      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
+      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -35,39 +46,6 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "3dyDogMMGazC2xQWaEGnuy",
-      "album_name": "Assassin's Creed Black Flag Resynced (New Score Soundtrack)",
-      "album_type": "album",
-      "artist": "Stephen Lukach",
-      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485183494215ce98b4c398337ce8",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
-      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "1vClDIChMXkf3Gg82ajfXu",
-      "album_name": "Smoke",
-      "album_type": "single",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aa9e896e1d6b1fa97b133cd8",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
       "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
       "album_name": "Glitter",
       "album_type": "single",
@@ -75,6 +53,39 @@
       "artist_id": "4xnihxcoXWK3UqryOSnbw5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
+      "album_name": "YOU CAN ALWAYS COME BACK HOME",
+      "album_type": "single",
+      "artist": "Jon Keith",
+      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
+      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
+      "album_type": "single",
+      "artist": "BLANKA",
+      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "6yVtMd0swv4uJMgc9nC8hK",
+      "album_name": "Hey There Delilah (ft. LØLØ)",
+      "album_type": "single",
+      "artist": "Plain White T's",
+      "artist_id": "1g1yxsNVPhMUl9GrMjEb2o",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485137dab50f22dbd3809b4c3c99",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -112,26 +123,37 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "6yVtMd0swv4uJMgc9nC8hK",
-      "album_name": "Hey There Delilah (ft. LØLØ)",
-      "album_type": "single",
-      "artist": "Plain White T's",
-      "artist_id": "1g1yxsNVPhMUl9GrMjEb2o",
+      "album_id": "3dyDogMMGazC2xQWaEGnuy",
+      "album_name": "Assassin's Creed Black Flag Resynced (New Score Soundtrack)",
+      "album_type": "album",
+      "artist": "Stephen Lukach",
+      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485137dab50f22dbd3809b4c3c99",
+      "image": "https://i.scdn.co/image/ab67616d0000485183494215ce98b4c398337ce8",
       "is_new": false,
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
-      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
+      "album_id": "1vClDIChMXkf3Gg82ajfXu",
+      "album_name": "Smoke",
       "album_type": "single",
-      "artist": "BLANKA",
-      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
+      "artist": "Gavin Greenaway",
+      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
+      "image": "https://i.scdn.co/image/ab67616d00004851aa9e896e1d6b1fa97b133cd8",
       "is_new": false,
       "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "5mBN3LBm5X2riL6I4rZtAb",
+      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c1f0ad9c995f0d6527aad77c",
+      "is_new": true,
+      "release_date": "2026-07-30"
     },
     {
       "album_id": "1KLlMRa36B3s4E4s11wcDh",
@@ -145,13 +167,13 @@
       "release_date": "2026-07-30"
     },
     {
-      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
-      "album_name": "Happiness Is So Sad",
-      "album_type": "single",
-      "artist": "Swedish House Mafia",
-      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
+      "album_id": "5Er818ARb7me75pPmqlhMK",
+      "album_name": "Happy Vibes",
+      "album_type": "album",
+      "artist": "Shreya Ghoshal",
+      "artist_id": "0oOet2f43PA68X5RxKobEy",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
+      "image": "https://i.scdn.co/image/ab67616d00004851d48c4f0da042a2b884c3cfa7",
       "is_new": false,
       "release_date": "2026-07-30"
     },
@@ -163,17 +185,17 @@
       "artist_id": "4kYSro6naA4h99UJvo89HB",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485147b7ca4f69f5386298e3fceb",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-07-30"
     },
     {
-      "album_id": "5Er818ARb7me75pPmqlhMK",
-      "album_name": "Happy Vibes",
-      "album_type": "album",
-      "artist": "Shreya Ghoshal",
-      "artist_id": "0oOet2f43PA68X5RxKobEy",
+      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
+      "album_name": "Happiness Is So Sad",
+      "album_type": "single",
+      "artist": "Swedish House Mafia",
+      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d48c4f0da042a2b884c3cfa7",
+      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
       "is_new": false,
       "release_date": "2026-07-30"
     },
@@ -211,28 +233,6 @@
       "release_date": "2026-07-29"
     },
     {
-      "album_id": "6VYjqAdWExFAfDdAudVT23",
-      "album_name": "Fireflies",
-      "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
-      "album_name": "World Away",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
       "album_id": "42caCzNjnIwd12YcA9yrCx",
       "album_name": "Under The Iron Sea (20th Anniversary)",
       "album_type": "album",
@@ -240,17 +240,6 @@
       "artist_id": "53A0W3U0s8diEn9RhXQhVz",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513111d4a053b5ec6418f71c59",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "6dRaftlP9DBYK0JWuQeW9M",
-      "album_name": "Let Love In (20th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "The Goo Goo Dolls",
-      "artist_id": "2sil8z5kiy4r76CRTXxBCA",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851737d220896f34eeef231dfcd",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -284,6 +273,39 @@
       "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
+      "album_name": "World Away",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "6dRaftlP9DBYK0JWuQeW9M",
+      "album_name": "Let Love In (20th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "The Goo Goo Dolls",
+      "artist_id": "2sil8z5kiy4r76CRTXxBCA",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851737d220896f34eeef231dfcd",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "6VYjqAdWExFAfDdAudVT23",
+      "album_name": "Fireflies",
+      "album_type": "single",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
       "is_new": false,
       "release_date": "2026-07-24"
     },

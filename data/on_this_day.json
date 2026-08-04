@@ -1,283 +1,383 @@
 {
-  "date": "08-04",
-  "generated_at": "2026-08-03T17:48:10.792507+00:00",
+  "date": "08-05",
+  "generated_at": "2026-08-04T17:31:56.484341+00:00",
   "years": [
     {
-      "plays": 78,
+      "plays": 12,
       "tracks": [
         {
           "artists": [
-            "Taro Iwashiro"
+            "The Weeknd"
           ],
           "count": 2,
-          "name": "For Precious One",
-          "track_id": "3Tcu6hwmuaJOd4HRNlaBzd"
+          "name": "Save Your Tears",
+          "track_id": "5QO79kh1waicV47BqGRL3g"
         },
         {
           "artists": [
-            "髙見 優/長岡 成貢"
+            "Taylor Swift"
           ],
           "count": 1,
-          "name": "南方仁のテーマ",
-          "track_id": "2p71NDW60CTBSDnIqDpXYP"
+          "name": "Lover",
+          "track_id": "1dGr1c8CrMLDpV6mPbImSI"
         },
         {
           "artists": [
-            "Naomi Scott"
+            "Dua Lipa"
           ],
           "count": 1,
-          "name": "Speechless (Full)",
-          "track_id": "0XPsOSYzDJZJArevQNm2AR"
+          "name": "Don't Start Now",
+          "track_id": "6WrI0LAC5M1Rw2MnX2ZvEg"
         },
         {
           "artists": [
-            "Shawn Mendes"
+            "Jake Miller"
           ],
           "count": 1,
-          "name": "Señorita",
-          "track_id": "6v3KW9xbzN5yKLt9YKDYA2"
+          "name": "The Girl That's Underneath (feat. Jabbar Hakeem)",
+          "track_id": "6vzMM12p1XkbheVj39VVvT"
         },
         {
           "artists": [
-            "Mr.Children"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "名もなき詩",
-          "track_id": "60ba7YZ3yqbCDGAkPNXzBh"
+          "name": "SOULSOUP",
+          "track_id": "7sc873fPEG8xnU3r1CDDhI"
         },
         {
           "artists": [
-            "Yuuri"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "ベテルギウス",
-          "track_id": "4JK1kDUdH9RTBQrrSO1QfR"
+          "name": "異端なスター",
+          "track_id": "6vtHQ7FcAXSOKSOeaBm5bc"
         },
         {
           "artists": [
-            "Coldplay"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "A Sky Full of Stars",
-          "track_id": "0FDzzruyVECATHXKHFs9eJ"
+          "name": "Universe",
+          "track_id": "6KLaKHxwJE3CZECVJLH4cN"
         },
         {
           "artists": [
-            "Kenny Loggins"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
-          "track_id": "34x6hEJgGAOQvmlMql5Ige"
+          "name": "Cry Baby",
+          "track_id": "6wDntdm888mDo458RaYjGl"
         },
         {
           "artists": [
-            "Taro Iwashiro"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "Battle Not For the War",
-          "track_id": "1lDTQsJE26gl0FuapzLBA4"
+          "name": "TATTOO",
+          "track_id": "66hblHI9wl1Nim70ZYLb6D"
         },
         {
           "artists": [
-            "船橋さざんか少年少女合唱団"
+            "OFFICIAL HIGE DANDISM"
           ],
           "count": 1,
-          "name": "最後のチャイム (二部)",
-          "track_id": "7xzNpPliyrqd25BsofxJUd"
+          "name": "Chessboard",
+          "track_id": "6AXTD0tYIpbONDaTOlM7C8"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 7,
+      "plays": 4,
       "tracks": [
         {
           "artists": [
-            "SPITZ"
+            "The Beatles"
           ],
-          "count": 2,
-          "name": "美しい鰭",
-          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+          "count": 1,
+          "name": "We Can Work It Out - Remastered 2015",
+          "track_id": "1hTUFqJuQAMjXVGwUPWDqi"
         },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I Feel Fine - Remastered 2015",
+          "track_id": "5hhF25sWnZvXhimOHLjTRE"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I'll Be Back - Remastered 2009",
+          "track_id": "3lSi6qfnp2YZazTzcOLBZk"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "No Reply - Remastered 2009",
+          "track_id": "4ltC6PrqkTtpcRNi5lvS4z"
+        }
+      ],
+      "year": "2024"
+    },
+    {
+      "plays": 9,
+      "tracks": [
         {
           "artists": [
             "Prateek Kuhad"
           ],
-          "count": 1,
+          "count": 2,
           "name": "Co2",
           "track_id": "3hB9lDLyAClYVZivMMl20N"
-        },
-        {
-          "artists": [
-            "Kenji Sawada"
-          ],
-          "count": 1,
-          "name": "ヤマトより愛をこめて",
-          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
-        },
-        {
-          "artists": [
-            "SPITZ"
-          ],
-          "count": 1,
-          "name": "チェリー",
-          "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
-        },
-        {
-          "artists": [
-            "SPITZ"
-          ],
-          "count": 1,
-          "name": "ロビンソン",
-          "track_id": "0sVnyL71jTOuMt9TZ59bws"
         },
         {
           "artists": [
             "back number"
           ],
           "count": 1,
-          "name": "恋",
-          "track_id": "7f9DsQEsIoeTwKxV6shsom"
+          "name": "クリスマスソング",
+          "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "BUMP OF CHICKEN"
+          ],
+          "count": 1,
+          "name": "クロノスタシス",
+          "track_id": "6Pd73yNBtoVpTRM6xLwOGp"
+        },
+        {
+          "artists": [
+            "Rei Yasuda"
+          ],
+          "count": 1,
+          "name": "Best of my Love",
+          "track_id": "1q9CwY8w7SKWkMMTuY6GOF"
+        },
+        {
+          "artists": [
+            "Mika Nakashima"
+          ],
+          "count": 1,
+          "name": "愛詞 (あいことば)",
+          "track_id": "1B2fP25HizaqNEDPYeLrx1"
+        },
+        {
+          "artists": [
+            "Uru"
+          ],
+          "count": 1,
+          "name": "プロローグ",
+          "track_id": "4YMukCV1BsdK8V9kZoQpT6"
+        },
+        {
+          "artists": [
+            "d4vd"
+          ],
+          "count": 1,
+          "name": "Here With Me",
+          "track_id": "5LrN7yUQAzvthd4QujgPFr"
         }
       ],
       "year": "2023"
     },
     {
-      "plays": 6,
+      "plays": 1,
       "tracks": [
         {
           "artists": [
-            "The Beatles"
+            "back number"
           ],
           "count": 1,
-          "name": "Not A Second Time - Remastered 2009",
-          "track_id": "5vl0sRtrQM1BTSAxQZFqEN"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "I Want To Hold Your Hand - Remastered 2009",
-          "track_id": "27E39dDg0Bx1RzkF3eJJsb"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "This Boy - Remastered 2009",
-          "track_id": "0oQshbv1BFLZ61b1tQ4Eqg"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Can't Buy Me Love - Remastered 2009",
-          "track_id": "3SdingSsFcZDZAyvcJbgAw"
-        },
+          "name": "ヒロイン",
+          "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
+        }
+      ],
+      "year": "2022"
+    },
+    {
+      "plays": 45,
+      "tracks": [
         {
           "artists": [
             "Michael Jackson"
           ],
-          "count": 1,
+          "count": 5,
           "name": "Heal the World",
           "track_id": "7woW97CfcWaKtuC6W5BP2K"
         },
         {
           "artists": [
-            "U.S.A. For Africa"
-          ],
-          "count": 1,
-          "name": "We Are The World",
-          "track_id": "3Z2tPWiNiIpg8UMMoowHIk"
-        }
-      ],
-      "year": "2021"
-    },
-    {
-      "plays": 33,
-      "tracks": [
-        {
-          "artists": [
-            "Paul McCartney"
+            "Michael Jackson"
           ],
           "count": 2,
-          "name": "Put It There - Remastered 2017",
-          "track_id": "71jQgXQy27qvhlL5SgeqdH"
+          "name": "Man in the Mirror - 2012 Remaster",
+          "track_id": "3c7Ctlw9MKlIQPxRH3fOTt"
         },
         {
           "artists": [
-            "Paul McCartney"
+            "RetroVision"
           ],
           "count": 2,
-          "name": "Same Love",
-          "track_id": "6gZpp6gcfXb4hqP5fm1eiD"
+          "name": "Puzzle",
+          "track_id": "1gCTHjVFfwrxo0EBTECvZN"
+        },
+        {
+          "artists": [
+            "Michael Jackson"
+          ],
+          "count": 2,
+          "name": "Don't Stop 'Til You Get Enough",
+          "track_id": "46eu3SBuFCXWsPT39Yg3tJ"
+        },
+        {
+          "artists": [
+            "Michael Jackson"
+          ],
+          "count": 2,
+          "name": "Remember the Time",
+          "track_id": "4jnFqNWeJCeCRHc4HCdxfd"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Friends Will Be Friends - Remastered 2011",
-          "track_id": "3EGlnkJGcwz73rT0oE0X1X"
+          "name": "The Show Must Go On - Remastered 2011",
+          "track_id": "5n6RDaGFSN88oRWuGtYAIN"
         },
         {
           "artists": [
-            "Alan Silvestri"
+            "George Michael"
           ],
           "count": 1,
-          "name": "The Avengers - From \"The Avengers\"/Score",
-          "track_id": "6xk9LlCnSJz6cvmL6u4Bbe"
+          "name": "Careless Whisper",
+          "track_id": "4jDmJ51x1o9NZB5Nxxc7gY"
         },
         {
           "artists": [
-            "Brian Tyler"
+            "Wham!"
           ],
           "count": 1,
-          "name": "Iron Man 3",
-          "track_id": "7u5XBHnht6dyoRXRBb5soK"
+          "name": "Wham Rap! (Enjoy What You Do?) - Special U.S. Remix",
+          "track_id": "71lebjkaaiB7UgOlGeqt7M"
         },
         {
           "artists": [
-            "Alan Silvestri"
+            "Michael Jackson"
           ],
           "count": 1,
-          "name": "Portals",
-          "track_id": "0OVtnS3l4vThGxkdqCxN6K"
+          "name": "Bad - 2012 Remaster",
+          "track_id": "2gSNBigeWMVtY3QBIvPAEc"
         },
         {
           "artists": [
-            "Alan Silvestri"
+            "Michael Jackson"
           ],
           "count": 1,
-          "name": "The Real Hero",
-          "track_id": "3KHrXuByzDnDOaVR15rZH7"
+          "name": "Beat It",
+          "track_id": "3BovdzfaX4jb5KFQwoPfAw"
+        }
+      ],
+      "year": "2021"
+    },
+    {
+      "plays": 29,
+      "tracks": [
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 2,
+          "name": "Say Say Say - Remastered 2015",
+          "track_id": "5BxoKS16fDiOpcwTztQF30"
         },
         {
           "artists": [
-            "Alan Silvestri"
+            "Michael Jackson"
           ],
-          "count": 1,
-          "name": "Main on End",
-          "track_id": "5POrWnsqEV6HwTcRKLdXxk"
+          "count": 2,
+          "name": "The Girl Is Mine (with Paul McCartney)",
+          "track_id": "1diEQsD8PJC9hXB5Gpfgtn"
         },
         {
           "artists": [
-            "Michael Giacchino"
+            "Tobu"
           ],
           "count": 1,
-          "name": "Theme (from \"Spider Man\") [Original Television Series]",
-          "track_id": "1tzj2vY4twkNmZ5K3DUOPp"
+          "name": "Sunburst",
+          "track_id": "2uuFvHAL4B37ibCLEpikS4"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Free As A Bird - Anthology 1 Version",
+          "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Real Love - Anthology 2 Version",
+          "track_id": "5frMgt4jqRGJk3yMKfqOyl"
         },
         {
           "artists": [
             "Paul McCartney"
           ],
           "count": 1,
-          "name": "My Valentine",
-          "track_id": "0LJrw4m55mJcLB8X2IPwpB"
+          "name": "The Back Seat Of My Car - Remastered 2012",
+          "track_id": "05wvXK5IW9CjFQToL0N7Go"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "Somebody Who Cares - Remixed 2015",
+          "track_id": "0D3gTVj6enHDcWSnSzYLaw"
+        },
+        {
+          "artists": [
+            "Wings"
+          ],
+          "count": 1,
+          "name": "My Love - 2018 Remaster",
+          "track_id": "0Oj0TT23GBH2XuHAaSsloH"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "Here Today - Remixed 2015",
+          "track_id": "0QtnwXDziZN1K55fXuLN6q"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "Band On The Run - 2010 Remaster",
+          "track_id": "1H4idkmruFoJBg1DvUv2tY"
         }
       ],
       "year": "2020"
