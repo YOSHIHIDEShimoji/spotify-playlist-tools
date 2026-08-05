@@ -1,5 +1,12 @@
 {
   "artists": {
+    "*nsync": {
+      "followers": 3357839,
+      "genres": [],
+      "id": "6Ff53KvcvAj5U7Z1vojB5o",
+      "image": "https://i.scdn.co/image/ab676161000051749414ef07d0ca697726912df1",
+      "name": "*NSYNC"
+    },
     "21 savage": {
       "followers": 26240898,
       "genres": [],
@@ -650,6 +657,17 @@
       "image": "https://i.scdn.co/image/ab67616100005174f78341630056283b6d617753",
       "name": "Barbra Streisand"
     },
+    "barry white": {
+      "followers": 2412656,
+      "genres": [
+        "disco",
+        "soul",
+        "classic soul"
+      ],
+      "id": "3rfgbfpPSfXY40lzRK7Syt",
+      "image": "https://i.scdn.co/image/99f49b1947bb7e1156effba51ef87c784952d344",
+      "name": "Barry White"
+    },
     "bastille": {
       "followers": 5792494,
       "genres": [],
@@ -1162,6 +1180,16 @@
       "image": "https://i.scdn.co/image/ab67616100005174e908dc9071a2563ec3421f6c",
       "name": "Cha Noeul"
     },
+    "chanmina": {
+      "followers": 1705932,
+      "genres": [
+        "j-pop",
+        "j-rap"
+      ],
+      "id": "2vjeuQwzSP5ErC1S41gONX",
+      "image": "https://i.scdn.co/image/ab676161000051743c6a121a9f2ce9015fefdad1",
+      "name": "CHANMINA"
+    },
     "chapel chill": {
       "followers": 172,
       "genres": [],
@@ -1366,6 +1394,13 @@
       "id": "4gzpq5DPGxSnKTe4SA8HAU",
       "image": "https://i.scdn.co/image/ab676161000051741ba8fc5f5c73e7e9313cc6eb",
       "name": "Coldplay"
+    },
+    "conan gray": {
+      "followers": 13364695,
+      "genres": [],
+      "id": "4Uc8Dsxct0oMqx0P6i60ea",
+      "image": "https://i.scdn.co/image/ab676161000051744c2b62d4748524454a6f99b0",
+      "name": "Conan Gray"
     },
     "corm!!": {
       "followers": 8609,
@@ -1732,6 +1767,13 @@
       "image": "https://i.scdn.co/image/ab676161000051747881a8f9c6acbf6b9d470082",
       "name": "Different Heaven"
     },
+    "dionne warwick": {
+      "followers": 1117608,
+      "genres": [],
+      "id": "2JSjCHK79gdaiPWdKiNUNp",
+      "image": "https://i.scdn.co/image/ab67616100005174460f728695000dadb44a4e8c",
+      "name": "Dionne Warwick"
+    },
     "dip lewis": {
       "followers": 187,
       "genres": [
@@ -1833,6 +1875,13 @@
       "image": "https://i.scdn.co/image/ab6761610000517493d6ae34e07cfc2c595e7083",
       "name": "DJariium"
     },
+    "djo": {
+      "followers": 4804203,
+      "genres": [],
+      "id": "5p9HO3XC5P3BLxJs5Mtrhm",
+      "image": "https://i.scdn.co/image/ab676161000051744113d395582d3667b7978430",
+      "name": "Djo"
+    },
     "doja cat": {
       "followers": 38003897,
       "genres": [],
@@ -1846,6 +1895,13 @@
       "id": "6USv9qhCn6zfxlBQIYJ9qs",
       "image": "https://i.scdn.co/image/ab67616100005174f2903326ec44d5ecb37dcad9",
       "name": "Dominic Fike"
+    },
+    "drax project": {
+      "followers": 113831,
+      "genres": [],
+      "id": "6S0IvKlvPMX1RtAYtVpUV8",
+      "image": "https://i.scdn.co/image/ab67616100005174ca5b037417124b0baf7942a1",
+      "name": "Drax Project"
     },
     "dreams come true": {
       "followers": 1865809,
@@ -1866,6 +1922,37 @@
       "id": "6M2wZ9GZgrQXHCFfjv46we",
       "image": "https://i.scdn.co/image/ab676161000051740c68f6c95232e716f0abee8d",
       "name": "Dua Lipa"
+    },
+    "duos on mars": {
+      "followers": 803,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi"
+      ],
+      "id": "22xfcNHhnZQfa6BWd209Az",
+      "image": "https://i.scdn.co/image/ab67616100005174c63b8bbccc8830de0d86d75d",
+      "name": "Duos On Mars"
+    },
+    "dusty decks": {
+      "followers": 7980,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi"
+      ],
+      "id": "5mWkhlLhHU9FKT8vU8lBIR",
+      "image": "https://i.scdn.co/image/ab67616100005174893f906308ab03a93aeb1794",
+      "name": "Dusty Decks"
+    },
+    "dwyer": {
+      "followers": 4184,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi hip hop",
+        "lo-fi"
+      ],
+      "id": "0hDO4d5eFDFevAkXTvN2Mv",
+      "image": "https://i.scdn.co/image/ab67616100005174bcab9b963e3f4e52ffa84595",
+      "name": "Dwyer"
     },
     "eagles of death metal": {
       "followers": 586175,
@@ -1897,7 +1984,7 @@
       "name": "Ed Sheeran"
     },
     "ed sheeran & justin bieber": {
-      "followers": 17270,
+      "followers": 17298,
       "genres": [],
       "id": "1WsYCXdezMjn0KoIrLvMmC",
       "image": null,
@@ -1910,6 +1997,24 @@
       "image": "https://i.scdn.co/image/ab676161000051745c0bbbdaff0bc97f64603c2c",
       "name": "Eddie Benjamin"
     },
+    "edwin ajtún": {
+      "followers": 1375,
+      "genres": [
+        "organic house"
+      ],
+      "id": "50gxa3jUL79heOFEP2QFbL",
+      "image": "https://i.scdn.co/image/ab67616100005174d96d7fbfaab2fcca528d3640",
+      "name": "Edwin Ajtún"
+    },
+    "ehrling": {
+      "followers": 224940,
+      "genres": [
+        "tropical house"
+      ],
+      "id": "5wo7dlNLNdFmaaU7NTtdoT",
+      "image": "https://i.scdn.co/image/ab676161000051747bcb40c46b67abb8827ddd5c",
+      "name": "Ehrling"
+    },
     "eito": {
       "followers": 273986,
       "genres": [
@@ -1918,6 +2023,17 @@
       "id": "32QmJ5obSke8YKDbQvVPUx",
       "image": "https://i.scdn.co/image/ab67616100005174893574aaa6fdd2d4bc599d00",
       "name": "Eito"
+    },
+    "el jazzy chavo": {
+      "followers": 15633,
+      "genres": [
+        "boom bap",
+        "lo-fi beats",
+        "jazz beats"
+      ],
+      "id": "46Pwdl99hYWTIpSLrraBet",
+      "image": "https://i.scdn.co/image/ab67616100005174be2a606906e2f88cd4c545e4",
+      "name": "El Jazzy Chavo"
     },
     "electric light orchestra": {
       "followers": 4760516,
@@ -1951,6 +2067,13 @@
       "id": "3IR6DvP0x2a6oUSist9UMu",
       "image": "https://i.scdn.co/image/ab67616100005174f150b0bb6c8b4b8bd241c90f",
       "name": "elijah woods"
+    },
+    "elijah woods x jamie fine": {
+      "followers": 31440,
+      "genres": [],
+      "id": "0UARksVKrwd1Gwdeq3Mes1",
+      "image": "https://i.scdn.co/image/ab676161000051747b67821ab66b080ff7cb1c89",
+      "name": "Elijah Woods x Jamie Fine"
     },
     "ellie goulding": {
       "followers": 13918966,
@@ -1995,6 +2118,16 @@
       "image": "https://i.scdn.co/image/ab676161000051749a93e273380982dff84c0d7c",
       "name": "Elvis Presley"
     },
+    "emiko suzuki": {
+      "followers": 15465,
+      "genres": [
+        "j-pop",
+        "anime"
+      ],
+      "id": "76epfImetf9M3joFnNTrlJ",
+      "image": "https://i.scdn.co/image/ab67616100005174ef3684a96288f0705f4e018b",
+      "name": "Emiko Suzuki"
+    },
     "eminem": {
       "followers": 111295381,
       "genres": [
@@ -2005,12 +2138,37 @@
       "image": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
       "name": "Eminem"
     },
+    "emma wahlin": {
+      "followers": 13739,
+      "genres": [],
+      "id": "5vLM0jSwj4TMVhnWuocoaD",
+      "image": "https://i.scdn.co/image/ab676161000051740c0e3deb003589aa4227f094",
+      "name": "EMMA WAHLIN"
+    },
     "engelbert humperdinck": {
       "followers": 843487,
       "genres": [],
       "id": "17XXKfRBMCWvLrqGoNkJXm",
       "image": "https://i.scdn.co/image/ab676161000051740f3aa6415854de11e7d9c532",
       "name": "Engelbert Humperdinck"
+    },
+    "enra": {
+      "followers": 9048,
+      "genres": [
+        "lo-fi hip hop",
+        "lo-fi",
+        "lo-fi beats"
+      ],
+      "id": "1jDbZQQs4VNtiC4AerpIg4",
+      "image": "https://i.scdn.co/image/ab67616100005174ba03b19e0c863949a2d68f26",
+      "name": "ENRA"
+    },
+    "ensidya": {
+      "followers": 2846,
+      "genres": [],
+      "id": "2lenoWzSFNMSFJU05uqIrj",
+      "image": "https://i.scdn.co/image/ab676161000051749769aab2913a5c7f2ecb8f2b",
+      "name": "Ensidya"
     },
     "enya": {
       "followers": 2925639,
@@ -2075,6 +2233,36 @@
       "image": "https://i.scdn.co/image/ab67616100005174f2ad76ed7ebb0d3499fd357a",
       "name": "Felax"
     },
+    "fieldwork": {
+      "followers": 38,
+      "genres": [],
+      "id": "5cyUKFyK8oP7DiatRcfN0m",
+      "image": "https://i.scdn.co/image/ab67616d00001e02448f777957e820b9d969fc52",
+      "name": "Fieldwork"
+    },
+    "fin argus": {
+      "followers": 55219,
+      "genres": [],
+      "id": "1oDUPFTxn5JyS8MxUe9ko4",
+      "image": "https://i.scdn.co/image/ab6761610000517428b990e90514f0bb82db3ecb",
+      "name": "Fin Argus"
+    },
+    "fitz and the tantrums": {
+      "followers": 1097796,
+      "genres": [],
+      "id": "4AcHt3JxKy59IX7JNNlZn4",
+      "image": "https://i.scdn.co/image/ab67616100005174756717e6695fbaeb236857a2",
+      "name": "Fitz and The Tantrums"
+    },
+    "fleet francis": {
+      "followers": 112,
+      "genres": [
+        "lo-fi"
+      ],
+      "id": "0USAl4ZgyskdW7gADLZkdn",
+      "image": "https://i.scdn.co/image/ab67616d00001e027de8f257cb5ccb82a56a9c97",
+      "name": "Fleet Francis"
+    },
     "fleetwood mac": {
       "followers": 15599598,
       "genres": [
@@ -2085,6 +2273,13 @@
       "id": "08GQAI4eElDnROBrJRGE0X",
       "image": "https://i.scdn.co/image/ab67616100005174c8752dd511cda8c31e9daee8",
       "name": "Fleetwood Mac"
+    },
+    "flo rida": {
+      "followers": 9543157,
+      "genres": [],
+      "id": "0jnsk9HBra6NMjO2oANoPY",
+      "image": "https://i.scdn.co/image/ab67616100005174655ca8f3196953554b479452",
+      "name": "Flo Rida"
     },
     "flughand": {
       "followers": 43390,
@@ -2558,7 +2753,7 @@
       "name": "I WiSH"
     },
     "i'll take you there choir": {
-      "followers": 11079,
+      "followers": 11084,
       "genres": [],
       "id": "2ABREU7iSvhEV9Ktoj30ne",
       "image": null,
@@ -4533,6 +4728,13 @@
       "image": "https://i.scdn.co/image/ab67616100005174e834a63a0cfa3c0f57a9a434",
       "name": "Rick Astley"
     },
+    "rihanna": {
+      "followers": 75612900,
+      "genres": [],
+      "id": "5pKCCKE2ajJHZ9KAiaK11H",
+      "image": "https://i.scdn.co/image/ab67616100005174cb565a8e684e3be458d329ac",
+      "name": "Rihanna"
+    },
     "ringo starr": {
       "followers": 1063844,
       "genres": [],
@@ -5253,6 +5455,13 @@
       "image": "https://i.scdn.co/image/ab67616d00001e02bd2ad713f11d7f56c12eab29",
       "name": "Takako Matsu"
     },
+    "takashi kako": {
+      "followers": 13079,
+      "genres": [],
+      "id": "6SGJdaXYTp5Qzl8NwvlvAw",
+      "image": "https://i.scdn.co/image/ab67616d00001e02e52a6ff604789e0bcfb5f376",
+      "name": "Takashi Kako"
+    },
     "tani yuuki": {
       "followers": 785727,
       "genres": [
@@ -5880,6 +6089,13 @@
       "image": "https://i.scdn.co/image/ab676161000051747a48a5594f214ebc72a5ed56",
       "name": "Who-ya Extended"
     },
+    "why don't we": {
+      "followers": 3841458,
+      "genres": [],
+      "id": "2jnIB6XdLvnJUeNTy5A0J2",
+      "image": "https://i.scdn.co/image/ab676161000051749160fac7a1ecb8ee89a633ac",
+      "name": "Why Don't We"
+    },
     "wildflowers": {
       "followers": 24041,
       "genres": [],
@@ -6318,7 +6534,7 @@
       "name": "川崎鷹也"
     },
     "平松剛一": {
-      "followers": 909,
+      "followers": 910,
       "genres": [
         "choral"
       ],
@@ -6334,7 +6550,7 @@
       "name": "本名陽子"
     },
     "栗原正己": {
-      "followers": 1817,
+      "followers": 1815,
       "genres": [],
       "id": "4PUbqK8p5hZpUHqziQE6zK",
       "image": null,
@@ -6418,5 +6634,5 @@
       "name": "魔王魂"
     }
   },
-  "generated_at": "2026-08-04T17:31:55.227397+00:00"
+  "generated_at": "2026-08-05T17:23:18.627046+00:00"
 }

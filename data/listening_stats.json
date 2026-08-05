@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-08-04T17:30:47.181102+00:00",
+  "generated_at": "2026-08-05T17:22:10.926100+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 62422
+    "total": 62453
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 8,
+  "streak": 10,
   "weekly_top": [
     {
       "artists": [
@@ -865,12 +865,21 @@
     },
     {
       "artists": [
-        "デヴィッド・ゲッタ"
+        "Charlie Puth"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851720d368aa9ea6335ca40a6f8",
-      "name": "S.T.O.P",
-      "track_id": "37TgrDSXlOQI1mAqASPI7F"
+      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
+      "name": "Loser",
+      "track_id": "1BCXUbnU0486n4eeTyyVIj"
+    },
+    {
+      "artists": [
+        "Matt Hansen"
+      ],
+      "count": 2,
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/9f7a2066ab32ed6a4fd0a4236bd8511f.png",
+      "name": "better off without me",
+      "track_id": "lastfm:betteroffwithoutme|matthansen"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "All These Things",
       "track_id": "5SlNjNaibdMLveJPYqAAaE"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Runaway",
-      "track_id": "2LsFnG9KYkWSk8dVopmHw2"
     }
   ]
 }

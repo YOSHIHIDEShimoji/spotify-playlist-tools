@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-08-04T17:33:52.473361+00:00",
+  "generated_at": "2026-08-05T17:25:29.869433+00:00",
   "items": [
+    {
+      "album_id": "2jbqFS5kWBih7qFw5ThTYf",
+      "album_name": "Winnie Puuh - Alle sind beschäftigt",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851277c2be69f542c955d02c692",
+      "is_new": true,
+      "release_date": "2026-08-06"
+    },
+    {
+      "album_id": "34JHsWEZqsxb8ipmjcVxxb",
+      "album_name": "Zoomania 2: Clawhausers verschwundenes Mittagessen",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851240d049eb5fbd6d488dac51d",
+      "is_new": true,
+      "release_date": "2026-08-06"
+    },
     {
       "album_id": "5qaeuy8IGvzIbWxemcfYv2",
       "album_name": "Can’t Take My Eyes Off You",
@@ -9,52 +31,19 @@
       "artist_id": "4sTQVOfp9vEMCemLw50sbu",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851e3582f501b139ebf5569c724",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-08-04"
     },
     {
-      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
-      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_id": "1ZFKQqpFBa5X5vYfHHSDUA",
+      "album_name": "AH HA",
       "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "artist": "Cardi B",
+      "artist_id": "4kYSro6naA4h99UJvo89HB",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
+      "image": "https://i.scdn.co/image/ab67616d0000485147b7ca4f69f5386298e3fceb",
       "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
-      "album_name": "petal",
-      "album_type": "album",
-      "artist": "Ariana Grande",
-      "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5po8JSgrfUUMcc6r9lLawl",
-      "album_name": "River",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
-      "album_name": "Glitter",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
-      "is_new": false,
-      "release_date": "2026-07-31"
+      "release_date": "2026-08-03"
     },
     {
       "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
@@ -68,13 +57,24 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
-      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
+      "album_id": "0uNKUpiOQuoogwYkRlyGW7",
+      "album_name": "夏に聴きたい西野カナ2026",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485108d96b6bbd585881ecaf913c",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "1vClDIChMXkf3Gg82ajfXu",
+      "album_name": "Smoke",
       "album_type": "single",
-      "artist": "BLANKA",
-      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
+      "artist": "Gavin Greenaway",
+      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
+      "image": "https://i.scdn.co/image/ab67616d00004851aa9e896e1d6b1fa97b133cd8",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -90,13 +90,46 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "0uNKUpiOQuoogwYkRlyGW7",
-      "album_name": "夏に聴きたい西野カナ2026",
+      "album_id": "3dyDogMMGazC2xQWaEGnuy",
+      "album_name": "Assassin's Creed Black Flag Resynced (New Score Soundtrack)",
       "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485108d96b6bbd585881ecaf913c",
+      "artist": "Stephen Lukach",
+      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485183494215ce98b4c398337ce8",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
+      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "5po8JSgrfUUMcc6r9lLawl",
+      "album_name": "River",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
+      "album_name": "petal",
+      "album_type": "album",
+      "artist": "Ariana Grande",
+      "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -123,36 +156,36 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "3dyDogMMGazC2xQWaEGnuy",
-      "album_name": "Assassin's Creed Black Flag Resynced (New Score Soundtrack)",
-      "album_type": "album",
-      "artist": "Stephen Lukach",
-      "artist_id": "59OpIi4DXe7wIKhFt7bOq9",
+      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
+      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
+      "album_type": "single",
+      "artist": "BLANKA",
+      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485183494215ce98b4c398337ce8",
+      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
       "is_new": false,
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "1vClDIChMXkf3Gg82ajfXu",
-      "album_name": "Smoke",
+      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
+      "album_name": "Glitter",
       "album_type": "single",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aa9e896e1d6b1fa97b133cd8",
+      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
       "is_new": false,
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "5mBN3LBm5X2riL6I4rZtAb",
-      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
+      "album_name": "Happiness Is So Sad",
       "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "artist": "Swedish House Mafia",
+      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c1f0ad9c995f0d6527aad77c",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
+      "is_new": false,
       "release_date": "2026-07-30"
     },
     {
@@ -178,28 +211,6 @@
       "release_date": "2026-07-30"
     },
     {
-      "album_id": "1ZFKQqpFBa5X5vYfHHSDUA",
-      "album_name": "AH HA",
-      "album_type": "single",
-      "artist": "Cardi B",
-      "artist_id": "4kYSro6naA4h99UJvo89HB",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485147b7ca4f69f5386298e3fceb",
-      "is_new": false,
-      "release_date": "2026-07-30"
-    },
-    {
-      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
-      "album_name": "Happiness Is So Sad",
-      "album_type": "single",
-      "artist": "Swedish House Mafia",
-      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
-      "is_new": false,
-      "release_date": "2026-07-30"
-    },
-    {
       "album_id": "6r4iLpQblsOsMClZ0KqKTN",
       "album_name": "GO GHOST",
       "album_type": "single",
@@ -207,17 +218,6 @@
       "artist_id": "6wxfx1yhyqjCPYwwxJktR2",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485189f64a56f9c086a08fcac39d",
-      "is_new": false,
-      "release_date": "2026-07-29"
-    },
-    {
-      "album_id": "6bR697fQAxDhXp63C5Da3R",
-      "album_name": "Keep Walking",
-      "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
       "is_new": false,
       "release_date": "2026-07-29"
     },
@@ -233,15 +233,15 @@
       "release_date": "2026-07-29"
     },
     {
-      "album_id": "42caCzNjnIwd12YcA9yrCx",
-      "album_name": "Under The Iron Sea (20th Anniversary)",
-      "album_type": "album",
-      "artist": "Keane",
-      "artist_id": "53A0W3U0s8diEn9RhXQhVz",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513111d4a053b5ec6418f71c59",
+      "album_id": "6bR697fQAxDhXp63C5Da3R",
+      "album_name": "Keep Walking",
+      "album_type": "single",
+      "artist": "Hitsujibungaku",
+      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
       "is_new": false,
-      "release_date": "2026-07-24"
+      "release_date": "2026-07-29"
     },
     {
       "album_id": "3ErrdBA5ZiII9WOb4QbJiD",
@@ -251,39 +251,6 @@
       "artist_id": "5PlfkPxwCpRRWQJBxCa0By",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851428ff5823a4693cbf827f9b9",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "4bPmHl65RVj5DYgpo3nxZH",
-      "album_name": "Her, The Kids, and Jesus",
-      "album_type": "single",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516b3fba1816cbadfa7e001be4",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "5SxwYJiJUV8p0EinXqbBjM",
-      "album_name": "I-BULL - iburu - BLEACH: Thousand-Year Blood War - The Calamity",
-      "album_type": "single",
-      "artist": "jo0ji",
-      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
-      "is_new": false,
-      "release_date": "2026-07-24"
-    },
-    {
-      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
-      "album_name": "World Away",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -299,6 +266,28 @@
       "release_date": "2026-07-24"
     },
     {
+      "album_id": "6k2I7QkXRPlWzylh7UsFIx",
+      "album_name": "World Away",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e5140b3727f3c0acf0c56572",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "4bPmHl65RVj5DYgpo3nxZH",
+      "album_name": "Her, The Kids, and Jesus",
+      "album_type": "single",
+      "artist": "Dan + Shay",
+      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048516b3fba1816cbadfa7e001be4",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
       "album_id": "6VYjqAdWExFAfDdAudVT23",
       "album_name": "Fireflies",
       "album_type": "single",
@@ -306,6 +295,28 @@
       "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485147ff4d4b28c0f4fad26667df",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "5SxwYJiJUV8p0EinXqbBjM",
+      "album_name": "I-BULL - iburu - BLEACH: Thousand-Year Blood War - The Calamity",
+      "album_type": "single",
+      "artist": "jo0ji",
+      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f8de2d91844e50d3b6b5284c",
+      "is_new": false,
+      "release_date": "2026-07-24"
+    },
+    {
+      "album_id": "42caCzNjnIwd12YcA9yrCx",
+      "album_name": "Under The Iron Sea (20th Anniversary)",
+      "album_type": "album",
+      "artist": "Keane",
+      "artist_id": "53A0W3U0s8diEn9RhXQhVz",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513111d4a053b5ec6418f71c59",
       "is_new": false,
       "release_date": "2026-07-24"
     },
@@ -319,17 +330,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851f5adcc89cccb2f4e3f7d9c88",
       "is_new": false,
       "release_date": "2026-07-23"
-    },
-    {
-      "album_id": "2S9CXBDOksG1j9jvOWX7Kd",
-      "album_name": "花束",
-      "album_type": "single",
-      "artist": "Omoinotake",
-      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851d53c5716d856404e2a709e08",
-      "is_new": false,
-      "release_date": "2026-07-22"
     }
   ]
 }
