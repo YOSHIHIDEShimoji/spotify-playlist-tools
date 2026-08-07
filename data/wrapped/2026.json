@@ -29,24 +29,24 @@
       "month": "2026-07"
     },
     {
-      "count": 222,
+      "count": 293,
       "month": "2026-08"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 908,
+  "new_tracks": 912,
   "peak": {
     "dow": 3,
     "hour": 21
   },
-  "plays": 10771,
+  "plays": 10842,
   "top_artists": [
     {
-      "count": 1514,
+      "count": 1516,
       "name": "OneRepublic"
     },
     {
-      "count": 852,
+      "count": 854,
       "name": "The Beatles"
     },
     {
@@ -58,16 +58,16 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 277,
+      "count": 281,
       "name": "Henry Moodie"
     },
     {
       "count": 276,
-      "name": "Michael Jackson"
+      "name": "Justin Bieber"
     },
     {
-      "count": 275,
-      "name": "Justin Bieber"
+      "count": 276,
+      "name": "Michael Jackson"
     },
     {
       "count": 271,
@@ -98,7 +98,7 @@
       "name": "Bruno Mars"
     },
     {
-      "count": 134,
+      "count": 135,
       "name": "Kygo"
     },
     {
@@ -110,16 +110,16 @@
       "name": "back number"
     },
     {
+      "count": 123,
+      "name": "ワンリパブリック"
+    },
+    {
       "count": 121,
       "name": "Eve"
     },
     {
-      "count": 116,
-      "name": "OFFICIAL HIGE DANDISM"
-    },
-    {
-      "count": 109,
-      "name": "One Direction"
+      "count": 118,
+      "name": "ザ・ビートルズ"
     }
   ],
   "top_tracks": [
@@ -237,27 +237,27 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "Kygo"
       ],
       "count": 53,
-      "name": "Love Runs Out",
-      "track_id": "5BJSZocnCeSNeYMj3iVqM7"
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [
         "OneRepublic"
       ],
-      "count": 52,
+      "count": 53,
       "name": "Good Life - from One Night In Malibu",
       "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
     },
     {
       "artists": [
-        "Kygo"
+        "OneRepublic"
       ],
-      "count": 51,
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
+      "count": 53,
+      "name": "Love Runs Out",
+      "track_id": "5BJSZocnCeSNeYMj3iVqM7"
     },
     {
       "artists": [

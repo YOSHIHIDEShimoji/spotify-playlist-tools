@@ -3,7 +3,7 @@
     {
       "because": [
         {
-          "count": 15597,
+          "count": 15599,
           "name": "The Beatles"
         },
         {
@@ -31,7 +31,7 @@
     {
       "because": [
         {
-          "count": 15597,
+          "count": 15599,
           "name": "The Beatles"
         },
         {
@@ -40,12 +40,12 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.8846
+      "score": 15.8847
     },
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.2947
+      "score": 15.2958
     },
     {
       "because": [
@@ -73,7 +73,7 @@
     {
       "because": [
         {
-          "count": 15597,
+          "count": 15599,
           "name": "The Beatles"
         },
         {
@@ -82,7 +82,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.7172
+      "score": 13.7173
     },
     {
       "because": [
@@ -115,7 +115,7 @@
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
@@ -124,7 +124,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.5478
+      "score": 9.5482
     },
     {
       "because": [
@@ -143,7 +143,7 @@
     {
       "because": [
         {
-          "count": 1246,
+          "count": 1247,
           "name": "SPITZ"
         },
         {
@@ -152,7 +152,7 @@
         }
       ],
       "name": "槇原敬之",
-      "score": 9.3224
+      "score": 9.323
     },
     {
       "because": [
@@ -199,7 +199,7 @@
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
@@ -208,7 +208,7 @@
         }
       ],
       "name": "Matchbox Twenty",
-      "score": 8.394
+      "score": 8.3943
     },
     {
       "because": [
@@ -223,6 +223,20 @@
       ],
       "name": "Shawn Mendes & Camila Cabello",
       "score": 8.3863
+    },
+    {
+      "because": [
+        {
+          "count": 380,
+          "name": "Ed Sheeran"
+        },
+        {
+          "count": 281,
+          "name": "Henry Moodie"
+        }
+      ],
+      "name": "Myles Smith",
+      "score": 8.2257
     },
     {
       "because": [
@@ -255,20 +269,6 @@
     {
       "because": [
         {
-          "count": 380,
-          "name": "Ed Sheeran"
-        },
-        {
-          "count": 277,
-          "name": "Henry Moodie"
-        }
-      ],
-      "name": "Myles Smith",
-      "score": 8.2172
-    },
-    {
-      "because": [
-        {
           "count": 556,
           "name": "Katsuo Ohno"
         },
@@ -283,7 +283,7 @@
     {
       "because": [
         {
-          "count": 1246,
+          "count": 1247,
           "name": "SPITZ"
         },
         {
@@ -292,7 +292,7 @@
         }
       ],
       "name": "桑田佳祐",
-      "score": 7.9742
+      "score": 7.9747
     },
     {
       "because": [
@@ -301,12 +301,12 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 311,
+          "count": 312,
           "name": "Justin Bieber"
         }
       ],
       "name": "Jason Derülo",
-      "score": 7.7452
+      "score": 7.7472
     },
     {
       "because": [
@@ -315,12 +315,12 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 311,
+          "count": 312,
           "name": "Justin Bieber"
         }
       ],
       "name": "Bazzi",
-      "score": 7.7099
+      "score": 7.7117
     },
     {
       "because": [
@@ -339,7 +339,7 @@
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
@@ -348,7 +348,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 7.4676
+      "score": 7.4681
     },
     {
       "because": [
@@ -367,16 +367,16 @@
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
-          "count": 277,
+          "count": 281,
           "name": "Henry Moodie"
         }
       ],
       "name": "BANNERS",
-      "score": 7.0168
+      "score": 7.0229
     },
     {
       "because": [
@@ -395,7 +395,7 @@
     {
       "because": [
         {
-          "count": 1906,
+          "count": 1908,
           "name": "OneRepublic"
         },
         {
@@ -404,12 +404,12 @@
         }
       ],
       "name": "The Fray",
-      "score": 6.9189
+      "score": 6.9194
     },
     {
       "because": [
         {
-          "count": 15597,
+          "count": 15599,
           "name": "The Beatles"
         },
         {
@@ -422,7 +422,7 @@
     }
   ],
   "available": true,
-  "generated_at": "2026-08-05T17:23:48.328834+00:00",
+  "generated_at": "2026-08-07T16:45:05.793869+00:00",
   "source": "lastfm",
   "tracks": [
     {
@@ -450,13 +450,13 @@
     {
       "artist": "Spitz",
       "because": {
-        "count": 648,
+        "count": 649,
         "name": "美しい鰭"
       },
       "id": "0tu73VStd4PNxbF37Y6YSD",
       "image": "https://i.scdn.co/image/ab67616d00004851a64488e09a7cf0088f39d19f",
       "name": "Protect the Light",
-      "score": 6.4754
+      "score": 6.477
     },
     {
       "artist": "Bridgit Mendler",
@@ -855,13 +855,13 @@
     {
       "artist": "George Harrison",
       "because": {
-        "count": 161,
+        "count": 162,
         "name": "Yesterday - Remastered 2009"
       },
       "id": "5zNOF6k3AtDye9usFU7DgJ",
       "image": "https://i.scdn.co/image/ab67616d00004851175353a69a0d6f8960905474",
       "name": "Isn't It a Pity - 2014 Remaster",
-      "score": 3.233
+      "score": 3.2372
     }
   ]
 }

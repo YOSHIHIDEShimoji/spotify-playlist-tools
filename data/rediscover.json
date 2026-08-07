@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T17:23:19.878785+00:00",
+  "generated_at": "2026-08-07T16:44:38.233366+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -250,6 +250,26 @@
       "years": {
         "2020": 71,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "平松剛一"
+      ],
+      "count": 69,
+      "first": "2020-07-21",
+      "id": "1ITF3TTIPGg8Pv41EPPQYB",
+      "image": "https://i.scdn.co/image/ab67616d00004851a573cd85ae1dd16f849a6262",
+      "last": "2025-08-06",
+      "ms": 17404636,
+      "name": "旅立ちの日に",
+      "short": 17,
+      "years": {
+        "2020": 17,
+        "2022": 4,
+        "2023": 28,
+        "2024": 18,
+        "2025": 2
       }
     },
     {
@@ -536,23 +556,6 @@
       "short": 15,
       "years": {
         "2020": 57
-      }
-    },
-    {
-      "artists": [
-        "Elektronomia"
-      ],
-      "count": 56,
-      "first": "2024-05-31",
-      "id": "2bhx2BP0pmsPSQ11dMnE5H",
-      "image": "https://i.scdn.co/image/ab67616d00004851ca611af82e3408a9f7a6cd4e",
-      "last": "2025-01-30",
-      "ms": 10705726,
-      "name": "Energy",
-      "short": 8,
-      "years": {
-        "2024": 52,
-        "2025": 4
       }
     }
   ]

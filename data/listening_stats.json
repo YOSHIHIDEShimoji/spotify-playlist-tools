@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 648,
+      "count": 649,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -44,7 +44,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 197,
+      "count": 199,
       "name": "Help! - Remastered 2009",
       "track_id": "7DD7eSuYSC5xk2ArU62esN"
     },
@@ -84,7 +84,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 174,
+      "count": 175,
       "name": "The Night Before - Remastered 2009",
       "track_id": "5xcfepnz1v7a83T8An9gjw"
     },
@@ -116,7 +116,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 161,
+      "count": 162,
       "name": "Yesterday - Remastered 2009",
       "track_id": "3BQHpFgAp4l80e1XslIjNI"
     },
@@ -164,7 +164,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 152,
+      "count": 153,
       "name": "You're Going To Lose That Girl - Remastered 2009",
       "track_id": "70HNt0eoBVqr4ss68U8x3B"
     },
@@ -204,7 +204,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 146,
+      "count": 147,
       "name": "It's Only Love - Remastered 2009",
       "track_id": "2ue1KRstSKHF8jQkIJZiNC"
     },
@@ -236,7 +236,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 139,
+      "count": 140,
       "name": "I Need You - Remastered 2009",
       "track_id": "5EzvwjFwdP5Kfl5AZAemzu"
     },
@@ -252,7 +252,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 136,
+      "count": 137,
       "name": "Another Girl - Remastered 2009",
       "track_id": "7hefVXaGsFPesbK6fKwS6F"
     },
@@ -333,6 +333,14 @@
         "The Beatles"
       ],
       "count": 123,
+      "name": "I've Just Seen A Face - Remastered 2009",
+      "track_id": "788U1Sqej9M6c4iikuDGxO"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 123,
       "name": "It Won't Be Long - Remastered 2009",
       "track_id": "4ekUX4pWizXXksJe0JfS9U"
     },
@@ -343,14 +351,6 @@
       "count": 123,
       "name": "What You're Doing - Remastered 2009",
       "track_id": "6C6y4OWK1Ki3FVF1TIonxW"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 122,
-      "name": "I've Just Seen A Face - Remastered 2009",
-      "track_id": "788U1Sqej9M6c4iikuDGxO"
     },
     {
       "artists": [
@@ -386,6 +386,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 120,
+      "name": "You've Got To Hide Your Love Away - Remastered 2009",
+      "track_id": "4F1AgKpuFRMLEgtPETVwZk"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 120,
@@ -415,14 +423,6 @@
       "count": 119,
       "name": "Please Mister Postman - Remastered 2009",
       "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 119,
-      "name": "You've Got To Hide Your Love Away - Remastered 2009",
-      "track_id": "4F1AgKpuFRMLEgtPETVwZk"
     },
     {
       "artists": [
@@ -485,6 +485,14 @@
         "The Beatles"
       ],
       "count": 116,
+      "name": "You Like Me Too Much - Remastered 2009",
+      "track_id": "0y1LLH0NiwOD5tM3aNMXTr"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 116,
       "name": "If I Fell - Remastered 2009",
       "track_id": "1hgvykolO4kBIEozATmpyj"
     },
@@ -501,14 +509,6 @@
         "The Beatles"
       ],
       "count": 115,
-      "name": "You Like Me Too Much - Remastered 2009",
-      "track_id": "0y1LLH0NiwOD5tM3aNMXTr"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 114,
       "name": "Ticket To Ride - Remastered 2009",
       "track_id": "7CZiDzGVjUssMSOXrDNYHL"
     },
@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-08-05T17:22:10.926100+00:00",
+  "generated_at": "2026-08-07T16:43:28.127322+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,29 @@
       5000,
       10000
     ],
-    "total": 62453
+    "total": 62524
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 10,
+  "streak": 11,
   "weekly_top": [
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "Love Runs Out",
+      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
+    },
     {
       "artists": [
         "ブルーノ・マーズ"
@@ -842,8 +860,44 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Sink Or Swim",
+      "track_id": "4FDDExmv76Da7aaFqxbxVp"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
       "name": "Room For You",
       "track_id": "0ZR0D8BOyH1b8vtrSnA5Xu"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Future Looks Good",
+      "track_id": "2JATE4qxTuVgKEKe12sqLp"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Preacher",
+      "track_id": "5ESl7nKS7eZDMkH4hfXY7r"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "If I Lose Myself - Alesso vs OneRepublic",
+      "track_id": "3ScJy88F8KqGDfWu8XJhHx"
     },
     {
       "artists": [
@@ -859,9 +913,45 @@
         "OneRepublic"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+      "name": "Good Life - from One Night In Malibu",
+      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Someone to Save You",
       "track_id": "1mXiSrqOdR09yT43TwkSLh"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "good old days",
+      "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
+    },
+    {
+      "artists": [
+        "ザ・ウィークエンド"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514ab2520c2c77a1d66b9ee21d",
+      "name": "Less Than Zero",
+      "track_id": "2D4dV2KXDTszzJ3p3cFqhA"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "bad emotions",
+      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
     },
     {
       "artists": [
@@ -880,6 +970,24 @@
       "image": "https://lastfm.freetls.fastly.net/i/u/300x300/9f7a2066ab32ed6a4fd0a4236bd8511f.png",
       "name": "better off without me",
       "track_id": "lastfm:betteroffwithoutme|matthansen"
+    },
+    {
+      "artists": [
+        "Matt Hansen"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485109156dea9511aa22976d0798",
+      "name": "strangers again",
+      "track_id": "38MltIuVQE5LeWoSCV7Wxz"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+      "name": "Help! - Remastered 2009",
+      "track_id": "7DD7eSuYSC5xk2ArU62esN"
     },
     {
       "artists": [
@@ -937,15 +1045,6 @@
     },
     {
       "artists": [
-        "Kygo"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
         "OneRepublic"
       ],
       "count": 1,
@@ -967,33 +1066,6 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Sink Or Swim",
-      "track_id": "4FDDExmv76Da7aaFqxbxVp"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Future Looks Good",
-      "track_id": "2JATE4qxTuVgKEKe12sqLp"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Preacher",
-      "track_id": "5ESl7nKS7eZDMkH4hfXY7r"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "Let's Hurt Tonight",
       "track_id": "05sCp83gcMm1iecYydKJS3"
@@ -1003,36 +1075,9 @@
         "OneRepublic"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "name": "If I Lose Myself - Alesso vs OneRepublic",
-      "track_id": "3ScJy88F8KqGDfWu8XJhHx"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Come Home",
       "track_id": "0bJfgUyjfPJYqRgUxb12Eh"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "name": "Love Runs Out",
-      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
     },
     {
       "artists": [
@@ -1222,51 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
       "name": "Stargazing",
       "track_id": "1ZWp7uMlEwBhpedEw6F048"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
-      "name": "Wherever I Go",
-      "track_id": "46jLy47W8rkf8rEX04gMKB"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "Everybody Loves Me",
-      "track_id": "2e42fb37LVhtCOescNb1yN"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Nobody - from Kaiju No. 8",
-      "track_id": "3SiVMpHxTS1gspWzRZE50S"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Someday",
-      "track_id": "6aDsgHPZsMztSbZernzlF8"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "All These Things",
-      "track_id": "5SlNjNaibdMLveJPYqAAaE"
     }
   ]
 }
