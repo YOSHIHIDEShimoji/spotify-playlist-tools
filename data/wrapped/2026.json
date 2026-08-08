@@ -29,20 +29,20 @@
       "month": "2026-07"
     },
     {
-      "count": 293,
+      "count": 296,
       "month": "2026-08"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 912,
+  "new_tracks": 913,
   "peak": {
     "dow": 3,
     "hour": 21
   },
-  "plays": 10842,
+  "plays": 10845,
   "top_artists": [
     {
-      "count": 1516,
+      "count": 1514,
       "name": "OneRepublic"
     },
     {
@@ -98,7 +98,7 @@
       "name": "Bruno Mars"
     },
     {
-      "count": 135,
+      "count": 134,
       "name": "Kygo"
     },
     {
@@ -110,7 +110,7 @@
       "name": "back number"
     },
     {
-      "count": 123,
+      "count": 124,
       "name": "ワンリパブリック"
     },
     {
@@ -167,7 +167,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 60,
+      "count": 61,
       "name": "Apologize",
       "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
@@ -237,14 +237,6 @@
     },
     {
       "artists": [
-        "Kygo"
-      ],
-      "count": 53,
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
         "OneRepublic"
       ],
       "count": 53,
@@ -258,6 +250,14 @@
       "count": 53,
       "name": "Love Runs Out",
       "track_id": "5BJSZocnCeSNeYMj3iVqM7"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 52,
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [

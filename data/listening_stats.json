@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-08-07T16:43:28.127322+00:00",
+  "generated_at": "2026-08-08T16:22:56.195141+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,29 +813,11 @@
       5000,
       10000
     ],
-    "total": 62524
+    "total": 62527
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 11,
+  "streak": 12,
   "weekly_top": [
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "name": "Love Runs Out",
-      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
-    },
     {
       "artists": [
         "ブルーノ・マーズ"
@@ -844,6 +826,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
       "name": "Marry You",
       "track_id": "6SKwQghsR8AISlxhcwyA9R"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [
@@ -922,6 +913,15 @@
         "OneRepublic"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "Love Runs Out",
+      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Someone to Save You",
       "track_id": "1mXiSrqOdR09yT43TwkSLh"
@@ -988,6 +988,24 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
       "name": "Help! - Remastered 2009",
       "track_id": "7DD7eSuYSC5xk2ArU62esN"
+    },
+    {
+      "artists": [
+        "Phillip Phillips"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "name": "Gone, Gone, Gone",
+      "track_id": "56sxN1yKg1dgOZXBcAHkJG"
+    },
+    {
+      "artists": [
+        "yung kai"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "name": "blue",
+      "track_id": "3be9ACTxtcL6Zm4vJRUiPG"
     },
     {
       "artists": [
@@ -1249,24 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-      "name": "Stranger Things (feat. OneRepublic)",
-      "track_id": "4sJqSKPc5fZ5OZ8JiVI44N"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Stargazing",
-      "track_id": "1ZWp7uMlEwBhpedEw6F048"
     }
   ]
 }

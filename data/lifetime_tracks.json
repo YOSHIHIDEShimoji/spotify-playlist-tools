@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-07T16:44:38.062714+00:00",
+  "generated_at": "2026-08-08T16:24:05.104566+00:00",
   "totals": {
     "artists": 1316,
-    "days": 2065,
+    "days": 2066,
     "ms": 12440720283,
-    "plays": 62524,
+    "plays": 62527,
     "since": "2019-09-05",
-    "tracks": 4632
+    "tracks": 4633
   },
   "tracks": [
     {
@@ -5708,6 +5708,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 68,
+      "first": "2025-11-19",
+      "id": "1NrJYpdAi7uosDRPmSYrsG",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-08-07",
+      "ms": 12430846,
+      "name": "Apologize",
+      "short": 8,
+      "years": {
+        "2025": 7,
+        "2026": 61
+      }
+    },
+    {
+      "artists": [
         "Kygo"
       ],
       "count": 68,
@@ -5926,23 +5943,6 @@
         "2024": 13,
         "2025": 8,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 67,
-      "first": "2025-11-19",
-      "id": "1NrJYpdAi7uosDRPmSYrsG",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-07-25",
-      "ms": 12430846,
-      "name": "Apologize",
-      "short": 8,
-      "years": {
-        "2025": 7,
-        "2026": 60
       }
     },
     {
@@ -8338,24 +8338,6 @@
     },
     {
       "artists": [
-        "Kygo"
-      ],
-      "count": 55,
-      "first": "2021-04-13",
-      "id": "1sgDyuLooyvEML4oHspNza",
-      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
-      "last": "2026-08-07",
-      "ms": 10172846,
-      "name": "Lose Somebody",
-      "short": 9,
-      "years": {
-        "2021": 1,
-        "2025": 1,
-        "2026": 53
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 55,
@@ -8570,6 +8552,24 @@
         "2022": 1,
         "2023": 2,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 54,
+      "first": "2021-04-13",
+      "id": "1sgDyuLooyvEML4oHspNza",
+      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
+      "last": "2026-08-07",
+      "ms": 10172846,
+      "name": "Lose Somebody",
+      "short": 9,
+      "years": {
+        "2021": 1,
+        "2025": 1,
+        "2026": 52
       }
     },
     {
@@ -13267,6 +13267,22 @@
     },
     {
       "artists": [
+        "yung kai"
+      ],
+      "count": 33,
+      "first": "2025-12-20",
+      "id": "3be9ACTxtcL6Zm4vJRUiPG",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "last": "2026-08-08",
+      "ms": 6099472,
+      "name": "blue",
+      "years": {
+        "2025": 8,
+        "2026": 25
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 32,
@@ -13645,22 +13661,6 @@
         "2024": 2,
         "2025": 4,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "yung kai"
-      ],
-      "count": 31,
-      "first": "2025-12-20",
-      "id": "3be9ACTxtcL6Zm4vJRUiPG",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
-      "last": "2026-07-29",
-      "ms": 6099472,
-      "name": "blue",
-      "years": {
-        "2025": 8,
-        "2026": 23
       }
     },
     {
@@ -19797,6 +19797,22 @@
     },
     {
       "artists": [
+        "Phillip Phillips"
+      ],
+      "count": 12,
+      "first": "2026-04-09",
+      "id": "56sxN1yKg1dgOZXBcAHkJG",
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "last": "2026-08-08",
+      "ms": 1695916,
+      "name": "Gone, Gone, Gone",
+      "short": 1,
+      "years": {
+        "2026": 12
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 12,
@@ -20779,22 +20795,6 @@
       "years": {
         "2020": 5,
         "2021": 5
-      }
-    },
-    {
-      "artists": [
-        "Phillip Phillips"
-      ],
-      "count": 10,
-      "first": "2026-04-09",
-      "id": "56sxN1yKg1dgOZXBcAHkJG",
-      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
-      "last": "2026-08-02",
-      "ms": 1695916,
-      "name": "Gone, Gone, Gone",
-      "short": 1,
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -23367,22 +23367,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 7,
-      "first": "2026-02-10",
-      "id": "3cOO5IQtOYs7huq4Z6lYfr",
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "last": "2026-08-07",
-      "ms": 383393,
-      "name": "Love Runs Out",
-      "short": 2,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "Zack Hemsey"
       ],
       "count": 7,
@@ -24208,6 +24192,22 @@
       "ms": 1048644,
       "name": "Lose this race",
       "short": 1,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 6,
+      "first": "2026-02-10",
+      "id": "3cOO5IQtOYs7huq4Z6lYfr",
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "last": "2026-08-07",
+      "ms": 383393,
+      "name": "Love Runs Out",
+      "short": 2,
       "years": {
         "2026": 6
       }
@@ -36307,22 +36307,6 @@
       "short": 3,
       "years": {
         "2024": 2
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "first": "2026-07-29",
-      "id": "7FQgwxkgClQLTwEilUlscr",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-08-07",
-      "ms": 0,
-      "name": "Fingertips",
-      "short": 1,
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -51122,6 +51106,36 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-07-29",
+      "id": "lastfm:fingertips|onerepublic",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/d8585efa5f75112c97af0b466861787d.jpg",
+      "last": "2026-07-29",
+      "ms": 0,
+      "name": "Fingertips",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "first": "2026-08-07",
+      "id": "lastfm:fingertips|ワンリパブリック",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-08-07",
+      "ms": 0,
+      "name": "Fingertips",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Delaney Bailey"
       ],
       "count": 1,
@@ -58204,12 +58218,11 @@
       ],
       "count": 1,
       "first": "2026-08-07",
-      "id": "6mdgp4ZTdHfGl3WFvwRlPL",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "id": "lastfm:mirageforassassinscreedmirage|ワンリパブリック",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0671a37e5e9e8bac678f32b82fa58de0.jpg",
       "last": "2026-08-07",
       "ms": 0,
       "name": "Mirage - for Assassin's Creed Mirage",
-      "short": 1,
       "years": {
         "2026": 1
       }
@@ -67217,8 +67230,8 @@
       ],
       "count": 1,
       "first": "2026-07-20",
-      "id": "2NQBsh7D6bDS5tv5VcvdoN",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "id": "lastfm:tyrant|onerepublic",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/e2b7450a5e3f7b88b75943ab71fc4aa0.jpg",
       "last": "2026-07-20",
       "ms": 0,
       "name": "Tyrant",
