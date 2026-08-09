@@ -1,38 +1,16 @@
 {
-  "generated_at": "2026-08-08T16:25:51.588602+00:00",
+  "generated_at": "2026-08-09T16:28:03.513409+00:00",
   "items": [
     {
-      "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
-      "album_name": "7 Days",
+      "album_id": "5iYgJIgcbEcRZfKLHodraf",
+      "album_name": "zokkou",
       "album_type": "single",
-      "artist": "MEDUZA",
-      "artist_id": "0xRXCcSX89eobfrshSVdyu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485123e3f9e371052fc1589a3659",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "0Q01cgQeoWTETkOvpoeng9",
-      "album_name": "Dai Dai",
-      "album_type": "single",
-      "artist": "Shakira",
-      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
-      "album_name": "RESCUER",
-      "album_type": "single",
-      "artist": "Alex Warren",
-      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
-      "is_new": false,
-      "release_date": "2026-08-07"
+      "artist": "jo0ji",
+      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485169f291be6168da706f58fd84",
+      "is_new": true,
+      "release_date": "2026-08-10"
     },
     {
       "album_id": "6pVedvicWUkoO0Fmk5zqpC",
@@ -42,6 +20,28 @@
       "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
+      "album_name": "superHuman",
+      "album_type": "single",
+      "artist": "AUDREY NUNA",
+      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
+      "is_new": true,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
+      "album_name": "7 Days",
+      "album_type": "single",
+      "artist": "MEDUZA",
+      "artist_id": "0xRXCcSX89eobfrshSVdyu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485123e3f9e371052fc1589a3659",
       "is_new": false,
       "release_date": "2026-08-07"
     },
@@ -57,15 +57,26 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "0pFlE0rc68RS8f3UHzioQY",
-      "album_name": "The Real Me",
-      "album_type": "album",
-      "artist": "Future",
-      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
+      "album_name": "RESCUER",
+      "album_type": "single",
+      "artist": "Alex Warren",
+      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
+      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
       "is_new": false,
-      "release_date": "2026-08-06"
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "0Q01cgQeoWTETkOvpoeng9",
+      "album_name": "Dai Dai",
+      "album_type": "single",
+      "artist": "Shakira",
+      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
+      "is_new": false,
+      "release_date": "2026-08-07"
     },
     {
       "album_id": "2jbqFS5kWBih7qFw5ThTYf",
@@ -86,6 +97,17 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851240d049eb5fbd6d488dac51d",
+      "is_new": false,
+      "release_date": "2026-08-06"
+    },
+    {
+      "album_id": "0pFlE0rc68RS8f3UHzioQY",
+      "album_name": "The Real Me",
+      "album_type": "album",
+      "artist": "Future",
+      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
       "is_new": false,
       "release_date": "2026-08-06"
     },
@@ -112,6 +134,17 @@
       "release_date": "2026-08-03"
     },
     {
+      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
+      "album_name": "Glitter",
+      "album_type": "single",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
       "album_id": "6yVtMd0swv4uJMgc9nC8hK",
       "album_name": "Hey There Delilah (ft. LØLØ)",
       "album_type": "single",
@@ -123,13 +156,13 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "76FgDc8t4NrOZ0QWdUQIHq",
-      "album_name": "phone, keys, wallet (from my phone)",
+      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
+      "album_name": "YOU CAN ALWAYS COME BACK HOME",
       "album_type": "single",
-      "artist": "Lainey Wilson",
-      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
+      "artist": "Jon Keith",
+      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511e8f243c3e8a22b31d3fa542",
+      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -145,13 +178,24 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
-      "album_name": "Glitter",
+      "album_id": "7JGXUcwoQaSD2nAw8rKIN4",
+      "album_name": "infinity beyond",
       "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "artist": "JVKE",
+      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
+      "image": "https://i.scdn.co/image/ab67616d000048516097995a72352612f156cad4",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "76FgDc8t4NrOZ0QWdUQIHq",
+      "album_name": "phone, keys, wallet (from my phone)",
+      "album_type": "single",
+      "artist": "Lainey Wilson",
+      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048511e8f243c3e8a22b31d3fa542",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -189,17 +233,6 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "5po8JSgrfUUMcc6r9lLawl",
-      "album_name": "River",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
       "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
       "album_name": "petal",
       "album_type": "album",
@@ -211,37 +244,15 @@
       "release_date": "2026-07-31"
     },
     {
-      "album_id": "7JGXUcwoQaSD2nAw8rKIN4",
-      "album_name": "infinity beyond",
+      "album_id": "5po8JSgrfUUMcc6r9lLawl",
+      "album_name": "River",
       "album_type": "single",
-      "artist": "JVKE",
-      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516097995a72352612f156cad4",
+      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
       "is_new": false,
       "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
-      "album_name": "YOU CAN ALWAYS COME BACK HOME",
-      "album_type": "single",
-      "artist": "Jon Keith",
-      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "1KLlMRa36B3s4E4s11wcDh",
-      "album_name": "Higher (feat. Rita Ora)",
-      "album_type": "single",
-      "artist": "Lance Savali",
-      "artist_id": "3BJfXq3PuHFiHrD6PcfpCd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518468b29daed7566b7fed629b",
-      "is_new": false,
-      "release_date": "2026-07-30"
     },
     {
       "album_id": "4WLLacwBaBRtV0qOzpFPMW",
@@ -251,6 +262,17 @@
       "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
+      "is_new": false,
+      "release_date": "2026-07-30"
+    },
+    {
+      "album_id": "1KLlMRa36B3s4E4s11wcDh",
+      "album_name": "Higher (feat. Rita Ora)",
+      "album_type": "single",
+      "artist": "Lance Savali",
+      "artist_id": "3BJfXq3PuHFiHrD6PcfpCd",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518468b29daed7566b7fed629b",
       "is_new": false,
       "release_date": "2026-07-30"
     },
@@ -266,17 +288,6 @@
       "release_date": "2026-07-30"
     },
     {
-      "album_id": "6bR697fQAxDhXp63C5Da3R",
-      "album_name": "Keep Walking",
-      "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
-      "is_new": false,
-      "release_date": "2026-07-29"
-    },
-    {
       "album_id": "6r4iLpQblsOsMClZ0KqKTN",
       "album_name": "GO GHOST",
       "album_type": "single",
@@ -284,6 +295,17 @@
       "artist_id": "6wxfx1yhyqjCPYwwxJktR2",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485189f64a56f9c086a08fcac39d",
+      "is_new": false,
+      "release_date": "2026-07-29"
+    },
+    {
+      "album_id": "6bR697fQAxDhXp63C5Da3R",
+      "album_name": "Keep Walking",
+      "album_type": "single",
+      "artist": "Hitsujibungaku",
+      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
       "is_new": false,
       "release_date": "2026-07-29"
     },

@@ -81,7 +81,7 @@
       "name": "SPITZ"
     },
     {
-      "count": 12,
+      "count": 13,
       "id": "6wlhqnATSJIc0NQ64VxOVJ",
       "name": "Matt Hansen"
     },
@@ -169,11 +169,11 @@
       "decade": 2000
     },
     {
-      "count": 338,
+      "count": 339,
       "decade": 2010
     },
     {
-      "count": 325,
+      "count": 328,
       "decade": 2020
     }
   ],
@@ -282,13 +282,13 @@
         },
         {
           "count": 13,
-          "id": "4x1nvY2FN8jxqAFA0DA02H",
-          "name": "John Lennon"
-        },
-        {
-          "count": 12,
           "id": "6wlhqnATSJIc0NQ64VxOVJ",
           "name": "Matt Hansen"
+        },
+        {
+          "count": 13,
+          "id": "4x1nvY2FN8jxqAFA0DA02H",
+          "name": "John Lennon"
         },
         {
           "count": 9,
@@ -353,15 +353,15 @@
           "decade": 2000
         },
         {
-          "count": 347,
+          "count": 348,
           "decade": 2010
         },
         {
-          "count": 337,
+          "count": 340,
           "decade": 2020
         }
       ],
-      "total": 1105
+      "total": 1109
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -604,7 +604,7 @@
             "name": "Train"
           },
           {
-            "count": 12,
+            "count": 13,
             "id": "6wlhqnATSJIc0NQ64VxOVJ",
             "name": "Matt Hansen"
           },
@@ -712,15 +712,15 @@
             "decade": 2000
           },
           {
-            "count": 255,
+            "count": 256,
             "decade": 2010
           },
           {
-            "count": 243,
+            "count": 246,
             "decade": 2020
           }
         ],
-        "total": 547
+        "total": 551
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -858,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-08-08T16:23:07.422896+00:00",
-  "total": 747
+  "generated_at": "2026-08-09T16:24:37.584103+00:00",
+  "total": 751
 }

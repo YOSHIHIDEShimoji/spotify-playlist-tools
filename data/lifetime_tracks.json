@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-08T16:24:05.104566+00:00",
+  "generated_at": "2026-08-09T16:25:34.999841+00:00",
   "totals": {
     "artists": 1316,
-    "days": 2066,
+    "days": 2067,
     "ms": 12440720283,
-    "plays": 62527,
+    "plays": 62537,
     "since": "2019-09-05",
-    "tracks": 4633
+    "tracks": 4635
   },
   "tracks": [
     {
       "artists": [
         "SPITZ"
       ],
-      "count": 649,
+      "count": 650,
       "first": "2023-05-19",
       "id": "3RauRsiIxUOQTS8h9sVWcP",
       "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
-      "last": "2026-08-07",
+      "last": "2026-08-09",
       "ms": 132558904,
       "name": "美しい鰭",
       "short": 76,
@@ -25,7 +25,7 @@
         "2023": 238,
         "2024": 309,
         "2025": 81,
-        "2026": 21
+        "2026": 22
       }
     },
     {
@@ -50,18 +50,18 @@
       "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
-      "count": 331,
+      "count": 332,
       "first": "2024-10-30",
       "id": "3tRgmNTaFYgtbt7XCy6Les",
       "image": "https://i.scdn.co/image/ab67616d000048517fc0a89cd15b03e603fb4016",
-      "last": "2026-07-29",
+      "last": "2026-08-09",
       "ms": 76809147,
       "name": "Same Blue",
       "short": 29,
       "years": {
         "2024": 81,
         "2025": 229,
-        "2026": 21
+        "2026": 22
       }
     },
     {
@@ -235,17 +235,34 @@
       "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
-      "count": 169,
+      "count": 170,
       "first": "2025-02-09",
       "id": "75fYFVXHzzwfc5yzFWlIlZ",
       "image": "https://i.scdn.co/image/ab67616d000048511ce13e03759fd585b8115476",
-      "last": "2026-05-21",
+      "last": "2026-08-09",
       "ms": 56035939,
       "name": "Laughter",
       "short": 25,
       "years": {
         "2025": 151,
-        "2026": 18
+        "2026": 19
+      }
+    },
+    {
+      "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 168,
+      "first": "2025-08-22",
+      "id": "2kLWSmKHhfUBepkIA9oNe5",
+      "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
+      "last": "2026-08-09",
+      "ms": 19676776,
+      "name": "Abyss - from Kaiju No. 8",
+      "short": 13,
+      "years": {
+        "2025": 119,
+        "2026": 49
       }
     },
     {
@@ -265,23 +282,6 @@
         "2024": 16,
         "2025": 32,
         "2026": 16
-      }
-    },
-    {
-      "artists": [
-        "YUNGBLUD"
-      ],
-      "count": 167,
-      "first": "2025-08-22",
-      "id": "2kLWSmKHhfUBepkIA9oNe5",
-      "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
-      "last": "2026-08-02",
-      "ms": 19676776,
-      "name": "Abyss - from Kaiju No. 8",
-      "short": 13,
-      "years": {
-        "2025": 119,
-        "2026": 48
       }
     },
     {
@@ -627,17 +627,17 @@
       "artists": [
         "Eve"
       ],
-      "count": 139,
+      "count": 140,
       "first": "2025-12-20",
       "id": "5MVjxslIF7mVtYo75Nk445",
       "image": "https://i.scdn.co/image/ab67616d00004851ad5d6db67f662909067fdb4a",
-      "last": "2026-07-29",
+      "last": "2026-08-09",
       "ms": 29326454,
       "name": "廻廻奇譚",
       "short": 17,
       "years": {
         "2025": 21,
-        "2026": 118
+        "2026": 119
       }
     },
     {
@@ -1201,6 +1201,23 @@
     },
     {
       "artists": [
+        "King Gnu"
+      ],
+      "count": 118,
+      "first": "2025-12-25",
+      "id": "0GWNtMohuYUEHVZ40tcnHF",
+      "image": "https://i.scdn.co/image/ab67616d000048514ad6e7ba87518d193e08e578",
+      "last": "2026-08-09",
+      "ms": 26478158,
+      "name": "SPECIALZ",
+      "short": 12,
+      "years": {
+        "2025": 15,
+        "2026": 103
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 117,
@@ -1220,23 +1237,6 @@
         "2024": 11,
         "2025": 6,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "King Gnu"
-      ],
-      "count": 117,
-      "first": "2025-12-25",
-      "id": "0GWNtMohuYUEHVZ40tcnHF",
-      "image": "https://i.scdn.co/image/ab67616d000048514ad6e7ba87518d193e08e578",
-      "last": "2026-07-29",
-      "ms": 26478158,
-      "name": "SPECIALZ",
-      "short": 12,
-      "years": {
-        "2025": 15,
-        "2026": 102
       }
     },
     {
@@ -1351,6 +1351,23 @@
     },
     {
       "artists": [
+        "ALI"
+      ],
+      "count": 114,
+      "first": "2025-11-21",
+      "id": "7kRKlFCFLAUwt43HWtauhX",
+      "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
+      "last": "2026-08-09",
+      "ms": 34268905,
+      "name": "LOST IN PARADISE",
+      "short": 19,
+      "years": {
+        "2025": 44,
+        "2026": 70
+      }
+    },
+    {
+      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 113,
@@ -1387,23 +1404,6 @@
         "2024": 26,
         "2025": 8,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "ALI"
-      ],
-      "count": 113,
-      "first": "2025-11-21",
-      "id": "7kRKlFCFLAUwt43HWtauhX",
-      "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
-      "last": "2026-07-16",
-      "ms": 34268905,
-      "name": "LOST IN PARADISE",
-      "short": 19,
-      "years": {
-        "2025": 44,
-        "2026": 69
       }
     },
     {
@@ -13267,22 +13267,6 @@
     },
     {
       "artists": [
-        "yung kai"
-      ],
-      "count": 33,
-      "first": "2025-12-20",
-      "id": "3be9ACTxtcL6Zm4vJRUiPG",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
-      "last": "2026-08-08",
-      "ms": 6099472,
-      "name": "blue",
-      "years": {
-        "2025": 8,
-        "2026": 25
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 32,
@@ -13443,6 +13427,22 @@
       "years": {
         "2025": 17,
         "2026": 15
+      }
+    },
+    {
+      "artists": [
+        "yung kai"
+      ],
+      "count": 32,
+      "first": "2025-12-20",
+      "id": "3be9ACTxtcL6Zm4vJRUiPG",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "last": "2026-08-08",
+      "ms": 6099472,
+      "name": "blue",
+      "years": {
+        "2025": 8,
+        "2026": 24
       }
     },
     {
@@ -19425,6 +19425,22 @@
     },
     {
       "artists": [
+        "Phillip Phillips"
+      ],
+      "count": 13,
+      "first": "2026-04-09",
+      "id": "56sxN1yKg1dgOZXBcAHkJG",
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "last": "2026-08-09",
+      "ms": 1695916,
+      "name": "Gone, Gone, Gone",
+      "short": 1,
+      "years": {
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "Alesso"
       ],
       "count": 13,
@@ -19793,22 +19809,6 @@
       "short": 6,
       "years": {
         "2025": 12
-      }
-    },
-    {
-      "artists": [
-        "Phillip Phillips"
-      ],
-      "count": 12,
-      "first": "2026-04-09",
-      "id": "56sxN1yKg1dgOZXBcAHkJG",
-      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
-      "last": "2026-08-08",
-      "ms": 1695916,
-      "name": "Gone, Gone, Gone",
-      "short": 1,
-      "years": {
-        "2026": 12
       }
     },
     {
@@ -42730,6 +42730,21 @@
       "ms": 332046,
       "name": "beside you",
       "short": 1,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Matt Hansen"
+      ],
+      "count": 2,
+      "first": "2026-07-21",
+      "id": "7MrrdjBGM0MI6PGTZIgO9g",
+      "image": "https://i.scdn.co/image/ab67616d00004851d03f7dc55b0c91641e73cbdd",
+      "last": "2026-08-09",
+      "ms": 0,
+      "name": "break my bones",
       "years": {
         "2026": 2
       }
@@ -67272,6 +67287,21 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 1,
+      "first": "2026-08-09",
+      "id": "lastfm:unspoken|matthansen",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a7edc07c32da0ac60255af0814f9ded.jpg",
+      "last": "2026-08-09",
+      "ms": 0,
+      "name": "UNSPOKEN",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "shrub.beats"
       ],
       "count": 1,
@@ -69159,6 +69189,21 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 1,
+      "first": "2026-08-08",
+      "id": "0WqHYUiGuqkC7koA2l5Ou1",
+      "image": "https://i.scdn.co/image/ab67616d000048511fc12eaf7888fe5fbcaa70d1",
+      "last": "2026-08-08",
+      "ms": 0,
+      "name": "Without You With Me",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Barbra Streisand"
       ],
       "count": 1,
@@ -70078,21 +70123,6 @@
       "name": "bedroom beat",
       "years": {
         "2021": 1
-      }
-    },
-    {
-      "artists": [
-        "Matt Hansen"
-      ],
-      "count": 1,
-      "first": "2026-07-21",
-      "id": "7MrrdjBGM0MI6PGTZIgO9g",
-      "image": "https://i.scdn.co/image/ab67616d00004851d03f7dc55b0c91641e73cbdd",
-      "last": "2026-07-21",
-      "ms": 0,
-      "name": "break my bones",
-      "years": {
-        "2026": 1
       }
     },
     {

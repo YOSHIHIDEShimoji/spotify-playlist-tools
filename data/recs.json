@@ -12,7 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 22.9302
+      "score": 22.9844
     },
     {
       "because": [
@@ -26,7 +26,7 @@
         }
       ],
       "name": "Niall Horan",
-      "score": 18.4474
+      "score": 18.3506
     },
     {
       "because": [
@@ -40,7 +40,7 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.645
+      "score": 15.6858
     },
     {
       "because": [
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.3703
+      "score": 15.2441
     },
     {
       "because": [
@@ -63,12 +63,12 @@
           "name": "back number"
         },
         {
-          "count": 2294,
+          "count": 2296,
           "name": "OFFICIAL HIGE DANDISM"
         }
       ],
       "name": "Masaki Suda",
-      "score": 14.4561
+      "score": 14.4567
     },
     {
       "because": [
@@ -82,21 +82,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.7899
-    },
-    {
-      "because": [
-        {
-          "count": 380,
-          "name": "Ed Sheeran"
-        },
-        {
-          "count": 301,
-          "name": "Shawn Mendes"
-        }
-      ],
-      "name": "Louis Tomlinson",
-      "score": 11.2934
+      "score": 13.8237
     },
     {
       "because": [
@@ -124,7 +110,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.526
+      "score": 9.4892
     },
     {
       "because": [
@@ -157,7 +143,7 @@
     {
       "because": [
         {
-          "count": 1247,
+          "count": 1248,
           "name": "SPITZ"
         },
         {
@@ -166,7 +152,7 @@
         }
       ],
       "name": "槇原敬之",
-      "score": 9.2899
+      "score": 9.2904
     },
     {
       "because": [
@@ -185,7 +171,7 @@
     {
       "because": [
         {
-          "count": 1247,
+          "count": 1248,
           "name": "SPITZ"
         },
         {
@@ -194,7 +180,21 @@
         }
       ],
       "name": "My Little Lover",
-      "score": 8.7988
+      "score": 8.7994
+    },
+    {
+      "because": [
+        {
+          "count": 301,
+          "name": "Shawn Mendes"
+        },
+        {
+          "count": 271,
+          "name": "One Direction"
+        }
+      ],
+      "name": "Louis Tomlinson",
+      "score": 8.7889
     },
     {
       "because": [
@@ -213,20 +213,6 @@
     {
       "because": [
         {
-          "count": 2294,
-          "name": "OFFICIAL HIGE DANDISM"
-        },
-        {
-          "count": 211,
-          "name": "Aimyon"
-        }
-      ],
-      "name": "Yorushika",
-      "score": 8.4107
-    },
-    {
-      "because": [
-        {
           "count": 1906,
           "name": "OneRepublic"
         },
@@ -236,7 +222,21 @@
         }
       ],
       "name": "Matchbox Twenty",
-      "score": 8.394
+      "score": 8.4431
+    },
+    {
+      "because": [
+        {
+          "count": 2296,
+          "name": "OFFICIAL HIGE DANDISM"
+        },
+        {
+          "count": 211,
+          "name": "Aimyon"
+        }
+      ],
+      "name": "Yorushika",
+      "score": 8.4112
     },
     {
       "because": [
@@ -273,12 +273,12 @@
           "name": "back number"
         },
         {
-          "count": 2294,
+          "count": 2296,
           "name": "OFFICIAL HIGE DANDISM"
         }
       ],
       "name": "米津玄師",
-      "score": 8.219
+      "score": 8.2195
     },
     {
       "because": [
@@ -292,7 +292,7 @@
         }
       ],
       "name": "Myles Smith",
-      "score": 8.155
+      "score": 7.9332
     },
     {
       "because": [
@@ -325,6 +325,20 @@
     {
       "because": [
         {
+          "count": 1906,
+          "name": "OneRepublic"
+        },
+        {
+          "count": 351,
+          "name": "Train"
+        }
+      ],
+      "name": "Lifehouse",
+      "score": 7.4685
+    },
+    {
+      "because": [
+        {
           "count": 365,
           "name": "Alan Silvestri"
         },
@@ -343,26 +357,26 @@
           "name": "OneRepublic"
         },
         {
-          "count": 351,
-          "name": "Train"
-        }
-      ],
-      "name": "Lifehouse",
-      "score": 7.385
-    },
-    {
-      "because": [
-        {
-          "count": 1906,
-          "name": "OneRepublic"
-        },
-        {
           "count": 281,
           "name": "Henry Moodie"
         }
       ],
       "name": "BANNERS",
-      "score": 7.12
+      "score": 7.1131
+    },
+    {
+      "because": [
+        {
+          "count": 868,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 422,
+          "name": "Maroon 5"
+        }
+      ],
+      "name": "DNCE",
+      "score": 7.0615
     },
     {
       "because": [
@@ -381,20 +395,6 @@
     {
       "because": [
         {
-          "count": 868,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 422,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "DNCE",
-      "score": 6.9357
-    },
-    {
-      "because": [
-        {
           "count": 862,
           "name": "Novelbright"
         },
@@ -409,54 +409,54 @@
     {
       "because": [
         {
-          "count": 1906,
-          "name": "OneRepublic"
+          "count": 15599,
+          "name": "The Beatles"
         },
         {
-          "count": 351,
-          "name": "Train"
+          "count": 3377,
+          "name": "Paul McCartney"
         }
       ],
-      "name": "The Fray",
-      "score": 6.8241
+      "name": "Traveling Wilburys",
+      "score": 6.7614
     }
   ],
   "available": true,
-  "generated_at": "2026-08-08T16:24:34.679162+00:00",
+  "generated_at": "2026-08-09T16:26:06.545786+00:00",
   "source": "lastfm",
   "tracks": [
     {
       "artist": "YOASOBI",
       "because": {
-        "count": 331,
+        "count": 332,
         "name": "Same Blue"
       },
       "id": "5ptl2PXkiSth54HCuGO7vN",
       "image": "https://i.scdn.co/image/ab67616d0000485139917845c74c9e64320fbed9",
       "name": "あの夢をなぞって",
-      "score": 8.4678
+      "score": 8.4696
     },
     {
       "artist": "Yorushika",
       "because": {
-        "count": 331,
+        "count": 332,
         "name": "Same Blue"
       },
       "id": "5eY7692tmgHB9dbmq6wa2M",
       "image": "https://i.scdn.co/image/ab67616d000048515e763f5fcb87919a7ae96f8b",
       "name": "Sunny",
-      "score": 7.9293
+      "score": 7.9315
     },
     {
       "artist": "Spitz",
       "because": {
-        "count": 649,
+        "count": 650,
         "name": "美しい鰭"
       },
       "id": "0tu73VStd4PNxbF37Y6YSD",
       "image": "https://i.scdn.co/image/ab67616d00004851a64488e09a7cf0088f39d19f",
       "name": "Protect the Light",
-      "score": 6.477
+      "score": 6.4785
     },
     {
       "artist": "Bridgit Mendler",
@@ -734,13 +734,13 @@
     {
       "artist": "Ryokuoushoku Shakai",
       "because": {
-        "count": 331,
+        "count": 332,
         "name": "Same Blue"
       },
       "id": "2EmkTBTh964LQen4Vz0svg",
       "image": "https://i.scdn.co/image/ab67616d0000485189e9b12f91f811198b14e15d",
       "name": "Be a flower",
-      "score": 3.7272
+      "score": 3.7291
     },
     {
       "artist": "Rihanna",
@@ -778,13 +778,13 @@
     {
       "artist": "Ado",
       "because": {
-        "count": 331,
+        "count": 332,
         "name": "Same Blue"
       },
       "id": "0dvM0qG13mbrZGBSHJVkBu",
       "image": "https://i.scdn.co/image/ab67616d00004851671de38d1c3375a90ea25a15",
       "name": "Kura Kura",
-      "score": 3.5277
+      "score": 3.5295
     },
     {
       "artist": "YOASOBI",
@@ -798,6 +798,17 @@
       "score": 3.4623
     },
     {
+      "artist": "Goose house",
+      "because": {
+        "count": 332,
+        "name": "Same Blue"
+      },
+      "id": "2BlDX1yfT0ea5wo0vjCKKa",
+      "image": "https://i.scdn.co/image/ab67616d000048510735b9b1d06b65bbd8814825",
+      "name": "Hikarunara",
+      "score": 3.4013
+    },
+    {
       "artist": "Ke$ha",
       "because": {
         "count": 149,
@@ -807,17 +818,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851233906d0f076db62a4f819d0",
       "name": "Tik Tok",
       "score": 3.3997
-    },
-    {
-      "artist": "Goose house",
-      "because": {
-        "count": 331,
-        "name": "Same Blue"
-      },
-      "id": "2BlDX1yfT0ea5wo0vjCKKa",
-      "image": "https://i.scdn.co/image/ab67616d000048510735b9b1d06b65bbd8814825",
-      "name": "Hikarunara",
-      "score": 3.3995
     },
     {
       "artist": "Zedd & Alessia Cara",
