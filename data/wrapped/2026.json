@@ -29,7 +29,7 @@
       "month": "2026-07"
     },
     {
-      "count": 306,
+      "count": 323,
       "month": "2026-08"
     }
   ],
@@ -39,10 +39,10 @@
     "dow": 3,
     "hour": 21
   },
-  "plays": 10855,
+  "plays": 10872,
   "top_artists": [
     {
-      "count": 1514,
+      "count": 1519,
       "name": "OneRepublic"
     },
     {
@@ -106,12 +106,12 @@
       "name": "LANY"
     },
     {
-      "count": 125,
-      "name": "back number"
+      "count": 126,
+      "name": "ワンリパブリック"
     },
     {
-      "count": 124,
-      "name": "ワンリパブリック"
+      "count": 125,
+      "name": "back number"
     },
     {
       "count": 122,
@@ -151,7 +151,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 64,
+      "count": 66,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -159,7 +159,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 63,
+      "count": 65,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -199,9 +199,17 @@
       "artists": [
         "HUNTR/X"
       ],
-      "count": 57,
+      "count": 58,
       "name": "Golden",
       "track_id": "1CPZ5BxNNd0n0nF4Orb9JS"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 58,
+      "name": "Counting Stars",
+      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },
     {
       "artists": [
@@ -210,14 +218,6 @@
       "count": 57,
       "name": "Beautiful Colors - from Kaiju No. 8",
       "track_id": "0baR1QmlC8CruupaxA1IYA"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 57,
-      "name": "Counting Stars",
-      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },
     {
       "artists": [
