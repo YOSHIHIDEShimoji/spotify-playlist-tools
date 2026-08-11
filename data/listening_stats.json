@@ -801,7 +801,7 @@
       "track_id": "507tQXutCPYNFkpOq8tmKF"
     }
   ],
-  "generated_at": "2026-08-10T16:44:09.907776+00:00",
+  "generated_at": "2026-08-11T16:48:59.842059+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 62554
+    "total": 62564
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 14,
+  "streak": 15,
   "weekly_top": [
     {
       "artists": [
@@ -829,12 +829,30 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "ジャスティン・ビーバー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Kids",
-      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+      "image": "https://i.scdn.co/image/ab67616d000048515e8213c6183630b7d1931bdf",
+      "name": "Friends (with BloodPop®)",
+      "track_id": "7iNIg7XDEaYECfWD5dJ9Va"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
+      "name": "MISS U",
+      "track_id": "48FfsXjz8rd8CLhnIwWQNw"
     },
     {
       "artists": [
@@ -910,15 +928,6 @@
     },
     {
       "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515e8213c6183630b7d1931bdf",
-      "name": "Friends (with BloodPop®)",
-      "track_id": "7iNIg7XDEaYECfWD5dJ9Va"
-    },
-    {
-      "artists": [
         "Gracie Abrams"
       ],
       "count": 1,
@@ -949,8 +958,72 @@
         "OneRepublic"
       ],
       "count": 1,
-      "name": "Counting Stars",
-      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "name": "Sugar",
+      "track_id": "6eV7eK07znOHcKz3bzEmpS"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "people pleaser",
+      "track_id": "0UO8qysepsd0eppPu7bYp0"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "still dancing",
+      "track_id": "0utXblV7w6d6FylfW9yFzB"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "me, myself and i",
+      "track_id": "0eqqORX2j2REFwmdoJaRkH"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "favourite mistake",
+      "track_id": "6bnKECEvkntGfJMiRMPH41"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "orbit",
+      "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
     }
   ]
 }

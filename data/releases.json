@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T16:47:12.096257+00:00",
+  "generated_at": "2026-08-11T16:51:46.057039+00:00",
   "items": [
     {
       "album_id": "5iYgJIgcbEcRZfKLHodraf",
@@ -24,28 +24,6 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "6pVedvicWUkoO0Fmk5zqpC",
-      "album_name": "UNSPOKEN",
-      "album_type": "single",
-      "artist": "Matt Hansen",
-      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "0Q01cgQeoWTETkOvpoeng9",
-      "album_name": "Dai Dai",
-      "album_type": "single",
-      "artist": "Shakira",
-      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
       "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
       "album_name": "7 Days",
       "album_type": "single",
@@ -64,6 +42,28 @@
       "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "0Q01cgQeoWTETkOvpoeng9",
+      "album_name": "Dai Dai",
+      "album_type": "single",
+      "artist": "Shakira",
+      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "6pVedvicWUkoO0Fmk5zqpC",
+      "album_name": "UNSPOKEN",
+      "album_type": "single",
+      "artist": "Matt Hansen",
+      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
       "is_new": false,
       "release_date": "2026-08-07"
     },
@@ -134,83 +134,6 @@
       "release_date": "2026-08-03"
     },
     {
-      "album_id": "76FgDc8t4NrOZ0QWdUQIHq",
-      "album_name": "phone, keys, wallet (from my phone)",
-      "album_type": "single",
-      "artist": "Lainey Wilson",
-      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511e8f243c3e8a22b31d3fa542",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
-      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
-      "album_type": "single",
-      "artist": "BLANKA",
-      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
-      "album_name": "petal",
-      "album_type": "album",
-      "artist": "Ariana Grande",
-      "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
-      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5po8JSgrfUUMcc6r9lLawl",
-      "album_name": "River",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
-      "album_name": "Glitter",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
-      "album_name": "YOU CAN ALWAYS COME BACK HOME",
-      "album_type": "single",
-      "artist": "Jon Keith",
-      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
       "album_id": "0uNKUpiOQuoogwYkRlyGW7",
       "album_name": "夏に聴きたい西野カナ2026",
       "album_type": "album",
@@ -218,28 +141,6 @@
       "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485108d96b6bbd585881ecaf913c",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "7JGXUcwoQaSD2nAw8rKIN4",
-      "album_name": "infinity beyond",
-      "album_type": "single",
-      "artist": "JVKE",
-      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516097995a72352612f156cad4",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "6yVtMd0swv4uJMgc9nC8hK",
-      "album_name": "Hey There Delilah (ft. LØLØ)",
-      "album_type": "single",
-      "artist": "Plain White T's",
-      "artist_id": "1g1yxsNVPhMUl9GrMjEb2o",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485137dab50f22dbd3809b4c3c99",
       "is_new": false,
       "release_date": "2026-07-31"
     },
@@ -255,6 +156,105 @@
       "release_date": "2026-07-31"
     },
     {
+      "album_id": "6yVtMd0swv4uJMgc9nC8hK",
+      "album_name": "Hey There Delilah (ft. LØLØ)",
+      "album_type": "single",
+      "artist": "Plain White T's",
+      "artist_id": "1g1yxsNVPhMUl9GrMjEb2o",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485137dab50f22dbd3809b4c3c99",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "76FgDc8t4NrOZ0QWdUQIHq",
+      "album_name": "phone, keys, wallet (from my phone)",
+      "album_type": "single",
+      "artist": "Lainey Wilson",
+      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048511e8f243c3e8a22b31d3fa542",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
+      "album_name": "Glitter",
+      "album_type": "single",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
+      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
+      "album_type": "single",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
+      "album_name": "petal",
+      "album_type": "album",
+      "artist": "Ariana Grande",
+      "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
+      "album_name": "YOU CAN ALWAYS COME BACK HOME",
+      "album_type": "single",
+      "artist": "Jon Keith",
+      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "7JGXUcwoQaSD2nAw8rKIN4",
+      "album_name": "infinity beyond",
+      "album_type": "single",
+      "artist": "JVKE",
+      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048516097995a72352612f156cad4",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "5po8JSgrfUUMcc6r9lLawl",
+      "album_name": "River",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
+      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
+      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
+      "album_type": "single",
+      "artist": "BLANKA",
+      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
+      "is_new": false,
+      "release_date": "2026-07-31"
+    },
+    {
       "album_id": "5Er818ARb7me75pPmqlhMK",
       "album_name": "Happy Vibes",
       "album_type": "album",
@@ -262,17 +262,6 @@
       "artist_id": "0oOet2f43PA68X5RxKobEy",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851d48c4f0da042a2b884c3cfa7",
-      "is_new": false,
-      "release_date": "2026-07-30"
-    },
-    {
-      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
-      "album_name": "Happiness Is So Sad",
-      "album_type": "single",
-      "artist": "Swedish House Mafia",
-      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
       "is_new": false,
       "release_date": "2026-07-30"
     },
@@ -288,15 +277,15 @@
       "release_date": "2026-07-30"
     },
     {
-      "album_id": "6bR697fQAxDhXp63C5Da3R",
-      "album_name": "Keep Walking",
+      "album_id": "4WLLacwBaBRtV0qOzpFPMW",
+      "album_name": "Happiness Is So Sad",
       "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
+      "artist": "Swedish House Mafia",
+      "artist_id": "1h6Cn3P4NGzXbaXidqURXs",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ace7380e8ee73764ea11bbee",
       "is_new": false,
-      "release_date": "2026-07-29"
+      "release_date": "2026-07-30"
     },
     {
       "album_id": "1XGmtAQOLQn5QMsz6o7ixt",
@@ -306,6 +295,17 @@
       "artist_id": "1S2S00lgLYLGHWA44qGEUs",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485154c7fc01dee93a57c4aedcf5",
+      "is_new": false,
+      "release_date": "2026-07-29"
+    },
+    {
+      "album_id": "6bR697fQAxDhXp63C5Da3R",
+      "album_name": "Keep Walking",
+      "album_type": "single",
+      "artist": "Hitsujibungaku",
+      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9bd1d50db3cc01064e29c8f",
       "is_new": false,
       "release_date": "2026-07-29"
     },

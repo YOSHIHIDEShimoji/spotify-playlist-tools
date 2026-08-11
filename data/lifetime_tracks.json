@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-10T16:45:26.517245+00:00",
+  "generated_at": "2026-08-11T16:50:06.294022+00:00",
   "totals": {
     "artists": 1318,
-    "days": 2068,
+    "days": 2069,
     "ms": 12440720283,
-    "plays": 62554,
+    "plays": 62564,
     "since": "2019-09-05",
     "tracks": 4635
   },
@@ -2871,23 +2871,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 87,
-      "first": "2025-02-24",
-      "id": "6sy3LkhNFjJWlaeSMNwQ62",
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "last": "2026-08-10",
-      "ms": 21403003,
-      "name": "Counting Stars",
-      "short": 8,
-      "years": {
-        "2025": 29,
-        "2026": 58
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 87,
@@ -3065,6 +3048,23 @@
         "2024": 7,
         "2025": 4,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 86,
+      "first": "2025-02-24",
+      "id": "6sy3LkhNFjJWlaeSMNwQ62",
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "last": "2026-07-18",
+      "ms": 21403003,
+      "name": "Counting Stars",
+      "short": 8,
+      "years": {
+        "2025": 29,
+        "2026": 57
       }
     },
     {
@@ -5561,6 +5561,24 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 69,
+      "first": "2020-05-19",
+      "id": "6eV7eK07znOHcKz3bzEmpS",
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "last": "2026-08-10",
+      "ms": 13338655,
+      "name": "Sugar",
+      "short": 11,
+      "years": {
+        "2020": 1,
+        "2025": 29,
+        "2026": 39
+      }
+    },
+    {
+      "artists": [
         "Sia"
       ],
       "count": 69,
@@ -5783,24 +5801,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 68,
-      "first": "2020-05-19",
-      "id": "6eV7eK07znOHcKz3bzEmpS",
-      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
-      "last": "2026-08-02",
-      "ms": 13338655,
-      "name": "Sugar",
-      "short": 11,
-      "years": {
-        "2020": 1,
-        "2025": 29,
-        "2026": 38
-      }
-    },
-    {
-      "artists": [
         "Tobu"
       ],
       "count": 68,
@@ -6007,23 +6007,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 67,
-      "first": "2025-12-30",
-      "id": "5mQNY6pTeSDl2doFB7uLbE",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-08-10",
-      "ms": 12982778,
-      "name": "Kids",
-      "short": 6,
-      "years": {
-        "2025": 1,
-        "2026": 66
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 67,
@@ -6120,6 +6103,23 @@
         "2024": 22,
         "2025": 6,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 66,
+      "first": "2025-12-30",
+      "id": "5mQNY6pTeSDl2doFB7uLbE",
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "last": "2026-08-10",
+      "ms": 12982778,
+      "name": "Kids",
+      "short": 6,
+      "years": {
+        "2025": 1,
+        "2026": 65
       }
     },
     {
@@ -16044,6 +16044,22 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 21,
+      "first": "2026-07-11",
+      "id": "48FfsXjz8rd8CLhnIwWQNw",
+      "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
+      "last": "2026-08-11",
+      "ms": 1337950,
+      "name": "MISS U",
+      "short": 1,
+      "years": {
+        "2026": 21
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 21,
@@ -16740,22 +16756,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 19,
-      "first": "2026-07-11",
-      "id": "48FfsXjz8rd8CLhnIwWQNw",
-      "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
-      "last": "2026-07-29",
-      "ms": 1337950,
-      "name": "MISS U",
-      "short": 1,
-      "years": {
-        "2026": 19
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 19,
@@ -17307,6 +17307,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 18,
+      "first": "2026-05-18",
+      "id": "2jBt7c8o1dDuyIIgepcNsz",
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "last": "2026-08-11",
+      "ms": 1367555,
+      "name": "you were there for me",
+      "years": {
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 18,
@@ -17736,12 +17751,12 @@
         "Henry Moodie"
       ],
       "count": 17,
-      "first": "2026-05-18",
-      "id": "2jBt7c8o1dDuyIIgepcNsz",
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "last": "2026-07-28",
-      "ms": 1367555,
-      "name": "you were there for me",
+      "first": "2026-05-20",
+      "id": "2XhYeR0oaKHvm4p1Z5Uj1L",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-08-11",
+      "ms": 534762,
+      "name": "drunk text",
       "years": {
         "2026": 17
       }
@@ -18774,21 +18789,6 @@
       "last": "2026-08-06",
       "ms": 1192385,
       "name": "bad emotions",
-      "years": {
-        "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 15,
-      "first": "2026-05-20",
-      "id": "2XhYeR0oaKHvm4p1Z5Uj1L",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-07-29",
-      "ms": 534762,
-      "name": "drunk text",
       "years": {
         "2026": 15
       }
@@ -20051,6 +20051,22 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 12,
+      "first": "2026-07-12",
+      "id": "3O0OhpTJu2DV2yIYZAfhzf",
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "last": "2026-08-11",
+      "ms": 759980,
+      "name": "orbit",
+      "short": 2,
+      "years": {
+        "2026": 12
+      }
+    },
+    {
+      "artists": [
         "Noriyuki Makihara"
       ],
       "count": 12,
@@ -20475,12 +20491,12 @@
       ],
       "count": 11,
       "first": "2026-07-12",
-      "id": "3O0OhpTJu2DV2yIYZAfhzf",
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "last": "2026-07-26",
-      "ms": 759980,
-      "name": "orbit",
-      "short": 2,
+      "id": "1ZbYQqBVYetCszJHUzdNvf",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-07-28",
+      "ms": 1101080,
+      "name": "right person, wrong time",
+      "short": 1,
       "years": {
         "2026": 11
       }
@@ -20491,11 +20507,11 @@
       ],
       "count": 11,
       "first": "2026-07-12",
-      "id": "1ZbYQqBVYetCszJHUzdNvf",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-07-28",
-      "ms": 1101080,
-      "name": "right person, wrong time",
+      "id": "0utXblV7w6d6FylfW9yFzB",
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "last": "2026-08-11",
+      "ms": 460019,
+      "name": "still dancing",
       "short": 1,
       "years": {
         "2026": 11
@@ -21261,22 +21277,6 @@
       ],
       "count": 10,
       "first": "2026-07-12",
-      "id": "0utXblV7w6d6FylfW9yFzB",
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "last": "2026-08-02",
-      "ms": 460019,
-      "name": "still dancing",
-      "short": 1,
-      "years": {
-        "2026": 10
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 10,
-      "first": "2026-07-12",
       "id": "2OupMbGCv1k6UDN0ay6sdt",
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
       "last": "2026-08-06",
@@ -21936,6 +21936,22 @@
       "last": "2026-07-28",
       "ms": 503148,
       "name": "mood swings",
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 9,
+      "first": "2026-07-12",
+      "id": "0UO8qysepsd0eppPu7bYp0",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-08-11",
+      "ms": 529119,
+      "name": "people pleaser",
+      "short": 1,
       "years": {
         "2026": 9
       }
@@ -22918,22 +22934,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 8,
-      "first": "2026-07-12",
-      "id": "0UO8qysepsd0eppPu7bYp0",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-07-28",
-      "ms": 529119,
-      "name": "people pleaser",
-      "short": 1,
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Kenshi Yonezu"
       ],
       "count": 8,
@@ -23797,6 +23797,21 @@
       "years": {
         "2021": 3,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 7,
+      "first": "2026-07-18",
+      "id": "0eqqORX2j2REFwmdoJaRkH",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-08-11",
+      "ms": 182040,
+      "name": "me, myself and i",
+      "years": {
+        "2026": 7
       }
     },
     {
@@ -24673,6 +24688,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 6,
+      "first": "2026-07-18",
+      "id": "6bnKECEvkntGfJMiRMPH41",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-08-11",
+      "ms": 201827,
+      "name": "favourite mistake",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "LANY"
       ],
       "count": 6,
@@ -24682,21 +24712,6 @@
       "last": "2026-08-06",
       "ms": 992535,
       "name": "live it down",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 6,
-      "first": "2026-07-18",
-      "id": "0eqqORX2j2REFwmdoJaRkH",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-08-02",
-      "ms": 182040,
-      "name": "me, myself and i",
       "years": {
         "2026": 6
       }
@@ -25390,6 +25405,21 @@
       "short": 2,
       "years": {
         "2025": 5
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 5,
+      "first": "2026-06-25",
+      "id": "7iNIg7XDEaYECfWD5dJ9Va",
+      "image": "https://i.scdn.co/image/ab67616d000048515e8213c6183630b7d1931bdf",
+      "last": "2026-08-11",
+      "ms": 568401,
+      "name": "Friends (with BloodPop®)",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -26526,21 +26556,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 5,
-      "first": "2026-07-18",
-      "id": "6bnKECEvkntGfJMiRMPH41",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-07-25",
-      "ms": 201827,
-      "name": "favourite mistake",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Sabrina Carpenter"
       ],
       "count": 5,
@@ -27412,21 +27427,6 @@
       "years": {
         "2022": 1,
         "2024": 3
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 4,
-      "first": "2026-06-25",
-      "id": "7iNIg7XDEaYECfWD5dJ9Va",
-      "image": "https://i.scdn.co/image/ab67616d000048515e8213c6183630b7d1931bdf",
-      "last": "2026-08-10",
-      "ms": 568401,
-      "name": "Friends (with BloodPop®)",
-      "years": {
-        "2026": 4
       }
     },
     {
