@@ -336,43 +336,43 @@
         "rank": 6
       },
       {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "rank": 7
+      },
+      {
         "id": "49tQo2QULno7gxHutgccqF",
         "name": "LANY",
-        "rank": 7
+        "rank": 8
       },
       {
         "id": "4x1nvY2FN8jxqAFA0DA02H",
         "name": "John Lennon",
-        "rank": 8
+        "rank": 9
       },
       {
         "id": "7k73EtZwoPs516ZxE72KsO",
         "name": "ONE OK ROCK",
-        "rank": 9
+        "rank": 10
       },
       {
         "id": "23fqKkggKUBHNkbKtXEls4",
         "name": "Kygo",
-        "rank": 10
+        "rank": 11
       },
       {
         "id": "6eUKZXaKkcviH0Ku9w2n3V",
         "name": "Ed Sheeran",
-        "rank": 11
+        "rank": 12
       },
       {
         "id": "3FUY2gzHeIiaesXtOAdB7A",
         "name": "Train",
-        "rank": 12
+        "rank": 13
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 13
-      },
-      {
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
         "rank": 14
       },
       {
@@ -411,38 +411,38 @@
         "rank": 21
       },
       {
-        "id": "1McMsnEElThX1knmY4oliG",
-        "name": "Olivia Rodrigo",
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
         "rank": 22
       },
       {
-        "id": "0jWCX6zp4RjWrmZRxJ2uri",
-        "name": "Novelbright",
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
         "rank": 23
-      },
-      {
-        "id": "0fTSzq9jAh4c36UVb4V7CB",
-        "name": "Alex Warren",
-        "rank": 24
-      },
-      {
-        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
-        "name": "The Weeknd",
-        "rank": 25
-      },
-      {
-        "id": "2DaxqgrOhkeH0fpeiQq2f4",
-        "name": "Oasis",
-        "rank": 26
-      },
-      {
-        "id": "3sFhA6G1N0gG1pszb6kk1m",
-        "name": "Wings",
-        "rank": 27
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
+        "rank": 24
+      },
+      {
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "name": "Alex Warren",
+        "rank": 25
+      },
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd",
+        "rank": 26
+      },
+      {
+        "id": "2DaxqgrOhkeH0fpeiQq2f4",
+        "name": "Oasis",
+        "rank": 27
+      },
+      {
+        "id": "3sFhA6G1N0gG1pszb6kk1m",
+        "name": "Wings",
         "rank": 28
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-08-12T16:50:39.720723+00:00",
+  "generated_at": "2026-08-13T16:49:16.759241+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1013,18 +1013,18 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "2tpWsVSb9UEmDRxAl1zhX1",
+        "id": "3IQF4xCQUPicbA4hWfTxPo",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Counting Stars",
+        "name": "I Lived",
         "rank": 1
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "3IQF4xCQUPicbA4hWfTxPo",
+        "id": "2tpWsVSb9UEmDRxAl1zhX1",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "I Lived",
+        "name": "Counting Stars",
         "rank": 2
       },
       {
@@ -1083,21 +1083,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "5mQNY6pTeSDl2doFB7uLbE",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Kids",
-        "rank": 9
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "3O0OhpTJu2DV2yIYZAfhzf",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "orbit",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
@@ -1106,7 +1097,7 @@
         "id": "0UO8qysepsd0eppPu7bYp0",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "people pleaser",
-        "rank": 11
+        "rank": 10
       },
       {
         "artists": [
@@ -1115,7 +1106,7 @@
         "id": "0utXblV7w6d6FylfW9yFzB",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "still dancing",
-        "rank": 12
+        "rank": 11
       },
       {
         "artists": [
@@ -1124,7 +1115,7 @@
         "id": "37ZOqyxz7B7bmIa2sq5odC",
         "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
         "name": "eighteen",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1133,6 +1124,15 @@
         "id": "3pe2SgiSoeCRb5IqvZZ5tS",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "the old me",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Kids",
         "rank": 14
       },
       {
@@ -1146,20 +1146,20 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "4fYte8ZvTK14NEhAOZocBi",
-        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
-        "name": "I Ain't Worried",
-        "rank": 16
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "0EPINaCMN2i8A0MBCmoZVm",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "bad emotions",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "4fYte8ZvTK14NEhAOZocBi",
+        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
+        "name": "I Ain't Worried",
         "rank": 17
       },
       {
@@ -1218,22 +1218,12 @@
       },
       {
         "artists": [
-          "Alesso",
-          "OneRepublic"
-        ],
-        "id": "0NIIKZEed0nXPz4lHnMaZg",
-        "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
-        "name": "In Your Eyes",
-        "rank": 24
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "0dGDhJ1hQco0OjlHEH97Q8",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "beat up car",
-        "rank": 25
+        "rank": 24
       },
       {
         "artists": [
@@ -1242,16 +1232,7 @@
         "id": "2OupMbGCv1k6UDN0ay6sdt",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "ten years time",
-        "rank": 26
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "05sCp83gcMm1iecYydKJS3",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Let's Hurt Tonight",
-        "rank": 27
+        "rank": 25
       },
       {
         "artists": [
@@ -1260,16 +1241,7 @@
         "id": "1yOcU2ioxHKuKa1lsrdaur",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "sunday morning",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2LsFnG9KYkWSk8dVopmHw2",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "RUNAWAY",
-        "rank": 29
+        "rank": 26
       },
       {
         "artists": [
@@ -1278,6 +1250,34 @@
         "id": "3qji3M6fG6w9Sj9nL2tG7m",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "dear drew",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "The Kid LAROI",
+          "Justin Bieber"
+        ],
+        "id": "567e29TDzLwZwfDuEpGTwo",
+        "image": "https://i.scdn.co/image/ab67616d00004851b4d59e6fa7e5e7cbc57ac33a",
+        "name": "STAY (with Justin Bieber)",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "6bnKECEvkntGfJMiRMPH41",
+        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+        "name": "favourite mistake",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Novelbright"
+        ],
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
+        "name": "アイビー",
         "rank": 30
       }
     ]
