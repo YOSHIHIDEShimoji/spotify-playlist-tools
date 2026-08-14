@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-08-13T16:50:14.923059+00:00",
+  "generated_at": "2026-08-14T16:44:36.472240+00:00",
   "items": [
-    {
-      "album_id": "7unDB3yK0Z2tlam1P4MzwE",
-      "album_name": "Faded Eyes",
-      "album_type": "single",
-      "artist": "Zerb",
-      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514490f8748d0912fb9d347b3a",
-      "is_new": true,
-      "release_date": "2026-08-14"
-    },
     {
       "album_id": "0StPEmjgK8VVgzZ7bgnwED",
       "album_name": "Hermoso",
@@ -19,8 +8,8 @@
       "artist": "benny blanco",
       "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a8d91063e4eefb1ca80d81b2",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851650e5315d793a2407810a373",
+      "is_new": false,
       "release_date": "2026-08-14"
     },
     {
@@ -31,7 +20,18 @@
       "artist_id": "62SCu33InHVq97VaWw3eof",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b016aa9473269b59b0925f92",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
+      "album_name": "Starrgirl",
+      "album_type": "album",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
+      "is_new": false,
       "release_date": "2026-08-14"
     },
     {
@@ -42,7 +42,18 @@
       "artist_id": "6p5JxpTc7USNnBnLzctyd4",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851e2723e87ddae34c920ca9831",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "7unDB3yK0Z2tlam1P4MzwE",
+      "album_name": "Faded Eyes",
+      "album_type": "single",
+      "artist": "Zerb",
+      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514490f8748d0912fb9d347b3a",
+      "is_new": false,
       "release_date": "2026-08-14"
     },
     {
@@ -53,17 +64,28 @@
       "artist_id": "6zO1dZ40fTZ5hY9NnnRJSk",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048517e957cf8f296ae310bba56ad",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "7AsM74VTRiioLdXffW05lh",
+      "album_name": "Camp Rock 3 (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517723cab8b4946f961a987e2e",
       "is_new": true,
       "release_date": "2026-08-14"
     },
     {
-      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
-      "album_name": "Starrgirl",
-      "album_type": "album",
-      "artist": "Ayra Starr",
-      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "album_id": "2dGQureZSUxAaz2hRPDV40",
+      "album_name": "Trance (Walk It Down)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485142d7b85c14a261ac0892383e",
+      "image": "https://i.scdn.co/image/ab67616d00004851d733d6b019e2634b836812d3",
       "is_new": true,
       "release_date": "2026-08-14"
     },
@@ -74,8 +96,8 @@
       "artist": "benny blanco",
       "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e2333bec2690ac85929d2696",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d000048517d33d7943f0abe4cae1b1ce4",
+      "is_new": false,
       "release_date": "2026-08-13"
     },
     {
@@ -85,8 +107,8 @@
       "artist": "benny blanco",
       "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485160295b6ff8ea434e6677f0bf",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851c76a70b8f9876dee56ac9769",
+      "is_new": false,
       "release_date": "2026-08-13"
     },
     {
@@ -97,6 +119,17 @@
       "artist_id": "6veh5zbFpm31XsPdjBgPER",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485106923fb980d7bb4c25e0e2e1",
+      "is_new": false,
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "5363wdqqqTUdUPecJVzNCC",
+      "album_name": "Trance (Walk It Down)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485108290697531551b8504288eb",
       "is_new": true,
       "release_date": "2026-08-13"
     },
@@ -110,39 +143,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485169f291be6168da706f58fd84",
       "is_new": false,
       "release_date": "2026-08-10"
-    },
-    {
-      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
-      "album_name": "RESCUER",
-      "album_type": "single",
-      "artist": "Alex Warren",
-      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
-      "album_name": "7 Days",
-      "album_type": "single",
-      "artist": "MEDUZA",
-      "artist_id": "0xRXCcSX89eobfrshSVdyu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485123e3f9e371052fc1589a3659",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "1rxJ0bA6PWSyd8R0jurIOJ",
-      "album_name": "How I Feel",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512e3e51d08a0e164c6f78d85a",
-      "is_new": false,
-      "release_date": "2026-08-07"
     },
     {
       "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
@@ -178,6 +178,50 @@
       "release_date": "2026-08-07"
     },
     {
+      "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
+      "album_name": "7 Days",
+      "album_type": "single",
+      "artist": "MEDUZA",
+      "artist_id": "0xRXCcSX89eobfrshSVdyu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485123e3f9e371052fc1589a3659",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
+      "album_name": "RESCUER",
+      "album_type": "single",
+      "artist": "Alex Warren",
+      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "1rxJ0bA6PWSyd8R0jurIOJ",
+      "album_name": "How I Feel",
+      "album_type": "single",
+      "artist": "Marshmello",
+      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048511245783db76e59a0a88ed07d",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "0pFlE0rc68RS8f3UHzioQY",
+      "album_name": "The Real Me",
+      "album_type": "album",
+      "artist": "Future",
+      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
+      "is_new": false,
+      "release_date": "2026-08-06"
+    },
+    {
       "album_id": "2jbqFS5kWBih7qFw5ThTYf",
       "album_name": "Winnie Puuh - Alle sind beschäftigt",
       "album_type": "album",
@@ -196,17 +240,6 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851240d049eb5fbd6d488dac51d",
-      "is_new": false,
-      "release_date": "2026-08-06"
-    },
-    {
-      "album_id": "0pFlE0rc68RS8f3UHzioQY",
-      "album_name": "The Real Me",
-      "album_type": "album",
-      "artist": "Future",
-      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
       "is_new": false,
       "release_date": "2026-08-06"
     },
@@ -231,127 +264,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485147b7ca4f69f5386298e3fceb",
       "is_new": false,
       "release_date": "2026-08-03"
-    },
-    {
-      "album_id": "2ZKYQ4pgjZ87oMJBhdDV1Q",
-      "album_name": "YOU CAN ALWAYS COME BACK HOME",
-      "album_type": "single",
-      "artist": "Jon Keith",
-      "artist_id": "0PUc1lwaZpPJaMr0v4Gdvo",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b234bf7fbfcb69b335b39353",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "7JGXUcwoQaSD2nAw8rKIN4",
-      "album_name": "infinity beyond",
-      "album_type": "single",
-      "artist": "JVKE",
-      "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516097995a72352612f156cad4",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "76FgDc8t4NrOZ0QWdUQIHq",
-      "album_name": "phone, keys, wallet (from my phone)",
-      "album_type": "single",
-      "artist": "Lainey Wilson",
-      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511e8f243c3e8a22b31d3fa542",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "0uNKUpiOQuoogwYkRlyGW7",
-      "album_name": "夏に聴きたい西野カナ2026",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485108d96b6bbd585881ecaf913c",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "0vJ7dYMRW2KFtO8rdbfm3h",
-      "album_name": "Te Olvido (La La) (with Selena Gomez & Becky G)",
-      "album_type": "single",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c569560b1dd11648a2d7ee5",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "2k4FmEtXR0WiDW0Ac2QArT",
-      "album_name": "petal",
-      "album_type": "album",
-      "artist": "Ariana Grande",
-      "artist_id": "66CXWjxzNUsdJxJ2JdwvnR",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518baf677ee2d8dda6cc9fcbd7",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "1vClDIChMXkf3Gg82ajfXu",
-      "album_name": "Smoke",
-      "album_type": "single",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aa9e896e1d6b1fa97b133cd8",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "6yVtMd0swv4uJMgc9nC8hK",
-      "album_name": "Hey There Delilah (ft. LØLØ)",
-      "album_type": "single",
-      "artist": "Plain White T's",
-      "artist_id": "1g1yxsNVPhMUl9GrMjEb2o",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485137dab50f22dbd3809b4c3c99",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5po8JSgrfUUMcc6r9lLawl",
-      "album_name": "River",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485114378dc69fcb53ac6ccc85da",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "4aZ0VDwzbRwfvrfF4HLqNo",
-      "album_name": "YEYEYO (the Official Song of the FIFA U-20 Women's World Cup Poland 2026™)",
-      "album_type": "single",
-      "artist": "BLANKA",
-      "artist_id": "0ML3y0iBY1nq7HWAWP0EFm",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515bb2aa0192babee963b6170e",
-      "is_new": false,
-      "release_date": "2026-07-31"
-    },
-    {
-      "album_id": "5VPhIbXfPKlW8qlFXDlj5n",
-      "album_name": "Glitter",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485109f3ec6147110675463a5aec",
-      "is_new": false,
-      "release_date": "2026-07-31"
     }
   ]
 }
