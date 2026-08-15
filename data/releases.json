@@ -1,50 +1,6 @@
 {
-  "generated_at": "2026-08-14T16:44:36.472240+00:00",
+  "generated_at": "2026-08-15T16:17:09.696753+00:00",
   "items": [
-    {
-      "album_id": "0StPEmjgK8VVgzZ7bgnwED",
-      "album_name": "Hermoso",
-      "album_type": "album",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851650e5315d793a2407810a373",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "4Ca3BtmO41F1EvydCfcoOw",
-      "album_name": "Mirage",
-      "album_type": "single",
-      "artist": "MPH",
-      "artist_id": "62SCu33InHVq97VaWw3eof",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b016aa9473269b59b0925f92",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
-      "album_name": "Starrgirl",
-      "album_type": "album",
-      "artist": "Ayra Starr",
-      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "64OMCk6mYA9ZC8PkO8YMTl",
-      "album_name": "Remember Me",
-      "album_type": "single",
-      "artist": "Phillip Phillips",
-      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e2723e87ddae34c920ca9831",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
     {
       "album_id": "7unDB3yK0Z2tlam1P4MzwE",
       "album_name": "Faded Eyes",
@@ -68,14 +24,36 @@
       "release_date": "2026-08-14"
     },
     {
-      "album_id": "7AsM74VTRiioLdXffW05lh",
-      "album_name": "Camp Rock 3 (Original Soundtrack)",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "album_id": "4Ca3BtmO41F1EvydCfcoOw",
+      "album_name": "Mirage",
+      "album_type": "single",
+      "artist": "MPH",
+      "artist_id": "62SCu33InHVq97VaWw3eof",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517723cab8b4946f961a987e2e",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851b016aa9473269b59b0925f92",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "0StPEmjgK8VVgzZ7bgnwED",
+      "album_name": "Hermoso",
+      "album_type": "album",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851650e5315d793a2407810a373",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "64OMCk6mYA9ZC8PkO8YMTl",
+      "album_name": "Remember Me",
+      "album_type": "single",
+      "artist": "Phillip Phillips",
+      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e2723e87ddae34c920ca9831",
+      "is_new": false,
       "release_date": "2026-08-14"
     },
     {
@@ -86,7 +64,29 @@
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851d733d6b019e2634b836812d3",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "7AsM74VTRiioLdXffW05lh",
+      "album_name": "Camp Rock 3 (Original Soundtrack)",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517723cab8b4946f961a987e2e",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
+      "album_name": "Starrgirl",
+      "album_type": "album",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
+      "is_new": false,
       "release_date": "2026-08-14"
     },
     {
@@ -130,7 +130,7 @@
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485108290697531551b8504288eb",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-08-13"
     },
     {
@@ -140,18 +140,18 @@
       "artist": "jo0ji",
       "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485169f291be6168da706f58fd84",
+      "image": "https://i.scdn.co/image/ab67616d000048519ac3a65488b14ba8aff33b7a",
       "is_new": false,
       "release_date": "2026-08-10"
     },
     {
-      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
-      "album_name": "superHuman",
+      "album_id": "6pVedvicWUkoO0Fmk5zqpC",
+      "album_name": "UNSPOKEN",
       "album_type": "single",
-      "artist": "AUDREY NUNA",
-      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
+      "artist": "Matt Hansen",
+      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
+      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
       "is_new": false,
       "release_date": "2026-08-07"
     },
@@ -167,13 +167,13 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "6pVedvicWUkoO0Fmk5zqpC",
-      "album_name": "UNSPOKEN",
+      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
+      "album_name": "RESCUER",
       "album_type": "single",
-      "artist": "Matt Hansen",
-      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "artist": "Alex Warren",
+      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
+      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
       "is_new": false,
       "release_date": "2026-08-07"
     },
@@ -189,13 +189,13 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
-      "album_name": "RESCUER",
+      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
+      "album_name": "superHuman",
       "album_type": "single",
-      "artist": "Alex Warren",
-      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
+      "artist": "AUDREY NUNA",
+      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
+      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
       "is_new": false,
       "release_date": "2026-08-07"
     },
