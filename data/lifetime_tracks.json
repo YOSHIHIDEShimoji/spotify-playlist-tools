@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-15T16:15:19.856272+00:00",
+  "generated_at": "2026-08-16T16:15:52.928616+00:00",
   "totals": {
-    "artists": 1321,
+    "artists": 1322,
     "days": 2073,
     "ms": 12440720283,
     "plays": 62635,
     "since": "2019-09-05",
-    "tracks": 4639
+    "tracks": 4638
   },
   "tracks": [
     {
@@ -8239,6 +8239,24 @@
     },
     {
       "artists": [
+        "*NSYNC"
+      ],
+      "count": 55,
+      "first": "2024-08-09",
+      "id": "4r8lRYnoOGdEi6YyI5OC1o",
+      "image": "https://i.scdn.co/image/ab67616d00004851fceb9d92981970dbeea23257",
+      "last": "2026-08-15",
+      "ms": 10759470,
+      "name": "Bye Bye Bye",
+      "short": 3,
+      "years": {
+        "2024": 27,
+        "2025": 13,
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "Train"
       ],
       "count": 55,
@@ -8455,24 +8473,6 @@
         "2024": 25,
         "2025": 5,
         "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "*NSYNC"
-      ],
-      "count": 54,
-      "first": "2024-08-09",
-      "id": "4r8lRYnoOGdEi6YyI5OC1o",
-      "image": "https://i.scdn.co/image/ab67616d00004851fceb9d92981970dbeea23257",
-      "last": "2026-05-19",
-      "ms": 10759470,
-      "name": "Bye Bye Bye",
-      "short": 3,
-      "years": {
-        "2024": 27,
-        "2025": 13,
-        "2026": 14
       }
     },
     {
@@ -14772,26 +14772,6 @@
     },
     {
       "artists": [
-        "Panic! At The Disco"
-      ],
-      "count": 25,
-      "first": "2022-06-05",
-      "id": "1rqqCSm0Qe4I9rUvWncaom",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5148520a59be191eea16989",
-      "last": "2026-08-15",
-      "ms": 3860404,
-      "name": "High Hopes",
-      "short": 7,
-      "years": {
-        "2022": 2,
-        "2023": 1,
-        "2024": 1,
-        "2025": 3,
-        "2026": 18
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 25,
@@ -14995,6 +14975,26 @@
         "2024": 4,
         "2025": 6,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "Panic! At The Disco"
+      ],
+      "count": 24,
+      "first": "2022-06-05",
+      "id": "1rqqCSm0Qe4I9rUvWncaom",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5148520a59be191eea16989",
+      "last": "2026-08-15",
+      "ms": 3860404,
+      "name": "High Hopes",
+      "short": 7,
+      "years": {
+        "2022": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 3,
+        "2026": 17
       }
     },
     {
@@ -27794,6 +27794,22 @@
     },
     {
       "artists": [
+        "Lady Gaga"
+      ],
+      "count": 4,
+      "first": "2026-05-13",
+      "id": "0oWraSo5ASJ0h1BEagTyEw",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
+      "last": "2026-08-15",
+      "ms": 675900,
+      "name": "Hold My Hand",
+      "short": 2,
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 4,
@@ -31291,22 +31307,6 @@
       "last": "2026-08-14",
       "ms": 194377,
       "name": "Hit the Wall",
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "Lady Gaga"
-      ],
-      "count": 3,
-      "first": "2026-05-13",
-      "id": "0oWraSo5ASJ0h1BEagTyEw",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
-      "last": "2026-07-06",
-      "ms": 675900,
-      "name": "Hold My Hand",
-      "short": 2,
       "years": {
         "2026": 3
       }
@@ -47263,21 +47263,6 @@
       "name": "Butterfly Effect",
       "years": {
         "2021": 1
-      }
-    },
-    {
-      "artists": [
-        "イン・シンク"
-      ],
-      "count": 1,
-      "first": "2026-08-15",
-      "id": "lastfm:byebyebye|イン・シンク",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/af2ea9952437f3a6b97c0b1fa5d050da.jpg",
-      "last": "2026-08-15",
-      "ms": 0,
-      "name": "Bye Bye Bye",
-      "years": {
-        "2026": 1
       }
     },
     {
