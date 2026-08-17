@@ -153,7 +153,7 @@
   ],
   "decades": [
     {
-      "count": 2,
+      "count": 3,
       "decade": 1970
     },
     {
@@ -169,11 +169,11 @@
       "decade": 2000
     },
     {
-      "count": 340,
+      "count": 341,
       "decade": 2010
     },
     {
-      "count": 328,
+      "count": 329,
       "decade": 2020
     }
   ],
@@ -337,7 +337,7 @@
           "decade": 1960
         },
         {
-          "count": 40,
+          "count": 41,
           "decade": 1970
         },
         {
@@ -353,15 +353,15 @@
           "decade": 2000
         },
         {
-          "count": 349,
+          "count": 350,
           "decade": 2010
         },
         {
-          "count": 340,
+          "count": 341,
           "decade": 2020
         }
       ],
-      "total": 1111
+      "total": 1114
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -690,13 +690,13 @@
           },
           {
             "count": 4,
-            "id": "3Nrfpe0tUJi4K4DXYWgMUX",
-            "name": "BTS"
+            "id": "246dkjvS1zLTtiykXe5h60",
+            "name": "Post Malone"
           }
         ],
         "decades": [
           {
-            "count": 2,
+            "count": 3,
             "decade": 1970
           },
           {
@@ -712,15 +712,15 @@
             "decade": 2000
           },
           {
-            "count": 257,
+            "count": 258,
             "decade": 2010
           },
           {
-            "count": 246,
+            "count": 247,
             "decade": 2020
           }
         ],
-        "total": 553
+        "total": 556
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -858,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-08-16T16:14:57.975977+00:00",
-  "total": 753
+  "generated_at": "2026-08-17T16:18:01.760677+00:00",
+  "total": 756
 }
