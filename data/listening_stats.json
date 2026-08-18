@@ -60,7 +60,7 @@
       "artists": [
         "Sia"
       ],
-      "count": 180,
+      "count": 179,
       "name": "Chandelier",
       "track_id": "4VrWlk8IQxevMvERoX08iC"
     },
@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-17T16:17:51.367756+00:00",
+  "generated_at": "2026-08-18T16:21:08.713874+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 62695
+    "total": 62701
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 2,
@@ -847,21 +847,12 @@
     },
     {
       "artists": [
-        "Gym Class Heroes"
+        "Henry Moodie"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485118b8088fe0c3dbf78398b55a",
-      "name": "Stereo Hearts (feat. Adam Levine)",
-      "track_id": "0qOnSQQF0yzuPWsXrQ9paz"
-    },
-    {
-      "artists": [
-        "Sia"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
-      "name": "Chandelier",
-      "track_id": "4VrWlk8IQxevMvERoX08iC"
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "bad emotions",
+      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
     },
     {
       "artists": [
@@ -1267,6 +1258,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048514a075ca70ae4143a37eb4fbe",
       "name": "Perfect",
       "track_id": "3NLnwwAQbbFKcEcV8hDItk"
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "name": "Patient",
+      "track_id": "2ZrHbO88rM6Ijeg0aJmSzl"
     }
   ]
 }

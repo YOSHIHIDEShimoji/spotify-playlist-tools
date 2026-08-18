@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T16:22:32.980806+00:00",
+  "generated_at": "2026-08-18T16:22:14.402680+00:00",
   "totals": {
-    "artists": 1323,
+    "artists": 1322,
     "days": 2075,
     "ms": 12440720283,
-    "plays": 62695,
+    "plays": 62701,
     "since": "2019-09-05",
-    "tracks": 4639
+    "tracks": 4640
   },
   "tracks": [
     {
@@ -150,7 +150,7 @@
       "artists": [
         "Sia"
       ],
-      "count": 180,
+      "count": 179,
       "first": "2020-12-07",
       "id": "4VrWlk8IQxevMvERoX08iC",
       "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
@@ -165,7 +165,7 @@
         "2023": 17,
         "2024": 14,
         "2025": 25,
-        "2026": 25
+        "2026": 24
       }
     },
     {
@@ -4982,27 +4982,6 @@
     },
     {
       "artists": [
-        "Gym Class Heroes"
-      ],
-      "count": 73,
-      "first": "2021-04-29",
-      "id": "0qOnSQQF0yzuPWsXrQ9paz",
-      "image": "https://i.scdn.co/image/ab67616d0000485118b8088fe0c3dbf78398b55a",
-      "last": "2026-08-18",
-      "ms": 14170102,
-      "name": "Stereo Hearts (feat. Adam Levine)",
-      "short": 15,
-      "years": {
-        "2021": 16,
-        "2022": 9,
-        "2023": 5,
-        "2024": 5,
-        "2025": 22,
-        "2026": 16
-      }
-    },
-    {
-      "artists": [
         "SPITZ"
       ],
       "count": 73,
@@ -5149,6 +5128,27 @@
         "2024": 6,
         "2025": 5,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Gym Class Heroes"
+      ],
+      "count": 72,
+      "first": "2021-04-29",
+      "id": "0qOnSQQF0yzuPWsXrQ9paz",
+      "image": "https://i.scdn.co/image/ab67616d0000485118b8088fe0c3dbf78398b55a",
+      "last": "2026-08-18",
+      "ms": 14170102,
+      "name": "Stereo Hearts (feat. Adam Levine)",
+      "short": 15,
+      "years": {
+        "2021": 16,
+        "2022": 9,
+        "2023": 5,
+        "2024": 5,
+        "2025": 22,
+        "2026": 15
       }
     },
     {
@@ -17322,6 +17322,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 18,
+      "first": "2026-07-11",
+      "id": "0EPINaCMN2i8A0MBCmoZVm",
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "last": "2026-08-18",
+      "ms": 1192385,
+      "name": "bad emotions",
+      "years": {
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 18,
@@ -18005,6 +18020,22 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 16,
+      "first": "2026-04-05",
+      "id": "6I3mqTwhRpn34SLVafSH7G",
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "last": "2026-08-18",
+      "ms": 2298158,
+      "name": "Ghost",
+      "short": 4,
+      "years": {
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "涼宮ハルヒ (CV.平野 綾)"
       ],
       "count": 16,
@@ -18328,21 +18359,6 @@
         "Henry Moodie"
       ],
       "count": 16,
-      "first": "2026-07-11",
-      "id": "0EPINaCMN2i8A0MBCmoZVm",
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "last": "2026-08-12",
-      "ms": 1192385,
-      "name": "bad emotions",
-      "years": {
-        "2026": 16
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 16,
       "first": "2026-05-20",
       "id": "2XhYeR0oaKHvm4p1Z5Uj1L",
       "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
@@ -18574,22 +18590,6 @@
       "years": {
         "2019": 2,
         "2020": 13
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 15,
-      "first": "2026-04-05",
-      "id": "6I3mqTwhRpn34SLVafSH7G",
-      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-      "last": "2026-07-06",
-      "ms": 2298158,
-      "name": "Ghost",
-      "short": 4,
-      "years": {
-        "2026": 15
       }
     },
     {
@@ -23815,6 +23815,21 @@
     },
     {
       "artists": [
+        "Post Malone"
+      ],
+      "count": 7,
+      "first": "2026-06-04",
+      "id": "2CIXO1jQbrV1hlfI7FUKld",
+      "image": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
+      "last": "2026-08-18",
+      "ms": 783292,
+      "name": "Wrong Ones (Feat. Tim McGraw)",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 7,
@@ -24529,6 +24544,21 @@
     },
     {
       "artists": [
+        "Martin Garrix"
+      ],
+      "count": 6,
+      "first": "2026-07-03",
+      "id": "6TWWauThn6z8xOFpG4XF3O",
+      "image": "https://i.scdn.co/image/ab67616d0000485199acb124b8c5a05f39e839d2",
+      "last": "2026-08-18",
+      "ms": 766864,
+      "name": "Repeat It",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 6,
@@ -24788,21 +24818,6 @@
       "years": {
         "2019": 2,
         "2020": 4
-      }
-    },
-    {
-      "artists": [
-        "Post Malone"
-      ],
-      "count": 6,
-      "first": "2026-06-04",
-      "id": "2CIXO1jQbrV1hlfI7FUKld",
-      "image": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
-      "last": "2026-08-01",
-      "ms": 783292,
-      "name": "Wrong Ones (Feat. Tim McGraw)",
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -26118,6 +26133,21 @@
     },
     {
       "artists": [
+        "Bruno Mars"
+      ],
+      "count": 5,
+      "first": "2026-03-05",
+      "id": "4i4BVY2JiH4mDSLIBdNGKD",
+      "image": "https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395",
+      "last": "2026-08-18",
+      "ms": 592156,
+      "name": "On My Soul",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 5,
@@ -26184,21 +26214,6 @@
         "2023": 1,
         "2024": 1,
         "2025": 3
-      }
-    },
-    {
-      "artists": [
-        "Martin Garrix"
-      ],
-      "count": 5,
-      "first": "2026-07-03",
-      "id": "6TWWauThn6z8xOFpG4XF3O",
-      "image": "https://i.scdn.co/image/ab67616d0000485199acb124b8c5a05f39e839d2",
-      "last": "2026-07-29",
-      "ms": 766864,
-      "name": "Repeat It",
-      "years": {
-        "2026": 5
       }
     },
     {
@@ -28255,6 +28270,21 @@
     },
     {
       "artists": [
+        "Benson Boone"
+      ],
+      "count": 4,
+      "first": "2026-06-23",
+      "id": "33vZRjxJScapmRShRJq8I0",
+      "image": "https://i.scdn.co/image/ab67616d0000485149f3ae7ffa69caf5dbadc0b7",
+      "last": "2026-08-18",
+      "ms": 517545,
+      "name": "NIGHTS LIKE THESE",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Rick Astley"
       ],
       "count": 4,
@@ -28364,21 +28394,6 @@
       "short": 1,
       "years": {
         "2025": 4
-      }
-    },
-    {
-      "artists": [
-        "Bruno Mars"
-      ],
-      "count": 4,
-      "first": "2026-03-05",
-      "id": "4i4BVY2JiH4mDSLIBdNGKD",
-      "image": "https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395",
-      "last": "2026-07-07",
-      "ms": 592156,
-      "name": "On My Soul",
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -32257,21 +32272,6 @@
       "short": 2,
       "years": {
         "2020": 3
-      }
-    },
-    {
-      "artists": [
-        "Benson Boone"
-      ],
-      "count": 3,
-      "first": "2026-06-23",
-      "id": "33vZRjxJScapmRShRJq8I0",
-      "image": "https://i.scdn.co/image/ab67616d0000485149f3ae7ffa69caf5dbadc0b7",
-      "last": "2026-07-06",
-      "ms": 517545,
-      "name": "NIGHTS LIKE THESE",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -66691,6 +66691,21 @@
       "name": "Ticket To Ride - Remastered 2009",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "Coldplay"
+      ],
+      "count": 1,
+      "first": "2026-08-18",
+      "id": "lastfm:tilkingdomcome|coldplay",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/38761f082a1b02ac535785fafc7964cc.jpg",
+      "last": "2026-08-18",
+      "ms": 0,
+      "name": "Til Kingdom Come",
+      "years": {
+        "2026": 1
       }
     },
     {
