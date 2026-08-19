@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-08-18T16:24:10.464135+00:00",
+  "generated_at": "2026-08-19T16:24:20.037169+00:00",
   "items": [
+    {
+      "album_id": "7pRapjhjgLk5V8f7T561JQ",
+      "album_name": "Disney Micky: Mickys schönste Abenteuer",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851cd68a2e15ac988037cb896e6",
+      "is_new": true,
+      "release_date": "2026-08-20"
+    },
+    {
+      "album_id": "68Y2VZl1OdhSEd9huzkGJE",
+      "album_name": "Valentijnsdag met Stitch",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c2ee8a1934f2ac5e387ec69f",
+      "is_new": true,
+      "release_date": "2026-08-20"
+    },
     {
       "album_id": "3ByqNmtKhIlBEMXnuqWXO6",
       "album_name": "Livin' On A Prayer",
@@ -9,7 +31,7 @@
       "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851a83206217d8600eb056d4998",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-08-19"
     },
     {
@@ -24,6 +46,50 @@
       "release_date": "2026-08-17"
     },
     {
+      "album_id": "7unDB3yK0Z2tlam1P4MzwE",
+      "album_name": "Faded Eyes",
+      "album_type": "single",
+      "artist": "Zerb",
+      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514490f8748d0912fb9d347b3a",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "2dGQureZSUxAaz2hRPDV40",
+      "album_name": "Trance (Walk It Down)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518eebf1743b94ce34c5d7be8c",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
+      "album_name": "Starrgirl",
+      "album_type": "album",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "4Ca3BtmO41F1EvydCfcoOw",
+      "album_name": "Mirage",
+      "album_type": "single",
+      "artist": "MPH",
+      "artist_id": "62SCu33InHVq97VaWw3eof",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b016aa9473269b59b0925f92",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
       "album_id": "7AsM74VTRiioLdXffW05lh",
       "album_name": "Camp Rock 3 (Original Soundtrack)",
       "album_type": "album",
@@ -31,6 +97,17 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048517723cab8b4946f961a987e2e",
+      "is_new": false,
+      "release_date": "2026-08-14"
+    },
+    {
+      "album_id": "6qpHLyez8QjIfaQOU8NghJ",
+      "album_name": "i think of you the most",
+      "album_type": "single",
+      "artist": "yung kai",
+      "artist_id": "6zO1dZ40fTZ5hY9NnnRJSk",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517e957cf8f296ae310bba56ad",
       "is_new": false,
       "release_date": "2026-08-14"
     },
@@ -57,59 +134,37 @@
       "release_date": "2026-08-14"
     },
     {
-      "album_id": "6qpHLyez8QjIfaQOU8NghJ",
-      "album_name": "i think of you the most",
-      "album_type": "single",
-      "artist": "yung kai",
-      "artist_id": "6zO1dZ40fTZ5hY9NnnRJSk",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e957cf8f296ae310bba56ad",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
-      "album_name": "Starrgirl",
-      "album_type": "album",
-      "artist": "Ayra Starr",
-      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "7unDB3yK0Z2tlam1P4MzwE",
-      "album_name": "Faded Eyes",
-      "album_type": "single",
-      "artist": "Zerb",
-      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514490f8748d0912fb9d347b3a",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "4Ca3BtmO41F1EvydCfcoOw",
-      "album_name": "Mirage",
-      "album_type": "single",
-      "artist": "MPH",
-      "artist_id": "62SCu33InHVq97VaWw3eof",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b016aa9473269b59b0925f92",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "2dGQureZSUxAaz2hRPDV40",
+      "album_id": "5363wdqqqTUdUPecJVzNCC",
       "album_name": "Trance (Walk It Down)",
       "album_type": "single",
       "artist": "Quavo",
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518eebf1743b94ce34c5d7be8c",
+      "image": "https://i.scdn.co/image/ab67616d0000485170c4aff971956175eeabd1d2",
       "is_new": false,
-      "release_date": "2026-08-14"
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "4jongC0FDRCt2kunh1ZOWn",
+      "album_name": "Heaven Baby",
+      "album_type": "single",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485144ae3fafad723c748fb36c7a",
+      "is_new": true,
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "63Y6d2GOWLyaqUKdY7FREW",
+      "album_name": "Hot Body (Remix)",
+      "album_type": "single",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851924c2099995d15c2070210df",
+      "is_new": true,
+      "release_date": "2026-08-13"
     },
     {
       "album_id": "3lhMDpHxb6aKR9dZJXyauC",
@@ -145,17 +200,6 @@
       "release_date": "2026-08-13"
     },
     {
-      "album_id": "5363wdqqqTUdUPecJVzNCC",
-      "album_name": "Trance (Walk It Down)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485170c4aff971956175eeabd1d2",
-      "is_new": false,
-      "release_date": "2026-08-13"
-    },
-    {
       "album_id": "5iYgJIgcbEcRZfKLHodraf",
       "album_name": "zokkou",
       "album_type": "single",
@@ -178,17 +222,6 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "0Q01cgQeoWTETkOvpoeng9",
-      "album_name": "Dai Dai",
-      "album_type": "single",
-      "artist": "Shakira",
-      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
       "album_id": "6pVedvicWUkoO0Fmk5zqpC",
       "album_name": "UNSPOKEN",
       "album_type": "single",
@@ -196,6 +229,28 @@
       "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
+      "album_name": "superHuman",
+      "album_type": "single",
+      "artist": "AUDREY NUNA",
+      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
+      "is_new": false,
+      "release_date": "2026-08-07"
+    },
+    {
+      "album_id": "0Q01cgQeoWTETkOvpoeng9",
+      "album_name": "Dai Dai",
+      "album_type": "single",
+      "artist": "Shakira",
+      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
       "is_new": false,
       "release_date": "2026-08-07"
     },
@@ -222,15 +277,15 @@
       "release_date": "2026-08-07"
     },
     {
-      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
-      "album_name": "superHuman",
-      "album_type": "single",
-      "artist": "AUDREY NUNA",
-      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
+      "album_id": "0pFlE0rc68RS8f3UHzioQY",
+      "album_name": "The Real Me",
+      "album_type": "album",
+      "artist": "Future",
+      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
+      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
       "is_new": false,
-      "release_date": "2026-08-07"
+      "release_date": "2026-08-06"
     },
     {
       "album_id": "2jbqFS5kWBih7qFw5ThTYf",
@@ -251,17 +306,6 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851240d049eb5fbd6d488dac51d",
-      "is_new": false,
-      "release_date": "2026-08-06"
-    },
-    {
-      "album_id": "0pFlE0rc68RS8f3UHzioQY",
-      "album_name": "The Real Me",
-      "album_type": "album",
-      "artist": "Future",
-      "artist_id": "1RyvyyTE3xzB2ZywiAwp0i",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d5f832caa741f9360c5b2753",
       "is_new": false,
       "release_date": "2026-08-06"
     }

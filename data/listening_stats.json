@@ -594,6 +594,14 @@
     },
     {
       "artists": [
+        "The Weeknd"
+      ],
+      "count": 109,
+      "name": "Save Your Tears",
+      "track_id": "5QO79kh1waicV47BqGRL3g"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 109,
@@ -607,14 +615,6 @@
       "count": 108,
       "name": "やさしさに包まれたなら",
       "track_id": "3CtnuBSfdpoxHglOGGPgmU"
-    },
-    {
-      "artists": [
-        "The Weeknd"
-      ],
-      "count": 108,
-      "name": "Save Your Tears",
-      "track_id": "5QO79kh1waicV47BqGRL3g"
     },
     {
       "artists": [
@@ -770,6 +770,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 101,
+      "name": "I Ain't Worried",
+      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 100,
@@ -791,17 +799,9 @@
       "count": 100,
       "name": "Another Day - 2012 Remaster",
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 100,
-      "name": "Real Love - Anthology 2 Version",
-      "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-18T16:21:08.713874+00:00",
+  "generated_at": "2026-08-19T16:21:08.162833+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 62701
+    "total": 62720
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 2,
+  "streak": 3,
   "weekly_top": [
     {
       "artists": [
@@ -847,12 +847,21 @@
     },
     {
       "artists": [
-        "Henry Moodie"
+        "ジャスティン・ビーバー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "name": "bad emotions",
-      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
+      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
+      "name": "Intentions (feat. Quavo)",
+      "track_id": "4umIPjkehX1r7uhmGvXiSV"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
+      "name": "I Ain't Worried",
+      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048514a075ca70ae4143a37eb4fbe",
       "name": "Perfect",
       "track_id": "3NLnwwAQbbFKcEcV8hDItk"
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
-      "name": "Patient",
-      "track_id": "2ZrHbO88rM6Ijeg0aJmSzl"
     }
   ]
 }
