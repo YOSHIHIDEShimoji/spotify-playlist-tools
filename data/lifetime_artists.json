@@ -118,11 +118,11 @@
       }
     },
     {
-      "count": 1913,
+      "count": 1912,
       "first": "2021-04-17",
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "image": "https://i.scdn.co/image/ab676161000051743202f1bcacc6d8f581f32ffd",
-      "last": "2026-08-19",
+      "last": "2026-08-17",
       "ms": 335839304,
       "name": "OneRepublic",
       "tracks": 126,
@@ -132,7 +132,7 @@
         "2023": 1,
         "2024": 20,
         "2025": 367,
-        "2026": 1521
+        "2026": 1520
       }
     },
     {
@@ -366,25 +366,25 @@
       }
     },
     {
-      "count": 351,
+      "count": 352,
       "first": "2025-02-24",
       "id": "3FUY2gzHeIiaesXtOAdB7A",
       "image": "https://i.scdn.co/image/ab67616100005174fe613747ea3666f4c75b9884",
-      "last": "2026-07-30",
+      "last": "2026-08-20",
       "ms": 71695371,
       "name": "Train",
       "tracks": 29,
       "years": {
         "2025": 135,
-        "2026": 216
+        "2026": 217
       }
     },
     {
-      "count": 318,
+      "count": 317,
       "first": "2021-03-14",
       "id": "1uNFoZAHBGtllmzznpCI3s",
       "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
-      "last": "2026-08-19",
+      "last": "2026-08-18",
       "ms": 58614017,
       "name": "Justin Bieber",
       "tracks": 49,
@@ -392,7 +392,7 @@
         "2021": 12,
         "2023": 5,
         "2025": 19,
-        "2026": 282
+        "2026": 281
       }
     },
     {
@@ -905,19 +905,19 @@
       }
     },
     {
-      "count": 169,
+      "count": 170,
       "first": "2023-02-24",
       "id": "5XKFrudbV4IiuE5WuTPRmT",
       "image": "https://i.scdn.co/image/ab67616100005174f72f412524899c92e4757429",
-      "last": "2026-05-14",
+      "last": "2026-08-20",
       "ms": 28817737,
       "name": "Stephen Sanchez",
-      "tracks": 25,
+      "tracks": 26,
       "years": {
         "2023": 83,
         "2024": 44,
         "2025": 26,
-        "2026": 16
+        "2026": 17
       }
     },
     {
@@ -1001,6 +1001,17 @@
         "2024": 74,
         "2025": 18,
         "2026": 4
+      }
+    },
+    {
+      "count": 147,
+      "first": "2026-07-19",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "ワンリパブリック",
+      "tracks": 77,
+      "years": {
+        "2026": 147
       }
     },
     {
@@ -1123,17 +1134,6 @@
         "2024": 35,
         "2025": 26,
         "2026": 11
-      }
-    },
-    {
-      "count": 134,
-      "first": "2026-07-19",
-      "last": "2026-08-19",
-      "ms": 0,
-      "name": "ワンリパブリック",
-      "tracks": 75,
-      "years": {
-        "2026": 134
       }
     },
     {
@@ -5098,6 +5098,17 @@
       }
     },
     {
+      "count": 10,
+      "first": "2026-07-23",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "トレイン",
+      "tracks": 9,
+      "years": {
+        "2026": 10
+      }
+    },
+    {
       "count": 9,
       "first": "2020-12-07",
       "last": "2026-05-06",
@@ -5209,11 +5220,11 @@
     },
     {
       "count": 9,
-      "first": "2026-07-23",
-      "last": "2026-08-17",
+      "first": "2026-07-28",
+      "last": "2026-08-20",
       "ms": 0,
-      "name": "トレイン",
-      "tracks": 8,
+      "name": "ブルーノ・マーズ",
+      "tracks": 7,
       "years": {
         "2026": 9
       }
@@ -5432,17 +5443,6 @@
       "ms": 0,
       "name": "ザ・ウィークエンド",
       "tracks": 4,
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "count": 8,
-      "first": "2026-07-28",
-      "last": "2026-08-15",
-      "ms": 0,
-      "name": "ブルーノ・マーズ",
-      "tracks": 7,
       "years": {
         "2026": 8
       }
@@ -5865,6 +5865,20 @@
     },
     {
       "count": 6,
+      "first": "2025-12-30",
+      "id": "6DARBhWbfcS9E4yJzcliqQ",
+      "image": "https://i.scdn.co/image/ab676161000051748a4c60d0eebe893f72e42979",
+      "last": "2026-08-20",
+      "ms": 424435,
+      "name": "Karan Aujla",
+      "tracks": 1,
+      "years": {
+        "2025": 1,
+        "2026": 5
+      }
+    },
+    {
+      "count": 6,
       "first": "2026-04-01",
       "id": "0ryyI8NGZJ4MLeRfwbkODZ",
       "image": "https://i.scdn.co/image/ab676161000051745963d289733abd3cb0d9eb34",
@@ -6217,20 +6231,6 @@
       "years": {
         "2021": 1,
         "2022": 4
-      }
-    },
-    {
-      "count": 5,
-      "first": "2025-12-30",
-      "id": "6DARBhWbfcS9E4yJzcliqQ",
-      "image": "https://i.scdn.co/image/ab676161000051748a4c60d0eebe893f72e42979",
-      "last": "2026-07-29",
-      "ms": 424435,
-      "name": "Karan Aujla",
-      "tracks": 1,
-      "years": {
-        "2025": 1,
-        "2026": 4
       }
     },
     {
@@ -6630,6 +6630,19 @@
       "years": {
         "2022": 1,
         "2024": 3
+      }
+    },
+    {
+      "count": 4,
+      "first": "2026-07-19",
+      "id": "2zKbqRqx22axcZA2mUw71Y",
+      "image": "https://i.scdn.co/image/ab67616100005174ebacc9e8d8fd521d0051c6d6",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "Hotel Apache",
+      "tracks": 2,
+      "years": {
+        "2026": 4
       }
     },
     {
@@ -8266,6 +8279,17 @@
     },
     {
       "count": 3,
+      "first": "2026-07-22",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "ギャランティス",
+      "tracks": 1,
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "count": 3,
       "first": "2026-08-01",
       "last": "2026-08-15",
       "ms": 0,
@@ -9032,19 +9056,6 @@
       "tracks": 1,
       "years": {
         "2025": 2
-      }
-    },
-    {
-      "count": 2,
-      "first": "2026-07-19",
-      "id": "2zKbqRqx22axcZA2mUw71Y",
-      "image": "https://i.scdn.co/image/ab67616100005174ebacc9e8d8fd521d0051c6d6",
-      "last": "2026-07-21",
-      "ms": 0,
-      "name": "Hotel Apache",
-      "tracks": 2,
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -10698,17 +10709,6 @@
     },
     {
       "count": 2,
-      "first": "2026-07-22",
-      "last": "2026-08-07",
-      "ms": 0,
-      "name": "ギャランティス",
-      "tracks": 1,
-      "years": {
-        "2026": 2
-      }
-    },
-    {
-      "count": 2,
       "first": "2026-07-21",
       "last": "2026-07-21",
       "ms": 0,
@@ -10803,6 +10803,17 @@
       "last": "2026-07-29",
       "ms": 0,
       "name": "マイケル・ジャクソン",
+      "tracks": 2,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-08-15",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "レディー・ガガ",
       "tracks": 2,
       "years": {
         "2026": 2
@@ -15058,19 +15069,6 @@
     },
     {
       "count": 1,
-      "first": "2026-08-19",
-      "id": "0VRj0yCOv2FXJNP47XQnx5",
-      "image": "https://i.scdn.co/image/ab6761610000517456f2ab92097919c4462df6ba",
-      "last": "2026-08-19",
-      "ms": 0,
-      "name": "Quavo",
-      "tracks": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "count": 1,
       "first": "2020-05-27",
       "id": "0LzeyDrlLtuyBqMSBN4z3U",
       "image": "https://i.scdn.co/image/ab67616100005174cd7ac61bfdfe173df645d795",
@@ -15660,6 +15658,8 @@
     {
       "count": 1,
       "first": "2024-07-14",
+      "id": "3NZE8jDD2cCzd4vUyZ5CQQ",
+      "image": "https://i.scdn.co/image/ab67616100005174d6dded4cb333312599b0ac21",
       "last": "2024-07-14",
       "ms": 50916,
       "name": "Spacehog",
@@ -15671,6 +15671,8 @@
     {
       "count": 1,
       "first": "2020-03-02",
+      "id": "1WRM9i067hd2ujxxi8FI3m",
+      "image": "https://i.scdn.co/image/ff45518ba53ce6709c177b946a36938619f10aec",
       "last": "2020-03-02",
       "ms": 178760,
       "name": "Steppenwolf",
@@ -15682,6 +15684,8 @@
     {
       "count": 1,
       "first": "2019-09-07",
+      "id": "77AiFEVeAVj2ORpC85QVJs",
+      "image": "https://i.scdn.co/image/ab67616100005174cf85b39d94c486218a687248",
       "last": "2019-09-07",
       "ms": 42701,
       "name": "Steve Aoki",
@@ -15704,6 +15708,8 @@
     {
       "count": 1,
       "first": "2020-02-06",
+      "id": "6fKfTUk2vhBb1tjkXJQ16T",
+      "image": "https://i.scdn.co/image/59e6686d427e2eb3172a56ad968b0659ae9e6dd6",
       "last": "2020-02-06",
       "ms": 45025,
       "name": "Stuart Sutcliffe",
@@ -15726,6 +15732,8 @@
     {
       "count": 1,
       "first": "2024-03-16",
+      "id": "2HuLMxBIMhZuG7QcmfM8b4",
+      "image": "https://i.scdn.co/image/ab67616100005174188aec176c7909928abeaa58",
       "last": "2024-03-16",
       "ms": 166567,
       "name": "Summerfields",
@@ -15737,6 +15745,8 @@
     {
       "count": 1,
       "first": "2022-06-08",
+      "id": "5M8AXrOifBT8elkLKbGPQZ",
+      "image": "https://i.scdn.co/image/ab676161000051741b15afc624e84a07071c5c0c",
       "last": "2022-06-08",
       "ms": 295600,
       "name": "Superfly",
@@ -15772,6 +15782,8 @@
     {
       "count": 1,
       "first": "2020-07-25",
+      "id": "1nJGnf3lzw1sC34D6P8i4I",
+      "image": "https://i.scdn.co/image/ab676161000051741fd9a8039fcecdde18401c03",
       "last": "2020-07-25",
       "ms": 231031,
       "name": "TELL YOUR STORY music by Ikson™",
@@ -15783,6 +15795,8 @@
     {
       "count": 1,
       "first": "2021-08-06",
+      "id": "0PFtn5NtBbbUNbU9EAmIWF",
+      "image": "https://i.scdn.co/image/ab67616100005174a59a5bcab211f964fe9bfb06",
       "last": "2021-08-06",
       "ms": 229880,
       "name": "TOTO",
@@ -17238,6 +17252,17 @@
     },
     {
       "count": 1,
+      "first": "2026-08-20",
+      "last": "2026-08-20",
+      "ms": 0,
+      "name": "ケニー・ロギンス",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
       "first": "2026-07-21",
       "last": "2026-07-21",
       "ms": 0,
@@ -17407,17 +17432,6 @@
       "last": "2026-07-19",
       "ms": 0,
       "name": "レオナ・ルイス",
-      "tracks": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "count": 1,
-      "first": "2026-08-15",
-      "last": "2026-08-15",
-      "ms": 0,
-      "name": "レディー・ガガ",
       "tracks": 1,
       "years": {
         "2026": 1
@@ -17644,5 +17658,5 @@
       }
     }
   ],
-  "generated_at": "2026-08-19T16:22:29.526579+00:00"
+  "generated_at": "2026-08-20T16:25:09.021237+00:00"
 }

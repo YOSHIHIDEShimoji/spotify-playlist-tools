@@ -770,14 +770,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 101,
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 100,
@@ -799,9 +791,17 @@
       "count": 100,
       "name": "Another Day - 2012 Remaster",
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 100,
+      "name": "Real Love - Anthology 2 Version",
+      "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-19T16:21:08.162833+00:00",
+  "generated_at": "2026-08-20T16:24:02.555140+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 62720
+    "total": 62741
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 3,
+  "streak": 4,
   "weekly_top": [
     {
       "artists": [
@@ -847,21 +847,21 @@
     },
     {
       "artists": [
-        "ジャスティン・ビーバー"
+        "トレイン"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
-      "name": "Intentions (feat. Quavo)",
-      "track_id": "4umIPjkehX1r7uhmGvXiSV"
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Bulletproof Picasso",
+      "track_id": "5P3fYoxh3LnVwANZEDu5vN"
     },
     {
       "artists": [
-        "ワンリパブリック"
+        "Hotel Apache"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+      "image": "https://i.scdn.co/image/ab67616d00004851b54ad5957fa942526c07c0e6",
+      "name": "Stay",
+      "track_id": "600n43hYlo97yOuIwimzm7"
     },
     {
       "artists": [

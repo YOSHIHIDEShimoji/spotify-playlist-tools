@@ -117,6 +117,11 @@
     },
     {
       "count": 7,
+      "id": "0fTSzq9jAh4c36UVb4V7CB",
+      "name": "Alex Warren"
+    },
+    {
+      "count": 7,
       "id": "1vCWHaC5f2uS3yhpwWbIA6",
       "name": "Avicii"
     },
@@ -124,11 +129,6 @@
       "count": 7,
       "id": "22wbnEMDvgVIAGdFeek6ET",
       "name": "Benson Boone"
-    },
-    {
-      "count": 6,
-      "id": "0fTSzq9jAh4c36UVb4V7CB",
-      "name": "Alex Warren"
     },
     {
       "count": 6,
@@ -169,11 +169,11 @@
       "decade": 2000
     },
     {
-      "count": 341,
+      "count": 344,
       "decade": 2010
     },
     {
-      "count": 331,
+      "count": 334,
       "decade": 2020
     }
   ],
@@ -327,8 +327,8 @@
         },
         {
           "count": 7,
-          "id": "1vCWHaC5f2uS3yhpwWbIA6",
-          "name": "Avicii"
+          "id": "0fTSzq9jAh4c36UVb4V7CB",
+          "name": "Alex Warren"
         }
       ],
       "decades": [
@@ -353,15 +353,15 @@
           "decade": 2000
         },
         {
-          "count": 350,
+          "count": 353,
           "decade": 2010
         },
         {
-          "count": 343,
+          "count": 346,
           "decade": 2020
         }
       ],
-      "total": 1118
+      "total": 1124
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -630,6 +630,11 @@
           },
           {
             "count": 7,
+            "id": "0fTSzq9jAh4c36UVb4V7CB",
+            "name": "Alex Warren"
+          },
+          {
+            "count": 7,
             "id": "1vCWHaC5f2uS3yhpwWbIA6",
             "name": "Avicii"
           },
@@ -637,11 +642,6 @@
             "count": 7,
             "id": "22wbnEMDvgVIAGdFeek6ET",
             "name": "Benson Boone"
-          },
-          {
-            "count": 6,
-            "id": "0fTSzq9jAh4c36UVb4V7CB",
-            "name": "Alex Warren"
           },
           {
             "count": 6,
@@ -712,15 +712,15 @@
             "decade": 2000
           },
           {
-            "count": 258,
+            "count": 261,
             "decade": 2010
           },
           {
-            "count": 249,
+            "count": 252,
             "decade": 2020
           }
         ],
-        "total": 560
+        "total": 566
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -858,6 +858,6 @@
       }
     ]
   },
-  "generated_at": "2026-08-19T16:21:18.471067+00:00",
-  "total": 760
+  "generated_at": "2026-08-20T16:24:12.286515+00:00",
+  "total": 766
 }
