@@ -1,48 +1,15 @@
 {
-  "generated_at": "2026-08-20T16:27:27.014148+00:00",
+  "generated_at": "2026-08-21T16:26:28.291586+00:00",
   "items": [
     {
-      "album_id": "3WJbf13X3slcKq32jRt4FO",
-      "album_name": "Love Me Through",
+      "album_id": "64F341YgEawM64jCPNdCLc",
+      "album_name": "Life Goes On",
       "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d726ecdcc374e366f9cfa003",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "14kBYIGOgQRJaUpeTUFupX",
-      "album_name": "Young",
-      "album_type": "album",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae0c4ff5ffdcb346c91bb4d6",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "63pZdHeciIMzFxFCtYMQ2o",
-      "album_name": "LION (Original Series Soundtrack)",
-      "album_type": "album",
-      "artist": "Hans Zimmer",
-      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ec63f814161d7e7e793fa53a",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "19YmKK8Sndae07T8Y2vOjo",
-      "album_name": "Prehistoric Planet: Ice Age (Apple Original Series Soundtrack)",
-      "album_type": "album",
-      "artist": "Hans Zimmer",
-      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b96392cd3037a82dac097ae7",
-      "is_new": true,
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485133b54e371e08f720cb7c8de3",
+      "is_new": false,
       "release_date": "2026-08-21"
     },
     {
@@ -52,85 +19,19 @@
       "artist": "Sam Smith",
       "artist_id": "2wY79sveU1sp5g7SokKOiI",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485179913ec7842d72a3e59f7a3b",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d0000485145ad5f958b4be2bb914858b8",
+      "is_new": false,
       "release_date": "2026-08-21"
     },
     {
-      "album_id": "0qPacTwzJeI1Ik1uyWCiGH",
-      "album_name": "World Away (GorillaT Remix)",
+      "album_id": "3WJbf13X3slcKq32jRt4FO",
+      "album_name": "Love Me Through",
       "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485122a6c8c6489fd7f266413217",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "64F341YgEawM64jCPNdCLc",
-      "album_name": "Life Goes On",
-      "album_type": "single",
-      "artist": "SG",
-      "artist_id": "216arN9tLMMn2ltwEAxmF5",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851616ff06350519468354878ab",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "0R7lKm7pMZHjdrY1UVcc02",
-      "album_name": "Inundauswendig",
-      "album_type": "single",
-      "artist": "makko",
-      "artist_id": "6ARKr2ZoLf9TDoQiZarJMt",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851bd9982d65b699012379d87ce",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "5j6nS3lE5dyWjrTGGiZ2a2",
-      "album_name": "The One",
-      "album_type": "single",
-      "artist": "Alesso",
-      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a501477c8e3f925fd2f7f8b9",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "535Rkhktd2YiyOPLXgwSzs",
-      "album_name": "Brotherman",
-      "album_type": "single",
-      "artist": "VAVO",
-      "artist_id": "44re77WwNG34C182Jq3WIK",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485123f4618eedc4f0289348f02c",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "0i3wruZEDnREqgbnMQNVmd",
-      "album_name": "Empty",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851967a68b104b71fabf4b2c356",
-      "is_new": true,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "0OYGM74g8YaAAKwi5MqVt6",
-      "album_name": "涙色のメダル",
-      "album_type": "single",
-      "artist": "wacci",
-      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851243058c39a236cde9cd05e1f",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851d726ecdcc374e366f9cfa003",
+      "is_new": false,
       "release_date": "2026-08-21"
     },
     {
@@ -141,19 +42,107 @@
       "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b554501a5d519f93e5dc6a2c",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-08-21"
     },
     {
-      "album_id": "2GoIiWfFBe6zSZP0YiQOQE",
-      "album_name": "Future Self (The Remixes)",
+      "album_id": "535Rkhktd2YiyOPLXgwSzs",
+      "album_name": "Brotherman",
       "album_type": "single",
-      "artist": "H3RIZON",
-      "artist_id": "3ZaZApU5I9vSUHzOoUlp0D",
+      "artist": "VAVO",
+      "artist_id": "44re77WwNG34C182Jq3WIK",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c6be314ad13711de53a36e38",
-      "is_new": true,
-      "release_date": "2026-08-20"
+      "image": "https://i.scdn.co/image/ab67616d0000485123f4618eedc4f0289348f02c",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "5j6nS3lE5dyWjrTGGiZ2a2",
+      "album_name": "The One",
+      "album_type": "single",
+      "artist": "Alesso",
+      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a501477c8e3f925fd2f7f8b9",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "14kBYIGOgQRJaUpeTUFupX",
+      "album_name": "Young",
+      "album_type": "album",
+      "artist": "Dan + Shay",
+      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae0c4ff5ffdcb346c91bb4d6",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "0i3wruZEDnREqgbnMQNVmd",
+      "album_name": "Empty",
+      "album_type": "single",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851967a68b104b71fabf4b2c356",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "0qPacTwzJeI1Ik1uyWCiGH",
+      "album_name": "World Away (GorillaT Remix)",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485122a6c8c6489fd7f266413217",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "0OYGM74g8YaAAKwi5MqVt6",
+      "album_name": "涙色のメダル",
+      "album_type": "single",
+      "artist": "wacci",
+      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851243058c39a236cde9cd05e1f",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "63pZdHeciIMzFxFCtYMQ2o",
+      "album_name": "LION (Original Series Soundtrack)",
+      "album_type": "album",
+      "artist": "Hans Zimmer",
+      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ec63f814161d7e7e793fa53a",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "19YmKK8Sndae07T8Y2vOjo",
+      "album_name": "Prehistoric Planet: Ice Age (Apple Original Series Soundtrack)",
+      "album_type": "album",
+      "artist": "Hans Zimmer",
+      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b96392cd3037a82dac097ae7",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "0R7lKm7pMZHjdrY1UVcc02",
+      "album_name": "Inundauswendig",
+      "album_type": "single",
+      "artist": "makko",
+      "artist_id": "6ARKr2ZoLf9TDoQiZarJMt",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851bd9982d65b699012379d87ce",
+      "is_new": false,
+      "release_date": "2026-08-21"
     },
     {
       "album_id": "7pRapjhjgLk5V8f7T561JQ",
@@ -178,15 +167,37 @@
       "release_date": "2026-08-20"
     },
     {
-      "album_id": "3IJpTeTk3bDKufBoDEGjOU",
-      "album_name": "Indecision (feat. Daniel Caesar)",
+      "album_id": "5BlhVCj1nOt9XxwjAV4XDo",
+      "album_name": "Pa' Él",
       "album_type": "single",
-      "artist": "Rex Orange County",
-      "artist_id": "7pbDxGE6nQSZVfiFdq9lOL",
+      "artist": "Los Ángeles Azules",
+      "artist_id": "0ZCO8oVkMj897cKgFH7fRW",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516a05d5befdde1b244f3fb4e6",
+      "image": "https://i.scdn.co/image/ab67616d00004851e5608250ac1091686a555d2b",
       "is_new": true,
-      "release_date": "2026-08-19"
+      "release_date": "2026-08-20"
+    },
+    {
+      "album_id": "64PWYCycLR61QFC6gdBh31",
+      "album_name": "The Old Guys (feat. Cody Johnson)",
+      "album_type": "single",
+      "artist": "Dan + Shay",
+      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dcf5ad514bf3f5b931d24f2e",
+      "is_new": true,
+      "release_date": "2026-08-20"
+    },
+    {
+      "album_id": "2GoIiWfFBe6zSZP0YiQOQE",
+      "album_name": "Future Self (The Remixes)",
+      "album_type": "single",
+      "artist": "H3RIZON",
+      "artist_id": "3ZaZApU5I9vSUHzOoUlp0D",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c6be314ad13711de53a36e38",
+      "is_new": false,
+      "release_date": "2026-08-20"
     },
     {
       "album_id": "3ByqNmtKhIlBEMXnuqWXO6",
@@ -200,6 +211,17 @@
       "release_date": "2026-08-19"
     },
     {
+      "album_id": "3IJpTeTk3bDKufBoDEGjOU",
+      "album_name": "Indecision (feat. Daniel Caesar)",
+      "album_type": "single",
+      "artist": "Rex Orange County",
+      "artist_id": "7pbDxGE6nQSZVfiFdq9lOL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048516a05d5befdde1b244f3fb4e6",
+      "is_new": false,
+      "release_date": "2026-08-19"
+    },
+    {
       "album_id": "78pxbFxIxuafjqq2lORvpE",
       "album_name": "Lilo, Stitch, en de snoepheks",
       "album_type": "album",
@@ -209,6 +231,17 @@
       "image": "https://i.scdn.co/image/ab67616d0000485167f108fed51b109264263217",
       "is_new": false,
       "release_date": "2026-08-17"
+    },
+    {
+      "album_id": "0StPEmjgK8VVgzZ7bgnwED",
+      "album_name": "Hermoso",
+      "album_type": "album",
+      "artist": "benny blanco",
+      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851650e5315d793a2407810a373",
+      "is_new": false,
+      "release_date": "2026-08-14"
     },
     {
       "album_id": "7unDB3yK0Z2tlam1P4MzwE",
@@ -233,28 +266,6 @@
       "release_date": "2026-08-14"
     },
     {
-      "album_id": "2dGQureZSUxAaz2hRPDV40",
-      "album_name": "Trance (Walk It Down)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518eebf1743b94ce34c5d7be8c",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "6qpHLyez8QjIfaQOU8NghJ",
-      "album_name": "i think of you the most",
-      "album_type": "single",
-      "artist": "yung kai",
-      "artist_id": "6zO1dZ40fTZ5hY9NnnRJSk",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e957cf8f296ae310bba56ad",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
       "album_id": "64OMCk6mYA9ZC8PkO8YMTl",
       "album_name": "Remember Me",
       "album_type": "single",
@@ -262,28 +273,6 @@
       "artist_id": "6p5JxpTc7USNnBnLzctyd4",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851e2723e87ddae34c920ca9831",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
-      "album_name": "Starrgirl",
-      "album_type": "album",
-      "artist": "Ayra Starr",
-      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
-      "is_new": false,
-      "release_date": "2026-08-14"
-    },
-    {
-      "album_id": "0StPEmjgK8VVgzZ7bgnwED",
-      "album_name": "Hermoso",
-      "album_type": "album",
-      "artist": "benny blanco",
-      "artist_id": "5CiGnKThu5ctn9pBxv7DGa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851650e5315d793a2407810a373",
       "is_new": false,
       "release_date": "2026-08-14"
     },
@@ -299,48 +288,37 @@
       "release_date": "2026-08-14"
     },
     {
-      "album_id": "3lhMDpHxb6aKR9dZJXyauC",
-      "album_name": "ROLLIN (Remix)",
+      "album_id": "6qpHLyez8QjIfaQOU8NghJ",
+      "album_name": "i think of you the most",
       "album_type": "single",
-      "artist": "BIA",
-      "artist_id": "6veh5zbFpm31XsPdjBgPER",
+      "artist": "yung kai",
+      "artist_id": "6zO1dZ40fTZ5hY9NnnRJSk",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512482c41c9f931884b0ad5f74",
+      "image": "https://i.scdn.co/image/ab67616d000048517e957cf8f296ae310bba56ad",
       "is_new": false,
-      "release_date": "2026-08-13"
+      "release_date": "2026-08-14"
     },
     {
-      "album_id": "4jongC0FDRCt2kunh1ZOWn",
-      "album_name": "Heaven Baby",
-      "album_type": "single",
+      "album_id": "2xLmXWgnyK0bUBoqq17Mma",
+      "album_name": "Starrgirl",
+      "album_type": "album",
       "artist": "Ayra Starr",
       "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485144ae3fafad723c748fb36c7a",
+      "image": "https://i.scdn.co/image/ab67616d0000485196cc14a908261abc628a2f4c",
       "is_new": false,
-      "release_date": "2026-08-13"
+      "release_date": "2026-08-14"
     },
     {
-      "album_id": "5363wdqqqTUdUPecJVzNCC",
+      "album_id": "2dGQureZSUxAaz2hRPDV40",
       "album_name": "Trance (Walk It Down)",
       "album_type": "single",
       "artist": "Quavo",
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485170c4aff971956175eeabd1d2",
+      "image": "https://i.scdn.co/image/ab67616d000048518eebf1743b94ce34c5d7be8c",
       "is_new": false,
-      "release_date": "2026-08-13"
-    },
-    {
-      "album_id": "63Y6d2GOWLyaqUKdY7FREW",
-      "album_name": "Hot Body (Remix)",
-      "album_type": "single",
-      "artist": "Ayra Starr",
-      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851924c2099995d15c2070210df",
-      "is_new": false,
-      "release_date": "2026-08-13"
+      "release_date": "2026-08-14"
     },
     {
       "album_id": "54gepsrQW2Elj7dXbqGLTp",
@@ -365,6 +343,50 @@
       "release_date": "2026-08-13"
     },
     {
+      "album_id": "3lhMDpHxb6aKR9dZJXyauC",
+      "album_name": "ROLLIN (Remix)",
+      "album_type": "single",
+      "artist": "BIA",
+      "artist_id": "6veh5zbFpm31XsPdjBgPER",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519bcddefa683a10bf2f75f7a5",
+      "is_new": false,
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "4jongC0FDRCt2kunh1ZOWn",
+      "album_name": "Heaven Baby",
+      "album_type": "single",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485144ae3fafad723c748fb36c7a",
+      "is_new": false,
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "63Y6d2GOWLyaqUKdY7FREW",
+      "album_name": "Hot Body (Remix)",
+      "album_type": "single",
+      "artist": "Ayra Starr",
+      "artist_id": "3ZpEKRjHaHANcpk10u6Ntq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851924c2099995d15c2070210df",
+      "is_new": false,
+      "release_date": "2026-08-13"
+    },
+    {
+      "album_id": "5363wdqqqTUdUPecJVzNCC",
+      "album_name": "Trance (Walk It Down)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485170c4aff971956175eeabd1d2",
+      "is_new": false,
+      "release_date": "2026-08-13"
+    },
+    {
       "album_id": "7upqYz2O4qsZ04yUw8pGfc",
       "album_name": "Been Around The World",
       "album_type": "single",
@@ -372,7 +394,7 @@
       "artist_id": "2VipkE8VcAYPno5IxXjC8l",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048516fcd9b2c7b52f0ebb0dbf1bb",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-08-12"
     },
     {
@@ -385,72 +407,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048519ac3a65488b14ba8aff33b7a",
       "is_new": false,
       "release_date": "2026-08-10"
-    },
-    {
-      "album_id": "6pVedvicWUkoO0Fmk5zqpC",
-      "album_name": "UNSPOKEN",
-      "album_type": "single",
-      "artist": "Matt Hansen",
-      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "3u6kbKgAZyBMCHSMT39ATq",
-      "album_name": "RESCUER",
-      "album_type": "single",
-      "artist": "Alex Warren",
-      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675aa54a5a4d3fd4ae3cfa05",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "3BfiwgwqmGt5JYZLGtLA1b",
-      "album_name": "superHuman",
-      "album_type": "single",
-      "artist": "AUDREY NUNA",
-      "artist_id": "0Wwji82sLA0Hcvtuak3omb",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f5fa1ba0303b55f42e521315",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "1rxJ0bA6PWSyd8R0jurIOJ",
-      "album_name": "How I Feel",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511245783db76e59a0a88ed07d",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "0Q01cgQeoWTETkOvpoeng9",
-      "album_name": "Dai Dai",
-      "album_type": "single",
-      "artist": "Shakira",
-      "artist_id": "0EmeFodog0BfCgMzAIvKQp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514d6361334830bc095079d5eb",
-      "is_new": false,
-      "release_date": "2026-08-07"
-    },
-    {
-      "album_id": "6GmRL1IwZjDeVxZJBwf8Oq",
-      "album_name": "7 Days",
-      "album_type": "single",
-      "artist": "MEDUZA",
-      "artist_id": "0xRXCcSX89eobfrshSVdyu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485123e3f9e371052fc1589a3659",
-      "is_new": false,
-      "release_date": "2026-08-07"
     }
   ]
 }

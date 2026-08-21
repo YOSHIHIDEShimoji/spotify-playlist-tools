@@ -378,6 +378,14 @@
     },
     {
       "artists": [
+        "Stephen Sanchez"
+      ],
+      "count": 121,
+      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
+      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 121,
@@ -399,14 +407,6 @@
       "count": 120,
       "name": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
       "track_id": "1WutVejYvP7220sofj3xId"
-    },
-    {
-      "artists": [
-        "Stephen Sanchez"
-      ],
-      "count": 120,
-      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-20T16:24:02.555140+00:00",
+  "generated_at": "2026-08-21T16:22:10.447477+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,29 @@
       5000,
       10000
     ],
-    "total": 62741
+    "total": 62762
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 4,
+  "streak": 5,
   "weekly_top": [
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "name": "Super Far",
+      "track_id": "15ahYSiHAIMxAnujlXVtta"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Say (All I Need)",
+      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
+    },
     {
       "artists": [
         "The Kid LAROI"
@@ -847,21 +865,12 @@
     },
     {
       "artists": [
-        "トレイン"
+        "ケニー・ロギンス"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "name": "Bulletproof Picasso",
-      "track_id": "5P3fYoxh3LnVwANZEDu5vN"
-    },
-    {
-      "artists": [
-        "Hotel Apache"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851b54ad5957fa942526c07c0e6",
-      "name": "Stay",
-      "track_id": "600n43hYlo97yOuIwimzm7"
+      "image": "https://i.scdn.co/image/ab67616d00004851b8f8d696810d68ce774e3a2f",
+      "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+      "track_id": "3hMHG6lx9QHVcfYSUr5PoM"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
       "name": "Soft",
       "track_id": "5a59o1acxGZ0txvNzumplU"
-    },
-    {
-      "artists": [
-        "One Direction"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048514a075ca70ae4143a37eb4fbe",
-      "name": "Perfect",
-      "track_id": "3NLnwwAQbbFKcEcV8hDItk"
     }
   ]
 }
