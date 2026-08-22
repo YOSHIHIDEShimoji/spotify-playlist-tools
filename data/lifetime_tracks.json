@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T16:23:21.588230+00:00",
+  "generated_at": "2026-08-22T16:15:09.169562+00:00",
   "totals": {
     "artists": 1323,
-    "days": 2078,
+    "days": 2079,
     "ms": 12440720283,
-    "plays": 62762,
+    "plays": 62764,
     "since": "2019-09-05",
     "tracks": 4641
   },
@@ -10792,6 +10792,23 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 43,
+      "first": "2025-07-03",
+      "id": "6v3KW9xbzN5yKLt9YKDYA2",
+      "image": "https://i.scdn.co/image/ab67616d00004851c820f033bd82bef4355d1563",
+      "last": "2026-08-22",
+      "ms": 7309415,
+      "name": "Señorita",
+      "short": 9,
+      "years": {
+        "2025": 26,
+        "2026": 17
+      }
+    },
+    {
+      "artists": [
         "Elektronomia"
       ],
       "count": 43,
@@ -11318,23 +11335,6 @@
         "2024": 16,
         "2025": 4,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 41,
-      "first": "2025-07-03",
-      "id": "6v3KW9xbzN5yKLt9YKDYA2",
-      "image": "https://i.scdn.co/image/ab67616d00004851c820f033bd82bef4355d1563",
-      "last": "2026-06-21",
-      "ms": 7309415,
-      "name": "Señorita",
-      "short": 9,
-      "years": {
-        "2025": 26,
-        "2026": 15
       }
     },
     {
@@ -18828,6 +18828,22 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 15,
+      "first": "2026-07-12",
+      "id": "3O0OhpTJu2DV2yIYZAfhzf",
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "last": "2026-08-22",
+      "ms": 759980,
+      "name": "orbit",
+      "short": 2,
+      "years": {
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "PornoGraffitti"
       ],
       "count": 15,
@@ -19674,22 +19690,6 @@
       "last": "2026-08-06",
       "ms": 624212,
       "name": "good old days",
-      "years": {
-        "2026": 13
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 13,
-      "first": "2026-07-12",
-      "id": "3O0OhpTJu2DV2yIYZAfhzf",
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "last": "2026-08-17",
-      "ms": 759980,
-      "name": "orbit",
-      "short": 2,
       "years": {
         "2026": 13
       }
@@ -23583,22 +23583,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 7,
-      "first": "2026-06-24",
-      "id": "6H4vq5gz0rlNjH0LBzu4An",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-08-21",
-      "ms": 230573,
-      "name": "Say (All I Need)",
-      "short": 1,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 7,
@@ -24748,21 +24732,6 @@
       "years": {
         "2020": 4,
         "2021": 2
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 6,
-      "first": "2026-06-17",
-      "id": "15ahYSiHAIMxAnujlXVtta",
-      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
-      "last": "2026-08-21",
-      "ms": 611224,
-      "name": "Super Far",
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -26343,6 +26312,22 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 5,
+      "first": "2026-06-24",
+      "id": "6H4vq5gz0rlNjH0LBzu4An",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-08-21",
+      "ms": 230573,
+      "name": "Say (All I Need)",
+      "short": 1,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Shawn Mendes"
       ],
       "count": 5,
@@ -26490,6 +26475,21 @@
       "years": {
         "2024": 1,
         "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 5,
+      "first": "2026-06-17",
+      "id": "15ahYSiHAIMxAnujlXVtta",
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "last": "2026-08-21",
+      "ms": 611224,
+      "name": "Super Far",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -28950,6 +28950,21 @@
       "name": "So High School",
       "years": {
         "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 4,
+      "first": "2026-06-17",
+      "id": "5a59o1acxGZ0txvNzumplU",
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "last": "2026-08-21",
+      "ms": 357258,
+      "name": "Soft",
+      "years": {
+        "2026": 4
       }
     },
     {
@@ -32855,21 +32870,6 @@
       "years": {
         "2021": 1,
         "2025": 2
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 3,
-      "first": "2026-06-17",
-      "id": "5a59o1acxGZ0txvNzumplU",
-      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
-      "last": "2026-08-17",
-      "ms": 357258,
-      "name": "Soft",
-      "years": {
-        "2026": 3
       }
     },
     {

@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-21T16:22:10.447477+00:00",
+  "generated_at": "2026-08-22T16:13:59.208448+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,28 +813,19 @@
       5000,
       10000
     ],
-    "total": 62762
+    "total": 62764
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 5,
+  "streak": 6,
   "weekly_top": [
     {
       "artists": [
-        "Lany"
+        "Henry Moodie"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
-      "name": "Super Far",
-      "track_id": "15ahYSiHAIMxAnujlXVtta"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Say (All I Need)",
-      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "orbit",
+      "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
     },
     {
       "artists": [
@@ -865,12 +856,39 @@
     },
     {
       "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "name": "Soft",
+      "track_id": "5a59o1acxGZ0txvNzumplU"
+    },
+    {
+      "artists": [
         "ケニー・ロギンス"
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851b8f8d696810d68ce774e3a2f",
       "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
       "track_id": "3hMHG6lx9QHVcfYSUr5PoM"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "name": "Super Far",
+      "track_id": "15ahYSiHAIMxAnujlXVtta"
+    },
+    {
+      "artists": [
+        "ショーン・メンデス"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851c820f033bd82bef4355d1563",
+      "name": "Señorita",
+      "track_id": "6v3KW9xbzN5yKLt9YKDYA2"
     },
     {
       "artists": [
@@ -934,15 +952,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
       "name": "Cadillac, Cadillac",
       "track_id": "5U7MuMIZc8SttxACWi85Xv"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
-      "name": "orbit",
-      "track_id": "3O0OhpTJu2DV2yIYZAfhzf"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851cf5459850259268f98b07f7a",
       "name": "Good Time",
       "track_id": "1kPpge9JDLpcj15qgrPbYX"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
-      "name": "Soft",
-      "track_id": "5a59o1acxGZ0txvNzumplU"
     }
   ]
 }

@@ -1,31 +1,31 @@
 {
-  "date": "08-22",
-  "generated_at": "2026-08-21T16:23:21.755859+00:00",
+  "date": "08-23",
+  "generated_at": "2026-08-22T16:15:09.339369+00:00",
   "years": [
     {
-      "plays": 8,
+      "plays": 11,
       "tracks": [
-        {
-          "artists": [
-            "OneRepublic"
-          ],
-          "count": 3,
-          "name": "Nobody - from Kaiju No. 8",
-          "track_id": "47N81NMkB488fuOwOC3Oip"
-        },
         {
           "artists": [
             "YUNGBLUD"
           ],
-          "count": 2,
+          "count": 3,
           "name": "Abyss - from Kaiju No. 8",
           "track_id": "2kLWSmKHhfUBepkIA9oNe5"
         },
         {
           "artists": [
-            "ONE OK ROCK"
+            "OneRepublic"
           ],
           "count": 2,
+          "name": "Nobody - from Kaiju No. 8",
+          "track_id": "47N81NMkB488fuOwOC3Oip"
+        },
+        {
+          "artists": [
+            "ONE OK ROCK"
+          ],
+          "count": 1,
           "name": "Renegades",
           "track_id": "3RpFwqdROrxJvHywpT1pJ4"
         },
@@ -36,20 +36,76 @@
           "count": 1,
           "name": "Broken Heart of Gold",
           "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
+        },
+        {
+          "artists": [
+            "SEKAI NO OWARI"
+          ],
+          "count": 1,
+          "name": "Dragon Night",
+          "track_id": "4XdzCpY4Ekv5SezuuFpBDG"
+        },
+        {
+          "artists": [
+            "SEKAI NO OWARI"
+          ],
+          "count": 1,
+          "name": "RPG",
+          "track_id": "7facNrW6VRW8s3ICZ8G1uW"
+        },
+        {
+          "artists": [
+            "SEKAI NO OWARI"
+          ],
+          "count": 1,
+          "name": "眠り姫",
+          "track_id": "0GTz1mytQUBlGaSF7s4Rdz"
+        },
+        {
+          "artists": [
+            "髙見 優/長岡 成貢"
+          ],
+          "count": 1,
+          "name": "南方仁のテーマ",
+          "track_id": "2p71NDW60CTBSDnIqDpXYP"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 10,
+      "plays": 20,
       "tracks": [
         {
           "artists": [
-            "Yumi Arai"
+            "*NSYNC"
+          ],
+          "count": 2,
+          "name": "Bye Bye Bye",
+          "track_id": "4r8lRYnoOGdEi6YyI5OC1o"
+        },
+        {
+          "artists": [
+            "音田 雅則"
+          ],
+          "count": 2,
+          "name": "聖なるクリスマス",
+          "track_id": "7i3YnL4zlmqGeQV9G1xLzr"
+        },
+        {
+          "artists": [
+            "The Beach Boys"
           ],
           "count": 1,
-          "name": "ひこうき雲",
-          "track_id": "2YyxBmzk2l7NzyBakN3TdM"
+          "name": "Wouldn't It Be Nice",
+          "track_id": "2Gy7qnDwt8Z3MNxqat4CsK"
+        },
+        {
+          "artists": [
+            "The Jackson 5"
+          ],
+          "count": 1,
+          "name": "I Want You Back",
+          "track_id": "2OSfEYKhlSsLx6vn4O75RK"
         },
         {
           "artists": [
@@ -61,97 +117,35 @@
         },
         {
           "artists": [
-            "Katsuo Ohno"
+            "Blue Swede"
           ],
           "count": 1,
-          "name": "蘭のテーマ - 世紀末ヴァージョン",
-          "track_id": "6lJq0JMOFI9MN47AOJrwEC"
+          "name": "Hooked On A Feeling",
+          "track_id": "6Ac4NVYYl2U73QiTt11ZKd"
         },
         {
           "artists": [
-            "OneRepublic"
+            "Aliotta Haynes Jeremiah"
           ],
           "count": 1,
-          "name": "I Ain't Worried",
-          "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+          "name": "Lake Shore Drive",
+          "track_id": "46MX86XQqYCZRvwPpeq4Gi"
         },
         {
           "artists": [
-            "GReeeeN"
+            "Side Saddle"
           ],
           "count": 1,
-          "name": "愛唄",
-          "track_id": "7CKNIPYunPhupoNZXdi4GS"
+          "name": "All My Days",
+          "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
         },
         {
           "artists": [
-            "髙見 優/長岡 成貢"
+            "Fleetwood Mac"
           ],
           "count": 1,
-          "name": "南方仁のテーマ",
-          "track_id": "2p71NDW60CTBSDnIqDpXYP"
-        },
-        {
-          "artists": [
-            "Tsuji Ayano"
-          ],
-          "count": 1,
-          "name": "風になる",
-          "track_id": "1BMYkyKXS6UfnJteWN7nSD"
-        },
-        {
-          "artists": [
-            "Band of Silver"
-          ],
-          "count": 1,
-          "name": "Enjoy the Silence",
-          "track_id": "4xdv75EPU7HdxWj2wyql7t"
-        },
-        {
-          "artists": [
-            "Redbone"
-          ],
-          "count": 1,
-          "name": "Come and Get Your Love (Rerecorded)",
-          "track_id": "2T43UrvAg60ubJVo5KQ3t7"
-        },
-        {
-          "artists": [
-            "Band of Silver"
-          ],
-          "count": 1,
-          "name": "No Escape Room",
-          "track_id": "0sltXDzt6UZz1vXgJIZuSv"
-        }
-      ],
-      "year": "2024"
-    },
-    {
-      "plays": 6,
-      "tracks": [
-        {
-          "artists": [
-            "back number"
-          ],
-          "count": 1,
-          "name": "幸せ",
-          "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
-        },
-        {
-          "artists": [
-            "back number"
-          ],
-          "count": 1,
-          "name": "恋",
-          "track_id": "7f9DsQEsIoeTwKxV6shsom"
-        },
-        {
-          "artists": [
-            "back number"
-          ],
-          "count": 1,
-          "name": "クリスマスソング",
-          "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+          "name": "The Chain - 2004 Remaster",
+          "track_id": "5e9TFTbltYBg2xThimr0rU"
         },
         {
           "artists": [
@@ -160,108 +154,130 @@
           "count": 1,
           "name": "美しい鰭",
           "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        }
+      ],
+      "year": "2024"
+    },
+    {
+      "plays": 5,
+      "tracks": [
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 2,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
         },
         {
           "artists": [
-            "Idina Menzel"
+            "Mr.Children"
           ],
           "count": 1,
-          "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
-          "track_id": "0qcr5FMsEO85NAQjrlDRKo"
+          "name": "足音 ～Be Strong",
+          "track_id": "0hxitdpUBO7Bt1uJktICUC"
         },
         {
           "artists": [
-            "髙見 優/長岡 成貢"
+            "Yoko Takahashi"
           ],
           "count": 1,
-          "name": "JIN-仁- Main Title",
-          "track_id": "7eUhklIPFYEBUWVRbqWC4P"
+          "name": "残酷な天使のテーゼ",
+          "track_id": "23phSRwoMy48rwFpmuAP8q"
+        },
+        {
+          "artists": [
+            "Mai Kuraki"
+          ],
+          "count": 1,
+          "name": "渡月橋 ~君 想ふ~",
+          "track_id": "1060Rq2jA1jKckSZV67y7H"
         }
       ],
       "year": "2023"
     },
     {
-      "plays": 46,
+      "plays": 21,
       "tracks": [
         {
           "artists": [
             "The Beatles"
           ],
           "count": 2,
-          "name": "Yesterday - Remastered 2009",
-          "track_id": "3BQHpFgAp4l80e1XslIjNI"
+          "name": "The Ballad Of John And Yoko - Remastered 2009",
+          "track_id": "6r7JAngkBzKGDKRUzLgY2U"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "I Want It All - Single Version",
+          "track_id": "1MX6kqZ8FOht5UnQuPl6Jj"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 2,
-          "name": "Glass Onion - Remastered 2009",
-          "track_id": "2jAojvUaPoHPFSPpF0UNRo"
+          "count": 1,
+          "name": "Sexy Sadie - Remastered 2009",
+          "track_id": "2tBv9tAdqEbLNDi5smSjbg"
         },
         {
           "artists": [
-            "Wings"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "Venus And Mars / Rock Show - Remastered 2016",
-          "track_id": "4bIqFVvHQQLwqKoRxJpjaC"
+          "name": "Cry Baby Cry - Remastered 2009",
+          "track_id": "5XmetMMUFNXClbiYnGdVmP"
         },
         {
           "artists": [
-            "Paul McCartney"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "Maybe I’m Amazed - Remastered 2011",
-          "track_id": "3L2zHXtazrw1Q6O4bJAhhT"
+          "name": "Good Night - Remastered 2009",
+          "track_id": "3T4Kt51PV4k8tx6YCtBgcl"
         },
         {
           "artists": [
-            "Taro Urashima"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "海の声",
-          "track_id": "6EjGsUuJmyxdHjKzGN8kPy"
+          "name": "Don't Let Me Down - Remastered 2009",
+          "track_id": "0FP04YnQ8eDxkAH4rlwFar"
         },
         {
           "artists": [
-            "魔王魂"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "12345",
-          "track_id": "4xldxKarI5VSW58Kv7u6dI"
+          "name": "Golden Slumbers - Remastered 2009",
+          "track_id": "01SfTM5nfCou5gQL70r6gs"
         },
         {
           "artists": [
-            "Aimyon"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "マリーゴールド",
-          "track_id": "2cKiHG16JBiqHdi7Llq0r7"
+          "name": "Something - Remastered 2009",
+          "track_id": "0pNeVovbiZHkulpGeOx1Gj"
         },
         {
           "artists": [
-            "YOASOBI"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "夜に駆ける",
-          "track_id": "3dPtXHP0oXQ4HCWHsOA9js"
+          "name": "Octopus's Garden - Remastered 2009",
+          "track_id": "0suLngfo7rJoetk7Ub6N8l"
         },
         {
           "artists": [
-            "OFFICIAL HIGE DANDISM"
+            "The Beatles"
           ],
           "count": 1,
-          "name": "Pretender",
-          "track_id": "58dxGXavrcagRqA58fNB0Z"
-        },
-        {
-          "artists": [
-            "OFFICIAL HIGE DANDISM"
-          ],
-          "count": 1,
-          "name": "I LOVE...",
-          "track_id": "6Yrkz3dWqy933CQWQc4Yah"
+          "name": "Polythene Pam - Remastered 2009",
+          "track_id": "1FTCA6wQwulQFokDddKE68"
         }
       ],
       "year": "2020"

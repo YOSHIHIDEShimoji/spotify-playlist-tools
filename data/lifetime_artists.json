@@ -118,11 +118,11 @@
       }
     },
     {
-      "count": 1914,
+      "count": 1912,
       "first": "2021-04-17",
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "image": "https://i.scdn.co/image/ab676161000051743202f1bcacc6d8f581f32ffd",
-      "last": "2026-08-21",
+      "last": "2026-08-17",
       "ms": 335839304,
       "name": "OneRepublic",
       "tracks": 126,
@@ -132,7 +132,7 @@
         "2023": 1,
         "2024": 20,
         "2025": 367,
-        "2026": 1522
+        "2026": 1520
       }
     },
     {
@@ -415,11 +415,11 @@
       }
     },
     {
-      "count": 303,
+      "count": 304,
       "first": "2021-03-23",
       "id": "7n2wHs1TKAczGzO7Dd2rGr",
       "image": "https://i.scdn.co/image/ab6761610000517458b4b9419486550f6fda0535",
-      "last": "2026-08-17",
+      "last": "2026-08-22",
       "ms": 57177259,
       "name": "Shawn Mendes",
       "tracks": 36,
@@ -429,7 +429,7 @@
         "2023": 20,
         "2024": 13,
         "2025": 86,
-        "2026": 152
+        "2026": 153
       }
     },
     {
@@ -450,16 +450,16 @@
       }
     },
     {
-      "count": 298,
+      "count": 300,
       "first": "2026-03-31",
       "id": "7hr9W3IjXcm3UlLY7guLk5",
       "image": "https://i.scdn.co/image/ab67616100005174eb112262ba2e60bf90053a02",
-      "last": "2026-08-19",
+      "last": "2026-08-22",
       "ms": 19430514,
       "name": "Henry Moodie",
       "tracks": 30,
       "years": {
-        "2026": 298
+        "2026": 300
       }
     },
     {
@@ -4862,6 +4862,17 @@
       }
     },
     {
+      "count": 12,
+      "first": "2026-07-30",
+      "last": "2026-08-22",
+      "ms": 0,
+      "name": "ショーン・メンデス",
+      "tracks": 11,
+      "years": {
+        "2026": 12
+      }
+    },
+    {
       "count": 11,
       "first": "2022-06-05",
       "id": "5Rl15oVamLq7FbSb0NNBNy",
@@ -4971,17 +4982,6 @@
         "2024": 4,
         "2025": 2,
         "2026": 5
-      }
-    },
-    {
-      "count": 11,
-      "first": "2026-07-30",
-      "last": "2026-08-17",
-      "ms": 0,
-      "name": "ショーン・メンデス",
-      "tracks": 10,
-      "years": {
-        "2026": 11
       }
     },
     {
@@ -5135,6 +5135,20 @@
     },
     {
       "count": 9,
+      "first": "2021-03-27",
+      "id": "4nDoRrQiYLoBzwC5BhVJzF",
+      "image": "https://i.scdn.co/image/ab6761610000517476470faf6330235edbcb90a9",
+      "last": "2026-08-22",
+      "ms": 1534146,
+      "name": "Camila Cabello",
+      "tracks": 4,
+      "years": {
+        "2021": 4,
+        "2026": 5
+      }
+    },
+    {
+      "count": 9,
       "first": "2026-04-28",
       "id": "2gUMs9PE8XZVQyzCDqaYmW",
       "image": "https://i.scdn.co/image/ab67616100005174d360aa4088626e140ee80147",
@@ -5227,20 +5241,6 @@
       "years": {
         "2021": 2,
         "2026": 7
-      }
-    },
-    {
-      "count": 8,
-      "first": "2021-03-27",
-      "id": "4nDoRrQiYLoBzwC5BhVJzF",
-      "image": "https://i.scdn.co/image/ab6761610000517476470faf6330235edbcb90a9",
-      "last": "2026-07-06",
-      "ms": 1534146,
-      "name": "Camila Cabello",
-      "tracks": 3,
-      "years": {
-        "2021": 4,
-        "2026": 4
       }
     },
     {
@@ -15937,6 +15937,8 @@
     {
       "count": 1,
       "first": "2023-12-19",
+      "id": "3ZWE1TnryM03rfzVin17K0",
+      "image": "https://i.scdn.co/image/ab67616100005174d5b19d64f694b7b0edb8efc2",
       "last": "2023-12-19",
       "ms": 126127,
       "name": "Tamio Okuda",
@@ -17664,5 +17666,5 @@
       }
     }
   ],
-  "generated_at": "2026-08-21T16:23:21.570675+00:00"
+  "generated_at": "2026-08-22T16:15:09.152482+00:00"
 }

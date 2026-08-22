@@ -209,18 +209,18 @@
         "rank": 11
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
-        "rank": 12
-      },
-      {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 13
+        "rank": 12
       },
       {
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
+        "rank": 13
+      },
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 14
       },
       {
@@ -274,13 +274,13 @@
         "rank": 24
       },
       {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
+        "id": "7k73EtZwoPs516ZxE72KsO",
+        "name": "ONE OK ROCK",
         "rank": 25
       },
       {
-        "id": "7k73EtZwoPs516ZxE72KsO",
-        "name": "ONE OK ROCK",
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
         "rank": 26
       },
       {
@@ -316,8 +316,8 @@
         "rank": 2
       },
       {
-        "id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "name": "The Beatles",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 3
       },
       {
@@ -331,8 +331,8 @@
         "rank": 5
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
         "rank": 6
       },
       {
@@ -351,13 +351,13 @@
         "rank": 9
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 10
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 11
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-08-21T16:25:48.813796+00:00",
+  "generated_at": "2026-08-22T16:16:10.971915+00:00",
   "tracks": {
     "long_term": [
       {
@@ -782,18 +782,18 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "6aDsgHPZsMztSbZernzlF8",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Someday",
+        "id": "3SiVMpHxTS1gspWzRZE50S",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "Nobody - from Kaiju No. 8",
         "rank": 6
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "3SiVMpHxTS1gspWzRZE50S",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "Nobody - from Kaiju No. 8",
+        "id": "6aDsgHPZsMztSbZernzlF8",
+        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+        "name": "Someday",
         "rank": 7
       },
       {
@@ -807,30 +807,21 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "3cOO5IQtOYs7huq4Z6lYfr",
-        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-        "name": "Love Runs Out",
-        "rank": 9
-      },
-      {
-        "artists": [
           "Eve"
         ],
         "id": "6y4GYuZszeXNOXuBFsJlos",
         "image": "https://i.scdn.co/image/ab67616d000048514b54d2a72484832db80a0fe9",
         "name": "Kaikai Kitan",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
           "OneRepublic"
         ],
-        "id": "0baR1QmlC8CruupaxA1IYA",
-        "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
-        "name": "Beautiful Colors - from Kaiju No. 8",
-        "rank": 11
+        "id": "3cOO5IQtOYs7huq4Z6lYfr",
+        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+        "name": "Love Runs Out",
+        "rank": 10
       },
       {
         "artists": [
@@ -839,6 +830,15 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0baR1QmlC8CruupaxA1IYA",
+        "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
+        "name": "Beautiful Colors - from Kaiju No. 8",
         "rank": 12
       },
       {
@@ -879,13 +879,22 @@
       },
       {
         "artists": [
+          "Novelbright"
+        ],
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
+        "name": "アイビー",
+        "rank": 17
+      },
+      {
+        "artists": [
           "Kygo",
           "OneRepublic"
         ],
         "id": "1sgDyuLooyvEML4oHspNza",
         "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
         "name": "Lose Somebody",
-        "rank": 17
+        "rank": 18
       },
       {
         "artists": [
@@ -894,15 +903,6 @@
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 18
-      },
-      {
-        "artists": [
-          "Novelbright"
-        ],
-        "id": "2jS3Oo8GqrhrBDAeU1stum",
-        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
-        "name": "アイビー",
         "rank": 19
       },
       {
@@ -964,21 +964,12 @@
       },
       {
         "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
-        "rank": 26
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "2e42fb37LVhtCOescNb1yN",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Everybody Loves Me",
-        "rank": 27
+        "rank": 26
       },
       {
         "artists": [
@@ -987,7 +978,7 @@
         "id": "48s0QHJgmiNsth3WEO6U4M",
         "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
         "name": "Stop And Stare",
-        "rank": 28
+        "rank": 27
       },
       {
         "artists": [
@@ -996,15 +987,26 @@
         "id": "3FK9wVJHNdJhqVPbIcoZsn",
         "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
         "name": "Need Your Love",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
         "rank": 29
       },
       {
         "artists": [
-          "King Gnu"
+          "MEDUZA",
+          "OneRepublic",
+          "Leony"
         ],
-        "id": "5oQpH1uuZte4axR411rIlN",
-        "image": "https://i.scdn.co/image/ab67616d00004851bd626097eb1af7ddfeaaeadc",
-        "name": "SPECIALZ",
+        "id": "7MYLHLCf0YWR4TVs3owDny",
+        "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
+        "name": "Fire - Official UEFA EURO 2024 Song",
         "rank": 30
       }
     ],
@@ -1020,39 +1022,12 @@
       },
       {
         "artists": [
-          "YUNGBLUD"
-        ],
-        "id": "2kLWSmKHhfUBepkIA9oNe5",
-        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
-        "name": "Abyss - from Kaiju No. 8",
-        "rank": 2
-      },
-      {
-        "artists": [
           "Henry Moodie"
         ],
         "id": "2O7TmAEKiBLQUTNBq2yH9W",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "fight or flight",
-        "rank": 3
-      },
-      {
-        "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
-        "rank": 4
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2tpWsVSb9UEmDRxAl1zhX1",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Counting Stars",
-        "rank": 5
+        "rank": 2
       },
       {
         "artists": [
@@ -1061,7 +1036,7 @@
         "id": "0UO8qysepsd0eppPu7bYp0",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "people pleaser",
-        "rank": 6
+        "rank": 3
       },
       {
         "artists": [
@@ -1070,7 +1045,25 @@
         "id": "22NHkFYbgxB2Zirj29Gbp8",
         "image": "https://i.scdn.co/image/ab67616d000048514ea9ba86cd9506a004bab042",
         "name": "oh yeah?",
-        "rank": 7
+        "rank": 4
+      },
+      {
+        "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
+        "rank": 5
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2tpWsVSb9UEmDRxAl1zhX1",
+        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+        "name": "Counting Stars",
+        "rank": 6
       },
       {
         "artists": [
@@ -1079,7 +1072,7 @@
         "id": "0EPINaCMN2i8A0MBCmoZVm",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "bad emotions",
-        "rank": 8
+        "rank": 7
       },
       {
         "artists": [
@@ -1088,7 +1081,7 @@
         "id": "2XhYeR0oaKHvm4p1Z5Uj1L",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "drunk text",
-        "rank": 9
+        "rank": 8
       },
       {
         "artists": [
@@ -1097,16 +1090,7 @@
         "id": "56sxN1yKg1dgOZXBcAHkJG",
         "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
         "name": "Gone, Gone, Gone",
-        "rank": 10
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "5mQNY6pTeSDl2doFB7uLbE",
-        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-        "name": "Kids",
-        "rank": 11
+        "rank": 9
       },
       {
         "artists": [
@@ -1115,7 +1099,7 @@
         "id": "1mXiSrqOdR09yT43TwkSLh",
         "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
         "name": "Someone To Save You",
-        "rank": 12
+        "rank": 10
       },
       {
         "artists": [
@@ -1124,7 +1108,7 @@
         "id": "280MV4FuB5uusjx8wj1dpt",
         "image": "https://i.scdn.co/image/ab67616d00004851e013d46a0f578807480c7da9",
         "name": "the older you get, the less you cry",
-        "rank": 13
+        "rank": 11
       },
       {
         "artists": [
@@ -1134,7 +1118,7 @@
         "id": "3GCdLUSnKSMJhs4Tj6CV3s",
         "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
         "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
-        "rank": 14
+        "rank": 12
       },
       {
         "artists": [
@@ -1143,7 +1127,7 @@
         "id": "4fYte8ZvTK14NEhAOZocBi",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "I Ain't Worried",
-        "rank": 15
+        "rank": 13
       },
       {
         "artists": [
@@ -1153,7 +1137,16 @@
         "id": "0NIIKZEed0nXPz4lHnMaZg",
         "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
         "name": "In Your Eyes",
-        "rank": 16
+        "rank": 14
+      },
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "3O0OhpTJu2DV2yIYZAfhzf",
+        "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+        "name": "orbit",
+        "rank": 15
       },
       {
         "artists": [
@@ -1162,7 +1155,7 @@
         "id": "6uaigl9EXMjMP0I3iTb9yO",
         "image": "https://i.scdn.co/image/ab67616d00004851a170450a8397dcbb0f4f6421",
         "name": "Truth To Power",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1171,7 +1164,7 @@
         "id": "2jBt7c8o1dDuyIIgepcNsz",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "you were there for me",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -1180,6 +1173,15 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "5mQNY6pTeSDl2doFB7uLbE",
+        "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+        "name": "Kids",
         "rank": 19
       },
       {
