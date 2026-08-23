@@ -450,7 +450,7 @@
       }
     },
     {
-      "count": 300,
+      "count": 299,
       "first": "2026-03-31",
       "id": "7hr9W3IjXcm3UlLY7guLk5",
       "image": "https://i.scdn.co/image/ab67616100005174eb112262ba2e60bf90053a02",
@@ -459,7 +459,7 @@
       "name": "Henry Moodie",
       "tracks": 30,
       "years": {
-        "2026": 300
+        "2026": 299
       }
     },
     {
@@ -4929,6 +4929,19 @@
     },
     {
       "count": 11,
+      "first": "2026-04-09",
+      "id": "6p5JxpTc7USNnBnLzctyd4",
+      "image": "https://i.scdn.co/image/ab676161000051745ecdd627920e9991a8b238ab",
+      "last": "2026-08-23",
+      "ms": 1695916,
+      "name": "Phillip Phillips",
+      "tracks": 1,
+      "years": {
+        "2026": 11
+      }
+    },
+    {
+      "count": 11,
       "first": "2022-06-08",
       "id": "3E5NLQpQbd0eJ18XO9zC0h",
       "image": "https://i.scdn.co/image/ab67616100005174c28a295d3df576729a5d2ca7",
@@ -5079,19 +5092,6 @@
         "2022": 8,
         "2024": 1,
         "2025": 1
-      }
-    },
-    {
-      "count": 10,
-      "first": "2026-04-09",
-      "id": "6p5JxpTc7USNnBnLzctyd4",
-      "image": "https://i.scdn.co/image/ab676161000051745ecdd627920e9991a8b238ab",
-      "last": "2026-08-09",
-      "ms": 1695916,
-      "name": "Phillip Phillips",
-      "tracks": 1,
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -6246,6 +6246,19 @@
     },
     {
       "count": 5,
+      "first": "2026-06-20",
+      "id": "34v5MVKeQnIo0CWYMbbrPf",
+      "image": "https://i.scdn.co/image/ab67616100005174c5319bf75ef61d67e2fed3ad",
+      "last": "2026-08-22",
+      "ms": 479788,
+      "name": "John Newman",
+      "tracks": 1,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "count": 5,
       "first": "2026-05-14",
       "id": "2GXWT3OIV4dh7qFOU0PUbS",
       "image": "https://i.scdn.co/image/ab67616d00001e027f386db66e4e538e09c34264",
@@ -6680,19 +6693,6 @@
       "tracks": 2,
       "years": {
         "2024": 4
-      }
-    },
-    {
-      "count": 4,
-      "first": "2026-06-20",
-      "id": "34v5MVKeQnIo0CWYMbbrPf",
-      "image": "https://i.scdn.co/image/ab67616100005174c5319bf75ef61d67e2fed3ad",
-      "last": "2026-08-04",
-      "ms": 479788,
-      "name": "John Newman",
-      "tracks": 1,
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -15950,6 +15950,8 @@
     {
       "count": 1,
       "first": "2021-05-29",
+      "id": "4z1phSKVusjMBvndNBsxQH",
+      "image": "https://i.scdn.co/image/ab67616d00001e02ef26d1a673c830fc62294f60",
       "last": "2021-05-29",
       "ms": 135903,
       "name": "Terry Brooklyn",
@@ -17666,5 +17668,5 @@
       }
     }
   ],
-  "generated_at": "2026-08-22T16:15:09.152482+00:00"
+  "generated_at": "2026-08-23T16:16:24.227569+00:00"
 }

@@ -12,21 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 23.3022
-    },
-    {
-      "because": [
-        {
-          "count": 875,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 382,
-          "name": "Ed Sheeran"
-        }
-      ],
-      "name": "Niall Horan",
-      "score": 18.5605
+      "score": 23.3909
     },
     {
       "because": [
@@ -40,7 +26,7 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.5926
+      "score": 15.3114
     },
     {
       "because": [
@@ -54,7 +40,21 @@
         }
       ],
       "name": "The Script",
-      "score": 15.2841
+      "score": 15.0856
+    },
+    {
+      "because": [
+        {
+          "count": 382,
+          "name": "Ed Sheeran"
+        },
+        {
+          "count": 304,
+          "name": "Shawn Mendes"
+        }
+      ],
+      "name": "Niall Horan",
+      "score": 14.6934
     },
     {
       "because": [
@@ -68,7 +68,7 @@
         }
       ],
       "name": "Masaki Suda",
-      "score": 13.9108
+      "score": 13.7882
     },
     {
       "because": [
@@ -82,133 +82,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.8429
-    },
-    {
-      "because": [
-        {
-          "count": 365,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 214,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "James Horner",
-      "score": 9.9592
-    },
-    {
-      "because": [
-        {
-          "count": 367,
-          "name": "Jim Yosef"
-        },
-        {
-          "count": 300,
-          "name": "Elektronomia"
-        }
-      ],
-      "name": "Lensko",
-      "score": 9.3578
-    },
-    {
-      "because": [
-        {
-          "count": 1912,
-          "name": "OneRepublic"
-        },
-        {
-          "count": 425,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "Rob Thomas",
-      "score": 9.3466
-    },
-    {
-      "because": [
-        {
-          "count": 862,
-          "name": "Novelbright"
-        },
-        {
-          "count": 356,
-          "name": "ONE OK ROCK"
-        }
-      ],
-      "name": "MY FIRST STORY",
-      "score": 9.3306
-    },
-    {
-      "because": [
-        {
-          "count": 1248,
-          "name": "SPITZ"
-        },
-        {
-          "count": 277,
-          "name": "Yumi Arai"
-        }
-      ],
-      "name": "槇原敬之",
-      "score": 8.9871
-    },
-    {
-      "because": [
-        {
-          "count": 304,
-          "name": "Shawn Mendes"
-        },
-        {
-          "count": 274,
-          "name": "One Direction"
-        }
-      ],
-      "name": "Louis Tomlinson",
-      "score": 8.7011
-    },
-    {
-      "because": [
-        {
-          "count": 556,
-          "name": "Katsuo Ohno"
-        },
-        {
-          "count": 277,
-          "name": "Yumi Arai"
-        }
-      ],
-      "name": "井上陽水",
-      "score": 8.689
-    },
-    {
-      "because": [
-        {
-          "count": 365,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 214,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "Jerry Goldsmith",
-      "score": 8.3223
-    },
-    {
-      "because": [
-        {
-          "count": 2296,
-          "name": "OFFICIAL HIGE DANDISM"
-        },
-        {
-          "count": 211,
-          "name": "Aimyon"
-        }
-      ],
-      "name": "Yorushika",
-      "score": 8.3069
+      "score": 13.7042
     },
     {
       "because": [
@@ -222,21 +96,105 @@
         }
       ],
       "name": "米津玄師",
-      "score": 8.1725
+      "score": 10.7489
     },
     {
       "because": [
         {
-          "count": 556,
-          "name": "Katsuo Ohno"
+          "count": 862,
+          "name": "Novelbright"
+        },
+        {
+          "count": 356,
+          "name": "ONE OK ROCK"
+        }
+      ],
+      "name": "MY FIRST STORY",
+      "score": 9.4622
+    },
+    {
+      "because": [
+        {
+          "count": 1912,
+          "name": "OneRepublic"
+        },
+        {
+          "count": 425,
+          "name": "Maroon 5"
+        }
+      ],
+      "name": "Rob Thomas",
+      "score": 9.2771
+    },
+    {
+      "because": [
+        {
+          "count": 367,
+          "name": "Jim Yosef"
+        },
+        {
+          "count": 300,
+          "name": "Elektronomia"
+        }
+      ],
+      "name": "Lensko",
+      "score": 9.1981
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
         },
         {
           "count": 277,
           "name": "Yumi Arai"
         }
       ],
-      "name": "渡辺美里",
-      "score": 7.9928
+      "name": "槇原敬之",
+      "score": 8.8786
+    },
+    {
+      "because": [
+        {
+          "count": 304,
+          "name": "Shawn Mendes"
+        },
+        {
+          "count": 274,
+          "name": "One Direction"
+        }
+      ],
+      "name": "Louis Tomlinson",
+      "score": 8.7456
+    },
+    {
+      "because": [
+        {
+          "count": 875,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 304,
+          "name": "Shawn Mendes"
+        }
+      ],
+      "name": "Shawn Mendes & Camila Cabello",
+      "score": 8.4675
+    },
+    {
+      "because": [
+        {
+          "count": 2296,
+          "name": "OFFICIAL HIGE DANDISM"
+        },
+        {
+          "count": 211,
+          "name": "Aimyon"
+        }
+      ],
+      "name": "Yorushika",
+      "score": 8.1665
     },
     {
       "because": [
@@ -245,12 +203,12 @@
           "name": "Ed Sheeran"
         },
         {
-          "count": 300,
+          "count": 299,
           "name": "Henry Moodie"
         }
       ],
       "name": "Myles Smith",
-      "score": 7.8613
+      "score": 7.7279
     },
     {
       "because": [
@@ -264,7 +222,21 @@
         }
       ],
       "name": "Jason Derülo",
-      "score": 7.7389
+      "score": 7.6519
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
+        },
+        {
+          "count": 277,
+          "name": "Yumi Arai"
+        }
+      ],
+      "name": "桑田佳祐",
+      "score": 7.5569
     },
     {
       "because": [
@@ -278,7 +250,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 7.3397
+      "score": 7.3343
     },
     {
       "because": [
@@ -292,49 +264,7 @@
         }
       ],
       "name": "Bazzi",
-      "score": 7.2891
-    },
-    {
-      "because": [
-        {
-          "count": 365,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 214,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "Marco Beltrami",
-      "score": 7.1773
-    },
-    {
-      "because": [
-        {
-          "count": 365,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 214,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "Harry Gregson-Williams",
-      "score": 7.1011
-    },
-    {
-      "because": [
-        {
-          "count": 875,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 425,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "DNCE",
-      "score": 6.9688
+      "score": 7.2257
     },
     {
       "because": [
@@ -343,64 +273,12 @@
           "name": "OneRepublic"
         },
         {
-          "count": 300,
+          "count": 299,
           "name": "Henry Moodie"
         }
       ],
       "name": "BANNERS",
-      "score": 6.9517
-    },
-    {
-      "because": [
-        {
-          "count": 15599,
-          "name": "The Beatles"
-        },
-        {
-          "count": 3377,
-          "name": "Paul McCartney"
-        }
-      ],
-      "name": "Traveling Wilburys",
-      "score": 6.7691
-    },
-    {
-      "because": [
-        {
-          "count": 317,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 239,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Givēon",
-      "score": 6.7345
-    },
-    {
-      "because": [
-        {
-          "count": 862,
-          "name": "Novelbright"
-        },
-        {
-          "count": 356,
-          "name": "ONE OK ROCK"
-        }
-      ],
-      "name": "SPYAIR",
-      "score": 6.7256
-    },
-    {
-      "because": [
-        {
-          "count": 1248,
-          "name": "SPITZ"
-        }
-      ],
-      "name": "くるり",
-      "score": 6.6768
+      "score": 7.0472
     },
     {
       "because": [
@@ -414,11 +292,133 @@
         }
       ],
       "name": "The Fray",
-      "score": 6.6629
+      "score": 6.9386
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
+        }
+      ],
+      "name": "くるり",
+      "score": 6.8123
+    },
+    {
+      "because": [
+        {
+          "count": 862,
+          "name": "Novelbright"
+        },
+        {
+          "count": 356,
+          "name": "ONE OK ROCK"
+        }
+      ],
+      "name": "SPYAIR",
+      "score": 6.8015
+    },
+    {
+      "because": [
+        {
+          "count": 15599,
+          "name": "The Beatles"
+        },
+        {
+          "count": 3377,
+          "name": "Paul McCartney"
+        }
+      ],
+      "name": "Traveling Wilburys",
+      "score": 6.7239
+    },
+    {
+      "because": [
+        {
+          "count": 317,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 239,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Givēon",
+      "score": 6.6377
+    },
+    {
+      "because": [
+        {
+          "count": 875,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 425,
+          "name": "Maroon 5"
+        }
+      ],
+      "name": "DNCE",
+      "score": 6.6255
+    },
+    {
+      "because": [
+        {
+          "count": 254,
+          "name": "Dua Lipa"
+        },
+        {
+          "count": 229,
+          "name": "Katy Perry"
+        }
+      ],
+      "name": "Tove Lo",
+      "score": 6.6056
+    },
+    {
+      "because": [
+        {
+          "count": 15599,
+          "name": "The Beatles"
+        },
+        {
+          "count": 3377,
+          "name": "Paul McCartney"
+        }
+      ],
+      "name": "The Monkees",
+      "score": 6.456
+    },
+    {
+      "because": [
+        {
+          "count": 875,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 205,
+          "name": "BTS"
+        }
+      ],
+      "name": "V",
+      "score": 6.3378
+    },
+    {
+      "because": [
+        {
+          "count": 862,
+          "name": "Novelbright"
+        },
+        {
+          "count": 289,
+          "name": "音田 雅則"
+        }
+      ],
+      "name": "Atarayo",
+      "score": 6.3372
     }
   ],
   "available": true,
-  "generated_at": "2026-08-22T16:15:39.334149+00:00",
+  "generated_at": "2026-08-23T16:16:54.741301+00:00",
   "source": "lastfm",
   "tracks": [
     {
