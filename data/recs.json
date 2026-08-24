@@ -31,30 +31,30 @@
     {
       "because": [
         {
-          "count": 1912,
+          "count": 1928,
           "name": "OneRepublic"
         },
         {
-          "count": 425,
+          "count": 433,
           "name": "Maroon 5"
         }
       ],
       "name": "The Script",
-      "score": 15.0856
+      "score": 15.1128
     },
     {
       "because": [
         {
-          "count": 382,
+          "count": 384,
           "name": "Ed Sheeran"
         },
         {
-          "count": 304,
+          "count": 307,
           "name": "Shawn Mendes"
         }
       ],
       "name": "Niall Horan",
-      "score": 14.6934
+      "score": 14.7133
     },
     {
       "because": [
@@ -87,6 +87,20 @@
     {
       "because": [
         {
+          "count": 882,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 326,
+          "name": "Justin Bieber"
+        }
+      ],
+      "name": "Jason Derülo",
+      "score": 10.8721
+    },
+    {
+      "because": [
+        {
           "count": 2698,
           "name": "back number"
         },
@@ -97,6 +111,48 @@
       ],
       "name": "米津玄師",
       "score": 10.7489
+    },
+    {
+      "because": [
+        {
+          "count": 365,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 214,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "James Horner",
+      "score": 10.0783
+    },
+    {
+      "because": [
+        {
+          "count": 326,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 240,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Givēon",
+      "score": 9.8337
+    },
+    {
+      "because": [
+        {
+          "count": 326,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 240,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Usher",
+      "score": 9.5171
     },
     {
       "because": [
@@ -115,16 +171,16 @@
     {
       "because": [
         {
-          "count": 1912,
+          "count": 1928,
           "name": "OneRepublic"
         },
         {
-          "count": 425,
+          "count": 433,
           "name": "Maroon 5"
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.2771
+      "score": 9.2949
     },
     {
       "because": [
@@ -157,30 +213,58 @@
     {
       "because": [
         {
-          "count": 304,
+          "count": 307,
           "name": "Shawn Mendes"
         },
         {
-          "count": 274,
+          "count": 276,
           "name": "One Direction"
         }
       ],
       "name": "Louis Tomlinson",
-      "score": 8.7456
+      "score": 8.7582
     },
     {
       "because": [
         {
-          "count": 875,
+          "count": 882,
           "name": "Charlie Puth"
         },
         {
-          "count": 304,
+          "count": 307,
           "name": "Shawn Mendes"
         }
       ],
       "name": "Shawn Mendes & Camila Cabello",
-      "score": 8.4675
+      "score": 8.4801
+    },
+    {
+      "because": [
+        {
+          "count": 326,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 197,
+          "name": "Bruno Mars"
+        }
+      ],
+      "name": "Ne-Yo",
+      "score": 8.4194
+    },
+    {
+      "because": [
+        {
+          "count": 365,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 214,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "Jerry Goldsmith",
+      "score": 8.399
     },
     {
       "because": [
@@ -199,30 +283,16 @@
     {
       "because": [
         {
-          "count": 382,
+          "count": 384,
           "name": "Ed Sheeran"
         },
         {
-          "count": 299,
+          "count": 302,
           "name": "Henry Moodie"
         }
       ],
       "name": "Myles Smith",
-      "score": 7.7279
-    },
-    {
-      "because": [
-        {
-          "count": 875,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 317,
-          "name": "Justin Bieber"
-        }
-      ],
-      "name": "Jason Derülo",
-      "score": 7.6519
+      "score": 7.7375
     },
     {
       "because": [
@@ -241,58 +311,86 @@
     {
       "because": [
         {
-          "count": 1912,
+          "count": 1928,
           "name": "OneRepublic"
         },
         {
-          "count": 351,
+          "count": 355,
           "name": "Train"
         }
       ],
       "name": "Lifehouse",
-      "score": 7.3343
+      "score": 7.3455
     },
     {
       "because": [
         {
-          "count": 875,
+          "count": 882,
           "name": "Charlie Puth"
         },
         {
-          "count": 317,
+          "count": 326,
           "name": "Justin Bieber"
         }
       ],
       "name": "Bazzi",
-      "score": 7.2257
+      "score": 7.2454
     },
     {
       "because": [
         {
-          "count": 1912,
+          "count": 365,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 214,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "Marco Beltrami",
+      "score": 7.0764
+    },
+    {
+      "because": [
+        {
+          "count": 1928,
           "name": "OneRepublic"
         },
         {
-          "count": 299,
+          "count": 302,
           "name": "Henry Moodie"
         }
       ],
       "name": "BANNERS",
-      "score": 7.0472
+      "score": 7.0566
     },
     {
       "because": [
         {
-          "count": 1912,
+          "count": 365,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 214,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "Harry Gregson-Williams",
+      "score": 6.9607
+    },
+    {
+      "because": [
+        {
+          "count": 1928,
           "name": "OneRepublic"
         },
         {
-          "count": 351,
+          "count": 355,
           "name": "Train"
         }
       ],
       "name": "The Fray",
-      "score": 6.9386
+      "score": 6.9488
     },
     {
       "because": [
@@ -317,108 +415,10 @@
       ],
       "name": "SPYAIR",
       "score": 6.8015
-    },
-    {
-      "because": [
-        {
-          "count": 15599,
-          "name": "The Beatles"
-        },
-        {
-          "count": 3377,
-          "name": "Paul McCartney"
-        }
-      ],
-      "name": "Traveling Wilburys",
-      "score": 6.7239
-    },
-    {
-      "because": [
-        {
-          "count": 317,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 239,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Givēon",
-      "score": 6.6377
-    },
-    {
-      "because": [
-        {
-          "count": 875,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 425,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "DNCE",
-      "score": 6.6255
-    },
-    {
-      "because": [
-        {
-          "count": 254,
-          "name": "Dua Lipa"
-        },
-        {
-          "count": 229,
-          "name": "Katy Perry"
-        }
-      ],
-      "name": "Tove Lo",
-      "score": 6.6056
-    },
-    {
-      "because": [
-        {
-          "count": 15599,
-          "name": "The Beatles"
-        },
-        {
-          "count": 3377,
-          "name": "Paul McCartney"
-        }
-      ],
-      "name": "The Monkees",
-      "score": 6.456
-    },
-    {
-      "because": [
-        {
-          "count": 875,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 205,
-          "name": "BTS"
-        }
-      ],
-      "name": "V",
-      "score": 6.3378
-    },
-    {
-      "because": [
-        {
-          "count": 862,
-          "name": "Novelbright"
-        },
-        {
-          "count": 289,
-          "name": "音田 雅則"
-        }
-      ],
-      "name": "Atarayo",
-      "score": 6.3372
     }
   ],
   "available": true,
-  "generated_at": "2026-08-23T16:16:54.741301+00:00",
+  "generated_at": "2026-08-24T16:27:03.909122+00:00",
   "source": "lastfm",
   "tracks": [
     {
@@ -556,24 +556,24 @@
     {
       "artist": "Katy Perry",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "1y4eb6hmAvsqlDOl3fx9kk",
       "image": "https://i.scdn.co/image/ab67616d00004851cd3978ebe35d93a07249b97f",
       "name": "Hot n Cold",
-      "score": 4.7423
+      "score": 4.7486
     },
     {
       "artist": "Miley Cyrus",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "4TZZvblv2yzLIBk2JwJ6Un",
       "image": "https://i.scdn.co/image/ab67616d000048518cd7c5c3b718dafcd8a03059",
       "name": "Party in the U.S.A.",
-      "score": 4.7176
+      "score": 4.7239
     },
     {
       "artist": "Mandy Moore",
@@ -633,13 +633,13 @@
     {
       "artist": "Ke$ha",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "7EQGXaVSyEDsCWKmUcfpLk",
       "image": "https://i.scdn.co/image/ab67616d00004851edcab0fe7cf29d17751dad18",
       "name": "Die Young",
-      "score": 4.2427
+      "score": 4.2484
     },
     {
       "artist": "スピッツ",
@@ -655,13 +655,13 @@
     {
       "artist": "Carly Rae Jepsen",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "4oXoZYEPIgDqqwnZnVcn9X",
       "image": "https://i.scdn.co/image/ab67616d000048515039eac30f931ef39405717b",
       "name": "This Kiss",
-      "score": 4.1532
+      "score": 4.1587
     },
     {
       "artist": "RADWIMPS",
@@ -688,13 +688,13 @@
     {
       "artist": "Rihanna",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "2ENexcMEMsYk0rVJigVD3i",
       "image": "https://i.scdn.co/image/ab67616d0000485131548865f7c729290b96c794",
       "name": "Only Girl (In the World)",
-      "score": 3.7453
+      "score": 3.7503
     },
     {
       "artist": "スキマスイッチ",
@@ -754,13 +754,13 @@
     {
       "artist": "Ke$ha",
       "because": {
-        "count": 149,
+        "count": 150,
         "name": "Call Me Maybe"
       },
       "id": "5PSba04SiAEUe3q6PyaTpQ",
       "image": "https://i.scdn.co/image/ab67616d00004851233906d0f076db62a4f819d0",
       "name": "Tik Tok",
-      "score": 3.4028
+      "score": 3.4074
     },
     {
       "artist": "Halle",
