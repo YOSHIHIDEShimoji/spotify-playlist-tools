@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-24T16:25:26.150347+00:00",
+  "generated_at": "2026-08-25T16:26:13.351159+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,38 @@
       5000,
       10000
     ],
-    "total": 62909
+    "total": 62934
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 9,
+  "streak": 10,
   "weekly_top": [
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
+      "name": "current location",
+      "track_id": "3g6nGCEj7NK0KabxlfL9co"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "name": "Maps",
+      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
+    },
+    {
+      "artists": [
+        "One Direction"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
+      "name": "Live While We're Young",
+      "track_id": "2sF2NJT9rxRpLifXabqFNS"
+    },
     {
       "artists": [
         "Keane"
@@ -829,12 +856,21 @@
     },
     {
       "artists": [
-        "Kygo"
+        "Lany"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-      "name": "Stranger Things (feat. OneRepublic)",
-      "track_id": "4sJqSKPc5fZ5OZ8JiVI44N"
+      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
+      "name": "Prettiest Thing I’ve Ever Seen",
+      "track_id": "5f9Nt75lq1MLzf5F2xJwTI"
+    },
+    {
+      "artists": [
+        "Bruno Mars"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06",
+      "name": "Finesse - Remix; feat. Cardi B",
+      "track_id": "3Vo4wInECJQuz9BIBMOu8i"
     },
     {
       "artists": [
@@ -982,15 +1018,6 @@
     },
     {
       "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
-      "name": "current location",
-      "track_id": "3g6nGCEj7NK0KabxlfL9co"
-    },
-    {
-      "artists": [
         "Charlie Puth"
       ],
       "count": 1,
@@ -1033,15 +1060,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485182708c9fdc7f9539d7e3da97",
       "name": "My Songs Know What You Did in the Dark (Light Em Up)",
       "track_id": "7ddwjA4FdBC0zIAL3ueLBd"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "name": "Maps",
-      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
     },
     {
       "artists": [
@@ -1249,24 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a48964b5d9a3d6968ae3e0de",
       "name": "You Belong with Me (Taylor’s Version)",
       "track_id": "1qrpoAMXodY6895hGKoUpA"
-    },
-    {
-      "artists": [
-        "John Legend"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851bdcc3b587b5249932bc415c2",
-      "name": "All of Me",
-      "track_id": "3U4isOIWM3VvDubwSI3y7a"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "name": "bad emotions",
-      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
     }
   ]
 }
