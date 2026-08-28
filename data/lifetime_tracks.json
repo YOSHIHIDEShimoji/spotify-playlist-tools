@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T16:46:38.115528+00:00",
+  "generated_at": "2026-08-28T00:42:59.123009+00:00",
   "totals": {
-    "artists": 1326,
-    "days": 2083,
+    "artists": 1328,
+    "days": 2085,
     "ms": 12440720283,
-    "plays": 62956,
+    "plays": 62968,
     "since": "2019-09-05",
     "tracks": 4645
   },
@@ -10204,6 +10204,23 @@
     },
     {
       "artists": [
+        "Train"
+      ],
+      "count": 45,
+      "first": "2025-02-25",
+      "id": "5P3fYoxh3LnVwANZEDu5vN",
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "last": "2026-08-27",
+      "ms": 9799706,
+      "name": "Bulletproof Picasso",
+      "short": 4,
+      "years": {
+        "2025": 21,
+        "2026": 24
+      }
+    },
+    {
+      "artists": [
         "K-391"
       ],
       "count": 45,
@@ -10635,23 +10652,6 @@
         "2024": 32,
         "2025": 10,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Train"
-      ],
-      "count": 43,
-      "first": "2025-02-25",
-      "id": "5P3fYoxh3LnVwANZEDu5vN",
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "last": "2026-08-20",
-      "ms": 9799706,
-      "name": "Bulletproof Picasso",
-      "short": 4,
-      "years": {
-        "2025": 21,
-        "2026": 22
       }
     },
     {
@@ -11573,6 +11573,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 40,
+      "first": "2025-12-20",
+      "id": "4nNZ4ra9sJnsdixXELkfW5",
+      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+      "last": "2026-08-27",
+      "ms": 7761560,
+      "name": "Does It Feel",
+      "short": 2,
+      "years": {
+        "2025": 4,
+        "2026": 36
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 40,
@@ -11737,23 +11754,6 @@
       "years": {
         "2025": 22,
         "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 39,
-      "first": "2025-12-20",
-      "id": "4nNZ4ra9sJnsdixXELkfW5",
-      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
-      "last": "2026-07-31",
-      "ms": 7761560,
-      "name": "Does It Feel",
-      "short": 2,
-      "years": {
-        "2025": 4,
-        "2026": 35
       }
     },
     {
@@ -13783,23 +13783,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 30,
-      "first": "2025-12-20",
-      "id": "42nDnUAPjhZFlj5wt2BjJm",
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "last": "2026-08-26",
-      "ms": 4773876,
-      "name": "Light Switch - Acoustic",
-      "short": 5,
-      "years": {
-        "2025": 3,
-        "2026": 27
-      }
-    },
-    {
-      "artists": [
         "OneRepublic"
       ],
       "count": 30,
@@ -13965,6 +13948,23 @@
       "last": "2026-08-25",
       "ms": 4011150,
       "name": "Is It Just Me? (feat. Charlie Puth)",
+      "short": 5,
+      "years": {
+        "2025": 3,
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 29,
+      "first": "2025-12-20",
+      "id": "42nDnUAPjhZFlj5wt2BjJm",
+      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
+      "last": "2026-08-26",
+      "ms": 4773876,
+      "name": "Light Switch - Acoustic",
       "short": 5,
       "years": {
         "2025": 3,
@@ -18983,6 +18983,23 @@
     },
     {
       "artists": [
+        "Major Lazer"
+      ],
+      "count": 14,
+      "first": "2025-08-08",
+      "id": "13pVIIellD76zNT1APT1De",
+      "image": "https://i.scdn.co/image/ab67616d00004851bc308b81b82fc8baf8f26617",
+      "last": "2026-08-28",
+      "ms": 2224223,
+      "name": "Cold Water",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "Ed Sheeran"
       ],
       "count": 14,
@@ -19503,23 +19520,6 @@
         "2023": 6,
         "2024": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Major Lazer"
-      ],
-      "count": 13,
-      "first": "2025-08-08",
-      "id": "13pVIIellD76zNT1APT1De",
-      "image": "https://i.scdn.co/image/ab67616d00004851bc308b81b82fc8baf8f26617",
-      "last": "2026-08-05",
-      "ms": 2224223,
-      "name": "Cold Water",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 12
       }
     },
     {
@@ -22120,6 +22120,21 @@
     },
     {
       "artists": [
+        "LANY"
+      ],
+      "count": 9,
+      "first": "2026-06-18",
+      "id": "3g6nGCEj7NK0KabxlfL9co",
+      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
+      "last": "2026-08-27",
+      "ms": 756044,
+      "name": "current location",
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Henry Moodie"
       ],
       "count": 9,
@@ -22678,6 +22693,22 @@
     },
     {
       "artists": [
+        "LANY"
+      ],
+      "count": 8,
+      "first": "2026-06-17",
+      "id": "2btKtacOXuMtC9WjcNRvAA",
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "last": "2026-08-27",
+      "ms": 1266900,
+      "name": "ILYSB",
+      "short": 2,
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 8,
@@ -23090,21 +23121,6 @@
         "2022": 2,
         "2023": 2,
         "2025": 1
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 8,
-      "first": "2026-06-18",
-      "id": "3g6nGCEj7NK0KabxlfL9co",
-      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
-      "last": "2026-08-26",
-      "ms": 756044,
-      "name": "current location",
-      "years": {
-        "2026": 8
       }
     },
     {
@@ -23705,21 +23721,6 @@
       "ms": 145031,
       "name": "RUNAWAY",
       "short": 1,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 7,
-      "first": "2026-04-05",
-      "id": "3YM33EBnwRe7G7aUPVQ7lY",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "last": "2026-08-26",
-      "ms": 135086,
-      "name": "Red Light Green Light",
       "years": {
         "2026": 7
       }
@@ -24333,6 +24334,21 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 6,
+      "first": "2026-05-28",
+      "id": "51ChrwmUPDJvedPQnIU8Ls",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "last": "2026-08-27",
+      "ms": 1192200,
+      "name": "Dive",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 6,
@@ -24594,22 +24610,6 @@
     },
     {
       "artists": [
-        "LANY"
-      ],
-      "count": 6,
-      "first": "2026-06-17",
-      "id": "2btKtacOXuMtC9WjcNRvAA",
-      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
-      "last": "2026-07-15",
-      "ms": 1266900,
-      "name": "ILYSB",
-      "short": 2,
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 6,
@@ -24759,6 +24759,21 @@
     },
     {
       "artists": [
+        "DJ Khaled"
+      ],
+      "count": 6,
+      "first": "2026-07-04",
+      "id": "5WvAo7DNuPRmk4APhdPzi8",
+      "image": "https://i.scdn.co/image/ab67616d00004851675b26746823f1049dc39342",
+      "last": "2026-08-26",
+      "ms": 780250,
+      "name": "No Brainer",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 6,
@@ -24833,6 +24848,21 @@
       "ms": 993880,
       "name": "Prettiest Thing I’ve Ever Seen",
       "short": 1,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 6,
+      "first": "2026-04-05",
+      "id": "3YM33EBnwRe7G7aUPVQ7lY",
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "last": "2026-08-26",
+      "ms": 135086,
+      "name": "Red Light Green Light",
       "years": {
         "2026": 6
       }
@@ -25651,21 +25681,6 @@
     },
     {
       "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 5,
-      "first": "2026-05-28",
-      "id": "51ChrwmUPDJvedPQnIU8Ls",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
-      "last": "2026-07-06",
-      "ms": 1192200,
-      "name": "Dive",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 5,
@@ -26391,21 +26406,6 @@
     },
     {
       "artists": [
-        "DJ Khaled"
-      ],
-      "count": 5,
-      "first": "2026-07-04",
-      "id": "5WvAo7DNuPRmk4APhdPzi8",
-      "image": "https://i.scdn.co/image/ab67616d00004851675b26746823f1049dc39342",
-      "last": "2026-08-24",
-      "ms": 780250,
-      "name": "No Brainer",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "ワンリパブリック"
       ],
       "count": 5,
@@ -26605,6 +26605,21 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 5,
+      "first": "2026-05-27",
+      "id": "6rKr29yPKnQNhOxXMYvE9Y",
+      "image": "https://i.scdn.co/image/ab67616d000048511376b4b16f4bfcba02dc571b",
+      "last": "2026-08-27",
+      "ms": 516117,
+      "name": "Ruin",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 5,
@@ -26752,6 +26767,21 @@
         "2022": 2,
         "2024": 1,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 5,
+      "first": "2026-06-18",
+      "id": "1I8WriGDeR8LrsYDNB554B",
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+      "last": "2026-08-27",
+      "ms": 525790,
+      "name": "Sugar & Cinnamon",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -26972,6 +27002,21 @@
       "ms": 1127210,
       "name": "Through the Fire - From \"Top Gun\" Original Soundtrack",
       "short": 1,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 5,
+      "first": "2026-06-17",
+      "id": "7GbAp0HKPQW7WnFJAzMoRk",
+      "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
+      "last": "2026-08-27",
+      "ms": 818064,
+      "name": "Thru These Tears",
       "years": {
         "2026": 5
       }
@@ -28930,21 +28975,6 @@
     },
     {
       "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 4,
-      "first": "2026-05-27",
-      "id": "6rKr29yPKnQNhOxXMYvE9Y",
-      "image": "https://i.scdn.co/image/ab67616d000048511376b4b16f4bfcba02dc571b",
-      "last": "2026-07-30",
-      "ms": 516117,
-      "name": "Ruin",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "BTS"
       ],
       "count": 4,
@@ -29232,21 +29262,6 @@
     },
     {
       "artists": [
-        "LANY"
-      ],
-      "count": 4,
-      "first": "2026-06-18",
-      "id": "1I8WriGDeR8LrsYDNB554B",
-      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
-      "last": "2026-08-24",
-      "ms": 525790,
-      "name": "Sugar & Cinnamon",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 4,
@@ -29510,21 +29525,6 @@
       "ms": 847664,
       "name": "Through The Fire",
       "short": 1,
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 4,
-      "first": "2026-06-17",
-      "id": "7GbAp0HKPQW7WnFJAzMoRk",
-      "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
-      "last": "2026-06-29",
-      "ms": 818064,
-      "name": "Thru These Tears",
       "years": {
         "2026": 4
       }
@@ -34527,6 +34527,21 @@
       "years": {
         "2022": 2,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "count": 3,
+      "first": "2026-08-09",
+      "id": "4Sk74gcXTe9dnE1HU5Pn1y",
+      "image": "https://i.scdn.co/image/ab67616d000048516d63fd3e1afa17b0d5563131",
+      "last": "2026-08-27",
+      "ms": 0,
+      "name": "the bottom",
+      "years": {
+        "2026": 3
       }
     },
     {
@@ -42117,6 +42132,21 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 2,
+      "first": "2026-08-09",
+      "id": "3iqbrX8xXlBI7nV3xPVsF8",
+      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
+      "last": "2026-08-27",
+      "ms": 0,
+      "name": "UNSPOKEN",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "Alicia Keys"
       ],
       "count": 2,
@@ -43373,21 +43403,6 @@
       "name": "sunset chat",
       "years": {
         "2021": 2
-      }
-    },
-    {
-      "artists": [
-        "Gracie Abrams"
-      ],
-      "count": 2,
-      "first": "2026-08-09",
-      "id": "4Sk74gcXTe9dnE1HU5Pn1y",
-      "image": "https://i.scdn.co/image/ab67616d000048516d63fd3e1afa17b0d5563131",
-      "last": "2026-08-10",
-      "ms": 0,
-      "name": "the bottom",
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -67526,21 +67541,6 @@
       "last": "2026-07-29",
       "ms": 0,
       "name": "UEFA Champions League Legacy Anthem - Full Version",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Matt Hansen"
-      ],
-      "count": 1,
-      "first": "2026-08-09",
-      "id": "3iqbrX8xXlBI7nV3xPVsF8",
-      "image": "https://i.scdn.co/image/ab67616d00004851539ee3ffce04fc5787fa60e9",
-      "last": "2026-08-09",
-      "ms": 0,
-      "name": "UNSPOKEN",
       "years": {
         "2026": 1
       }

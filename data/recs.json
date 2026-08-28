@@ -31,7 +31,7 @@
     {
       "because": [
         {
-          "count": 1928,
+          "count": 1927,
           "name": "OneRepublic"
         },
         {
@@ -40,7 +40,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.1128
+      "score": 15.1143
     },
     {
       "because": [
@@ -87,16 +87,16 @@
     {
       "because": [
         {
-          "count": 883,
+          "count": 882,
           "name": "Charlie Puth"
         },
         {
-          "count": 326,
+          "count": 327,
           "name": "Justin Bieber"
         }
       ],
       "name": "Jason Derülo",
-      "score": 10.8758
+      "score": 10.877
     },
     {
       "because": [
@@ -129,7 +129,7 @@
     {
       "because": [
         {
-          "count": 326,
+          "count": 327,
           "name": "Justin Bieber"
         },
         {
@@ -138,12 +138,12 @@
         }
       ],
       "name": "Givēon",
-      "score": 9.8368
+      "score": 9.8385
     },
     {
       "because": [
         {
-          "count": 326,
+          "count": 327,
           "name": "Justin Bieber"
         },
         {
@@ -152,7 +152,7 @@
         }
       ],
       "name": "Usher",
-      "score": 9.5208
+      "score": 9.5224
     },
     {
       "because": [
@@ -171,7 +171,7 @@
     {
       "because": [
         {
-          "count": 1928,
+          "count": 1927,
           "name": "OneRepublic"
         },
         {
@@ -180,7 +180,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.2949
+      "score": 9.297
     },
     {
       "because": [
@@ -227,7 +227,7 @@
     {
       "because": [
         {
-          "count": 883,
+          "count": 882,
           "name": "Charlie Puth"
         },
         {
@@ -236,12 +236,12 @@
         }
       ],
       "name": "Shawn Mendes & Camila Cabello",
-      "score": 8.4807
+      "score": 8.4801
     },
     {
       "because": [
         {
-          "count": 326,
+          "count": 327,
           "name": "Justin Bieber"
         },
         {
@@ -250,7 +250,7 @@
         }
       ],
       "name": "Ne-Yo",
-      "score": 8.4237
+      "score": 8.4258
     },
     {
       "because": [
@@ -311,30 +311,30 @@
     {
       "because": [
         {
-          "count": 1928,
+          "count": 1927,
           "name": "OneRepublic"
         },
         {
-          "count": 355,
+          "count": 356,
           "name": "Train"
         }
       ],
       "name": "Lifehouse",
-      "score": 7.3455
+      "score": 7.3471
     },
     {
       "because": [
         {
-          "count": 883,
+          "count": 882,
           "name": "Charlie Puth"
         },
         {
-          "count": 326,
+          "count": 327,
           "name": "Justin Bieber"
         }
       ],
       "name": "Bazzi",
-      "score": 7.2461
+      "score": 7.247
     },
     {
       "because": [
@@ -353,7 +353,7 @@
     {
       "because": [
         {
-          "count": 1928,
+          "count": 1927,
           "name": "OneRepublic"
         },
         {
@@ -362,7 +362,7 @@
         }
       ],
       "name": "BANNERS",
-      "score": 7.0621
+      "score": 7.0618
     },
     {
       "because": [
@@ -381,16 +381,16 @@
     {
       "because": [
         {
-          "count": 1928,
+          "count": 1927,
           "name": "OneRepublic"
         },
         {
-          "count": 355,
+          "count": 356,
           "name": "Train"
         }
       ],
       "name": "The Fray",
-      "score": 6.9488
+      "score": 6.95
     },
     {
       "because": [
@@ -418,7 +418,7 @@
     }
   ],
   "available": true,
-  "generated_at": "2026-08-26T16:47:05.747551+00:00",
+  "generated_at": "2026-08-28T00:43:28.612196+00:00",
   "source": "lastfm",
   "tracks": [
     {
@@ -431,39 +431,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a985e1e7c6b095da213eaa7c",
       "name": "Let It Go",
       "score": 7.4742
-    },
-    {
-      "artist": "Yorushika",
-      "because": {
-        "count": 332,
-        "name": "Same Blue"
-      },
-      "id": "5eY7692tmgHB9dbmq6wa2M",
-      "image": "https://i.scdn.co/image/ab67616d000048515e763f5fcb87919a7ae96f8b",
-      "name": "Sunny",
-      "score": 7.2456
-    },
-    {
-      "artist": "ヨルシカ",
-      "because": {
-        "count": 332,
-        "name": "Same Blue"
-      },
-      "id": "6z1TvLTR0oOsWSJfDrERmj",
-      "image": "https://i.scdn.co/image/ab67616d0000485118b1145d9883e5b140151fa9",
-      "name": "言って。",
-      "score": 7.0847
-    },
-    {
-      "artist": "Yorushika",
-      "because": {
-        "count": 332,
-        "name": "Same Blue"
-      },
-      "id": "5j7ixaLeGTGSv4DzKs0pCM",
-      "image": "https://i.scdn.co/image/ab67616d00004851b1b3b83ffee5925197e7ef2c",
-      "name": "だから僕は音楽を辞めた",
-      "score": 6.6612
     },
     {
       "artist": "Mandy Moore",
@@ -598,17 +565,6 @@
       "score": 4.5114
     },
     {
-      "artist": "Aimyon",
-      "because": {
-        "count": 142,
-        "name": "Pretender"
-      },
-      "id": "2cKiHG16JBiqHdi7Llq0r7",
-      "image": "https://i.scdn.co/image/ab67616d00004851c12d785df5dbf2b15ec49504",
-      "name": "Marigold",
-      "score": 4.4616
-    },
-    {
       "artist": "Cynthia Erivo",
       "because": {
         "count": 272,
@@ -741,15 +697,15 @@
       "score": 3.4974
     },
     {
-      "artist": "YOASOBI",
+      "artist": "Yorushika",
       "because": {
-        "count": 142,
-        "name": "Pretender"
+        "count": 332,
+        "name": "Same Blue"
       },
-      "id": "2pXmohBUnD5Li93sgpbPSg",
-      "image": "https://i.scdn.co/image/ab67616d000048514b1138de797f23e496b3f1c8",
-      "name": "もう少しだけ",
-      "score": 3.4716
+      "id": "5eY7692tmgHB9dbmq6wa2M",
+      "image": "https://i.scdn.co/image/ab67616d000048515e763f5fcb87919a7ae96f8b",
+      "name": "Sunny",
+      "score": 3.4366
     },
     {
       "artist": "Ke$ha",
@@ -785,26 +741,15 @@
       "score": 3.3407
     },
     {
-      "artist": "YOASOBI",
+      "artist": "Yorushika",
       "because": {
-        "count": 142,
-        "name": "Pretender"
+        "count": 332,
+        "name": "Same Blue"
       },
-      "id": "185Wm4Mx09dQG0fUktklDm",
-      "image": "https://i.scdn.co/image/ab67616d00004851279eb9c3d3b195dc118510f5",
-      "name": "ラブレター",
-      "score": 3.3312
-    },
-    {
-      "artist": "ZUTOMAYO",
-      "because": {
-        "count": 142,
-        "name": "Pretender"
-      },
-      "id": "22EZUYCJYay1h8YSyO5BPd",
-      "image": "https://i.scdn.co/image/ab67616d0000485145e670c7e25b4d0c1891d283",
-      "name": "MILABO",
-      "score": 3.3235
+      "id": "5j7ixaLeGTGSv4DzKs0pCM",
+      "image": "https://i.scdn.co/image/ab67616d00004851b1b3b83ffee5925197e7ef2c",
+      "name": "だから僕は音楽を辞めた",
+      "score": 3.3148
     },
     {
       "artist": "Panic! at the Disco",
@@ -860,6 +805,61 @@
       "image": "https://i.scdn.co/image/ab67616d0000485191b8fddaebba59f8e33b18b1",
       "name": "Don't Let Me Down (feat. Daya)",
       "score": 3.1536
+    },
+    {
+      "artist": "Miley Cyrus",
+      "because": {
+        "count": 272,
+        "name": "Speechless (Full)"
+      },
+      "id": "5x5JM1BSB6vollcIzDocqT",
+      "image": "https://i.scdn.co/image/ab67616d000048514ea6653890e297d53e93e3e0",
+      "name": "The Climb",
+      "score": 3.047
+    },
+    {
+      "artist": "Zedd & Alessia Cara",
+      "because": {
+        "count": 148,
+        "name": "Symphony (feat. Zara Larsson)"
+      },
+      "id": "6uBhi9gBXWjanegOb2Phh0",
+      "image": "https://i.scdn.co/image/ab67616d00004851b993cba8ff7d0a8e9ee18d46",
+      "name": "Stay",
+      "score": 3.0254
+    },
+    {
+      "artist": "George Harrison",
+      "because": {
+        "count": 162,
+        "name": "Yesterday - Remastered 2009"
+      },
+      "id": "5zNOF6k3AtDye9usFU7DgJ",
+      "image": "https://i.scdn.co/image/ab67616d00004851175353a69a0d6f8960905474",
+      "name": "Isn't It a Pity - 2014 Remaster",
+      "score": 3.0188
+    },
+    {
+      "artist": "ヨルシカ",
+      "because": {
+        "count": 332,
+        "name": "Same Blue"
+      },
+      "id": "6z1TvLTR0oOsWSJfDrERmj",
+      "image": "https://i.scdn.co/image/ab67616d0000485118b1145d9883e5b140151fa9",
+      "name": "言って。",
+      "score": 2.9797
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "because": {
+        "count": 168,
+        "name": "Abyss - from Kaiju No. 8"
+      },
+      "id": "0BxE4FqsDD1Ot4YuBXwAPp",
+      "image": "https://i.scdn.co/image/ab67616d00004851b1f8da74f225fa1225cdface",
+      "name": "505",
+      "score": 2.952
     }
   ]
 }

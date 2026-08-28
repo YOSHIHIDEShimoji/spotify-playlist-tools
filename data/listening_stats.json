@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-26T16:42:24.845472+00:00",
+  "generated_at": "2026-08-28T00:41:50.567544+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,19 @@
       5000,
       10000
     ],
-    "total": 62956
+    "total": 62968
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 10,
+  "streak": 12,
   "weekly_top": [
     {
       "artists": [
-        "OneRepublic"
+        "Lany"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Red Light Green Light",
-      "track_id": "3YM33EBnwRe7G7aUPVQ7lY"
+      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
+      "name": "current location",
+      "track_id": "3g6nGCEj7NK0KabxlfL9co"
     },
     {
       "artists": [
@@ -835,15 +835,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048518d18d73bbfc8985d52865edf",
       "name": "Carry You Home",
       "track_id": "1wOp7yTVyH176bW1z9WAiv"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
-      "name": "current location",
-      "track_id": "3g6nGCEj7NK0KabxlfL9co"
     },
     {
       "artists": [
@@ -883,6 +874,15 @@
     },
     {
       "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+      "name": "Sugar & Cinnamon",
+      "track_id": "1I8WriGDeR8LrsYDNB554B"
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 2,
@@ -907,6 +907,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
       "name": "Live While We're Young",
       "track_id": "2sF2NJT9rxRpLifXabqFNS"
+    },
+    {
+      "artists": [
+        "DJ Khaled"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851675b26746823f1049dc39342",
+      "name": "No Brainer",
+      "track_id": "5WvAo7DNuPRmk4APhdPzi8"
     },
     {
       "artists": [
@@ -937,6 +946,15 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Red Light Green Light",
+      "track_id": "3YM33EBnwRe7G7aUPVQ7lY"
+    },
+    {
+      "artists": [
         "Lany"
       ],
       "count": 2,
@@ -964,12 +982,21 @@
     },
     {
       "artists": [
-        "チャーリー・プース"
+        "Lany"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "name": "Light Switch - Acoustic",
-      "track_id": "42nDnUAPjhZFlj5wt2BjJm"
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "name": "ILYSB",
+      "track_id": "2btKtacOXuMtC9WjcNRvAA"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Bulletproof Picasso",
+      "track_id": "5P3fYoxh3LnVwANZEDu5vN"
     },
     {
       "artists": [
@@ -1240,33 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851515b72d7c72fc65b017a87ea",
       "name": "Won't Go Home Without You",
       "track_id": "6WEBwvsmpaoGxka0tSh5a7"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
-      "name": "Malibu Nights",
-      "track_id": "0Eqg0CQ7bK3RQIMPw1A7pl"
-    },
-    {
-      "artists": [
-        "Rick Astley"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485115ebbedaacef61af244262a8",
-      "name": "Never Gonna Give You Up",
-      "track_id": "4PTG3Z6ehGkBFwjybzWkR8"
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
-      "name": "Marvin Gaye (feat. Wale) - Remix",
-      "track_id": "4LfkoDOt4mhrbo8Ndk37sQ"
     }
   ]
 }
