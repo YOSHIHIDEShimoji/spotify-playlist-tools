@@ -60,7 +60,7 @@
       "artists": [
         "Sia"
       ],
-      "count": 180,
+      "count": 181,
       "name": "Chandelier",
       "track_id": "4VrWlk8IQxevMvERoX08iC"
     },
@@ -98,19 +98,19 @@
     },
     {
       "artists": [
+        "Idina Menzel"
+      ],
+      "count": 169,
+      "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
+      "track_id": "0qcr5FMsEO85NAQjrlDRKo"
+    },
+    {
+      "artists": [
         "YUNGBLUD"
       ],
       "count": 169,
       "name": "Abyss - from Kaiju No. 8",
       "track_id": "2kLWSmKHhfUBepkIA9oNe5"
-    },
-    {
-      "artists": [
-        "Idina Menzel"
-      ],
-      "count": 168,
-      "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
-      "track_id": "0qcr5FMsEO85NAQjrlDRKo"
     },
     {
       "artists": [
@@ -362,6 +362,14 @@
     },
     {
       "artists": [
+        "Stephen Sanchez"
+      ],
+      "count": 122,
+      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
+      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
+    },
+    {
+      "artists": [
         "髙見 優/長岡 成貢"
       ],
       "count": 122,
@@ -375,14 +383,6 @@
       "count": 121,
       "name": "Last Christmas",
       "track_id": "2FRnf9qhLbvw8fu4IBXx78"
-    },
-    {
-      "artists": [
-        "Stephen Sanchez"
-      ],
-      "count": 121,
-      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-29T00:16:47.405974+00:00",
+  "generated_at": "2026-08-29T19:01:47.762887+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 63113
+    "total": 63170
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 12,
+  "streak": 13,
   "weekly_top": [
     {
       "artists": [
@@ -829,12 +829,39 @@
     },
     {
       "artists": [
+        "Alex Warren"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048518d18d73bbfc8985d52865edf",
+      "name": "Carry You Home",
+      "track_id": "1wOp7yTVyH176bW1z9WAiv"
+    },
+    {
+      "artists": [
+        "Train"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Cadillac, Cadillac",
+      "track_id": "5U7MuMIZc8SttxACWi85Xv"
+    },
+    {
+      "artists": [
         "Shawn Mendes"
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851cce29b5f028071ddeb23f21b",
       "name": "When You're Gone",
       "track_id": "0U1W2LZVUX7qTm7dDpqxh6"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "bad emotions",
+      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
     },
     {
       "artists": [
@@ -847,12 +874,12 @@
     },
     {
       "artists": [
-        "Matt Hansen"
+        "Taylor Swift"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d000048515a85de759e0cd335b9bd74e3",
-      "name": "SOMEONE TO YOU",
-      "track_id": "27aLssrBr02bppwwWFCe7k"
+      "image": "https://i.scdn.co/image/ab67616d00004851254c8a09649551438b20f4c0",
+      "name": "22",
+      "track_id": "3WC5CVAahvn98hiseoIvbw"
     },
     {
       "artists": [
@@ -874,12 +901,21 @@
     },
     {
       "artists": [
-        "Alex Warren"
+        "ブルーノ・マーズ"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395",
+      "name": "On My Soul",
+      "track_id": "4i4BVY2JiH4mDSLIBdNGKD"
+    },
+    {
+      "artists": [
+        "Train"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048518d18d73bbfc8985d52865edf",
-      "name": "Carry You Home",
-      "track_id": "1wOp7yTVyH176bW1z9WAiv"
+      "image": "https://i.scdn.co/image/ab67616d000048510ce80c5a5584328fa502df6f",
+      "name": "The Weekend",
+      "track_id": "0cBi0FWQFeZ8maPjsSE5Mc"
     },
     {
       "artists": [
@@ -892,12 +928,12 @@
     },
     {
       "artists": [
-        "Train"
+        "Sabrina Carpenter"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "name": "Cadillac, Cadillac",
-      "track_id": "5U7MuMIZc8SttxACWi85Xv"
+      "image": "https://i.scdn.co/image/ab67616d00004851047d6b756e8f5e3f8b50f025",
+      "name": "Busy Woman",
+      "track_id": "0b0Dz0Gi86SVdBxYeiQcCP"
     },
     {
       "artists": [
@@ -1009,15 +1045,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-      "name": "bad emotions",
-      "track_id": "0EPINaCMN2i8A0MBCmoZVm"
-    },
-    {
-      "artists": [
         "Lany"
       ],
       "count": 2,
@@ -1081,15 +1108,6 @@
     },
     {
       "artists": [
-        "Taylor Swift"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851254c8a09649551438b20f4c0",
-      "name": "22",
-      "track_id": "3WC5CVAahvn98hiseoIvbw"
-    },
-    {
-      "artists": [
         "Maroon 5"
       ],
       "count": 2,
@@ -1135,6 +1153,15 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485195f754318336a07e85ec59bc",
+      "name": "august",
+      "track_id": "3hUxzQpSfdDqwM3ZTFQY0K"
+    },
+    {
+      "artists": [
         "Swedish House Mafia"
       ],
       "count": 2,
@@ -1171,6 +1198,15 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515a85de759e0cd335b9bd74e3",
+      "name": "SOMEONE TO YOU",
+      "track_id": "27aLssrBr02bppwwWFCe7k"
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 2,
@@ -1198,6 +1234,15 @@
     },
     {
       "artists": [
+        "ZAYN"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851cdc5d305c537648861945f0a",
+      "name": "Side Effects",
+      "track_id": "5hkceiJGJl4qcWUtyjXaJm"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 2,
@@ -1222,51 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
       "name": "Take Care Of You",
       "track_id": "2ExaKO7GhafvrUHOjWxjgC"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Rescue Me",
-      "track_id": "37LNNQNbL1YLyutBG6aWRx"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Run",
-      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
-    },
-    {
-      "artists": [
-        "Alesso"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
-      "name": "In Your Eyes",
-      "track_id": "0NIIKZEed0nXPz4lHnMaZg"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "What You Wanted",
-      "track_id": "0ILXYaWxMQVEXnKq2eTmjW"
-    },
-    {
-      "artists": [
-        "DJ Khaled"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851675b26746823f1049dc39342",
-      "name": "No Brainer",
-      "track_id": "5WvAo7DNuPRmk4APhdPzi8"
     }
   ]
 }

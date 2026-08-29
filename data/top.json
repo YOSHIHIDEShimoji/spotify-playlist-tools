@@ -174,13 +174,13 @@
         "rank": 4
       },
       {
-        "id": "1uNFoZAHBGtllmzznpCI3s",
-        "name": "Justin Bieber",
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
         "rank": 5
       },
       {
-        "id": "6eUKZXaKkcviH0Ku9w2n3V",
-        "name": "Ed Sheeran",
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
         "rank": 6
       },
       {
@@ -331,18 +331,18 @@
         "rank": 5
       },
       {
-        "id": "1uNFoZAHBGtllmzznpCI3s",
-        "name": "Justin Bieber",
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
         "rank": 6
       },
       {
-        "id": "6VuMaDnrHyPL1p4EHjYLi7",
-        "name": "Charlie Puth",
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
         "rank": 7
       },
       {
-        "id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "name": "The Beatles",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 8
       },
       {
@@ -351,8 +351,8 @@
         "rank": 9
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 10
       },
       {
@@ -361,48 +361,48 @@
         "rank": 11
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
-        "rank": 12
-      },
-      {
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
-        "rank": 13
+        "rank": 12
       },
       {
         "id": "3FUY2gzHeIiaesXtOAdB7A",
         "name": "Train",
-        "rank": 14
+        "rank": 13
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 15
+        "rank": 14
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
+        "rank": 15
+      },
+      {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
         "rank": 16
-      },
-      {
-        "id": "22wbnEMDvgVIAGdFeek6ET",
-        "name": "Benson Boone",
-        "rank": 17
-      },
-      {
-        "id": "5ZsFI1h6hIdQRw2ti0hz81",
-        "name": "ZAYN",
-        "rank": 18
-      },
-      {
-        "id": "74KM79TiuVKeVCqs8QtB0B",
-        "name": "Sabrina Carpenter",
-        "rank": 19
       },
       {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
+        "rank": 17
+      },
+      {
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "name": "Benson Boone",
+        "rank": 18
+      },
+      {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 19
+      },
+      {
+        "id": "74KM79TiuVKeVCqs8QtB0B",
+        "name": "Sabrina Carpenter",
         "rank": 20
       },
       {
@@ -416,18 +416,18 @@
         "rank": 22
       },
       {
-        "id": "2DaxqgrOhkeH0fpeiQq2f4",
-        "name": "Oasis",
-        "rank": 23
-      },
-      {
         "id": "4tuJ0bMpJh08umKkEXKUI5",
         "name": "Gracie Abrams",
-        "rank": 24
+        "rank": 23
       },
       {
         "id": "23fqKkggKUBHNkbKtXEls4",
         "name": "Kygo",
+        "rank": 24
+      },
+      {
+        "id": "4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy",
         "rank": 25
       },
       {
@@ -446,8 +446,8 @@
         "rank": 28
       },
       {
-        "id": "4UXqAaa6dQYAk18Lv7PEgX",
-        "name": "Fall Out Boy",
+        "id": "2DaxqgrOhkeH0fpeiQq2f4",
+        "name": "Oasis",
         "rank": 29
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-08-29T00:19:02.739051+00:00",
+  "generated_at": "2026-08-29T19:03:57.945825+00:00",
   "tracks": {
     "long_term": [
       {
@@ -863,10 +863,19 @@
         "artists": [
           "OneRepublic"
         ],
+        "id": "1kmex5eDBvfniYJpmmIizl",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "Secrets",
+        "rank": 15
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 15
+        "rank": 16
       },
       {
         "artists": [
@@ -875,15 +884,6 @@
         "id": "6keF0sk7i4WU3cVnMkTtS3",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "Sunshine",
-        "rank": 16
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "1kmex5eDBvfniYJpmmIizl",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "Secrets",
         "rank": 17
       },
       {
@@ -907,21 +907,21 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "6KL88T4Ma4ABXqzgUoEwkd",
-        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-        "name": "Run",
-        "rank": 20
-      },
-      {
-        "artists": [
           "OneRepublic",
           "Seeb"
         ],
         "id": "7dOeiXeTSfA1ixaYmQcWu7",
         "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
         "name": "Rich Love (with Seeb)",
+        "rank": 20
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6KL88T4Ma4ABXqzgUoEwkd",
+        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+        "name": "Run",
         "rank": 21
       },
       {
@@ -1004,13 +1004,22 @@
         "artists": [
           "OneRepublic"
         ],
-        "id": "17Vqwvat9EmRmfDvmYqoi0",
-        "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
-        "name": "Give Me Something (for Arknights Endfield)",
+        "id": "2CJD3LSIVidK6nu4suUusa",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "All The Right Moves",
         "rank": 30
       }
     ],
     "short_term": [
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "0EPINaCMN2i8A0MBCmoZVm",
+        "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+        "name": "bad emotions",
+        "rank": 1
+      },
       {
         "artists": [
           "OneRepublic"
@@ -1018,7 +1027,7 @@
         "id": "3IQF4xCQUPicbA4hWfTxPo",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "I Lived",
-        "rank": 1
+        "rank": 2
       },
       {
         "artists": [
@@ -1027,15 +1036,6 @@
         "id": "56sxN1yKg1dgOZXBcAHkJG",
         "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
         "name": "Gone, Gone, Gone",
-        "rank": 2
-      },
-      {
-        "artists": [
-          "Henry Moodie"
-        ],
-        "id": "0EPINaCMN2i8A0MBCmoZVm",
-        "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
-        "name": "bad emotions",
         "rank": 3
       },
       {
@@ -1049,13 +1049,22 @@
       },
       {
         "artists": [
+          "LANY"
+        ],
+        "id": "280MV4FuB5uusjx8wj1dpt",
+        "image": "https://i.scdn.co/image/ab67616d00004851e013d46a0f578807480c7da9",
+        "name": "the older you get, the less you cry",
+        "rank": 5
+      },
+      {
+        "artists": [
           "Maroon 5",
           "Cardi B"
         ],
         "id": "7fa9MBXhVfQ8P8Df9OEbD8",
         "image": "https://i.scdn.co/image/ab67616d00004851deae7d931928fc1543e70203",
         "name": "Girls Like You (feat. Cardi B) - Cardi B Version",
-        "rank": 5
+        "rank": 6
       },
       {
         "artists": [
@@ -1064,7 +1073,7 @@
         "id": "6uaigl9EXMjMP0I3iTb9yO",
         "image": "https://i.scdn.co/image/ab67616d00004851a170450a8397dcbb0f4f6421",
         "name": "Truth To Power",
-        "rank": 6
+        "rank": 7
       },
       {
         "artists": [
@@ -1074,15 +1083,6 @@
         "id": "0NIIKZEed0nXPz4lHnMaZg",
         "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
         "name": "In Your Eyes",
-        "rank": 7
-      },
-      {
-        "artists": [
-          "LANY"
-        ],
-        "id": "280MV4FuB5uusjx8wj1dpt",
-        "image": "https://i.scdn.co/image/ab67616d00004851e013d46a0f578807480c7da9",
-        "name": "the older you get, the less you cry",
         "rank": 8
       },
       {
@@ -1141,12 +1141,30 @@
       },
       {
         "artists": [
+          "Train"
+        ],
+        "id": "0cBi0FWQFeZ8maPjsSE5Mc",
+        "image": "https://i.scdn.co/image/ab67616d000048510ce80c5a5584328fa502df6f",
+        "name": "The Weekend",
+        "rank": 15
+      },
+      {
+        "artists": [
           "Maroon 5"
         ],
         "id": "0ehxWIhybOYQ3acRhmcNVF",
         "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
         "name": "Beautiful Goodbye",
-        "rank": 15
+        "rank": 16
+      },
+      {
+        "artists": [
+          "Henry Moodie"
+        ],
+        "id": "0eqqORX2j2REFwmdoJaRkH",
+        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+        "name": "me, myself and i",
+        "rank": 17
       },
       {
         "artists": [
@@ -1155,7 +1173,7 @@
         "id": "15ahYSiHAIMxAnujlXVtta",
         "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
         "name": "Super Far",
-        "rank": 16
+        "rank": 18
       },
       {
         "artists": [
@@ -1164,7 +1182,7 @@
         "id": "1WY42ffdMgNO6q15cePW2g",
         "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
         "name": "Something's Gotta Give",
-        "rank": 17
+        "rank": 19
       },
       {
         "artists": [
@@ -1173,7 +1191,7 @@
         "id": "1XcPFhBIMCUgXlBC5CuBOM",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "good old days",
-        "rank": 18
+        "rank": 20
       },
       {
         "artists": [
@@ -1182,7 +1200,16 @@
         "id": "1qrpoAMXodY6895hGKoUpA",
         "image": "https://i.scdn.co/image/ab67616d00004851a48964b5d9a3d6968ae3e0de",
         "name": "You Belong With Me (Taylor’s Version)",
-        "rank": 19
+        "rank": 21
+      },
+      {
+        "artists": [
+          "Alex Warren"
+        ],
+        "id": "1wOp7yTVyH176bW1z9WAiv",
+        "image": "https://i.scdn.co/image/ab67616d000048518d18d73bbfc8985d52865edf",
+        "name": "Carry You Home",
+        "rank": 22
       },
       {
         "artists": [
@@ -1191,7 +1218,7 @@
         "id": "2JATE4qxTuVgKEKe12sqLp",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Future Looks Good",
-        "rank": 20
+        "rank": 23
       },
       {
         "artists": [
@@ -1200,7 +1227,7 @@
         "id": "2UyZTPrWFSMysY9cVVjmaB",
         "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
         "name": "Colors",
-        "rank": 21
+        "rank": 24
       },
       {
         "artists": [
@@ -1209,7 +1236,7 @@
         "id": "2iuZJX9X9P0GKaE93xcPjk",
         "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
         "name": "Sugar",
-        "rank": 22
+        "rank": 25
       },
       {
         "artists": [
@@ -1218,7 +1245,17 @@
         "id": "3FK9wVJHNdJhqVPbIcoZsn",
         "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
         "name": "Need Your Love",
-        "rank": 23
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Bruno Mars",
+          "Cardi B"
+        ],
+        "id": "3Vo4wInECJQuz9BIBMOu8i",
+        "image": "https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06",
+        "name": "Finesse - Remix; feat. Cardi B",
+        "rank": 27
       },
       {
         "artists": [
@@ -1227,7 +1264,7 @@
         "id": "3xkHsmpQCBMytMJNiDf3Ii",
         "image": "https://i.scdn.co/image/ab67616d00004851831949037a1db10b87b005fa",
         "name": "Beautiful Things",
-        "rank": 24
+        "rank": 28
       },
       {
         "artists": [
@@ -1236,7 +1273,7 @@
         "id": "48FuVo0KwE3N7Fqmc8cT4r",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "All This Time",
-        "rank": 25
+        "rank": 29
       },
       {
         "artists": [
@@ -1245,42 +1282,6 @@
         "id": "4HiC3ulkTgbEcYYsSuR6PO",
         "image": "https://i.scdn.co/image/ab67616d00004851b3db03cc26a3fc4e9c70a070",
         "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
-        "rank": 26
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "4QeoDcR16IHpmmgFGQDrCp",
-        "image": "https://i.scdn.co/image/ab67616d0000485193dd62dec8ea4eda4d18e446",
-        "name": "No Vacancy",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "Gracie Abrams"
-        ],
-        "id": "4Sk74gcXTe9dnE1HU5Pn1y",
-        "image": "https://i.scdn.co/image/ab67616d000048516d63fd3e1afa17b0d5563131",
-        "name": "The Bottom",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "4fYte8ZvTK14NEhAOZocBi",
-        "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
-        "name": "I Ain't Worried",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "4gWpUjTbcwASiRVkJM319B",
-        "image": "https://i.scdn.co/image/ab67616d000048516cf020c9308b467a8e3aa523",
-        "name": "Christmas Without You",
         "rank": 30
       }
     ]
