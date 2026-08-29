@@ -29,20 +29,20 @@
       "month": "2026-07"
     },
     {
-      "count": 737,
+      "count": 882,
       "month": "2026-08"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 925,
+  "new_tracks": 927,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 11286,
+  "plays": 11431,
   "top_artists": [
     {
-      "count": 1535,
+      "count": 1547,
       "name": "OneRepublic"
     },
     {
@@ -50,23 +50,23 @@
       "name": "The Beatles"
     },
     {
-      "count": 741,
+      "count": 744,
       "name": "Charlie Puth"
     },
     {
-      "count": 455,
+      "count": 465,
       "name": "Taylor Swift"
     },
     {
-      "count": 306,
+      "count": 311,
       "name": "Henry Moodie"
     },
     {
-      "count": 291,
+      "count": 299,
       "name": "Justin Bieber"
     },
     {
-      "count": 282,
+      "count": 287,
       "name": "Maroon 5"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 264,
+      "count": 273,
       "name": "Ed Sheeran"
     },
     {
@@ -82,23 +82,23 @@
       "name": "Novelbright"
     },
     {
-      "count": 221,
+      "count": 224,
       "name": "Train"
+    },
+    {
+      "count": 159,
+      "name": "Shawn Mendes"
     },
     {
       "count": 158,
       "name": "King Gnu"
     },
     {
-      "count": 156,
-      "name": "Shawn Mendes"
-    },
-    {
       "count": 154,
       "name": "ワンリパブリック"
     },
     {
-      "count": 146,
+      "count": 152,
       "name": "Bruno Mars"
     },
     {
@@ -106,7 +106,7 @@
       "name": "Kygo"
     },
     {
-      "count": 130,
+      "count": 129,
       "name": "LANY"
     },
     {
@@ -216,16 +216,16 @@
         "OneRepublic"
       ],
       "count": 57,
-      "name": "Counting Stars",
-      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
+      "name": "Rescue Me",
+      "track_id": "37LNNQNbL1YLyutBG6aWRx"
     },
     {
       "artists": [
         "OneRepublic"
       ],
-      "count": 56,
-      "name": "Rescue Me",
-      "track_id": "37LNNQNbL1YLyutBG6aWRx"
+      "count": 57,
+      "name": "Counting Stars",
+      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },
     {
       "artists": [
@@ -264,6 +264,14 @@
         "OneRepublic"
       ],
       "count": 52,
+      "name": "Marchin On",
+      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 52,
       "name": "Sunshine",
       "track_id": "6keF0sk7i4WU3cVnMkTtS3"
     },
@@ -272,14 +280,6 @@
         "OneRepublic"
       ],
       "count": 51,
-      "name": "Marchin On",
-      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 50,
       "name": "Run",
       "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
     }

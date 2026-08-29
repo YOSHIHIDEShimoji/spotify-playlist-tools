@@ -7,6 +7,17 @@
       "image": "https://i.scdn.co/image/ab676161000051749414ef07d0ca697726912df1",
       "name": "*NSYNC"
     },
+    "10-feet": {
+      "followers": 446625,
+      "genres": [
+        "melodic hardcore",
+        "j-rock",
+        "j-pop"
+      ],
+      "id": "0QZqdhoRQkn1VphAa5eX8h",
+      "image": "https://i.scdn.co/image/ab6761610000517405ed35259d8d1e118764c1ea",
+      "name": "10-FEET"
+    },
     "10cc": {
       "followers": 960021,
       "genres": [
@@ -735,6 +746,15 @@
       "id": "2zW3yK70VmT02XYabNI56m",
       "image": "https://i.scdn.co/image/ab67616d00001e02783f869b8bfbecc8881c9e3c",
       "name": "BATNAM"
+    },
+    "beach house": {
+      "followers": 3201190,
+      "genres": [
+        "dream pop"
+      ],
+      "id": "56ZTgzPBDge0OvCGgMO3OY",
+      "image": "https://i.scdn.co/image/ab67616100005174b3e38a46a56a423d8f741c09",
+      "name": "Beach House"
     },
     "beat oven": {
       "followers": 2541,
@@ -2126,7 +2146,7 @@
       "name": "Ed Sheeran"
     },
     "ed sheeran & justin bieber": {
-      "followers": 17950,
+      "followers": 17977,
       "genres": [],
       "id": "1WsYCXdezMjn0KoIrLvMmC",
       "image": null,
@@ -3245,7 +3265,7 @@
       "name": "I WiSH"
     },
     "i'll take you there choir": {
-      "followers": 11210,
+      "followers": 11219,
       "genres": [],
       "id": "2ABREU7iSvhEV9Ktoj30ne",
       "image": null,
@@ -3382,7 +3402,7 @@
       "name": "J SOUL BROTHERS III"
     },
     "j williams": {
-      "followers": 644,
+      "followers": 646,
       "genres": [],
       "id": "7bovrWNHUGYK6evMxlOR9n",
       "image": null,
@@ -4329,7 +4349,7 @@
       "name": "Komie"
     },
     "kontekst": {
-      "followers": 128,
+      "followers": 129,
       "genres": [],
       "id": "6QZ5RbUBtxclGWybgTLoEP",
       "image": null,
@@ -8064,6 +8084,13 @@
       "image": "https://i.scdn.co/image/ab6761610000517483eebc9e178e9e540a8b94af",
       "name": "The Versions"
     },
+    "the voice of spurs": {
+      "followers": 5990,
+      "genres": [],
+      "id": "3xZBerYIwClNf21xz13USR",
+      "image": "https://i.scdn.co/image/ab67616100005174350b19849ef6135cb387274c",
+      "name": "The Voice Of Spurs"
+    },
     "the walters": {
       "followers": 1199059,
       "genres": [],
@@ -8111,6 +8138,22 @@
       "image": "https://i.scdn.co/image/9e7388a62c804d49f60d84d7fdbf3dde325d01b3",
       "name": "Thin Lizzy"
     },
+    "thomas bergersen": {
+      "followers": 347145,
+      "genres": [
+        "orchestral"
+      ],
+      "id": "6BF0bXbsdujMSMeFZBGcBq",
+      "image": "https://i.scdn.co/image/ab676161000051742a3c9a13038cce4e5155c28b",
+      "name": "Thomas Bergersen"
+    },
+    "three dog night": {
+      "followers": 1142392,
+      "genres": [],
+      "id": "4FAEZeJcsYYBkNq2D3KGTV",
+      "image": "https://i.scdn.co/image/bc89577e853be0a1dd382526f3a7c1c96cd8630e",
+      "name": "Three Dog Night"
+    },
     "tierra whack": {
       "followers": 539725,
       "genres": [
@@ -8119,6 +8162,30 @@
       "id": "4lPl9gqgox3JDiaJ1yklKh",
       "image": "https://i.scdn.co/image/ab6761610000517441c97b9ebb64c239c0f01598",
       "name": "Tierra Whack"
+    },
+    "tiffany": {
+      "followers": 518822,
+      "genres": [],
+      "id": "4C3uGP8vRDzxrhJxZiOjTe",
+      "image": "https://i.scdn.co/image/ab6761610000517411c1154ac3f42d7ccd63e0a5",
+      "name": "Tiffany"
+    },
+    "timbaland": {
+      "followers": 4095144,
+      "genres": [],
+      "id": "5Y5TRrQiqgUO4S36tzjIRZ",
+      "image": "https://i.scdn.co/image/ab67616100005174b713079a55dcf937d241dd2b",
+      "name": "Timbaland"
+    },
+    "timothy infinite": {
+      "followers": 8478,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi"
+      ],
+      "id": "4rhZUbGllLmyrhbB9g2ZbX",
+      "image": "https://i.scdn.co/image/ab676161000051743d90dfcd70dda80aa8dd8a7b",
+      "name": "Timothy Infinite"
     },
     "tm network": {
       "followers": 233580,
@@ -8797,7 +8864,7 @@
       "name": "ヨルシカ"
     },
     "伊織": {
-      "followers": 3736,
+      "followers": 3737,
       "genres": [
         "anime"
       ],
@@ -8933,5 +9000,5 @@
       "name": "魔王魂"
     }
   },
-  "generated_at": "2026-08-28T00:42:58.344290+00:00"
+  "generated_at": "2026-08-29T00:17:57.517502+00:00"
 }
