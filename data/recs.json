@@ -12,7 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 23.1118
+      "score": 22.9163
     },
     {
       "because": [
@@ -26,7 +26,7 @@
         }
       ],
       "name": "Niall Horan",
-      "score": 18.3087
+      "score": 18.4136
     },
     {
       "because": [
@@ -40,12 +40,12 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.5814
+      "score": 15.63
     },
     {
       "because": [
         {
-          "count": 1949,
+          "count": 1952,
           "name": "OneRepublic"
         },
         {
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0368
+      "score": 15.0382
     },
     {
       "because": [
@@ -68,7 +68,21 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.5526
+      "score": 13.5013
+    },
+    {
+      "because": [
+        {
+          "count": 395,
+          "name": "Ed Sheeran"
+        },
+        {
+          "count": 311,
+          "name": "Shawn Mendes"
+        }
+      ],
+      "name": "Louis Tomlinson",
+      "score": 11.4679
     },
     {
       "because": [
@@ -82,7 +96,7 @@
         }
       ],
       "name": "Jason Derülo",
-      "score": 10.8391
+      "score": 10.8843
     },
     {
       "because": [
@@ -138,21 +152,7 @@
         }
       ],
       "name": "Givēon",
-      "score": 9.879
-    },
-    {
-      "because": [
-        {
-          "count": 337,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 241,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Usher",
-      "score": 9.5658
+      "score": 9.8316
     },
     {
       "because": [
@@ -171,7 +171,7 @@
     {
       "because": [
         {
-          "count": 1949,
+          "count": 1952,
           "name": "OneRepublic"
         },
         {
@@ -180,7 +180,21 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.299
+      "score": 9.2995
+    },
+    {
+      "because": [
+        {
+          "count": 337,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 241,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Usher",
+      "score": 9.2752
     },
     {
       "because": [
@@ -213,20 +227,6 @@
     {
       "because": [
         {
-          "count": 311,
-          "name": "Shawn Mendes"
-        },
-        {
-          "count": 279,
-          "name": "One Direction"
-        }
-      ],
-      "name": "Louis Tomlinson",
-      "score": 8.7843
-    },
-    {
-      "because": [
-        {
           "count": 887,
           "name": "Charlie Puth"
         },
@@ -255,20 +255,6 @@
     {
       "because": [
         {
-          "count": 337,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 205,
-          "name": "Bruno Mars"
-        }
-      ],
-      "name": "Ne-Yo",
-      "score": 8.4756
-    },
-    {
-      "because": [
-        {
           "count": 366,
           "name": "Alan Silvestri"
         },
@@ -283,6 +269,20 @@
     {
       "because": [
         {
+          "count": 337,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 205,
+          "name": "Bruno Mars"
+        }
+      ],
+      "name": "Ne-Yo",
+      "score": 8.2208
+    },
+    {
+      "because": [
+        {
           "count": 395,
           "name": "Ed Sheeran"
         },
@@ -292,7 +292,7 @@
         }
       ],
       "name": "Myles Smith",
-      "score": 7.6629
+      "score": 7.8944
     },
     {
       "because": [
@@ -311,7 +311,7 @@
     {
       "because": [
         {
-          "count": 1949,
+          "count": 1952,
           "name": "OneRepublic"
         },
         {
@@ -320,7 +320,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 7.3109
+      "score": 7.3116
     },
     {
       "because": [
@@ -348,7 +348,7 @@
         }
       ],
       "name": "Bazzi",
-      "score": 7.2636
+      "score": 7.2687
     },
     {
       "because": [
@@ -377,7 +377,7 @@
     {
       "because": [
         {
-          "count": 1949,
+          "count": 1952,
           "name": "OneRepublic"
         },
         {
@@ -386,7 +386,7 @@
         }
       ],
       "name": "The Fray",
-      "score": 6.7878
+      "score": 6.7886
     },
     {
       "because": [
@@ -414,11 +414,11 @@
         }
       ],
       "name": "Traveling Wilburys",
-      "score": 6.6575
+      "score": 6.63
     }
   ],
   "available": true,
-  "generated_at": "2026-08-29T19:03:28.240677+00:00",
+  "generated_at": "2026-08-30T18:58:49.857966+00:00",
   "source": "lastfm",
   "tracks": [
     {

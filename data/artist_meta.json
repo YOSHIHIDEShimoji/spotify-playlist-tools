@@ -2146,7 +2146,7 @@
       "name": "Ed Sheeran"
     },
     "ed sheeran & justin bieber": {
-      "followers": 18009,
+      "followers": 18039,
       "genres": [],
       "id": "1WsYCXdezMjn0KoIrLvMmC",
       "image": null,
@@ -2236,6 +2236,15 @@
       "id": "0UARksVKrwd1Gwdeq3Mes1",
       "image": "https://i.scdn.co/image/ab676161000051747b67821ab66b080ff7cb1c89",
       "name": "Elijah Woods x Jamie Fine"
+    },
+    "ella langley": {
+      "followers": 2334372,
+      "genres": [
+        "country"
+      ],
+      "id": "6BRxQ8cD3eqnrVj6WKDok8",
+      "image": "https://i.scdn.co/image/ab67616100005174c4670378a4188c3174ef2ca9",
+      "name": "Ella Langley"
     },
     "ellie goulding": {
       "followers": 13918966,
@@ -3265,7 +3274,7 @@
       "name": "I WiSH"
     },
     "i'll take you there choir": {
-      "followers": 11224,
+      "followers": 11232,
       "genres": [],
       "id": "2ABREU7iSvhEV9Ktoj30ne",
       "image": null,
@@ -8271,6 +8280,16 @@
       "image": "https://i.scdn.co/image/ab6761610000517466548f39fb5395175b0fdc65",
       "name": "Topic"
     },
+    "toshdy": {
+      "followers": 476,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi"
+      ],
+      "id": "55bwDdaEDVEycXFNC9Xl1D",
+      "image": "https://i.scdn.co/image/ab67616100005174f2002a6e09009848bc8aa53e",
+      "name": "Toshdy"
+    },
     "tota": {
       "followers": 111307,
       "genres": [
@@ -8329,12 +8348,34 @@
       "image": "https://i.scdn.co/image/ab676161000051747696834e7951edf7e3bacd5d",
       "name": "Tsuji Ayano"
     },
+    "tsuyoshi nagabuchi": {
+      "followers": 295252,
+      "genres": [
+        "kayōkyoku",
+        "enka",
+        "j-pop"
+      ],
+      "id": "5hHNaYRpbcz1qo09jeVcg8",
+      "image": "https://i.scdn.co/image/ab6772690000bac37a925d1ee979b1720d398d36",
+      "name": "Tsuyoshi Nagabuchi"
+    },
     "tv themes": {
       "followers": 37950,
       "genres": [],
       "id": "0clhXvKQeY8xOFIXwePnyR",
       "image": "https://i.scdn.co/image/ab67616100005174c277b04a34326f009e85ef2f",
       "name": "TV Themes"
+    },
+    "two sleepy": {
+      "followers": 6805,
+      "genres": [
+        "lo-fi beats",
+        "lo-fi",
+        "lo-fi hip hop"
+      ],
+      "id": "0AnFvgXbwVibMnDDhCVPPK",
+      "image": "https://i.scdn.co/image/ab67616100005174dbd378bccd569902f7d3fbac",
+      "name": "Two Sleepy"
     },
     "tyler bates": {
       "followers": 97961,
@@ -8353,6 +8394,13 @@
       "image": "https://i.scdn.co/image/ab67616100005174ad2d781df3337a2c0cde6630",
       "name": "U.S.A. For Africa"
     },
+    "udit anmol": {
+      "followers": 4,
+      "genres": [],
+      "id": "5JJyJAAMrouGDS0Zmjg39r",
+      "image": "https://i.scdn.co/image/ab67616d00001e02dd173251914f3e94759f1c01",
+      "name": "Udit Anmol"
+    },
     "uefa": {
       "followers": 48779,
       "genres": [],
@@ -8366,6 +8414,17 @@
       "id": "0okpgBQamDqOZazBeH0J3I",
       "image": "https://i.scdn.co/image/ab676161000051746a1fbe842b26c53d8ada53da",
       "name": "Unknown Brain"
+    },
+    "uptown funk empire": {
+      "followers": 21244,
+      "genres": [
+        "acid jazz",
+        "jazz funk",
+        "funk"
+      ],
+      "id": "4aeeLWgLNwNVFzWoXg1u4y",
+      "image": "https://i.scdn.co/image/ab67616d00001e02f684c5836a41d870248a72e6",
+      "name": "Uptown Funk Empire"
     },
     "uru": {
       "followers": 1249644,
@@ -8920,7 +8979,7 @@
       "name": "ヨルシカ"
     },
     "伊織": {
-      "followers": 3737,
+      "followers": 3739,
       "genres": [
         "anime"
       ],
@@ -8972,7 +9031,7 @@
       "name": "本名陽子"
     },
     "栗原正己": {
-      "followers": 1839,
+      "followers": 1840,
       "genres": [],
       "id": "4PUbqK8p5hZpUHqziQE6zK",
       "image": null,
@@ -9017,7 +9076,7 @@
       "name": "船橋さざんか少年少女合唱団"
     },
     "藤岡藤巻と大橋のぞみ": {
-      "followers": 697,
+      "followers": 698,
       "genres": [],
       "id": "2dBR2aSvDYdWziZvQSrEPz",
       "image": null,
@@ -9056,5 +9115,5 @@
       "name": "魔王魂"
     }
   },
-  "generated_at": "2026-08-29T19:02:54.987355+00:00"
+  "generated_at": "2026-08-30T18:58:19.650331+00:00"
 }

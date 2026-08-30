@@ -29,7 +29,7 @@
       "month": "2026-07"
     },
     {
-      "count": 939,
+      "count": 961,
       "month": "2026-08"
     }
   ],
@@ -39,10 +39,10 @@
     "dow": 3,
     "hour": 9
   },
-  "plays": 11488,
+  "plays": 11510,
   "top_artists": [
     {
-      "count": 1557,
+      "count": 1560,
       "name": "OneRepublic"
     },
     {
@@ -86,16 +86,16 @@
       "name": "Train"
     },
     {
+      "count": 161,
+      "name": "ワンリパブリック"
+    },
+    {
       "count": 160,
       "name": "Shawn Mendes"
     },
     {
       "count": 158,
       "name": "King Gnu"
-    },
-    {
-      "count": 154,
-      "name": "ワンリパブリック"
     },
     {
       "count": 153,
@@ -106,7 +106,7 @@
       "name": "Kygo"
     },
     {
-      "count": 130,
+      "count": 129,
       "name": "LANY"
     },
     {
@@ -189,19 +189,19 @@
     },
     {
       "artists": [
+        "HUNTR/X"
+      ],
+      "count": 59,
+      "name": "Golden",
+      "track_id": "1CPZ5BxNNd0n0nF4Orb9JS"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 58,
       "name": "Nobody - from Kaiju No. 8",
       "track_id": "47N81NMkB488fuOwOC3Oip"
-    },
-    {
-      "artists": [
-        "HUNTR/X"
-      ],
-      "count": 58,
-      "name": "Golden",
-      "track_id": "1CPZ5BxNNd0n0nF4Orb9JS"
     },
     {
       "artists": [
@@ -280,8 +280,8 @@
         "OneRepublic"
       ],
       "count": 51,
-      "name": "Run",
-      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
+      "name": "Rich Love (with Seeb)",
+      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
     }
   ],
   "year": "2026"
