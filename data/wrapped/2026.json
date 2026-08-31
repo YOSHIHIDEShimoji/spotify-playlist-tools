@@ -29,20 +29,24 @@
       "month": "2026-07"
     },
     {
-      "count": 961,
+      "count": 1017,
       "month": "2026-08"
+    },
+    {
+      "count": 5,
+      "month": "2026-09"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 929,
+  "new_tracks": 931,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 11510,
+  "plays": 11571,
   "top_artists": [
     {
-      "count": 1560,
+      "count": 1557,
       "name": "OneRepublic"
     },
     {
@@ -58,7 +62,7 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 314,
+      "count": 315,
       "name": "Henry Moodie"
     },
     {
@@ -86,7 +90,7 @@
       "name": "Train"
     },
     {
-      "count": 161,
+      "count": 177,
       "name": "ワンリパブリック"
     },
     {
@@ -151,7 +155,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 65,
+      "count": 66,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -159,7 +163,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 65,
+      "count": 66,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -256,6 +260,14 @@
         "OneRepublic"
       ],
       "count": 53,
+      "name": "Sunshine",
+      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 53,
       "name": "Love Runs Out",
       "track_id": "5BJSZocnCeSNeYMj3iVqM7"
     },
@@ -266,14 +278,6 @@
       "count": 52,
       "name": "Marchin On",
       "track_id": "4BUtvtGTRvJB49Hx2F7lle"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 52,
-      "name": "Sunshine",
-      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
     },
     {
       "artists": [

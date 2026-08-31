@@ -274,19 +274,19 @@
     },
     {
       "artists": [
+        "Keane"
+      ],
+      "count": 134,
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
+    },
+    {
+      "artists": [
         "Lea Salonga"
       ],
       "count": 134,
       "name": "A Whole New World",
       "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
-    },
-    {
-      "artists": [
-        "Keane"
-      ],
-      "count": 133,
-      "name": "Somewhere Only We Know",
-      "track_id": "1SKPmfSYaPsETbRHaiA18G"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "5frMgt4jqRGJk3yMKfqOyl"
     }
   ],
-  "generated_at": "2026-08-30T18:57:09.934574+00:00",
+  "generated_at": "2026-08-31T21:14:29.122544+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,18 +813,460 @@
       5000,
       10000
     ],
-    "total": 63192
+    "total": 63253
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 15,
+  "streak": 16,
   "weekly_top": [
     {
       "artists": [
-        "OneRepublic"
+        "ケイティ・ペリー"
       ],
-      "count": 1,
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+    },
+    {
+      "artists": [
+        "クリーン・バンディット"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "name": "Rather Be (feat. Jess Glynne)",
+      "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
       "name": "Counting Stars",
       "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
+    },
+    {
+      "artists": [
+        "フィリップ・フィリップス"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "name": "Gone, Gone, Gone",
+      "track_id": "56sxN1yKg1dgOZXBcAHkJG"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Take It Out On Me",
+      "track_id": "7lISY14A9I1w3m7to2kWv1"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "All These Things",
+      "track_id": "5SlNjNaibdMLveJPYqAAaE"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
+      "name": "Sunshine",
+      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "Trap Door",
+      "track_id": "7Jf6ay2g947vLxqRUkC09Q"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Don't Look Down",
+      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Hurt",
+      "track_id": "6eZEuLvZDa5cQy8bX22oZT"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851515b72d7c72fc65b017a87ea",
+      "name": "Won't Go Home Without You",
+      "track_id": "6WEBwvsmpaoGxka0tSh5a7"
+    },
+    {
+      "artists": [
+        "エド・シーラン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
+      "name": "Tides",
+      "track_id": "2JiHR4gCDjXwYVRDmwdk95"
+    },
+    {
+      "artists": [
+        "Steve Lacy"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514ea9ba86cd9506a004bab042",
+      "name": "Oh Yeah?",
+      "track_id": "22NHkFYbgxB2Zirj29Gbp8"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Ships + Tides",
+      "track_id": "0GUncXNah8KoaErnDd7H1L"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
+      "name": "Shake It Off",
+      "track_id": "0cqRj7pUJDkTCEsJkx8snD"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+      "name": "Sugar & Cinnamon",
+      "track_id": "1I8WriGDeR8LrsYDNB554B"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "Wherever I Go",
+      "track_id": "46jLy47W8rkf8rEX04gMKB"
+    },
+    {
+      "artists": [
+        "ボン・ジョヴィ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518cadefc62ac1c0b7c4ab882a",
+      "name": "These Days",
+      "track_id": "4nnJRbVecvQwqf3OQP4mja"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485183b22beb73e2014b20159685",
+      "name": "Lonely (with benny blanco)",
+      "track_id": "4y4spB9m0Q6026KfkAvy9Q"
+    },
+    {
+      "artists": [
+        "マシュメロ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "name": "Happier",
+      "track_id": "2RttW7RAu5nOAfq6YFvApB"
+    },
+    {
+      "artists": [
+        "スウェディッシュ・ハウス・マフィア"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851bd6f8ac82dc5fe1028c14f7d",
+      "name": "Moth To A Flame (with The Weeknd)",
+      "track_id": "0VO8gYVDSwM1Qdd2GsMoYK"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+      "name": "Does It Feel",
+      "track_id": "4nNZ4ra9sJnsdixXELkfW5"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Human",
+      "track_id": "5NbplIIyJnnAPrUWeJAbQ4"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
+      "name": "Give Me Something (for Arknights Endfield)",
+      "track_id": "17Vqwvat9EmRmfDvmYqoi0"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "name": "One Call Away",
+      "track_id": "5MwIGPDKeDb7SpblcaQP6O"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "beat up car",
+      "track_id": "0dGDhJ1hQco0OjlHEH97Q8"
+    },
+    {
+      "artists": [
+        "シーア"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851b9bea8700ca3c305eb9569a3",
+      "name": "Unstoppable",
+      "track_id": "2J2Z1SkXYghSajLibnQHOa"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
+      "name": "Maria",
+      "track_id": "7E1dQbOk1qcx9gEPUMBKsk"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Ghost",
+      "track_id": "6I3mqTwhRpn34SLVafSH7G"
+    },
+    {
+      "artists": [
+        "オアシス"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516f253c0104f24caed5e3e42e",
+      "name": "Wonderwall - Remastered",
+      "track_id": "0EjH2xRuoT9oz5QGenFxT1"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "name": "Dangerously",
+      "track_id": "2EbseeW2cr5zK3J8VuYntw"
+    },
+    {
+      "artists": [
+        "フォール・アウト・ボーイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485182708c9fdc7f9539d7e3da97",
+      "name": "My Songs Know What You Did In the Dark (Light Em Up)",
+      "track_id": "7ddwjA4FdBC0zIAL3ueLBd"
+    },
+    {
+      "artists": [
+        "ワン・ダイレクション"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
+      "name": "Still the One",
+      "track_id": "1fZvvlfjgoqjz7HQKEfzyp"
+    },
+    {
+      "artists": [
+        "エリー・ゴールディング"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851575aba89c2dae405486b7148",
+      "name": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+      "track_id": "3kEeZiBHzg8aIJ7iVJPl7y"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
+      "name": "End Game",
+      "track_id": "2x0WlnmfG39ZuDmstl9xfX"
+    },
+    {
+      "artists": [
+        "ルディメンタル"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485116a5ae6eb56b2721ae48aa34",
+      "name": "These Days (feat. Jess Glynne, Macklemore & Dan Caplen)",
+      "track_id": "20ZP3Om9DvDazXrNUC7WM2"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a48964b5d9a3d6968ae3e0de",
+      "name": "You Belong With Me (Taylor’s Version)",
+      "track_id": "1qrpoAMXodY6895hGKoUpA"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "name": "Love Somebody",
+      "track_id": "5H0ajL4EHsrcAEGESo2Lzx"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "The Less I Know",
+      "track_id": "0zDu21d7aHrScpTHXRddNr"
+    },
+    {
+      "artists": [
+        "イン・シンク"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fceb9d92981970dbeea23257",
+      "name": "Bye Bye Bye",
+      "track_id": "4r8lRYnoOGdEi6YyI5OC1o"
+    },
+    {
+      "artists": [
+        "バックストリート・ボーイズ"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f3e0004ed8ece396f78de1ed07fa1872.jpg",
+      "name": "I Want It That Way",
+      "track_id": "lastfm:iwantitthatway|バックストリート・ボーイズ"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
+      "name": "Intentions (feat. Quavo)",
+      "track_id": "4umIPjkehX1r7uhmGvXiSV"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851adcc90bbf8ffa384c25c4478",
+      "name": "Viva La Vida",
+      "track_id": "1SLxVWqXo9zNrrDKRa3m1G"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e5a95573f1b91234630fd2cf",
+      "name": "A Sky Full of Stars",
+      "track_id": "0FDzzruyVECATHXKHFs9eJ"
+    },
+    {
+      "artists": [
+        "ジェイムズ・ブラント"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fcf5fe7c303170c384855fe2",
+      "name": "Bonfire Heart",
+      "track_id": "2N0volXQpwsvjDorTTxBAU"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+      "name": "Baby",
+      "track_id": "6epn3r7S14KUqlReYr77hA"
+    },
+    {
+      "artists": [
+        "DJキャレド"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851675b26746823f1049dc39342",
+      "name": "No Brainer",
+      "track_id": "5WvAo7DNuPRmk4APhdPzi8"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "name": "ALL I CAN TAKE",
+      "track_id": "6WqKdBOuiFSWtjUoy7q8Bi"
+    },
+    {
+      "artists": [
+        "Keane"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517d6cd95a046a3c0dacbc7d33",
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "name": "How Long",
+      "track_id": "6wmAHw1szh5RCKSRjiXhPe"
     }
   ]
 }
