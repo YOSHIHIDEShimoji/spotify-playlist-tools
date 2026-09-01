@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-31T21:15:44.493976+00:00",
+  "generated_at": "2026-09-01T19:03:45.567430+00:00",
   "totals": {
-    "artists": 1332,
-    "days": 2089,
+    "artists": 1333,
+    "days": 2090,
     "ms": 12440720283,
-    "plays": 63253,
+    "plays": 63264,
     "since": "2019-09-05",
-    "tracks": 4651
+    "tracks": 4650
   },
   "tracks": [
     {
@@ -2611,6 +2611,27 @@
     },
     {
       "artists": [
+        "Sia"
+      ],
+      "count": 90,
+      "first": "2021-04-17",
+      "id": "3Rw6shHCDFRWv3g2WmEFKv",
+      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
+      "last": "2026-09-01",
+      "ms": 19797595,
+      "name": "Fire Meet Gasoline",
+      "short": 26,
+      "years": {
+        "2021": 16,
+        "2022": 14,
+        "2023": 10,
+        "2024": 9,
+        "2025": 18,
+        "2026": 23
+      }
+    },
+    {
+      "artists": [
         "Shawn Mendes"
       ],
       "count": 90,
@@ -2648,27 +2669,6 @@
         "2023": 5,
         "2024": 6,
         "2025": 3
-      }
-    },
-    {
-      "artists": [
-        "Sia"
-      ],
-      "count": 89,
-      "first": "2021-04-17",
-      "id": "3Rw6shHCDFRWv3g2WmEFKv",
-      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
-      "last": "2026-08-28",
-      "ms": 19797595,
-      "name": "Fire Meet Gasoline",
-      "short": 26,
-      "years": {
-        "2021": 16,
-        "2022": 14,
-        "2023": 10,
-        "2024": 9,
-        "2025": 18,
-        "2026": 22
       }
     },
     {
@@ -10037,6 +10037,23 @@
     },
     {
       "artists": [
+        "Train"
+      ],
+      "count": 46,
+      "first": "2025-02-25",
+      "id": "5P3fYoxh3LnVwANZEDu5vN",
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "last": "2026-09-01",
+      "ms": 9799706,
+      "name": "Bulletproof Picasso",
+      "short": 4,
+      "years": {
+        "2025": 21,
+        "2026": 25
+      }
+    },
+    {
+      "artists": [
         "Jim Yosef"
       ],
       "count": 46,
@@ -10455,23 +10472,6 @@
       "years": {
         "2025": 19,
         "2026": 25
-      }
-    },
-    {
-      "artists": [
-        "Train"
-      ],
-      "count": 44,
-      "first": "2025-02-25",
-      "id": "5P3fYoxh3LnVwANZEDu5vN",
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "last": "2026-08-27",
-      "ms": 9799706,
-      "name": "Bulletproof Picasso",
-      "short": 4,
-      "years": {
-        "2025": 21,
-        "2026": 23
       }
     },
     {
@@ -13621,6 +13621,23 @@
     },
     {
       "artists": [
+        "Backstreet Boys"
+      ],
+      "count": 31,
+      "first": "2025-07-14",
+      "id": "47BBI51FKFwOMlIiX6m8ya",
+      "image": "https://i.scdn.co/image/ab67616d000048512160c02bc56f192df0f4986b",
+      "last": "2026-08-31",
+      "ms": 6431987,
+      "name": "I Want It That Way",
+      "short": 3,
+      "years": {
+        "2025": 16,
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 31,
@@ -13760,23 +13777,6 @@
       "years": {
         "2025": 1,
         "2026": 29
-      }
-    },
-    {
-      "artists": [
-        "Backstreet Boys"
-      ],
-      "count": 30,
-      "first": "2025-07-14",
-      "id": "47BBI51FKFwOMlIiX6m8ya",
-      "image": "https://i.scdn.co/image/ab67616d000048512160c02bc56f192df0f4986b",
-      "last": "2026-05-18",
-      "ms": 6431987,
-      "name": "I Want It That Way",
-      "short": 3,
-      "years": {
-        "2025": 16,
-        "2026": 14
       }
     },
     {
@@ -16396,6 +16396,23 @@
     },
     {
       "artists": [
+        "DJ Snake"
+      ],
+      "count": 20,
+      "first": "2025-08-06",
+      "id": "0lYBSQXN6rCTvUZvg9S0lU",
+      "image": "https://i.scdn.co/image/ab67616d00004851212d776c31027c511f0ee3bc",
+      "last": "2026-09-01",
+      "ms": 3339502,
+      "name": "Let Me Love You",
+      "short": 2,
+      "years": {
+        "2025": 1,
+        "2026": 19
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 20,
@@ -16798,23 +16815,6 @@
         "2022": 1,
         "2025": 16,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "DJ Snake"
-      ],
-      "count": 19,
-      "first": "2025-08-06",
-      "id": "0lYBSQXN6rCTvUZvg9S0lU",
-      "image": "https://i.scdn.co/image/ab67616d00004851212d776c31027c511f0ee3bc",
-      "last": "2026-07-29",
-      "ms": 3339502,
-      "name": "Let Me Love You",
-      "short": 2,
-      "years": {
-        "2025": 1,
-        "2026": 18
       }
     },
     {
@@ -18103,22 +18103,6 @@
     },
     {
       "artists": [
-        "Phillip Phillips"
-      ],
-      "count": 16,
-      "first": "2026-04-09",
-      "id": "56sxN1yKg1dgOZXBcAHkJG",
-      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
-      "last": "2026-09-01",
-      "ms": 1695916,
-      "name": "Gone, Gone, Gone",
-      "short": 1,
-      "years": {
-        "2026": 16
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 16,
@@ -18706,6 +18690,22 @@
       "years": {
         "2019": 2,
         "2020": 13
+      }
+    },
+    {
+      "artists": [
+        "Phillip Phillips"
+      ],
+      "count": 15,
+      "first": "2026-04-09",
+      "id": "56sxN1yKg1dgOZXBcAHkJG",
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "last": "2026-09-01",
+      "ms": 1695916,
+      "name": "Gone, Gone, Gone",
+      "short": 1,
+      "years": {
+        "2026": 15
       }
     },
     {
@@ -20397,6 +20397,21 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 11,
+      "first": "2026-05-17",
+      "id": "0ehxWIhybOYQ3acRhmcNVF",
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "last": "2026-09-01",
+      "ms": 1276265,
+      "name": "Beautiful Goodbye",
+      "years": {
+        "2026": 11
+      }
+    },
+    {
+      "artists": [
         "Ed Sheeran"
       ],
       "count": 11,
@@ -20948,21 +20963,6 @@
       "years": {
         "2025": 2,
         "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 10,
-      "first": "2026-05-17",
-      "id": "0ehxWIhybOYQ3acRhmcNVF",
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "last": "2026-08-28",
-      "ms": 1276265,
-      "name": "Beautiful Goodbye",
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -22194,6 +22194,23 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 9,
+      "first": "2024-06-04",
+      "id": "61dCUoMCg28qEBzrW6htYM",
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "last": "2026-09-01",
+      "ms": 455666,
+      "name": "Rather Be (feat. Jess Glynne)",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "Charlie Puth"
       ],
       "count": 9,
@@ -23012,23 +23029,6 @@
     },
     {
       "artists": [
-        "Clean Bandit"
-      ],
-      "count": 8,
-      "first": "2024-06-04",
-      "id": "61dCUoMCg28qEBzrW6htYM",
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "last": "2026-09-01",
-      "ms": 455666,
-      "name": "Rather Be (feat. Jess Glynne)",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "Doja Cat"
       ],
       "count": 8,
@@ -23599,6 +23599,22 @@
     },
     {
       "artists": [
+        "Marshmello"
+      ],
+      "count": 7,
+      "first": "2026-06-24",
+      "id": "2jpKZFnBk98Ud3EoZiBOTf",
+      "image": "https://i.scdn.co/image/ab67616d00004851112639a71195d291216ee2b2",
+      "last": "2026-09-02",
+      "ms": 468939,
+      "name": "Here With Me",
+      "short": 1,
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "Taylor Swift"
       ],
       "count": 7,
@@ -23987,6 +24003,21 @@
       "last": "2026-08-24",
       "ms": 766864,
       "name": "Repeat It",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 7,
+      "first": "2026-05-20",
+      "id": "3ytuqgUI0BNCDijjxC6jZg",
+      "image": "https://i.scdn.co/image/ab67616d00004851fb7dcc6287dca96c1c8eda29",
+      "last": "2026-09-01",
+      "ms": 710768,
+      "name": "Reply To This",
       "years": {
         "2026": 7
       }
@@ -24728,6 +24759,22 @@
     },
     {
       "artists": [
+        "Katy Perry"
+      ],
+      "count": 6,
+      "first": "2025-08-19",
+      "id": "3lXbHd0EoryoQh3vpevNEP",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-09-01",
+      "ms": 221198,
+      "name": "Firework",
+      "years": {
+        "2025": 1,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 6,
@@ -24852,22 +24899,6 @@
       "years": {
         "2025": 5,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Marshmello"
-      ],
-      "count": 6,
-      "first": "2026-06-24",
-      "id": "2jpKZFnBk98Ud3EoZiBOTf",
-      "image": "https://i.scdn.co/image/ab67616d00004851112639a71195d291216ee2b2",
-      "last": "2026-08-28",
-      "ms": 468939,
-      "name": "Here With Me",
-      "short": 1,
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -25101,6 +25132,21 @@
     },
     {
       "artists": [
+        "Sabrina Carpenter"
+      ],
+      "count": 6,
+      "first": "2026-04-30",
+      "id": "359HNzfOXhCMHB1pNKhyfH",
+      "image": "https://i.scdn.co/image/ab67616d0000485138b27a27cea311f34bb68eff",
+      "last": "2026-09-01",
+      "ms": 872320,
+      "name": "Paris",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 6,
@@ -25142,21 +25188,6 @@
       "last": "2026-08-26",
       "ms": 135086,
       "name": "Red Light Green Light",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 6,
-      "first": "2026-05-20",
-      "id": "3ytuqgUI0BNCDijjxC6jZg",
-      "image": "https://i.scdn.co/image/ab67616d00004851fb7dcc6287dca96c1c8eda29",
-      "last": "2026-08-28",
-      "ms": 710768,
-      "name": "Reply To This",
       "years": {
         "2026": 6
       }
@@ -26226,22 +26257,6 @@
     },
     {
       "artists": [
-        "Katy Perry"
-      ],
-      "count": 5,
-      "first": "2025-08-19",
-      "id": "3lXbHd0EoryoQh3vpevNEP",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-08-17",
-      "ms": 221198,
-      "name": "Firework",
-      "years": {
-        "2025": 1,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Deorro"
       ],
       "count": 5,
@@ -26451,6 +26466,22 @@
       "years": {
         "2020": 1,
         "2021": 4
+      }
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 5,
+      "first": "2026-07-19",
+      "id": "5NbplIIyJnnAPrUWeJAbQ4",
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "last": "2026-09-01",
+      "ms": 0,
+      "name": "Human",
+      "short": 1,
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -26838,21 +26869,6 @@
       "last": "2026-08-28",
       "ms": 825600,
       "name": "Out Of My League",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Sabrina Carpenter"
-      ],
-      "count": 5,
-      "first": "2026-04-30",
-      "id": "359HNzfOXhCMHB1pNKhyfH",
-      "image": "https://i.scdn.co/image/ab67616d0000485138b27a27cea311f34bb68eff",
-      "last": "2026-08-24",
-      "ms": 872320,
-      "name": "Paris",
       "years": {
         "2026": 5
       }
@@ -28741,22 +28757,6 @@
       "years": {
         "2020": 3,
         "2021": 1
-      }
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 4,
-      "first": "2026-07-19",
-      "id": "5NbplIIyJnnAPrUWeJAbQ4",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-08-31",
-      "ms": 0,
-      "name": "Human",
-      "short": 1,
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -31745,6 +31745,21 @@
       "short": 1,
       "years": {
         "2025": 3
+      }
+    },
+    {
+      "artists": [
+        "Olivia Dean"
+      ],
+      "count": 3,
+      "first": "2026-08-03",
+      "id": "36vmaZyO0iAE6FZ7287fg2",
+      "image": "https://i.scdn.co/image/ab67616d00004851cac9b52107643faf13a7587b",
+      "last": "2026-09-01",
+      "ms": 0,
+      "name": "Dive",
+      "years": {
+        "2026": 3
       }
     },
     {
@@ -36757,21 +36772,6 @@
       "name": "Distractions - Remastered 2017",
       "years": {
         "2020": 2
-      }
-    },
-    {
-      "artists": [
-        "Olivia Dean"
-      ],
-      "count": 2,
-      "first": "2026-08-03",
-      "id": "36vmaZyO0iAE6FZ7287fg2",
-      "image": "https://i.scdn.co/image/ab67616d00004851cac9b52107643faf13a7587b",
-      "last": "2026-08-28",
-      "ms": 0,
-      "name": "Dive",
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -54444,21 +54444,6 @@
       "short": 1,
       "years": {
         "2020": 1
-      }
-    },
-    {
-      "artists": [
-        "バックストリート・ボーイズ"
-      ],
-      "count": 1,
-      "first": "2026-08-31",
-      "id": "lastfm:iwantitthatway|バックストリート・ボーイズ",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f3e0004ed8ece396f78de1ed07fa1872.jpg",
-      "last": "2026-08-31",
-      "ms": 0,
-      "name": "I Want It That Way",
-      "years": {
-        "2026": 1
       }
     },
     {
