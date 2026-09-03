@@ -1,6 +1,94 @@
 {
-  "generated_at": "2026-09-02T19:10:50.143980+00:00",
+  "generated_at": "2026-09-03T19:03:28.143076+00:00",
   "items": [
+    {
+      "album_id": "4FZrEZF2B4zaiC0icWNITX",
+      "album_name": "Let's Go Far: Vol. 1",
+      "album_type": "single",
+      "artist": "Phillip Phillips",
+      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513343b34d0b57232a1ceabc33",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "4gdcr6w8k7SCLNUx851aEO",
+      "album_name": "Every Minute Of It",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "6wj6EqEV4sywgzZ4O7NeST",
+      "album_name": "I Know Too Much",
+      "album_type": "album",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e4de0032beae8f985041f6b9",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
+      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
+      "album_type": "album",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
+      "album_name": "act like you know ? (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Master Peace",
+      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "4I6JwprL9cEAl9HxS1OjUq",
+      "album_name": "Take Me Back (Robin Schulz Remix)",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514501432167ccabc9af43b7c0",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
+      "album_name": "영원한 파도",
+      "album_type": "single",
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "6u1WfiZLxCJHFY6QG8M7Ws",
+      "album_name": "BOSA",
+      "album_type": "single",
+      "artist": "Elyanna",
+      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485139306616f73f3f25a93622ec",
+      "is_new": true,
+      "release_date": "2026-09-04"
+    },
     {
       "album_id": "43VFHCMHiaQM6Vk1JTkdtr",
       "album_name": "サンダーボルト",
@@ -13,17 +101,6 @@
       "release_date": "2026-09-02"
     },
     {
-      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
-      "album_name": "Memorabilia",
-      "album_type": "album",
-      "artist": "Omoinotake",
-      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
-      "is_new": false,
-      "release_date": "2026-09-02"
-    },
-    {
       "album_id": "0v4nc64jQYVwNexCyLTqhi",
       "album_name": "I-BULL",
       "album_type": "single",
@@ -31,6 +108,17 @@
       "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851e21fca20f466168e2401b542",
+      "is_new": false,
+      "release_date": "2026-09-02"
+    },
+    {
+      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
+      "album_name": "Memorabilia",
+      "album_type": "album",
+      "artist": "Omoinotake",
+      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
       "is_new": false,
       "release_date": "2026-09-02"
     },
@@ -68,13 +156,13 @@
       "release_date": "2026-08-28"
     },
     {
-      "album_id": "6MTQaYJTNPcuHlThqRygD5",
-      "album_name": "The House That We Don't Live In Anymore",
+      "album_id": "7EXuRlGOKcBxzvQOCfuHGG",
+      "album_name": "Euphoria",
       "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "artist": "never goodbye",
+      "artist_id": "4Qqzm4FXFUgM5Ml09HRn6b",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f65f2ce794461697b53ac8",
+      "image": "https://i.scdn.co/image/ab67616d00004851f38b23b4bdb0a5250bbb54b2",
       "is_new": false,
       "release_date": "2026-08-28"
     },
@@ -90,24 +178,13 @@
       "release_date": "2026-08-28"
     },
     {
-      "album_id": "4lZQjjnhdmMoaEW6A9SJBJ",
-      "album_name": "Hollow",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "album_id": "0O2BBZ5P4ljzLyyYfSVedH",
+      "album_name": "Mad Dog in the Fog",
+      "album_type": "album",
+      "artist": "Train",
+      "artist_id": "3FUY2gzHeIiaesXtOAdB7A",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cd6e3ab83f54514854a9cf7c",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "4HLkCvdBUOzeXOlcirgaSN",
-      "album_name": "Bando (feat. Pharrell Williams & Quavo) [Orchestral]",
-      "album_type": "single",
-      "artist": "Angelique Kidjo",
-      "artist_id": "51qUDJb5AtQX6jIL4VJx6M",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485121aaf2cf907df58c4004d5a5",
+      "image": "https://i.scdn.co/image/ab67616d00004851767df84cc5727c571f12180e",
       "is_new": false,
       "release_date": "2026-08-28"
     },
@@ -123,13 +200,24 @@
       "release_date": "2026-08-28"
     },
     {
-      "album_id": "0yq6V8bwNWq2bExhv2ggZV",
-      "album_name": "100 Best Film Classics",
-      "album_type": "album",
-      "artist": "Wolfgang Amadeus Mozart",
-      "artist_id": "4NJhFmfw43RLBLjQvxDuRS",
+      "album_id": "4lZQjjnhdmMoaEW6A9SJBJ",
+      "album_name": "Hollow",
+      "album_type": "single",
+      "artist": "Marshmello",
+      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048510416cd51b9c15103c5f6ae34",
+      "image": "https://i.scdn.co/image/ab67616d00004851cd6e3ab83f54514854a9cf7c",
+      "is_new": false,
+      "release_date": "2026-08-28"
+    },
+    {
+      "album_id": "6MTQaYJTNPcuHlThqRygD5",
+      "album_name": "The House That We Don't Live In Anymore",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f65f2ce794461697b53ac8",
       "is_new": false,
       "release_date": "2026-08-28"
     },
@@ -145,6 +233,17 @@
       "release_date": "2026-08-28"
     },
     {
+      "album_id": "0yq6V8bwNWq2bExhv2ggZV",
+      "album_name": "100 Best Film Classics",
+      "album_type": "album",
+      "artist": "Wolfgang Amadeus Mozart",
+      "artist_id": "4NJhFmfw43RLBLjQvxDuRS",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048510416cd51b9c15103c5f6ae34",
+      "is_new": false,
+      "release_date": "2026-08-28"
+    },
+    {
       "album_id": "1es3JGBHQfFNXd4xVktkSs",
       "album_name": "WILDCHILD",
       "album_type": "album",
@@ -156,48 +255,15 @@
       "release_date": "2026-08-28"
     },
     {
-      "album_id": "0O2BBZ5P4ljzLyyYfSVedH",
-      "album_name": "Mad Dog in the Fog",
-      "album_type": "album",
-      "artist": "Train",
-      "artist_id": "3FUY2gzHeIiaesXtOAdB7A",
+      "album_id": "4HLkCvdBUOzeXOlcirgaSN",
+      "album_name": "Bando (feat. Pharrell Williams & Quavo) [Orchestral]",
+      "album_type": "single",
+      "artist": "Angelique Kidjo",
+      "artist_id": "51qUDJb5AtQX6jIL4VJx6M",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851767df84cc5727c571f12180e",
+      "image": "https://i.scdn.co/image/ab67616d0000485121aaf2cf907df58c4004d5a5",
       "is_new": false,
       "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "7EXuRlGOKcBxzvQOCfuHGG",
-      "album_name": "Euphoria",
-      "album_type": "single",
-      "artist": "never goodbye",
-      "artist_id": "4Qqzm4FXFUgM5Ml09HRn6b",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f38b23b4bdb0a5250bbb54b2",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "2Q268vFBrWzAj28Hv7vtgC",
-      "album_name": "Unforgivable Things",
-      "album_type": "single",
-      "artist": "Lennon Stella",
-      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851bf0f6cc1c378636e98d62d13",
-      "is_new": false,
-      "release_date": "2026-08-27"
-    },
-    {
-      "album_id": "6x2XrBIYLWWuEn4hJaxxEA",
-      "album_name": "CEILING: HAYLEY WILLIAMS VERSION",
-      "album_type": "single",
-      "artist": "Turnstile",
-      "artist_id": "2qnpHrOzdmOo1S4ox3j17x",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851076b739a3f39df76519209d8",
-      "is_new": true,
-      "release_date": "2026-08-27"
     },
     {
       "album_id": "3JsarSTFiNfuuEaWE9iD7G",
@@ -222,6 +288,28 @@
       "release_date": "2026-08-27"
     },
     {
+      "album_id": "2Q268vFBrWzAj28Hv7vtgC",
+      "album_name": "Unforgivable Things",
+      "album_type": "single",
+      "artist": "Lennon Stella",
+      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851bf0f6cc1c378636e98d62d13",
+      "is_new": false,
+      "release_date": "2026-08-27"
+    },
+    {
+      "album_id": "6x2XrBIYLWWuEn4hJaxxEA",
+      "album_name": "CEILING: HAYLEY WILLIAMS VERSION",
+      "album_type": "single",
+      "artist": "Turnstile",
+      "artist_id": "2qnpHrOzdmOo1S4ox3j17x",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851076b739a3f39df76519209d8",
+      "is_new": false,
+      "release_date": "2026-08-27"
+    },
+    {
       "album_id": "6plj5TlnaY3rCX0wDoulQc",
       "album_name": "August 26",
       "album_type": "album",
@@ -231,17 +319,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851c74f1b6b6aca1217a9bb8943",
       "is_new": false,
       "release_date": "2026-08-26"
-    },
-    {
-      "album_id": "2g6XbbyPIPRMa2P1ildhza",
-      "album_name": "serena joy",
-      "album_type": "single",
-      "artist": "Olivia Rodrigo",
-      "artist_id": "1McMsnEElThX1knmY4oliG",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aeb1724f09a75effb3879bf8",
-      "is_new": false,
-      "release_date": "2026-08-24"
     },
     {
       "album_id": "5vna4fd7ewasZ4ImD2zV2w",
@@ -277,35 +354,24 @@
       "release_date": "2026-08-24"
     },
     {
-      "album_id": "0qPacTwzJeI1Ik1uyWCiGH",
-      "album_name": "World Away (GorillaT Remix)",
+      "album_id": "2g6XbbyPIPRMa2P1ildhza",
+      "album_name": "serena joy",
       "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485122a6c8c6489fd7f266413217",
+      "image": "https://i.scdn.co/image/ab67616d00004851aeb1724f09a75effb3879bf8",
       "is_new": false,
-      "release_date": "2026-08-21"
+      "release_date": "2026-08-24"
     },
     {
-      "album_id": "0R7lKm7pMZHjdrY1UVcc02",
-      "album_name": "Inundauswendig",
+      "album_id": "0i3wruZEDnREqgbnMQNVmd",
+      "album_name": "Empty",
       "album_type": "single",
-      "artist": "makko",
-      "artist_id": "6ARKr2ZoLf9TDoQiZarJMt",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851bd9982d65b699012379d87ce",
-      "is_new": false,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "0zNf64IcJ6RNxbZ0h5GleK",
-      "album_name": "CONTRABAND (feat. Skrillex, BEAM & Dilip)",
-      "album_type": "single",
-      "artist": "Naisha",
-      "artist_id": "4t4tIl2hE43qSpYeYnUxuI",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851188388f1c27f30d13d88e101",
+      "image": "https://i.scdn.co/image/ab67616d00004851967a68b104b71fabf4b2c356",
       "is_new": false,
       "release_date": "2026-08-21"
     },
@@ -321,6 +387,17 @@
       "release_date": "2026-08-21"
     },
     {
+      "album_id": "0qPacTwzJeI1Ik1uyWCiGH",
+      "album_name": "World Away (GorillaT Remix)",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485122a6c8c6489fd7f266413217",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
       "album_id": "0OYGM74g8YaAAKwi5MqVt6",
       "album_name": "涙色のメダル",
       "album_type": "single",
@@ -328,6 +405,39 @@
       "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851243058c39a236cde9cd05e1f",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "2KkvZznMd5qQOk0ChOOkQW",
+      "album_name": "Disney Princess Peaceful Piano: Calm",
+      "album_type": "album",
+      "artist": "Disney Peaceful Piano",
+      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b554501a5d519f93e5dc6a2c",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "0R7lKm7pMZHjdrY1UVcc02",
+      "album_name": "Inundauswendig",
+      "album_type": "single",
+      "artist": "makko",
+      "artist_id": "6ARKr2ZoLf9TDoQiZarJMt",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851bd9982d65b699012379d87ce",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
+      "album_id": "535Rkhktd2YiyOPLXgwSzs",
+      "album_name": "Brotherman",
+      "album_type": "single",
+      "artist": "VAVO",
+      "artist_id": "44re77WwNG34C182Jq3WIK",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485123f4618eedc4f0289348f02c",
       "is_new": false,
       "release_date": "2026-08-21"
     },
@@ -343,13 +453,13 @@
       "release_date": "2026-08-21"
     },
     {
-      "album_id": "0i3wruZEDnREqgbnMQNVmd",
-      "album_name": "Empty",
+      "album_id": "64F341YgEawM64jCPNdCLc",
+      "album_name": "Life Goes On",
       "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851967a68b104b71fabf4b2c356",
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485133b54e371e08f720cb7c8de3",
       "is_new": false,
       "release_date": "2026-08-21"
     },
@@ -376,6 +486,17 @@
       "release_date": "2026-08-21"
     },
     {
+      "album_id": "0zNf64IcJ6RNxbZ0h5GleK",
+      "album_name": "CONTRABAND (feat. Skrillex, BEAM & Dilip)",
+      "album_type": "single",
+      "artist": "Naisha",
+      "artist_id": "4t4tIl2hE43qSpYeYnUxuI",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851188388f1c27f30d13d88e101",
+      "is_new": false,
+      "release_date": "2026-08-21"
+    },
+    {
       "album_id": "63pZdHeciIMzFxFCtYMQ2o",
       "album_name": "LION (Original Series Soundtrack)",
       "album_type": "album",
@@ -396,94 +517,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851b96392cd3037a82dac097ae7",
       "is_new": false,
       "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "64F341YgEawM64jCPNdCLc",
-      "album_name": "Life Goes On",
-      "album_type": "single",
-      "artist": "SG",
-      "artist_id": "216arN9tLMMn2ltwEAxmF5",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485133b54e371e08f720cb7c8de3",
-      "is_new": false,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "2KkvZznMd5qQOk0ChOOkQW",
-      "album_name": "Disney Princess Peaceful Piano: Calm",
-      "album_type": "album",
-      "artist": "Disney Peaceful Piano",
-      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b554501a5d519f93e5dc6a2c",
-      "is_new": false,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "535Rkhktd2YiyOPLXgwSzs",
-      "album_name": "Brotherman",
-      "album_type": "single",
-      "artist": "VAVO",
-      "artist_id": "44re77WwNG34C182Jq3WIK",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485123f4618eedc4f0289348f02c",
-      "is_new": false,
-      "release_date": "2026-08-21"
-    },
-    {
-      "album_id": "5BlhVCj1nOt9XxwjAV4XDo",
-      "album_name": "Pa' Él",
-      "album_type": "single",
-      "artist": "Los Ángeles Azules",
-      "artist_id": "0ZCO8oVkMj897cKgFH7fRW",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e5608250ac1091686a555d2b",
-      "is_new": false,
-      "release_date": "2026-08-20"
-    },
-    {
-      "album_id": "2GoIiWfFBe6zSZP0YiQOQE",
-      "album_name": "Future Self (The Remixes)",
-      "album_type": "single",
-      "artist": "H3RIZON",
-      "artist_id": "3ZaZApU5I9vSUHzOoUlp0D",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851487a0b80edb5dbae31aa32da",
-      "is_new": false,
-      "release_date": "2026-08-20"
-    },
-    {
-      "album_id": "64PWYCycLR61QFC6gdBh31",
-      "album_name": "The Old Guys (feat. Cody Johnson)",
-      "album_type": "single",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dcf5ad514bf3f5b931d24f2e",
-      "is_new": false,
-      "release_date": "2026-08-20"
-    },
-    {
-      "album_id": "7pRapjhjgLk5V8f7T561JQ",
-      "album_name": "Disney Micky: Mickys schönste Abenteuer",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cd68a2e15ac988037cb896e6",
-      "is_new": false,
-      "release_date": "2026-08-20"
-    },
-    {
-      "album_id": "68Y2VZl1OdhSEd9huzkGJE",
-      "album_name": "Valentijnsdag met Stitch",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c2ee8a1934f2ac5e387ec69f",
-      "is_new": false,
-      "release_date": "2026-08-20"
     }
   ]
 }

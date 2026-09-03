@@ -33,7 +33,7 @@
       "month": "2026-08"
     },
     {
-      "count": 16,
+      "count": 152,
       "month": "2026-09"
     }
   ],
@@ -43,43 +43,43 @@
     "dow": 3,
     "hour": 9
   },
-  "plays": 11582,
+  "plays": 11718,
   "top_artists": [
     {
-      "count": 1557,
+      "count": 1570,
       "name": "OneRepublic"
     },
     {
-      "count": 854,
+      "count": 895,
       "name": "The Beatles"
     },
     {
-      "count": 746,
+      "count": 750,
       "name": "Charlie Puth"
     },
     {
-      "count": 468,
+      "count": 477,
       "name": "Taylor Swift"
     },
     {
-      "count": 315,
+      "count": 320,
       "name": "Henry Moodie"
     },
     {
-      "count": 301,
+      "count": 309,
       "name": "Justin Bieber"
     },
     {
-      "count": 289,
+      "count": 291,
       "name": "Maroon 5"
+    },
+    {
+      "count": 280,
+      "name": "Ed Sheeran"
     },
     {
       "count": 276,
       "name": "Michael Jackson"
-    },
-    {
-      "count": 275,
-      "name": "Ed Sheeran"
     },
     {
       "count": 245,
@@ -94,7 +94,7 @@
       "name": "ワンリパブリック"
     },
     {
-      "count": 160,
+      "count": 161,
       "name": "Shawn Mendes"
     },
     {
@@ -102,7 +102,7 @@
       "name": "King Gnu"
     },
     {
-      "count": 153,
+      "count": 155,
       "name": "Bruno Mars"
     },
     {
@@ -122,8 +122,8 @@
       "name": "Eve"
     },
     {
-      "count": 118,
-      "name": "ザ・ビートルズ"
+      "count": 119,
+      "name": "One Direction"
     }
   ],
   "top_tracks": [
@@ -283,9 +283,9 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 51,
-      "name": "Rich Love (with Seeb)",
-      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
+      "count": 52,
+      "name": "Run",
+      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
     }
   ],
   "year": "2026"
