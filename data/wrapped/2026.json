@@ -33,7 +33,7 @@
       "month": "2026-08"
     },
     {
-      "count": 152,
+      "count": 218,
       "month": "2026-09"
     }
   ],
@@ -43,7 +43,7 @@
     "dow": 3,
     "hour": 9
   },
-  "plays": 11718,
+  "plays": 11784,
   "top_artists": [
     {
       "count": 1570,
@@ -54,7 +54,7 @@
       "name": "The Beatles"
     },
     {
-      "count": 750,
+      "count": 751,
       "name": "Charlie Puth"
     },
     {
@@ -62,7 +62,7 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 320,
+      "count": 321,
       "name": "Henry Moodie"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Train"
     },
     {
-      "count": 178,
+      "count": 191,
       "name": "ワンリパブリック"
     },
     {
@@ -187,7 +187,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 60,
+      "count": 61,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
     },
@@ -252,6 +252,14 @@
         "OneRepublic"
       ],
       "count": 53,
+      "name": "Marchin On",
+      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 53,
       "name": "Good Life - from One Night In Malibu",
       "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
     },
@@ -276,16 +284,8 @@
         "OneRepublic"
       ],
       "count": 52,
-      "name": "Marchin On",
-      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 52,
-      "name": "Run",
-      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
+      "name": "Rich Love (with Seeb)",
+      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
     }
   ],
   "year": "2026"
