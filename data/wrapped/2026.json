@@ -33,20 +33,20 @@
       "month": "2026-08"
     },
     {
-      "count": 218,
+      "count": 291,
       "month": "2026-09"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 930,
+  "new_tracks": 933,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 11784,
+  "plays": 11857,
   "top_artists": [
     {
-      "count": 1570,
+      "count": 1599,
       "name": "OneRepublic"
     },
     {
@@ -54,7 +54,7 @@
       "name": "The Beatles"
     },
     {
-      "count": 751,
+      "count": 750,
       "name": "Charlie Puth"
     },
     {
@@ -62,16 +62,16 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 321,
+      "count": 337,
       "name": "Henry Moodie"
+    },
+    {
+      "count": 310,
+      "name": "Maroon 5"
     },
     {
       "count": 309,
       "name": "Justin Bieber"
-    },
-    {
-      "count": 291,
-      "name": "Maroon 5"
     },
     {
       "count": 280,
@@ -155,6 +155,14 @@
       "artists": [
         "OneRepublic"
       ],
+      "count": 67,
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
       "count": 66,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
@@ -163,15 +171,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 66,
-      "name": "Kids",
-      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 62,
+      "count": 63,
       "name": "Apologize",
       "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
@@ -179,7 +179,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 61,
+      "count": 62,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
@@ -187,7 +187,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 61,
+      "count": 62,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
     },
@@ -219,7 +219,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 57,
+      "count": 58,
       "name": "Rescue Me",
       "track_id": "37LNNQNbL1YLyutBG6aWRx"
     },
