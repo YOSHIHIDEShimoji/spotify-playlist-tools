@@ -3,7 +3,7 @@
     {
       "because": [
         {
-          "count": 15640,
+          "count": 15642,
           "name": "The Beatles"
         },
         {
@@ -12,7 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 23.2505
+      "score": 23.5654
     },
     {
       "because": [
@@ -31,7 +31,7 @@
     {
       "because": [
         {
-          "count": 15640,
+          "count": 15642,
           "name": "The Beatles"
         },
         {
@@ -40,7 +40,7 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.7142
+      "score": 15.7176
     },
     {
       "because": [
@@ -59,7 +59,7 @@
     {
       "because": [
         {
-          "count": 15640,
+          "count": 15642,
           "name": "The Beatles"
         },
         {
@@ -68,7 +68,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.5838
+      "score": 13.8446
     },
     {
       "because": [
@@ -138,7 +138,7 @@
         }
       ],
       "name": "Givēon",
-      "score": 9.7697
+      "score": 9.6957
     },
     {
       "because": [
@@ -171,7 +171,7 @@
     {
       "because": [
         {
-          "count": 862,
+          "count": 864,
           "name": "Novelbright"
         },
         {
@@ -180,7 +180,7 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.2678
+      "score": 9.2689
     },
     {
       "because": [
@@ -194,7 +194,7 @@
         }
       ],
       "name": "Usher",
-      "score": 9.1683
+      "score": 9.2343
     },
     {
       "because": [
@@ -329,12 +329,12 @@
           "name": "back number"
         },
         {
-          "count": 862,
+          "count": 864,
           "name": "Novelbright"
         }
       ],
       "name": "SUPER BEAVER",
-      "score": 6.9528
+      "score": 6.9537
     },
     {
       "because": [
@@ -377,21 +377,7 @@
     {
       "because": [
         {
-          "count": 862,
-          "name": "Novelbright"
-        },
-        {
-          "count": 356,
-          "name": "ONE OK ROCK"
-        }
-      ],
-      "name": "SPYAIR",
-      "score": 6.7065
-    },
-    {
-      "because": [
-        {
-          "count": 15640,
+          "count": 15642,
           "name": "The Beatles"
         },
         {
@@ -400,7 +386,21 @@
         }
       ],
       "name": "Traveling Wilburys",
-      "score": 6.7015
+      "score": 6.7378
+    },
+    {
+      "because": [
+        {
+          "count": 864,
+          "name": "Novelbright"
+        },
+        {
+          "count": 356,
+          "name": "ONE OK ROCK"
+        }
+      ],
+      "name": "SPYAIR",
+      "score": 6.7081
     },
     {
       "because": [
@@ -409,16 +409,16 @@
           "name": "Dua Lipa"
         },
         {
-          "count": 234,
+          "count": 233,
           "name": "Katy Perry"
         }
       ],
       "name": "Tove Lo",
-      "score": 6.7014
+      "score": 6.6987
     }
   ],
   "available": true,
-  "generated_at": "2026-09-05T17:51:11.027511+00:00",
+  "generated_at": "2026-09-06T17:56:24.646366+00:00",
   "source": "lastfm",
   "tracks": [
     {

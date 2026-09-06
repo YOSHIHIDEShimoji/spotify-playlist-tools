@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T17:50:42.920770+00:00",
+  "generated_at": "2026-09-06T17:55:55.466810+00:00",
   "totals": {
-    "artists": 1336,
-    "days": 2093,
+    "artists": 1337,
+    "days": 2095,
     "ms": 12440720283,
-    "plays": 63539,
+    "plays": 63557,
     "since": "2019-09-05",
-    "tracks": 4653
+    "tracks": 4660
   },
   "tracks": [
     {
@@ -2745,6 +2745,29 @@
         "The Beatles"
       ],
       "count": 89,
+      "first": "2019-11-01",
+      "id": "2B4Y9u4ERAFiMo13XPJyGP",
+      "image": "https://i.scdn.co/image/ab67616d0000485128b8b9b46428896e6491e97a",
+      "last": "2026-09-07",
+      "ms": 12551487,
+      "name": "Here, There And Everywhere - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2019": 3,
+        "2020": 35,
+        "2021": 20,
+        "2022": 6,
+        "2023": 5,
+        "2024": 9,
+        "2025": 6,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 89,
       "first": "2019-09-07",
       "id": "7wC4EW11mBVxDK3xdC7FTf",
       "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
@@ -2865,29 +2888,6 @@
         "2024": 9,
         "2025": 6,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 88,
-      "first": "2019-11-01",
-      "id": "2B4Y9u4ERAFiMo13XPJyGP",
-      "image": "https://i.scdn.co/image/ab67616d0000485128b8b9b46428896e6491e97a",
-      "last": "2026-09-03",
-      "ms": 12551487,
-      "name": "Here, There And Everywhere - Remastered 2009",
-      "short": 23,
-      "years": {
-        "2019": 3,
-        "2020": 35,
-        "2021": 20,
-        "2022": 6,
-        "2023": 5,
-        "2024": 9,
-        "2025": 6,
-        "2026": 4
       }
     },
     {
@@ -3288,6 +3288,24 @@
     },
     {
       "artists": [
+        "Novelbright"
+      ],
+      "count": 85,
+      "first": "2024-10-28",
+      "id": "3y3gIFisu61Qc3NtRE7a2r",
+      "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
+      "last": "2026-09-07",
+      "ms": 20324505,
+      "name": "アイビー",
+      "short": 12,
+      "years": {
+        "2024": 1,
+        "2025": 46,
+        "2026": 38
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 84,
@@ -3679,24 +3697,6 @@
         "2024": 3,
         "2025": 1,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "Novelbright"
-      ],
-      "count": 83,
-      "first": "2024-10-28",
-      "id": "3y3gIFisu61Qc3NtRE7a2r",
-      "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
-      "last": "2026-08-03",
-      "ms": 20324505,
-      "name": "アイビー",
-      "short": 12,
-      "years": {
-        "2024": 1,
-        "2025": 46,
-        "2026": 36
       }
     },
     {
@@ -5003,6 +5003,24 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 73,
+      "first": "2020-05-19",
+      "id": "6eV7eK07znOHcKz3bzEmpS",
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "last": "2026-09-05",
+      "ms": 13338655,
+      "name": "Sugar",
+      "short": 11,
+      "years": {
+        "2020": 1,
+        "2025": 29,
+        "2026": 43
+      }
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 73,
@@ -5172,24 +5190,6 @@
         "2024": 7,
         "2025": 4,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 72,
-      "first": "2020-05-19",
-      "id": "6eV7eK07znOHcKz3bzEmpS",
-      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
-      "last": "2026-09-05",
-      "ms": 13338655,
-      "name": "Sugar",
-      "short": 11,
-      "years": {
-        "2020": 1,
-        "2025": 29,
-        "2026": 42
       }
     },
     {
@@ -11770,6 +11770,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 40,
+      "first": "2025-12-20",
+      "id": "0wPKDeY4fZXT6k9bzV0kx0",
+      "image": "https://i.scdn.co/image/ab67616d00004851ab7a47f18916a10046212857",
+      "last": "2026-09-06",
+      "ms": 5160272,
+      "name": "That's Hilarious",
+      "short": 3,
+      "years": {
+        "2025": 4,
+        "2026": 36
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 39,
@@ -12011,23 +12028,6 @@
       "years": {
         "2025": 24,
         "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 39,
-      "first": "2025-12-20",
-      "id": "0wPKDeY4fZXT6k9bzV0kx0",
-      "image": "https://i.scdn.co/image/ab67616d00004851ab7a47f18916a10046212857",
-      "last": "2026-08-15",
-      "ms": 5160272,
-      "name": "That's Hilarious",
-      "short": 3,
-      "years": {
-        "2025": 4,
-        "2026": 35
       }
     },
     {
@@ -14827,6 +14827,25 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 25,
+      "first": "2022-05-08",
+      "id": "3HVWdVOQ0ZA45FuZGSfvns",
+      "image": "https://i.scdn.co/image/ab67616d00004851460675584aa9e4bd2d1a4ce8",
+      "last": "2026-09-06",
+      "ms": 4334982,
+      "name": "I Don't Care (with Justin Bieber)",
+      "short": 12,
+      "years": {
+        "2022": 3,
+        "2023": 3,
+        "2025": 1,
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 25,
@@ -15102,25 +15121,6 @@
         "2023": 1,
         "2024": 1,
         "2025": 3,
-        "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 24,
-      "first": "2022-05-08",
-      "id": "3HVWdVOQ0ZA45FuZGSfvns",
-      "image": "https://i.scdn.co/image/ab67616d00004851460675584aa9e4bd2d1a4ce8",
-      "last": "2026-08-21",
-      "ms": 4334982,
-      "name": "I Don't Care (with Justin Bieber)",
-      "short": 12,
-      "years": {
-        "2022": 3,
-        "2023": 3,
-        "2025": 1,
         "2026": 17
       }
     },
@@ -17359,7 +17359,7 @@
       "first": "2026-05-06",
       "id": "2009X8GyWTqyxIdzAEYW6N",
       "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-09-05",
+      "last": "2026-09-06",
       "ms": 909332,
       "name": "The One That Got Away",
       "years": {
@@ -17767,6 +17767,23 @@
         "2024": 3,
         "2025": 1,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Clean Bandit"
+      ],
+      "count": 17,
+      "first": "2024-06-04",
+      "id": "61dCUoMCg28qEBzrW6htYM",
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "last": "2026-09-06",
+      "ms": 455666,
+      "name": "Rather Be (feat. Jess Glynne)",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2026": 16
       }
     },
     {
@@ -18909,23 +18926,6 @@
     },
     {
       "artists": [
-        "Clean Bandit"
-      ],
-      "count": 15,
-      "first": "2024-06-04",
-      "id": "61dCUoMCg28qEBzrW6htYM",
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "last": "2026-09-05",
-      "ms": 455666,
-      "name": "Rather Be (feat. Jess Glynne)",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2026": 14
-      }
-    },
-    {
-      "artists": [
         "Maroon 5"
       ],
       "count": 15,
@@ -19156,6 +19156,26 @@
         "2024": 2,
         "2025": 5,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 14,
+      "first": "2019-11-04",
+      "id": "38Vb1J5W5LOs0i7SAF76pa",
+      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
+      "last": "2026-09-07",
+      "ms": 1696584,
+      "name": "Can't Buy Me Love - Remastered 2015",
+      "short": 6,
+      "years": {
+        "2019": 2,
+        "2020": 3,
+        "2023": 6,
+        "2024": 1,
+        "2026": 2
       }
     },
     {
@@ -19565,6 +19585,25 @@
         "The Beatles"
       ],
       "count": 13,
+      "first": "2020-08-02",
+      "id": "1pctwlBtIcKIjQMzsVcGHB",
+      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
+      "last": "2026-09-07",
+      "ms": 1835040,
+      "name": "A Hard Day's Night - Remastered 2015",
+      "short": 5,
+      "years": {
+        "2020": 3,
+        "2023": 7,
+        "2024": 1,
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 13,
       "first": "2020-01-06",
       "id": "2ck8lFrYAch2GPtdhpTHe3",
       "image": "https://i.scdn.co/image/ab67616d00004851d283808926ad3d2220e63c1c",
@@ -19647,26 +19686,6 @@
       "short": 3,
       "years": {
         "2020": 13
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 13,
-      "first": "2019-11-04",
-      "id": "38Vb1J5W5LOs0i7SAF76pa",
-      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
-      "last": "2026-07-09",
-      "ms": 1696584,
-      "name": "Can't Buy Me Love - Remastered 2015",
-      "short": 6,
-      "years": {
-        "2019": 2,
-        "2020": 3,
-        "2023": 6,
-        "2024": 1,
-        "2026": 1
       }
     },
     {
@@ -19989,25 +20008,6 @@
       "short": 4,
       "years": {
         "2025": 13
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 12,
-      "first": "2020-08-02",
-      "id": "1pctwlBtIcKIjQMzsVcGHB",
-      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
-      "last": "2026-07-09",
-      "ms": 1835040,
-      "name": "A Hard Day's Night - Remastered 2015",
-      "short": 5,
-      "years": {
-        "2020": 3,
-        "2023": 7,
-        "2024": 1,
-        "2026": 1
       }
     },
     {
@@ -23835,6 +23835,21 @@
     },
     {
       "artists": [
+        "Bruno Mars"
+      ],
+      "count": 7,
+      "first": "2026-02-22",
+      "id": "4lLtanYk6tkMvooU0tWzG8",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "last": "2026-09-06",
+      "ms": 444182,
+      "name": "Grenade",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 7,
@@ -25100,21 +25115,6 @@
       "years": {
         "2020": 3,
         "2021": 3
-      }
-    },
-    {
-      "artists": [
-        "Bruno Mars"
-      ],
-      "count": 6,
-      "first": "2026-02-22",
-      "id": "4lLtanYk6tkMvooU0tWzG8",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "last": "2026-08-20",
-      "ms": 444182,
-      "name": "Grenade",
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -45054,6 +45054,21 @@
     },
     {
       "artists": [
+        "アン・マリー"
+      ],
+      "count": 1,
+      "first": "2026-09-06",
+      "id": "lastfm:2002|アン・マリー",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-06",
+      "ms": 0,
+      "name": "2002",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Taylor Swift"
       ],
       "count": 1,
@@ -45310,6 +45325,21 @@
       "name": "A Hard Day's Night - Remastered 2009",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:aharddaysnightremastered2015|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "A Hard Day's Night - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -47999,6 +48029,21 @@
       "short": 1,
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:cantbuymeloveremastered2015|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "Can't Buy Me Love - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -52097,6 +52142,21 @@
     },
     {
       "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:frommetoyoumonoremastered|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "From Me To You - Mono / Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -54537,6 +54597,21 @@
       "short": 1,
       "years": {
         "2019": 1
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:iwanttoholdyourhandremastered2015|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "I Want To Hold Your Hand - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -57445,6 +57520,21 @@
       "short": 1,
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:lovemedomonoremastered|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "Love Me Do - Mono / Remastered",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -63200,6 +63290,21 @@
     },
     {
       "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-07",
+      "id": "lastfm:shelovesyoumonoremastered|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-07",
+      "ms": 0,
+      "name": "She Loves You - Mono / Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -63838,8 +63943,8 @@
       ],
       "count": 1,
       "first": "2026-09-05",
-      "id": "lastfm:sofargone|jamesblunt",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f9e482be27c8161252495184433762d8.jpg",
+      "id": "1XCWRPypSirT0WiXQGDcAl",
+      "image": "https://i.scdn.co/image/ab67616d00004851bbbb9c1089c641a3d7c81bd8",
       "last": "2026-09-05",
       "ms": 0,
       "name": "So Far Gone",

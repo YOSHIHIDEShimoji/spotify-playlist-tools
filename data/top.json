@@ -326,38 +326,38 @@
         "rank": 4
       },
       {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "rank": 5
+      },
+      {
         "id": "06HL4z0CvFAxyc27GXpf02",
         "name": "Taylor Swift",
-        "rank": 5
+        "rank": 6
       },
       {
         "id": "04gDigrS5kc9YWfZHwBETP",
         "name": "Maroon 5",
-        "rank": 6
+        "rank": 7
       },
       {
         "id": "6VuMaDnrHyPL1p4EHjYLi7",
         "name": "Charlie Puth",
-        "rank": 7
+        "rank": 8
       },
       {
         "id": "6eUKZXaKkcviH0Ku9w2n3V",
         "name": "Ed Sheeran",
-        "rank": 8
+        "rank": 9
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 9
+        "rank": 10
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 10
-      },
-      {
-        "id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "name": "The Beatles",
         "rank": 11
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-05T17:54:43.972149+00:00",
+  "generated_at": "2026-09-06T17:58:52.069426+00:00",
   "tracks": {
     "long_term": [
       {
@@ -825,12 +825,21 @@
       },
       {
         "artists": [
+          "Novelbright"
+        ],
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
+        "name": "アイビー",
+        "rank": 11
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "0baR1QmlC8CruupaxA1IYA",
         "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
         "name": "Beautiful Colors - from Kaiju No. 8",
-        "rank": 11
+        "rank": 12
       },
       {
         "artists": [
@@ -839,7 +848,7 @@
         "id": "6keF0sk7i4WU3cVnMkTtS3",
         "image": "https://i.scdn.co/image/ab67616d00004851fedd3df3fa6f52c42fbb9e08",
         "name": "Sunshine",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -848,7 +857,7 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -857,7 +866,7 @@
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -866,15 +875,6 @@
         "id": "2IPpyxIgVLoDmYGIffJrol",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Marchin On",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "Novelbright"
-        ],
-        "id": "2jS3Oo8GqrhrBDAeU1stum",
-        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
-        "name": "アイビー",
         "rank": 16
       },
       {
@@ -917,12 +917,21 @@
       },
       {
         "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
+        "rank": 21
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "6KL88T4Ma4ABXqzgUoEwkd",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Run",
-        "rank": 21
+        "rank": 22
       },
       {
         "artists": [
@@ -931,7 +940,7 @@
         "id": "05sCp83gcMm1iecYydKJS3",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Let's Hurt Tonight",
-        "rank": 22
+        "rank": 23
       },
       {
         "artists": [
@@ -941,7 +950,7 @@
         "id": "1sgDyuLooyvEML4oHspNza",
         "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
         "name": "Lose Somebody",
-        "rank": 23
+        "rank": 24
       },
       {
         "artists": [
@@ -951,7 +960,7 @@
         "id": "0xSjAuPhm9tJXX2nRt2Avv",
         "image": "https://i.scdn.co/image/ab67616d0000485195eb68e4122b8b9dbdf4210d",
         "name": "Chasing Paradise",
-        "rank": 24
+        "rank": 25
       },
       {
         "artists": [
@@ -960,15 +969,6 @@
         "id": "3FK9wVJHNdJhqVPbIcoZsn",
         "image": "https://i.scdn.co/image/ab67616d00004851ee6a59212d632b1c2945e0c0",
         "name": "Need Your Love",
-        "rank": 25
-      },
-      {
-        "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
         "rank": 26
       },
       {
@@ -1023,21 +1023,12 @@
       },
       {
         "artists": [
-          "Phillip Phillips"
-        ],
-        "id": "56sxN1yKg1dgOZXBcAHkJG",
-        "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
-        "name": "Gone, Gone, Gone",
-        "rank": 2
-      },
-      {
-        "artists": [
           "Katy Perry"
         ],
         "id": "2009X8GyWTqyxIdzAEYW6N",
         "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
         "name": "The One That Got Away",
-        "rank": 3
+        "rank": 2
       },
       {
         "artists": [
@@ -1046,15 +1037,24 @@
         "id": "4r6eNCsrZnQWJzzvFh4nlg",
         "image": "https://i.scdn.co/image/ab67616d00004851d20c38f295039520d688a888",
         "name": "Firework",
+        "rank": 3
+      },
+      {
+        "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
         "rank": 4
       },
       {
         "artists": [
-          "Steve Lacy"
+          "Phillip Phillips"
         ],
-        "id": "22NHkFYbgxB2Zirj29Gbp8",
-        "image": "https://i.scdn.co/image/ab67616d000048514ea9ba86cd9506a004bab042",
-        "name": "oh yeah?",
+        "id": "56sxN1yKg1dgOZXBcAHkJG",
+        "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+        "name": "Gone, Gone, Gone",
         "rank": 5
       },
       {
@@ -1095,21 +1095,12 @@
       },
       {
         "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
-        "rank": 10
-      },
-      {
-        "artists": [
           "Bruno Mars"
         ],
         "id": "0B0tYbVp7pDQAqKDhgMeaL",
         "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
         "name": "Too Good to Say Goodbye",
-        "rank": 11
+        "rank": 10
       },
       {
         "artists": [
@@ -1118,7 +1109,7 @@
         "id": "0EPINaCMN2i8A0MBCmoZVm",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "bad emotions",
-        "rank": 12
+        "rank": 11
       },
       {
         "artists": [
@@ -1127,6 +1118,15 @@
         "id": "0ehxWIhybOYQ3acRhmcNVF",
         "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
         "name": "Beautiful Goodbye",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "Steve Lacy"
+        ],
+        "id": "22NHkFYbgxB2Zirj29Gbp8",
+        "image": "https://i.scdn.co/image/ab67616d000048514ea9ba86cd9506a004bab042",
+        "name": "oh yeah?",
         "rank": 13
       },
       {
