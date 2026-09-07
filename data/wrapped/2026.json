@@ -33,17 +33,17 @@
       "month": "2026-08"
     },
     {
-      "count": 309,
+      "count": 343,
       "month": "2026-09"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 940,
+  "new_tracks": 954,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 11875,
+  "plays": 11909,
   "top_artists": [
     {
       "count": 1599,
@@ -62,7 +62,7 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 337,
+      "count": 338,
       "name": "Henry Moodie"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Train"
     },
     {
-      "count": 191,
+      "count": 194,
       "name": "ワンリパブリック"
     },
     {
@@ -106,6 +106,10 @@
       "name": "Bruno Mars"
     },
     {
+      "count": 139,
+      "name": "ザ・ビートルズ"
+    },
+    {
       "count": 138,
       "name": "Kygo"
     },
@@ -116,10 +120,6 @@
     {
       "count": 125,
       "name": "back number"
-    },
-    {
-      "count": 125,
-      "name": "ザ・ビートルズ"
     },
     {
       "count": 122,
@@ -155,7 +155,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 67,
+      "count": 68,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -163,7 +163,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 66,
+      "count": 67,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -195,7 +195,7 @@
       "artists": [
         "HUNTR/X"
       ],
-      "count": 59,
+      "count": 60,
       "name": "Golden",
       "track_id": "1CPZ5BxNNd0n0nF4Orb9JS"
     },

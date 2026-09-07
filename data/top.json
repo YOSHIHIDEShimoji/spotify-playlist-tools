@@ -249,18 +249,18 @@
         "rank": 19
       },
       {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 20
+      },
+      {
         "id": "2DaxqgrOhkeH0fpeiQq2f4",
         "name": "Oasis",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "6rs1KAoQnFalSqSU4LTh8g",
         "name": "back number",
-        "rank": 21
-      },
-      {
-        "id": "5ZsFI1h6hIdQRw2ti0hz81",
-        "name": "ZAYN",
         "rank": 22
       },
       {
@@ -316,18 +316,18 @@
         "rank": 2
       },
       {
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
+        "rank": 3
+      },
+      {
         "id": "1uNFoZAHBGtllmzznpCI3s",
         "name": "Justin Bieber",
-        "rank": 3
+        "rank": 4
       },
       {
         "id": "7hr9W3IjXcm3UlLY7guLk5",
         "name": "Henry Moodie",
-        "rank": 4
-      },
-      {
-        "id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "name": "The Beatles",
         "rank": 5
       },
       {
@@ -391,18 +391,18 @@
         "rank": 17
       },
       {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
+        "rank": 18
+      },
+      {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 18
+        "rank": 19
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 19
-      },
-      {
-        "id": "5ZsFI1h6hIdQRw2ti0hz81",
-        "name": "ZAYN",
         "rank": 20
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-06T17:58:52.069426+00:00",
+  "generated_at": "2026-09-07T19:34:23.028973+00:00",
   "tracks": {
     "long_term": [
       {
@@ -561,20 +561,20 @@
       },
       {
         "artists": [
-          "Naomi Scott"
-        ],
-        "id": "0XPsOSYzDJZJArevQNm2AR",
-        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
-        "name": "Speechless (Full)",
-        "rank": 12
-      },
-      {
-        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "6KLaKHxwJE3CZECVJLH4cN",
         "image": "https://i.scdn.co/image/ab67616d0000485176b0bb5718d2e9f13107951b",
         "name": "Universe",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "Naomi Scott"
+        ],
+        "id": "0XPsOSYzDJZJArevQNm2AR",
+        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
+        "name": "Speechless (Full)",
         "rank": 13
       },
       {
@@ -598,21 +598,12 @@
       },
       {
         "artists": [
-          "suis from Yorushika"
-        ],
-        "id": "30aPCMAtkH6Cf5ejzY4cE4",
-        "image": "https://i.scdn.co/image/ab67616d000048515b9ddb28cb2d440296a5bcbf",
-        "name": "星めぐる詩",
-        "rank": 16
-      },
-      {
-        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "66hblHI9wl1Nim70ZYLb6D",
         "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
         "name": "TATTOO",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -621,7 +612,7 @@
         "id": "3ouZoixdw9pSbIq8aHDh3V",
         "image": "https://i.scdn.co/image/ab67616d000048516a4326912dec0528b4a0eb83",
         "name": "宿命",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -630,6 +621,15 @@
         "id": "6vtHQ7FcAXSOKSOeaBm5bc",
         "image": "https://i.scdn.co/image/ab67616d00004851671029020a0ce4210b24e666",
         "name": "異端なスター",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "6sy3LkhNFjJWlaeSMNwQ62",
+        "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+        "name": "Counting Stars",
         "rank": 19
       },
       {
@@ -643,21 +643,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "6sy3LkhNFjJWlaeSMNwQ62",
-        "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-        "name": "Counting Stars",
-        "rank": 21
-      },
-      {
-        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "49F3htNmwzPKFycPdOrDvf",
         "image": "https://i.scdn.co/image/ab67616d00004851d69b54199b7773b97a57a196",
         "name": "Subtitle",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -666,7 +657,7 @@
         "id": "58dxGXavrcagRqA58fNB0Z",
         "image": "https://i.scdn.co/image/ab67616d0000485176f402d83c2a85e5deca60e7",
         "name": "Pretender",
-        "rank": 23
+        "rank": 22
       },
       {
         "artists": [
@@ -675,16 +666,16 @@
         "id": "3y3gIFisu61Qc3NtRE7a2r",
         "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
         "name": "アイビー",
-        "rank": 24
+        "rank": 23
       },
       {
         "artists": [
-          "OneRepublic"
+          "suis from Yorushika"
         ],
-        "id": "73PAbYaVbnFG0tQ4aBfxeN",
-        "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
-        "name": "I Ain't Worried",
-        "rank": 25
+        "id": "30aPCMAtkH6Cf5ejzY4cE4",
+        "image": "https://i.scdn.co/image/ab67616d000048515b9ddb28cb2d440296a5bcbf",
+        "name": "星めぐる詩",
+        "rank": 24
       },
       {
         "artists": [
@@ -693,6 +684,15 @@
         "id": "2SRmR6w3MMCA0UwAtKkVrZ",
         "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
         "name": "Broken Heart of Gold",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "73PAbYaVbnFG0tQ4aBfxeN",
+        "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
+        "name": "I Ain't Worried",
         "rank": 26
       },
       {
@@ -715,20 +715,20 @@
       },
       {
         "artists": [
-          "Omoinotake"
-        ],
-        "id": "4dmruTsdHIOjfOIeaFitXK",
-        "image": "https://i.scdn.co/image/ab67616d00004851041c5ffe0b8b02e029276100",
-        "name": "幾億光年",
-        "rank": 29
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "5BJSZocnCeSNeYMj3iVqM7",
         "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
         "name": "Love Runs Out",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Novelbright"
+        ],
+        "id": "093KHY83BAuupQoAs4TpSh",
+        "image": "https://i.scdn.co/image/ab67616d00004851a15dc066cec020b5da991c34",
+        "name": "開幕宣言",
         "rank": 30
       }
     ],
@@ -907,21 +907,21 @@
       },
       {
         "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
+        "rank": 20
+      },
+      {
+        "artists": [
           "Kygo",
           "OneRepublic"
         ],
         "id": "4sJqSKPc5fZ5OZ8JiVI44N",
         "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
         "name": "Stranger Things (feat. OneRepublic)",
-        "rank": 20
-      },
-      {
-        "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
         "rank": 21
       },
       {
@@ -1086,21 +1086,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "3IQF4xCQUPicbA4hWfTxPo",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "I Lived",
-        "rank": 9
-      },
-      {
-        "artists": [
           "Bruno Mars"
         ],
         "id": "0B0tYbVp7pDQAqKDhgMeaL",
         "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
         "name": "Too Good to Say Goodbye",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
@@ -1109,7 +1100,7 @@
         "id": "0EPINaCMN2i8A0MBCmoZVm",
         "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
         "name": "bad emotions",
-        "rank": 11
+        "rank": 10
       },
       {
         "artists": [
@@ -1118,16 +1109,7 @@
         "id": "0ehxWIhybOYQ3acRhmcNVF",
         "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
         "name": "Beautiful Goodbye",
-        "rank": 12
-      },
-      {
-        "artists": [
-          "Steve Lacy"
-        ],
-        "id": "22NHkFYbgxB2Zirj29Gbp8",
-        "image": "https://i.scdn.co/image/ab67616d000048514ea9ba86cd9506a004bab042",
-        "name": "oh yeah?",
-        "rank": 13
+        "rank": 11
       },
       {
         "artists": [
@@ -1136,7 +1118,7 @@
         "id": "280MV4FuB5uusjx8wj1dpt",
         "image": "https://i.scdn.co/image/ab67616d00004851e013d46a0f578807480c7da9",
         "name": "the older you get, the less you cry",
-        "rank": 14
+        "rank": 12
       },
       {
         "artists": [
@@ -1146,7 +1128,7 @@
         "id": "3Vo4wInECJQuz9BIBMOu8i",
         "image": "https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06",
         "name": "Finesse - Remix; feat. Cardi B",
-        "rank": 15
+        "rank": 13
       },
       {
         "artists": [
@@ -1155,7 +1137,7 @@
         "id": "3cOO5IQtOYs7huq4Z6lYfr",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "Love Runs Out",
-        "rank": 16
+        "rank": 14
       },
       {
         "artists": [
@@ -1164,16 +1146,7 @@
         "id": "3g6nGCEj7NK0KabxlfL9co",
         "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
         "name": "current location",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "Gracie Abrams"
-        ],
-        "id": "4Sk74gcXTe9dnE1HU5Pn1y",
-        "image": "https://i.scdn.co/image/ab67616d000048516d63fd3e1afa17b0d5563131",
-        "name": "The Bottom",
-        "rank": 18
+        "rank": 15
       },
       {
         "artists": [
@@ -1182,7 +1155,7 @@
         "id": "5MwIGPDKeDb7SpblcaQP6O",
         "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
         "name": "One Call Away",
-        "rank": 19
+        "rank": 16
       },
       {
         "artists": [
@@ -1191,7 +1164,7 @@
         "id": "5NbplIIyJnnAPrUWeJAbQ4",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Human",
-        "rank": 20
+        "rank": 17
       },
       {
         "artists": [
@@ -1200,7 +1173,7 @@
         "id": "797fEwjPjyNhkoQCHDkzne",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Born",
-        "rank": 21
+        "rank": 18
       },
       {
         "artists": [
@@ -1209,7 +1182,7 @@
         "id": "0UO8qysepsd0eppPu7bYp0",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "people pleaser",
-        "rank": 22
+        "rank": 19
       },
       {
         "artists": [
@@ -1218,7 +1191,7 @@
         "id": "15ahYSiHAIMxAnujlXVtta",
         "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
         "name": "Super Far",
-        "rank": 23
+        "rank": 20
       },
       {
         "artists": [
@@ -1227,7 +1200,7 @@
         "id": "3O0OhpTJu2DV2yIYZAfhzf",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "orbit",
-        "rank": 24
+        "rank": 21
       },
       {
         "artists": [
@@ -1236,7 +1209,7 @@
         "id": "3UGIZ8qcrMTwzLbx6Kttqt",
         "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
         "name": "Boyfriend",
-        "rank": 25
+        "rank": 22
       },
       {
         "artists": [
@@ -1245,7 +1218,7 @@
         "id": "4i4BVY2JiH4mDSLIBdNGKD",
         "image": "https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395",
         "name": "On My Soul",
-        "rank": 26
+        "rank": 23
       },
       {
         "artists": [
@@ -1254,7 +1227,7 @@
         "id": "0ILXYaWxMQVEXnKq2eTmjW",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "What You Wanted",
-        "rank": 27
+        "rank": 24
       },
       {
         "artists": [
@@ -1264,7 +1237,7 @@
         "id": "0VO8gYVDSwM1Qdd2GsMoYK",
         "image": "https://i.scdn.co/image/ab67616d00004851bd6f8ac82dc5fe1028c14f7d",
         "name": "Moth To A Flame (with The Weeknd)",
-        "rank": 28
+        "rank": 25
       },
       {
         "artists": [
@@ -1273,7 +1246,7 @@
         "id": "0eqqORX2j2REFwmdoJaRkH",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "me, myself and i",
-        "rank": 29
+        "rank": 26
       },
       {
         "artists": [
@@ -1282,6 +1255,34 @@
         "id": "0vrmHPfoBadXVr2n0m1aqZ",
         "image": "https://i.scdn.co/image/ab67616d00004851660ee24281a547103f466ff5",
         "name": "Heaven",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1WY42ffdMgNO6q15cePW2g",
+        "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
+        "name": "Something's Gotta Give",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Maroon 5",
+          "Wiz Khalifa"
+        ],
+        "id": "1XGmzt0PVuFgQYYnV2It7A",
+        "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+        "name": "Payphone",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "1ZWp7uMlEwBhpedEw6F048",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "Stargazing",
         "rank": 30
       }
     ]
