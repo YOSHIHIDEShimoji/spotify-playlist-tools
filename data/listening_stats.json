@@ -122,19 +122,19 @@
     },
     {
       "artists": [
+        "Sia"
+      ],
+      "count": 160,
+      "name": "Big Girls Cry",
+      "track_id": "75xgoXAGed7jiNDdV8TNOe"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 160,
       "name": "ヒロイン",
       "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
-    },
-    {
-      "artists": [
-        "Sia"
-      ],
-      "count": 159,
-      "name": "Big Girls Cry",
-      "track_id": "75xgoXAGed7jiNDdV8TNOe"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-07T19:30:35.817731+00:00",
+  "generated_at": "2026-09-08T19:09:35.565508+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 63591
+    "total": 63605
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 22,
+  "streak": 23,
   "weekly_top": [
     {
       "artists": [
@@ -829,12 +829,21 @@
     },
     {
       "artists": [
-        "アヴィーチー"
+        "Olivia Rodrigo"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851a26cc58b4d64c2ece3376389",
-      "name": "Without You (feat. Sandro Cavazza)",
-      "track_id": "6Pgkp4qUoTmJIPn7ReaGxL"
+      "image": "https://i.scdn.co/image/ab67616d000048514063d624ebf8ff67bc3701ee",
+      "name": "stranger",
+      "track_id": "2U3jOPfO4wZZFaaWS4Dcj6"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "What You Wanted",
+      "track_id": "0ILXYaWxMQVEXnKq2eTmjW"
     },
     {
       "artists": [
@@ -1189,6 +1198,15 @@
     },
     {
       "artists": [
+        "アヴィーチー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a26cc58b4d64c2ece3376389",
+      "name": "Without You (feat. Sandro Cavazza)",
+      "track_id": "6Pgkp4qUoTmJIPn7ReaGxL"
+    },
+    {
+      "artists": [
         "ブルーノ・マーズ"
       ],
       "count": 1,
@@ -1201,8 +1219,54 @@
         "Jemson Maye"
       ],
       "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "name": "Sweet Melissa",
-      "track_id": "2JqfvIqaA37BErYO77jebM"
+      "track_id": "lastfm:sweetmelissa|jemsonmaye"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517c3bb9f74a98f60bdda6c9a7",
+      "name": "One Less Lonely Girl",
+      "track_id": "69ghzc538EQSVon2Gm3wrr"
+    },
+    {
+      "artists": [
+        "ゼイン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
+      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+      "track_id": "55n9yjI6qqXh5F2mYvUc2y"
+    },
+    {
+      "artists": [
+        "シーア"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
+      "name": "Big Girls Cry",
+      "track_id": "75xgoXAGed7jiNDdV8TNOe"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Let's Hurt Tonight",
+      "track_id": "05sCp83gcMm1iecYydKJS3"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Say (All I Need)",
+      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
     }
   ]
 }
