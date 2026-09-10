@@ -33,24 +33,24 @@
       "month": "2026-08"
     },
     {
-      "count": 370,
+      "count": 387,
       "month": "2026-09"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 954,
+  "new_tracks": 967,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 11936,
+  "plays": 11953,
   "top_artists": [
     {
-      "count": 1600,
+      "count": 1599,
       "name": "OneRepublic"
     },
     {
-      "count": 897,
+      "count": 908,
       "name": "The Beatles"
     },
     {
@@ -66,7 +66,7 @@
       "name": "Henry Moodie"
     },
     {
-      "count": 311,
+      "count": 310,
       "name": "Maroon 5"
     },
     {
@@ -241,14 +241,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 54,
-      "name": "Rich Love (with Seeb)",
-      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
-    },
-    {
-      "artists": [
         "Kygo"
       ],
       "count": 53,
@@ -286,6 +278,14 @@
       "count": 53,
       "name": "Love Runs Out",
       "track_id": "5BJSZocnCeSNeYMj3iVqM7"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 53,
+      "name": "Rich Love (with Seeb)",
+      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
     }
   ],
   "year": "2026"

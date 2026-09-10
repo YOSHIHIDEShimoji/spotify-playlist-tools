@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-09T18:59:04.875798+00:00",
+  "generated_at": "2026-09-10T18:52:01.649063+00:00",
   "totals": {
-    "artists": 1339,
-    "days": 2097,
+    "artists": 1340,
+    "days": 2099,
     "ms": 12440720283,
-    "plays": 63618,
+    "plays": 63635,
     "since": "2019-09-05",
-    "tracks": 4674
+    "tracks": 4687
   },
   "tracks": [
     {
@@ -1368,6 +1368,24 @@
     },
     {
       "artists": [
+        "Mao"
+      ],
+      "count": 114,
+      "first": "2024-05-10",
+      "id": "6FEABJMKAHeFuz3OrKw5ix",
+      "image": "https://i.scdn.co/image/ab67616d0000485175aaf44757bb574e4c094817",
+      "last": "2026-09-11",
+      "ms": 26800170,
+      "name": "夢をかなえてドラえもん",
+      "short": 10,
+      "years": {
+        "2024": 103,
+        "2025": 7,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 113,
@@ -1404,24 +1422,6 @@
         "2024": 26,
         "2025": 8,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Mao"
-      ],
-      "count": 113,
-      "first": "2024-05-10",
-      "id": "6FEABJMKAHeFuz3OrKw5ix",
-      "image": "https://i.scdn.co/image/ab67616d0000485175aaf44757bb574e4c094817",
-      "last": "2026-05-19",
-      "ms": 26800170,
-      "name": "夢をかなえてドラえもん",
-      "short": 10,
-      "years": {
-        "2024": 103,
-        "2025": 7,
-        "2026": 3
       }
     },
     {
@@ -6358,6 +6358,26 @@
     },
     {
       "artists": [
+        "Anne-Marie"
+      ],
+      "count": 64,
+      "first": "2022-06-05",
+      "id": "2BgEsaKNfHUdlh97KmvFyo",
+      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
+      "last": "2026-09-10",
+      "ms": 11316328,
+      "name": "2002",
+      "short": 12,
+      "years": {
+        "2022": 12,
+        "2023": 10,
+        "2024": 6,
+        "2025": 20,
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 64,
@@ -6525,26 +6545,6 @@
       "years": {
         "2025": 60,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Anne-Marie"
-      ],
-      "count": 63,
-      "first": "2022-06-05",
-      "id": "2BgEsaKNfHUdlh97KmvFyo",
-      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
-      "last": "2026-09-06",
-      "ms": 11316328,
-      "name": "2002",
-      "short": 12,
-      "years": {
-        "2022": 12,
-        "2023": 10,
-        "2024": 6,
-        "2025": 20,
-        "2026": 15
       }
     },
     {
@@ -8392,23 +8392,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 55,
-      "first": "2025-12-30",
-      "id": "7dOeiXeTSfA1ixaYmQcWu7",
-      "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
-      "last": "2026-09-09",
-      "ms": 9523219,
-      "name": "Rich Love (with Seeb)",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 54
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 55,
@@ -8622,6 +8605,23 @@
       "ms": 11660155,
       "name": "Marchin On",
       "short": 5,
+      "years": {
+        "2025": 1,
+        "2026": 53
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 54,
+      "first": "2025-12-30",
+      "id": "7dOeiXeTSfA1ixaYmQcWu7",
+      "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
+      "last": "2026-09-09",
+      "ms": 9523219,
+      "name": "Rich Love (with Seeb)",
+      "short": 3,
       "years": {
         "2025": 1,
         "2026": 53
@@ -16785,6 +16785,22 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 19,
+      "first": "2026-04-05",
+      "id": "6I3mqTwhRpn34SLVafSH7G",
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "last": "2026-09-10",
+      "ms": 2298158,
+      "name": "Ghost",
+      "short": 4,
+      "years": {
+        "2026": 19
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 19,
@@ -17139,22 +17155,6 @@
         "2024": 8,
         "2025": 9,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 18,
-      "first": "2026-04-05",
-      "id": "6I3mqTwhRpn34SLVafSH7G",
-      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-      "last": "2026-08-31",
-      "ms": 2298158,
-      "name": "Ghost",
-      "short": 4,
-      "years": {
-        "2026": 18
       }
     },
     {
@@ -21280,6 +21280,21 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 10,
+      "first": "2026-04-27",
+      "id": "2ZlCGeK30BLRNSPC832pNZ",
+      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
+      "last": "2026-09-10",
+      "ms": 2022387,
+      "name": "Forever (feat. Post Malone & Clever)",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 10,
@@ -22163,21 +22178,6 @@
       "years": {
         "2025": 1,
         "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 9,
-      "first": "2026-04-27",
-      "id": "2ZlCGeK30BLRNSPC832pNZ",
-      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
-      "last": "2026-07-05",
-      "ms": 2022387,
-      "name": "Forever (feat. Post Malone & Clever)",
-      "years": {
-        "2026": 9
       }
     },
     {
@@ -24575,22 +24575,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 7,
-      "first": "2026-05-18",
-      "id": "6HIM6FrIlHYCoPlKkDtgXn",
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "last": "2026-09-09",
-      "ms": 599547,
-      "name": "What Lovers Do (feat. SZA)",
-      "short": 2,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "ワンリパブリック"
       ],
       "count": 7,
@@ -25840,6 +25824,22 @@
       "short": 19,
       "years": {
         "2019": 6
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 6,
+      "first": "2026-05-18",
+      "id": "6HIM6FrIlHYCoPlKkDtgXn",
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "last": "2026-09-09",
+      "ms": 599547,
+      "name": "What Lovers Do (feat. SZA)",
+      "short": 2,
+      "years": {
+        "2026": 6
       }
     },
     {
@@ -34017,6 +34017,22 @@
       "short": 2,
       "years": {
         "2023": 3
+      }
+    },
+    {
+      "artists": [
+        "KTタンストール"
+      ],
+      "count": 3,
+      "first": "2026-08-05",
+      "id": "0UACObCoT1QlNDYroo7EJC",
+      "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Suddenly I See",
+      "short": 1,
+      "years": {
+        "2026": 3
       }
     },
     {
@@ -44934,6 +44950,21 @@
     },
     {
       "artists": [
+        "魔王魂"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:12345|魔王魂",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "12345",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Sabrina Carpenter"
       ],
       "count": 1,
@@ -45646,6 +45677,21 @@
     },
     {
       "artists": [
+        "マライア・キャリー"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:alliwantforchristmasisyou|マライア・キャリー",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "All I Want For Christmas Is You",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Side Saddle"
       ],
       "count": 1,
@@ -45820,6 +45866,21 @@
       "id": "lastfm:allyouneedisloveremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "All You Need Is Love - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:allyouneedisloveremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
       "ms": 0,
       "name": "All You Need Is Love - Remastered 2015",
       "years": {
@@ -50814,6 +50875,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:eleanorrigbyremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Eleanor Rigby - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Klaus Badelt"
       ],
       "count": 1,
@@ -53539,6 +53615,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:hellogoodbyeremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Hello, Goodbye - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Yumi Matsutoya"
       ],
       "count": 1,
@@ -53624,6 +53715,21 @@
       "id": "lastfm:helpremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Help! - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:helpremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
       "ms": 0,
       "name": "Help! - Remastered 2015",
       "years": {
@@ -56598,6 +56704,21 @@
       "id": "lastfm:ladymadonnaremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Lady Madonna - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:ladymadonnaremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
       "ms": 0,
       "name": "Lady Madonna - Remastered 2015",
       "years": {
@@ -61098,6 +61219,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:paperbackwriterremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Paperback Writer - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "TELL YOUR STORY music by Ikson™"
       ],
       "count": 1,
@@ -61244,6 +61380,21 @@
       "id": "lastfm:pennylaneremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Penny Lane - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:pennylaneremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
       "ms": 0,
       "name": "Penny Lane - Remastered 2015",
       "years": {
@@ -65132,22 +65283,6 @@
     },
     {
       "artists": [
-        "KTタンストール"
-      ],
-      "count": 1,
-      "first": "2026-08-05",
-      "id": "0UACObCoT1QlNDYroo7EJC",
-      "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
-      "last": "2026-08-05",
-      "ms": 0,
-      "name": "Suddenly I See",
-      "short": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "Sabrina Carpenter"
       ],
       "count": 1,
@@ -67300,6 +67435,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:tickettorideremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Ticket To Ride - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Coldplay"
       ],
       "count": 1,
@@ -68739,6 +68889,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:wecanworkitoutremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "We Can Work It Out - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Charlie Puth"
       ],
       "count": 1,
@@ -70061,6 +70226,21 @@
         "The Beatles"
       ],
       "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:yellowsubmarineremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "Yellow Submarine - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
       "first": "2020-05-28",
       "id": "3iD2CCv5bsJRIaqJRYD0uJ",
       "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
@@ -70080,6 +70260,21 @@
       "id": "lastfm:yesterdayremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Yesterday - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-09-10",
+      "id": "lastfm:yesterdayremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-09-10",
       "ms": 0,
       "name": "Yesterday - Remastered 2015",
       "years": {

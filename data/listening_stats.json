@@ -514,6 +514,14 @@
     },
     {
       "artists": [
+        "Mao"
+      ],
+      "count": 114,
+      "name": "夢をかなえてドラえもん",
+      "track_id": "6FEABJMKAHeFuz3OrKw5ix"
+    },
+    {
+      "artists": [
         "ALI"
       ],
       "count": 114,
@@ -527,14 +535,6 @@
       "count": 113,
       "name": "I Should Have Known Better - Remastered 2009",
       "track_id": "3pU1CUgPiFfxPCpscwIwQR"
-    },
-    {
-      "artists": [
-        "Mao"
-      ],
-      "count": 113,
-      "name": "夢をかなえてドラえもん",
-      "track_id": "6FEABJMKAHeFuz3OrKw5ix"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-09T18:57:53.914451+00:00",
+  "generated_at": "2026-09-10T18:50:45.806211+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 63618
+    "total": 63635
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 24,
+  "streak": 26,
   "weekly_top": [
     {
       "artists": [
@@ -838,21 +838,12 @@
     },
     {
       "artists": [
-        "マルーン５"
+        "KT Tunstall"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "name": "What Lovers Do (feat. SZA)",
-      "track_id": "6HIM6FrIlHYCoPlKkDtgXn"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514f5e1977bd05425f3ea1a2bf",
-      "name": "Rich Love (with Seeb)",
-      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
+      "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
+      "name": "Suddenly I See",
+      "track_id": "0UACObCoT1QlNDYroo7EJC"
     },
     {
       "artists": [
@@ -1267,6 +1258,15 @@
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Say (All I Need)",
       "track_id": "6H4vq5gz0rlNjH0LBzu4An"
+    },
+    {
+      "artists": [
+        "フォール・アウト・ボーイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
+      "name": "Centuries",
+      "track_id": "04aAxqtGp5pv12UXAg4pkq"
     }
   ]
 }
