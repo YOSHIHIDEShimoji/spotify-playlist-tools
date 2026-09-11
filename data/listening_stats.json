@@ -116,7 +116,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 163,
+      "count": 165,
       "name": "Yesterday - Remastered 2009",
       "track_id": "3BQHpFgAp4l80e1XslIjNI"
     },
@@ -300,7 +300,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 128,
+      "count": 129,
       "name": "In My Life - Remastered 2009",
       "track_id": "3KfbEIOC7YIv90FIfNSZpo"
     },
@@ -514,14 +514,6 @@
     },
     {
       "artists": [
-        "Mao"
-      ],
-      "count": 114,
-      "name": "夢をかなえてドラえもん",
-      "track_id": "6FEABJMKAHeFuz3OrKw5ix"
-    },
-    {
-      "artists": [
         "ALI"
       ],
       "count": 114,
@@ -535,6 +527,14 @@
       "count": 113,
       "name": "I Should Have Known Better - Remastered 2009",
       "track_id": "3pU1CUgPiFfxPCpscwIwQR"
+    },
+    {
+      "artists": [
+        "Mao"
+      ],
+      "count": 113,
+      "name": "夢をかなえてドラえもん",
+      "track_id": "6FEABJMKAHeFuz3OrKw5ix"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-10T18:50:45.806211+00:00",
+  "generated_at": "2026-09-11T18:53:43.506331+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 63635
+    "total": 63654
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 26,
+  "streak": 27,
   "weekly_top": [
     {
       "artists": [
@@ -826,6 +826,15 @@
       "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
       "name": "アイビー",
       "track_id": "3y3gIFisu61Qc3NtRE7a2r"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "name": "Eight Days A Week - Remastered 2015",
+      "track_id": "lastfm:eightdaysaweekremastered2015|ザ・ビートルズ"
     },
     {
       "artists": [
@@ -844,6 +853,33 @@
       "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
       "name": "Suddenly I See",
       "track_id": "0UACObCoT1QlNDYroo7EJC"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Come Together - Remastered 2009",
+      "track_id": "2EqlS6tkEnglzr7tkKAAYD"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+      "name": "Yesterday - Remastered 2009",
+      "track_id": "3BQHpFgAp4l80e1XslIjNI"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "name": "Something - Remastered 2009",
+      "track_id": "0pNeVovbiZHkulpGeOx1Gj"
     },
     {
       "artists": [
@@ -925,15 +961,6 @@
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
       "name": "Eight Days A Week - Remastered 2015",
       "track_id": "lastfm:eightdaysaweekremastered2015|thebeatles"
-    },
-    {
-      "artists": [
-        "ザ・ビートルズ"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
-      "name": "Eight Days A Week - Remastered 2015",
-      "track_id": "lastfm:eightdaysaweekremastered2015|ザ・ビートルズ"
     },
     {
       "artists": [
@@ -1240,33 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
       "name": "Big Girls Cry",
       "track_id": "75xgoXAGed7jiNDdV8TNOe"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Let's Hurt Tonight",
-      "track_id": "05sCp83gcMm1iecYydKJS3"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Say (All I Need)",
-      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
-    },
-    {
-      "artists": [
-        "フォール・アウト・ボーイ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
-      "name": "Centuries",
-      "track_id": "04aAxqtGp5pv12UXAg4pkq"
     }
   ]
 }

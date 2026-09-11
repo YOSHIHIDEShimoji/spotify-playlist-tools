@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-10T18:52:01.649063+00:00",
+  "generated_at": "2026-09-11T18:54:58.253758+00:00",
   "totals": {
-    "artists": 1340,
-    "days": 2099,
+    "artists": 1342,
+    "days": 2100,
     "ms": 12440720283,
-    "plays": 63635,
+    "plays": 63654,
     "since": "2019-09-05",
-    "tracks": 4687
+    "tracks": 4690
   },
   "tracks": [
     {
@@ -288,11 +288,11 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 163,
+      "count": 165,
       "first": "2019-09-06",
       "id": "3BQHpFgAp4l80e1XslIjNI",
       "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
-      "last": "2026-09-03",
+      "last": "2026-09-12",
       "ms": 19500800,
       "name": "Yesterday - Remastered 2009",
       "short": 37,
@@ -304,7 +304,7 @@
         "2023": 8,
         "2024": 28,
         "2025": 9,
-        "2026": 8
+        "2026": 10
       }
     },
     {
@@ -754,6 +754,29 @@
         "The Beatles"
       ],
       "count": 129,
+      "first": "2019-09-07",
+      "id": "3KfbEIOC7YIv90FIfNSZpo",
+      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
+      "last": "2026-09-12",
+      "ms": 18032190,
+      "name": "In My Life - Remastered 2009",
+      "short": 39,
+      "years": {
+        "2019": 22,
+        "2020": 40,
+        "2021": 21,
+        "2022": 5,
+        "2023": 6,
+        "2024": 18,
+        "2025": 10,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 129,
       "first": "2019-09-06",
       "id": "4LLBKnNCrSRrSjSTuiwjE9",
       "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
@@ -793,29 +816,6 @@
         "2024": 26,
         "2025": 7,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 128,
-      "first": "2019-09-07",
-      "id": "3KfbEIOC7YIv90FIfNSZpo",
-      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
-      "last": "2026-09-03",
-      "ms": 18032190,
-      "name": "In My Life - Remastered 2009",
-      "short": 39,
-      "years": {
-        "2019": 22,
-        "2020": 40,
-        "2021": 21,
-        "2022": 5,
-        "2023": 6,
-        "2024": 18,
-        "2025": 10,
-        "2026": 6
       }
     },
     {
@@ -1368,24 +1368,6 @@
     },
     {
       "artists": [
-        "Mao"
-      ],
-      "count": 114,
-      "first": "2024-05-10",
-      "id": "6FEABJMKAHeFuz3OrKw5ix",
-      "image": "https://i.scdn.co/image/ab67616d0000485175aaf44757bb574e4c094817",
-      "last": "2026-09-11",
-      "ms": 26800170,
-      "name": "夢をかなえてドラえもん",
-      "short": 10,
-      "years": {
-        "2024": 103,
-        "2025": 7,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 113,
@@ -1422,6 +1404,24 @@
         "2024": 26,
         "2025": 8,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Mao"
+      ],
+      "count": 113,
+      "first": "2024-05-10",
+      "id": "6FEABJMKAHeFuz3OrKw5ix",
+      "image": "https://i.scdn.co/image/ab67616d0000485175aaf44757bb574e4c094817",
+      "last": "2026-05-19",
+      "ms": 26800170,
+      "name": "夢をかなえてドラえもん",
+      "short": 10,
+      "years": {
+        "2024": 103,
+        "2025": 7,
+        "2026": 3
       }
     },
     {
@@ -3052,6 +3052,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 87,
+      "first": "2019-09-05",
+      "id": "4fUKE8EULjQdHF4zb0M8FO",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef8f7d06cf2fc2146f420a",
+      "last": "2026-09-12",
+      "ms": 10012237,
+      "name": "Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009",
+      "short": 19,
+      "years": {
+        "2019": 9,
+        "2020": 32,
+        "2021": 18,
+        "2022": 6,
+        "2023": 3,
+        "2024": 8,
+        "2025": 7,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 86,
@@ -3160,22 +3183,22 @@
         "The Beatles"
       ],
       "count": 86,
-      "first": "2019-09-05",
-      "id": "4fUKE8EULjQdHF4zb0M8FO",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef8f7d06cf2fc2146f420a",
-      "last": "2026-07-17",
-      "ms": 10012237,
-      "name": "Sgt. Pepper's Lonely Hearts Club Band - Remastered 2009",
-      "short": 19,
+      "first": "2019-09-10",
+      "id": "0pNeVovbiZHkulpGeOx1Gj",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-09-12",
+      "ms": 14689680,
+      "name": "Something - Remastered 2009",
+      "short": 14,
       "years": {
-        "2019": 9,
-        "2020": 32,
+        "2019": 3,
+        "2020": 37,
         "2021": 18,
-        "2022": 6,
-        "2023": 3,
+        "2022": 4,
+        "2023": 5,
         "2024": 8,
-        "2025": 7,
-        "2026": 3
+        "2025": 5,
+        "2026": 6
       }
     },
     {
@@ -3456,29 +3479,6 @@
         "2024": 5,
         "2025": 42,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 84,
-      "first": "2019-09-10",
-      "id": "0pNeVovbiZHkulpGeOx1Gj",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-07-25",
-      "ms": 14689680,
-      "name": "Something - Remastered 2009",
-      "short": 14,
-      "years": {
-        "2019": 3,
-        "2020": 37,
-        "2021": 18,
-        "2022": 4,
-        "2023": 5,
-        "2024": 8,
-        "2025": 5,
-        "2026": 4
       }
     },
     {
@@ -4264,6 +4264,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 78,
+      "first": "2019-09-12",
+      "id": "7iN1s7xHE4ifF5povM6A48",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-09-11",
+      "ms": 16763147,
+      "name": "Let It Be - Remastered 2009",
+      "short": 52,
+      "years": {
+        "2019": 12,
+        "2020": 24,
+        "2021": 18,
+        "2022": 3,
+        "2023": 3,
+        "2024": 5,
+        "2025": 6,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "Dua Lipa"
       ],
       "count": 78,
@@ -4341,29 +4364,6 @@
         "2024": 5,
         "2025": 17,
         "2026": 19
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 77,
-      "first": "2019-09-12",
-      "id": "7iN1s7xHE4ifF5povM6A48",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-07-25",
-      "ms": 16763147,
-      "name": "Let It Be - Remastered 2009",
-      "short": 52,
-      "years": {
-        "2019": 12,
-        "2020": 24,
-        "2021": 18,
-        "2022": 3,
-        "2023": 3,
-        "2024": 5,
-        "2025": 6,
-        "2026": 6
       }
     },
     {
@@ -4955,6 +4955,29 @@
         "The Beatles"
       ],
       "count": 73,
+      "first": "2019-09-10",
+      "id": "2EqlS6tkEnglzr7tkKAAYD",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-09-12",
+      "ms": 16227396,
+      "name": "Come Together - Remastered 2009",
+      "short": 74,
+      "years": {
+        "2019": 7,
+        "2020": 27,
+        "2021": 18,
+        "2022": 3,
+        "2023": 3,
+        "2024": 5,
+        "2025": 4,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 73,
       "first": "2019-11-20",
       "id": "3LtOmWpTXLhilL5odoKysR",
       "image": "https://i.scdn.co/image/ab67616d0000485134ef8f7d06cf2fc2146f420a",
@@ -5230,29 +5253,6 @@
         "2024": 17,
         "2025": 7,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 71,
-      "first": "2019-09-10",
-      "id": "2EqlS6tkEnglzr7tkKAAYD",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-07-25",
-      "ms": 16227396,
-      "name": "Come Together - Remastered 2009",
-      "short": 74,
-      "years": {
-        "2019": 7,
-        "2020": 27,
-        "2021": 18,
-        "2022": 3,
-        "2023": 3,
-        "2024": 5,
-        "2025": 4,
-        "2026": 4
       }
     },
     {
@@ -5657,6 +5657,29 @@
         "The Beatles"
       ],
       "count": 69,
+      "first": "2019-11-10",
+      "id": "5ZBeML7Lf3FMEVviTyvi8l",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "last": "2026-09-12",
+      "ms": 10246559,
+      "name": "Twist And Shout - Remastered 2009",
+      "short": 49,
+      "years": {
+        "2019": 5,
+        "2020": 14,
+        "2021": 14,
+        "2022": 5,
+        "2023": 5,
+        "2024": 15,
+        "2025": 6,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 69,
       "first": "2019-12-28",
       "id": "1jOLTO379yIu9aMnCkpMQl",
       "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
@@ -5878,29 +5901,6 @@
         "2024": 16,
         "2025": 6,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 68,
-      "first": "2019-11-10",
-      "id": "5ZBeML7Lf3FMEVviTyvi8l",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
-      "last": "2026-07-16",
-      "ms": 10246559,
-      "name": "Twist And Shout - Remastered 2009",
-      "short": 49,
-      "years": {
-        "2019": 5,
-        "2020": 14,
-        "2021": 14,
-        "2022": 5,
-        "2023": 5,
-        "2024": 15,
-        "2025": 6,
-        "2026": 4
       }
     },
     {
@@ -8065,6 +8065,28 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 57,
+      "first": "2020-05-27",
+      "id": "2AsGApoUuN8pTM17Lq9eUd",
+      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
+      "last": "2026-09-11",
+      "ms": 12540275,
+      "name": "Yer Blues - Remastered 2009",
+      "short": 19,
+      "years": {
+        "2020": 17,
+        "2021": 19,
+        "2022": 6,
+        "2023": 2,
+        "2024": 5,
+        "2025": 4,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Novelbright"
       ],
       "count": 57,
@@ -8246,28 +8268,6 @@
       "years": {
         "2025": 41,
         "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 56,
-      "first": "2020-05-27",
-      "id": "2AsGApoUuN8pTM17Lq9eUd",
-      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
-      "last": "2026-07-18",
-      "ms": 12540275,
-      "name": "Yer Blues - Remastered 2009",
-      "short": 19,
-      "years": {
-        "2020": 17,
-        "2021": 19,
-        "2022": 6,
-        "2023": 2,
-        "2024": 5,
-        "2025": 4,
-        "2026": 3
       }
     },
     {
@@ -8554,6 +8554,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 54,
+      "first": "2019-12-26",
+      "id": "0sIZcoe69iSym9AecvZ7CT",
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "last": "2026-09-12",
+      "ms": 6292373,
+      "name": "I Wanna Be Your Man - Remastered 2009",
+      "short": 34,
+      "years": {
+        "2019": 1,
+        "2020": 6,
+        "2021": 13,
+        "2022": 7,
+        "2023": 2,
+        "2024": 12,
+        "2025": 7,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Wings"
       ],
       "count": 54,
@@ -8775,29 +8798,6 @@
         "2024": 1,
         "2025": 1,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 53,
-      "first": "2019-12-26",
-      "id": "0sIZcoe69iSym9AecvZ7CT",
-      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-      "last": "2026-07-16",
-      "ms": 6292373,
-      "name": "I Wanna Be Your Man - Remastered 2009",
-      "short": 34,
-      "years": {
-        "2019": 1,
-        "2020": 6,
-        "2021": 13,
-        "2022": 7,
-        "2023": 2,
-        "2024": 12,
-        "2025": 7,
-        "2026": 5
       }
     },
     {
@@ -9059,6 +9059,26 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 51,
+      "first": "2019-09-05",
+      "id": "5jgFfDIR6FR0gvlA56Nakr",
+      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
+      "last": "2026-09-12",
+      "ms": 6600662,
+      "name": "Blackbird - Remastered 2009",
+      "short": 40,
+      "years": {
+        "2019": 8,
+        "2020": 24,
+        "2024": 6,
+        "2025": 9,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Fall Out Boy"
       ],
       "count": 51,
@@ -9180,26 +9200,6 @@
         "2023": 4,
         "2025": 24,
         "2026": 20
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 50,
-      "first": "2019-09-05",
-      "id": "5jgFfDIR6FR0gvlA56Nakr",
-      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
-      "last": "2026-07-17",
-      "ms": 6600662,
-      "name": "Blackbird - Remastered 2009",
-      "short": 40,
-      "years": {
-        "2019": 8,
-        "2020": 24,
-        "2024": 6,
-        "2025": 9,
-        "2026": 3
       }
     },
     {
@@ -22485,6 +22485,22 @@
     },
     {
       "artists": [
+        "Bruno Mars"
+      ],
+      "count": 9,
+      "first": "2026-02-22",
+      "id": "386RUes7n1uM1yfzgeUuwp",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "last": "2026-09-11",
+      "ms": 1187873,
+      "name": "The Lazy Song",
+      "short": 1,
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Ed Sheeran"
       ],
       "count": 9,
@@ -23334,22 +23350,6 @@
       "short": 3,
       "years": {
         "2020": 8
-      }
-    },
-    {
-      "artists": [
-        "Bruno Mars"
-      ],
-      "count": 8,
-      "first": "2026-02-22",
-      "id": "386RUes7n1uM1yfzgeUuwp",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "last": "2026-09-03",
-      "ms": 1187873,
-      "name": "The Lazy Song",
-      "short": 1,
-      "years": {
-        "2026": 8
       }
     },
     {
@@ -28684,6 +28684,21 @@
     },
     {
       "artists": [
+        "Oasis"
+      ],
+      "count": 4,
+      "first": "2026-05-03",
+      "id": "0XdgnNhVtII9CuS2wa90ZK",
+      "image": "https://i.scdn.co/image/ab67616d000048516f253c0104f24caed5e3e42e",
+      "last": "2026-09-11",
+      "ms": 579120,
+      "name": "Don't Look Back in Anger - Remastered",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Adele"
       ],
       "count": 4,
@@ -32068,21 +32083,6 @@
         "2022": 1,
         "2024": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Oasis"
-      ],
-      "count": 3,
-      "first": "2026-05-03",
-      "id": "0XdgnNhVtII9CuS2wa90ZK",
-      "image": "https://i.scdn.co/image/ab67616d000048516f253c0104f24caed5e3e42e",
-      "last": "2026-08-28",
-      "ms": 579120,
-      "name": "Don't Look Back in Anger - Remastered",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -37070,6 +37070,21 @@
       "name": "Easy On My Eyes",
       "years": {
         "2024": 2
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "first": "2026-09-07",
+      "id": "lastfm:eightdaysaweekremastered2015|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-09-11",
+      "ms": 0,
+      "name": "Eight Days A Week - Remastered 2015",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -44336,6 +44351,21 @@
     },
     {
       "artists": [
+        "Mao"
+      ],
+      "count": 2,
+      "first": "2026-07-29",
+      "id": "lastfm:夢をかなえてドラえもん|mao",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/ba71ddfe924dce79ca713b55c46f3d33.jpg",
+      "last": "2026-09-10",
+      "ms": 0,
+      "name": "夢をかなえてドラえもん",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "ささきいさお"
       ],
       "count": 2,
@@ -50829,21 +50859,6 @@
     },
     {
       "artists": [
-        "ザ・ビートルズ"
-      ],
-      "count": 1,
-      "first": "2026-09-07",
-      "id": "lastfm:eightdaysaweekremastered2015|ザ・ビートルズ",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
-      "last": "2026-09-07",
-      "ms": 0,
-      "name": "Eight Days A Week - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -53937,6 +53952,21 @@
     },
     {
       "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 1,
+      "first": "2026-09-12",
+      "id": "lastfm:heyjude|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-12",
+      "ms": 0,
+      "name": "Hey Jude",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -54393,6 +54423,21 @@
       "name": "How Deep Is Your Love",
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "ビー・ジーズ"
+      ],
+      "count": 1,
+      "first": "2026-09-11",
+      "id": "lastfm:howdeepisyourlove|ビー・ジーズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-11",
+      "ms": 0,
+      "name": "How Deep Is Your Love",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -66914,6 +66959,21 @@
     },
     {
       "artists": [
+        "ヒューイ・ルイス&ザ・ニュース"
+      ],
+      "count": 1,
+      "first": "2026-09-11",
+      "id": "lastfm:thepoweroflovefrombacktothefuturesoundtrack|ヒューイ・ルイスザ・ニュース",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-11",
+      "ms": 0,
+      "name": "The Power Of Love - From “Back To The Future” Soundtrack",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Lorne Balfe"
       ],
       "count": 1,
@@ -74676,21 +74736,6 @@
       "name": "夜空 - 20th Birthday Live Ver.",
       "years": {
         "2024": 1
-      }
-    },
-    {
-      "artists": [
-        "Mao"
-      ],
-      "count": 1,
-      "first": "2026-07-29",
-      "id": "lastfm:夢をかなえてドラえもん|mao",
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/ba71ddfe924dce79ca713b55c46f3d33.jpg",
-      "last": "2026-07-29",
-      "ms": 0,
-      "name": "夢をかなえてドラえもん",
-      "years": {
-        "2026": 1
       }
     },
     {

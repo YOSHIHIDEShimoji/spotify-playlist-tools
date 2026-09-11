@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-09-10T18:58:08.996699+00:00",
+  "generated_at": "2026-09-11T18:57:00.631314+00:00",
   "items": [
-    {
-      "album_id": "1BGE4rFJRc5B1DAacdNxTk",
-      "album_name": "Body To Body (Acoustic)",
-      "album_type": "single",
-      "artist": "Ryan Tedder",
-      "artist_id": "4we5S2VLjgY9KzIzApL1KI",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512d8edecbdaf37c0719678aab",
-      "is_new": true,
-      "release_date": "2026-09-11"
-    },
     {
       "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
       "album_name": "Drift",
@@ -20,7 +9,7 @@
       "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-11"
     },
     {
@@ -31,7 +20,7 @@
       "artist_id": "7kNqXtgeIwFtelmRjWv205",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-11"
     },
     {
@@ -41,7 +30,18 @@
       "artist": "Ellie Goulding",
       "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485163cc682201a8f8222e5b0bed",
+      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
+      "album_name": "Backwards (feat. T.I.)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
       "is_new": true,
       "release_date": "2026-09-11"
     },
@@ -53,8 +53,41 @@
       "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "1BGE4rFJRc5B1DAacdNxTk",
+      "album_name": "Body To Body (Acoustic)",
+      "album_type": "single",
+      "artist": "Ryan Tedder",
+      "artist_id": "4we5S2VLjgY9KzIzApL1KI",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512d8edecbdaf37c0719678aab",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "0nSaRhdANg44Kfo59DBJpY",
+      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
+      "album_type": "single",
+      "artist": "Rochak Kohli",
+      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
+      "is_new": false,
+      "release_date": "2026-09-10"
+    },
+    {
+      "album_id": "4hfN98dM7Q4824V1pjXOxE",
+      "album_name": "You're Still The One (Candy Crush Version)",
+      "album_type": "single",
+      "artist": "Shania Twain",
+      "artist_id": "5e4Dhzv426EvQe3aDb64jL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485149cbedb88bf9bef0b0c9c7f9",
+      "is_new": false,
+      "release_date": "2026-09-10"
     },
     {
       "album_id": "3MIohyW16SMMEoYaicOz2j",
@@ -66,72 +99,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048518458adf45367042df74663a2",
       "is_new": false,
       "release_date": "2026-09-10"
-    },
-    {
-      "album_id": "0nSaRhdANg44Kfo59DBJpY",
-      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
-      "album_type": "single",
-      "artist": "Rochak Kohli",
-      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
-      "is_new": true,
-      "release_date": "2026-09-10"
-    },
-    {
-      "album_id": "4hfN98dM7Q4824V1pjXOxE",
-      "album_name": "You're Still The One (Candy Crush Version)",
-      "album_type": "single",
-      "artist": "Shania Twain",
-      "artist_id": "1uXWYHIu2c8MsCiiXMM2tv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485149cbedb88bf9bef0b0c9c7f9",
-      "is_new": true,
-      "release_date": "2026-09-10"
-    },
-    {
-      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
-      "album_name": "はじめての中島美嘉",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
-      "album_name": "ZOOM",
-      "album_type": "single",
-      "artist": "AKLO",
-      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
-      "album_name": "Close My Eyes (feat. SACHA)",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
-      "album_name": "さよならお姫様",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
-      "is_new": false,
-      "release_date": "2026-09-09"
     },
     {
       "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
@@ -152,6 +119,50 @@
       "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
+      "album_name": "Close My Eyes (feat. SACHA)",
+      "album_type": "single",
+      "artist": "Marshmello",
+      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
+      "album_name": "ZOOM",
+      "album_type": "single",
+      "artist": "AKLO",
+      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
+      "album_name": "さよならお姫様",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
+      "album_name": "はじめての中島美嘉",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -178,17 +189,6 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "3D2kgALEBV57nYhb5JlKgn",
-      "album_name": "Tauba Tauba Eclipsa Audio",
-      "album_type": "single",
-      "artist": "Karan Aujla",
-      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a576399c8cab50e85375c863",
-      "is_new": true,
-      "release_date": "2026-09-08"
-    },
-    {
       "album_id": "2rkj07G0JsBiy0XrfE19XL",
       "album_name": "Essa Ta Quente (feat. Skrillex)",
       "album_type": "single",
@@ -196,6 +196,17 @@
       "artist_id": "3jNkaOXasoc7RsxdchvEVq",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485152cb03d71287de84a1f55238",
+      "is_new": false,
+      "release_date": "2026-09-08"
+    },
+    {
+      "album_id": "3D2kgALEBV57nYhb5JlKgn",
+      "album_name": "Tauba Tauba Eclipsa Audio",
+      "album_type": "single",
+      "artist": "Karan Aujla",
+      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a576399c8cab50e85375c863",
       "is_new": false,
       "release_date": "2026-09-08"
     },
@@ -209,61 +220,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851f707abfbd6450ab3837729c6",
       "is_new": false,
       "release_date": "2026-09-06"
-    },
-    {
-      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
-      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
-      "album_type": "album",
-      "artist": "Vaundy",
-      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "6wj16ihEX2pPqKzbtCZ0N3",
-      "album_name": "CLICK",
-      "album_type": "single",
-      "artist": "JISOO",
-      "artist_id": "6UZ0ba50XreR4TM8u322gs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485131cc6756a13caaf2ea4a3b82",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
-      "album_name": "act like you know ? (feat. Muni Long)",
-      "album_type": "single",
-      "artist": "Master Peace",
-      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4gdcr6w8k7SCLNUx851aEO",
-      "album_name": "Every Minute Of It",
-      "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4I6JwprL9cEAl9HxS1OjUq",
-      "album_name": "Take Me Back (Robin Schulz Remix)",
-      "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514501432167ccabc9af43b7c0",
-      "is_new": false,
-      "release_date": "2026-09-04"
     },
     {
       "album_id": "6wj6EqEV4sywgzZ4O7NeST",
@@ -284,6 +240,17 @@
       "artist_id": "216arN9tLMMn2ltwEAxmF5",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "6wj16ihEX2pPqKzbtCZ0N3",
+      "album_name": "CLICK",
+      "album_type": "single",
+      "artist": "JISOO",
+      "artist_id": "6UZ0ba50XreR4TM8u322gs",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485131cc6756a13caaf2ea4a3b82",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -310,15 +277,48 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
-      "album_name": "Memorabilia",
-      "album_type": "album",
-      "artist": "Omoinotake",
-      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
+      "album_id": "4gdcr6w8k7SCLNUx851aEO",
+      "album_name": "Every Minute Of It",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
       "is_new": false,
-      "release_date": "2026-09-02"
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
+      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
+      "album_type": "album",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
+      "album_name": "act like you know ? (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Master Peace",
+      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "4I6JwprL9cEAl9HxS1OjUq",
+      "album_name": "Take Me Back (Robin Schulz Remix)",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514501432167ccabc9af43b7c0",
+      "is_new": false,
+      "release_date": "2026-09-04"
     },
     {
       "album_id": "43VFHCMHiaQM6Vk1JTkdtr",
@@ -328,6 +328,17 @@
       "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048518444137f149f274c0d60d2cc",
+      "is_new": false,
+      "release_date": "2026-09-02"
+    },
+    {
+      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
+      "album_name": "Memorabilia",
+      "album_type": "album",
+      "artist": "Omoinotake",
+      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
       "is_new": false,
       "release_date": "2026-09-02"
     },
@@ -363,138 +374,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e2ef01220362f6ee6c8951e2",
       "is_new": false,
       "release_date": "2026-08-31"
-    },
-    {
-      "album_id": "1es3JGBHQfFNXd4xVktkSs",
-      "album_name": "WILDCHILD",
-      "album_type": "album",
-      "artist": "Alex Warren",
-      "artist_id": "0fTSzq9jAh4c36UVb4V7CB",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513be802fb2f77d0277f382bae",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "2tlgOGD3q6KQIJDqdGvhbO",
-      "album_name": "Training Season's Over",
-      "album_type": "single",
-      "artist": "Dua Lipa",
-      "artist_id": "6M2wZ9GZgrQXHCFfjv46we",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517711ba24e99da53712f699ec",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "2JlC4FjC1cclukHKdRfhUl",
-      "album_name": "Without You (Remixes)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485103bab79b30f7d376d3f93053",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "3jIC3vVK0tZILvGaWtJflB",
-      "album_name": "Goodnight or Goodbye",
-      "album_type": "single",
-      "artist": "John Oates",
-      "artist_id": "4TjR4K8rD5CqqqU59V6aGr",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485196a1d4e2b955cfd88c58009a",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "7EXuRlGOKcBxzvQOCfuHGG",
-      "album_name": "Euphoria",
-      "album_type": "single",
-      "artist": "never goodbye",
-      "artist_id": "4Qqzm4FXFUgM5Ml09HRn6b",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f38b23b4bdb0a5250bbb54b2",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "62VWUx1DkN9FBe4WGKBiOG",
-      "album_name": "SLEEP",
-      "album_type": "single",
-      "artist": "The Kid LAROI",
-      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485155dacb7472b7186a94753b81",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "4HLkCvdBUOzeXOlcirgaSN",
-      "album_name": "Bando (feat. Pharrell Williams & Quavo) [Orchestral]",
-      "album_type": "single",
-      "artist": "Angelique Kidjo",
-      "artist_id": "51qUDJb5AtQX6jIL4VJx6M",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485121aaf2cf907df58c4004d5a5",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "0yq6V8bwNWq2bExhv2ggZV",
-      "album_name": "100 Best Film Classics",
-      "album_type": "album",
-      "artist": "Wolfgang Amadeus Mozart",
-      "artist_id": "4NJhFmfw43RLBLjQvxDuRS",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048510416cd51b9c15103c5f6ae34",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "4lZQjjnhdmMoaEW6A9SJBJ",
-      "album_name": "Hollow",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cd6e3ab83f54514854a9cf7c",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "414OvL92ETrjk0Frggy1a8",
-      "album_name": "Home Away From Home",
-      "album_type": "album",
-      "artist": "Daniel Levi",
-      "artist_id": "0cA0C4yBNRaN2EZsE2wT3Y",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519937c5f0caabd91917d4bf99",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "6MTQaYJTNPcuHlThqRygD5",
-      "album_name": "The House That We Don't Live In Anymore",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f65f2ce794461697b53ac8",
-      "is_new": false,
-      "release_date": "2026-08-28"
-    },
-    {
-      "album_id": "0O2BBZ5P4ljzLyyYfSVedH",
-      "album_name": "Mad Dog in the Fog",
-      "album_type": "album",
-      "artist": "Train",
-      "artist_id": "3FUY2gzHeIiaesXtOAdB7A",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851767df84cc5727c571f12180e",
-      "is_new": false,
-      "release_date": "2026-08-28"
     }
   ]
 }
