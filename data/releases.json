@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-11T18:57:00.631314+00:00",
+  "generated_at": "2026-09-12T18:03:23.187531+00:00",
   "items": [
+    {
+      "album_id": "3JpdcvSCKHDhZdDFUV4yIX",
+      "album_name": "BABY, GOOD TIMES",
+      "album_type": "single",
+      "artist": "ALI",
+      "artist_id": "2Qqrew4ZcEwf9NY7UqWGfU",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485121addf386ed60ff0d75b44fe",
+      "is_new": true,
+      "release_date": "2026-09-13"
+    },
     {
       "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
       "album_name": "Drift",
@@ -9,6 +20,39 @@
       "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "1BGE4rFJRc5B1DAacdNxTk",
+      "album_name": "Body To Body (Acoustic)",
+      "album_type": "single",
+      "artist": "Ryan Tedder",
+      "artist_id": "4we5S2VLjgY9KzIzApL1KI",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512d8edecbdaf37c0719678aab",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
+      "album_name": "Maluma - Hits Pa' Siempre",
+      "album_type": "album",
+      "artist": "Maluma",
+      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
+      "album_name": "Backwards (feat. T.I.)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -35,39 +79,6 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
-      "album_name": "Backwards (feat. T.I.)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
-      "is_new": true,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "1BGE4rFJRc5B1DAacdNxTk",
-      "album_name": "Body To Body (Acoustic)",
-      "album_type": "single",
-      "artist": "Ryan Tedder",
-      "artist_id": "4we5S2VLjgY9KzIzApL1KI",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512d8edecbdaf37c0719678aab",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
       "album_id": "0nSaRhdANg44Kfo59DBJpY",
       "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
       "album_type": "single",
@@ -75,17 +86,6 @@
       "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
-      "is_new": false,
-      "release_date": "2026-09-10"
-    },
-    {
-      "album_id": "4hfN98dM7Q4824V1pjXOxE",
-      "album_name": "You're Still The One (Candy Crush Version)",
-      "album_type": "single",
-      "artist": "Shania Twain",
-      "artist_id": "5e4Dhzv426EvQe3aDb64jL",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485149cbedb88bf9bef0b0c9c7f9",
       "is_new": false,
       "release_date": "2026-09-10"
     },
@@ -101,26 +101,26 @@
       "release_date": "2026-09-10"
     },
     {
-      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
-      "album_name": "1234",
+      "album_id": "1AOeTfKrbxsgVyIp8sq0G9",
+      "album_name": "Backwards (feat. T.I.)",
       "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
-      "is_new": false,
-      "release_date": "2026-09-09"
+      "image": "https://i.scdn.co/image/ab67616d00004851d89afe87257ef563cba57756",
+      "is_new": true,
+      "release_date": "2026-09-10"
     },
     {
-      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
-      "album_name": "果実",
-      "album_type": "album",
-      "artist": "PornoGraffitti",
-      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
+      "album_id": "4hfN98dM7Q4824V1pjXOxE",
+      "album_name": "You're Still The One (Candy Crush Version)",
+      "album_type": "single",
+      "artist": "Shania Twain",
+      "artist_id": "5e4Dhzv426EvQe3aDb64jL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485149cbedb88bf9bef0b0c9c7f9",
       "is_new": false,
-      "release_date": "2026-09-09"
+      "release_date": "2026-09-10"
     },
     {
       "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
@@ -134,35 +134,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
-      "album_name": "ZOOM",
-      "album_type": "single",
-      "artist": "AKLO",
-      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
-      "album_name": "さよならお姫様",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
-      "album_name": "はじめての中島美嘉",
+      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
+      "album_name": "果実",
       "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "artist": "PornoGraffitti",
+      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
+      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -185,6 +163,50 @@
       "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851a5da5e289c06e441ff7c0846",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
+      "album_name": "はじめての中島美嘉",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
+      "album_name": "さよならお姫様",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
+      "album_name": "ZOOM",
+      "album_type": "single",
+      "artist": "AKLO",
+      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
+      "album_name": "1234",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -222,24 +244,13 @@
       "release_date": "2026-09-06"
     },
     {
-      "album_id": "6wj6EqEV4sywgzZ4O7NeST",
-      "album_name": "I Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514b79b184f34ac194d35dea12",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
-      "album_name": "영원한 파도",
+      "album_id": "4FZrEZF2B4zaiC0icWNITX",
+      "album_name": "Let's Go Far: Vol. 1",
       "album_type": "single",
-      "artist": "SG",
-      "artist_id": "216arN9tLMMn2ltwEAxmF5",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "artist": "Phillip Phillips",
+      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513343b34d0b57232a1ceabc33",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -255,6 +266,17 @@
       "release_date": "2026-09-04"
     },
     {
+      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
+      "album_name": "act like you know ? (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Master Peace",
+      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
       "album_id": "6u1WfiZLxCJHFY6QG8M7Ws",
       "album_name": "Bosa",
       "album_type": "single",
@@ -262,28 +284,6 @@
       "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485139306616f73f3f25a93622ec",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4FZrEZF2B4zaiC0icWNITX",
-      "album_name": "Let's Go Far: Vol. 1",
-      "album_type": "single",
-      "artist": "Phillip Phillips",
-      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513343b34d0b57232a1ceabc33",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4gdcr6w8k7SCLNUx851aEO",
-      "album_name": "Every Minute Of It",
-      "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -299,17 +299,6 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
-      "album_name": "act like you know ? (feat. Muni Long)",
-      "album_type": "single",
-      "artist": "Master Peace",
-      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
       "album_id": "4I6JwprL9cEAl9HxS1OjUq",
       "album_name": "Take Me Back (Robin Schulz Remix)",
       "album_type": "single",
@@ -321,15 +310,37 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "43VFHCMHiaQM6Vk1JTkdtr",
-      "album_name": "サンダーボルト",
-      "album_type": "single",
-      "artist": "Yuuri",
-      "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048518444137f149f274c0d60d2cc",
+      "album_id": "6wj6EqEV4sywgzZ4O7NeST",
+      "album_name": "I Know Too Much",
+      "album_type": "album",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514b79b184f34ac194d35dea12",
       "is_new": false,
-      "release_date": "2026-09-02"
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "4gdcr6w8k7SCLNUx851aEO",
+      "album_name": "Every Minute Of It",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
+      "album_name": "영원한 파도",
+      "album_type": "single",
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "is_new": false,
+      "release_date": "2026-09-04"
     },
     {
       "album_id": "1ZyeXyqy928RKSR5wvdgK6",
@@ -339,6 +350,17 @@
       "artist_id": "63ylN6WBUUxxMsySiDmr0B",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
+      "is_new": false,
+      "release_date": "2026-09-02"
+    },
+    {
+      "album_id": "43VFHCMHiaQM6Vk1JTkdtr",
+      "album_name": "サンダーボルト",
+      "album_type": "single",
+      "artist": "Yuuri",
+      "artist_id": "0ixzjrK1wkN2zWBXt3VW3W",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048518444137f149f274c0d60d2cc",
       "is_new": false,
       "release_date": "2026-09-02"
     },

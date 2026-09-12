@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-11T18:54:58.253758+00:00",
+  "generated_at": "2026-09-12T18:00:46.378790+00:00",
   "totals": {
     "artists": 1342,
     "days": 2100,
     "ms": 12440720283,
     "plays": 63654,
     "since": "2019-09-05",
-    "tracks": 4690
+    "tracks": 4688
   },
   "tracks": [
     {
@@ -9243,28 +9243,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 50,
-      "first": "2020-06-02",
-      "id": "2iGtdYI4lI0jDpnxJOqZRw",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 16007293,
-      "name": "Hey Jude - Remastered 2009",
-      "short": 23,
-      "years": {
-        "2020": 12,
-        "2021": 17,
-        "2022": 6,
-        "2023": 3,
-        "2024": 3,
-        "2025": 4,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Fall Out Boy"
       ],
       "count": 50,
@@ -9640,6 +9618,28 @@
         "2020": 24,
         "2021": 22,
         "2022": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 48,
+      "first": "2020-06-02",
+      "id": "2iGtdYI4lI0jDpnxJOqZRw",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-07-16",
+      "ms": 16007293,
+      "name": "Hey Jude - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2020": 12,
+        "2021": 17,
+        "2022": 6,
+        "2023": 3,
+        "2024": 3,
+        "2025": 4,
+        "2026": 3
       }
     },
     {
@@ -15849,6 +15849,27 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 22,
+      "first": "2019-09-30",
+      "id": "1hTUFqJuQAMjXVGwUPWDqi",
+      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
+      "last": "2026-09-10",
+      "ms": 2586592,
+      "name": "We Can Work It Out - Remastered 2015",
+      "short": 3,
+      "years": {
+        "2019": 2,
+        "2020": 5,
+        "2021": 1,
+        "2023": 8,
+        "2024": 3,
+        "2026": 3
+      }
+    },
+    {
+      "artists": [
         "Cö shu Nie"
       ],
       "count": 22,
@@ -16620,27 +16641,6 @@
         "2023": 1,
         "2024": 7,
         "2025": 11,
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 20,
-      "first": "2019-09-30",
-      "id": "1hTUFqJuQAMjXVGwUPWDqi",
-      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
-      "last": "2026-07-10",
-      "ms": 2586592,
-      "name": "We Can Work It Out - Remastered 2015",
-      "short": 3,
-      "years": {
-        "2019": 2,
-        "2020": 5,
-        "2021": 1,
-        "2023": 8,
-        "2024": 3,
         "2026": 1
       }
     },
@@ -20211,6 +20211,23 @@
         "The Beatles"
       ],
       "count": 12,
+      "first": "2020-01-05",
+      "id": "3m7V717IKZqZLW5qUIOxdD",
+      "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
+      "last": "2026-07-21",
+      "ms": 2875743,
+      "name": "Hey Jude - Remastered 2009",
+      "short": 8,
+      "years": {
+        "2020": 10,
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 12,
       "first": "2019-12-16",
       "id": "6oUjSwtifVaM8iIN01KVzC",
       "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
@@ -21327,22 +21344,6 @@
       "years": {
         "2020": 5,
         "2021": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 10,
-      "first": "2020-01-05",
-      "id": "3m7V717IKZqZLW5qUIOxdD",
-      "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
-      "last": "2020-05-28",
-      "ms": 2875743,
-      "name": "Hey Jude - Remastered 2009",
-      "short": 8,
-      "years": {
-        "2020": 10
       }
     },
     {
@@ -68930,36 +68931,6 @@
       "short": 1,
       "years": {
         "2021": 1
-      }
-    },
-    {
-      "artists": [
-        "ザ・ビートルズ"
-      ],
-      "count": 1,
-      "first": "2026-09-07",
-      "id": "lastfm:wecanworkitoutremastered2015|ザ・ビートルズ",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
-      "last": "2026-09-07",
-      "ms": 0,
-      "name": "We Can Work It Out - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:wecanworkitoutremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
-      "ms": 0,
-      "name": "We Can Work It Out - Remastered 2015",
-      "years": {
-        "2026": 1
       }
     },
     {
