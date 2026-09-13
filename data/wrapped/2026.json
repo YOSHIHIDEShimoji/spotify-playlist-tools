@@ -33,48 +33,48 @@
       "month": "2026-08"
     },
     {
-      "count": 406,
+      "count": 521,
       "month": "2026-09"
     }
   ],
   "ms": 1987489094,
   "new_tracks": 968,
   "peak": {
-    "dow": 3,
-    "hour": 9
+    "dow": 6,
+    "hour": 18
   },
-  "plays": 11972,
+  "plays": 12087,
   "top_artists": [
     {
-      "count": 1599,
+      "count": 1613,
       "name": "OneRepublic"
     },
     {
-      "count": 911,
+      "count": 908,
       "name": "The Beatles"
     },
     {
-      "count": 750,
+      "count": 755,
       "name": "Charlie Puth"
     },
     {
-      "count": 477,
+      "count": 484,
       "name": "Taylor Swift"
     },
     {
-      "count": 339,
+      "count": 343,
       "name": "Henry Moodie"
     },
     {
-      "count": 310,
-      "name": "Maroon 5"
-    },
-    {
-      "count": 309,
+      "count": 322,
       "name": "Justin Bieber"
     },
     {
-      "count": 280,
+      "count": 312,
+      "name": "Maroon 5"
+    },
+    {
+      "count": 284,
       "name": "Ed Sheeran"
     },
     {
@@ -82,19 +82,19 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 247,
+      "count": 249,
       "name": "Novelbright"
     },
     {
-      "count": 227,
+      "count": 229,
       "name": "Train"
     },
     {
-      "count": 198,
+      "count": 201,
       "name": "ワンリパブリック"
     },
     {
-      "count": 161,
+      "count": 164,
       "name": "Shawn Mendes"
     },
     {
@@ -102,7 +102,7 @@
       "name": "King Gnu"
     },
     {
-      "count": 155,
+      "count": 158,
       "name": "Bruno Mars"
     },
     {
@@ -155,7 +155,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 68,
+      "count": 69,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -163,7 +163,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 67,
+      "count": 68,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -241,6 +241,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 54,
+      "name": "Sunshine",
+      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+    },
+    {
+      "artists": [
         "Kygo"
       ],
       "count": 53,
@@ -262,14 +270,6 @@
       "count": 53,
       "name": "Good Life - from One Night In Malibu",
       "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 53,
-      "name": "Sunshine",
-      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
     },
     {
       "artists": [
