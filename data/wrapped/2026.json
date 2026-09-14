@@ -33,20 +33,20 @@
       "month": "2026-08"
     },
     {
-      "count": 521,
+      "count": 563,
       "month": "2026-09"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 968,
+  "new_tracks": 969,
   "peak": {
     "dow": 6,
     "hour": 18
   },
-  "plays": 12087,
+  "plays": 12129,
   "top_artists": [
     {
-      "count": 1613,
+      "count": 1618,
       "name": "OneRepublic"
     },
     {
@@ -54,7 +54,7 @@
       "name": "The Beatles"
     },
     {
-      "count": 755,
+      "count": 756,
       "name": "Charlie Puth"
     },
     {
@@ -62,11 +62,11 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 343,
+      "count": 348,
       "name": "Henry Moodie"
     },
     {
-      "count": 322,
+      "count": 323,
       "name": "Justin Bieber"
     },
     {
@@ -82,7 +82,7 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 249,
+      "count": 248,
       "name": "Novelbright"
     },
     {
@@ -110,7 +110,7 @@
       "name": "ザ・ビートルズ"
     },
     {
-      "count": 138,
+      "count": 139,
       "name": "Kygo"
     },
     {
@@ -241,19 +241,19 @@
     },
     {
       "artists": [
+        "Kygo"
+      ],
+      "count": 54,
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 54,
       "name": "Sunshine",
       "track_id": "6keF0sk7i4WU3cVnMkTtS3"
-    },
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 53,
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [

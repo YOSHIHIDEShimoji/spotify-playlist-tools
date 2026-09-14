@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-09-13T18:29:46.239705+00:00",
+  "generated_at": "2026-09-14T20:08:24.042935+00:00",
   "items": [
+    {
+      "album_id": "7dPLgIvRNxhSxTUXT6G7n2",
+      "album_name": "The Lion King (De Leeuwenkoning)",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485143fee3dc39b9362c23fafa14",
+      "is_new": true,
+      "release_date": "2026-09-15"
+    },
+    {
+      "album_id": "3q0wBseKToqHQZaIJZldFF",
+      "album_name": "Made My Night (feat. EJAE)",
+      "album_type": "single",
+      "artist": "LE SSERAFIM",
+      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
+      "is_new": true,
+      "release_date": "2026-09-14"
+    },
     {
       "album_id": "3kxvuho2lPjidH73pndMKJ",
       "album_name": "オリオン (PSYQUI Remix)",
@@ -9,7 +31,7 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048517b2f9e6027d8f0f70eb5c523",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-14"
     },
     {
@@ -24,35 +46,13 @@
       "release_date": "2026-09-13"
     },
     {
-      "album_id": "1E7th5SrXGmfa4j2RzgtKk",
-      "album_name": "ALL THE TIME [GorillaT Remix]",
+      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
+      "album_name": "Backwards (feat. T.I.)",
       "album_type": "single",
-      "artist": "John Summit",
-      "artist_id": "7kNqXtgeIwFtelmRjWv205",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
-      "album_name": "Drift",
-      "album_type": "single",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -68,13 +68,24 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
-      "album_name": "Backwards (feat. T.I.)",
+      "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
+      "album_name": "Drift",
       "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "artist": "Gavin Greenaway",
+      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "1E7th5SrXGmfa4j2RzgtKk",
+      "album_name": "ALL THE TIME [GorillaT Remix]",
+      "album_type": "single",
+      "artist": "John Summit",
+      "artist_id": "7kNqXtgeIwFtelmRjWv205",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -90,6 +101,17 @@
       "release_date": "2026-09-11"
     },
     {
+      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
+      "album_name": "Maluma - Hits Pa' Siempre",
+      "album_type": "album",
+      "artist": "Maluma",
+      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
       "album_id": "4hfN98dM7Q4824V1pjXOxE",
       "album_name": "You're Still The One (Candy Crush Version)",
       "album_type": "single",
@@ -97,17 +119,6 @@
       "artist_id": "5e4Dhzv426EvQe3aDb64jL",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485149cbedb88bf9bef0b0c9c7f9",
-      "is_new": false,
-      "release_date": "2026-09-10"
-    },
-    {
-      "album_id": "0nSaRhdANg44Kfo59DBJpY",
-      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
-      "album_type": "single",
-      "artist": "Rochak Kohli",
-      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
       "is_new": false,
       "release_date": "2026-09-10"
     },
@@ -123,6 +134,28 @@
       "release_date": "2026-09-10"
     },
     {
+      "album_id": "0nSaRhdANg44Kfo59DBJpY",
+      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
+      "album_type": "single",
+      "artist": "Rochak Kohli",
+      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
+      "is_new": false,
+      "release_date": "2026-09-10"
+    },
+    {
+      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
+      "album_name": "さよならお姫様",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
       "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
       "album_name": "Close My Eyes (feat. SACHA)",
       "album_type": "single",
@@ -130,17 +163,6 @@
       "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
-      "album_name": "1234",
-      "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -156,13 +178,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
-      "album_name": "さよならお姫様",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
+      "album_name": "果実",
+      "album_type": "album",
+      "artist": "PornoGraffitti",
+      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
+      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -200,13 +222,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
-      "album_name": "果実",
-      "album_type": "album",
-      "artist": "PornoGraffitti",
-      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
+      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
+      "album_name": "1234",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -244,6 +266,17 @@
       "release_date": "2026-09-06"
     },
     {
+      "album_id": "4gdcr6w8k7SCLNUx851aEO",
+      "album_name": "Every Minute Of It",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
       "album_id": "6u1WfiZLxCJHFY6QG8M7Ws",
       "album_name": "Bosa",
       "album_type": "single",
@@ -251,72 +284,6 @@
       "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485139306616f73f3f25a93622ec",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
-      "album_name": "영원한 파도",
-      "album_type": "single",
-      "artist": "SG",
-      "artist_id": "216arN9tLMMn2ltwEAxmF5",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
-      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
-      "album_type": "album",
-      "artist": "Vaundy",
-      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4I6JwprL9cEAl9HxS1OjUq",
-      "album_name": "Take Me Back (Robin Schulz Remix)",
-      "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514501432167ccabc9af43b7c0",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
-      "album_name": "act like you know ? (feat. Muni Long)",
-      "album_type": "single",
-      "artist": "Master Peace",
-      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "6wj16ihEX2pPqKzbtCZ0N3",
-      "album_name": "CLICK",
-      "album_type": "single",
-      "artist": "JISOO",
-      "artist_id": "6UZ0ba50XreR4TM8u322gs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485131cc6756a13caaf2ea4a3b82",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "6wj6EqEV4sywgzZ4O7NeST",
-      "album_name": "I Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514b79b184f34ac194d35dea12",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -332,24 +299,79 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "4gdcr6w8k7SCLNUx851aEO",
-      "album_name": "Every Minute Of It",
+      "album_id": "4I6JwprL9cEAl9HxS1OjUq",
+      "album_name": "Take Me Back (Robin Schulz Remix)",
       "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
+      "image": "https://i.scdn.co/image/ab67616d000048514501432167ccabc9af43b7c0",
       "is_new": false,
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
-      "album_name": "Memorabilia",
+      "album_id": "6wj6EqEV4sywgzZ4O7NeST",
+      "album_name": "I Know Too Much",
       "album_type": "album",
-      "artist": "Omoinotake",
-      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514b79b184f34ac194d35dea12",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
+      "album_name": "영원한 파도",
+      "album_type": "single",
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
+      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3TKiTxyZQYf3gQ3z6QR4S4",
+      "album_name": "act like you know ? (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Master Peace",
+      "artist_id": "4GNHtO2iEJ09r4JNTlqnO9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513aada93e42de7e898d9da2b1",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
+      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
+      "album_type": "album",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "6wj16ihEX2pPqKzbtCZ0N3",
+      "album_name": "CLICK",
+      "album_type": "single",
+      "artist": "JISOO",
+      "artist_id": "6UZ0ba50XreR4TM8u322gs",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485131cc6756a13caaf2ea4a3b82",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "0v4nc64jQYVwNexCyLTqhi",
+      "album_name": "I-BULL",
+      "album_type": "single",
+      "artist": "jo0ji",
+      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e21fca20f466168e2401b542",
       "is_new": false,
       "release_date": "2026-09-02"
     },
@@ -365,13 +387,13 @@
       "release_date": "2026-09-02"
     },
     {
-      "album_id": "0v4nc64jQYVwNexCyLTqhi",
-      "album_name": "I-BULL",
-      "album_type": "single",
-      "artist": "jo0ji",
-      "artist_id": "5Wfhi0FggHCfOSa3ux39fk",
+      "album_id": "1ZyeXyqy928RKSR5wvdgK6",
+      "album_name": "Memorabilia",
+      "album_type": "album",
+      "artist": "Omoinotake",
+      "artist_id": "63ylN6WBUUxxMsySiDmr0B",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e21fca20f466168e2401b542",
+      "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
       "is_new": false,
       "release_date": "2026-09-02"
     },
@@ -385,17 +407,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851044a3a2ecf53a914d6f748f6",
       "is_new": false,
       "release_date": "2026-09-01"
-    },
-    {
-      "album_id": "0RXFsVzXUzJmOMgYfoQpIh",
-      "album_name": "Lilo & Stitch: De hondenshow",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e2ef01220362f6ee6c8951e2",
-      "is_new": false,
-      "release_date": "2026-08-31"
     }
   ]
 }
