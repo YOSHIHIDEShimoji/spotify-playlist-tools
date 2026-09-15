@@ -1,6 +1,50 @@
 {
-  "generated_at": "2026-09-14T20:08:24.042935+00:00",
+  "generated_at": "2026-09-15T19:26:24.843855+00:00",
   "items": [
+    {
+      "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
+      "album_name": "back shot",
+      "album_type": "album",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851a457c076a7faa5239f009fea",
+      "is_new": true,
+      "release_date": "2026-09-16"
+    },
+    {
+      "album_id": "2zOyV8uuxPW31rdXWokKyM",
+      "album_name": "運命さがし EP",
+      "album_type": "single",
+      "artist": "Macaroni Empitsu",
+      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "is_new": true,
+      "release_date": "2026-09-16"
+    },
+    {
+      "album_id": "4TN5rvYtw92VnfRiG2auyP",
+      "album_name": "オリーブ",
+      "album_type": "single",
+      "artist": "Tota",
+      "artist_id": "5WIXXPkyVYncLscyUbDrpi",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e26142fd7b7318d937dade",
+      "is_new": true,
+      "release_date": "2026-09-16"
+    },
+    {
+      "album_id": "02k9RZkhDfdskVGJ1NvJHt",
+      "album_name": "April Suzanne",
+      "album_type": "single",
+      "artist": "Beach House",
+      "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
+      "is_new": true,
+      "release_date": "2026-09-16"
+    },
     {
       "album_id": "7dPLgIvRNxhSxTUXT6G7n2",
       "album_name": "The Lion King (De Leeuwenkoning)",
@@ -9,19 +53,8 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485143fee3dc39b9362c23fafa14",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-15"
-    },
-    {
-      "album_id": "3q0wBseKToqHQZaIJZldFF",
-      "album_name": "Made My Night (feat. EJAE)",
-      "album_type": "single",
-      "artist": "LE SSERAFIM",
-      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
-      "is_new": true,
-      "release_date": "2026-09-14"
     },
     {
       "album_id": "3kxvuho2lPjidH73pndMKJ",
@@ -35,6 +68,17 @@
       "release_date": "2026-09-14"
     },
     {
+      "album_id": "3q0wBseKToqHQZaIJZldFF",
+      "album_name": "Made My Night (feat. EJAE)",
+      "album_type": "single",
+      "artist": "LE SSERAFIM",
+      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
+      "is_new": false,
+      "release_date": "2026-09-14"
+    },
+    {
       "album_id": "3JpdcvSCKHDhZdDFUV4yIX",
       "album_name": "BABY, GOOD TIMES",
       "album_type": "single",
@@ -44,17 +88,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485121addf386ed60ff0d75b44fe",
       "is_new": false,
       "release_date": "2026-09-13"
-    },
-    {
-      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
-      "album_name": "Backwards (feat. T.I.)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
-      "is_new": false,
-      "release_date": "2026-09-11"
     },
     {
       "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
@@ -75,6 +108,17 @@
       "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
+      "album_name": "Maluma - Hits Pa' Siempre",
+      "album_type": "album",
+      "artist": "Maluma",
+      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -101,13 +145,13 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
+      "album_name": "Backwards (feat. T.I.)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a9a3de3f301f83db0c9fa04a",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -123,6 +167,17 @@
       "release_date": "2026-09-10"
     },
     {
+      "album_id": "0nSaRhdANg44Kfo59DBJpY",
+      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
+      "album_type": "single",
+      "artist": "Rochak Kohli",
+      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
+      "is_new": false,
+      "release_date": "2026-09-10"
+    },
+    {
       "album_id": "3MIohyW16SMMEoYaicOz2j",
       "album_name": "Winnie Puuh - Die Wunder des Hundertmorgenwalds",
       "album_type": "album",
@@ -134,15 +189,15 @@
       "release_date": "2026-09-10"
     },
     {
-      "album_id": "0nSaRhdANg44Kfo59DBJpY",
-      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
-      "album_type": "single",
-      "artist": "Rochak Kohli",
-      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
+      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
+      "album_name": "果実",
+      "album_type": "album",
+      "artist": "PornoGraffitti",
+      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
       "is_new": false,
-      "release_date": "2026-09-10"
+      "release_date": "2026-09-09"
     },
     {
       "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
@@ -156,17 +211,6 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
-      "album_name": "Close My Eyes (feat. SACHA)",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
       "album_id": "6pP2fYJoK5I8pHvQYefO5U",
       "album_name": "ZOOM",
       "album_type": "single",
@@ -174,17 +218,6 @@
       "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
-      "album_name": "果実",
-      "album_type": "album",
-      "artist": "PornoGraffitti",
-      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -211,13 +244,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
-      "album_name": "はじめての中島美嘉",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
+      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
+      "album_name": "Close My Eyes (feat. SACHA)",
+      "album_type": "single",
+      "artist": "Marshmello",
+      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -233,15 +266,15 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "2rkj07G0JsBiy0XrfE19XL",
-      "album_name": "Essa Ta Quente (feat. Skrillex)",
-      "album_type": "single",
-      "artist": "Chase & Status",
-      "artist_id": "3jNkaOXasoc7RsxdchvEVq",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485152cb03d71287de84a1f55238",
+      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
+      "album_name": "はじめての中島美嘉",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
       "is_new": false,
-      "release_date": "2026-09-08"
+      "release_date": "2026-09-09"
     },
     {
       "album_id": "3D2kgALEBV57nYhb5JlKgn",
@@ -255,6 +288,17 @@
       "release_date": "2026-09-08"
     },
     {
+      "album_id": "2rkj07G0JsBiy0XrfE19XL",
+      "album_name": "Essa Ta Quente (feat. Skrillex)",
+      "album_type": "single",
+      "artist": "Chase & Status",
+      "artist_id": "3jNkaOXasoc7RsxdchvEVq",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485152cb03d71287de84a1f55238",
+      "is_new": false,
+      "release_date": "2026-09-08"
+    },
+    {
       "album_id": "3C0YWIcCuiba0l785qwUtk",
       "album_name": "We Know Too Much",
       "album_type": "album",
@@ -264,39 +308,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851f707abfbd6450ab3837729c6",
       "is_new": false,
       "release_date": "2026-09-06"
-    },
-    {
-      "album_id": "4gdcr6w8k7SCLNUx851aEO",
-      "album_name": "Every Minute Of It",
-      "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "6u1WfiZLxCJHFY6QG8M7Ws",
-      "album_name": "Bosa",
-      "album_type": "single",
-      "artist": "Elyanna",
-      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485139306616f73f3f25a93622ec",
-      "is_new": false,
-      "release_date": "2026-09-04"
-    },
-    {
-      "album_id": "4FZrEZF2B4zaiC0icWNITX",
-      "album_name": "Let's Go Far: Vol. 1",
-      "album_type": "single",
-      "artist": "Phillip Phillips",
-      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513343b34d0b57232a1ceabc33",
-      "is_new": false,
-      "release_date": "2026-09-04"
     },
     {
       "album_id": "4I6JwprL9cEAl9HxS1OjUq",
@@ -321,13 +332,24 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
-      "album_name": "영원한 파도",
+      "album_id": "4FZrEZF2B4zaiC0icWNITX",
+      "album_name": "Let's Go Far: Vol. 1",
       "album_type": "single",
-      "artist": "SG",
-      "artist_id": "216arN9tLMMn2ltwEAxmF5",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
+      "artist": "Phillip Phillips",
+      "artist_id": "6p5JxpTc7USNnBnLzctyd4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513343b34d0b57232a1ceabc33",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "4gdcr6w8k7SCLNUx851aEO",
+      "album_name": "Every Minute Of It",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518ed2c20c784d3006b4f2861e",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -343,13 +365,13 @@
       "release_date": "2026-09-04"
     },
     {
-      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
-      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
-      "album_type": "album",
-      "artist": "Vaundy",
-      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
+      "album_id": "6u1WfiZLxCJHFY6QG8M7Ws",
+      "album_name": "Bosa",
+      "album_type": "single",
+      "artist": "Elyanna",
+      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485139306616f73f3f25a93622ec",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -361,6 +383,28 @@
       "artist_id": "6UZ0ba50XreR4TM8u322gs",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485131cc6756a13caaf2ea4a3b82",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "5bEkzt4om6nbYoqC9Sr6R5",
+      "album_name": "Vaundy DOME TOUR 2026 \"SILENCE\" LIVE SELECTION from TOKYO DOME",
+      "album_type": "album",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485153f050e8ffb07b21470697ff",
+      "is_new": false,
+      "release_date": "2026-09-04"
+    },
+    {
+      "album_id": "3k8DMJ9owFmdfwzsP0TTlF",
+      "album_name": "영원한 파도",
+      "album_type": "single",
+      "artist": "SG",
+      "artist_id": "216arN9tLMMn2ltwEAxmF5",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851df085dc221d7bc278795d377",
       "is_new": false,
       "release_date": "2026-09-04"
     },
@@ -396,17 +440,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851de5c290938677bb0f430b99f",
       "is_new": false,
       "release_date": "2026-09-02"
-    },
-    {
-      "album_id": "5rq7GrviWeiO176U26pDvS",
-      "album_name": "Feet Don't Fail Me Now (Part 2)",
-      "album_type": "single",
-      "artist": "Joy Crookes",
-      "artist_id": "5XMyhVhi5ZN2pi0Qwi1zXS",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851044a3a2ecf53a914d6f748f6",
-      "is_new": false,
-      "release_date": "2026-09-01"
     }
   ]
 }
