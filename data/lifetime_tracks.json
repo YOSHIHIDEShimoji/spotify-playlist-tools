@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:24:27.956269+00:00",
+  "generated_at": "2026-09-16T19:16:43.322347+00:00",
   "totals": {
     "artists": 1343,
     "days": 2103,
@@ -10335,23 +10335,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 45,
-      "first": "2025-12-20",
-      "id": "7uFhHMYpEC2MLXwxt64pMD",
-      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
-      "last": "2026-09-14",
-      "ms": 7270010,
-      "name": "I Won't Tell a Soul",
-      "short": 4,
-      "years": {
-        "2025": 7,
-        "2026": 38
-      }
-    },
-    {
-      "artists": [
         "Shawn Mendes"
       ],
       "count": 45,
@@ -10619,6 +10602,23 @@
         "2024": 6,
         "2025": 4,
         "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 44,
+      "first": "2025-12-20",
+      "id": "7uFhHMYpEC2MLXwxt64pMD",
+      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
+      "last": "2026-09-14",
+      "ms": 7270010,
+      "name": "I Won't Tell a Soul",
+      "short": 4,
+      "years": {
+        "2025": 7,
+        "2026": 37
       }
     },
     {
@@ -17150,6 +17150,24 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 18,
+      "first": "2023-04-16",
+      "id": "6epn3r7S14KUqlReYr77hA",
+      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+      "last": "2026-09-15",
+      "ms": 2429313,
+      "name": "Baby",
+      "short": 1,
+      "years": {
+        "2023": 1,
+        "2025": 1,
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "AC/DC"
       ],
       "count": 18,
@@ -17596,24 +17614,6 @@
       "years": {
         "2025": 16,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 17,
-      "first": "2023-04-16",
-      "id": "6epn3r7S14KUqlReYr77hA",
-      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
-      "last": "2026-09-15",
-      "ms": 2429313,
-      "name": "Baby",
-      "short": 1,
-      "years": {
-        "2023": 1,
-        "2025": 1,
-        "2026": 15
       }
     },
     {

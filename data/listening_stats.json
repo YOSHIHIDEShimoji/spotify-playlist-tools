@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-15T19:23:12.832411+00:00",
+  "generated_at": "2026-09-16T19:14:15.472936+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -816,16 +816,16 @@
     "total": 63811
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 30,
+  "streak": 0,
   "weekly_top": [
     {
       "artists": [
-        "チャーリー・プース"
+        "Justin Bieber"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
-      "name": "I Won't Tell A Soul",
-      "track_id": "7uFhHMYpEC2MLXwxt64pMD"
+      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+      "name": "Baby",
+      "track_id": "6epn3r7S14KUqlReYr77hA"
     },
     {
       "artists": [
@@ -1192,18 +1192,18 @@
         "チャーリー・プース"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
-      "name": "One Call Away",
-      "track_id": "5MwIGPDKeDb7SpblcaQP6O"
+      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
+      "name": "I Won't Tell A Soul",
+      "track_id": "7uFhHMYpEC2MLXwxt64pMD"
     },
     {
       "artists": [
-        "Justin Bieber",
-        "Ludacris"
+        "チャーリー・プース"
       ],
       "count": 1,
-      "name": "Baby",
-      "track_id": "6epn3r7S14KUqlReYr77hA"
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "name": "One Call Away",
+      "track_id": "5MwIGPDKeDb7SpblcaQP6O"
     }
   ]
 }
