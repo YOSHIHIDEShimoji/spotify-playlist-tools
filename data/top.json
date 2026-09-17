@@ -102,23 +102,23 @@
         "rank": 20
       },
       {
-        "id": "5WUlDfRSoLAfcVSX1WnrxN",
-        "name": "Sia",
-        "rank": 21
-      },
-      {
         "id": "7KSbqXHO0xzNQhzaIWILIo",
         "name": "音田 雅則",
-        "rank": 22
+        "rank": 21
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 23
+        "rank": 22
       },
       {
         "id": "49tQo2QULno7gxHutgccqF",
         "name": "LANY",
+        "rank": 23
+      },
+      {
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
         "rank": 24
       },
       {
@@ -137,18 +137,18 @@
         "rank": 27
       },
       {
-        "id": "4x1nvY2FN8jxqAFA0DA02H",
-        "name": "John Lennon",
-        "rank": 28
-      },
-      {
         "id": "5kVZa4lFUmAQlBogl1fkd6",
         "name": "Aimyon",
-        "rank": 29
+        "rank": 28
       },
       {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
+        "rank": 29
+      },
+      {
+        "id": "4x1nvY2FN8jxqAFA0DA02H",
+        "name": "John Lennon",
         "rank": 30
       }
     ],
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-16T19:17:43.099633+00:00",
+  "generated_at": "2026-09-17T19:29:23.411317+00:00",
   "tracks": {
     "long_term": [
       {
@@ -670,20 +670,20 @@
       },
       {
         "artists": [
-          "suis from Yorushika"
-        ],
-        "id": "30aPCMAtkH6Cf5ejzY4cE4",
-        "image": "https://i.scdn.co/image/ab67616d000048515b9ddb28cb2d440296a5bcbf",
-        "name": "星めぐる詩",
-        "rank": 24
-      },
-      {
-        "artists": [
           "ONE OK ROCK"
         ],
         "id": "2SRmR6w3MMCA0UwAtKkVrZ",
         "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
         "name": "Broken Heart of Gold",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "suis from Yorushika"
+        ],
+        "id": "30aPCMAtkH6Cf5ejzY4cE4",
+        "image": "https://i.scdn.co/image/ab67616d000048515b9ddb28cb2d440296a5bcbf",
+        "name": "星めぐる詩",
         "rank": 25
       },
       {
