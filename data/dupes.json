@@ -1,9 +1,29 @@
 {
   "counts": {
-    "A": 0,
+    "A": 1,
     "B": 0,
     "C": 0
   },
-  "generated_at": "2026-09-17T19:26:58.538331+00:00",
-  "groups": []
+  "generated_at": "2026-09-18T18:45:59.516775+00:00",
+  "groups": [
+    {
+      "count": 2,
+      "id": "g-a5c6eb1091a7",
+      "playlist": {
+        "id": "3gWeVkYJPREpkdCpDRjHFw",
+        "name": "Western Musics"
+      },
+      "reason": "same-id-in-playlist",
+      "tier": "A",
+      "track": {
+        "artists": [
+          "UEFA",
+          "Tony Britten"
+        ],
+        "id": "7HJidWHPoAXJhaKeAmqfF5",
+        "image": "https://i.scdn.co/image/ab67616d000048512d5c7b314b4b75b8cead85a3",
+        "name": "UEFA Champions League Legacy Anthem - Full Version"
+      }
+    }
+  ]
 }

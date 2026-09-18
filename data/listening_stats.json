@@ -60,7 +60,7 @@
       "artists": [
         "Sia"
       ],
-      "count": 181,
+      "count": 182,
       "name": "Chandelier",
       "track_id": "4VrWlk8IQxevMvERoX08iC"
     },
@@ -90,6 +90,14 @@
     },
     {
       "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 171,
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+    },
+    {
+      "artists": [
         "Idina Menzel"
       ],
       "count": 170,
@@ -103,14 +111,6 @@
       "count": 170,
       "name": "Laughter",
       "track_id": "75fYFVXHzzwfc5yzFWlIlZ"
-    },
-    {
-      "artists": [
-        "YUNGBLUD"
-      ],
-      "count": 170,
-      "name": "Abyss - from Kaiju No. 8",
-      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
     {
       "artists": [
@@ -178,6 +178,14 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 149,
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
         "髙見 優/長岡 成貢"
       ],
       "count": 149,
@@ -191,14 +199,6 @@
       "count": 148,
       "name": "It's Only Love - Remastered 2009",
       "track_id": "2ue1KRstSKHF8jQkIJZiNC"
-    },
-    {
-      "artists": [
-        "Clean Bandit"
-      ],
-      "count": 148,
-      "name": "Symphony (feat. Zara Larsson)",
-      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-17T19:26:48.360360+00:00",
+  "generated_at": "2026-09-18T18:45:48.741631+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,64 @@
       5000,
       10000
     ],
-    "total": 63811
+    "total": 63840
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 0,
+  "streak": 2,
   "weekly_top": [
     {
       "artists": [
-        "Justin Bieber"
+        "ジャスティン・ビーバー"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048519f05db24a0ce9b5d02b87408",
+      "name": "Lifetime",
+      "track_id": "3kZLeZr4StCy1tlOBRJrUH"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
-      "name": "Baby",
-      "track_id": "6epn3r7S14KUqlReYr77hA"
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Ghost",
+      "track_id": "6I3mqTwhRpn34SLVafSH7G"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Anyone",
+      "track_id": "2WnAKZefdRHxtBEkRjFOHC"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
+      "name": "Left Right Left",
+      "track_id": "197CUwGpX84IMI7aWB1Cjk"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "name": "Done For Me (feat. Kehlani)",
+      "track_id": "1lsBTdE6MGsKeZCD6llNu7"
+    },
+    {
+      "artists": [
+        "ボン・ジョヴィ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518cadefc62ac1c0b7c4ab882a",
+      "name": "These Days",
+      "track_id": "4nnJRbVecvQwqf3OQP4mja"
     },
     {
       "artists": [
@@ -958,15 +1003,6 @@
         "ジャスティン・ビーバー"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-      "name": "Ghost",
-      "track_id": "6I3mqTwhRpn34SLVafSH7G"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
       "image": "https://i.scdn.co/image/ab67616d0000485133725895b46d20ffcbe26047",
       "name": "We’re In This Together",
       "track_id": "7EsQIwQRGUonT3vja1weWW"
@@ -988,24 +1024,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
       "name": "Peaches (feat. Daniel Caesar & Giveon)",
       "track_id": "4iJyoBOLtHqaGxP12qzhQI"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-      "name": "Anyone",
-      "track_id": "2WnAKZefdRHxtBEkRjFOHC"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519f05db24a0ce9b5d02b87408",
-      "name": "Lifetime",
-      "track_id": "3kZLeZr4StCy1tlOBRJrUH"
     },
     {
       "artists": [
@@ -1117,24 +1135,6 @@
     },
     {
       "artists": [
-        "チャーリー・プース"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851633a2d775747bccfbcb17a45",
-      "name": "Left Right Left",
-      "track_id": "197CUwGpX84IMI7aWB1Cjk"
-    },
-    {
-      "artists": [
-        "チャーリー・プース"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
-      "name": "Done For Me (feat. Kehlani)",
-      "track_id": "1lsBTdE6MGsKeZCD6llNu7"
-    },
-    {
-      "artists": [
         "レノン・ステラ"
       ],
       "count": 1,
@@ -1204,6 +1204,69 @@
       "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
       "name": "One Call Away",
       "track_id": "5MwIGPDKeDb7SpblcaQP6O"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
+      "name": "Baby",
+      "track_id": "6epn3r7S14KUqlReYr77hA"
+    },
+    {
+      "artists": [
+        "yung kai"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "name": "blue",
+      "track_id": "3be9ACTxtcL6Zm4vJRUiPG"
+    },
+    {
+      "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "me, myself and i",
+      "track_id": "0eqqORX2j2REFwmdoJaRkH"
+    },
+    {
+      "artists": [
+        "アデル"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a7c79b8f85ff6e56b39a549c",
+      "name": "Easy On Me",
+      "track_id": "0gplL1WMoJ6iYaPgMCL0gX"
+    },
+    {
+      "artists": [
+        "Jack Ü"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485157fc4730e06c9ab20c1e073b",
+      "name": "Where Are Ü Now (with Justin Bieber)",
+      "track_id": "66hayvUbTotekKU3H4ta1f"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485133bfb6b08ea4935ed04a7079",
+      "name": "eighteen",
+      "track_id": "37ZOqyxz7B7bmIa2sq5odC"
     }
   ]
 }
