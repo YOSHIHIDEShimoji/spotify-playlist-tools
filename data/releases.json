@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:49:25.675435+00:00",
+  "generated_at": "2026-09-19T18:21:59.219052+00:00",
   "items": [
     {
       "album_id": "0O44qjVfTco7mH3rDz3DZc",
@@ -9,17 +9,28 @@
       "artist_id": "3dRfiJ2650SZu6GbydcHNb",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048510062d2659ff142fe4e79753d",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-19"
     },
     {
-      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
-      "album_name": "World Away (Ely Oaks Remix)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
+      "album_name": "Day and Night",
+      "album_type": "album",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
+      "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
+      "is_new": true,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
+      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_type": "single",
+      "artist": "AFROJACK",
+      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -31,17 +42,6 @@
       "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048514aab7d186fccafb0b06fbc47",
-      "is_new": true,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
-      "album_name": "Disney Guitar: A Day at the Parks",
-      "album_type": "album",
-      "artist": "Disney Peaceful Guitar",
-      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -64,17 +64,17 @@
       "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "3di21PPx1wwfMzHiUAMiwn",
-      "album_name": "Fun",
+      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
+      "album_name": "2LOUD",
       "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -90,6 +90,28 @@
       "release_date": "2026-09-18"
     },
     {
+      "album_id": "3di21PPx1wwfMzHiUAMiwn",
+      "album_name": "Fun",
+      "album_type": "single",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
+      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_type": "album",
+      "artist": "Disney Peaceful Guitar",
+      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
       "album_id": "4RwlJEfIfICXp2lAhFvgww",
       "album_name": "応援ソング！西野カナ2026",
       "album_type": "album",
@@ -101,37 +123,26 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
-      "album_name": "2LOUD",
+      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
+      "album_name": "World Away (Ely Oaks Remix)",
       "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b955f7798656089a1f6d029d",
+      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
       "is_new": false,
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "03tSsmV2nJieE0IwgP9vUk",
-      "album_name": "Day and Night",
-      "album_type": "album",
-      "artist": "Carly Rae Jepsen",
-      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aaa989bd6b86ca853e03ecfa",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
-      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_id": "1tHG3rISWudn1FJoDjV56d",
+      "album_name": "Company",
       "album_type": "single",
-      "artist": "AFROJACK",
-      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "artist": "Clean Bandit",
+      "artist_id": "6MDME20pz9RveH9rEXvrOM",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
       "is_new": false,
-      "release_date": "2026-09-18"
+      "release_date": "2026-09-17"
     },
     {
       "album_id": "1gD7pTNKGYymCt26Xqr9uA",
@@ -152,17 +163,6 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485144ba8a6d9dca4e595790608e",
-      "is_new": true,
-      "release_date": "2026-09-17"
-    },
-    {
-      "album_id": "1tHG3rISWudn1FJoDjV56d",
-      "album_name": "Company",
-      "album_type": "single",
-      "artist": "Clean Bandit",
-      "artist_id": "6MDME20pz9RveH9rEXvrOM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
       "is_new": false,
       "release_date": "2026-09-17"
     },
@@ -174,6 +174,17 @@
       "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
+      "is_new": false,
+      "release_date": "2026-09-16"
+    },
+    {
+      "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
+      "album_name": "back shot",
+      "album_type": "album",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851a457c076a7faa5239f009fea",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -200,17 +211,6 @@
       "release_date": "2026-09-16"
     },
     {
-      "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
-      "album_name": "back shot",
-      "album_type": "album",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851a457c076a7faa5239f009fea",
-      "is_new": false,
-      "release_date": "2026-09-16"
-    },
-    {
       "album_id": "7dPLgIvRNxhSxTUXT6G7n2",
       "album_name": "The Lion King (De Leeuwenkoning)",
       "album_type": "album",
@@ -222,17 +222,6 @@
       "release_date": "2026-09-15"
     },
     {
-      "album_id": "3kxvuho2lPjidH73pndMKJ",
-      "album_name": "オリオン (PSYQUI Remix)",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048517b2f9e6027d8f0f70eb5c523",
-      "is_new": false,
-      "release_date": "2026-09-14"
-    },
-    {
       "album_id": "3q0wBseKToqHQZaIJZldFF",
       "album_name": "Made My Night (feat. EJAE)",
       "album_type": "single",
@@ -240,6 +229,17 @@
       "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
+      "is_new": false,
+      "release_date": "2026-09-14"
+    },
+    {
+      "album_id": "3kxvuho2lPjidH73pndMKJ",
+      "album_name": "オリオン (PSYQUI Remix)",
+      "album_type": "single",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048517b2f9e6027d8f0f70eb5c523",
       "is_new": false,
       "release_date": "2026-09-14"
     },
@@ -255,6 +255,17 @@
       "release_date": "2026-09-13"
     },
     {
+      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
+      "album_name": "You Know Too Much",
+      "album_type": "album",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
       "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
       "album_name": "Drift",
       "album_type": "single",
@@ -266,24 +277,13 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "1E7th5SrXGmfa4j2RzgtKk",
-      "album_name": "ALL THE TIME [GorillaT Remix]",
-      "album_type": "single",
-      "artist": "John Summit",
-      "artist_id": "7kNqXtgeIwFtelmRjWv205",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
-      "album_name": "You Know Too Much",
+      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
+      "album_name": "Maluma - Hits Pa' Siempre",
       "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "artist": "Maluma",
+      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
+      "image": "https://i.scdn.co/image/ab67616d0000485180f0e8b001ef34a75036994e",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -299,15 +299,26 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "album_id": "1E7th5SrXGmfa4j2RzgtKk",
+      "album_name": "ALL THE TIME [GorillaT Remix]",
+      "album_type": "single",
+      "artist": "John Summit",
+      "artist_id": "7kNqXtgeIwFtelmRjWv205",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485180f0e8b001ef34a75036994e",
+      "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
       "is_new": false,
       "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "0nSaRhdANg44Kfo59DBJpY",
+      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
+      "album_type": "single",
+      "artist": "Rochak Kohli",
+      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
+      "is_new": false,
+      "release_date": "2026-09-10"
     },
     {
       "album_id": "4hfN98dM7Q4824V1pjXOxE",
@@ -332,17 +343,6 @@
       "release_date": "2026-09-10"
     },
     {
-      "album_id": "0nSaRhdANg44Kfo59DBJpY",
-      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
-      "album_type": "single",
-      "artist": "Rochak Kohli",
-      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
-      "is_new": false,
-      "release_date": "2026-09-10"
-    },
-    {
       "album_id": "6pP2fYJoK5I8pHvQYefO5U",
       "album_name": "ZOOM",
       "album_type": "single",
@@ -354,13 +354,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
-      "album_name": "はじめての中島美嘉",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
+      "album_name": "さよならお姫様",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
+      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -372,6 +372,17 @@
       "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
+      "album_name": "Close My Eyes (feat. SACHA)",
+      "album_type": "single",
+      "artist": "Marshmello",
+      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -409,24 +420,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
-      "album_name": "さよならお姫様",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
+      "album_name": "はじめての中島美嘉",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
-      "album_name": "Close My Eyes (feat. SACHA)",
-      "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
+      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
       "is_new": false,
       "release_date": "2026-09-09"
     },
