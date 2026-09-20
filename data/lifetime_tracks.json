@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-19T18:20:07.122774+00:00",
+  "generated_at": "2026-09-20T18:25:41.259067+00:00",
   "totals": {
     "artists": 1344,
-    "days": 2105,
+    "days": 2107,
     "ms": 12440720283,
-    "plays": 63875,
+    "plays": 63882,
     "since": "2019-09-05",
     "tracks": 4690
   },
@@ -2984,6 +2984,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 87,
+      "first": "2025-02-24",
+      "id": "6sy3LkhNFjJWlaeSMNwQ62",
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "last": "2026-09-21",
+      "ms": 21403003,
+      "name": "Counting Stars",
+      "short": 8,
+      "years": {
+        "2025": 29,
+        "2026": 58
+      }
+    },
+    {
+      "artists": [
         "Alan Walker"
       ],
       "count": 87,
@@ -3071,23 +3088,6 @@
         "2024": 8,
         "2025": 7,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 86,
-      "first": "2025-02-24",
-      "id": "6sy3LkhNFjJWlaeSMNwQ62",
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "last": "2026-07-18",
-      "ms": 21403003,
-      "name": "Counting Stars",
-      "short": 8,
-      "years": {
-        "2025": 29,
-        "2026": 57
       }
     },
     {
@@ -4074,6 +4074,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 79,
+      "first": "2025-11-19",
+      "id": "3IQF4xCQUPicbA4hWfTxPo",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-09-20",
+      "ms": 14647911,
+      "name": "I Lived",
+      "short": 7,
+      "years": {
+        "2025": 9,
+        "2026": 70
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 79,
@@ -4384,23 +4401,6 @@
         "2024": 7,
         "2025": 35,
         "2026": 26
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 77,
-      "first": "2025-11-19",
-      "id": "3IQF4xCQUPicbA4hWfTxPo",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-09-13",
-      "ms": 14647911,
-      "name": "I Lived",
-      "short": 7,
-      "years": {
-        "2025": 9,
-        "2026": 68
       }
     },
     {
@@ -11186,6 +11186,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 42,
+      "first": "2025-12-20",
+      "id": "4LfkoDOt4mhrbo8Ndk37sQ",
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "last": "2026-09-20",
+      "ms": 6942438,
+      "name": "Marvin Gaye (feat. Wale) - Remix",
+      "short": 1,
+      "years": {
+        "2025": 7,
+        "2026": 35
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 42,
@@ -11447,23 +11464,6 @@
       "years": {
         "2025": 22,
         "2026": 19
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 41,
-      "first": "2025-12-20",
-      "id": "4LfkoDOt4mhrbo8Ndk37sQ",
-      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
-      "last": "2026-09-14",
-      "ms": 6942438,
-      "name": "Marvin Gaye (feat. Wale) - Remix",
-      "short": 1,
-      "years": {
-        "2025": 7,
-        "2026": 34
       }
     },
     {
@@ -13297,23 +13297,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 33,
-      "first": "2025-12-30",
-      "id": "0pg4ptWsO9eMH6nEhrM9fD",
-      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
-      "last": "2026-09-19",
-      "ms": 6428619,
-      "name": "Stop And Stare",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 32
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 33,
@@ -13561,6 +13544,23 @@
       "years": {
         "2025": 17,
         "2026": 15
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 32,
+      "first": "2025-12-30",
+      "id": "0pg4ptWsO9eMH6nEhrM9fD",
+      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
+      "last": "2026-09-19",
+      "ms": 6428619,
+      "name": "Stop And Stare",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 31
       }
     },
     {
@@ -15087,6 +15087,21 @@
     },
     {
       "artists": [
+        "Train"
+      ],
+      "count": 24,
+      "first": "2026-01-02",
+      "id": "2GxGYGrixbXPFojONbzdo9",
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "last": "2026-09-19",
+      "ms": 4605830,
+      "name": "Angel in Blue Jeans",
+      "years": {
+        "2026": 24
+      }
+    },
+    {
+      "artists": [
         "Tobu"
       ],
       "count": 24,
@@ -15310,21 +15325,6 @@
     },
     {
       "artists": [
-        "Train"
-      ],
-      "count": 23,
-      "first": "2026-01-02",
-      "id": "2GxGYGrixbXPFojONbzdo9",
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "last": "2026-06-30",
-      "ms": 4605830,
-      "name": "Angel in Blue Jeans",
-      "years": {
-        "2026": 23
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 23,
@@ -15470,6 +15470,21 @@
       "short": 8,
       "years": {
         "2020": 23
+      }
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 23,
+      "first": "2026-05-06",
+      "id": "2009X8GyWTqyxIdzAEYW6N",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-09-20",
+      "ms": 909332,
+      "name": "The One That Got Away",
+      "years": {
+        "2026": 23
       }
     },
     {
@@ -15830,6 +15845,23 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 22,
+      "first": "2024-06-04",
+      "id": "61dCUoMCg28qEBzrW6htYM",
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "last": "2026-09-20",
+      "ms": 455666,
+      "name": "Rather Be (feat. Jess Glynne)",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2026": 21
+      }
+    },
+    {
+      "artists": [
         "The Jacksons"
       ],
       "count": 22,
@@ -15862,21 +15894,6 @@
       "years": {
         "2025": 21,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 22,
-      "first": "2026-05-06",
-      "id": "2009X8GyWTqyxIdzAEYW6N",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-09-14",
-      "ms": 909332,
-      "name": "The One That Got Away",
-      "years": {
-        "2026": 22
       }
     },
     {
@@ -16262,23 +16279,6 @@
       "short": 5,
       "years": {
         "2020": 21
-      }
-    },
-    {
-      "artists": [
-        "Clean Bandit"
-      ],
-      "count": 21,
-      "first": "2024-06-04",
-      "id": "61dCUoMCg28qEBzrW6htYM",
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "last": "2026-09-14",
-      "ms": 455666,
-      "name": "Rather Be (feat. Jess Glynne)",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2026": 20
       }
     },
     {
@@ -22214,21 +22214,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 9,
-      "first": "2026-03-31",
-      "id": "2nj8GB0PY5sbHjEXoWH4UR",
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "last": "2026-09-19",
-      "ms": 523606,
-      "name": "Don't Wanna Know (feat. Kendrick Lamar)",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "ワンリパブリック"
       ],
       "count": 9,
@@ -22943,6 +22928,21 @@
       "short": 1,
       "years": {
         "2020": 8
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 8,
+      "first": "2026-03-31",
+      "id": "2nj8GB0PY5sbHjEXoWH4UR",
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "last": "2026-09-19",
+      "ms": 523606,
+      "name": "Don't Wanna Know (feat. Kendrick Lamar)",
+      "years": {
+        "2026": 8
       }
     },
     {
@@ -27030,6 +27030,21 @@
     },
     {
       "artists": [
+        "keshi"
+      ],
+      "count": 5,
+      "first": "2026-06-04",
+      "id": "41EnM4giX9PJYZIBUCPmiI",
+      "image": "https://i.scdn.co/image/ab67616d000048513dfa5d71dad925112f5d5b9a",
+      "last": "2026-09-20",
+      "ms": 504624,
+      "name": "I Choose You",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Bruno Mars"
       ],
       "count": 5,
@@ -27200,6 +27215,22 @@
       "last": "2026-09-03",
       "ms": 513634,
       "name": "Living Proof (with Jelly Roll)",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "Sabrina Carpenter"
+      ],
+      "count": 5,
+      "first": "2026-05-29",
+      "id": "59tskctgqUmjCWAwhzYAFm",
+      "image": "https://i.scdn.co/image/ab67616d00004851f22e1263704f24cb504700ea",
+      "last": "2026-09-20",
+      "ms": 253910,
+      "name": "Looking at Me",
+      "short": 1,
       "years": {
         "2026": 5
       }
@@ -29333,21 +29364,6 @@
     },
     {
       "artists": [
-        "keshi"
-      ],
-      "count": 4,
-      "first": "2026-06-04",
-      "id": "41EnM4giX9PJYZIBUCPmiI",
-      "image": "https://i.scdn.co/image/ab67616d000048513dfa5d71dad925112f5d5b9a",
-      "last": "2026-08-05",
-      "ms": 504624,
-      "name": "I Choose You",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Kelsea Ballerini"
       ],
       "count": 4,
@@ -29519,22 +29535,6 @@
       "last": "2026-09-03",
       "ms": 0,
       "name": "Live While We're Young",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Sabrina Carpenter"
-      ],
-      "count": 4,
-      "first": "2026-05-29",
-      "id": "59tskctgqUmjCWAwhzYAFm",
-      "image": "https://i.scdn.co/image/ab67616d00004851f22e1263704f24cb504700ea",
-      "last": "2026-08-28",
-      "ms": 253910,
-      "name": "Looking at Me",
-      "short": 1,
       "years": {
         "2026": 4
       }

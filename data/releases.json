@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:21:59.219052+00:00",
+  "generated_at": "2026-09-20T18:27:35.539509+00:00",
   "items": [
     {
       "album_id": "0O44qjVfTco7mH3rDz3DZc",
@@ -20,72 +20,6 @@
       "artist_id": "6sFIWsNpZYqfjUpaCgueju",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
-      "is_new": true,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
-      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
-      "album_type": "single",
-      "artist": "AFROJACK",
-      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "1npdSboUQi3hE4rrlPh17O",
-      "album_name": "GET EVEN",
-      "album_type": "single",
-      "artist": "The Kid LAROI",
-      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514aab7d186fccafb0b06fbc47",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "2AC5p0CgyRUaMwJACM11su",
-      "album_name": "Supermarket",
-      "album_type": "single",
-      "artist": "SEKAI NO OWARI",
-      "artist_id": "7HwzlRPa9Ad0I8rK0FPzzK",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485131f4b3555bfe6bcfb3d059f5",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "34tlUejzwnbwfx5U9lSM8P",
-      "album_name": "SKYFALL",
-      "album_type": "single",
-      "artist": "Big Creature",
-      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
-      "album_name": "2LOUD",
-      "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "6x7zk5GeCgqRn0Yujq135L",
-      "album_name": "Bass Persuades",
-      "album_type": "album",
-      "artist": "Miley Cyrus",
-      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -101,13 +35,35 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
-      "album_name": "Disney Guitar: A Day at the Parks",
-      "album_type": "album",
-      "artist": "Disney Peaceful Guitar",
-      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "album_id": "2AC5p0CgyRUaMwJACM11su",
+      "album_name": "Supermarket",
+      "album_type": "single",
+      "artist": "SEKAI NO OWARI",
+      "artist_id": "7HwzlRPa9Ad0I8rK0FPzzK",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485131f4b3555bfe6bcfb3d059f5",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
+      "album_name": "2LOUD",
+      "album_type": "single",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "1npdSboUQi3hE4rrlPh17O",
+      "album_name": "GET EVEN",
+      "album_type": "single",
+      "artist": "The Kid LAROI",
+      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514aab7d186fccafb0b06fbc47",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -130,6 +86,50 @@
       "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
+      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_type": "album",
+      "artist": "Disney Peaceful Guitar",
+      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
+      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_type": "single",
+      "artist": "AFROJACK",
+      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "6x7zk5GeCgqRn0Yujq135L",
+      "album_name": "Bass Persuades",
+      "album_type": "album",
+      "artist": "Miley Cyrus",
+      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "34tlUejzwnbwfx5U9lSM8P",
+      "album_name": "SKYFALL",
+      "album_type": "single",
+      "artist": "Big Creature",
+      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -167,17 +167,6 @@
       "release_date": "2026-09-17"
     },
     {
-      "album_id": "02k9RZkhDfdskVGJ1NvJHt",
-      "album_name": "April Suzanne",
-      "album_type": "single",
-      "artist": "Beach House",
-      "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
-      "is_new": false,
-      "release_date": "2026-09-16"
-    },
-    {
       "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
       "album_name": "back shot",
       "album_type": "album",
@@ -189,13 +178,13 @@
       "release_date": "2026-09-16"
     },
     {
-      "album_id": "2zOyV8uuxPW31rdXWokKyM",
-      "album_name": "運命さがし EP",
+      "album_id": "02k9RZkhDfdskVGJ1NvJHt",
+      "album_name": "April Suzanne",
       "album_type": "single",
-      "artist": "Macaroni Empitsu",
-      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "artist": "Beach House",
+      "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -207,6 +196,17 @@
       "artist_id": "5WIXXPkyVYncLscyUbDrpi",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851e3e26142fd7b7318d937dade",
+      "is_new": false,
+      "release_date": "2026-09-16"
+    },
+    {
+      "album_id": "2zOyV8uuxPW31rdXWokKyM",
+      "album_name": "運命さがし EP",
+      "album_type": "single",
+      "artist": "Macaroni Empitsu",
+      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -255,13 +255,13 @@
       "release_date": "2026-09-13"
     },
     {
-      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
-      "album_name": "You Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
+      "album_name": "Backwards (feat. T.I.)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
+      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -288,13 +288,13 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
-      "album_name": "Backwards (feat. T.I.)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
+      "album_name": "You Know Too Much",
+      "album_type": "album",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
+      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -343,17 +343,6 @@
       "release_date": "2026-09-10"
     },
     {
-      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
-      "album_name": "ZOOM",
-      "album_type": "single",
-      "artist": "AKLO",
-      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
       "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
       "album_name": "さよならお姫様",
       "album_type": "single",
@@ -365,17 +354,6 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
-      "album_name": "果実",
-      "album_type": "album",
-      "artist": "PornoGraffitti",
-      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
       "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
       "album_name": "Close My Eyes (feat. SACHA)",
       "album_type": "single",
@@ -383,6 +361,28 @@
       "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
+      "album_name": "ZOOM",
+      "album_type": "single",
+      "artist": "AKLO",
+      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
+      "is_new": false,
+      "release_date": "2026-09-09"
+    },
+    {
+      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
+      "album_name": "1234",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -409,13 +409,13 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
-      "album_name": "1234",
-      "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
+      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
+      "album_name": "果実",
+      "album_type": "album",
+      "artist": "PornoGraffitti",
+      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
       "is_new": false,
       "release_date": "2026-09-09"
     },
@@ -431,17 +431,6 @@
       "release_date": "2026-09-09"
     },
     {
-      "album_id": "3D2kgALEBV57nYhb5JlKgn",
-      "album_name": "Tauba Tauba Eclipsa Audio",
-      "album_type": "single",
-      "artist": "Karan Aujla",
-      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a576399c8cab50e85375c863",
-      "is_new": false,
-      "release_date": "2026-09-08"
-    },
-    {
       "album_id": "2rkj07G0JsBiy0XrfE19XL",
       "album_name": "Essa Ta Quente (feat. Skrillex)",
       "album_type": "single",
@@ -453,15 +442,15 @@
       "release_date": "2026-09-08"
     },
     {
-      "album_id": "3C0YWIcCuiba0l785qwUtk",
-      "album_name": "We Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "album_id": "3D2kgALEBV57nYhb5JlKgn",
+      "album_name": "Tauba Tauba Eclipsa Audio",
+      "album_type": "single",
+      "artist": "Karan Aujla",
+      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f707abfbd6450ab3837729c6",
+      "image": "https://i.scdn.co/image/ab67616d00004851a576399c8cab50e85375c863",
       "is_new": false,
-      "release_date": "2026-09-06"
+      "release_date": "2026-09-08"
     }
   ]
 }
