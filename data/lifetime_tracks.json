@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-21T20:14:01.148784+00:00",
+  "generated_at": "2026-09-22T19:26:22.312498+00:00",
   "totals": {
     "artists": 1344,
-    "days": 2107,
+    "days": 2108,
     "ms": 12440720283,
-    "plays": 63882,
+    "plays": 63883,
     "since": "2019-09-05",
     "tracks": 4690
   },
@@ -2984,23 +2984,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 87,
-      "first": "2025-02-24",
-      "id": "6sy3LkhNFjJWlaeSMNwQ62",
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "last": "2026-09-21",
-      "ms": 21403003,
-      "name": "Counting Stars",
-      "short": 8,
-      "years": {
-        "2025": 29,
-        "2026": 58
-      }
-    },
-    {
-      "artists": [
         "Alan Walker"
       ],
       "count": 87,
@@ -3088,6 +3071,23 @@
         "2024": 8,
         "2025": 7,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 86,
+      "first": "2025-02-24",
+      "id": "6sy3LkhNFjJWlaeSMNwQ62",
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "last": "2026-07-18",
+      "ms": 21403003,
+      "name": "Counting Stars",
+      "short": 8,
+      "years": {
+        "2025": 29,
+        "2026": 57
       }
     },
     {
@@ -4074,23 +4074,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 79,
-      "first": "2025-11-19",
-      "id": "3IQF4xCQUPicbA4hWfTxPo",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-09-20",
-      "ms": 14647911,
-      "name": "I Lived",
-      "short": 7,
-      "years": {
-        "2025": 9,
-        "2026": 70
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 79,
@@ -4293,6 +4276,23 @@
         "2024": 8,
         "2025": 4,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 78,
+      "first": "2025-11-19",
+      "id": "3IQF4xCQUPicbA4hWfTxPo",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-09-20",
+      "ms": 14647911,
+      "name": "I Lived",
+      "short": 7,
+      "years": {
+        "2025": 9,
+        "2026": 69
       }
     },
     {
@@ -14515,6 +14515,21 @@
     },
     {
       "artists": [
+        "Train"
+      ],
+      "count": 26,
+      "first": "2026-01-02",
+      "id": "2GxGYGrixbXPFojONbzdo9",
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "last": "2026-09-22",
+      "ms": 4605830,
+      "name": "Angel in Blue Jeans",
+      "years": {
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
         "Ed Sheeran"
       ],
       "count": 26,
@@ -15087,21 +15102,6 @@
     },
     {
       "artists": [
-        "Train"
-      ],
-      "count": 24,
-      "first": "2026-01-02",
-      "id": "2GxGYGrixbXPFojONbzdo9",
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "last": "2026-09-19",
-      "ms": 4605830,
-      "name": "Angel in Blue Jeans",
-      "years": {
-        "2026": 24
-      }
-    },
-    {
-      "artists": [
         "Tobu"
       ],
       "count": 24,
@@ -15611,6 +15611,24 @@
         "2022": 4,
         "2024": 1,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 22,
+      "first": "2024-08-17",
+      "id": "2tpWsVSb9UEmDRxAl1zhX1",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-09-21",
+      "ms": 737492,
+      "name": "Counting Stars",
+      "short": 4,
+      "years": {
+        "2024": 1,
+        "2025": 1,
+        "2026": 20
       }
     },
     {
@@ -16127,24 +16145,6 @@
         "2024": 4,
         "2025": 10,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 21,
-      "first": "2024-08-17",
-      "id": "2tpWsVSb9UEmDRxAl1zhX1",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-09-13",
-      "ms": 737492,
-      "name": "Counting Stars",
-      "short": 4,
-      "years": {
-        "2024": 1,
-        "2025": 1,
-        "2026": 19
       }
     },
     {

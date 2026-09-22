@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-21T20:12:42.580575+00:00",
+  "generated_at": "2026-09-22T19:25:15.320105+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,18 +813,28 @@
       5000,
       10000
     ],
-    "total": 63882
+    "total": 63883
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 4,
+  "streak": 5,
   "weekly_top": [
+    {
+      "artists": [
+        "Train"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Angel In Blue Jeans",
+      "track_id": "2GxGYGrixbXPFojONbzdo9"
+    },
     {
       "artists": [
         "OneRepublic"
       ],
       "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
       "name": "Counting Stars",
-      "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
+      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
     }
   ]
 }
