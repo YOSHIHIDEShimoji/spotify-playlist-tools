@@ -1,25 +1,47 @@
 {
-  "generated_at": "2026-09-22T19:28:17.437832+00:00",
+  "generated_at": "2026-09-23T19:24:26.655522+00:00",
   "items": [
     {
-      "album_id": "0rOiiNa9fByt4ddewj5zUd",
-      "album_name": "Ocean",
-      "album_type": "single",
-      "artist": "Matty Boy",
-      "artist_id": "4rFoKtUw4rzHJok2vtCg8d",
+      "album_id": "3AWb1cgRQw42aF1HYHtkFS",
+      "album_name": "Disney 5 Minuten Halloween Geschichten",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513c75cfde91ec6d8378ca4144",
+      "image": "https://i.scdn.co/image/ab67616d00004851f5712b75e003b83d7a14dc45",
       "is_new": true,
-      "release_date": "2026-09-23"
+      "release_date": "2026-09-24"
     },
     {
-      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
-      "album_name": "Roses",
-      "album_type": "single",
-      "artist": "CHVRCHES",
-      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "album_id": "10URBlT3jQlHYqfJ8J4RmD",
+      "album_name": "Disney: Lilo, Stitch und die Zuckerhexe",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
+      "image": "https://i.scdn.co/image/ab67616d000048515221b5bc9df3df997a0d8f21",
+      "is_new": true,
+      "release_date": "2026-09-24"
+    },
+    {
+      "album_id": "2FLYndAptrw8Mg14faWE4P",
+      "album_name": "Tim Burton's The Nightmare Before Christmas",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851aad7b42194363504a23ff2cf",
+      "is_new": true,
+      "release_date": "2026-09-24"
+    },
+    {
+      "album_id": "1fSqtjQVfqPTgxHHwWLEQl",
+      "album_name": "Comedy Show",
+      "album_type": "single",
+      "artist": "Lennon Stella",
+      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ca39aab638332ce8117dfc6c",
       "is_new": true,
       "release_date": "2026-09-23"
     },
@@ -31,7 +53,29 @@
       "artist_id": "1In8PNOPWYnzc6PCjisqCn",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "0rOiiNa9fByt4ddewj5zUd",
+      "album_name": "Ocean",
+      "album_type": "single",
+      "artist": "Matty Boy",
+      "artist_id": "4rFoKtUw4rzHJok2vtCg8d",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513c75cfde91ec6d8378ca4144",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
+      "album_name": "Roses",
+      "album_type": "single",
+      "artist": "CHVRCHES",
+      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
+      "is_new": false,
       "release_date": "2026-09-23"
     },
     {
@@ -46,61 +90,6 @@
       "release_date": "2026-09-22"
     },
     {
-      "album_id": "0O44qjVfTco7mH3rDz3DZc",
-      "album_name": "\"An Autumn Score: Film Music\"",
-      "album_type": "album",
-      "artist": "John Williams",
-      "artist_id": "3dRfiJ2650SZu6GbydcHNb",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048510062d2659ff142fe4e79753d",
-      "is_new": false,
-      "release_date": "2026-09-19"
-    },
-    {
-      "album_id": "4RwlJEfIfICXp2lAhFvgww",
-      "album_name": "応援ソング！西野カナ2026",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
-      "album_name": "World Away (Ely Oaks Remix)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "34tlUejzwnbwfx5U9lSM8P",
-      "album_name": "SKYFALL",
-      "album_type": "single",
-      "artist": "Big Creature",
-      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "3di21PPx1wwfMzHiUAMiwn",
-      "album_name": "Fun",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
       "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
       "album_name": "Day and Night",
       "album_type": "album",
@@ -108,6 +97,17 @@
       "artist_id": "6sFIWsNpZYqfjUpaCgueju",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
+      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_type": "album",
+      "artist": "Disney Peaceful Guitar",
+      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -134,13 +134,35 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "6x7zk5GeCgqRn0Yujq135L",
-      "album_name": "Bass Persuades",
-      "album_type": "album",
-      "artist": "Miley Cyrus",
-      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
+      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
+      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_type": "single",
+      "artist": "AFROJACK",
+      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
+      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "3di21PPx1wwfMzHiUAMiwn",
+      "album_name": "Fun",
+      "album_type": "single",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "34tlUejzwnbwfx5U9lSM8P",
+      "album_name": "SKYFALL",
+      "album_type": "single",
+      "artist": "Big Creature",
+      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -156,37 +178,37 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
-      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_id": "4RwlJEfIfICXp2lAhFvgww",
+      "album_name": "応援ソング！西野カナ2026",
       "album_type": "album",
-      "artist": "Disney Peaceful Guitar",
-      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
       "is_new": false,
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
-      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
+      "album_name": "World Away (Ely Oaks Remix)",
       "album_type": "single",
-      "artist": "AFROJACK",
-      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
       "is_new": false,
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "1tHG3rISWudn1FJoDjV56d",
-      "album_name": "Company",
-      "album_type": "single",
-      "artist": "Clean Bandit",
-      "artist_id": "6MDME20pz9RveH9rEXvrOM",
+      "album_id": "6x7zk5GeCgqRn0Yujq135L",
+      "album_name": "Bass Persuades",
+      "album_type": "album",
+      "artist": "Miley Cyrus",
+      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
+      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
       "is_new": false,
-      "release_date": "2026-09-17"
+      "release_date": "2026-09-18"
     },
     {
       "album_id": "1gD7pTNKGYymCt26Xqr9uA",
@@ -211,13 +233,24 @@
       "release_date": "2026-09-17"
     },
     {
-      "album_id": "2zOyV8uuxPW31rdXWokKyM",
-      "album_name": "運命さがし EP",
+      "album_id": "1tHG3rISWudn1FJoDjV56d",
+      "album_name": "Company",
       "album_type": "single",
-      "artist": "Macaroni Empitsu",
-      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "artist": "Clean Bandit",
+      "artist_id": "6MDME20pz9RveH9rEXvrOM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
+      "is_new": false,
+      "release_date": "2026-09-17"
+    },
+    {
+      "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
+      "album_name": "back shot",
+      "album_type": "album",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "image": "https://i.scdn.co/image/ab67616d00004851a457c076a7faa5239f009fea",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -233,13 +266,13 @@
       "release_date": "2026-09-16"
     },
     {
-      "album_id": "1wzQdcHzHx4nIF2HsvWfCa",
-      "album_name": "back shot",
-      "album_type": "album",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "album_id": "2zOyV8uuxPW31rdXWokKyM",
+      "album_name": "運命さがし EP",
+      "album_type": "single",
+      "artist": "Macaroni Empitsu",
+      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851a457c076a7faa5239f009fea",
+      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -266,17 +299,6 @@
       "release_date": "2026-09-15"
     },
     {
-      "album_id": "3q0wBseKToqHQZaIJZldFF",
-      "album_name": "Made My Night (feat. EJAE)",
-      "album_type": "single",
-      "artist": "LE SSERAFIM",
-      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
-      "is_new": false,
-      "release_date": "2026-09-14"
-    },
-    {
       "album_id": "3kxvuho2lPjidH73pndMKJ",
       "album_name": "オリオン (PSYQUI Remix)",
       "album_type": "single",
@@ -284,6 +306,17 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048517b2f9e6027d8f0f70eb5c523",
+      "is_new": false,
+      "release_date": "2026-09-14"
+    },
+    {
+      "album_id": "3q0wBseKToqHQZaIJZldFF",
+      "album_name": "Made My Night (feat. EJAE)",
+      "album_type": "single",
+      "artist": "LE SSERAFIM",
+      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
       "is_new": false,
       "release_date": "2026-09-14"
     },
@@ -299,6 +332,17 @@
       "release_date": "2026-09-13"
     },
     {
+      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
+      "album_name": "Maluma - Hits Pa' Siempre",
+      "album_type": "album",
+      "artist": "Maluma",
+      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485180f0e8b001ef34a75036994e",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
       "album_id": "1E7th5SrXGmfa4j2RzgtKk",
       "album_name": "ALL THE TIME [GorillaT Remix]",
       "album_type": "single",
@@ -306,6 +350,17 @@
       "artist_id": "7kNqXtgeIwFtelmRjWv205",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
+      "is_new": false,
+      "release_date": "2026-09-11"
+    },
+    {
+      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
+      "album_name": "You Know Too Much",
+      "album_type": "album",
+      "artist": "Ellie Goulding",
+      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
       "is_new": false,
       "release_date": "2026-09-11"
     },
@@ -332,39 +387,6 @@
       "release_date": "2026-09-11"
     },
     {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485180f0e8b001ef34a75036994e",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
-      "album_name": "You Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "0nSaRhdANg44Kfo59DBJpY",
-      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
-      "album_type": "single",
-      "artist": "Rochak Kohli",
-      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
-      "is_new": false,
-      "release_date": "2026-09-10"
-    },
-    {
       "album_id": "4hfN98dM7Q4824V1pjXOxE",
       "album_name": "You're Still The One (Candy Crush Version)",
       "album_type": "single",
@@ -387,92 +409,15 @@
       "release_date": "2026-09-10"
     },
     {
-      "album_id": "6YoHhoMbFXNGaI1aL9sBMr",
-      "album_name": "果実",
-      "album_type": "album",
-      "artist": "PornoGraffitti",
-      "artist_id": "5jQa0f5MIMPEK7udL7UpI6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c26506be47c46e98c0815be1",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "4HzK5mBjKIXKmOHFZDxgoA",
-      "album_name": "Close My Eyes (feat. SACHA)",
+      "album_id": "0nSaRhdANg44Kfo59DBJpY",
+      "album_name": "Dil Na Jaaneya - Rochak Kohli & Akasa Vocals Only",
       "album_type": "single",
-      "artist": "Marshmello",
-      "artist_id": "64KEffDW9EtZ1y2vBYgq8T",
+      "artist": "Rochak Kohli",
+      "artist_id": "3dN9MQpjIyNxyeRfz4EDZe",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485184198377626062d745c28658",
+      "image": "https://i.scdn.co/image/ab67616d00004851240f74a6f04ba037acc27965",
       "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "6pP2fYJoK5I8pHvQYefO5U",
-      "album_name": "ZOOM",
-      "album_type": "single",
-      "artist": "AKLO",
-      "artist_id": "5fNuYnFYyzsrVRtDcKPnxb",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f97d87a6a5042452baf99bb0",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "3UMR7iTk8vVOdhV0v0NbMP",
-      "album_name": "1234",
-      "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b2d82cb5ad393da3de45e65e",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "4WKt80A739OPyF22LJ6LpS",
-      "album_name": "AIMYON B-SIDE COLLECTION ALBUM",
-      "album_type": "album",
-      "artist": "Aimyon",
-      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048517e973ee35b04b7a1e37c04ba",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "3yRK2lrgOrjP9auntKjy0J",
-      "album_name": "AIMYON BEST ALBUM - 唇を追え！ -",
-      "album_type": "album",
-      "artist": "Aimyon",
-      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851a5da5e289c06e441ff7c0846",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "1P3drMv5LeVRY8Kqa2pgFP",
-      "album_name": "さよならお姫様",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516c9cacd5c9247b973c647a54",
-      "is_new": false,
-      "release_date": "2026-09-09"
-    },
-    {
-      "album_id": "68H2u5DhjvAbu1vgpGfW8S",
-      "album_name": "はじめての中島美嘉",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048510ec19717aadb4dbc9bede504",
-      "is_new": false,
-      "release_date": "2026-09-09"
+      "release_date": "2026-09-10"
     }
   ]
 }

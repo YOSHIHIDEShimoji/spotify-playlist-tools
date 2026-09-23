@@ -45,7 +45,7 @@
     {
       "because": [
         {
-          "count": 2016,
+          "count": 2018,
           "name": "OneRepublic"
         },
         {
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0128
+      "score": 15.012
     },
     {
       "because": [
@@ -87,20 +87,6 @@
     {
       "because": [
         {
-          "count": 898,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 366,
-          "name": "Justin Bieber"
-        }
-      ],
-      "name": "Jason Derülo",
-      "score": 10.9898
-    },
-    {
-      "because": [
-        {
           "count": 2698,
           "name": "back number"
         },
@@ -125,20 +111,6 @@
       ],
       "name": "James Horner",
       "score": 10.3255
-    },
-    {
-      "because": [
-        {
-          "count": 366,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 242,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Givēon",
-      "score": 9.8803
     },
     {
       "because": [
@@ -171,7 +143,7 @@
     {
       "because": [
         {
-          "count": 2016,
+          "count": 2018,
           "name": "OneRepublic"
         },
         {
@@ -180,7 +152,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.2836
+      "score": 9.2819
     },
     {
       "because": [
@@ -255,16 +227,16 @@
     {
       "because": [
         {
-          "count": 366,
-          "name": "Justin Bieber"
+          "count": 898,
+          "name": "Charlie Puth"
         },
         {
-          "count": 210,
-          "name": "Bruno Mars"
+          "count": 366,
+          "name": "Justin Bieber"
         }
       ],
-      "name": "Ne-Yo",
-      "score": 7.9866
+      "name": "Jason Derülo",
+      "score": 8.2418
     },
     {
       "because": [
@@ -311,16 +283,16 @@
     {
       "because": [
         {
-          "count": 2016,
+          "count": 2018,
           "name": "OneRepublic"
         },
         {
-          "count": 367,
+          "count": 366,
           "name": "Train"
         }
       ],
       "name": "Lifehouse",
-      "score": 7.5686
+      "score": 7.5673
     },
     {
       "because": [
@@ -339,7 +311,7 @@
     {
       "because": [
         {
-          "count": 2016,
+          "count": 2018,
           "name": "OneRepublic"
         },
         {
@@ -348,7 +320,7 @@
         }
       ],
       "name": "BANNERS",
-      "score": 7.4004
+      "score": 7.401
     },
     {
       "because": [
@@ -415,10 +387,38 @@
       ],
       "name": "DNCE",
       "score": 6.8691
+    },
+    {
+      "because": [
+        {
+          "count": 366,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 242,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Givēon",
+      "score": 6.8468
+    },
+    {
+      "because": [
+        {
+          "count": 898,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 351,
+          "name": "Henry Moodie"
+        }
+      ],
+      "name": "HRVY",
+      "score": 6.7852
     }
   ],
   "available": true,
-  "generated_at": "2026-09-22T19:26:56.741511+00:00",
+  "generated_at": "2026-09-23T19:22:59.024562+00:00",
   "source": "lastfm",
   "tracks": [
     {
