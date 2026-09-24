@@ -1,149 +1,41 @@
 {
-  "date": "09-24",
-  "generated_at": "2026-09-23T19:22:24.782445+00:00",
+  "date": "09-25",
+  "generated_at": "2026-09-24T19:39:56.054393+00:00",
   "years": [
     {
-      "plays": 8,
+      "plays": 60,
       "tracks": [
-        {
-          "artists": [
-            "YUNGBLUD"
-          ],
-          "count": 2,
-          "name": "Abyss - from Kaiju No. 8",
-          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
-        },
-        {
-          "artists": [
-            "Ellie Goulding"
-          ],
-          "count": 1,
-          "name": "Burn",
-          "track_id": "0xMd5bcWTbyXS7wPrBtZA6"
-        },
-        {
-          "artists": [
-            "Pitbull"
-          ],
-          "count": 1,
-          "name": "Timber",
-          "track_id": "3cHyrEgdyYRjgJKSOiOtcS"
-        },
-        {
-          "artists": [
-            "ONE OK ROCK"
-          ],
-          "count": 1,
-          "name": "Renegades",
-          "track_id": "3RpFwqdROrxJvHywpT1pJ4"
-        },
-        {
-          "artists": [
-            "ONE OK ROCK"
-          ],
-          "count": 1,
-          "name": "Broken Heart of Gold",
-          "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
-        },
         {
           "artists": [
             "OneRepublic"
           ],
-          "count": 1,
+          "count": 2,
           "name": "Nobody - from Kaiju No. 8",
           "track_id": "47N81NMkB488fuOwOC3Oip"
         },
         {
           "artists": [
-            "OFFICIAL HIGE DANDISM"
-          ],
-          "count": 1,
-          "name": "Same Blue",
-          "track_id": "3tRgmNTaFYgtbt7XCy6Les"
-        }
-      ],
-      "year": "2025"
-    },
-    {
-      "plays": 2,
-      "tracks": [
-        {
-          "artists": [
-            "Kenji Sawada"
-          ],
-          "count": 1,
-          "name": "ヤマトより愛をこめて",
-          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
-        },
-        {
-          "artists": [
-            "SPITZ"
-          ],
-          "count": 1,
-          "name": "美しい鰭",
-          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
-        }
-      ],
-      "year": "2024"
-    },
-    {
-      "plays": 12,
-      "tracks": [
-        {
-          "artists": [
-            "SPITZ"
+            "Coldplay"
           ],
           "count": 2,
-          "name": "美しい鰭",
-          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+          "name": "A Sky Full of Stars",
+          "track_id": "0FDzzruyVECATHXKHFs9eJ"
         },
         {
           "artists": [
-            "Yumi Matsutoya"
+            "ONE OK ROCK"
           ],
           "count": 2,
-          "name": "春よ、来い",
-          "track_id": "7BgNhufmVuEQjRo86YrsJR"
+          "name": "Broken Heart of Gold",
+          "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
         },
         {
           "artists": [
-            "Tota"
-          ],
-          "count": 2,
-          "name": "紡ぐ",
-          "track_id": "53B8VwuDvaxVo1HmVgTECu"
-        },
-        {
-          "artists": [
-            "髙見 優/長岡 成貢"
+            "Novelbright"
           ],
           "count": 1,
-          "name": "JIN-仁- Main Title",
-          "track_id": "7eUhklIPFYEBUWVRbqWC4P"
-        },
-        {
-          "artists": [
-            "Anne-Marie"
-          ],
-          "count": 1,
-          "name": "2002",
-          "track_id": "2BgEsaKNfHUdlh97KmvFyo"
-        },
-        {
-          "artists": [
-            "Taylor Swift"
-          ],
-          "count": 1,
-          "name": "Shake It Off",
-          "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
-        },
-        {
-          "artists": [
-            "Idina Menzel"
-          ],
-          "count": 1,
-          "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
-          "track_id": "0qcr5FMsEO85NAQjrlDRKo"
+          "name": "ツキミソウ",
+          "track_id": "0UWTRBGWfOp709f6rxd63R"
         },
         {
           "artists": [
@@ -155,123 +47,185 @@
         },
         {
           "artists": [
-            "Keane"
+            "Maroon 5"
           ],
           "count": 1,
-          "name": "Somewhere Only We Know",
-          "track_id": "1SKPmfSYaPsETbRHaiA18G"
+          "name": "Sugar",
+          "track_id": "6eV7eK07znOHcKz3bzEmpS"
+        },
+        {
+          "artists": [
+            "Taylor Swift"
+          ],
+          "count": 1,
+          "name": "Shake It Off",
+          "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
+        },
+        {
+          "artists": [
+            "OneRepublic"
+          ],
+          "count": 1,
+          "name": "I Ain't Worried",
+          "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+        },
+        {
+          "artists": [
+            "Train"
+          ],
+          "count": 1,
+          "name": "Bulletproof Picasso",
+          "track_id": "5P3fYoxh3LnVwANZEDu5vN"
+        },
+        {
+          "artists": [
+            "Imagine Dragons"
+          ],
+          "count": 1,
+          "name": "Natural",
+          "track_id": "2FY7b99s15jUprqC0M5NCT"
         }
       ],
-      "year": "2023"
+      "year": "2025"
     },
     {
       "plays": 1,
       "tracks": [
         {
           "artists": [
-            "Aerosmith"
+            "Naomi Scott"
           ],
           "count": 1,
-          "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
-          "track_id": "225xvV8r1yKMHErSWivnow"
+          "name": "Speechless (Full)",
+          "track_id": "0XPsOSYzDJZJArevQNm2AR"
         }
       ],
-      "year": "2022"
-    },
-    {
-      "plays": 33,
-      "tracks": [
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Cry Baby Cry - Unnumbered Rehearsal",
-          "track_id": "0Ryc4j2D6kRH3JZCsd1Von"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Cry Baby Cry - Remastered 2009",
-          "track_id": "5XmetMMUFNXClbiYnGdVmP"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Drive My Car - Remastered 2009",
-          "track_id": "06ypiqmILMdVeaiErMFA91"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Somebody Who Cares - Remixed 2015",
-          "track_id": "0D3gTVj6enHDcWSnSzYLaw"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Here Today - Remixed 2015",
-          "track_id": "0QtnwXDziZN1K55fXuLN6q"
-        },
-        {
-          "artists": [
-            "Michael Jackson"
-          ],
-          "count": 1,
-          "name": "The Girl Is Mine (with Paul McCartney)",
-          "track_id": "1diEQsD8PJC9hXB5Gpfgtn"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "One Of These Days - Remastered 2011",
-          "track_id": "2NOa1O7ExfvdaWCmoeDXIV"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Take It Away - Remixed 2015",
-          "track_id": "2t2gZb03AlCSlBzbWeeHsM"
-        },
-        {
-          "artists": [
-            "Wings"
-          ],
-          "count": 1,
-          "name": "With A Little Luck - DJ Edit / Remastered 2016",
-          "track_id": "3d697S1djUcLVFLPczlBud"
-        },
-        {
-          "artists": [
-            "Wings"
-          ],
-          "count": 1,
-          "name": "Listen To What The Man Said",
-          "track_id": "4JLL5DS0lYofDouYzxMpvj"
-        }
-      ],
-      "year": "2020"
+      "year": "2024"
     },
     {
       "plays": 8,
       "tracks": [
         {
           "artists": [
-            "Queen"
+            "Prateek Kuhad"
+          ],
+          "count": 2,
+          "name": "Co2",
+          "track_id": "3hB9lDLyAClYVZivMMl20N"
+        },
+        {
+          "artists": [
+            "髙見 優/長岡 成貢"
           ],
           "count": 1,
+          "name": "JIN-仁- Main Title",
+          "track_id": "7eUhklIPFYEBUWVRbqWC4P"
+        },
+        {
+          "artists": [
+            "Taylor Swift"
+          ],
+          "count": 1,
+          "name": "august",
+          "track_id": "3hUxzQpSfdDqwM3ZTFQY0K"
+        },
+        {
+          "artists": [
+            "d4vd"
+          ],
+          "count": 1,
+          "name": "Here With Me",
+          "track_id": "5LrN7yUQAzvthd4QujgPFr"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "チェリー",
+          "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "ロビンソン",
+          "track_id": "0sVnyL71jTOuMt9TZ59bws"
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "plays": 2,
+      "tracks": [
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "Keep Under Cover - Remastered 2015",
+          "track_id": "1C5vdNycQMOk0SyLgA64VO"
+        },
+        {
+          "artists": [
+            "John Williams"
+          ],
+          "count": 1,
+          "name": "Across the Stars (Love Theme from \"Star Wars: Attack of the Clones\")",
+          "track_id": "6Q78hpfm0ksdGvXvbH12qY"
+        }
+      ],
+      "year": "2020"
+    },
+    {
+      "plays": 32,
+      "tracks": [
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 4,
+          "name": "The Show Must Go On - Remastered 2011",
+          "track_id": "5cD5oH0nxIzsUVx39QP2i4"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 3,
+          "name": "Too Much Love Will Kill You - Remastered 2011",
+          "track_id": "3o4KExcCgRoh7zodB6o2ob"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "7vhL0SIX8hN703vwVh6SFb"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "I Was Born To Love You - Remastered 2011",
+          "track_id": "500o08SwO4Qoppq9zZrOZB"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
           "name": "Bohemian Rhapsody - Remastered 2011",
           "track_id": "7k1dWFLqTfxNj4U2CfDRuK"
         },
@@ -280,56 +234,40 @@
             "Queen"
           ],
           "count": 1,
-          "name": "Killer Queen - Remastered 2011",
-          "track_id": "4cIPLtg1avt2Jm3ne9S1zy"
+          "name": "Crazy Little Thing Called Love - Remastered 2011",
+          "track_id": "32TzseEpf1V0LAdWrxAdEw"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Save Me - Remastered 2011",
-          "track_id": "1pBFEy8cz0Fq4Pru0c4awd"
+          "name": "I Want To Break Free - Single Remix",
+          "track_id": "2AkmdLbVKS1steeZdy8H1l"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Friends Will Be Friends - Remastered 2011",
-          "track_id": "3EGlnkJGcwz73rT0oE0X1X"
+          "name": "We Will Rock You - Remastered 2011",
+          "track_id": "3oyIhzOmms9y7eElGUU9IF"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Somebody To Love - Remastered 2011",
+          "track_id": "4rDbp1vnvEhieiccprPMdI"
         },
         {
           "artists": [
             "The Beatles"
           ],
           "count": 1,
-          "name": "Please Please Me - Remastered 2009",
-          "track_id": "6EHuOufBeL6vk3TvVJB5qo"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "I Was Born To Love You - Remastered 2011",
-          "track_id": "500o08SwO4Qoppq9zZrOZB"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "7vhL0SIX8hN703vwVh6SFb"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "The Show Must Go On - Remastered 2011",
-          "track_id": "5cD5oH0nxIzsUVx39QP2i4"
+          "name": "Back In The U.S.S.R. - Remastered 2009",
+          "track_id": "0j3p1p06deJ7f9xmJ9yG22"
         }
       ],
       "year": "2019"

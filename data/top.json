@@ -331,13 +331,13 @@
         "rank": 5
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
         "rank": 6
       },
       {
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 7
       },
       {
@@ -391,73 +391,73 @@
         "rank": 17
       },
       {
+        "id": "0Xk15jHKly4c3AhPr5vjoA",
+        "name": "Alan Silvestri",
+        "rank": 18
+      },
+      {
         "id": "0fTSzq9jAh4c36UVb4V7CB",
         "name": "Alex Warren",
-        "rank": 18
+        "rank": 19
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 19
+        "rank": 20
       },
       {
         "id": "74KM79TiuVKeVCqs8QtB0B",
         "name": "Sabrina Carpenter",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "53XhwfbYqKCa1cC15pYq2q",
         "name": "Imagine Dragons",
-        "rank": 22
+        "rank": 23
       },
       {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
-        "rank": 23
+        "rank": 24
       },
       {
         "id": "4dpARuHxo51G3z768sgnrY",
         "name": "Adele",
-        "rank": 24
+        "rank": 25
       },
       {
         "id": "58lV9VcRSjABbAbfWS6skp",
         "name": "Bon Jovi",
-        "rank": 25
+        "rank": 26
       },
       {
         "id": "64KEffDW9EtZ1y2vBYgq8T",
         "name": "Marshmello",
-        "rank": 26
+        "rank": 27
       },
       {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 27
+        "rank": 28
       },
       {
         "id": "3pc0bOVB5whxmD50W79wwO",
         "name": "keshi",
-        "rank": 28
+        "rank": 29
       },
       {
         "id": "2DaxqgrOhkeH0fpeiQq2f4",
         "name": "Oasis",
-        "rank": 29
-      },
-      {
-        "id": "23fqKkggKUBHNkbKtXEls4",
-        "name": "Kygo",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-09-23T19:23:27.409455+00:00",
+  "generated_at": "2026-09-24T19:41:02.134904+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1087,21 +1087,12 @@
       },
       {
         "artists": [
-          "Charlie Puth"
-        ],
-        "id": "4nNZ4ra9sJnsdixXELkfW5",
-        "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
-        "name": "Does It Feel",
-        "rank": 9
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "5NbplIIyJnnAPrUWeJAbQ4",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Human",
-        "rank": 10
+        "rank": 9
       },
       {
         "artists": [
@@ -1110,7 +1101,7 @@
         "id": "75xgoXAGed7jiNDdV8TNOe",
         "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
         "name": "Big Girls Cry",
-        "rank": 11
+        "rank": 10
       },
       {
         "artists": [
@@ -1120,7 +1111,7 @@
         "id": "6epn3r7S14KUqlReYr77hA",
         "image": "https://i.scdn.co/image/ab67616d00004851629dc9e2e3bc20bbd7d92e4a",
         "name": "Baby",
-        "rank": 12
+        "rank": 11
       },
       {
         "artists": [
@@ -1129,7 +1120,7 @@
         "id": "7DD7eSuYSC5xk2ArU62esN",
         "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
         "name": "Help! - Remastered 2009",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1138,16 +1129,7 @@
         "id": "0x5CxIxVZUxwOQbwiVLS6J",
         "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
         "name": "Charlie Brown",
-        "rank": 14
-      },
-      {
-        "artists": [
-          "LANY"
-        ],
-        "id": "1I8WriGDeR8LrsYDNB554B",
-        "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
-        "name": "Sugar & Cinnamon",
-        "rank": 15
+        "rank": 13
       },
       {
         "artists": [
@@ -1156,7 +1138,16 @@
         "id": "1ZWp7uMlEwBhpedEw6F048",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Stargazing",
-        "rank": 16
+        "rank": 14
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "4nNZ4ra9sJnsdixXELkfW5",
+        "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+        "name": "Does It Feel",
+        "rank": 15
       },
       {
         "artists": [
@@ -1165,7 +1156,7 @@
         "id": "5BZsQlgw21vDOAjoqkNgKb",
         "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
         "name": "DAISIES",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1174,7 +1165,7 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -1184,7 +1175,7 @@
         "id": "7pYfyrMNPn3wtoCyqcTVoI",
         "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
         "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
-        "rank": 19
+        "rank": 18
       },
       {
         "artists": [
@@ -1193,7 +1184,7 @@
         "id": "0Aii1ZdrQwkas2lrRFz6ZY",
         "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
         "name": "anything 4 u",
-        "rank": 20
+        "rank": 19
       },
       {
         "artists": [
@@ -1202,7 +1193,7 @@
         "id": "0ILXYaWxMQVEXnKq2eTmjW",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "What You Wanted",
-        "rank": 21
+        "rank": 20
       },
       {
         "artists": [
@@ -1211,7 +1202,7 @@
         "id": "0eqqORX2j2REFwmdoJaRkH",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "me, myself and i",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -1220,7 +1211,7 @@
         "id": "0wPKDeY4fZXT6k9bzV0kx0",
         "image": "https://i.scdn.co/image/ab67616d00004851ab7a47f18916a10046212857",
         "name": "That's Hilarious",
-        "rank": 23
+        "rank": 22
       },
       {
         "artists": [
@@ -1229,6 +1220,15 @@
         "id": "10Z9RbwrTbQ0gQeNRJ2dC1",
         "image": "https://i.scdn.co/image/ab67616d00004851a01fed49fe3a84a9919cef29",
         "name": "Lifetime",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "LANY"
+        ],
+        "id": "1I8WriGDeR8LrsYDNB554B",
+        "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+        "name": "Sugar & Cinnamon",
         "rank": 24
       },
       {

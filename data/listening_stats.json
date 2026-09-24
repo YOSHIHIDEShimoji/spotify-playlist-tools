@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-23T19:21:12.455039+00:00",
+  "generated_at": "2026-09-24T19:38:36.391642+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 63900
+    "total": 63920
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 6,
+  "streak": 7,
   "weekly_top": [
     {
       "artists": [
@@ -829,21 +829,39 @@
     },
     {
       "artists": [
-        "Meduza"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
-      "name": "Fire - Official UEFA EURO 2024 Song",
-      "track_id": "7MYLHLCf0YWR4TVs3owDny"
-    },
-    {
-      "artists": [
         "Train"
       ],
-      "count": 1,
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
       "name": "Angel In Blue Jeans",
       "track_id": "2GxGYGrixbXPFojONbzdo9"
+    },
+    {
+      "artists": [
+        "Gryffin"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+      "name": "You Were Loved (with OneRepublic)",
+      "track_id": "5gzZnru34wdecgMUQR2UO0"
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Portals",
+      "track_id": "lastfm:portals|アラン・シルヴェストリ"
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "The Real Hero",
+      "track_id": "lastfm:therealhero|アラン・シルヴェストリ"
     },
     {
       "artists": [
@@ -973,11 +991,145 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "Meduza"
       ],
       "count": 1,
-      "name": "Marchin On",
-      "track_id": "7xXzrsVZqbzE5yDfArysnE"
+      "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
+      "name": "Fire - Official UEFA EURO 2024 Song",
+      "track_id": "7MYLHLCf0YWR4TVs3owDny"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
+      "name": "Delicate",
+      "track_id": "6NFyWDv5CjfwuzoCkw47Xf"
+    },
+    {
+      "artists": [
+        "Tame Impala"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e2aa48290b3cd1040be92345",
+      "name": "Loser",
+      "track_id": "3RmFPuTTAjSQ2pbEd2j9oA"
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "name": "Shape of You",
+      "track_id": "7qiZfU4dY1lWllzX7mPBI3"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
+      "name": "Clean (Taylor's Version)",
+      "track_id": "2ByBBvpR9b7IynvRmnG7kG"
+    },
+    {
+      "artists": [
+        "BTS"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048513deb4b0115410a85afe31c29",
+      "name": "Dynamite",
+      "track_id": "4saklk6nie3yiGePpBwUoc"
+    },
+    {
+      "artists": [
+        "Plain White T's"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851beae6e69d6505fd379ef3081",
+      "name": "Hey There Delilah",
+      "track_id": "4RCWB3V8V0dignt99LZ8vH"
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "The Avengers",
+      "track_id": "lastfm:theavengers|アラン・シルヴェストリ"
+    },
+    {
+      "artists": [
+        "The City of Prague Philharmonic Orchestra"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f6f90758215dc95640b3289056cfff89.jpg",
+      "name": "Driving with the Top Down - From \"Iron Man\"",
+      "track_id": "lastfm:drivingwiththetopdownfromironman|thecityofpraguephilharmonicorchestra"
+    },
+    {
+      "artists": [
+        "Brian Tyler"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fb1e59c8208d4b1bcb178cbde33a0523.jpg",
+      "name": "Iron Man 3",
+      "track_id": "lastfm:ironman3|briantyler"
+    },
+    {
+      "artists": [
+        "ケンドリック・ラマー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
+      "track_id": "3GCdLUSnKSMJhs4Tj6CV3s"
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
+      "name": "Main on End",
+      "track_id": "5POrWnsqEV6HwTcRKLdXxk"
+    },
+    {
+      "artists": [
+        "マイケル・ジアッキーノ"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Far From Home Suite Home - from \"Spider-Man: Far From Home\" Soundtrack",
+      "track_id": "lastfm:farfromhomesuitehomefromspidermanfarfromhomesoundtrack|マイケル・ジアッキーノ"
+    },
+    {
+      "artists": [
+        "ラミン・ジャワディ"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Eternals Theme",
+      "track_id": "lastfm:eternalstheme|ラミン・ジャワディ"
+    },
+    {
+      "artists": [
+        "Michael Giacchino"
+      ],
+      "count": 1,
+      "name": "Far From Home Suite Home - from \"Spider-Man: Far From Home\" Soundtrack",
+      "track_id": "2Y9v6F9vFK9Z8KAoFwAj9Z"
+    },
+    {
+      "artists": [
+        "Ramin Djawadi"
+      ],
+      "count": 1,
+      "name": "Eternals Theme",
+      "track_id": "2IMCpvfw7vdBgK054H0FPE"
     }
   ]
 }

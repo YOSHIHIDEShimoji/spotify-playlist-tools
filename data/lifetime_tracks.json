@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-23T19:22:24.610866+00:00",
+  "generated_at": "2026-09-24T19:39:55.880526+00:00",
   "totals": {
-    "artists": 1345,
-    "days": 2109,
+    "artists": 1346,
+    "days": 2110,
     "ms": 12440720283,
-    "plays": 63900,
+    "plays": 63920,
     "since": "2019-09-05",
-    "tracks": 4690
+    "tracks": 4697
   },
   "tracks": [
     {
@@ -3281,6 +3281,28 @@
     },
     {
       "artists": [
+        "Alan Silvestri"
+      ],
+      "count": 85,
+      "first": "2020-02-18",
+      "id": "5POrWnsqEV6HwTcRKLdXxk",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
+      "last": "2026-09-24",
+      "ms": 15013520,
+      "name": "Main on End",
+      "short": 20,
+      "years": {
+        "2020": 45,
+        "2021": 3,
+        "2022": 9,
+        "2023": 5,
+        "2024": 5,
+        "2025": 3,
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 85,
@@ -3391,28 +3413,6 @@
         "2024": 6,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Alan Silvestri"
-      ],
-      "count": 84,
-      "first": "2020-02-18",
-      "id": "5POrWnsqEV6HwTcRKLdXxk",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
-      "last": "2026-09-04",
-      "ms": 15013520,
-      "name": "Main on End",
-      "short": 20,
-      "years": {
-        "2020": 45,
-        "2021": 3,
-        "2022": 9,
-        "2023": 5,
-        "2024": 5,
-        "2025": 3,
-        "2026": 14
       }
     },
     {
@@ -6294,6 +6294,24 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 65,
+      "first": "2023-01-19",
+      "id": "7qiZfU4dY1lWllzX7mPBI3",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "last": "2026-09-24",
+      "ms": 12728884,
+      "name": "Shape of You",
+      "short": 5,
+      "years": {
+        "2023": 4,
+        "2025": 35,
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 65,
@@ -6463,24 +6481,6 @@
         "2024": 5,
         "2025": 4,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 64,
-      "first": "2023-01-19",
-      "id": "7qiZfU4dY1lWllzX7mPBI3",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
-      "last": "2026-09-13",
-      "ms": 12728884,
-      "name": "Shape of You",
-      "short": 5,
-      "years": {
-        "2023": 4,
-        "2025": 35,
-        "2026": 25
       }
     },
     {
@@ -13263,6 +13263,24 @@
     },
     {
       "artists": [
+        "BTS"
+      ],
+      "count": 33,
+      "first": "2020-12-07",
+      "id": "4saklk6nie3yiGePpBwUoc",
+      "image": "https://i.scdn.co/image/ab67616d000048513deb4b0115410a85afe31c29",
+      "last": "2026-09-24",
+      "ms": 5729238,
+      "name": "Dynamite",
+      "short": 25,
+      "years": {
+        "2020": 12,
+        "2021": 20,
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 33,
@@ -13389,23 +13407,6 @@
     },
     {
       "artists": [
-        "BTS"
-      ],
-      "count": 32,
-      "first": "2020-12-07",
-      "id": "4saklk6nie3yiGePpBwUoc",
-      "image": "https://i.scdn.co/image/ab67616d000048513deb4b0115410a85afe31c29",
-      "last": "2021-11-18",
-      "ms": 5729238,
-      "name": "Dynamite",
-      "short": 25,
-      "years": {
-        "2020": 12,
-        "2021": 20
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 32,
@@ -13423,23 +13424,6 @@
         "2024": 3,
         "2025": 1,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "MEDUZA"
-      ],
-      "count": 32,
-      "first": "2025-12-30",
-      "id": "7MYLHLCf0YWR4TVs3owDny",
-      "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
-      "last": "2026-09-23",
-      "ms": 4392154,
-      "name": "Fire - Official UEFA EURO 2024 Song",
-      "short": 2,
-      "years": {
-        "2025": 1,
-        "2026": 31
       }
     },
     {
@@ -13698,6 +13682,23 @@
       "years": {
         "2020": 30,
         "2022": 1
+      }
+    },
+    {
+      "artists": [
+        "MEDUZA"
+      ],
+      "count": 31,
+      "first": "2025-12-30",
+      "id": "7MYLHLCf0YWR4TVs3owDny",
+      "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
+      "last": "2026-09-23",
+      "ms": 4392154,
+      "name": "Fire - Official UEFA EURO 2024 Song",
+      "short": 2,
+      "years": {
+        "2025": 1,
+        "2026": 30
       }
     },
     {
@@ -14028,6 +14029,28 @@
     },
     {
       "artists": [
+        "Michael Giacchino"
+      ],
+      "count": 29,
+      "first": "2020-02-24",
+      "id": "2Y9v6F9vFK9Z8KAoFwAj9Z",
+      "image": "https://i.scdn.co/image/ab67616d00004851692bbcc6e5bdd063d7105793",
+      "last": "2026-09-24",
+      "ms": 10580950,
+      "name": "Far From Home Suite Home",
+      "short": 19,
+      "years": {
+        "2020": 2,
+        "2021": 7,
+        "2022": 7,
+        "2023": 4,
+        "2024": 5,
+        "2025": 3,
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Taylor Swift"
       ],
       "count": 29,
@@ -14139,23 +14162,22 @@
     },
     {
       "artists": [
-        "Michael Giacchino"
+        "Ramin Djawadi"
       ],
       "count": 28,
-      "first": "2020-02-24",
-      "id": "2Y9v6F9vFK9Z8KAoFwAj9Z",
-      "image": "https://i.scdn.co/image/ab67616d00004851692bbcc6e5bdd063d7105793",
-      "last": "2025-06-11",
-      "ms": 10580950,
-      "name": "Far From Home Suite Home",
-      "short": 19,
+      "first": "2022-02-10",
+      "id": "2IMCpvfw7vdBgK054H0FPE",
+      "image": "https://i.scdn.co/image/ab67616d00004851b8ffc252c4575933ee3baabd",
+      "last": "2026-09-24",
+      "ms": 5966270,
+      "name": "Eternals Theme",
+      "short": 8,
       "years": {
-        "2020": 2,
-        "2021": 7,
-        "2022": 7,
-        "2023": 4,
-        "2024": 5,
-        "2025": 3
+        "2022": 8,
+        "2023": 5,
+        "2024": 8,
+        "2025": 5,
+        "2026": 2
       }
     },
     {
@@ -14259,26 +14281,6 @@
       "short": 2,
       "years": {
         "2020": 27
-      }
-    },
-    {
-      "artists": [
-        "Ramin Djawadi"
-      ],
-      "count": 27,
-      "first": "2022-02-10",
-      "id": "2IMCpvfw7vdBgK054H0FPE",
-      "image": "https://i.scdn.co/image/ab67616d00004851b8ffc252c4575933ee3baabd",
-      "last": "2026-01-19",
-      "ms": 5966270,
-      "name": "Eternals Theme",
-      "short": 8,
-      "years": {
-        "2022": 8,
-        "2023": 5,
-        "2024": 8,
-        "2025": 5,
-        "2026": 1
       }
     },
     {
@@ -14511,6 +14513,21 @@
       "years": {
         "2025": 1,
         "2026": 25
+      }
+    },
+    {
+      "artists": [
+        "Train"
+      ],
+      "count": 26,
+      "first": "2026-01-02",
+      "id": "2GxGYGrixbXPFojONbzdo9",
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "last": "2026-09-24",
+      "ms": 4605830,
+      "name": "Angel in Blue Jeans",
+      "years": {
+        "2026": 26
       }
     },
     {
@@ -14840,21 +14857,6 @@
       "years": {
         "2025": 4,
         "2026": 21
-      }
-    },
-    {
-      "artists": [
-        "Train"
-      ],
-      "count": 25,
-      "first": "2026-01-02",
-      "id": "2GxGYGrixbXPFojONbzdo9",
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "last": "2026-09-22",
-      "ms": 4605830,
-      "name": "Angel in Blue Jeans",
-      "years": {
-        "2026": 25
       }
     },
     {
@@ -19245,6 +19247,24 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 14,
+      "first": "2022-06-05",
+      "id": "6NFyWDv5CjfwuzoCkw47Xf",
+      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
+      "last": "2026-09-24",
+      "ms": 2554783,
+      "name": "Delicate",
+      "short": 1,
+      "years": {
+        "2022": 2,
+        "2025": 4,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "London Music Works"
       ],
       "count": 14,
@@ -19748,24 +19768,6 @@
       "short": 2,
       "years": {
         "2026": 13
-      }
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 13,
-      "first": "2022-06-05",
-      "id": "6NFyWDv5CjfwuzoCkw47Xf",
-      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
-      "last": "2026-09-09",
-      "ms": 2554783,
-      "name": "Delicate",
-      "short": 1,
-      "years": {
-        "2022": 2,
-        "2025": 4,
-        "2026": 7
       }
     },
     {
@@ -21355,6 +21357,21 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 10,
+      "first": "2026-04-30",
+      "id": "2ByBBvpR9b7IynvRmnG7kG",
+      "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
+      "last": "2026-09-24",
+      "ms": 1405017,
+      "name": "Clean (Taylor's Version)",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 10,
@@ -22143,21 +22160,6 @@
       "last": "2026-08-29",
       "ms": 667524,
       "name": "Carry You Home",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 9,
-      "first": "2026-04-30",
-      "id": "2ByBBvpR9b7IynvRmnG7kG",
-      "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
-      "last": "2026-08-28",
-      "ms": 1405017,
-      "name": "Clean (Taylor's Version)",
       "years": {
         "2026": 9
       }
@@ -25510,6 +25512,21 @@
     },
     {
       "artists": [
+        "Plain White T's"
+      ],
+      "count": 6,
+      "first": "2026-06-07",
+      "id": "4RCWB3V8V0dignt99LZ8vH",
+      "image": "https://i.scdn.co/image/ab67616d00004851beae6e69d6505fd379ef3081",
+      "last": "2026-09-24",
+      "ms": 1162665,
+      "name": "Hey There Delilah",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Lady Gaga"
       ],
       "count": 6,
@@ -26093,6 +26110,22 @@
     },
     {
       "artists": [
+        "Gryffin"
+      ],
+      "count": 6,
+      "first": "2026-07-21",
+      "id": "5gzZnru34wdecgMUQR2UO0",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "You Were Loved (with OneRepublic)",
+      "short": 1,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 6,
@@ -26409,6 +26442,22 @@
       "last": "2026-09-13",
       "ms": 127000,
       "name": "All Fall Down",
+      "short": 1,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "ケンドリック・ラマー"
+      ],
+      "count": 5,
+      "first": "2026-07-29",
+      "id": "3GCdLUSnKSMJhs4Tj6CV3s",
+      "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
       "short": 1,
       "years": {
         "2026": 5
@@ -26960,21 +27009,6 @@
       "last": "2026-09-13",
       "ms": 1040391,
       "name": "Hericane",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Plain White T's"
-      ],
-      "count": 5,
-      "first": "2026-06-07",
-      "id": "4RCWB3V8V0dignt99LZ8vH",
-      "image": "https://i.scdn.co/image/ab67616d00004851beae6e69d6505fd379ef3081",
-      "last": "2026-07-09",
-      "ms": 1162665,
-      "name": "Hey There Delilah",
       "years": {
         "2026": 5
       }
@@ -28441,22 +28475,6 @@
       "ms": 901720,
       "name": "All The Right Moves",
       "short": 2,
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "ケンドリック・ラマー"
-      ],
-      "count": 4,
-      "first": "2026-07-29",
-      "id": "3GCdLUSnKSMJhs4Tj6CV3s",
-      "image": "https://i.scdn.co/image/ab67616d00004851c027ad28821777b00dcaa888",
-      "last": "2026-08-28",
-      "ms": 0,
-      "name": "All The Stars (with SZA) - From \"Black Panther: The Album\"",
-      "short": 1,
       "years": {
         "2026": 4
       }
@@ -30941,22 +30959,6 @@
     },
     {
       "artists": [
-        "Gryffin"
-      ],
-      "count": 4,
-      "first": "2026-07-21",
-      "id": "5gzZnru34wdecgMUQR2UO0",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
-      "last": "2026-08-29",
-      "ms": 0,
-      "name": "You Were Loved (with OneRepublic)",
-      "short": 1,
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Clarx"
       ],
       "count": 4,
@@ -33338,22 +33340,6 @@
       "short": 1,
       "years": {
         "2025": 3
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 3,
-      "first": "2026-07-06",
-      "id": "7xXzrsVZqbzE5yDfArysnE",
-      "image": "https://i.scdn.co/image/ab67616d000048515a6a08795790ccc600cc94a8",
-      "last": "2026-09-23",
-      "ms": 503386,
-      "name": "Marchin On",
-      "short": 2,
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -39490,6 +39476,21 @@
     },
     {
       "artists": [
+        "Tame Impala"
+      ],
+      "count": 2,
+      "first": "2026-09-19",
+      "id": "3RmFPuTTAjSQ2pbEd2j9oA",
+      "image": "https://i.scdn.co/image/ab67616d00004851e2aa48290b3cd1040be92345",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Loser",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 2,
@@ -39729,6 +39730,22 @@
       "short": 2,
       "years": {
         "2021": 2
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "first": "2026-07-06",
+      "id": "7xXzrsVZqbzE5yDfArysnE",
+      "image": "https://i.scdn.co/image/ab67616d000048515a6a08795790ccc600cc94a8",
+      "last": "2026-07-16",
+      "ms": 503386,
+      "name": "Marchin On",
+      "short": 2,
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -40577,6 +40594,21 @@
       "name": "Polaroid",
       "years": {
         "2025": 2
+      }
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 2,
+      "first": "2026-09-24",
+      "id": "lastfm:portals|アラン・シルヴェストリ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Portals",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -42143,6 +42175,21 @@
       "short": 8,
       "years": {
         "2020": 2
+      }
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 2,
+      "first": "2026-09-24",
+      "id": "lastfm:therealhero|アラン・シルヴェストリ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "The Real Hero",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -50690,6 +50737,21 @@
     },
     {
       "artists": [
+        "The City of Prague Philharmonic Orchestra"
+      ],
+      "count": 1,
+      "first": "2026-09-24",
+      "id": "lastfm:drivingwiththetopdownfromironman|thecityofpraguephilharmonicorchestra",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f6f90758215dc95640b3289056cfff89.jpg",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Driving with the Top Down - From \"Iron Man\"",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Martin Garrix"
       ],
       "count": 1,
@@ -51177,6 +51239,21 @@
     },
     {
       "artists": [
+        "ラミン・ジャワディ"
+      ],
+      "count": 1,
+      "first": "2026-09-24",
+      "id": "lastfm:eternalstheme|ラミン・ジャワディ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Eternals Theme",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Olivia Rodrigo"
       ],
       "count": 1,
@@ -51524,6 +51601,21 @@
       "short": 4,
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "マイケル・ジアッキーノ"
+      ],
+      "count": 1,
+      "first": "2026-09-24",
+      "id": "lastfm:farfromhomesuitehomefromspidermanfarfromhomesoundtrack|マイケル・ジアッキーノ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Far From Home Suite Home - from \"Spider-Man: Far From Home\" Soundtrack",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -55974,6 +56066,21 @@
     },
     {
       "artists": [
+        "Brian Tyler"
+      ],
+      "count": 1,
+      "first": "2026-09-24",
+      "id": "lastfm:ironman3|briantyler",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fb1e59c8208d4b1bcb178cbde33a0523.jpg",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "Iron Man 3",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Stevie Wonder"
       ],
       "count": 1,
@@ -57726,21 +57833,6 @@
       "last": "2026-04-28",
       "ms": 153960,
       "name": "Lose Yourself",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Tame Impala"
-      ],
-      "count": 1,
-      "first": "2026-09-19",
-      "id": "3RmFPuTTAjSQ2pbEd2j9oA",
-      "image": "https://i.scdn.co/image/ab67616d00004851e2aa48290b3cd1040be92345",
-      "last": "2026-09-19",
-      "ms": 0,
-      "name": "Loser",
       "years": {
         "2026": 1
       }
@@ -66363,6 +66455,21 @@
       "name": "The Ascent to Illumination",
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 1,
+      "first": "2026-09-24",
+      "id": "lastfm:theavengers|アラン・シルヴェストリ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-09-24",
+      "ms": 0,
+      "name": "The Avengers",
+      "years": {
+        "2026": 1
       }
     },
     {
