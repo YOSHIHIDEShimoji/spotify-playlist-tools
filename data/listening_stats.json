@@ -180,7 +180,7 @@
       "artists": [
         "Clean Bandit"
       ],
-      "count": 149,
+      "count": 150,
       "name": "Symphony (feat. Zara Larsson)",
       "track_id": "1x5sYLZiu9r5E43kMlt9f8"
     },
@@ -546,6 +546,14 @@
     },
     {
       "artists": [
+        "Hans Zimmer"
+      ],
+      "count": 112,
+      "name": "Time",
+      "track_id": "6ZFbXIJkuI1dVNWvzJzown"
+    },
+    {
+      "artists": [
         "a-ha"
       ],
       "count": 112,
@@ -575,14 +583,6 @@
       "count": 112,
       "name": "風になる",
       "track_id": "1BMYkyKXS6UfnJteWN7nSD"
-    },
-    {
-      "artists": [
-        "Hans Zimmer"
-      ],
-      "count": 111,
-      "name": "Time",
-      "track_id": "6ZFbXIJkuI1dVNWvzJzown"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-24T19:38:36.391642+00:00",
+  "generated_at": "2026-09-25T19:44:16.347442+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,29 @@
       5000,
       10000
     ],
-    "total": 63920
+    "total": 64012
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 7,
+  "streak": 9,
   "weekly_top": [
+    {
+      "artists": [
+        "Train"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Angel In Blue Jeans",
+      "track_id": "2GxGYGrixbXPFojONbzdo9"
+    },
+    {
+      "artists": [
+        "アラン・シルヴェストリ"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
+      "name": "Portals",
+      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
+    },
     {
       "artists": [
         "OneRepublic"
@@ -829,12 +847,12 @@
     },
     {
       "artists": [
-        "Train"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-      "name": "Angel In Blue Jeans",
-      "track_id": "2GxGYGrixbXPFojONbzdo9"
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "Colors",
+      "track_id": "2UyZTPrWFSMysY9cVVjmaB"
     },
     {
       "artists": [
@@ -847,12 +865,12 @@
     },
     {
       "artists": [
-        "アラン・シルヴェストリ"
+        "Ed Sheeran"
       ],
       "count": 2,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "name": "Portals",
-      "track_id": "lastfm:portals|アラン・シルヴェストリ"
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "name": "Shape of You",
+      "track_id": "7qiZfU4dY1lWllzX7mPBI3"
     },
     {
       "artists": [
@@ -862,6 +880,24 @@
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "name": "The Real Hero",
       "track_id": "lastfm:therealhero|アラン・シルヴェストリ"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "mood swings",
+      "track_id": "1sjqZ6Q3YTA2RyEjG8uGYs"
+    },
+    {
+      "artists": [
+        "アークティック・モンキーズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+      "name": "I Wanna Be Yours",
+      "track_id": "5XeFesFbtLpXzIVDNQP22n"
     },
     {
       "artists": [
@@ -949,15 +985,6 @@
         "ワンリパブリック"
       ],
       "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
-      "name": "Colors",
-      "track_id": "2UyZTPrWFSMysY9cVVjmaB"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
       "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
       "name": "Rescue Me",
       "track_id": "37LNNQNbL1YLyutBG6aWRx"
@@ -1015,15 +1042,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e2aa48290b3cd1040be92345",
       "name": "Loser",
       "track_id": "3RmFPuTTAjSQ2pbEd2j9oA"
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
-      "name": "Shape of You",
-      "track_id": "7qiZfU4dY1lWllzX7mPBI3"
     },
     {
       "artists": [
@@ -1117,19 +1135,138 @@
     },
     {
       "artists": [
-        "Michael Giacchino"
+        "Bruno Mars"
       ],
       "count": 1,
-      "name": "Far From Home Suite Home - from \"Spider-Man: Far From Home\" Soundtrack",
-      "track_id": "2Y9v6F9vFK9Z8KAoFwAj9Z"
+      "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
+      "name": "Versace on the Floor",
+      "track_id": "0kN8xEmgMW9mh7UmDYHlJP"
     },
     {
       "artists": [
-        "Ramin Djawadi"
+        "Coldplay"
       ],
       "count": 1,
-      "name": "Eternals Theme",
-      "track_id": "2IMCpvfw7vdBgK054H0FPE"
+      "image": "https://i.scdn.co/image/ab67616d00004851de09e02aa7febf30b7c02d82",
+      "name": "The Scientist",
+      "track_id": "75JFxkI2RXiU7L9VXzMkle"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
+      "name": "But Daddy I Love Him",
+      "track_id": "5og4Qzt92jJzVDkOtSEilb"
+    },
+    {
+      "artists": [
+        "Rick Astley"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485115ebbedaacef61af244262a8",
+      "name": "Never Gonna Give You Up",
+      "track_id": "4PTG3Z6ehGkBFwjybzWkR8"
+    },
+    {
+      "artists": [
+        "Adele"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851827945d7638c464bca9fc647",
+      "name": "Set Fire to the Rain",
+      "track_id": "7j4OmvkjRz0PrjFADlHfQx"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
+      "name": "Memories",
+      "track_id": "4cktbXiXOapiLBMprHFErI"
+    },
+    {
+      "artists": [
+        "Coldplay"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514e0362c225863f6ae2432651",
+      "name": "Speed of Sound",
+      "track_id": "7clUVcSOtkNWa58Gw5RfD4"
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+      "name": "Does It Feel",
+      "track_id": "4nNZ4ra9sJnsdixXELkfW5"
+    },
+    {
+      "artists": [
+        "KT Tunstall"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
+      "name": "Suddenly I See",
+      "track_id": "0UACObCoT1QlNDYroo7EJC"
+    },
+    {
+      "artists": [
+        "Sabrina Carpenter"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851b1863bf95557ea7f357c4947",
+      "name": "Nobody’s Son",
+      "track_id": "4SRShYMtFIGgnOU7iBicMH"
+    },
+    {
+      "artists": [
+        "ZAYN"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851cdc5d305c537648861945f0a",
+      "name": "Side Effects",
+      "track_id": "5hkceiJGJl4qcWUtyjXaJm"
+    },
+    {
+      "artists": [
+        "Clean Bandit"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515b1130d050c4cd2295999d85",
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "name": "WITCHYA",
+      "track_id": "7itUbJA4IGNGOrvOOGywD7"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "name": "Misery",
+      "track_id": "0RZyUsKfiC7MtiGKatCtGc"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "name": "Lucky Strike",
+      "track_id": "4rpzPAbwJboZQw2p9T5T3f"
     }
   ]
 }

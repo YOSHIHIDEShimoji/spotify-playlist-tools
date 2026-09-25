@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-24T19:42:04.270851+00:00",
+  "generated_at": "2026-09-25T19:47:36.073214+00:00",
   "items": [
+    {
+      "album_id": "33NdfsbflGrwmKRMBq16Oz",
+      "album_name": "Illuminate (10th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "Shawn Mendes",
+      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
     {
       "album_id": "1qD01TQrJDe2jx0YGwKnYu",
       "album_name": "Who I Am",
@@ -9,39 +20,28 @@
       "artist_id": "7DMveApC7UnC2NPfPvlHSU",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485179a0034fa0a66b38a1b7f127",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
-      "album_name": "DJ Play My Song",
+      "album_id": "73YOpL9H4qK72bJdakOzyl",
+      "album_name": "Loser (Fcukers Remix)",
       "album_type": "single",
-      "artist": "Aaron Smith",
-      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
+      "artist": "Tame Impala",
+      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
+      "is_new": false,
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "7xOQiLuhEGZBiEYgzmpveZ",
-      "album_name": "You (feat. UMI)",
-      "album_type": "single",
-      "artist": "Fujii Kaze",
-      "artist_id": "6bDWAcdtVR3WHz2xtiIPUi",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f522f7c4ce75c2f6b7ea2662",
-      "is_new": true,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "07QSyGmtKsbklJyrWe3jjh",
-      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
+      "album_id": "4hF2gTGuPYlykYuphDxi8J",
+      "album_name": "The Life of a Showgirl: The Encore",
       "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
+      "artist": "Taylor Swift",
+      "artist_id": "06HL4z0CvFAxyc27GXpf02",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
       "is_new": true,
       "release_date": "2026-09-25"
     },
@@ -53,29 +53,18 @@
       "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "33NdfsbflGrwmKRMBq16Oz",
-      "album_name": "Illuminate (10th Anniversary Edition)",
+      "album_id": "07QSyGmtKsbklJyrWe3jjh",
+      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
       "album_type": "album",
-      "artist": "Shawn Mendes",
-      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851719df37a05c4b3cc11eb2a94",
-      "is_new": true,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "73YOpL9H4qK72bJdakOzyl",
-      "album_name": "Loser (Fcukers Remix)",
-      "album_type": "single",
-      "artist": "Tame Impala",
-      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
-      "is_new": true,
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
+      "is_new": false,
       "release_date": "2026-09-25"
     },
     {
@@ -86,7 +75,40 @@
       "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b000299ba9791bc079f2c2f2",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "7rBIioPKNbFbedgP6iioLN",
+      "album_name": "AUJLA SZN 1",
+      "album_type": "single",
+      "artist": "Karan Aujla",
+      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851853b24d260cd34f67071f00a",
       "is_new": true,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "7xOQiLuhEGZBiEYgzmpveZ",
+      "album_name": "You (feat. UMI)",
+      "album_type": "single",
+      "artist": "Fujii Kaze",
+      "artist_id": "6bDWAcdtVR3WHz2xtiIPUi",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851012f147d16d64ad1e8e67c5f",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
+      "album_name": "DJ Play My Song",
+      "album_type": "single",
+      "artist": "Aaron Smith",
+      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
+      "is_new": false,
       "release_date": "2026-09-25"
     },
     {
@@ -178,24 +200,13 @@
       "release_date": "2026-09-22"
     },
     {
-      "album_id": "4RwlJEfIfICXp2lAhFvgww",
-      "album_name": "応援ソング！西野カナ2026",
+      "album_id": "6x7zk5GeCgqRn0Yujq135L",
+      "album_name": "Bass Persuades",
       "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
-      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
-      "album_type": "single",
-      "artist": "AFROJACK",
-      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "artist": "Miley Cyrus",
+      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -211,17 +222,6 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "3di21PPx1wwfMzHiUAMiwn",
-      "album_name": "Fun",
-      "album_type": "single",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
       "album_id": "5t3F8TDpF1IacaFLhYvjQP",
       "album_name": "Disney Guitar: A Day at the Parks",
       "album_type": "album",
@@ -233,13 +233,13 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
-      "album_name": "Day and Night",
-      "album_type": "album",
-      "artist": "Carly Rae Jepsen",
-      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
+      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
+      "album_name": "2LOUD",
+      "album_type": "single",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -255,28 +255,6 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
-      "album_name": "World Away (Ely Oaks Remix)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "6x7zk5GeCgqRn0Yujq135L",
-      "album_name": "Bass Persuades",
-      "album_type": "album",
-      "artist": "Miley Cyrus",
-      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
       "album_id": "2AC5p0CgyRUaMwJACM11su",
       "album_name": "Supermarket",
       "album_type": "single",
@@ -288,15 +266,70 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "2ULR4Fp8Fl8w8Lv3ND6ADi",
-      "album_name": "2LOUD",
+      "album_id": "3di21PPx1wwfMzHiUAMiwn",
+      "album_name": "Fun",
       "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
+      "image": "https://i.scdn.co/image/ab67616d00004851142aa51b1504acf93ab68723",
       "is_new": false,
       "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "4RwlJEfIfICXp2lAhFvgww",
+      "album_name": "応援ソング！西野カナ2026",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
+      "album_name": "Day and Night",
+      "album_type": "album",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "4fZOUfwfA22FxHzEgBlCK1",
+      "album_name": "World Away (Ely Oaks Remix)",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514c1230b25e1cf21ebe9e4d54",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "3ls2ibRNHUJwcwQLkGYWFk",
+      "album_name": "Turn Up The Speakers (Julian Jordan Remix)",
+      "album_type": "single",
+      "artist": "AFROJACK",
+      "artist_id": "4D75GcNG95ebPtNvoNVXhz",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "1tHG3rISWudn1FJoDjV56d",
+      "album_name": "Company",
+      "album_type": "single",
+      "artist": "Clean Bandit",
+      "artist_id": "6MDME20pz9RveH9rEXvrOM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
+      "is_new": false,
+      "release_date": "2026-09-17"
     },
     {
       "album_id": "1gD7pTNKGYymCt26Xqr9uA",
@@ -321,24 +354,13 @@
       "release_date": "2026-09-17"
     },
     {
-      "album_id": "1tHG3rISWudn1FJoDjV56d",
-      "album_name": "Company",
+      "album_id": "2zOyV8uuxPW31rdXWokKyM",
+      "album_name": "運命さがし EP",
       "album_type": "single",
-      "artist": "Clean Bandit",
-      "artist_id": "6MDME20pz9RveH9rEXvrOM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851908649dfb02e5c9c1c76ff70",
-      "is_new": false,
-      "release_date": "2026-09-17"
-    },
-    {
-      "album_id": "02k9RZkhDfdskVGJ1NvJHt",
-      "album_name": "April Suzanne",
-      "album_type": "single",
-      "artist": "Beach House",
-      "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
+      "artist": "Macaroni Empitsu",
+      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -354,13 +376,13 @@
       "release_date": "2026-09-16"
     },
     {
-      "album_id": "2zOyV8uuxPW31rdXWokKyM",
-      "album_name": "運命さがし EP",
+      "album_id": "02k9RZkhDfdskVGJ1NvJHt",
+      "album_name": "April Suzanne",
       "album_type": "single",
-      "artist": "Macaroni Empitsu",
-      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "artist": "Beach House",
+      "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -418,61 +440,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485121addf386ed60ff0d75b44fe",
       "is_new": false,
       "release_date": "2026-09-13"
-    },
-    {
-      "album_id": "4rtnFaG2TPzcifzZIZ9VDh",
-      "album_name": "Maluma - Hits Pa' Siempre",
-      "album_type": "album",
-      "artist": "Maluma",
-      "artist_id": "1r4hJ1h58CWwUQe3MxPuau",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485180f0e8b001ef34a75036994e",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "1E7th5SrXGmfa4j2RzgtKk",
-      "album_name": "ALL THE TIME [GorillaT Remix]",
-      "album_type": "single",
-      "artist": "John Summit",
-      "artist_id": "7kNqXtgeIwFtelmRjWv205",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485102641da1465ca620474d17b1",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "2Thr8TCxuCkXxN0VYcpqPX",
-      "album_name": "Drift",
-      "album_type": "single",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5ee06b64382b611f92d7476",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "6g9K8LPPVZQKroz3sUTwtg",
-      "album_name": "Backwards (feat. T.I.)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c5f8c80240cc7f0b5fc3ae9a",
-      "is_new": false,
-      "release_date": "2026-09-11"
-    },
-    {
-      "album_id": "6sJhb4vB1QTwK5wN8g3FeJ",
-      "album_name": "You Know Too Much",
-      "album_type": "album",
-      "artist": "Ellie Goulding",
-      "artist_id": "0X2BH1fck6amBIoJhDVmmJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e7cef105f6450ac8b39f60f",
-      "is_new": false,
-      "release_date": "2026-09-11"
     }
   ]
 }
