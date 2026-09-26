@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-25T19:44:16.347442+00:00",
+  "generated_at": "2026-09-26T18:53:01.006215+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 64012
+    "total": 64029
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 9,
@@ -874,6 +874,15 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
+      "name": "Clean (Taylor's Version)",
+      "track_id": "2ByBBvpR9b7IynvRmnG7kG"
+    },
+    {
+      "artists": [
         "アラン・シルヴェストリ"
       ],
       "count": 2,
@@ -892,12 +901,21 @@
     },
     {
       "artists": [
-        "アークティック・モンキーズ"
+        "Charlie Puth"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
-      "name": "I Wanna Be Yours",
-      "track_id": "5XeFesFbtLpXzIVDNQP22n"
+      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+      "name": "Does It Feel",
+      "track_id": "4nNZ4ra9sJnsdixXELkfW5"
+    },
+    {
+      "artists": [
+        "イマジン・ドラゴンズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
+      "name": "Demons",
+      "track_id": "5qaEfEh1AtSdrdrByCP7qR"
     },
     {
       "artists": [
@@ -1045,15 +1063,6 @@
     },
     {
       "artists": [
-        "Taylor Swift"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
-      "name": "Clean (Taylor's Version)",
-      "track_id": "2ByBBvpR9b7IynvRmnG7kG"
-    },
-    {
-      "artists": [
         "BTS"
       ],
       "count": 1,
@@ -1195,15 +1204,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048514e0362c225863f6ae2432651",
       "name": "Speed of Sound",
       "track_id": "7clUVcSOtkNWa58Gw5RfD4"
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
-      "name": "Does It Feel",
-      "track_id": "4nNZ4ra9sJnsdixXELkfW5"
     },
     {
       "artists": [

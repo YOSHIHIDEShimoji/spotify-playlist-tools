@@ -316,22 +316,6 @@
     },
     {
       "count": 370,
-      "first": "2021-03-14",
-      "id": "1uNFoZAHBGtllmzznpCI3s",
-      "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
-      "last": "2026-09-26",
-      "ms": 58614017,
-      "name": "Justin Bieber",
-      "tracks": 51,
-      "years": {
-        "2021": 12,
-        "2023": 5,
-        "2025": 19,
-        "2026": 334
-      }
-    },
-    {
-      "count": 370,
       "first": "2025-02-24",
       "id": "3FUY2gzHeIiaesXtOAdB7A",
       "image": "https://i.scdn.co/image/ab67616100005174fe613747ea3666f4c75b9884",
@@ -342,6 +326,22 @@
       "years": {
         "2025": 135,
         "2026": 235
+      }
+    },
+    {
+      "count": 369,
+      "first": "2021-03-14",
+      "id": "1uNFoZAHBGtllmzznpCI3s",
+      "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
+      "last": "2026-09-25",
+      "ms": 58614017,
+      "name": "Justin Bieber",
+      "tracks": 50,
+      "years": {
+        "2021": 12,
+        "2023": 5,
+        "2025": 19,
+        "2026": 333
       }
     },
     {
@@ -382,16 +382,16 @@
       }
     },
     {
-      "count": 358,
+      "count": 360,
       "first": "2026-03-31",
       "id": "7hr9W3IjXcm3UlLY7guLk5",
       "image": "https://i.scdn.co/image/ab67616100005174eb112262ba2e60bf90053a02",
-      "last": "2026-09-25",
+      "last": "2026-09-26",
       "ms": 19430514,
       "name": "Henry Moodie",
       "tracks": 30,
       "years": {
-        "2026": 358
+        "2026": 360
       }
     },
     {
@@ -639,16 +639,16 @@
       }
     },
     {
-      "count": 217,
+      "count": 218,
       "first": "2026-06-14",
       "id": "49tQo2QULno7gxHutgccqF",
       "image": "https://i.scdn.co/image/ab676161000051748218332656745840f9ed0a50",
-      "last": "2026-09-25",
+      "last": "2026-09-26",
       "ms": 27469299,
       "name": "LANY",
       "tracks": 38,
       "years": {
-        "2026": 217
+        "2026": 218
       }
     },
     {
@@ -1274,6 +1274,24 @@
     },
     {
       "count": 122,
+      "first": "2021-03-14",
+      "id": "53XhwfbYqKCa1cC15pYq2q",
+      "image": "https://i.scdn.co/image/ab67616100005174ab47d8dae2b24f5afe7f9d38",
+      "last": "2026-09-26",
+      "ms": 23711550,
+      "name": "Imagine Dragons",
+      "tracks": 12,
+      "years": {
+        "2021": 1,
+        "2022": 8,
+        "2023": 3,
+        "2024": 4,
+        "2025": 52,
+        "2026": 54
+      }
+    },
+    {
+      "count": 122,
       "first": "2021-02-21",
       "id": "69GGBxA162lTqCwzJG5jLp",
       "image": "https://i.scdn.co/image/ab676161000051744567279fac84a0375c3d819b",
@@ -1306,24 +1324,6 @@
         "2024": 7,
         "2025": 48,
         "2026": 31
-      }
-    },
-    {
-      "count": 121,
-      "first": "2021-03-14",
-      "id": "53XhwfbYqKCa1cC15pYq2q",
-      "image": "https://i.scdn.co/image/ab67616100005174ab47d8dae2b24f5afe7f9d38",
-      "last": "2026-09-19",
-      "ms": 23711550,
-      "name": "Imagine Dragons",
-      "tracks": 12,
-      "years": {
-        "2021": 1,
-        "2022": 8,
-        "2023": 3,
-        "2024": 4,
-        "2025": 52,
-        "2026": 53
       }
     },
     {
@@ -2204,6 +2204,17 @@
       }
     },
     {
+      "count": 65,
+      "first": "2026-07-26",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "チャーリー・プース",
+      "tracks": 23,
+      "years": {
+        "2026": 65
+      }
+    },
+    {
       "count": 64,
       "first": "2020-05-19",
       "id": "47mIJdHORyRerp4os813jD",
@@ -2247,17 +2258,6 @@
         "2023": 27,
         "2024": 30,
         "2025": 7
-      }
-    },
-    {
-      "count": 64,
-      "first": "2026-07-26",
-      "last": "2026-09-20",
-      "ms": 0,
-      "name": "チャーリー・プース",
-      "tracks": 23,
-      "years": {
-        "2026": 64
       }
     },
     {
@@ -2465,6 +2465,20 @@
     },
     {
       "count": 57,
+      "first": "2025-12-23",
+      "id": "0fTSzq9jAh4c36UVb4V7CB",
+      "image": "https://i.scdn.co/image/ab67616100005174e027df2e591e1a050e5235cc",
+      "last": "2026-09-26",
+      "ms": 6829193,
+      "name": "Alex Warren",
+      "tracks": 9,
+      "years": {
+        "2025": 1,
+        "2026": 56
+      }
+    },
+    {
+      "count": 57,
       "first": "2022-03-05",
       "id": "4VmWYQQ5M9N9AiAx14v2yg",
       "image": "https://i.scdn.co/image/ab67616d00001e02bfd869b5a775481785ce55ad",
@@ -2493,20 +2507,6 @@
         "2023": 3,
         "2025": 2,
         "2026": 50
-      }
-    },
-    {
-      "count": 56,
-      "first": "2025-12-23",
-      "id": "0fTSzq9jAh4c36UVb4V7CB",
-      "image": "https://i.scdn.co/image/ab67616100005174e027df2e591e1a050e5235cc",
-      "last": "2026-09-25",
-      "ms": 6829193,
-      "name": "Alex Warren",
-      "tracks": 9,
-      "years": {
-        "2025": 1,
-        "2026": 55
       }
     },
     {
@@ -3399,14 +3399,14 @@
       }
     },
     {
-      "count": 38,
+      "count": 39,
       "first": "2026-07-21",
-      "last": "2026-09-25",
+      "last": "2026-09-26",
       "ms": 0,
       "name": "マルーン５",
       "tracks": 13,
       "years": {
-        "2026": 38
+        "2026": 39
       }
     },
     {
@@ -3589,6 +3589,17 @@
       }
     },
     {
+      "count": 35,
+      "first": "2026-07-28",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "テイラー・スウィフト",
+      "tracks": 23,
+      "years": {
+        "2026": 35
+      }
+    },
+    {
       "count": 34,
       "first": "2021-12-31",
       "id": "6i6WlGzQtXtz7GcC5H5st5",
@@ -3738,17 +3749,6 @@
       "ms": 5819538,
       "name": "Tatsuya Kitani",
       "tracks": 1,
-      "years": {
-        "2026": 32
-      }
-    },
-    {
-      "count": 32,
-      "first": "2026-07-28",
-      "last": "2026-09-25",
-      "ms": 0,
-      "name": "テイラー・スウィフト",
-      "tracks": 22,
       "years": {
         "2026": 32
       }
@@ -4015,6 +4015,28 @@
       }
     },
     {
+      "count": 24,
+      "first": "2026-07-28",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "エド・シーラン",
+      "tracks": 14,
+      "years": {
+        "2026": 24
+      }
+    },
+    {
+      "count": 24,
+      "first": "2026-07-30",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "ショーン・メンデス",
+      "tracks": 14,
+      "years": {
+        "2026": 24
+      }
+    },
+    {
       "count": 23,
       "first": "2025-12-25",
       "id": "4tuJ0bMpJh08umKkEXKUI5",
@@ -4058,28 +4080,6 @@
         "2024": 1,
         "2025": 3,
         "2026": 16
-      }
-    },
-    {
-      "count": 23,
-      "first": "2026-07-28",
-      "last": "2026-09-19",
-      "ms": 0,
-      "name": "エド・シーラン",
-      "tracks": 14,
-      "years": {
-        "2026": 23
-      }
-    },
-    {
-      "count": 23,
-      "first": "2026-07-30",
-      "last": "2026-09-09",
-      "ms": 0,
-      "name": "ショーン・メンデス",
-      "tracks": 14,
-      "years": {
-        "2026": 23
       }
     },
     {
@@ -5596,20 +5596,6 @@
     },
     {
       "count": 7,
-      "first": "2025-12-23",
-      "id": "7Ln80lUS6He07XvHI8qqHH",
-      "image": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
-      "last": "2026-09-25",
-      "ms": 474682,
-      "name": "Arctic Monkeys",
-      "tracks": 1,
-      "years": {
-        "2025": 3,
-        "2026": 4
-      }
-    },
-    {
-      "count": 7,
       "first": "2022-06-05",
       "last": "2026-02-22",
       "ms": 1142355,
@@ -5863,6 +5849,17 @@
     },
     {
       "count": 7,
+      "first": "2026-08-03",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "アヴィーチー",
+      "tracks": 5,
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "count": 7,
       "first": "2026-07-19",
       "last": "2026-08-26",
       "ms": 0,
@@ -5929,6 +5926,20 @@
       "tracks": 1,
       "years": {
         "2026": 6
+      }
+    },
+    {
+      "count": 6,
+      "first": "2025-12-23",
+      "id": "7Ln80lUS6He07XvHI8qqHH",
+      "image": "https://i.scdn.co/image/ab676161000051747da39dea0a72f581535fb11f",
+      "last": "2026-09-19",
+      "ms": 474682,
+      "name": "Arctic Monkeys",
+      "tracks": 1,
+      "years": {
+        "2025": 3,
+        "2026": 3
       }
     },
     {
@@ -6151,6 +6162,19 @@
     },
     {
       "count": 6,
+      "first": "2026-07-18",
+      "id": "2hUYKu1x0UZQXvzCmggvSn",
+      "image": "https://i.scdn.co/image/ab67616100005174a913b09c2b17424e34c55e5e",
+      "last": "2026-09-26",
+      "ms": 183741,
+      "name": "Reneé Rapp",
+      "tracks": 2,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "count": 6,
       "first": "2022-05-04",
       "id": "4WqXqPmUuenMIr4QaFrZXN",
       "image": "https://i.scdn.co/image/ab676161000051742209db79b2ac606645bbe932",
@@ -6230,17 +6254,6 @@
       "years": {
         "2025": 5,
         "2026": 1
-      }
-    },
-    {
-      "count": 6,
-      "first": "2026-08-03",
-      "last": "2026-09-09",
-      "ms": 0,
-      "name": "アヴィーチー",
-      "tracks": 4,
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -6520,19 +6533,6 @@
       "last": "2026-09-13",
       "ms": 366027,
       "name": "Ravyn Lenae",
-      "tracks": 2,
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "count": 5,
-      "first": "2026-07-18",
-      "id": "2hUYKu1x0UZQXvzCmggvSn",
-      "image": "https://i.scdn.co/image/ab67616100005174a913b09c2b17424e34c55e5e",
-      "last": "2026-09-04",
-      "ms": 183741,
-      "name": "Reneé Rapp",
       "tracks": 2,
       "years": {
         "2026": 5
@@ -7615,19 +7615,6 @@
     },
     {
       "count": 3,
-      "first": "2026-06-25",
-      "id": "7bXgB6jMjp9ATFy66eO08Z",
-      "image": "https://i.scdn.co/image/ab67616100005174913ab85302df0ddfb77131e9",
-      "last": "2026-09-26",
-      "ms": 531626,
-      "name": "Chris Brown",
-      "tracks": 1,
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "count": 3,
       "first": "2026-07-18",
       "id": "1l7ZsJRRS8wlW3WfJfPfNS",
       "image": "https://i.scdn.co/image/ab676161000051744a69ef1c3d566709985ce452",
@@ -8598,6 +8585,17 @@
     },
     {
       "count": 3,
+      "first": "2026-08-02",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "イマジン・ドラゴンズ",
+      "tracks": 3,
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "count": 3,
       "first": "2026-08-15",
       "last": "2026-09-04",
       "ms": 0,
@@ -8933,6 +8931,19 @@
       "tracks": 2,
       "years": {
         "2024": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-06-25",
+      "id": "7bXgB6jMjp9ATFy66eO08Z",
+      "image": "https://i.scdn.co/image/ab67616100005174913ab85302df0ddfb77131e9",
+      "last": "2026-07-05",
+      "ms": 531626,
+      "name": "Chris Brown",
+      "tracks": 1,
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -10926,17 +10937,6 @@
     },
     {
       "count": 2,
-      "first": "2026-08-02",
-      "last": "2026-09-18",
-      "ms": 0,
-      "name": "イマジン・ドラゴンズ",
-      "tracks": 2,
-      "years": {
-        "2026": 2
-      }
-    },
-    {
-      "count": 2,
       "first": "2026-07-29",
       "last": "2026-07-31",
       "ms": 0,
@@ -11051,6 +11051,28 @@
       "last": "2026-08-04",
       "ms": 0,
       "name": "デヴィッド・ゲッタ",
+      "tracks": 2,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-09-04",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "ハイスクール・ミュージカル・キャスト",
+      "tracks": 1,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "count": 2,
+      "first": "2026-07-21",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "ハリー・スタイルズ",
       "tracks": 2,
       "years": {
         "2026": 2
@@ -17683,6 +17705,17 @@
     },
     {
       "count": 1,
+      "first": "2026-09-25",
+      "last": "2026-09-25",
+      "ms": 0,
+      "name": "クリス・ブラウン",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
       "first": "2026-07-21",
       "last": "2026-07-21",
       "ms": 0,
@@ -17793,28 +17826,6 @@
     },
     {
       "count": 1,
-      "first": "2026-09-04",
-      "last": "2026-09-04",
-      "ms": 0,
-      "name": "ハイスクール・ミュージカル・キャスト",
-      "tracks": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "count": 1,
-      "first": "2026-07-21",
-      "last": "2026-07-21",
-      "ms": 0,
-      "name": "ハリー・スタイルズ",
-      "tracks": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "count": 1,
       "first": "2026-08-31",
       "last": "2026-08-31",
       "ms": 0,
@@ -17830,6 +17841,17 @@
       "last": "2026-09-11",
       "ms": 0,
       "name": "ヒューイ・ルイス&ザ・ニュース",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
+      "first": "2026-09-26",
+      "last": "2026-09-26",
+      "ms": 0,
+      "name": "ビーチ・ハウス",
       "tracks": 1,
       "years": {
         "2026": 1
@@ -18144,5 +18166,5 @@
       }
     }
   ],
-  "generated_at": "2026-09-25T19:45:29.330956+00:00"
+  "generated_at": "2026-09-26T18:54:21.054604+00:00"
 }

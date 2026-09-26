@@ -12,7 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 23.5184
+      "score": 23.5712
     },
     {
       "because": [
@@ -26,7 +26,7 @@
         }
       ],
       "name": "Niall Horan",
-      "score": 19.0017
+      "score": 19.1598
     },
     {
       "because": [
@@ -40,7 +40,7 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 15.3039
+      "score": 15.4294
     },
     {
       "because": [
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0301
+      "score": 15.1673
     },
     {
       "because": [
@@ -68,7 +68,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 14.0362
+      "score": 13.8501
     },
     {
       "because": [
@@ -77,12 +77,12 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 370,
+          "count": 369,
           "name": "Justin Bieber"
         }
       ],
       "name": "Jason Derülo",
-      "score": 11.0062
+      "score": 11.3065
     },
     {
       "because": [
@@ -96,7 +96,7 @@
         }
       ],
       "name": "米津玄師",
-      "score": 10.8915
+      "score": 10.9124
     },
     {
       "because": [
@@ -110,12 +110,12 @@
         }
       ],
       "name": "James Horner",
-      "score": 10.3357
+      "score": 10.1856
     },
     {
       "because": [
         {
-          "count": 370,
+          "count": 369,
           "name": "Justin Bieber"
         },
         {
@@ -124,21 +124,7 @@
         }
       ],
       "name": "Givēon",
-      "score": 9.8943
-    },
-    {
-      "because": [
-        {
-          "count": 367,
-          "name": "Jim Yosef"
-        },
-        {
-          "count": 300,
-          "name": "Elektronomia"
-        }
-      ],
-      "name": "Lensko",
-      "score": 9.5508
+      "score": 10.0678
     },
     {
       "because": [
@@ -152,21 +138,7 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.5067
-    },
-    {
-      "because": [
-        {
-          "count": 2023,
-          "name": "OneRepublic"
-        },
-        {
-          "count": 471,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "Rob Thomas",
-      "score": 9.2961
+      "score": 9.5092
     },
     {
       "because": [
@@ -180,7 +152,35 @@
         }
       ],
       "name": "Masaki Suda",
-      "score": 9.2927
+      "score": 9.3171
+    },
+    {
+      "because": [
+        {
+          "count": 2023,
+          "name": "OneRepublic"
+        },
+        {
+          "count": 471,
+          "name": "Maroon 5"
+        }
+      ],
+      "name": "Rob Thomas",
+      "score": 9.2987
+    },
+    {
+      "because": [
+        {
+          "count": 367,
+          "name": "Jim Yosef"
+        },
+        {
+          "count": 300,
+          "name": "Elektronomia"
+        }
+      ],
+      "name": "Lensko",
+      "score": 9.1439
     },
     {
       "because": [
@@ -194,7 +194,7 @@
         }
       ],
       "name": "Louis Tomlinson",
-      "score": 8.9069
+      "score": 8.8439
     },
     {
       "because": [
@@ -208,7 +208,7 @@
         }
       ],
       "name": "Jerry Goldsmith",
-      "score": 8.7817
+      "score": 8.6511
     },
     {
       "because": [
@@ -222,7 +222,21 @@
         }
       ],
       "name": "槇原敬之",
-      "score": 8.4959
+      "score": 8.5265
+    },
+    {
+      "because": [
+        {
+          "count": 901,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 369,
+          "name": "Justin Bieber"
+        }
+      ],
+      "name": "Bazzi",
+      "score": 8.1131
     },
     {
       "because": [
@@ -231,26 +245,12 @@
           "name": "Ed Sheeran"
         },
         {
-          "count": 358,
+          "count": 360,
           "name": "Henry Moodie"
         }
       ],
       "name": "Myles Smith",
-      "score": 8.4629
-    },
-    {
-      "because": [
-        {
-          "count": 370,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 213,
-          "name": "Bruno Mars"
-        }
-      ],
-      "name": "Ne-Yo",
-      "score": 8.0043
+      "score": 7.9843
     },
     {
       "because": [
@@ -264,21 +264,21 @@
         }
       ],
       "name": "My Little Lover",
-      "score": 7.9752
+      "score": 7.9603
     },
     {
       "because": [
         {
-          "count": 901,
-          "name": "Charlie Puth"
+          "count": 369,
+          "name": "Justin Bieber"
         },
         {
-          "count": 370,
-          "name": "Justin Bieber"
+          "count": 213,
+          "name": "Bruno Mars"
         }
       ],
-      "name": "Bazzi",
-      "score": 7.8255
+      "name": "Ne-Yo",
+      "score": 7.925
     },
     {
       "because": [
@@ -292,7 +292,7 @@
         }
       ],
       "name": "SUPER BEAVER",
-      "score": 7.5839
+      "score": 7.6762
     },
     {
       "because": [
@@ -306,7 +306,21 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 7.5756
+      "score": 7.4401
+    },
+    {
+      "because": [
+        {
+          "count": 2023,
+          "name": "OneRepublic"
+        },
+        {
+          "count": 360,
+          "name": "Henry Moodie"
+        }
+      ],
+      "name": "BANNERS",
+      "score": 7.4264
     },
     {
       "because": [
@@ -320,59 +334,7 @@
         }
       ],
       "name": "Marco Beltrami",
-      "score": 7.4654
-    },
-    {
-      "because": [
-        {
-          "count": 2023,
-          "name": "OneRepublic"
-        },
-        {
-          "count": 358,
-          "name": "Henry Moodie"
-        }
-      ],
-      "name": "BANNERS",
-      "score": 7.4122
-    },
-    {
-      "because": [
-        {
-          "count": 1248,
-          "name": "SPITZ"
-        }
-      ],
-      "name": "くるり",
-      "score": 7.0672
-    },
-    {
-      "because": [
-        {
-          "count": 367,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 218,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "Harry Gregson-Williams",
-      "score": 6.9458
-    },
-    {
-      "because": [
-        {
-          "count": 15653,
-          "name": "The Beatles"
-        },
-        {
-          "count": 3377,
-          "name": "Paul McCartney"
-        }
-      ],
-      "name": "Traveling Wilburys",
-      "score": 6.932
+      "score": 7.3597
     },
     {
       "because": [
@@ -386,21 +348,21 @@
         }
       ],
       "name": "DNCE",
-      "score": 6.8773
+      "score": 7.1595
     },
     {
       "because": [
         {
-          "count": 901,
-          "name": "Charlie Puth"
+          "count": 15653,
+          "name": "The Beatles"
         },
         {
-          "count": 358,
-          "name": "Henry Moodie"
+          "count": 3377,
+          "name": "Paul McCartney"
         }
       ],
-      "name": "HRVY",
-      "score": 6.7947
+      "name": "Traveling Wilburys",
+      "score": 7.0129
     },
     {
       "because": [
@@ -409,12 +371,54 @@
           "name": "SPITZ"
         }
       ],
-      "name": "フジファブリック",
-      "score": 6.7342
+      "name": "くるり",
+      "score": 6.973
+    },
+    {
+      "because": [
+        {
+          "count": 256,
+          "name": "Dua Lipa"
+        },
+        {
+          "count": 235,
+          "name": "Katy Perry"
+        }
+      ],
+      "name": "Tove Lo",
+      "score": 6.9123
+    },
+    {
+      "because": [
+        {
+          "count": 367,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 218,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "Harry Gregson-Williams",
+      "score": 6.9114
+    },
+    {
+      "because": [
+        {
+          "count": 901,
+          "name": "Charlie Puth"
+        },
+        {
+          "count": 360,
+          "name": "Henry Moodie"
+        }
+      ],
+      "name": "HRVY",
+      "score": 6.8162
     }
   ],
   "available": true,
-  "generated_at": "2026-09-25T19:46:02.675859+00:00",
+  "generated_at": "2026-09-26T18:54:52.296631+00:00",
   "source": "lastfm",
   "tracks": [
     {

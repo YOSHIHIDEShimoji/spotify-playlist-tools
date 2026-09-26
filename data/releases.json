@@ -1,14 +1,25 @@
 {
-  "generated_at": "2026-09-25T19:47:36.073214+00:00",
+  "generated_at": "2026-09-26T18:56:42.243945+00:00",
   "items": [
     {
-      "album_id": "33NdfsbflGrwmKRMBq16Oz",
-      "album_name": "Illuminate (10th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "Shawn Mendes",
-      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "album_id": "7rBIioPKNbFbedgP6iioLN",
+      "album_name": "AUJLA SZN 1",
+      "album_type": "single",
+      "artist": "Karan Aujla",
+      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
+      "image": "https://i.scdn.co/image/ab67616d00004851853b24d260cd34f67071f00a",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "0cTairXEsvN4pe3dc3jF3g",
+      "album_name": "Orchid (Deluxe)",
+      "album_type": "album",
+      "artist": "Matt Hansen",
+      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b000299ba9791bc079f2c2f2",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -35,6 +46,39 @@
       "release_date": "2026-09-25"
     },
     {
+      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
+      "album_name": "DJ Play My Song",
+      "album_type": "single",
+      "artist": "Aaron Smith",
+      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "7xOQiLuhEGZBiEYgzmpveZ",
+      "album_name": "You (feat. UMI)",
+      "album_type": "single",
+      "artist": "Fujii Kaze",
+      "artist_id": "6bDWAcdtVR3WHz2xtiIPUi",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851012f147d16d64ad1e8e67c5f",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "33NdfsbflGrwmKRMBq16Oz",
+      "album_name": "Illuminate (10th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "Shawn Mendes",
+      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
       "album_id": "4hF2gTGuPYlykYuphDxi8J",
       "album_name": "The Life of a Showgirl: The Encore",
       "album_type": "album",
@@ -42,17 +86,6 @@
       "artist_id": "06HL4z0CvFAxyc27GXpf02",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
-      "is_new": true,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2qO0pbZco75616ASWjgIsG",
-      "album_name": "Disney Peaceful Piano: Deep Focus",
-      "album_type": "album",
-      "artist": "Disney Peaceful Piano",
-      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -68,46 +101,13 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "0cTairXEsvN4pe3dc3jF3g",
-      "album_name": "Orchid (Deluxe)",
+      "album_id": "2qO0pbZco75616ASWjgIsG",
+      "album_name": "Disney Peaceful Piano: Deep Focus",
       "album_type": "album",
-      "artist": "Matt Hansen",
-      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "artist": "Disney Peaceful Piano",
+      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b000299ba9791bc079f2c2f2",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "7rBIioPKNbFbedgP6iioLN",
-      "album_name": "AUJLA SZN 1",
-      "album_type": "single",
-      "artist": "Karan Aujla",
-      "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851853b24d260cd34f67071f00a",
-      "is_new": true,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "7xOQiLuhEGZBiEYgzmpveZ",
-      "album_name": "You (feat. UMI)",
-      "album_type": "single",
-      "artist": "Fujii Kaze",
-      "artist_id": "6bDWAcdtVR3WHz2xtiIPUi",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851012f147d16d64ad1e8e67c5f",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
-      "album_name": "DJ Play My Song",
-      "album_type": "single",
-      "artist": "Aaron Smith",
-      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
+      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -145,13 +145,13 @@
       "release_date": "2026-09-24"
     },
     {
-      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
-      "album_name": "Roses",
+      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
+      "album_name": "ヒカリ - The Light",
       "album_type": "single",
-      "artist": "CHVRCHES",
-      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "artist": "GROTESQQQUE",
+      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
       "is_new": false,
       "release_date": "2026-09-23"
     },
@@ -167,6 +167,17 @@
       "release_date": "2026-09-23"
     },
     {
+      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
+      "album_name": "Roses",
+      "album_type": "single",
+      "artist": "CHVRCHES",
+      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
       "album_id": "1fSqtjQVfqPTgxHHwWLEQl",
       "album_name": "Comedy Show",
       "album_type": "single",
@@ -174,17 +185,6 @@
       "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851af84b26084ad28cbe7d91fc6",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
-      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
-      "album_name": "ヒカリ - The Light",
-      "album_type": "single",
-      "artist": "GROTESQQQUE",
-      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
       "is_new": false,
       "release_date": "2026-09-23"
     },
@@ -200,35 +200,13 @@
       "release_date": "2026-09-22"
     },
     {
-      "album_id": "6x7zk5GeCgqRn0Yujq135L",
-      "album_name": "Bass Persuades",
+      "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
+      "album_name": "Day and Night",
       "album_type": "album",
-      "artist": "Miley Cyrus",
-      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "34tlUejzwnbwfx5U9lSM8P",
-      "album_name": "SKYFALL",
-      "album_type": "single",
-      "artist": "Big Creature",
-      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
-      "album_name": "Disney Guitar: A Day at the Parks",
-      "album_type": "album",
-      "artist": "Disney Peaceful Guitar",
-      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
+      "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -240,17 +218,6 @@
       "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851b4e87f777c4f9419f485b6ad",
-      "is_new": false,
-      "release_date": "2026-09-18"
-    },
-    {
-      "album_id": "1npdSboUQi3hE4rrlPh17O",
-      "album_name": "GET EVEN",
-      "album_type": "single",
-      "artist": "The Kid LAROI",
-      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514aab7d186fccafb0b06fbc47",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -277,24 +244,24 @@
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "4RwlJEfIfICXp2lAhFvgww",
-      "album_name": "応援ソング！西野カナ2026",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
+      "album_id": "1npdSboUQi3hE4rrlPh17O",
+      "album_name": "GET EVEN",
+      "album_type": "single",
+      "artist": "The Kid LAROI",
+      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514aab7d186fccafb0b06fbc47",
       "is_new": false,
       "release_date": "2026-09-18"
     },
     {
-      "album_id": "1XWFzAYlF1ihMFPU4a9YQg",
-      "album_name": "Day and Night",
+      "album_id": "6x7zk5GeCgqRn0Yujq135L",
+      "album_name": "Bass Persuades",
       "album_type": "album",
-      "artist": "Carly Rae Jepsen",
-      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
+      "artist": "Miley Cyrus",
+      "artist_id": "5YGY8feqx7naU7z4HrwZM6",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b95df8ae25f8c265e37793de",
+      "image": "https://i.scdn.co/image/ab67616d000048511bababe27a46e73f16d7b619",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -317,6 +284,39 @@
       "artist_id": "4D75GcNG95ebPtNvoNVXhz",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851abaf39bcce9acb1c9d6e4779",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "34tlUejzwnbwfx5U9lSM8P",
+      "album_name": "SKYFALL",
+      "album_type": "single",
+      "artist": "Big Creature",
+      "artist_id": "5GsNkiyX3RDed1ZMlu1KP9",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851f0431065b3dadcb371bfbd29",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "4RwlJEfIfICXp2lAhFvgww",
+      "album_name": "応援ソング！西野カナ2026",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048515b198a7dced661874f888e5e",
+      "is_new": false,
+      "release_date": "2026-09-18"
+    },
+    {
+      "album_id": "5t3F8TDpF1IacaFLhYvjQP",
+      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_type": "album",
+      "artist": "Disney Peaceful Guitar",
+      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851680168fe5865b347e86a94f0",
       "is_new": false,
       "release_date": "2026-09-18"
     },
@@ -354,13 +354,13 @@
       "release_date": "2026-09-17"
     },
     {
-      "album_id": "2zOyV8uuxPW31rdXWokKyM",
-      "album_name": "運命さがし EP",
+      "album_id": "4TN5rvYtw92VnfRiG2auyP",
+      "album_name": "オリーブ",
       "album_type": "single",
-      "artist": "Macaroni Empitsu",
-      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "artist": "Tota",
+      "artist_id": "5WIXXPkyVYncLscyUbDrpi",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3e26142fd7b7318d937dade",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -376,6 +376,17 @@
       "release_date": "2026-09-16"
     },
     {
+      "album_id": "2zOyV8uuxPW31rdXWokKyM",
+      "album_name": "運命さがし EP",
+      "album_type": "single",
+      "artist": "Macaroni Empitsu",
+      "artist_id": "1t17z3vfuc82cxSDMrvryJ",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048511613999e2f1ea83f01dc3db2",
+      "is_new": false,
+      "release_date": "2026-09-16"
+    },
+    {
       "album_id": "02k9RZkhDfdskVGJ1NvJHt",
       "album_name": "April Suzanne",
       "album_type": "single",
@@ -383,17 +394,6 @@
       "artist_id": "56ZTgzPBDge0OvCGgMO3OY",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513ccd2a2d698150fdccbdc58c",
-      "is_new": false,
-      "release_date": "2026-09-16"
-    },
-    {
-      "album_id": "4TN5rvYtw92VnfRiG2auyP",
-      "album_name": "オリーブ",
-      "album_type": "single",
-      "artist": "Tota",
-      "artist_id": "5WIXXPkyVYncLscyUbDrpi",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3e26142fd7b7318d937dade",
       "is_new": false,
       "release_date": "2026-09-16"
     },
@@ -409,17 +409,6 @@
       "release_date": "2026-09-15"
     },
     {
-      "album_id": "3q0wBseKToqHQZaIJZldFF",
-      "album_name": "Made My Night (feat. EJAE)",
-      "album_type": "single",
-      "artist": "LE SSERAFIM",
-      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
-      "is_new": false,
-      "release_date": "2026-09-14"
-    },
-    {
       "album_id": "3kxvuho2lPjidH73pndMKJ",
       "album_name": "オリオン (PSYQUI Remix)",
       "album_type": "single",
@@ -427,6 +416,17 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048517b2f9e6027d8f0f70eb5c523",
+      "is_new": false,
+      "release_date": "2026-09-14"
+    },
+    {
+      "album_id": "3q0wBseKToqHQZaIJZldFF",
+      "album_name": "Made My Night (feat. EJAE)",
+      "album_type": "single",
+      "artist": "LE SSERAFIM",
+      "artist_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514ca01ac40ddd7549f3401266",
       "is_new": false,
       "release_date": "2026-09-14"
     },

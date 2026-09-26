@@ -1,275 +1,117 @@
 {
-  "date": "09-26",
-  "generated_at": "2026-09-25T19:45:29.521595+00:00",
+  "date": "09-27",
+  "generated_at": "2026-09-26T18:54:21.244774+00:00",
   "years": [
     {
-      "plays": 6,
+      "plays": 1,
       "tracks": [
         {
           "artists": [
-            "Ellie Goulding"
+            "Kenji Sawada"
           ],
           "count": 1,
-          "name": "Burn",
-          "track_id": "0xMd5bcWTbyXS7wPrBtZA6"
-        },
-        {
-          "artists": [
-            "Train"
-          ],
-          "count": 1,
-          "name": "50 Ways to Say Goodbye",
-          "track_id": "2NniAhAtkRACaMeYt48xlD"
-        },
-        {
-          "artists": [
-            "The Kid LAROI"
-          ],
-          "count": 1,
-          "name": "STAY (with Justin Bieber)",
-          "track_id": "5HCyWlXZPP0y6Gqq8TgA20"
-        },
-        {
-          "artists": [
-            "Harry Styles"
-          ],
-          "count": 1,
-          "name": "As It Was",
-          "track_id": "4Dvkj6JhhA12EX05fT7y2e"
-        },
-        {
-          "artists": [
-            "Zara Larsson"
-          ],
-          "count": 1,
-          "name": "Don't Worry Bout Me",
-          "track_id": "507tQXutCPYNFkpOq8tmKF"
-        },
-        {
-          "artists": [
-            "Alessia Cara"
-          ],
-          "count": 1,
-          "name": "How Far I'll Go - Alessia Cara Version",
-          "track_id": "5VBEyc4i8MIS1IVVvgBDr6"
+          "name": "ヤマトより愛をこめて",
+          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
         }
       ],
-      "year": "2025"
-    },
-    {
-      "plays": 31,
-      "tracks": [
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Real Love - Anthology 2 Version",
-          "track_id": "5frMgt4jqRGJk3yMKfqOyl"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Please Mister Postman - Remastered 2009",
-          "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Hey Bulldog - Remastered 2009",
-          "track_id": "5xYC2ZJJ9TMJL8BOl85O2R"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "The Fool On The Hill - Remastered 2009",
-          "track_id": "6rHh8urosEFRI67xVa6fzU"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Come Together - Remastered 2009",
-          "track_id": "2EqlS6tkEnglzr7tkKAAYD"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Something - Remastered 2009",
-          "track_id": "0pNeVovbiZHkulpGeOx1Gj"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Maxwell's Silver Hammer - Remastered 2009",
-          "track_id": "2S8xyNRJX1XQdo3qnTuovI"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Oh! Darling - Remastered 2009",
-          "track_id": "2mxByJWOajjiVsLWjNXvDJ"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Octopus's Garden - Remastered 2009",
-          "track_id": "0suLngfo7rJoetk7Ub6N8l"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "I Want You (She's So Heavy) - Remastered 2009",
-          "track_id": "3Z25k4ZF6QENy2d9YatsM5"
-        }
-      ],
-      "year": "2023"
-    },
-    {
-      "plays": 28,
-      "tracks": [
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 2,
-          "name": "Beautiful Night - 2020 Remaster",
-          "track_id": "3gTVZ87MqnpEQ9XGMYEYV8"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Keep Under Cover - Remastered 2015",
-          "track_id": "1C5vdNycQMOk0SyLgA64VO"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "So Bad - Remastered 2015",
-          "track_id": "1yowkq0tE6X1U3ybjc4q9V"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Golden Earth Girl",
-          "track_id": "3YoUoGtmfi3aocfa4QCBjJ"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Only Love Remains - 1993 Digital Remaster",
-          "track_id": "4Sl4cJFonzHMn2VN2i8Dfg"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "The Man - Remastered 2015",
-          "track_id": "4TkUY0U1mL9hCTMArzQlKT"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "My Brave Face - Remastered 2017",
-          "track_id": "5i8NX6gCELy39Gv0BJRx1W"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Press - Remastered 2016",
-          "track_id": "5zTsNm6EpVmfVyjmWxjYOU"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "No More Lonely Nights",
-          "track_id": "6EfskWE0Y5Oqk0JOLLwafK"
-        },
-        {
-          "artists": [
-            "Paul McCartney"
-          ],
-          "count": 1,
-          "name": "Put It There - Remastered 2017",
-          "track_id": "71jQgXQy27qvhlL5SgeqdH"
-        }
-      ],
-      "year": "2020"
+      "year": "2024"
     },
     {
       "plays": 18,
       "tracks": [
         {
           "artists": [
-            "Queen"
+            "The Beatles"
           ],
-          "count": 2,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "7vhL0SIX8hN703vwVh6SFb"
+          "count": 1,
+          "name": "I Feel Fine - Remastered 2009",
+          "track_id": "1Q7gCIpOjIIU0bUKcGzrG4"
         },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I Will - Remastered 2009",
+          "track_id": "09x9v1o51dbqi5H0u7UGfp"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Sexy Sadie - Remastered 2009",
+          "track_id": "2tBv9tAdqEbLNDi5smSjbg"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Cry Baby Cry - Remastered 2009",
+          "track_id": "5XmetMMUFNXClbiYnGdVmP"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Happiness Is A Warm Gun - Remastered 2009",
+          "track_id": "71LsKf3xISiOlY1mj7FFPP"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Twist And Shout - Remastered 2009",
+          "track_id": "5ZBeML7Lf3FMEVviTyvi8l"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Fixing A Hole - Remastered 2009",
+          "track_id": "3pKKxkeB1pOUMHwWBmKc3Y"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "It Won't Be Long - Remastered 2009",
+          "track_id": "4ekUX4pWizXXksJe0JfS9U"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Ticket To Ride - Remastered 2009",
+          "track_id": "7CZiDzGVjUssMSOXrDNYHL"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Yes It Is - Remastered 2009",
+          "track_id": "2rQvZscmpb6a7ejDiKprcL"
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "plays": 7,
+      "tracks": [
         {
           "artists": [
             "Queen"
           ],
-          "count": 2,
+          "count": 1,
           "name": "The Show Must Go On - Remastered 2011",
           "track_id": "5cD5oH0nxIzsUVx39QP2i4"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "Tie Your Mother Down - Remastered 2011",
-          "track_id": "715bL3nrRVIbv9Q7DqKAR3"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Another One Bites The Dust - Remastered 2011",
-          "track_id": "4Jq4n7mV9MLroo0cWixEZs"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Under Pressure - Remastered 2011",
-          "track_id": "7osG0uVKP7rTCCLBeTOVxv"
         },
         {
           "artists": [
@@ -278,14 +120,6 @@
           "count": 1,
           "name": "Love Of My Life - Remastered 2011",
           "track_id": "4YJUTdZ0Pgl0ZeNyHYXeLd"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Roll Over Beethoven - Remastered 2009",
-          "track_id": "3idqWaBn3mRdsIodCU6uBi"
         },
         {
           "artists": [
@@ -300,16 +134,32 @@
             "Queen"
           ],
           "count": 1,
-          "name": "Bohemian Rhapsody - Remastered 2011",
-          "track_id": "7k1dWFLqTfxNj4U2CfDRuK"
+          "name": "Another One Bites The Dust - Remastered 2011",
+          "track_id": "5vdp5UmvTsnMEMESIF2Ym7"
         },
         {
           "artists": [
-            "George Harrison"
+            "Queen"
           ],
           "count": 1,
-          "name": "All Things Must Pass - Remastered 2014",
-          "track_id": "24V4nNMdeccE8eyQfSiqcV"
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I'm Only Sleeping - Remastered 2009",
+          "track_id": "2ylCrFiBu98SC0vFfaCent"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "7vhL0SIX8hN703vwVh6SFb"
         }
       ],
       "year": "2019"
