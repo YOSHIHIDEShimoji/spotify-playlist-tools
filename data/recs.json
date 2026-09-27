@@ -26,7 +26,7 @@
         }
       ],
       "name": "Niall Horan",
-      "score": 19.1598
+      "score": 19.1844
     },
     {
       "because": [
@@ -124,7 +124,7 @@
         }
       ],
       "name": "Givēon",
-      "score": 10.0678
+      "score": 10.0578
     },
     {
       "because": [
@@ -139,6 +139,20 @@
       ],
       "name": "MY FIRST STORY",
       "score": 9.5092
+    },
+    {
+      "because": [
+        {
+          "count": 369,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 242,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Usher",
+      "score": 9.4678
     },
     {
       "because": [
@@ -250,7 +264,7 @@
         }
       ],
       "name": "Myles Smith",
-      "score": 7.9843
+      "score": 8.023
     },
     {
       "because": [
@@ -367,16 +381,6 @@
     {
       "because": [
         {
-          "count": 1248,
-          "name": "SPITZ"
-        }
-      ],
-      "name": "くるり",
-      "score": 6.973
-    },
-    {
-      "because": [
-        {
           "count": 256,
           "name": "Dua Lipa"
         },
@@ -386,7 +390,17 @@
         }
       ],
       "name": "Tove Lo",
-      "score": 6.9123
+      "score": 6.9885
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
+        }
+      ],
+      "name": "くるり",
+      "score": 6.973
     },
     {
       "because": [
@@ -401,24 +415,10 @@
       ],
       "name": "Harry Gregson-Williams",
       "score": 6.9114
-    },
-    {
-      "because": [
-        {
-          "count": 901,
-          "name": "Charlie Puth"
-        },
-        {
-          "count": 360,
-          "name": "Henry Moodie"
-        }
-      ],
-      "name": "HRVY",
-      "score": 6.8162
     }
   ],
   "available": true,
-  "generated_at": "2026-09-26T18:54:52.296631+00:00",
+  "generated_at": "2026-09-27T19:27:58.251336+00:00",
   "source": "lastfm",
   "tracks": [
     {

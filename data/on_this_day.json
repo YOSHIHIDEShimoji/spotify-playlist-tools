@@ -1,45 +1,139 @@
 {
-  "date": "09-27",
-  "generated_at": "2026-09-26T18:54:21.244774+00:00",
+  "date": "09-28",
+  "generated_at": "2026-09-27T19:27:22.639940+00:00",
   "years": [
     {
-      "plays": 1,
+      "plays": 9,
       "tracks": [
         {
           "artists": [
-            "Kenji Sawada"
+            "ONE OK ROCK"
           ],
           "count": 1,
-          "name": "ヤマトより愛をこめて",
-          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
+          "name": "Renegades",
+          "track_id": "3RpFwqdROrxJvHywpT1pJ4"
+        },
+        {
+          "artists": [
+            "ONE OK ROCK"
+          ],
+          "count": 1,
+          "name": "Broken Heart of Gold",
+          "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
+        },
+        {
+          "artists": [
+            "OneRepublic"
+          ],
+          "count": 1,
+          "name": "Nobody - from Kaiju No. 8",
+          "track_id": "47N81NMkB488fuOwOC3Oip"
+        },
+        {
+          "artists": [
+            "YUNGBLUD"
+          ],
+          "count": 1,
+          "name": "Abyss - from Kaiju No. 8",
+          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+        },
+        {
+          "artists": [
+            "Novelbright"
+          ],
+          "count": 1,
+          "name": "ツキミソウ",
+          "track_id": "0UWTRBGWfOp709f6rxd63R"
+        },
+        {
+          "artists": [
+            "Naomi Scott"
+          ],
+          "count": 1,
+          "name": "Speechless (Full)",
+          "track_id": "0XPsOSYzDJZJArevQNm2AR"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Free As A Bird - 1995 Mix",
+          "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Anna (Go To Him) - Remastered 2009",
+          "track_id": "2baEFuU0gQon0hgVRioI1o"
         }
       ],
-      "year": "2024"
+      "year": "2025"
     },
     {
-      "plays": 18,
+      "plays": 2,
+      "tracks": [
+        {
+          "artists": [
+            "Michael Jackson"
+          ],
+          "count": 1,
+          "name": "Billie Jean",
+          "track_id": "7J1uxwnxfQLu4APicE5Rnj"
+        },
+        {
+          "artists": [
+            "Michael Jackson"
+          ],
+          "count": 1,
+          "name": "I Just Can't Stop Loving You (feat. Siedah Garrett) - 2012 Remaster",
+          "track_id": "5DVK3a3p37V9cLjzNa32Xo"
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "plays": 97,
       "tracks": [
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "I Feel Fine - Remastered 2009",
-          "track_id": "1Q7gCIpOjIIU0bUKcGzrG4"
+          "count": 3,
+          "name": "And I Love Her - Remastered 2009",
+          "track_id": "65vdMBskhx3akkG9vQlSH1"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "I Will - Remastered 2009",
-          "track_id": "09x9v1o51dbqi5H0u7UGfp"
+          "count": 3,
+          "name": "Any Time At All - Remastered 2009",
+          "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
+          "count": 3,
+          "name": "Please Mister Postman - Remastered 2009",
+          "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 2,
           "name": "Sexy Sadie - Remastered 2009",
           "track_id": "2tBv9tAdqEbLNDi5smSjbg"
         },
@@ -47,7 +141,7 @@
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
+          "count": 2,
           "name": "Cry Baby Cry - Remastered 2009",
           "track_id": "5XmetMMUFNXClbiYnGdVmP"
         },
@@ -55,61 +149,53 @@
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "Happiness Is A Warm Gun - Remastered 2009",
-          "track_id": "71LsKf3xISiOlY1mj7FFPP"
+          "count": 2,
+          "name": "Real Love - Anthology 2 Version",
+          "track_id": "5frMgt4jqRGJk3yMKfqOyl"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "Twist And Shout - Remastered 2009",
-          "track_id": "5ZBeML7Lf3FMEVviTyvi8l"
+          "count": 2,
+          "name": "Free As A Bird - Anthology 1 Version",
+          "track_id": "6hLY3Tz1Xt5kBuKNDTs4ib"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "Fixing A Hole - Remastered 2009",
-          "track_id": "3pKKxkeB1pOUMHwWBmKc3Y"
+          "count": 2,
+          "name": "I'm Happy Just To Dance With You - Remastered 2009",
+          "track_id": "0gd50I2gKioJ59C827EdAY"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "It Won't Be Long - Remastered 2009",
-          "track_id": "4ekUX4pWizXXksJe0JfS9U"
+          "count": 2,
+          "name": "This Boy - Remastered 2009",
+          "track_id": "0oQshbv1BFLZ61b1tQ4Eqg"
         },
         {
           "artists": [
             "The Beatles"
           ],
-          "count": 1,
-          "name": "Ticket To Ride - Remastered 2009",
-          "track_id": "7CZiDzGVjUssMSOXrDNYHL"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Yes It Is - Remastered 2009",
-          "track_id": "2rQvZscmpb6a7ejDiKprcL"
+          "count": 2,
+          "name": "I Call Your Name - Remastered 2009",
+          "track_id": "1QQSTB03vIsgjU67UnUPEL"
         }
       ],
-      "year": "2023"
+      "year": "2020"
     },
     {
-      "plays": 7,
+      "plays": 19,
       "tracks": [
         {
           "artists": [
             "Queen"
           ],
-          "count": 1,
+          "count": 4,
           "name": "The Show Must Go On - Remastered 2011",
           "track_id": "5cD5oH0nxIzsUVx39QP2i4"
         },
@@ -117,15 +203,7 @@
           "artists": [
             "Queen"
           ],
-          "count": 1,
-          "name": "Love Of My Life - Remastered 2011",
-          "track_id": "4YJUTdZ0Pgl0ZeNyHYXeLd"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
+          "count": 4,
           "name": "I Was Born To Love You - Remastered 2011",
           "track_id": "500o08SwO4Qoppq9zZrOZB"
         },
@@ -133,33 +211,57 @@
           "artists": [
             "Queen"
           ],
-          "count": 1,
-          "name": "Another One Bites The Dust - Remastered 2011",
-          "track_id": "5vdp5UmvTsnMEMESIF2Ym7"
+          "count": 3,
+          "name": "Bohemian Rhapsody - Remastered 2011",
+          "track_id": "7k1dWFLqTfxNj4U2CfDRuK"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 3,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "7vhL0SIX8hN703vwVh6SFb"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
+          "name": "Too Much Love Will Kill You - Remastered 2011",
+          "track_id": "3o4KExcCgRoh7zodB6o2ob"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Friends Will Be Friends - Remastered 2011",
+          "track_id": "3EGlnkJGcwz73rT0oE0X1X"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Save Me - Remastered 2011",
+          "track_id": "1pBFEy8cz0Fq4Pru0c4awd"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Let Me Live - Remastered 2011",
+          "track_id": "7IE0BueyoTf5aMVP7t2FB2"
         },
         {
           "artists": [
             "The Beatles"
           ],
           "count": 1,
-          "name": "I'm Only Sleeping - Remastered 2009",
-          "track_id": "2ylCrFiBu98SC0vFfaCent"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "7vhL0SIX8hN703vwVh6SFb"
+          "name": "Because - Take 1 / Instrumental",
+          "track_id": "1p5uLmWgLUh7vWjPwOwLac"
         }
       ],
       "year": "2019"
