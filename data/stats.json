@@ -169,11 +169,11 @@
       "decade": 2000
     },
     {
-      "count": 356,
+      "count": 357,
       "decade": 2010
     },
     {
-      "count": 337,
+      "count": 338,
       "decade": 2020
     }
   ],
@@ -353,15 +353,15 @@
           "decade": 2000
         },
         {
-          "count": 365,
+          "count": 366,
           "decade": 2010
         },
         {
-          "count": 349,
+          "count": 350,
           "decade": 2020
         }
       ],
-      "total": 1150
+      "total": 1152
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -664,6 +664,11 @@
           },
           {
             "count": 5,
+            "id": "246dkjvS1zLTtiykXe5h60",
+            "name": "Post Malone"
+          },
+          {
+            "count": 5,
             "id": "4dpARuHxo51G3z768sgnrY",
             "name": "Adele"
           },
@@ -691,11 +696,6 @@
             "count": 5,
             "id": "1McMsnEElThX1knmY4oliG",
             "name": "Olivia Rodrigo"
-          },
-          {
-            "count": 4,
-            "id": "246dkjvS1zLTtiykXe5h60",
-            "name": "Post Malone"
           }
         ],
         "decades": [
@@ -716,15 +716,15 @@
             "decade": 2000
           },
           {
-            "count": 273,
+            "count": 274,
             "decade": 2010
           },
           {
-            "count": 254,
+            "count": 255,
             "decade": 2020
           }
         ],
-        "total": 589
+        "total": 591
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -862,6 +862,6 @@
       }
     ]
   },
-  "generated_at": "2026-09-28T21:29:29.460141+00:00",
-  "total": 792
+  "generated_at": "2026-09-29T20:21:25.921697+00:00",
+  "total": 794
 }

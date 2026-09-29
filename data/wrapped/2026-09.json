@@ -1,0 +1,273 @@
+{
+  "month": "2026-09",
+  "new_tracks": 25,
+  "peak": {
+    "dow": 5,
+    "hour": 11
+  },
+  "plays": 844,
+  "top_artists": [
+    {
+      "count": 74,
+      "name": "OneRepublic"
+    },
+    {
+      "count": 54,
+      "name": "Henry Moodie"
+    },
+    {
+      "count": 54,
+      "name": "The Beatles"
+    },
+    {
+      "count": 44,
+      "name": "ワンリパブリック"
+    },
+    {
+      "count": 33,
+      "name": "ザ・ビートルズ"
+    },
+    {
+      "count": 32,
+      "name": "Justin Bieber"
+    },
+    {
+      "count": 31,
+      "name": "Maroon 5"
+    },
+    {
+      "count": 26,
+      "name": "チャーリー・プース"
+    },
+    {
+      "count": 26,
+      "name": "Lany"
+    },
+    {
+      "count": 23,
+      "name": "Taylor Swift"
+    },
+    {
+      "count": 19,
+      "name": "ジャスティン・ビーバー"
+    },
+    {
+      "count": 15,
+      "name": "ケイティ・ペリー"
+    },
+    {
+      "count": 15,
+      "name": "テイラー・スウィフト"
+    },
+    {
+      "count": 14,
+      "name": "Charlie Puth"
+    },
+    {
+      "count": 13,
+      "name": "マルーン５"
+    },
+    {
+      "count": 12,
+      "name": "クリーン・バンディット"
+    },
+    {
+      "count": 12,
+      "name": "Ed Sheeran"
+    },
+    {
+      "count": 10,
+      "name": "アラン・シルヴェストリ"
+    },
+    {
+      "count": 10,
+      "name": "ブルーノ・マーズ"
+    },
+    {
+      "count": 9,
+      "name": "Train"
+    }
+  ],
+  "top_tracks": [
+    {
+      "artists": [
+        "クリーン・バンディット"
+      ],
+      "count": 17,
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "name": "Rather Be (feat. Jess Glynne)",
+      "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 15,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+    },
+    {
+      "artists": [
+        "フィリップ・フィリップス"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
+      "name": "Gone, Gone, Gone",
+      "track_id": "56sxN1yKg1dgOZXBcAHkJG"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "Firework",
+      "track_id": "3lXbHd0EoryoQh3vpevNEP"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d00004851742e1cbfe1c662efa9783a59",
+      "name": "MISS U",
+      "track_id": "48FfsXjz8rd8CLhnIwWQNw"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "you were there for me",
+      "track_id": "2jBt7c8o1dDuyIIgepcNsz"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "name": "Sugar",
+      "track_id": "6eV7eK07znOHcKz3bzEmpS"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Counting Stars",
+      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Angel in Blue Jeans",
+      "track_id": "2GxGYGrixbXPFojONbzdo9"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "name": "Beautiful Goodbye",
+      "track_id": "0ehxWIhybOYQ3acRhmcNVF"
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "name": "Shape of You",
+      "track_id": "7qiZfU4dY1lWllzX7mPBI3"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
+      "name": "Beauty and a Beat",
+      "track_id": "190jyVPHYjAqEaOGmMzdyk"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Stargazing",
+      "track_id": "1ZWp7uMlEwBhpedEw6F048"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+      "name": "DAISIES",
+      "track_id": "5BZsQlgw21vDOAjoqkNgKb"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
+      "name": "Memories",
+      "track_id": "4cktbXiXOapiLBMprHFErI"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
+      "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
+      "track_id": "5zFglKYiknIxks8geR8rcL"
+    },
+    {
+      "artists": [
+        "Arctic Monkeys"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+      "name": "I Wanna Be Yours",
+      "track_id": "5XeFesFbtLpXzIVDNQP22n"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
+      "name": "fight or flight",
+      "track_id": "2O7TmAEKiBLQUTNBq2yH9W"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "name": "Don't Wanna Know (feat. Kendrick Lamar)",
+      "track_id": "2nj8GB0PY5sbHjEXoWH4UR"
+    }
+  ]
+}

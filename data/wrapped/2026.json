@@ -33,7 +33,7 @@
       "month": "2026-08"
     },
     {
-      "count": 796,
+      "count": 844,
       "month": "2026-09"
     }
   ],
@@ -43,7 +43,7 @@
     "dow": 6,
     "hour": 18
   },
-  "plays": 12362,
+  "plays": 12410,
   "top_artists": [
     {
       "count": 1631,
@@ -58,11 +58,11 @@
       "name": "Charlie Puth"
     },
     {
-      "count": 490,
+      "count": 491,
       "name": "Taylor Swift"
     },
     {
-      "count": 366,
+      "count": 369,
       "name": "Henry Moodie"
     },
     {
@@ -82,7 +82,7 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 248,
+      "count": 249,
       "name": "Novelbright"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Train"
     },
     {
-      "count": 217,
+      "count": 221,
       "name": "ワンリパブリック"
     },
     {
@@ -122,8 +122,8 @@
       "name": "back number"
     },
     {
-      "count": 122,
-      "name": "Eve"
+      "count": 124,
+      "name": "One Direction"
     }
   ],
   "top_tracks": [
@@ -244,6 +244,14 @@
         "OneRepublic"
       ],
       "count": 55,
+      "name": "Good Life - from One Night In Malibu",
+      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 55,
       "name": "Better Days",
       "track_id": "2K0r5GD5zYlEMx2M7ZMcqG"
     },
@@ -254,14 +262,6 @@
       "count": 54,
       "name": "Lose Somebody",
       "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 54,
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
     },
     {
       "artists": [
