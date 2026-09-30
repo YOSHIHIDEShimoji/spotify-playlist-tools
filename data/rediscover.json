@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:22:34.330972+00:00",
+  "generated_at": "2026-09-30T20:27:32.907297+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -99,27 +99,6 @@
         "2021": 15,
         "2022": 1,
         "2024": 43
-      }
-    },
-    {
-      "artists": [
-        "Alan Silvestri"
-      ],
-      "count": 81,
-      "first": "2020-02-18",
-      "id": "3KHrXuByzDnDOaVR15rZH7",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
-      "last": "2025-06-11",
-      "ms": 23419331,
-      "name": "The Real Hero",
-      "short": 27,
-      "years": {
-        "2020": 51,
-        "2021": 9,
-        "2022": 7,
-        "2023": 5,
-        "2024": 6,
-        "2025": 3
       }
     },
     {
@@ -551,6 +530,24 @@
       "short": 8,
       "years": {
         "2024": 52,
+        "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "Taro Iwashiro"
+      ],
+      "count": 56,
+      "first": "2023-12-20",
+      "id": "3Tcu6hwmuaJOd4HRNlaBzd",
+      "image": "https://i.scdn.co/image/ab67616d000048515a7c837c1decf4be5b0967af",
+      "last": "2025-08-04",
+      "ms": 7398368,
+      "name": "For Precious One",
+      "short": 7,
+      "years": {
+        "2023": 9,
+        "2024": 43,
         "2025": 4
       }
     }

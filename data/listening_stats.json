@@ -260,7 +260,7 @@
       "artists": [
         "ZAYN"
       ],
-      "count": 137,
+      "count": 138,
       "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
       "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
     },
@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-09-29T20:21:13.906842+00:00",
+  "generated_at": "2026-09-30T20:25:24.345349+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 64092
+    "total": 64118
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 3,
@@ -838,21 +838,39 @@
     },
     {
       "artists": [
-        "One Direction"
+        "テイラー・スウィフト"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514a075ca70ae4143a37eb4fbe",
-      "name": "What a Feeling",
-      "track_id": "0iSWAT0EL8TwmzcgBjKMh6"
+      "image": "https://i.scdn.co/image/ab67616d00004851254c8a09649551438b20f4c0",
+      "name": "We Are Never Ever Getting Back Together",
+      "track_id": "6kISMRfweKSvgHR0urMQFG"
     },
     {
       "artists": [
-        "Sabrina Carpenter"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851700f7bf79c9f063ad0362bdf",
-      "name": "because i liked a boy",
-      "track_id": "32FhTAAjKZaBein150o3Px"
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "Waking Up",
+      "track_id": "0FgFjqelHSi4D64sBHakWK"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "dear drew",
+      "track_id": "3qji3M6fG6w9Sj9nL2tG7m"
+    },
+    {
+      "artists": [
+        "アヴィーチー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515393c5d3cac806092a9bc468",
+      "name": "Broken Arrows",
+      "track_id": "260jSxvzkFt71ksvkcy2ke"
     },
     {
       "artists": [
@@ -1183,9 +1201,9 @@
         "アラン・シルヴェストリ"
       ],
       "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
       "name": "The Real Hero",
-      "track_id": "lastfm:therealhero|アラン・シルヴェストリ"
+      "track_id": "3KHrXuByzDnDOaVR15rZH7"
     },
     {
       "artists": [
@@ -1234,39 +1252,21 @@
     },
     {
       "artists": [
-        "テイラー・スウィフト"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851254c8a09649551438b20f4c0",
-      "name": "We Are Never Ever Getting Back Together",
-      "track_id": "6kISMRfweKSvgHR0urMQFG"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "Waking Up",
-      "track_id": "0FgFjqelHSi4D64sBHakWK"
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "name": "dear drew",
-      "track_id": "3qji3M6fG6w9Sj9nL2tG7m"
-    },
-    {
-      "artists": [
         "ファン."
       ],
       "count": 1,
       "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
       "name": "Carry On",
       "track_id": "5xZjfKSfTooDP2rcAgjxlH"
+    },
+    {
+      "artists": [
+        "ゼイン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851cdc5d305c537648861945f0a",
+      "name": "Side Effects",
+      "track_id": "5hkceiJGJl4qcWUtyjXaJm"
     }
   ]
 }
