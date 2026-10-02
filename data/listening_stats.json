@@ -801,7 +801,7 @@
       "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
     }
   ],
-  "generated_at": "2026-10-01T20:42:43.634721+00:00",
+  "generated_at": "2026-10-02T20:15:46.815122+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 64127
+    "total": 64129
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 4,
+  "streak": 5,
   "weekly_top": [
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
+      "name": "But Daddy I Love Him",
+      "track_id": "5og4Qzt92jJzVDkOtSEilb"
+    },
     {
       "artists": [
         "Lany"
@@ -865,12 +874,12 @@
     },
     {
       "artists": [
-        "トレイン"
+        "ケイティ・ペリー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048516ff8bc258e3ebc835ffe14ca",
-      "name": "Hey, Soul Sister",
-      "track_id": "4HlFJV71xXKIGcU3kRyttv"
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "Firework",
+      "track_id": "3lXbHd0EoryoQh3vpevNEP"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
       "name": "Carry On",
       "track_id": "5xZjfKSfTooDP2rcAgjxlH"
-    },
-    {
-      "artists": [
-        "ゼイン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851cdc5d305c537648861945f0a",
-      "name": "Side Effects",
-      "track_id": "5hkceiJGJl4qcWUtyjXaJm"
     }
   ]
 }

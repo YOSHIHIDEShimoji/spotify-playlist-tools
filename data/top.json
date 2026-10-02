@@ -351,33 +351,33 @@
         "rank": 9
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
-        "rank": 10
-      },
-      {
-        "id": "6eUKZXaKkcviH0Ku9w2n3V",
-        "name": "Ed Sheeran",
-        "rank": 11
-      },
-      {
         "id": "0Xk15jHKly4c3AhPr5vjoA",
         "name": "Alan Silvestri",
-        "rank": 12
-      },
-      {
-        "id": "3FUY2gzHeIiaesXtOAdB7A",
-        "name": "Train",
-        "rank": 13
+        "rank": 10
       },
       {
         "id": "4gzpq5DPGxSnKTe4SA8HAU",
         "name": "Coldplay",
-        "rank": 14
+        "rank": 11
       },
       {
         "id": "53XhwfbYqKCa1cC15pYq2q",
         "name": "Imagine Dragons",
+        "rank": 12
+      },
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "rank": 13
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "rank": 14
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
         "rank": 15
       },
       {
@@ -411,43 +411,33 @@
         "rank": 21
       },
       {
-        "id": "6wlhqnATSJIc0NQ64VxOVJ",
-        "name": "Matt Hansen",
-        "rank": 22
-      },
-      {
         "id": "74KM79TiuVKeVCqs8QtB0B",
         "name": "Sabrina Carpenter",
-        "rank": 23
+        "rank": 22
       },
       {
         "id": "5nCi3BB41mBaMH9gfr6Su0",
         "name": "fun.",
-        "rank": 24
+        "rank": 23
       },
       {
         "id": "64KEffDW9EtZ1y2vBYgq8T",
         "name": "Marshmello",
+        "rank": 24
+      },
+      {
+        "id": "6wlhqnATSJIc0NQ64VxOVJ",
+        "name": "Matt Hansen",
         "rank": 25
-      },
-      {
-        "id": "4UXqAaa6dQYAk18Lv7PEgX",
-        "name": "Fall Out Boy",
-        "rank": 26
-      },
-      {
-        "id": "4tuJ0bMpJh08umKkEXKUI5",
-        "name": "Gracie Abrams",
-        "rank": 27
       },
       {
         "id": "5WUlDfRSoLAfcVSX1WnrxN",
         "name": "Sia",
-        "rank": 28
+        "rank": 26
       }
     ]
   },
-  "generated_at": "2026-10-01T20:45:15.200660+00:00",
+  "generated_at": "2026-10-02T20:17:58.368904+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1076,12 +1066,21 @@
       },
       {
         "artists": [
+          "Katy Perry"
+        ],
+        "id": "4r6eNCsrZnQWJzzvFh4nlg",
+        "image": "https://i.scdn.co/image/ab67616d00004851d20c38f295039520d688a888",
+        "name": "Firework",
+        "rank": 9
+      },
+      {
+        "artists": [
           "Train"
         ],
         "id": "2GxGYGrixbXPFojONbzdo9",
         "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
         "name": "Angel in Blue Jeans",
-        "rank": 9
+        "rank": 10
       },
       {
         "artists": [
@@ -1090,7 +1089,7 @@
         "id": "2O7TmAEKiBLQUTNBq2yH9W",
         "image": "https://i.scdn.co/image/ab67616d00004851db94c82db2d786cd9e03a538",
         "name": "fight or flight",
-        "rank": 10
+        "rank": 11
       },
       {
         "artists": [
@@ -1099,7 +1098,7 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
-        "rank": 11
+        "rank": 12
       },
       {
         "artists": [
@@ -1108,25 +1107,7 @@
         "id": "2tpWsVSb9UEmDRxAl1zhX1",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "Counting Stars",
-        "rank": 12
-      },
-      {
-        "artists": [
-          "Charlie Puth"
-        ],
-        "id": "4nNZ4ra9sJnsdixXELkfW5",
-        "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
-        "name": "Does It Feel",
         "rank": 13
-      },
-      {
-        "artists": [
-          "Katy Perry"
-        ],
-        "id": "4r6eNCsrZnQWJzzvFh4nlg",
-        "image": "https://i.scdn.co/image/ab67616d00004851d20c38f295039520d688a888",
-        "name": "Firework",
-        "rank": 14
       },
       {
         "artists": [
@@ -1135,7 +1116,7 @@
         "id": "6qNALlmZa1ESnCxJmXE1K9",
         "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
         "name": "The Way I Am",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -1144,7 +1125,7 @@
         "id": "2BgEsaKNfHUdlh97KmvFyo",
         "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
         "name": "2002",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -1153,7 +1134,7 @@
         "id": "0wPKDeY4fZXT6k9bzV0kx0",
         "image": "https://i.scdn.co/image/ab67616d00004851ab7a47f18916a10046212857",
         "name": "That's Hilarious",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1162,26 +1143,7 @@
         "id": "1sjqZ6Q3YTA2RyEjG8uGYs",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "mood swings",
-        "rank": 18
-      },
-      {
-        "artists": [
-          "Maroon 5",
-          "Kendrick Lamar"
-        ],
-        "id": "1yjzhkjFzBq7BhvbgMrNMa",
-        "image": "https://i.scdn.co/image/ab67616d000048513ad198933a3fd3200b003bb2",
-        "name": "Don't Wanna Know",
-        "rank": 19
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "2IPpyxIgVLoDmYGIffJrol",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "Marchin On",
-        "rank": 20
+        "rank": 17
       },
       {
         "artists": [
@@ -1190,7 +1152,16 @@
         "id": "3qji3M6fG6w9Sj9nL2tG7m",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "dear drew",
-        "rank": 21
+        "rank": 18
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "4nNZ4ra9sJnsdixXELkfW5",
+        "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
+        "name": "Does It Feel",
+        "rank": 19
       },
       {
         "artists": [
@@ -1199,7 +1170,7 @@
         "id": "56sxN1yKg1dgOZXBcAHkJG",
         "image": "https://i.scdn.co/image/ab67616d000048515c75f5e02580f4c0c3e80e8e",
         "name": "Gone, Gone, Gone",
-        "rank": 22
+        "rank": 20
       },
       {
         "artists": [
@@ -1208,16 +1179,7 @@
         "id": "5Fi7qTS7T0OGDiQe6EVPNf",
         "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
         "name": "Left Right Left",
-        "rank": 23
-      },
-      {
-        "artists": [
-          "Alan Silvestri"
-        ],
-        "id": "5POrWnsqEV6HwTcRKLdXxk",
-        "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
-        "name": "Main on End",
-        "rank": 24
+        "rank": 21
       },
       {
         "artists": [
@@ -1226,7 +1188,7 @@
         "id": "5mQNY6pTeSDl2doFB7uLbE",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Kids",
-        "rank": 25
+        "rank": 22
       },
       {
         "artists": [
@@ -1235,7 +1197,7 @@
         "id": "5p9XWUdvbUzmPCukOmwoU3",
         "image": "https://i.scdn.co/image/ab67616d00004851183730e8038fa632b2c227da",
         "name": "Suddenly I See",
-        "rank": 26
+        "rank": 23
       },
       {
         "artists": [
@@ -1245,7 +1207,7 @@
         "id": "5zFglKYiknIxks8geR8rcL",
         "image": "https://i.scdn.co/image/ab67616d0000485186a8ab515de4b7aef28cd631",
         "name": "Beautiful Mistakes (feat. Megan Thee Stallion)",
-        "rank": 27
+        "rank": 24
       },
       {
         "artists": [
@@ -1255,7 +1217,7 @@
         "id": "6hvRoJ0BTZywxu8UCPBkzx",
         "image": "https://i.scdn.co/image/ab67616d0000485162407726ee053c7d89aeff9a",
         "name": "I Don't Care",
-        "rank": 28
+        "rank": 25
       },
       {
         "artists": [
@@ -1264,15 +1226,43 @@
         "id": "75xgoXAGed7jiNDdV8TNOe",
         "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
         "name": "Big Girls Cry",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0FgFjqelHSi4D64sBHakWK",
+        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+        "name": "Waking Up",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "1Dg4dFJr3HW7sbA7vPejre",
+        "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
+        "name": "Eight Days A Week - Remastered 2009",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Justin Bieber",
+          "Nicki Minaj"
+        ],
+        "id": "6QFCMUUq1T2Vf5sFUXcuQ7",
+        "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
+        "name": "Beauty And A Beat",
         "rank": 29
       },
       {
         "artists": [
-          "Shawn Mendes"
+          "The Beatles"
         ],
-        "id": "7JJmb5XwzOO8jgpou264Ml",
-        "image": "https://i.scdn.co/image/ab67616d00004851ea3ef7697cfd5705b8f47521",
-        "name": "There's Nothing Holdin' Me Back",
+        "id": "7DD7eSuYSC5xk2ArU62esN",
+        "image": "https://i.scdn.co/image/ab67616d00004851e3e3b64cea45265469d4cafa",
+        "name": "Help! - Remastered 2009",
         "rank": 30
       }
     ]
