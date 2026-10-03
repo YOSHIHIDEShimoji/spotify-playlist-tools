@@ -1,6 +1,61 @@
 {
-  "generated_at": "2026-10-02T20:18:54.993829+00:00",
+  "generated_at": "2026-10-03T18:57:57.309135+00:00",
   "items": [
+    {
+      "album_id": "2oreJngznewLWRBP7ujHTJ",
+      "album_name": "butterfly",
+      "album_type": "single",
+      "artist": "gnash",
+      "artist_id": "3iri9nBFs9e4wN7PLIetAw",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513e9317d15aab1c071a43cb28",
+      "is_new": true,
+      "release_date": "2026-10-04"
+    },
+    {
+      "album_id": "4qm2tySB0uod6NJstnJuTz",
+      "album_name": "QRÖMELIFE (Extended Version)",
+      "album_type": "album",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c665784f302102897be2fee9",
+      "is_new": true,
+      "release_date": "2026-10-03"
+    },
+    {
+      "album_id": "7xLMVpgfwwxTPmAOPXwexb",
+      "album_name": "back number \"Grateful Yesterdays Tour 2026\" Live at NISSAN STADIUM",
+      "album_type": "album",
+      "artist": "back number",
+      "artist_id": "6rs1KAoQnFalSqSU4LTh8g",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851165ac10d7726575f7601a2df",
+      "is_new": true,
+      "release_date": "2026-10-03"
+    },
+    {
+      "album_id": "44je58WvLd9gQuLZ9jb5Uu",
+      "album_name": "KPop Demon Hunters, la bande originale du film Netflix",
+      "album_type": "album",
+      "artist": "KPop Demon Hunters Cast",
+      "artist_id": "7mW7Tv7NvywKKXqafZo0Lc",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517ecd682aeb2667c8b3735b10",
+      "is_new": true,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
+      "album_name": "QRÖMELIFE",
+      "album_type": "album",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
     {
       "album_id": "4onXZUS2f1g3BIMNiafrPm",
       "album_name": "This Dream of You",
@@ -9,28 +64,6 @@
       "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "1cuYuhlcRa6TomHkICwTL6",
-      "album_name": "WIDE AWAKE",
-      "album_type": "single",
-      "artist": "me n ü",
-      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
-      "album_name": "Way Too Late",
-      "album_type": "single",
-      "artist": "Leony",
-      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -46,24 +79,13 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
-      "album_name": "QRÖMELIFE",
-      "album_type": "album",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
       "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
       "album_name": "2LOUD(ER)",
       "album_type": "single",
       "artist": "REI AMI",
       "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e28b53912c72cd97a898d7ee",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -79,6 +101,17 @@
       "release_date": "2026-10-02"
     },
     {
+      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
+      "album_name": "Way Too Late",
+      "album_type": "single",
+      "artist": "Leony",
+      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
       "album_id": "2XhSVmF3l0I59LYAn9J6Ph",
       "album_name": "AIYOU",
       "album_type": "single",
@@ -88,6 +121,61 @@
       "image": "https://i.scdn.co/image/ab67616d000048512b8f6c6ee9df700c61aaeb66",
       "is_new": false,
       "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1cuYuhlcRa6TomHkICwTL6",
+      "album_name": "WIDE AWAKE",
+      "album_type": "single",
+      "artist": "me n ü",
+      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "7B5giyFNTfx6gaBxTEitH5",
+      "album_name": "Ball My Love (feat. Lil Baby)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fd3aaa49eb54c71569a46d72",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "1RaXucTiEY2unJ6m0BigSp",
+      "album_name": "Away (feat. Offset)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515dbfc62c2968e57f473328bb",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "3RCFtDcQjWusmvFTYAfRlU",
+      "album_name": "House Music (feat. Justin Timberlake)",
+      "album_type": "single",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b6deda3ac14bda10aa219acc",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "1d9iOObnSdMqH1ml6MxF56",
+      "album_name": "Only The Lonely",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
+      "is_new": false,
+      "release_date": "2026-10-01"
     },
     {
       "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
@@ -108,50 +196,6 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1d9iOObnSdMqH1ml6MxF56",
-      "album_name": "Only The Lonely",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1RaXucTiEY2unJ6m0BigSp",
-      "album_name": "Away (feat. Offset)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515dbfc62c2968e57f473328bb",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "7B5giyFNTfx6gaBxTEitH5",
-      "album_name": "Ball My Love (feat. Lil Baby)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fd3aaa49eb54c71569a46d72",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "3RCFtDcQjWusmvFTYAfRlU",
-      "album_name": "House Music (feat. Justin Timberlake)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b6deda3ac14bda10aa219acc",
       "is_new": false,
       "release_date": "2026-10-01"
     },
@@ -178,17 +222,6 @@
       "release_date": "2026-09-30"
     },
     {
-      "album_id": "7AXlO78PDDBqL32BTbf5C6",
-      "album_name": "Spit (Power Snatch Version)",
-      "album_type": "single",
-      "artist": "mark william lewis",
-      "artist_id": "2r5elgyPQ19vDG3xSQn39k",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048510f5c6e4b384bc3e36c588fdb",
-      "is_new": false,
-      "release_date": "2026-09-29"
-    },
-    {
       "album_id": "5QhIKoyRYabBtE2Jqdp080",
       "album_name": "Illuminate (10th Anniversary Edition) Deluxe",
       "album_type": "album",
@@ -200,35 +233,24 @@
       "release_date": "2026-09-29"
     },
     {
-      "album_id": "73YOpL9H4qK72bJdakOzyl",
-      "album_name": "Loser (Fcukers Remix)",
+      "album_id": "7AXlO78PDDBqL32BTbf5C6",
+      "album_name": "Spit (Power Snatch Version)",
       "album_type": "single",
-      "artist": "Tame Impala",
-      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
+      "artist": "mark william lewis",
+      "artist_id": "2r5elgyPQ19vDG3xSQn39k",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
+      "image": "https://i.scdn.co/image/ab67616d000048510f5c6e4b384bc3e36c588fdb",
       "is_new": false,
-      "release_date": "2026-09-25"
+      "release_date": "2026-09-29"
     },
     {
-      "album_id": "07QSyGmtKsbklJyrWe3jjh",
-      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2qO0pbZco75616ASWjgIsG",
-      "album_name": "Disney Peaceful Piano: Deep Focus",
-      "album_type": "album",
-      "artist": "Disney Peaceful Piano",
-      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
+      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
+      "album_name": "DJ Play My Song",
+      "album_type": "single",
+      "artist": "Aaron Smith",
+      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
+      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -244,28 +266,6 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "1qD01TQrJDe2jx0YGwKnYu",
-      "album_name": "Who I Am",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485179a0034fa0a66b38a1b7f127",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
-      "album_name": "DJ Play My Song",
-      "album_type": "single",
-      "artist": "Aaron Smith",
-      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
       "album_id": "7xOQiLuhEGZBiEYgzmpveZ",
       "album_name": "You (feat. UMI)",
       "album_type": "single",
@@ -273,17 +273,6 @@
       "artist_id": "6bDWAcdtVR3WHz2xtiIPUi",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851012f147d16d64ad1e8e67c5f",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "4hF2gTGuPYlykYuphDxi8J",
-      "album_name": "The Life of a Showgirl: The Encore",
-      "album_type": "album",
-      "artist": "Taylor Swift",
-      "artist_id": "06HL4z0CvFAxyc27GXpf02",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -299,6 +288,39 @@
       "release_date": "2026-09-25"
     },
     {
+      "album_id": "2qO0pbZco75616ASWjgIsG",
+      "album_name": "Disney Peaceful Piano: Deep Focus",
+      "album_type": "album",
+      "artist": "Disney Peaceful Piano",
+      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "4hF2gTGuPYlykYuphDxi8J",
+      "album_name": "The Life of a Showgirl: The Encore",
+      "album_type": "album",
+      "artist": "Taylor Swift",
+      "artist_id": "06HL4z0CvFAxyc27GXpf02",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "07QSyGmtKsbklJyrWe3jjh",
+      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
       "album_id": "7rBIioPKNbFbedgP6iioLN",
       "album_name": "AUJLA SZN 1",
       "album_type": "single",
@@ -306,6 +328,28 @@
       "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851804ad79f8482d0ae50f95e7a",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "1qD01TQrJDe2jx0YGwKnYu",
+      "album_name": "Who I Am",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485179a0034fa0a66b38a1b7f127",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "73YOpL9H4qK72bJdakOzyl",
+      "album_name": "Loser (Fcukers Remix)",
+      "album_type": "single",
+      "artist": "Tame Impala",
+      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -343,28 +387,6 @@
       "release_date": "2026-09-24"
     },
     {
-      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
-      "album_name": "ヒカリ - The Light",
-      "album_type": "single",
-      "artist": "GROTESQQQUE",
-      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
-      "album_id": "5q6QhFiOGWHwi4ndgn9zBF",
-      "album_name": "That's Why I Love You (feat. Bruno Mars)",
-      "album_type": "single",
-      "artist": "Victoria Monét",
-      "artist_id": "63XBtGSEZINSyXylZxEUbv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ce4b509799b3ea2799e438ee",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
       "album_id": "0rOiiNa9fByt4ddewj5zUd",
       "album_name": "Ocean",
       "album_type": "single",
@@ -383,6 +405,28 @@
       "artist_id": "3CjlHNtplJyTf9npxaPl5w",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
+      "album_name": "ヒカリ - The Light",
+      "album_type": "single",
+      "artist": "GROTESQQQUE",
+      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "5q6QhFiOGWHwi4ndgn9zBF",
+      "album_name": "That's Why I Love You (feat. Bruno Mars)",
+      "album_type": "single",
+      "artist": "Victoria Monét",
+      "artist_id": "63XBtGSEZINSyXylZxEUbv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ce4b509799b3ea2799e438ee",
       "is_new": false,
       "release_date": "2026-09-23"
     },

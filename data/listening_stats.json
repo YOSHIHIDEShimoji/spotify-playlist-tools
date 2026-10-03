@@ -268,7 +268,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 136,
+      "count": 137,
       "name": "All My Loving - Remastered 2009",
       "track_id": "4joiWvli4qJVEW6qZV2i2J"
     },
@@ -340,7 +340,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 123,
+      "count": 124,
       "name": "It Won't Be Long - Remastered 2009",
       "track_id": "4ekUX4pWizXXksJe0JfS9U"
     },
@@ -402,6 +402,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 120,
+      "name": "Please Mister Postman - Remastered 2009",
+      "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 120,
@@ -429,8 +437,8 @@
         "The Beatles"
       ],
       "count": 119,
-      "name": "Please Mister Postman - Remastered 2009",
-      "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
+      "name": "All I've Got To Do - Remastered 2009",
+      "track_id": "5tztLBvTlNC15Np2tnQ5Ll"
     },
     {
       "artists": [
@@ -439,14 +447,6 @@
       "count": 119,
       "name": "黄色",
       "track_id": "1MwOfRqCALxvx9keUhGCdV"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 118,
-      "name": "All I've Got To Do - Remastered 2009",
-      "track_id": "5tztLBvTlNC15Np2tnQ5Ll"
     },
     {
       "artists": [
@@ -629,6 +629,22 @@
         "The Beatles"
       ],
       "count": 106,
+      "name": "I Saw Her Standing There - Remastered 2009",
+      "track_id": "3KiexfmhxHvG5IgAElmTkd"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 106,
+      "name": "Till There Was You - Remastered 2009",
+      "track_id": "0ESIjVxnDnCDaTPo6sStHm"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 106,
       "name": "A Hard Day's Night - Remastered 2009",
       "track_id": "5J2CHimS7dWYMImCHkEFaJ"
     },
@@ -639,22 +655,6 @@
       "count": 106,
       "name": "Oblivion",
       "track_id": "79npfYK6N5RnBc1jiaoHCr"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 105,
-      "name": "I Saw Her Standing There - Remastered 2009",
-      "track_id": "3KiexfmhxHvG5IgAElmTkd"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 105,
-      "name": "Till There Was You - Remastered 2009",
-      "track_id": "0ESIjVxnDnCDaTPo6sStHm"
     },
     {
       "artists": [
@@ -730,6 +730,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 103,
+      "name": "Ask Me Why - Remastered 2009",
+      "track_id": "7529Z6b1rlGZFFPWjHPeV5"
+    },
+    {
+      "artists": [
         "The Weeknd"
       ],
       "count": 103,
@@ -746,19 +754,19 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 102,
-      "name": "Ask Me Why - Remastered 2009",
-      "track_id": "7529Z6b1rlGZFFPWjHPeV5"
-    },
-    {
-      "artists": [
         "back number"
       ],
       "count": 102,
       "name": "怪盗",
       "track_id": "10Eyo4juZQFthKqlJgGMdp"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 101,
+      "name": "Please Please Me - Remastered 2009",
+      "track_id": "6EHuOufBeL6vk3TvVJB5qo"
     },
     {
       "artists": [
@@ -781,27 +789,19 @@
         "The Beatles"
       ],
       "count": 100,
-      "name": "Please Please Me - Remastered 2009",
-      "track_id": "6EHuOufBeL6vk3TvVJB5qo"
+      "name": "Any Time At All - Remastered 2009",
+      "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     },
     {
       "artists": [
         "The Beatles"
       ],
       "count": 100,
-      "name": "Any Time At All - Remastered 2009",
-      "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
-    },
-    {
-      "artists": [
-        "Paul McCartney"
-      ],
-      "count": 100,
-      "name": "Another Day - 2012 Remaster",
-      "track_id": "6qYmf2NjhDfsF7x5U5DUOf"
+      "name": "Anna (Go To Him) - Remastered 2009",
+      "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-02T20:15:46.815122+00:00",
+  "generated_at": "2026-10-03T18:54:46.628233+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 64129
+    "total": 64159
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 5,
+  "streak": 6,
   "weekly_top": [
     {
       "artists": [
@@ -826,6 +826,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
       "name": "But Daddy I Love Him",
       "track_id": "5og4Qzt92jJzVDkOtSEilb"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "name": "You Really Got A Hold On Me - Remastered 2009",
+      "track_id": "7rgUYidQh5tH0YlXCoKaYJ"
     },
     {
       "artists": [
@@ -874,12 +883,12 @@
     },
     {
       "artists": [
-        "ケイティ・ペリー"
+        "The Beatles"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "name": "Firework",
-      "track_id": "3lXbHd0EoryoQh3vpevNEP"
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "name": "Hold Me Tight - Remastered 2009",
+      "track_id": "2RvKsA6Ho7VbJkVFiD4UQF"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048510464ba50f9a2892ffd15bc68",
       "name": "Suddenly I See",
       "track_id": "0UACObCoT1QlNDYroo7EJC"
-    },
-    {
-      "artists": [
-        "ファン."
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
-      "name": "Carry On",
-      "track_id": "5xZjfKSfTooDP2rcAgjxlH"
     }
   ]
 }
