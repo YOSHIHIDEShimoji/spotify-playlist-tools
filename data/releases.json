@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:57:57.309135+00:00",
+  "generated_at": "2026-10-04T18:57:39.369884+00:00",
   "items": [
     {
       "album_id": "2oreJngznewLWRBP7ujHTJ",
@@ -9,7 +9,7 @@
       "artist_id": "3iri9nBFs9e4wN7PLIetAw",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513e9317d15aab1c071a43cb28",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-04"
     },
     {
@@ -20,7 +20,7 @@
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851c665784f302102897be2fee9",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-03"
     },
     {
@@ -31,39 +31,28 @@
       "artist_id": "6rs1KAoQnFalSqSU4LTh8g",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851165ac10d7726575f7601a2df",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-03"
     },
     {
-      "album_id": "44je58WvLd9gQuLZ9jb5Uu",
-      "album_name": "KPop Demon Hunters, la bande originale du film Netflix",
-      "album_type": "album",
-      "artist": "KPop Demon Hunters Cast",
-      "artist_id": "7mW7Tv7NvywKKXqafZo0Lc",
+      "album_id": "1cuYuhlcRa6TomHkICwTL6",
+      "album_name": "WIDE AWAKE",
+      "album_type": "single",
+      "artist": "me n ü",
+      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517ecd682aeb2667c8b3735b10",
-      "is_new": true,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
-      "album_name": "QRÖMELIFE",
-      "album_type": "album",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
+      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
       "is_new": false,
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "4onXZUS2f1g3BIMNiafrPm",
-      "album_name": "This Dream of You",
-      "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "album_id": "4cAOsAHg9s8i5gsnia27OD",
+      "album_name": "From Zimmer to Strauss",
+      "album_type": "album",
+      "artist": "Aleksey Igudesman",
+      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -79,6 +68,39 @@
       "release_date": "2026-10-02"
     },
     {
+      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
+      "album_name": "QRÖMELIFE",
+      "album_type": "album",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "44je58WvLd9gQuLZ9jb5Uu",
+      "album_name": "KPop Demon Hunters, la bande originale du film Netflix",
+      "album_type": "album",
+      "artist": "KPop Demon Hunters Cast",
+      "artist_id": "7mW7Tv7NvywKKXqafZo0Lc",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517ecd682aeb2667c8b3735b10",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "4onXZUS2f1g3BIMNiafrPm",
+      "album_name": "This Dream of You",
+      "album_type": "single",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
       "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
       "album_name": "2LOUD(ER)",
       "album_type": "single",
@@ -86,17 +108,6 @@
       "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4cAOsAHg9s8i5gsnia27OD",
-      "album_name": "From Zimmer to Strauss",
-      "album_type": "album",
-      "artist": "Aleksey Igudesman",
-      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -123,15 +134,15 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "1cuYuhlcRa6TomHkICwTL6",
-      "album_name": "WIDE AWAKE",
+      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
+      "album_name": "Dance With Me",
       "album_type": "single",
-      "artist": "me n ü",
-      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
+      "artist": "Bruno Mars",
+      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
+      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
       "is_new": false,
-      "release_date": "2026-10-02"
+      "release_date": "2026-10-01"
     },
     {
       "album_id": "7B5giyFNTfx6gaBxTEitH5",
@@ -174,17 +185,6 @@
       "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
-      "album_name": "Dance With Me",
-      "album_type": "single",
-      "artist": "Bruno Mars",
-      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
       "is_new": false,
       "release_date": "2026-10-01"
     },
@@ -255,13 +255,13 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "0cTairXEsvN4pe3dc3jF3g",
-      "album_name": "Orchid (Deluxe)",
+      "album_id": "33NdfsbflGrwmKRMBq16Oz",
+      "album_name": "Illuminate (10th Anniversary Edition)",
       "album_type": "album",
-      "artist": "Matt Hansen",
-      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
+      "artist": "Shawn Mendes",
+      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b000299ba9791bc079f2c2f2",
+      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -277,46 +277,13 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "33NdfsbflGrwmKRMBq16Oz",
-      "album_name": "Illuminate (10th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "Shawn Mendes",
-      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "album_id": "73YOpL9H4qK72bJdakOzyl",
+      "album_name": "Loser (Fcukers Remix)",
+      "album_type": "single",
+      "artist": "Tame Impala",
+      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2qO0pbZco75616ASWjgIsG",
-      "album_name": "Disney Peaceful Piano: Deep Focus",
-      "album_type": "album",
-      "artist": "Disney Peaceful Piano",
-      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "4hF2gTGuPYlykYuphDxi8J",
-      "album_name": "The Life of a Showgirl: The Encore",
-      "album_type": "album",
-      "artist": "Taylor Swift",
-      "artist_id": "06HL4z0CvFAxyc27GXpf02",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "07QSyGmtKsbklJyrWe3jjh",
-      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
+      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -343,13 +310,46 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "73YOpL9H4qK72bJdakOzyl",
-      "album_name": "Loser (Fcukers Remix)",
-      "album_type": "single",
-      "artist": "Tame Impala",
-      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
+      "album_id": "0cTairXEsvN4pe3dc3jF3g",
+      "album_name": "Orchid (Deluxe)",
+      "album_type": "album",
+      "artist": "Matt Hansen",
+      "artist_id": "6wlhqnATSJIc0NQ64VxOVJ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
+      "image": "https://i.scdn.co/image/ab67616d00004851b000299ba9791bc079f2c2f2",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "4hF2gTGuPYlykYuphDxi8J",
+      "album_name": "The Life of a Showgirl: The Encore",
+      "album_type": "album",
+      "artist": "Taylor Swift",
+      "artist_id": "06HL4z0CvFAxyc27GXpf02",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "07QSyGmtKsbklJyrWe3jjh",
+      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
+      "album_id": "2qO0pbZco75616ASWjgIsG",
+      "album_name": "Disney Peaceful Piano: Deep Focus",
+      "album_type": "album",
+      "artist": "Disney Peaceful Piano",
+      "artist_id": "5lmSBamD6zMcpHPqPpwmwN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517e4d16b18fa28fe6d86a7dea",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -387,39 +387,6 @@
       "release_date": "2026-09-24"
     },
     {
-      "album_id": "0rOiiNa9fByt4ddewj5zUd",
-      "album_name": "Ocean",
-      "album_type": "single",
-      "artist": "Matty Boy",
-      "artist_id": "4rFoKtUw4rzHJok2vtCg8d",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513c75cfde91ec6d8378ca4144",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
-      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
-      "album_name": "Roses",
-      "album_type": "single",
-      "artist": "CHVRCHES",
-      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
-      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
-      "album_name": "ヒカリ - The Light",
-      "album_type": "single",
-      "artist": "GROTESQQQUE",
-      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
-      "is_new": false,
-      "release_date": "2026-09-23"
-    },
-    {
       "album_id": "5q6QhFiOGWHwi4ndgn9zBF",
       "album_name": "That's Why I Love You (feat. Bruno Mars)",
       "album_type": "single",
@@ -438,6 +405,39 @@
       "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851af84b26084ad28cbe7d91fc6",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "2HNzau0wdJr4rlkLdCk2H8",
+      "album_name": "ヒカリ - The Light",
+      "album_type": "single",
+      "artist": "GROTESQQQUE",
+      "artist_id": "1In8PNOPWYnzc6PCjisqCn",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4cd582b565ba72d23ab9144",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "0rOiiNa9fByt4ddewj5zUd",
+      "album_name": "Ocean",
+      "album_type": "single",
+      "artist": "Matty Boy",
+      "artist_id": "4rFoKtUw4rzHJok2vtCg8d",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513c75cfde91ec6d8378ca4144",
+      "is_new": false,
+      "release_date": "2026-09-23"
+    },
+    {
+      "album_id": "5zSzMGQww6V2HCbAf8Pu3d",
+      "album_name": "Roses",
+      "album_type": "single",
+      "artist": "CHVRCHES",
+      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d0a6268d085129c8abd51938",
       "is_new": false,
       "release_date": "2026-09-23"
     },
