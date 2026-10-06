@@ -172,11 +172,11 @@
       }
     },
     {
-      "count": 1030,
+      "count": 1031,
       "first": "2020-07-28",
       "id": "06HL4z0CvFAxyc27GXpf02",
       "image": "https://i.scdn.co/image/ab67616100005174e2e8e7ff002a4afda1c7147e",
-      "last": "2026-10-02",
+      "last": "2026-10-06",
       "ms": 213246450,
       "name": "Taylor Swift",
       "tracks": 86,
@@ -187,15 +187,15 @@
         "2023": 76,
         "2024": 66,
         "2025": 318,
-        "2026": 492
+        "2026": 493
       }
     },
     {
-      "count": 901,
+      "count": 902,
       "first": "2021-03-31",
       "id": "6VuMaDnrHyPL1p4EHjYLi7",
       "image": "https://i.scdn.co/image/ab676161000051746721f541fb123145d4cb3ace",
-      "last": "2026-09-25",
+      "last": "2026-10-06",
       "ms": 157605057,
       "name": "Charlie Puth",
       "tracks": 57,
@@ -205,7 +205,7 @@
         "2023": 1,
         "2024": 2,
         "2025": 132,
-        "2026": 760
+        "2026": 761
       }
     },
     {
@@ -244,11 +244,11 @@
       }
     },
     {
-      "count": 565,
+      "count": 566,
       "first": "2020-12-07",
       "id": "5WUlDfRSoLAfcVSX1WnrxN",
       "image": "https://i.scdn.co/image/ab67616100005174cc1806f0a2f6c9e449de9d3c",
-      "last": "2026-09-19",
+      "last": "2026-10-06",
       "ms": 114440764,
       "name": "Sia",
       "tracks": 28,
@@ -259,7 +259,7 @@
         "2023": 53,
         "2024": 43,
         "2025": 85,
-        "2026": 101
+        "2026": 102
       }
     },
     {
@@ -342,11 +342,11 @@
       }
     },
     {
-      "count": 369,
+      "count": 370,
       "first": "2021-03-14",
       "id": "1uNFoZAHBGtllmzznpCI3s",
       "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
-      "last": "2026-09-25",
+      "last": "2026-10-06",
       "ms": 58614017,
       "name": "Justin Bieber",
       "tracks": 50,
@@ -354,7 +354,7 @@
         "2021": 12,
         "2023": 5,
         "2025": 19,
-        "2026": 333
+        "2026": 334
       }
     },
     {
@@ -681,11 +681,11 @@
       }
     },
     {
-      "count": 213,
+      "count": 214,
       "first": "2021-03-12",
       "id": "0du5cEVh5yTK9QJze8zA0C",
       "image": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26",
-      "last": "2026-09-25",
+      "last": "2026-10-06",
       "ms": 35680025,
       "name": "Bruno Mars",
       "tracks": 31,
@@ -694,7 +694,7 @@
         "2022": 3,
         "2023": 1,
         "2025": 43,
-        "2026": 161
+        "2026": 162
       }
     },
     {
@@ -717,14 +717,14 @@
       }
     },
     {
-      "count": 208,
+      "count": 209,
       "first": "2020-09-30",
       "id": "3Nrfpe0tUJi4K4DXYWgMUX",
       "image": "https://i.scdn.co/image/ab67616100005174f80ec63ea7a0ef0fba60957d",
-      "last": "2026-09-29",
+      "last": "2026-10-06",
       "ms": 38306722,
       "name": "BTS",
-      "tracks": 16,
+      "tracks": 17,
       "years": {
         "2020": 38,
         "2021": 24,
@@ -732,7 +732,7 @@
         "2023": 19,
         "2024": 13,
         "2025": 44,
-        "2026": 42
+        "2026": 43
       }
     },
     {
@@ -1696,6 +1696,22 @@
     },
     {
       "count": 92,
+      "first": "2021-03-23",
+      "id": "1HY2Jd0NmPuamShAr6KMms",
+      "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6",
+      "last": "2026-10-06",
+      "ms": 19771780,
+      "name": "Lady Gaga",
+      "tracks": 15,
+      "years": {
+        "2021": 17,
+        "2022": 9,
+        "2025": 33,
+        "2026": 33
+      }
+    },
+    {
+      "count": 92,
       "first": "2020-05-18",
       "id": "6FPDULwgllPquFdqdzj5gi",
       "image": "https://i.scdn.co/image/ab67616100005174e2aaffd186a581e4927a72db",
@@ -1709,22 +1725,6 @@
         "2022": 1,
         "2024": 45,
         "2025": 4
-      }
-    },
-    {
-      "count": 91,
-      "first": "2021-03-23",
-      "id": "1HY2Jd0NmPuamShAr6KMms",
-      "image": "https://i.scdn.co/image/ab67616100005174aadc18cac8d48124357c38e6",
-      "last": "2026-09-13",
-      "ms": 19771780,
-      "name": "Lady Gaga",
-      "tracks": 15,
-      "years": {
-        "2021": 17,
-        "2022": 9,
-        "2025": 33,
-        "2026": 32
       }
     },
     {
@@ -1945,21 +1945,6 @@
     },
     {
       "count": 73,
-      "first": "2024-05-24",
-      "id": "22wbnEMDvgVIAGdFeek6ET",
-      "image": "https://i.scdn.co/image/ab67616100005174fe3bab531cafaf7189d7b1a4",
-      "last": "2026-10-06",
-      "ms": 9647324,
-      "name": "Benson Boone",
-      "tracks": 8,
-      "years": {
-        "2024": 1,
-        "2025": 22,
-        "2026": 50
-      }
-    },
-    {
-      "count": 73,
       "first": "2020-05-24",
       "id": "6QZ5RbUBtxclGWybgTLoEP",
       "last": "2024-12-30",
@@ -2005,6 +1990,21 @@
         "2023": 1,
         "2025": 11,
         "2026": 51
+      }
+    },
+    {
+      "count": 72,
+      "first": "2024-05-24",
+      "id": "22wbnEMDvgVIAGdFeek6ET",
+      "image": "https://i.scdn.co/image/ab67616100005174fe3bab531cafaf7189d7b1a4",
+      "last": "2026-10-06",
+      "ms": 9647324,
+      "name": "Benson Boone",
+      "tracks": 8,
+      "years": {
+        "2024": 1,
+        "2025": 22,
+        "2026": 49
       }
     },
     {
@@ -2105,6 +2105,17 @@
       }
     },
     {
+      "count": 69,
+      "first": "2026-07-26",
+      "last": "2026-10-06",
+      "ms": 0,
+      "name": "チャーリー・プース",
+      "tracks": 23,
+      "years": {
+        "2026": 69
+      }
+    },
+    {
       "count": 68,
       "first": "2022-06-08",
       "id": "6le80R1opKnTlP4o3KvA2k",
@@ -2119,17 +2130,6 @@
         "2024": 21,
         "2025": 17,
         "2026": 1
-      }
-    },
-    {
-      "count": 68,
-      "first": "2026-07-26",
-      "last": "2026-10-05",
-      "ms": 0,
-      "name": "チャーリー・プース",
-      "tracks": 23,
-      "years": {
-        "2026": 68
       }
     },
     {
@@ -2760,6 +2760,20 @@
     },
     {
       "count": 50,
+      "first": "2025-02-23",
+      "id": "6HaGTQPmzraVmaVxvz6EUc",
+      "image": "https://i.scdn.co/image/ab6761610000517471089d18c93e3a51e70ff0dc",
+      "last": "2026-10-06",
+      "ms": 8884012,
+      "name": "Jung Kook",
+      "tracks": 4,
+      "years": {
+        "2025": 32,
+        "2026": 18
+      }
+    },
+    {
+      "count": 50,
       "first": "2021-04-17",
       "id": "3BmGtnKgCSGYIUhmivXKWX",
       "image": "https://i.scdn.co/image/ab67616100005174746edb2e3374237bc2f29ea1",
@@ -2824,20 +2838,6 @@
         "2024": 3,
         "2025": 5,
         "2026": 31
-      }
-    },
-    {
-      "count": 49,
-      "first": "2025-02-23",
-      "id": "6HaGTQPmzraVmaVxvz6EUc",
-      "image": "https://i.scdn.co/image/ab6761610000517471089d18c93e3a51e70ff0dc",
-      "last": "2026-08-24",
-      "ms": 8884012,
-      "name": "Jung Kook",
-      "tracks": 3,
-      "years": {
-        "2025": 32,
-        "2026": 17
       }
     },
     {
@@ -3089,6 +3089,17 @@
     },
     {
       "count": 45,
+      "first": "2026-07-28",
+      "last": "2026-10-06",
+      "ms": 0,
+      "name": "テイラー・スウィフト",
+      "tracks": 26,
+      "years": {
+        "2026": 45
+      }
+    },
+    {
+      "count": 45,
       "first": "2024-02-02",
       "id": "2blJQ4Fnbpk3EPj4dOO9Qs",
       "image": "https://i.scdn.co/image/ab67616100005174998b7736626b0c7e93be314a",
@@ -3143,17 +3154,6 @@
         "2024": 32,
         "2025": 10,
         "2026": 2
-      }
-    },
-    {
-      "count": 44,
-      "first": "2026-07-28",
-      "last": "2026-10-05",
-      "ms": 0,
-      "name": "テイラー・スウィフト",
-      "tracks": 25,
-      "years": {
-        "2026": 44
       }
     },
     {
@@ -3618,6 +3618,21 @@
     },
     {
       "count": 34,
+      "first": "2020-10-23",
+      "id": "5rSXSAkZ67PYJSvpUpkOr7",
+      "image": "https://i.scdn.co/image/ab676161000051747b3634864a78ab6bd1d77c36",
+      "last": "2026-10-06",
+      "ms": 6676110,
+      "name": "Backstreet Boys",
+      "tracks": 3,
+      "years": {
+        "2020": 1,
+        "2025": 16,
+        "2026": 17
+      }
+    },
+    {
+      "count": 34,
       "first": "2020-02-22",
       "id": "706WzkJEacBrtkHKRpBU2q",
       "image": "https://i.scdn.co/image/ab67616100005174781882e96c035b29f257cd47",
@@ -3647,21 +3662,6 @@
         "2021": 1,
         "2024": 23,
         "2025": 6
-      }
-    },
-    {
-      "count": 33,
-      "first": "2020-10-23",
-      "id": "5rSXSAkZ67PYJSvpUpkOr7",
-      "image": "https://i.scdn.co/image/ab676161000051747b3634864a78ab6bd1d77c36",
-      "last": "2026-09-03",
-      "ms": 6676110,
-      "name": "Backstreet Boys",
-      "tracks": 3,
-      "years": {
-        "2020": 1,
-        "2025": 16,
-        "2026": 16
       }
     },
     {
@@ -3973,6 +3973,17 @@
       }
     },
     {
+      "count": 26,
+      "first": "2026-07-28",
+      "last": "2026-10-06",
+      "ms": 0,
+      "name": "エド・シーラン",
+      "tracks": 14,
+      "years": {
+        "2026": 26
+      }
+    },
+    {
       "count": 25,
       "first": "2025-12-20",
       "id": "6Iz3eq2aQGFf7TbGT2iahL",
@@ -4012,17 +4023,6 @@
       "years": {
         "2019": 1,
         "2020": 24
-      }
-    },
-    {
-      "count": 25,
-      "first": "2026-07-28",
-      "last": "2026-10-05",
-      "ms": 0,
-      "name": "エド・シーラン",
-      "tracks": 14,
-      "years": {
-        "2026": 25
       }
     },
     {
@@ -13036,6 +13036,19 @@
     },
     {
       "count": 1,
+      "first": "2026-10-06",
+      "id": "4rQTEdG6hDVOlDUFKs9EjZ",
+      "image": "https://i.scdn.co/image/ab676161000051745a1c7aa77551b62c9cce74c9",
+      "last": "2026-10-06",
+      "ms": 0,
+      "name": "Fly By Midnight",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
       "first": "2019-12-08",
       "id": "3h95Ve9m3Q07d8VG6V9hEU",
       "image": "https://i.scdn.co/image/ab676161000051747e76ed4d1c9bc635eb229162",
@@ -18204,5 +18217,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-05T22:17:38.518600+00:00"
+  "generated_at": "2026-10-06T20:42:16.748923+00:00"
 }

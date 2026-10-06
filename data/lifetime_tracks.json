@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T22:17:38.538405+00:00",
+  "generated_at": "2026-10-06T20:42:16.763625+00:00",
   "totals": {
-    "artists": 1352,
+    "artists": 1353,
     "days": 2120,
     "ms": 12440720283,
-    "plays": 64204,
+    "plays": 64214,
     "since": "2019-09-05",
-    "tracks": 4697
+    "tracks": 4698
   },
   "tracks": [
     {
@@ -2499,6 +2499,27 @@
     },
     {
       "artists": [
+        "Sia"
+      ],
+      "count": 93,
+      "first": "2021-04-17",
+      "id": "3Rw6shHCDFRWv3g2WmEFKv",
+      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
+      "last": "2026-10-06",
+      "ms": 19797595,
+      "name": "Fire Meet Gasoline",
+      "short": 26,
+      "years": {
+        "2021": 16,
+        "2022": 14,
+        "2023": 10,
+        "2024": 9,
+        "2025": 18,
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 93,
@@ -2518,27 +2539,6 @@
         "2024": 18,
         "2025": 6,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "Sia"
-      ],
-      "count": 92,
-      "first": "2021-04-17",
-      "id": "3Rw6shHCDFRWv3g2WmEFKv",
-      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
-      "last": "2026-09-30",
-      "ms": 19797595,
-      "name": "Fire Meet Gasoline",
-      "short": 26,
-      "years": {
-        "2021": 16,
-        "2022": 14,
-        "2023": 10,
-        "2024": 9,
-        "2025": 18,
-        "2026": 25
       }
     },
     {
@@ -10513,23 +10513,6 @@
     },
     {
       "artists": [
-        "Benson Boone"
-      ],
-      "count": 44,
-      "first": "2025-05-24",
-      "id": "6tNQ70jh4OwmPGpYy6R2o9",
-      "image": "https://i.scdn.co/image/ab67616d00004851f85058b7e234523d2d2ef834",
-      "last": "2026-10-06",
-      "ms": 6644431,
-      "name": "Beautiful Things",
-      "short": 4,
-      "years": {
-        "2025": 22,
-        "2026": 22
-      }
-    },
-    {
-      "artists": [
         "James Arthur"
       ],
       "count": 44,
@@ -10834,6 +10817,23 @@
         "2024": 32,
         "2025": 10,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Benson Boone"
+      ],
+      "count": 43,
+      "first": "2025-05-24",
+      "id": "6tNQ70jh4OwmPGpYy6R2o9",
+      "image": "https://i.scdn.co/image/ab67616d00004851f85058b7e234523d2d2ef834",
+      "last": "2026-10-06",
+      "ms": 6644431,
+      "name": "Beautiful Things",
+      "short": 4,
+      "years": {
+        "2025": 22,
+        "2026": 21
       }
     },
     {
@@ -12479,6 +12479,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 37,
+      "first": "2025-12-20",
+      "id": "5Odq8ohlgIbQKMZivbWkEo",
+      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
+      "last": "2026-10-06",
+      "ms": 4789097,
+      "name": "Left and Right (Feat. Jung Kook of BTS)",
+      "short": 5,
+      "years": {
+        "2025": 6,
+        "2026": 31
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 37,
@@ -12811,6 +12828,24 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 36,
+      "first": "2024-05-20",
+      "id": "4D7kxLhSz7siCOw7KA5rQn",
+      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
+      "last": "2026-10-06",
+      "ms": 7668280,
+      "name": "Style",
+      "short": 1,
+      "years": {
+        "2024": 1,
+        "2025": 8,
+        "2026": 27
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 35,
@@ -12848,23 +12883,6 @@
         "2021": 1,
         "2023": 2,
         "2025": 1
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 35,
-      "first": "2025-12-20",
-      "id": "5Odq8ohlgIbQKMZivbWkEo",
-      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
-      "last": "2026-09-14",
-      "ms": 4789097,
-      "name": "Left and Right (Feat. Jung Kook of BTS)",
-      "short": 5,
-      "years": {
-        "2025": 6,
-        "2026": 29
       }
     },
     {
@@ -13198,24 +13216,6 @@
     },
     {
       "artists": [
-        "Taylor Swift"
-      ],
-      "count": 34,
-      "first": "2024-05-20",
-      "id": "4D7kxLhSz7siCOw7KA5rQn",
-      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
-      "last": "2026-06-28",
-      "ms": 7668280,
-      "name": "Style",
-      "short": 1,
-      "years": {
-        "2024": 1,
-        "2025": 8,
-        "2026": 25
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 34,
@@ -13300,6 +13300,23 @@
       "years": {
         "2025": 4,
         "2026": 29
+      }
+    },
+    {
+      "artists": [
+        "Backstreet Boys"
+      ],
+      "count": 33,
+      "first": "2025-07-14",
+      "id": "47BBI51FKFwOMlIiX6m8ya",
+      "image": "https://i.scdn.co/image/ab67616d000048512160c02bc56f192df0f4986b",
+      "last": "2026-10-06",
+      "ms": 6431987,
+      "name": "I Want It That Way",
+      "short": 3,
+      "years": {
+        "2025": 16,
+        "2026": 17
       }
     },
     {
@@ -13426,23 +13443,6 @@
         "2024": 3,
         "2025": 1,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "Backstreet Boys"
-      ],
-      "count": 32,
-      "first": "2025-07-14",
-      "id": "47BBI51FKFwOMlIiX6m8ya",
-      "image": "https://i.scdn.co/image/ab67616d000048512160c02bc56f192df0f4986b",
-      "last": "2026-09-03",
-      "ms": 6431987,
-      "name": "I Want It That Way",
-      "short": 3,
-      "years": {
-        "2025": 16,
-        "2026": 16
       }
     },
     {
@@ -16729,6 +16729,22 @@
     },
     {
       "artists": [
+        "Bruno Mars"
+      ],
+      "count": 20,
+      "first": "2026-02-22",
+      "id": "0B0tYbVp7pDQAqKDhgMeaL",
+      "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
+      "last": "2026-10-06",
+      "ms": 3657833,
+      "name": "Too Good to Say Goodbye",
+      "short": 1,
+      "years": {
+        "2026": 20
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 20,
@@ -17027,22 +17043,6 @@
       "years": {
         "2025": 5,
         "2026": 14
-      }
-    },
-    {
-      "artists": [
-        "Bruno Mars"
-      ],
-      "count": 19,
-      "first": "2026-02-22",
-      "id": "0B0tYbVp7pDQAqKDhgMeaL",
-      "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
-      "last": "2026-09-25",
-      "ms": 3657833,
-      "name": "Too Good to Say Goodbye",
-      "short": 1,
-      "years": {
-        "2026": 19
       }
     },
     {
@@ -21013,6 +21013,22 @@
         "Ed Sheeran"
       ],
       "count": 11,
+      "first": "2026-05-02",
+      "id": "5T03itPFOPGGkvVPvPiyla",
+      "image": "https://i.scdn.co/image/ab67616d00004851f528fc2d5d8b26e4e3413715",
+      "last": "2026-10-06",
+      "ms": 1379651,
+      "name": "Put It All on Me (feat. Ella Mai)",
+      "short": 2,
+      "years": {
+        "2026": 11
+      }
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 11,
       "first": "2026-05-04",
       "id": "65dt1vedDHPOCCPS3mVhtN",
       "image": "https://i.scdn.co/image/ab67616d000048513f14d005a195b4dbba7d7b48",
@@ -21812,22 +21828,6 @@
       "short": 8,
       "years": {
         "2020": 10
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 10,
-      "first": "2026-05-02",
-      "id": "5T03itPFOPGGkvVPvPiyla",
-      "image": "https://i.scdn.co/image/ab67616d00004851f528fc2d5d8b26e4e3413715",
-      "last": "2026-09-04",
-      "ms": 1379651,
-      "name": "Put It All on Me (feat. Ella Mai)",
-      "short": 2,
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -24410,6 +24410,22 @@
     },
     {
       "artists": [
+        "Lady Gaga"
+      ],
+      "count": 7,
+      "first": "2026-05-13",
+      "id": "0oWraSo5ASJ0h1BEagTyEw",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
+      "last": "2026-10-06",
+      "ms": 675900,
+      "name": "Hold My Hand",
+      "short": 2,
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "ワンリパブリック"
       ],
       "count": 7,
@@ -25814,22 +25830,6 @@
       "years": {
         "2023": 5,
         "2024": 1
-      }
-    },
-    {
-      "artists": [
-        "Lady Gaga"
-      ],
-      "count": 6,
-      "first": "2026-05-13",
-      "id": "0oWraSo5ASJ0h1BEagTyEw",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
-      "last": "2026-09-13",
-      "ms": 675900,
-      "name": "Hold My Hand",
-      "short": 2,
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -27899,6 +27899,21 @@
       "last": "2026-09-29",
       "ms": 0,
       "name": "SOMEONE TO YOU",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 5,
+      "first": "2026-05-09",
+      "id": "4YmS7BALpAU0h4EAF4fYuh",
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "last": "2026-10-06",
+      "ms": 423920,
+      "name": "SPEED DEMON",
       "years": {
         "2026": 5
       }
@@ -30209,21 +30224,6 @@
       "short": 4,
       "years": {
         "2020": 4
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 4,
-      "first": "2026-05-09",
-      "id": "4YmS7BALpAU0h4EAF4fYuh",
-      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
-      "last": "2026-09-13",
-      "ms": 423920,
-      "name": "SPEED DEMON",
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -60251,6 +60251,21 @@
       "name": "Nites",
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "Fly By Midnight"
+      ],
+      "count": 1,
+      "first": "2026-10-06",
+      "id": "74G0T9Zo5TAJQabpW4gIs3",
+      "image": "https://i.scdn.co/image/ab67616d0000485163f215c50f7ee4746584507a",
+      "last": "2026-10-06",
+      "ms": 0,
+      "name": "No Choice",
+      "years": {
+        "2026": 1
       }
     },
     {

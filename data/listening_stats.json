@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-05T22:16:26.423499+00:00",
+  "generated_at": "2026-10-06T20:41:03.383278+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,28 @@
       5000,
       10000
     ],
-    "total": 64204
+    "total": 64214
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 2,
   "weekly_top": [
     {
       "artists": [
-        "Benson Boone"
+        "テイラー・スウィフト"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851f85058b7e234523d2d2ef834",
-      "name": "Beautiful Things",
-      "track_id": "6tNQ70jh4OwmPGpYy6R2o9"
+      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
+      "name": "Style",
+      "track_id": "4D7kxLhSz7siCOw7KA5rQn"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
+      "name": "Left and Right (Feat. Jung Kook of BTS)",
+      "track_id": "5Odq8ohlgIbQKMZivbWkEo"
     },
     {
       "artists": [
@@ -1231,6 +1240,33 @@
       "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
       "name": "Walking The Wire",
       "track_id": "1y3bE5i57eUm3hfLAc7h08"
+    },
+    {
+      "artists": [
+        "Benson Boone"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851f85058b7e234523d2d2ef834",
+      "name": "Beautiful Things",
+      "track_id": "6tNQ70jh4OwmPGpYy6R2o9"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "name": "SPEED DEMON",
+      "track_id": "4YmS7BALpAU0h4EAF4fYuh"
+    },
+    {
+      "artists": [
+        "Sia"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
+      "name": "Fire Meet Gasoline",
+      "track_id": "3Rw6shHCDFRWv3g2WmEFKv"
     }
   ]
 }
