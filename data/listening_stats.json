@@ -346,19 +346,19 @@
     },
     {
       "artists": [
+        "Stephen Sanchez"
+      ],
+      "count": 124,
+      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
+      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 123,
       "name": "What You're Doing - Remastered 2009",
       "track_id": "6C6y4OWK1Ki3FVF1TIonxW"
-    },
-    {
-      "artists": [
-        "Stephen Sanchez"
-      ],
-      "count": 123,
-      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-06T20:41:03.383278+00:00",
+  "generated_at": "2026-10-07T20:55:23.898599+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,46 @@
       5000,
       10000
     ],
-    "total": 64214
+    "total": 64240
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 2,
+  "streak": 3,
   "weekly_top": [
     {
       "artists": [
-        "テイラー・スウィフト"
+        "トレイン"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
-      "name": "Style",
-      "track_id": "4D7kxLhSz7siCOw7KA5rQn"
+      "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
+      "name": "AM Gold",
+      "track_id": "6xTQD1ixS5uca8B9P97vQc"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Someone To Save You",
+      "track_id": "1mXiSrqOdR09yT43TwkSLh"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
+      "name": "Finish Me",
+      "track_id": "45nGWJRXJmYF4g3l4iuUyN"
+    },
+    {
+      "artists": [
+        "ボン・ジョヴィ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512746987893437160c104518c",
+      "name": "Como Yo Nadie Te Ha Amado",
+      "track_id": "5nWRJu62az4R9YPwit875x"
     },
     {
       "artists": [
@@ -835,6 +862,24 @@
       "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
       "name": "Left and Right (Feat. Jung Kook of BTS)",
       "track_id": "5Odq8ohlgIbQKMZivbWkEo"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
+      "name": "Bulletproof Picasso",
+      "track_id": "5P3fYoxh3LnVwANZEDu5vN"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
+      "name": "Beauty And A Beat",
+      "track_id": "190jyVPHYjAqEaOGmMzdyk"
     },
     {
       "artists": [
@@ -928,15 +973,6 @@
     },
     {
       "artists": [
-        "トレイン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
-      "name": "AM Gold",
-      "track_id": "6xTQD1ixS5uca8B9P97vQc"
-    },
-    {
-      "artists": [
         "テイラー・スウィフト"
       ],
       "count": 1,
@@ -991,15 +1027,6 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Someone To Save You",
-      "track_id": "1mXiSrqOdR09yT43TwkSLh"
-    },
-    {
-      "artists": [
         "ナオミ・スコット"
       ],
       "count": 1,
@@ -1033,15 +1060,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851572c68f79b356c21202e248c",
       "name": "Holy (feat. Chance The Rapper)",
       "track_id": "5u1n1kITHCxxp8twBcZxWy"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
-      "name": "Finish Me",
-      "track_id": "45nGWJRXJmYF4g3l4iuUyN"
     },
     {
       "artists": [
@@ -1216,15 +1234,6 @@
     },
     {
       "artists": [
-        "ボン・ジョヴィ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512746987893437160c104518c",
-      "name": "Como Yo Nadie Te Ha Amado",
-      "track_id": "5nWRJu62az4R9YPwit875x"
-    },
-    {
-      "artists": [
         "Redbone"
       ],
       "count": 1,
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
       "name": "SPEED DEMON",
       "track_id": "4YmS7BALpAU0h4EAF4fYuh"
-    },
-    {
-      "artists": [
-        "Sia"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
-      "name": "Fire Meet Gasoline",
-      "track_id": "3Rw6shHCDFRWv3g2WmEFKv"
     }
   ]
 }

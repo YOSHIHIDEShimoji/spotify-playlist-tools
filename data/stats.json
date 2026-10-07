@@ -11,7 +11,7 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 39,
+      "count": 40,
       "id": "49tQo2QULno7gxHutgccqF",
       "name": "LANY"
     },
@@ -161,7 +161,7 @@
       "decade": 1980
     },
     {
-      "count": 19,
+      "count": 20,
       "decade": 1990
     },
     {
@@ -173,7 +173,7 @@
       "decade": 2010
     },
     {
-      "count": 339,
+      "count": 340,
       "decade": 2020
     }
   ],
@@ -202,13 +202,13 @@
         },
         {
           "count": 40,
-          "id": "4STHEaNw4mPZ2tzheohgXB",
-          "name": "Paul McCartney"
-        },
-        {
-          "count": 39,
           "id": "49tQo2QULno7gxHutgccqF",
           "name": "LANY"
+        },
+        {
+          "count": 40,
+          "id": "4STHEaNw4mPZ2tzheohgXB",
+          "name": "Paul McCartney"
         },
         {
           "count": 33,
@@ -345,7 +345,7 @@
           "decade": 1980
         },
         {
-          "count": 45,
+          "count": 46,
           "decade": 1990
         },
         {
@@ -357,11 +357,11 @@
           "decade": 2010
         },
         {
-          "count": 351,
+          "count": 352,
           "decade": 2020
         }
       ],
-      "total": 1153
+      "total": 1155
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -558,7 +558,7 @@
             "name": "Justin Bieber"
           },
           {
-            "count": 39,
+            "count": 40,
             "id": "49tQo2QULno7gxHutgccqF",
             "name": "LANY"
           },
@@ -708,7 +708,7 @@
             "decade": 1980
           },
           {
-            "count": 10,
+            "count": 11,
             "decade": 1990
           },
           {
@@ -720,11 +720,11 @@
             "decade": 2010
           },
           {
-            "count": 256,
+            "count": 257,
             "decade": 2020
           }
         ],
-        "total": 592
+        "total": 594
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -862,6 +862,6 @@
       }
     ]
   },
-  "generated_at": "2026-10-06T20:41:13.037211+00:00",
-  "total": 795
+  "generated_at": "2026-10-07T20:55:34.715521+00:00",
+  "total": 797
 }
