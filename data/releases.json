@@ -1,16 +1,49 @@
 {
-  "generated_at": "2026-10-07T20:58:41.296156+00:00",
+  "generated_at": "2026-10-08T20:59:53.401990+00:00",
   "items": [
     {
-      "album_id": "1pEll2AomI6UfGZkeIMbh7",
-      "album_name": "Oh My My (Deluxe Edition)",
+      "album_id": "3wn6xCydBAGXLIhkh0LEc8",
+      "album_name": "Skylines",
       "album_type": "album",
-      "artist": "OneRepublic",
-      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
+      "artist": "Gavin Greenaway",
+      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
-      "is_new": false,
-      "release_date": "2026-10-07"
+      "image": "https://i.scdn.co/image/ab67616d000048516681ca7999a5c7cd4dbba0c8",
+      "is_new": true,
+      "release_date": "2026-10-09"
+    },
+    {
+      "album_id": "1m3Jun2PjCQAOL72bBExnT",
+      "album_name": "Kinda Love It",
+      "album_type": "single",
+      "artist": "Lainey Wilson",
+      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
+      "is_new": true,
+      "release_date": "2026-10-09"
+    },
+    {
+      "album_id": "4mu0jAPhEFU1f8KYltS3g0",
+      "album_name": "Day and Night (Continued)",
+      "album_type": "album",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b8b007939c4adb0cf3e8f13",
+      "is_new": true,
+      "release_date": "2026-10-09"
+    },
+    {
+      "album_id": "2VIFY2T5QbFo48sIqt3vZm",
+      "album_name": "Zombie (Live from the Riviera Theatre) [feat. Billy Corgan]",
+      "album_type": "single",
+      "artist": "YUNGBLUD",
+      "artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
+      "is_new": true,
+      "release_date": "2026-10-08"
     },
     {
       "album_id": "7uNQqNKsRfLZWQrzqFSCpZ",
@@ -31,6 +64,17 @@
       "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
+      "is_new": false,
+      "release_date": "2026-10-07"
+    },
+    {
+      "album_id": "1pEll2AomI6UfGZkeIMbh7",
+      "album_name": "Oh My My (Deluxe Edition)",
+      "album_type": "album",
+      "artist": "OneRepublic",
+      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
       "is_new": false,
       "release_date": "2026-10-07"
     },
@@ -68,35 +112,13 @@
       "release_date": "2026-10-03"
     },
     {
-      "album_id": "4cAOsAHg9s8i5gsnia27OD",
-      "album_name": "From Zimmer to Strauss",
-      "album_type": "album",
-      "artist": "Aleksey Igudesman",
-      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "3ICK3lBLOuStuhttDJOtnq",
-      "album_name": "Rubber Soul (Super Deluxe)",
-      "album_type": "album",
-      "artist": "The Beatles",
-      "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "1cuYuhlcRa6TomHkICwTL6",
-      "album_name": "WIDE AWAKE",
+      "album_id": "4onXZUS2f1g3BIMNiafrPm",
+      "album_name": "This Dream Of You",
       "album_type": "single",
-      "artist": "me n ü",
-      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
+      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -112,6 +134,28 @@
       "release_date": "2026-10-02"
     },
     {
+      "album_id": "4cAOsAHg9s8i5gsnia27OD",
+      "album_name": "From Zimmer to Strauss",
+      "album_type": "album",
+      "artist": "Aleksey Igudesman",
+      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1cuYuhlcRa6TomHkICwTL6",
+      "album_name": "WIDE AWAKE",
+      "album_type": "single",
+      "artist": "me n ü",
+      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
       "album_id": "2XhSVmF3l0I59LYAn9J6Ph",
       "album_name": "AIYOU",
       "album_type": "single",
@@ -119,17 +163,6 @@
       "artist_id": "58oPVy7oihAEXE0Ott6JOf",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048512b8f6c6ee9df700c61aaeb66",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
-      "album_name": "Way Too Late",
-      "album_type": "single",
-      "artist": "Leony",
-      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -145,15 +178,48 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "4onXZUS2f1g3BIMNiafrPm",
-      "album_name": "This Dream Of You",
-      "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "album_id": "3ICK3lBLOuStuhttDJOtnq",
+      "album_name": "Rubber Soul (Super Deluxe)",
+      "album_type": "album",
+      "artist": "The Beatles",
+      "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
       "is_new": false,
       "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
+      "album_name": "Way Too Late",
+      "album_type": "single",
+      "artist": "Leony",
+      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1d9iOObnSdMqH1ml6MxF56",
+      "album_name": "Only The Lonely",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
+      "album_name": "Dance With Me",
+      "album_type": "single",
+      "artist": "Bruno Mars",
+      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
+      "is_new": false,
+      "release_date": "2026-10-01"
     },
     {
       "album_id": "7B5giyFNTfx6gaBxTEitH5",
@@ -189,28 +255,6 @@
       "release_date": "2026-10-01"
     },
     {
-      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
-      "album_name": "Dance With Me",
-      "album_type": "single",
-      "artist": "Bruno Mars",
-      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1d9iOObnSdMqH1ml6MxF56",
-      "album_name": "Only The Lonely",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
       "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
       "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
       "album_type": "album",
@@ -222,17 +266,6 @@
       "release_date": "2026-10-01"
     },
     {
-      "album_id": "4Aa7p5Ii6nCNESA0GRUGSX",
-      "album_name": "エメラルド",
-      "album_type": "single",
-      "artist": "Tatsuya Kitani",
-      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f",
-      "is_new": false,
-      "release_date": "2026-09-30"
-    },
-    {
       "album_id": "44KgY0Lw4LwXwK0xpU7TZD",
       "album_name": "Destiny Journeys",
       "album_type": "single",
@@ -240,6 +273,17 @@
       "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048516e11100a46ded4b8584e7d37",
+      "is_new": false,
+      "release_date": "2026-09-30"
+    },
+    {
+      "album_id": "4Aa7p5Ii6nCNESA0GRUGSX",
+      "album_name": "エメラルド",
+      "album_type": "single",
+      "artist": "Tatsuya Kitani",
+      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f",
       "is_new": false,
       "release_date": "2026-09-30"
     },
@@ -266,6 +310,17 @@
       "release_date": "2026-09-29"
     },
     {
+      "album_id": "33NdfsbflGrwmKRMBq16Oz",
+      "album_name": "Illuminate (10th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "Shawn Mendes",
+      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
       "album_id": "4hF2gTGuPYlykYuphDxi8J",
       "album_name": "The Life of a Showgirl: The Encore",
       "album_type": "album",
@@ -273,17 +328,6 @@
       "artist_id": "06HL4z0CvFAxyc27GXpf02",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851cf3de6b538d8b1ed73a4d5d1",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "73YOpL9H4qK72bJdakOzyl",
-      "album_name": "Loser (Fcukers Remix)",
-      "album_type": "single",
-      "artist": "Tame Impala",
-      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -299,6 +343,17 @@
       "release_date": "2026-09-25"
     },
     {
+      "album_id": "1qD01TQrJDe2jx0YGwKnYu",
+      "album_name": "Who I Am",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485179a0034fa0a66b38a1b7f127",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
       "album_id": "7rBIioPKNbFbedgP6iioLN",
       "album_name": "AUJLA SZN 1",
       "album_type": "single",
@@ -306,39 +361,6 @@
       "artist_id": "6DARBhWbfcS9E4yJzcliqQ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851804ad79f8482d0ae50f95e7a",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "33NdfsbflGrwmKRMBq16Oz",
-      "album_name": "Illuminate (10th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "Shawn Mendes",
-      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851643ca29521ad0dfc9340e88a",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
-      "album_name": "DJ Play My Song",
-      "album_type": "single",
-      "artist": "Aaron Smith",
-      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
-      "is_new": false,
-      "release_date": "2026-09-25"
-    },
-    {
-      "album_id": "07QSyGmtKsbklJyrWe3jjh",
-      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
-      "album_type": "album",
-      "artist": "Kana Nishino",
-      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
       "is_new": false,
       "release_date": "2026-09-25"
     },
@@ -354,6 +376,17 @@
       "release_date": "2026-09-25"
     },
     {
+      "album_id": "73YOpL9H4qK72bJdakOzyl",
+      "album_name": "Loser (Fcukers Remix)",
+      "album_type": "single",
+      "artist": "Tame Impala",
+      "artist_id": "5INjqkS1o8h1imAzPqGZBb",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c516efd7fd5ddee1f11cc8ef",
+      "is_new": false,
+      "release_date": "2026-09-25"
+    },
+    {
       "album_id": "2qO0pbZco75616ASWjgIsG",
       "album_name": "Disney Peaceful Piano: Deep Focus",
       "album_type": "album",
@@ -365,48 +398,26 @@
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "1qD01TQrJDe2jx0YGwKnYu",
-      "album_name": "Who I Am",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485179a0034fa0a66b38a1b7f127",
+      "album_id": "07QSyGmtKsbklJyrWe3jjh",
+      "album_name": "Tour 2026 “HEART BEAT” セットリスト",
+      "album_type": "album",
+      "artist": "Kana Nishino",
+      "artist_id": "4DDoAL8n6ob19r3jOZEbJI",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f7a6621043619f685dced2bd",
       "is_new": false,
       "release_date": "2026-09-25"
     },
     {
-      "album_id": "3AWb1cgRQw42aF1HYHtkFS",
-      "album_name": "Disney 5 Minuten Halloween Geschichten",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "album_id": "2JWNjoj0zpBAp0RsOLo2MN",
+      "album_name": "DJ Play My Song",
+      "album_type": "single",
+      "artist": "Aaron Smith",
+      "artist_id": "77qukKzmdI5BeMBR7WGUrN",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f5712b75e003b83d7a14dc45",
+      "image": "https://i.scdn.co/image/ab67616d00004851635c75c788842acd48afb4fc",
       "is_new": false,
-      "release_date": "2026-09-24"
-    },
-    {
-      "album_id": "10URBlT3jQlHYqfJ8J4RmD",
-      "album_name": "Disney: Lilo, Stitch und die Zuckerhexe",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515221b5bc9df3df997a0d8f21",
-      "is_new": false,
-      "release_date": "2026-09-24"
-    },
-    {
-      "album_id": "2FLYndAptrw8Mg14faWE4P",
-      "album_name": "Tim Burton's The Nightmare Before Christmas",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aad7b42194363504a23ff2cf",
-      "is_new": false,
-      "release_date": "2026-09-24"
+      "release_date": "2026-09-25"
     }
   ]
 }

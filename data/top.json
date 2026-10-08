@@ -442,7 +442,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-07T20:57:39.113075+00:00",
+  "generated_at": "2026-10-08T20:58:48.294449+00:00",
   "tracks": {
     "long_term": [
       {
@@ -492,20 +492,20 @@
       },
       {
         "artists": [
-          "SPITZ"
-        ],
-        "id": "3RauRsiIxUOQTS8h9sVWcP",
-        "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
-        "name": "美しい鰭",
-        "rank": 6
-      },
-      {
-        "artists": [
           "ONE OK ROCK"
         ],
         "id": "3RpFwqdROrxJvHywpT1pJ4",
         "image": "https://i.scdn.co/image/ab67616d00004851da39ffc023976a4481547736",
         "name": "Renegades",
+        "rank": 6
+      },
+      {
+        "artists": [
+          "SPITZ"
+        ],
+        "id": "3RauRsiIxUOQTS8h9sVWcP",
+        "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
+        "name": "美しい鰭",
         "rank": 7
       },
       {
@@ -555,22 +555,13 @@
       },
       {
         "artists": [
-          "Naomi Scott"
-        ],
-        "id": "0XPsOSYzDJZJArevQNm2AR",
-        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
-        "name": "Speechless (Full)",
-        "rank": 13
-      },
-      {
-        "artists": [
           "ALI",
           "AKLO"
         ],
         "id": "7kRKlFCFLAUwt43HWtauhX",
         "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
         "name": "LOST IN PARADISE",
-        "rank": 14
+        "rank": 13
       },
       {
         "artists": [
@@ -579,7 +570,7 @@
         "id": "7sc873fPEG8xnU3r1CDDhI",
         "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
         "name": "SOULSOUP",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -588,7 +579,7 @@
         "id": "6sy3LkhNFjJWlaeSMNwQ62",
         "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
         "name": "Counting Stars",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -597,6 +588,15 @@
         "id": "66hblHI9wl1Nim70ZYLb6D",
         "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
         "name": "TATTOO",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "Naomi Scott"
+        ],
+        "id": "0XPsOSYzDJZJArevQNm2AR",
+        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
+        "name": "Speechless (Full)",
         "rank": 17
       },
       {
@@ -682,30 +682,12 @@
       },
       {
         "artists": [
-          "髙見 優/長岡 成貢"
-        ],
-        "id": "2p71NDW60CTBSDnIqDpXYP",
-        "image": "https://i.scdn.co/image/ab67616d000048518e0c1aae35cbe28fbfc03854",
-        "name": "南方仁のテーマ",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "suis from Yorushika"
-        ],
-        "id": "30aPCMAtkH6Cf5ejzY4cE4",
-        "image": "https://i.scdn.co/image/ab67616d000048515b9ddb28cb2d440296a5bcbf",
-        "name": "星めぐる詩",
-        "rank": 28
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "5BJSZocnCeSNeYMj3iVqM7",
         "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
         "name": "Love Runs Out",
-        "rank": 29
+        "rank": 27
       },
       {
         "artists": [
@@ -714,6 +696,24 @@
         "id": "093KHY83BAuupQoAs4TpSh",
         "image": "https://i.scdn.co/image/ab67616d00004851a15dc066cec020b5da991c34",
         "name": "開幕宣言",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "髙見 優/長岡 成貢"
+        ],
+        "id": "2p71NDW60CTBSDnIqDpXYP",
+        "image": "https://i.scdn.co/image/ab67616d000048518e0c1aae35cbe28fbfc03854",
+        "name": "南方仁のテーマ",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Katsuo Ohno"
+        ],
+        "id": "6lJq0JMOFI9MN47AOJrwEC",
+        "image": "https://i.scdn.co/image/ab67616d000048511d2e18dc8fff21228585bf55",
+        "name": "蘭のテーマ - 世紀末ヴァージョン",
         "rank": 30
       }
     ],
