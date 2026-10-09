@@ -170,19 +170,19 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 151,
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
         "Carly Rae Jepsen"
       ],
       "count": 150,
       "name": "Call Me Maybe",
       "track_id": "4L3Vw8hTyqJ1AdyypY4e61"
-    },
-    {
-      "artists": [
-        "Clean Bandit"
-      ],
-      "count": 150,
-      "name": "Symphony (feat. Zara Larsson)",
-      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
     },
     {
       "artists": [
@@ -658,6 +658,14 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 106,
+      "name": "Payphone",
+      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 105,
@@ -687,14 +695,6 @@
       "count": 105,
       "name": "君をのせて",
       "track_id": "5VVkCfHAa2ayYRBGbRyRD1"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 105,
-      "name": "Payphone",
-      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-08T20:56:21.410033+00:00",
+  "generated_at": "2026-10-09T20:25:40.655400+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 64240
+    "total": 64274
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 0,
+  "streak": 5,
   "weekly_top": [
     {
       "artists": [
@@ -874,12 +874,30 @@
     },
     {
       "artists": [
-        "ジャスティン・ビーバー"
+        "One Direction"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
-      "name": "Beauty And A Beat",
-      "track_id": "190jyVPHYjAqEaOGmMzdyk"
+      "image": "https://i.scdn.co/image/ab67616d000048513cf0191cca87a4bc7e34bc4a",
+      "name": "Story of My Life",
+      "track_id": "4nVBt6MZDDP6tRVdQTgxJg"
+    },
+    {
+      "artists": [
+        "イマジン・ドラゴンズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
+      "name": "Demons",
+      "track_id": "5qaEfEh1AtSdrdrByCP7qR"
+    },
+    {
+      "artists": [
+        "アン・マリー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
+      "name": "2002",
+      "track_id": "2BgEsaKNfHUdlh97KmvFyo"
     },
     {
       "artists": [
@@ -1249,24 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
       "name": "Walking The Wire",
       "track_id": "1y3bE5i57eUm3hfLAc7h08"
-    },
-    {
-      "artists": [
-        "Benson Boone"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851f85058b7e234523d2d2ef834",
-      "name": "Beautiful Things",
-      "track_id": "6tNQ70jh4OwmPGpYy6R2o9"
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
-      "name": "SPEED DEMON",
-      "track_id": "4YmS7BALpAU0h4EAF4fYuh"
     }
   ]
 }
