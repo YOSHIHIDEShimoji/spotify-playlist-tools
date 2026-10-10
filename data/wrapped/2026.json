@@ -37,20 +37,20 @@
       "month": "2026-09"
     },
     {
-      "count": 157,
+      "count": 161,
       "month": "2026-10"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 991,
+  "new_tracks": 988,
   "peak": {
     "dow": 3,
     "hour": 9
   },
-  "plays": 12592,
+  "plays": 12596,
   "top_artists": [
     {
-      "count": 1631,
+      "count": 1633,
       "name": "OneRepublic"
     },
     {
@@ -90,12 +90,12 @@
       "name": "Novelbright"
     },
     {
-      "count": 237,
-      "name": "Train"
+      "count": 238,
+      "name": "ワンリパブリック"
     },
     {
-      "count": 236,
-      "name": "ワンリパブリック"
+      "count": 237,
+      "name": "Train"
     },
     {
       "count": 168,
@@ -149,6 +149,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 71,
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
+    },
+    {
+      "artists": [
         "ALI"
       ],
       "count": 70,
@@ -162,14 +170,6 @@
       "count": 70,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 69,
-      "name": "I Lived",
-      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -231,7 +231,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 57,
+      "count": 58,
       "name": "Counting Stars",
       "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T20:27:37.734230+00:00",
+  "generated_at": "2026-10-10T19:40:41.446430+00:00",
   "totals": {
     "artists": 1358,
-    "days": 2123,
+    "days": 2124,
     "ms": 12440720283,
-    "plays": 64274,
+    "plays": 64278,
     "since": "2019-09-05",
-    "tracks": 4711
+    "tracks": 4708
   },
   "tracks": [
     {
@@ -3008,6 +3008,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 87,
+      "first": "2025-02-24",
+      "id": "6sy3LkhNFjJWlaeSMNwQ62",
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "last": "2026-10-10",
+      "ms": 21403003,
+      "name": "Counting Stars",
+      "short": 8,
+      "years": {
+        "2025": 29,
+        "2026": 58
+      }
+    },
+    {
+      "artists": [
         "Alan Walker"
       ],
       "count": 87,
@@ -3132,23 +3149,6 @@
         "2024": 1,
         "2025": 46,
         "2026": 40
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 86,
-      "first": "2025-02-24",
-      "id": "6sy3LkhNFjJWlaeSMNwQ62",
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "last": "2026-07-18",
-      "ms": 21403003,
-      "name": "Counting Stars",
-      "short": 8,
-      "years": {
-        "2025": 29,
-        "2026": 57
       }
     },
     {
@@ -3915,6 +3915,23 @@
         "OneRepublic"
       ],
       "count": 80,
+      "first": "2025-11-19",
+      "id": "3IQF4xCQUPicbA4hWfTxPo",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-10-10",
+      "ms": 14647911,
+      "name": "I Lived",
+      "short": 7,
+      "years": {
+        "2025": 9,
+        "2026": 71
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 80,
       "first": "2025-02-24",
       "id": "5BJSZocnCeSNeYMj3iVqM7",
       "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
@@ -4318,23 +4335,6 @@
         "2024": 8,
         "2025": 4,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 78,
-      "first": "2025-11-19",
-      "id": "3IQF4xCQUPicbA4hWfTxPo",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-09-20",
-      "ms": 14647911,
-      "name": "I Lived",
-      "short": 7,
-      "years": {
-        "2025": 9,
-        "2026": 69
       }
     },
     {
@@ -5825,26 +5825,6 @@
     },
     {
       "artists": [
-        "Anne-Marie"
-      ],
-      "count": 68,
-      "first": "2022-06-05",
-      "id": "2BgEsaKNfHUdlh97KmvFyo",
-      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
-      "last": "2026-10-09",
-      "ms": 11316328,
-      "name": "2002",
-      "short": 12,
-      "years": {
-        "2022": 12,
-        "2023": 10,
-        "2024": 6,
-        "2025": 20,
-        "2026": 20
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 68,
@@ -5982,6 +5962,26 @@
         "2024": 13,
         "2025": 8,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Anne-Marie"
+      ],
+      "count": 67,
+      "first": "2022-06-05",
+      "id": "2BgEsaKNfHUdlh97KmvFyo",
+      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
+      "last": "2026-10-09",
+      "ms": 11316328,
+      "name": "2002",
+      "short": 12,
+      "years": {
+        "2022": 12,
+        "2023": 10,
+        "2024": 6,
+        "2025": 20,
+        "2026": 19
       }
     },
     {
@@ -7078,6 +7078,27 @@
     },
     {
       "artists": [
+        "One Direction"
+      ],
+      "count": 62,
+      "first": "2021-07-25",
+      "id": "4nVBt6MZDDP6tRVdQTgxJg",
+      "image": "https://i.scdn.co/image/ab67616d000048513cf0191cca87a4bc7e34bc4a",
+      "last": "2026-10-10",
+      "ms": 13415773,
+      "name": "Story of My Life",
+      "short": 16,
+      "years": {
+        "2021": 5,
+        "2022": 3,
+        "2023": 1,
+        "2024": 5,
+        "2025": 25,
+        "2026": 23
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 62,
@@ -7309,27 +7330,6 @@
       "years": {
         "2025": 9,
         "2026": 52
-      }
-    },
-    {
-      "artists": [
-        "One Direction"
-      ],
-      "count": 61,
-      "first": "2021-07-25",
-      "id": "4nVBt6MZDDP6tRVdQTgxJg",
-      "image": "https://i.scdn.co/image/ab67616d000048513cf0191cca87a4bc7e34bc4a",
-      "last": "2026-10-09",
-      "ms": 13415773,
-      "name": "Story of My Life",
-      "short": 16,
-      "years": {
-        "2021": 5,
-        "2022": 3,
-        "2023": 1,
-        "2024": 5,
-        "2025": 25,
-        "2026": 22
       }
     },
     {
@@ -14909,6 +14909,24 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 25,
+      "first": "2024-08-17",
+      "id": "2tpWsVSb9UEmDRxAl1zhX1",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-10-10",
+      "ms": 737492,
+      "name": "Counting Stars",
+      "short": 4,
+      "years": {
+        "2024": 1,
+        "2025": 1,
+        "2026": 23
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 25,
@@ -15215,24 +15233,6 @@
         "2020": 1,
         "2021": 21,
         "2022": 2
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 24,
-      "first": "2024-08-17",
-      "id": "2tpWsVSb9UEmDRxAl1zhX1",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-10-09",
-      "ms": 737492,
-      "name": "Counting Stars",
-      "short": 4,
-      "years": {
-        "2024": 1,
-        "2025": 1,
-        "2026": 22
       }
     },
     {
@@ -23150,21 +23150,6 @@
     },
     {
       "artists": [
-        "Imagine Dragons"
-      ],
-      "count": 8,
-      "first": "2026-06-06",
-      "id": "5qaEfEh1AtSdrdrByCP7qR",
-      "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
-      "last": "2026-10-09",
-      "ms": 528768,
-      "name": "Demons",
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 8,
@@ -24289,6 +24274,21 @@
         "2022": 2,
         "2024": 1,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "count": 7,
+      "first": "2026-06-06",
+      "id": "5qaEfEh1AtSdrdrByCP7qR",
+      "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
+      "last": "2026-10-09",
+      "ms": 528768,
+      "name": "Demons",
+      "years": {
+        "2026": 7
       }
     },
     {
@@ -26253,6 +26253,23 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 6,
+      "first": "2025-12-25",
+      "id": "5jsw9uXEGuKyJzs0boZ1bT",
+      "image": "https://i.scdn.co/image/ab67616d00004851d26246b23c8bfa8ce543b3bb",
+      "last": "2026-10-09",
+      "ms": 1003620,
+      "name": "Stitches",
+      "short": 4,
+      "years": {
+        "2025": 1,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Jonas Brothers"
       ],
       "count": 6,
@@ -28066,23 +28083,6 @@
       "name": "Sometimes",
       "years": {
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 5,
-      "first": "2025-12-25",
-      "id": "5jsw9uXEGuKyJzs0boZ1bT",
-      "image": "https://i.scdn.co/image/ab67616d00004851d26246b23c8bfa8ce543b3bb",
-      "last": "2026-05-02",
-      "ms": 1003620,
-      "name": "Stitches",
-      "short": 4,
-      "years": {
-        "2025": 1,
-        "2026": 4
       }
     },
     {
@@ -30558,6 +30558,21 @@
       "short": 1,
       "years": {
         "2020": 4
+      }
+    },
+    {
+      "artists": [
+        "Post Malone"
+      ],
+      "count": 4,
+      "first": "2026-08-28",
+      "id": "0RiRZpuVRbi7oqRdSMwhQY",
+      "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+      "last": "2026-10-10",
+      "ms": 0,
+      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+      "years": {
+        "2026": 4
       }
     },
     {
@@ -34458,21 +34473,6 @@
     },
     {
       "artists": [
-        "Post Malone"
-      ],
-      "count": 3,
-      "first": "2026-08-28",
-      "id": "0RiRZpuVRbi7oqRdSMwhQY",
-      "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
-      "last": "2026-10-09",
-      "ms": 0,
-      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "IVE"
       ],
       "count": 3,
@@ -36321,6 +36321,21 @@
       "years": {
         "2020": 1,
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "American Authors"
+      ],
+      "count": 2,
+      "first": "2026-07-18",
+      "id": "5Hroj5K7vLpIG4FNCRIjbP",
+      "image": "https://i.scdn.co/image/ab67616d00004851cc761ba55b0e7abad4539abe",
+      "last": "2026-10-09",
+      "ms": 194240,
+      "name": "Best Day Of My Life",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -40921,6 +40936,23 @@
       "name": "Repeat It",
       "years": {
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Zac Efron"
+      ],
+      "count": 2,
+      "first": "2023-12-18",
+      "id": "630sXRhIcfwr2e4RdNtjKN",
+      "image": "https://i.scdn.co/image/ab67616d00004851d44e723b677380dfbc899bcd",
+      "last": "2026-10-09",
+      "ms": 217440,
+      "name": "Rewrite The Stars",
+      "short": 2,
+      "years": {
+        "2023": 1,
+        "2026": 1
       }
     },
     {
@@ -47429,36 +47461,6 @@
     },
     {
       "artists": [
-        "American Authors"
-      ],
-      "count": 1,
-      "first": "2026-07-18",
-      "id": "5Hroj5K7vLpIG4FNCRIjbP",
-      "image": "https://i.scdn.co/image/ab67616d00004851cc761ba55b0e7abad4539abe",
-      "last": "2026-07-18",
-      "ms": 194240,
-      "name": "Best Day Of My Life",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "American Authors"
-      ],
-      "count": 1,
-      "first": "2026-10-09",
-      "id": "lastfm:bestdayofmylife|americanauthors",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/01bccad9d7be4980c9fdbcec3be695c9.jpg",
-      "last": "2026-10-09",
-      "ms": 0,
-      "name": "Best Day of My Life",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "Kiroro"
       ],
       "count": 1,
@@ -48192,11 +48194,12 @@
       ],
       "count": 1,
       "first": "2026-10-09",
-      "id": "lastfm:cakebytheocean|dnce",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3f189d15458e5f24735937059b3426f1.jpg",
+      "id": "76hfruVvmfQbw0eYn1nmeC",
+      "image": "https://i.scdn.co/image/ab67616d000048518d0a75346badc30c8b845be9",
       "last": "2026-10-09",
       "ms": 0,
       "name": "Cake by the Ocean",
+      "short": 1,
       "years": {
         "2026": 1
       }
@@ -62831,37 +62834,6 @@
     },
     {
       "artists": [
-        "Zac Efron"
-      ],
-      "count": 1,
-      "first": "2023-12-18",
-      "id": "630sXRhIcfwr2e4RdNtjKN",
-      "image": "https://i.scdn.co/image/ab67616d00004851d44e723b677380dfbc899bcd",
-      "last": "2023-12-18",
-      "ms": 217440,
-      "name": "Rewrite The Stars",
-      "short": 2,
-      "years": {
-        "2023": 1
-      }
-    },
-    {
-      "artists": [
-        "ザック・エフロン"
-      ],
-      "count": 1,
-      "first": "2026-10-09",
-      "id": "lastfm:rewritethestars|ザック・エフロン",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "last": "2026-10-09",
-      "ms": 0,
-      "name": "Rewrite The Stars",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "The Versions"
       ],
       "count": 1,
@@ -65493,21 +65465,6 @@
       "ms": 113430,
       "name": "Still Got Time (feat. PARTYNEXTDOOR)",
       "short": 1,
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "ショーン・メンデス"
-      ],
-      "count": 1,
-      "first": "2026-10-09",
-      "id": "lastfm:stitches|ショーン・メンデス",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "last": "2026-10-09",
-      "ms": 0,
-      "name": "Stitches",
       "years": {
         "2026": 1
       }

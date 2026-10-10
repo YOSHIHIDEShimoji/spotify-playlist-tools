@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-09T20:25:40.655400+00:00",
+  "generated_at": "2026-10-10T19:39:28.974656+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 64274
+    "total": 64278
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 5,
+  "streak": 6,
   "weekly_top": [
+    {
+      "artists": [
+        "One Direction"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048513cf0191cca87a4bc7e34bc4a",
+      "name": "Story of My Life",
+      "track_id": "4nVBt6MZDDP6tRVdQTgxJg"
+    },
     {
       "artists": [
         "トレイン"
@@ -874,30 +883,30 @@
     },
     {
       "artists": [
-        "One Direction"
+        "ポスト・マローン"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048513cf0191cca87a4bc7e34bc4a",
-      "name": "Story of My Life",
-      "track_id": "4nVBt6MZDDP6tRVdQTgxJg"
+      "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+      "track_id": "0RiRZpuVRbi7oqRdSMwhQY"
     },
     {
       "artists": [
-        "イマジン・ドラゴンズ"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
-      "name": "Demons",
-      "track_id": "5qaEfEh1AtSdrdrByCP7qR"
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Counting Stars",
+      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
     },
     {
       "artists": [
-        "アン・マリー"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048511192ae62dfe52262a3cc3fed",
-      "name": "2002",
-      "track_id": "2BgEsaKNfHUdlh97KmvFyo"
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485146814e1b44e54d806753801e",
       "name": "Come and Get Your Love - Single Version",
       "track_id": "7GVUmCP00eSsqc4tzj1sDD"
-    },
-    {
-      "artists": [
-        "イマジン・ドラゴンズ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
-      "name": "Walking The Wire",
-      "track_id": "1y3bE5i57eUm3hfLAc7h08"
     }
   ]
 }

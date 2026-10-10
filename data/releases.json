@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-09T20:31:19.209000+00:00",
+  "generated_at": "2026-10-10T19:42:43.870036+00:00",
   "items": [
+    {
+      "album_id": "1m3Jun2PjCQAOL72bBExnT",
+      "album_name": "Kinda Love It",
+      "album_type": "single",
+      "artist": "Lainey Wilson",
+      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
+      "is_new": false,
+      "release_date": "2026-10-09"
+    },
     {
       "album_id": "4mu0jAPhEFU1f8KYltS3g0",
       "album_name": "Day and Night (Continued)",
@@ -24,17 +35,6 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "1m3Jun2PjCQAOL72bBExnT",
-      "album_name": "Kinda Love It",
-      "album_type": "single",
-      "artist": "Lainey Wilson",
-      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
-      "is_new": false,
-      "release_date": "2026-10-09"
-    },
-    {
       "album_id": "6bu9UAwyOykarcK9fJBjCz",
       "album_name": "Don’t Chart (from GTAVI: The Album)",
       "album_type": "single",
@@ -42,7 +42,7 @@
       "artist_id": "4kYSro6naA4h99UJvo89HB",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851390af57b0a65575a8673a262",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-08"
     },
     {
@@ -55,6 +55,17 @@
       "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
       "is_new": false,
       "release_date": "2026-10-08"
+    },
+    {
+      "album_id": "6w87m6AzjxlsbLF01WuXcE",
+      "album_name": "なごり雪 (ライブ)",
+      "album_type": "single",
+      "artist": "Aimyon",
+      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
+      "is_new": false,
+      "release_date": "2026-10-07"
     },
     {
       "album_id": "1pEll2AomI6UfGZkeIMbh7",
@@ -75,17 +86,6 @@
       "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851fcd6c22de6f3415597412a44",
-      "is_new": false,
-      "release_date": "2026-10-07"
-    },
-    {
-      "album_id": "6w87m6AzjxlsbLF01WuXcE",
-      "album_name": "なごり雪 (ライブ)",
-      "album_type": "single",
-      "artist": "Aimyon",
-      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
       "is_new": false,
       "release_date": "2026-10-07"
     },
@@ -123,13 +123,13 @@
       "release_date": "2026-10-03"
     },
     {
-      "album_id": "4onXZUS2f1g3BIMNiafrPm",
-      "album_name": "This Dream Of You",
+      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
+      "album_name": "2LOUD(ER)",
       "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -145,13 +145,24 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
-      "album_name": "2LOUD(ER)",
+      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
+      "album_name": "Way Too Late",
       "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
+      "artist": "Leony",
+      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "4onXZUS2f1g3BIMNiafrPm",
+      "album_name": "This Dream Of You",
+      "album_type": "single",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -167,17 +178,6 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
-      "album_name": "QRÖMELIFE",
-      "album_type": "album",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
       "album_id": "3ICK3lBLOuStuhttDJOtnq",
       "album_name": "Rubber Soul (Super Deluxe)",
       "album_type": "album",
@@ -185,17 +185,6 @@
       "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
-      "album_name": "Way Too Late",
-      "album_type": "single",
-      "artist": "Leony",
-      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -211,6 +200,28 @@
       "release_date": "2026-10-02"
     },
     {
+      "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
+      "album_name": "QRÖMELIFE",
+      "album_type": "album",
+      "artist": "Quavo",
+      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
+      "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
       "album_id": "0hk06AW1CaIssfiifr2bQ4",
       "album_name": "Zombie Walk",
       "album_type": "single",
@@ -218,28 +229,6 @@
       "artist_id": "1HXy83mY59h6ovkRVdupB0",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851f7de1e78bd5fd33efce027c1",
-      "is_new": true,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1d9iOObnSdMqH1ml6MxF56",
-      "album_name": "Only The Lonely",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
-      "album_name": "Dance With Me",
-      "album_type": "single",
-      "artist": "Bruno Mars",
-      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
       "is_new": false,
       "release_date": "2026-10-01"
     },
@@ -277,26 +266,26 @@
       "release_date": "2026-10-01"
     },
     {
-      "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
-      "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
+      "album_name": "Dance With Me",
+      "album_type": "single",
+      "artist": "Bruno Mars",
+      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
+      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
       "is_new": false,
       "release_date": "2026-10-01"
     },
     {
-      "album_id": "44KgY0Lw4LwXwK0xpU7TZD",
-      "album_name": "Destiny Journeys",
+      "album_id": "1d9iOObnSdMqH1ml6MxF56",
+      "album_name": "Only The Lonely",
       "album_type": "single",
-      "artist": "Vaundy",
-      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048516e11100a46ded4b8584e7d37",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
       "is_new": false,
-      "release_date": "2026-09-30"
+      "release_date": "2026-10-01"
     },
     {
       "album_id": "4Aa7p5Ii6nCNESA0GRUGSX",
@@ -306,6 +295,17 @@
       "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f",
+      "is_new": false,
+      "release_date": "2026-09-30"
+    },
+    {
+      "album_id": "44KgY0Lw4LwXwK0xpU7TZD",
+      "album_name": "Destiny Journeys",
+      "album_type": "single",
+      "artist": "Vaundy",
+      "artist_id": "2IUl3m1H1EQ7QfNbNWvgru",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048516e11100a46ded4b8584e7d37",
       "is_new": false,
       "release_date": "2026-09-30"
     },
