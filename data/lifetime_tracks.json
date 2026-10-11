@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T19:40:41.446430+00:00",
+  "generated_at": "2026-10-11T19:50:27.697187+00:00",
   "totals": {
     "artists": 1358,
-    "days": 2124,
+    "days": 2125,
     "ms": 12440720283,
-    "plays": 64278,
+    "plays": 64280,
     "since": "2019-09-05",
     "tracks": 4708
   },
@@ -13177,6 +13177,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 34,
+      "first": "2025-12-30",
+      "id": "05sCp83gcMm1iecYydKJS3",
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "last": "2026-10-11",
+      "ms": 5228475,
+      "name": "Let's Hurt Tonight",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 33
+      }
+    },
+    {
+      "artists": [
         "One Direction"
       ],
       "count": 34,
@@ -13317,23 +13334,6 @@
       "years": {
         "2025": 16,
         "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 33,
-      "first": "2025-12-30",
-      "id": "05sCp83gcMm1iecYydKJS3",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-09-13",
-      "ms": 5228475,
-      "name": "Let's Hurt Tonight",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 32
       }
     },
     {
@@ -28087,6 +28087,21 @@
     },
     {
       "artists": [
+        "Post Malone"
+      ],
+      "count": 5,
+      "first": "2026-08-28",
+      "id": "0RiRZpuVRbi7oqRdSMwhQY",
+      "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+      "last": "2026-10-11",
+      "ms": 0,
+      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Novelbright"
       ],
       "count": 5,
@@ -30558,21 +30573,6 @@
       "short": 1,
       "years": {
         "2020": 4
-      }
-    },
-    {
-      "artists": [
-        "Post Malone"
-      ],
-      "count": 4,
-      "first": "2026-08-28",
-      "id": "0RiRZpuVRbi7oqRdSMwhQY",
-      "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
-      "last": "2026-10-10",
-      "ms": 0,
-      "name": "Sunflower - Spider-Man: Into the Spider-Verse",
-      "years": {
-        "2026": 4
       }
     },
     {

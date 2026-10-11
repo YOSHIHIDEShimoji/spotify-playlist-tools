@@ -99,11 +99,11 @@
       }
     },
     {
-      "count": 2025,
+      "count": 2026,
       "first": "2021-04-17",
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "image": "https://i.scdn.co/image/ab676161000051743202f1bcacc6d8f581f32ffd",
-      "last": "2026-10-10",
+      "last": "2026-10-11",
       "ms": 335839304,
       "name": "OneRepublic",
       "tracks": 134,
@@ -113,7 +113,7 @@
         "2023": 1,
         "2024": 20,
         "2025": 367,
-        "2026": 1633
+        "2026": 1634
       }
     },
     {
@@ -3453,6 +3453,21 @@
     },
     {
       "count": 37,
+      "first": "2022-06-05",
+      "id": "246dkjvS1zLTtiykXe5h60",
+      "image": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
+      "last": "2026-10-11",
+      "ms": 5071484,
+      "name": "Post Malone",
+      "tracks": 18,
+      "years": {
+        "2022": 3,
+        "2025": 2,
+        "2026": 32
+      }
+    },
+    {
+      "count": 37,
       "first": "2025-12-20",
       "id": "6zO1dZ40fTZ5hY9NnnRJSk",
       "image": "https://i.scdn.co/image/ab676161000051741407ae93a2f527eefc82dfe3",
@@ -3506,21 +3521,6 @@
       "years": {
         "2025": 26,
         "2026": 10
-      }
-    },
-    {
-      "count": 36,
-      "first": "2022-06-05",
-      "id": "246dkjvS1zLTtiykXe5h60",
-      "image": "https://i.scdn.co/image/ab67616100005174e17c0aa1714a03d62b5ce4e0",
-      "last": "2026-08-28",
-      "ms": 5071484,
-      "name": "Post Malone",
-      "tracks": 18,
-      "years": {
-        "2022": 3,
-        "2025": 2,
-        "2026": 31
       }
     },
     {
@@ -8382,6 +8382,19 @@
     },
     {
       "count": 3,
+      "first": "2026-05-28",
+      "id": "1zNqQNIdeOUZHb8zbZRFMX",
+      "image": "https://i.scdn.co/image/ab67616100005174bccdbb98ab5d54454cd0fe85",
+      "last": "2026-10-11",
+      "ms": 304044,
+      "name": "Swae Lee",
+      "tracks": 2,
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "count": 3,
       "first": "2022-03-05",
       "last": "2024-07-21",
       "ms": 450956,
@@ -10461,19 +10474,6 @@
       "tracks": 1,
       "years": {
         "2021": 2
-      }
-    },
-    {
-      "count": 2,
-      "first": "2026-05-28",
-      "id": "1zNqQNIdeOUZHb8zbZRFMX",
-      "image": "https://i.scdn.co/image/ab67616100005174bccdbb98ab5d54454cd0fe85",
-      "last": "2026-05-29",
-      "ms": 304044,
-      "name": "Swae Lee",
-      "tracks": 1,
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -18276,5 +18276,5 @@
       }
     }
   ],
-  "generated_at": "2026-10-10T19:40:41.428461+00:00"
+  "generated_at": "2026-10-11T19:50:27.679332+00:00"
 }
