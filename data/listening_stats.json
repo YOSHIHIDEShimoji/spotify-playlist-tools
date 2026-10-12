@@ -28,7 +28,7 @@
       "artists": [
         "Naomi Scott"
       ],
-      "count": 273,
+      "count": 274,
       "name": "Speechless (Full)",
       "track_id": "0XPsOSYzDJZJArevQNm2AR"
     },
@@ -172,7 +172,7 @@
       "artists": [
         "Clean Bandit"
       ],
-      "count": 151,
+      "count": 152,
       "name": "Symphony (feat. Zara Larsson)",
       "track_id": "1x5sYLZiu9r5E43kMlt9f8"
     },
@@ -242,6 +242,14 @@
     },
     {
       "artists": [
+        "ZAYN"
+      ],
+      "count": 140,
+      "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
+    },
+    {
+      "artists": [
         "Eve"
       ],
       "count": 140,
@@ -255,14 +263,6 @@
       "count": 138,
       "name": "Another Girl - Remastered 2009",
       "track_id": "7hefVXaGsFPesbK6fKwS6F"
-    },
-    {
-      "artists": [
-        "ZAYN"
-      ],
-      "count": 138,
-      "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
-      "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
     },
     {
       "artists": [
@@ -626,6 +626,14 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 107,
+      "name": "Payphone",
+      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 106,
@@ -655,14 +663,6 @@
       "count": 106,
       "name": "Oblivion",
       "track_id": "79npfYK6N5RnBc1jiaoHCr"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 106,
-      "name": "Payphone",
-      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-11T19:49:08.871956+00:00",
+  "generated_at": "2026-10-12T22:40:39.200419+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,9 +813,361 @@
       5000,
       10000
     ],
-    "total": 64280
+    "total": 64320
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 7,
-  "weekly_top": []
+  "streak": 8,
+  "weekly_top": [
+    {
+      "artists": [
+        "サブリナ・カーペンター"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485138b27a27cea311f34bb68eff",
+      "name": "Paris",
+      "track_id": "359HNzfOXhCMHB1pNKhyfH"
+    },
+    {
+      "artists": [
+        "Ed Sheeran & Justin Bieber"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851460675584aa9e4bd2d1a4ce8",
+      "name": "I Don't Care (with Justin Bieber)",
+      "track_id": "3HVWdVOQ0ZA45FuZGSfvns"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "name": "Moves Like Jagger - Studio Recording From \"The Voice\" Performance",
+      "track_id": "7pYfyrMNPn3wtoCyqcTVoI"
+    },
+    {
+      "artists": [
+        "ゼイン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518a666ed36f975ba78b1c866e",
+      "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
+    },
+    {
+      "artists": [
+        "レディー・ガガ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e691217483df8798445c82e2",
+      "name": "Poker Face",
+      "track_id": "1QV6tiMFM6fSOKOGLMHYYg"
+    },
+    {
+      "artists": [
+        "クリーン・バンディット"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515b1130d050c4cd2295999d85",
+      "name": "Symphony (feat. Zara Larsson)",
+      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
+    },
+    {
+      "artists": [
+        "Why Don't We"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851b503cdb444b28826c4ca9217",
+      "name": "8 Letters",
+      "track_id": "4zRZAmBQP8vhNPf9i9opXt"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
+      "name": "End Game",
+      "track_id": "2x0WlnmfG39ZuDmstl9xfX"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Off My Face",
+      "track_id": "3T03rPwlL8NVk1yIaxeD8U"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+      "name": "Out Of My League",
+      "track_id": "3JSATYGj6yxP1Vc1b49SSK"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+      "name": "DAISIES",
+      "track_id": "5BZsQlgw21vDOAjoqkNgKb"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
+      "name": "Boyfriend",
+      "track_id": "3UGIZ8qcrMTwzLbx6Kttqt"
+    },
+    {
+      "artists": [
+        "エリー・ゴールディング"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc12b2bd6884bd1de21b6bae",
+      "name": "Still Falling For You - From \"Bridget Jones's Baby\"",
+      "track_id": "3odrUVQ9tvRpkC9II2oWzx"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519f05db24a0ce9b5d02b87408",
+      "name": "Lifetime",
+      "track_id": "3kZLeZr4StCy1tlOBRJrUH"
+    },
+    {
+      "artists": [
+        "エド・シーラン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517f86f3a0572c58220e834b6a",
+      "name": "Regrets",
+      "track_id": "3ofhhx5VVZqgHlGeW9cKak"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "ten years time",
+      "track_id": "2OupMbGCv1k6UDN0ay6sdt"
+    },
+    {
+      "artists": [
+        "アレッソ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e3cb8f24532aab90426a589",
+      "name": "In Your Eyes",
+      "track_id": "0NIIKZEed0nXPz4lHnMaZg"
+    },
+    {
+      "artists": [
+        "パニック！アット・ザ・ディスコ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851c5148520a59be191eea16989",
+      "name": "High Hopes",
+      "track_id": "1rqqCSm0Qe4I9rUvWncaom"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fb7dcc6287dca96c1c8eda29",
+      "name": "Reply To This",
+      "track_id": "3ytuqgUI0BNCDijjxC6jZg"
+    },
+    {
+      "artists": [
+        "ナオミ・スコット"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
+      "name": "Speechless (Full)",
+      "track_id": "0XPsOSYzDJZJArevQNm2AR"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Don't Look Down",
+      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517ee0e0e83730306ce40970ad",
+      "name": "I'm About to Come Alive",
+      "track_id": "1X6rphXM9py87tL3vUzTny"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Heaven",
+      "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851254c8a09649551438b20f4c0",
+      "name": "All Too Well",
+      "track_id": "6GNRkaWUB0Lwc19SdkTgx8"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
+      "name": "Charlie Brown",
+      "track_id": "0x5CxIxVZUxwOQbwiVLS6J"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+      "name": "GO BABY",
+      "track_id": "01p5urrGw5fuFCcfT7PBgc"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "Love Runs Out",
+      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
+    },
+    {
+      "artists": [
+        "デュア・リパ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a",
+      "name": "Levitating (feat. DaBaby)",
+      "track_id": "5nujrmhLynf4yMoMtj8AQF"
+    },
+    {
+      "artists": [
+        "ブルーノ・マーズ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06",
+      "name": "Finesse - Remix; feat. Cardi B",
+      "track_id": "3Vo4wInECJQuz9BIBMOu8i"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "drunk text",
+      "track_id": "2XhYeR0oaKHvm4p1Z5Uj1L"
+    },
+    {
+      "artists": [
+        "マルーン５"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "name": "Payphone",
+      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
+    },
+    {
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512a6c9aa7070279c1c3193338",
+      "name": "Look At My Life",
+      "track_id": "65aS53swxB9LUGbHDKdvvB"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Run",
+      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851758b33594e96cbf1a5a16363",
+      "name": "good old days",
+      "track_id": "1XcPFhBIMCUgXlBC5CuBOM"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Room For You",
+      "track_id": "0ZR0D8BOyH1b8vtrSnA5Xu"
+    },
+    {
+      "artists": [
+        "The 1975"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485144f4dc60efe4d783554d8ab4",
+      "name": "Chocolate",
+      "track_id": "73jr4K3kGitibWouEgJzgq"
+    },
+    {
+      "artists": [
+        "ワン・ダイレクション"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
+      "name": "I Would",
+      "track_id": "6Fe0bY8vDxBnN7rDgu3ACE"
+    },
+    {
+      "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
+      "name": "The Archer",
+      "track_id": "3pHkh7d0lzM2AldUtz2x37"
+    },
+    {
+      "artists": [
+        "マシュメロ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851112639a71195d291216ee2b2",
+      "name": "Here With Me",
+      "track_id": "2jpKZFnBk98Ud3EoZiBOTf"
+    }
+  ]
 }

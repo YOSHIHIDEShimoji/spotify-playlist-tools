@@ -37,7 +37,7 @@
       "month": "2026-09"
     },
     {
-      "count": 163,
+      "count": 203,
       "month": "2026-10"
     }
   ],
@@ -47,10 +47,10 @@
     "dow": 3,
     "hour": 9
   },
-  "plays": 12598,
+  "plays": 12638,
   "top_artists": [
     {
-      "count": 1634,
+      "count": 1631,
       "name": "OneRepublic"
     },
     {
@@ -66,7 +66,7 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 373,
+      "count": 376,
       "name": "Henry Moodie"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 320,
+      "count": 321,
       "name": "Maroon 5"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Novelbright"
     },
     {
-      "count": 238,
+      "count": 244,
       "name": "ワンリパブリック"
     },
     {
@@ -149,19 +149,19 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 71,
-      "name": "I Lived",
-      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
-    },
-    {
-      "artists": [
         "ALI"
       ],
       "count": 70,
       "name": "LOST IN PARADISE",
       "track_id": "7kRKlFCFLAUwt43HWtauhX"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 70,
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -231,7 +231,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 58,
+      "count": 57,
       "name": "Counting Stars",
       "track_id": "6sy3LkhNFjJWlaeSMNwQ62"
     },
@@ -277,19 +277,19 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 54,
+      "name": "Run",
+      "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
+    },
+    {
+      "artists": [
         "YUNGBLUD"
       ],
       "count": 53,
       "name": "Abyss - from Kaiju No. 8",
       "track_id": "2kLWSmKHhfUBepkIA9oNe5"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 53,
-      "name": "Love Runs Out",
-      "track_id": "5BJSZocnCeSNeYMj3iVqM7"
     }
   ],
   "year": "2026"

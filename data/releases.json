@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:52:31.319189+00:00",
+  "generated_at": "2026-10-12T22:43:54.600338+00:00",
   "items": [
     {
       "album_id": "3hhjZ6pIGXNGtxS8PNem13",
@@ -9,7 +9,7 @@
       "artist_id": "6S8w5rLsEwjN21jQeRES0n",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851cb424f73d963536f1ec12359",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-12"
     },
     {
@@ -24,17 +24,6 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "4mu0jAPhEFU1f8KYltS3g0",
-      "album_name": "Day and Night (Continued)",
-      "album_type": "album",
-      "artist": "Carly Rae Jepsen",
-      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d2a7610fd1201c1e37683b8d",
-      "is_new": false,
-      "release_date": "2026-10-09"
-    },
-    {
       "album_id": "1m3Jun2PjCQAOL72bBExnT",
       "album_name": "Kinda Love It",
       "album_type": "single",
@@ -42,6 +31,17 @@
       "artist_id": "6tPHARSq45lQ8BSALCfkFC",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
+      "is_new": false,
+      "release_date": "2026-10-09"
+    },
+    {
+      "album_id": "4mu0jAPhEFU1f8KYltS3g0",
+      "album_name": "Day and Night (Continued)",
+      "album_type": "album",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d2a7610fd1201c1e37683b8d",
       "is_new": false,
       "release_date": "2026-10-09"
     },
@@ -79,17 +79,6 @@
       "release_date": "2026-10-07"
     },
     {
-      "album_id": "7uNQqNKsRfLZWQrzqFSCpZ",
-      "album_name": "Livin' On A Prayer",
-      "album_type": "single",
-      "artist": "Beverly",
-      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851fcd6c22de6f3415597412a44",
-      "is_new": false,
-      "release_date": "2026-10-07"
-    },
-    {
       "album_id": "1pEll2AomI6UfGZkeIMbh7",
       "album_name": "Oh My My (Deluxe Edition)",
       "album_type": "album",
@@ -97,6 +86,17 @@
       "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
+      "is_new": false,
+      "release_date": "2026-10-07"
+    },
+    {
+      "album_id": "7uNQqNKsRfLZWQrzqFSCpZ",
+      "album_name": "Livin' On A Prayer",
+      "album_type": "single",
+      "artist": "Beverly",
+      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851fcd6c22de6f3415597412a44",
       "is_new": false,
       "release_date": "2026-10-07"
     },
@@ -112,17 +112,6 @@
       "release_date": "2026-10-04"
     },
     {
-      "album_id": "7xLMVpgfwwxTPmAOPXwexb",
-      "album_name": "back number \"Grateful Yesterdays Tour 2026\" Live at NISSAN STADIUM",
-      "album_type": "album",
-      "artist": "back number",
-      "artist_id": "6rs1KAoQnFalSqSU4LTh8g",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851165ac10d7726575f7601a2df",
-      "is_new": false,
-      "release_date": "2026-10-03"
-    },
-    {
       "album_id": "4qm2tySB0uod6NJstnJuTz",
       "album_name": "QRÖMELIFE (Extended Version)",
       "album_type": "album",
@@ -134,68 +123,24 @@
       "release_date": "2026-10-03"
     },
     {
-      "album_id": "1cuYuhlcRa6TomHkICwTL6",
-      "album_name": "WIDE AWAKE",
-      "album_type": "single",
-      "artist": "me n ü",
-      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4cAOsAHg9s8i5gsnia27OD",
-      "album_name": "From Zimmer to Strauss",
+      "album_id": "7xLMVpgfwwxTPmAOPXwexb",
+      "album_name": "back number \"Grateful Yesterdays Tour 2026\" Live at NISSAN STADIUM",
       "album_type": "album",
-      "artist": "Aleksey Igudesman",
-      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
+      "artist": "back number",
+      "artist_id": "6rs1KAoQnFalSqSU4LTh8g",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851165ac10d7726575f7601a2df",
       "is_new": false,
-      "release_date": "2026-10-02"
+      "release_date": "2026-10-03"
     },
     {
-      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
-      "album_name": "2LOUD(ER)",
+      "album_id": "2XhSVmF3l0I59LYAn9J6Ph",
+      "album_name": "AIYOU",
       "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "3ICK3lBLOuStuhttDJOtnq",
-      "album_name": "Rubber Soul (Super Deluxe)",
-      "album_type": "album",
-      "artist": "The Beatles",
-      "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
-      "album_name": "Way Too Late",
-      "album_type": "single",
-      "artist": "Leony",
-      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4onXZUS2f1g3BIMNiafrPm",
-      "album_name": "This Dream Of You",
-      "album_type": "single",
-      "artist": "Martin Garrix",
-      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "artist": "Eve",
+      "artist_id": "58oPVy7oihAEXE0Ott6JOf",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048512b8f6c6ee9df700c61aaeb66",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -211,48 +156,70 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "2XhSVmF3l0I59LYAn9J6Ph",
-      "album_name": "AIYOU",
+      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
+      "album_name": "2LOUD(ER)",
       "album_type": "single",
-      "artist": "Eve",
-      "artist_id": "58oPVy7oihAEXE0Ott6JOf",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048512b8f6c6ee9df700c61aaeb66",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
       "is_new": false,
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "1d9iOObnSdMqH1ml6MxF56",
-      "album_name": "Only The Lonely",
+      "album_id": "1cuYuhlcRa6TomHkICwTL6",
+      "album_name": "WIDE AWAKE",
       "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "artist": "me n ü",
+      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
+      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
       "is_new": false,
-      "release_date": "2026-10-01"
+      "release_date": "2026-10-02"
     },
     {
-      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
-      "album_name": "Dance With Me",
+      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
+      "album_name": "Way Too Late",
       "album_type": "single",
-      "artist": "Bruno Mars",
-      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
+      "artist": "Leony",
+      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
       "is_new": false,
-      "release_date": "2026-10-01"
+      "release_date": "2026-10-02"
     },
     {
-      "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
-      "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
+      "album_id": "3ICK3lBLOuStuhttDJOtnq",
+      "album_name": "Rubber Soul (Super Deluxe)",
       "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "artist": "The Beatles",
+      "artist_id": "3WrFJ7ztbogyGnTHbHJFl2",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
+      "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
       "is_new": false,
-      "release_date": "2026-10-01"
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "4cAOsAHg9s8i5gsnia27OD",
+      "album_name": "From Zimmer to Strauss",
+      "album_type": "album",
+      "artist": "Aleksey Igudesman",
+      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "4onXZUS2f1g3BIMNiafrPm",
+      "album_name": "This Dream Of You",
+      "album_type": "single",
+      "artist": "Martin Garrix",
+      "artist_id": "60d24wfXkVzDSfLS6hyCjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
+      "is_new": false,
+      "release_date": "2026-10-02"
     },
     {
       "album_id": "0hk06AW1CaIssfiifr2bQ4",
@@ -299,15 +266,37 @@
       "release_date": "2026-10-01"
     },
     {
-      "album_id": "4Aa7p5Ii6nCNESA0GRUGSX",
-      "album_name": "エメラルド",
-      "album_type": "single",
-      "artist": "Tatsuya Kitani",
-      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f",
+      "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
+      "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
       "is_new": false,
-      "release_date": "2026-09-30"
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "1d9iOObnSdMqH1ml6MxF56",
+      "album_name": "Only The Lonely",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
+      "is_new": false,
+      "release_date": "2026-10-01"
+    },
+    {
+      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
+      "album_name": "Dance With Me",
+      "album_type": "single",
+      "artist": "Bruno Mars",
+      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
+      "is_new": false,
+      "release_date": "2026-10-01"
     },
     {
       "album_id": "44KgY0Lw4LwXwK0xpU7TZD",
@@ -321,15 +310,15 @@
       "release_date": "2026-09-30"
     },
     {
-      "album_id": "5QhIKoyRYabBtE2Jqdp080",
-      "album_name": "Illuminate (10th Anniversary Edition) Deluxe",
-      "album_type": "album",
-      "artist": "Shawn Mendes",
-      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dd0d95a73f3b48cb2e28b4ca",
+      "album_id": "4Aa7p5Ii6nCNESA0GRUGSX",
+      "album_name": "エメラルド",
+      "album_type": "single",
+      "artist": "Tatsuya Kitani",
+      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485146a625feddf73aeb5ed9337f",
       "is_new": false,
-      "release_date": "2026-09-29"
+      "release_date": "2026-09-30"
     },
     {
       "album_id": "7AXlO78PDDBqL32BTbf5C6",
@@ -339,6 +328,17 @@
       "artist_id": "2r5elgyPQ19vDG3xSQn39k",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048510f5c6e4b384bc3e36c588fdb",
+      "is_new": false,
+      "release_date": "2026-09-29"
+    },
+    {
+      "album_id": "5QhIKoyRYabBtE2Jqdp080",
+      "album_name": "Illuminate (10th Anniversary Edition) Deluxe",
+      "album_type": "album",
+      "artist": "Shawn Mendes",
+      "artist_id": "7n2wHs1TKAczGzO7Dd2rGr",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dd0d95a73f3b48cb2e28b4ca",
       "is_new": false,
       "release_date": "2026-09-29"
     }
