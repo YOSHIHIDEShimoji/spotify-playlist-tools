@@ -37,7 +37,7 @@
       "month": "2026-09"
     },
     {
-      "count": 203,
+      "count": 219,
       "month": "2026-10"
     }
   ],
@@ -47,10 +47,10 @@
     "dow": 3,
     "hour": 9
   },
-  "plays": 12638,
+  "plays": 12654,
   "top_artists": [
     {
-      "count": 1631,
+      "count": 1633,
       "name": "OneRepublic"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 321,
+      "count": 320,
       "name": "Maroon 5"
     },
     {
@@ -86,12 +86,12 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 249,
-      "name": "Novelbright"
+      "count": 250,
+      "name": "ワンリパブリック"
     },
     {
-      "count": 244,
-      "name": "ワンリパブリック"
+      "count": 249,
+      "name": "Novelbright"
     },
     {
       "count": 237,
@@ -175,15 +175,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 63,
-      "name": "Apologize",
-      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 62,
+      "count": 64,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
@@ -191,9 +183,17 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 62,
+      "count": 64,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 63,
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
     {
       "artists": [
