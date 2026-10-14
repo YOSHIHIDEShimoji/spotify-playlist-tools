@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-13T20:55:08.345862+00:00",
+  "generated_at": "2026-10-14T19:52:11.739699+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 64336
+    "total": 64337
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 9,
+  "streak": 0,
   "weekly_top": [
     {
       "artists": [
@@ -835,6 +835,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851460675584aa9e4bd2d1a4ce8",
       "name": "I Don't Care (with Justin Bieber)",
       "track_id": "3HVWdVOQ0ZA45FuZGSfvns"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
+      "name": "AM Gold",
+      "track_id": "6xTQD1ixS5uca8B9P97vQc"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a7c79b8f85ff6e56b39a549c",
       "name": "Easy On Me",
       "track_id": "0gplL1WMoJ6iYaPgMCL0gX"
-    },
-    {
-      "artists": [
-        "アークティック・モンキーズ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
-      "name": "I Wanna Be Yours",
-      "track_id": "5XeFesFbtLpXzIVDNQP22n"
     }
   ]
 }

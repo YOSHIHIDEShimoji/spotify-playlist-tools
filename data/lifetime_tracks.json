@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-13T20:56:24.754463+00:00",
+  "generated_at": "2026-10-14T19:53:23.022099+00:00",
   "totals": {
     "artists": 1360,
     "days": 2127,
     "ms": 12440720283,
-    "plays": 64336,
+    "plays": 64337,
     "since": "2019-09-05",
     "tracks": 4708
   },
@@ -10109,6 +10109,23 @@
     },
     {
       "artists": [
+        "Train"
+      ],
+      "count": 46,
+      "first": "2025-02-25",
+      "id": "6xTQD1ixS5uca8B9P97vQc",
+      "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
+      "last": "2026-10-13",
+      "ms": 6493952,
+      "name": "AM Gold",
+      "short": 3,
+      "years": {
+        "2025": 19,
+        "2026": 27
+      }
+    },
+    {
+      "artists": [
         "Raven & Kreyn"
       ],
       "count": 46,
@@ -10288,23 +10305,6 @@
       "ms": 9273138,
       "name": "50 Ways to Say Goodbye",
       "short": 9,
-      "years": {
-        "2025": 19,
-        "2026": 26
-      }
-    },
-    {
-      "artists": [
-        "Train"
-      ],
-      "count": 45,
-      "first": "2025-02-25",
-      "id": "6xTQD1ixS5uca8B9P97vQc",
-      "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
-      "last": "2026-10-13",
-      "ms": 6493952,
-      "name": "AM Gold",
-      "short": 3,
       "years": {
         "2025": 19,
         "2026": 26
