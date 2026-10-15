@@ -1,6 +1,94 @@
 {
-  "generated_at": "2026-10-14T19:55:09.594522+00:00",
+  "generated_at": "2026-10-15T19:38:48.456536+00:00",
   "items": [
+    {
+      "album_id": "61Sce8yicPSTcvGnBQAKgb",
+      "album_name": "Baby",
+      "album_type": "single",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512cb34254bbc266bb3a6fb883",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "58PVPZMGDlHjNrpbHIiLDF",
+      "album_name": "Disney Guitar: A Day at the Parks",
+      "album_type": "album",
+      "artist": "Disney Peaceful Guitar",
+      "artist_id": "3oqzxUlHhjJ7auI4dVujKX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512b826976cfcbc8f1ab2605bc",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "2NwvbHp4ZeTBsEIMCHtyPI",
+      "album_name": "Disney Jr. Music: Toddler Morning Routine",
+      "album_type": "album",
+      "artist": "Disney Junior",
+      "artist_id": "2mo58TszPz2XVmsp1IZt0H",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
+      "album_name": "Before You Know It",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
+      "album_name": "The Devil's Tax Return: Volume 1",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
+      "album_name": "World Away (Orchestral Edit)",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "4UI0gVstrcRStFLYrsCD2T",
+      "album_name": "Fight For Love",
+      "album_type": "single",
+      "artist": "Alesso",
+      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485188fa9e1261c5c375f8e076a8",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "3AKaapaS16LC64f2wHsCkF",
+      "album_name": "Ultraviolet",
+      "album_type": "single",
+      "artist": "Cartoon",
+      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "is_new": true,
+      "release_date": "2026-10-16"
+    },
     {
       "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
       "album_name": "Starlight (Skrillex & ring noord Remix)",
@@ -9,7 +97,7 @@
       "artist_id": "1PNvaesh1mkKZucGhBuqgD",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-15"
     },
     {
@@ -20,6 +108,17 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "1V8Qu6CwkBfYucnCWxynq8",
+      "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "album_type": "single",
+      "artist": "Justice",
+      "artist_id": "1gR0gsQYfi6joyO1dlp76N",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512aba058da6c48694672c0fea",
       "is_new": true,
       "release_date": "2026-10-15"
     },
@@ -31,17 +130,28 @@
       "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048518e4862cb3ced621c2ade8f79",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
+      "album_name": "Blue Moon",
+      "album_type": "single",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
       "is_new": true,
       "release_date": "2026-10-15"
     },
     {
-      "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
-      "album_name": "雲を抜け風下へ私だけ",
+      "album_id": "24oSk67TQF7dlvkVJwWtWt",
+      "album_name": "咲き誇れ",
       "album_type": "single",
-      "artist": "ヨルシカ",
-      "artist_id": "4UK2Lzi6fBfUi9rpDt6cik",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485119be9f04a7bdde3b93b138ca",
+      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -68,17 +178,6 @@
       "release_date": "2026-10-14"
     },
     {
-      "album_id": "24oSk67TQF7dlvkVJwWtWt",
-      "album_name": "咲き誇れ",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
       "album_id": "2TFJL5W7rw97JggCUcyw4p",
       "album_name": "結縁音",
       "album_type": "album",
@@ -86,6 +185,17 @@
       "artist_id": "0JUEsKG18QuDt6SmyHDrnL",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048512ecd6893e43f1714e485902c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
+      "album_name": "雲を抜け風下へ私だけ",
+      "album_type": "single",
+      "artist": "ヨルシカ",
+      "artist_id": "4UK2Lzi6fBfUi9rpDt6cik",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485119be9f04a7bdde3b93b138ca",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -156,6 +266,17 @@
       "release_date": "2026-10-08"
     },
     {
+      "album_id": "1pEll2AomI6UfGZkeIMbh7",
+      "album_name": "Oh My My (Deluxe Edition)",
+      "album_type": "album",
+      "artist": "OneRepublic",
+      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
+      "is_new": false,
+      "release_date": "2026-10-07"
+    },
+    {
       "album_id": "7uNQqNKsRfLZWQrzqFSCpZ",
       "album_name": "Livin' On A Prayer",
       "album_type": "single",
@@ -174,17 +295,6 @@
       "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
-      "is_new": false,
-      "release_date": "2026-10-07"
-    },
-    {
-      "album_id": "1pEll2AomI6UfGZkeIMbh7",
-      "album_name": "Oh My My (Deluxe Edition)",
-      "album_type": "album",
-      "artist": "OneRepublic",
-      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
       "is_new": false,
       "release_date": "2026-10-07"
     },
@@ -222,6 +332,17 @@
       "release_date": "2026-10-03"
     },
     {
+      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
+      "album_name": "Way Too Late",
+      "album_type": "single",
+      "artist": "Leony",
+      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
       "album_id": "1wlMQzvQlRuf4zPpPBYoMT",
       "album_name": "QRÖMELIFE",
       "album_type": "album",
@@ -229,39 +350,6 @@
       "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048519123c8e39e04e529d2013df9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
-      "album_name": "2LOUD(ER)",
-      "album_type": "single",
-      "artist": "REI AMI",
-      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "1cuYuhlcRa6TomHkICwTL6",
-      "album_name": "WIDE AWAKE",
-      "album_type": "single",
-      "artist": "me n ü",
-      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
-      "is_new": false,
-      "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "4cAOsAHg9s8i5gsnia27OD",
-      "album_name": "From Zimmer to Strauss",
-      "album_type": "album",
-      "artist": "Aleksey Igudesman",
-      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -277,6 +365,17 @@
       "release_date": "2026-10-02"
     },
     {
+      "album_id": "4hqYy9ZTprs2AVhyG2SB4Y",
+      "album_name": "2LOUD(ER)",
+      "album_type": "single",
+      "artist": "REI AMI",
+      "artist_id": "6U1dV7aL68N7Gb0Naq34V5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea18692530cc8ebab5077ee9",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
       "album_id": "2XhSVmF3l0I59LYAn9J6Ph",
       "album_name": "AIYOU",
       "album_type": "single",
@@ -288,13 +387,24 @@
       "release_date": "2026-10-02"
     },
     {
-      "album_id": "4MGP41iZLRFvEf0uNqnLQx",
-      "album_name": "Way Too Late",
-      "album_type": "single",
-      "artist": "Leony",
-      "artist_id": "2NpPlwwDVYR5dIj0F31EcC",
+      "album_id": "4cAOsAHg9s8i5gsnia27OD",
+      "album_name": "From Zimmer to Strauss",
+      "album_type": "album",
+      "artist": "Aleksey Igudesman",
+      "artist_id": "7q3oXvVtpSmZRZuIYKz8TP",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ae7e7013204ca26776784ea0",
+      "image": "https://i.scdn.co/image/ab67616d000048517e49026135249f82da3350a4",
+      "is_new": false,
+      "release_date": "2026-10-02"
+    },
+    {
+      "album_id": "1cuYuhlcRa6TomHkICwTL6",
+      "album_name": "WIDE AWAKE",
+      "album_type": "single",
+      "artist": "me n ü",
+      "artist_id": "1hqo0TnaWxL6jVm0wdzi9f",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485169b005c964cb37084e406fd7",
       "is_new": false,
       "release_date": "2026-10-02"
     },
@@ -308,83 +418,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485142ded14d54ebbeaf7b0ef4ff",
       "is_new": false,
       "release_date": "2026-10-02"
-    },
-    {
-      "album_id": "7B5giyFNTfx6gaBxTEitH5",
-      "album_name": "Ball My Love (feat. Lil Baby)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fd3aaa49eb54c71569a46d72",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1RaXucTiEY2unJ6m0BigSp",
-      "album_name": "Away (feat. Offset)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515dbfc62c2968e57f473328bb",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "3RCFtDcQjWusmvFTYAfRlU",
-      "album_name": "House Music (feat. Justin Timberlake)",
-      "album_type": "single",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b6deda3ac14bda10aa219acc",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1obt3jGDAIi1ySXJDCG3Dl",
-      "album_name": "Vaiana 2: Schatzsuche an Simeas Geburtstag",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519816c5288972774103e718b3",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "0hk06AW1CaIssfiifr2bQ4",
-      "album_name": "Zombie Walk",
-      "album_type": "single",
-      "artist": "Bogoo's Best Day",
-      "artist_id": "1HXy83mY59h6ovkRVdupB0",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851f7de1e78bd5fd33efce027c1",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1AmI2JkYhtQj1ZrswQBMcw",
-      "album_name": "Dance With Me",
-      "album_type": "single",
-      "artist": "Bruno Mars",
-      "artist_id": "0du5cEVh5yTK9QJze8zA0C",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485130fd46c1173c878938b512d9",
-      "is_new": false,
-      "release_date": "2026-10-01"
-    },
-    {
-      "album_id": "1d9iOObnSdMqH1ml6MxF56",
-      "album_name": "Only The Lonely",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbc31e1dc5e3b40bb77f0b77",
-      "is_new": false,
-      "release_date": "2026-10-01"
     }
   ]
 }

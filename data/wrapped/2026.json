@@ -37,20 +37,20 @@
       "month": "2026-09"
     },
     {
-      "count": 220,
+      "count": 275,
       "month": "2026-10"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 988,
+  "new_tracks": 989,
   "peak": {
     "dow": 3,
-    "hour": 9
+    "hour": 21
   },
-  "plays": 12655,
+  "plays": 12710,
   "top_artists": [
     {
-      "count": 1633,
+      "count": 1634,
       "name": "OneRepublic"
     },
     {
@@ -66,7 +66,7 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 376,
+      "count": 377,
       "name": "Henry Moodie"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 320,
+      "count": 321,
       "name": "Maroon 5"
     },
     {
@@ -86,7 +86,7 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 250,
+      "count": 270,
       "name": "ワンリパブリック"
     },
     {
@@ -102,7 +102,7 @@
       "name": "Shawn Mendes"
     },
     {
-      "count": 162,
+      "count": 163,
       "name": "Bruno Mars"
     },
     {
@@ -175,7 +175,15 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 64,
+      "count": 63,
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 63,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
@@ -183,17 +191,9 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 64,
+      "count": 63,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 63,
-      "name": "Apologize",
-      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
     {
       "artists": [
@@ -239,6 +239,22 @@
       "artists": [
         "OneRepublic"
       ],
+      "count": 56,
+      "name": "Good Life - from One Night In Malibu",
+      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+    },
+    {
+      "artists": [
+        "Kygo"
+      ],
+      "count": 55,
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
       "count": 55,
       "name": "Marchin On",
       "track_id": "4BUtvtGTRvJB49Hx2F7lle"
@@ -248,24 +264,8 @@
         "OneRepublic"
       ],
       "count": 55,
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 55,
       "name": "Better Days",
       "track_id": "2K0r5GD5zYlEMx2M7ZMcqG"
-    },
-    {
-      "artists": [
-        "Kygo"
-      ],
-      "count": 54,
-      "name": "Lose Somebody",
-      "track_id": "1sgDyuLooyvEML4oHspNza"
     },
     {
       "artists": [

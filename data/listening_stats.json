@@ -746,14 +746,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 103,
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 103,
@@ -767,6 +759,14 @@
       "count": 102,
       "name": "怪盗",
       "track_id": "10Eyo4juZQFthKqlJgGMdp"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 102,
+      "name": "I Ain't Worried",
+      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-14T19:52:11.739699+00:00",
+  "generated_at": "2026-10-15T19:35:11.129810+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 64337
+    "total": 64392
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 0,
+  "streak": 1,
   "weekly_top": [
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Heaven",
+      "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
+    },
     {
       "artists": [
         "サブリナ・カーペンター"
@@ -829,12 +838,57 @@
     },
     {
       "artists": [
+        "エド・シーラン"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048517f86f3a0572c58220e834b6a",
+      "name": "Regrets",
+      "track_id": "3ofhhx5VVZqgHlGeW9cKak"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
+      "name": "Charlie Brown",
+      "track_id": "0x5CxIxVZUxwOQbwiVLS6J"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "Love Runs Out",
+      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
+    },
+    {
+      "artists": [
         "Ed Sheeran & Justin Bieber"
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851460675584aa9e4bd2d1a4ce8",
       "name": "I Don't Care (with Justin Bieber)",
       "track_id": "3HVWdVOQ0ZA45FuZGSfvns"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "Room For You",
+      "track_id": "0ZR0D8BOyH1b8vtrSnA5Xu"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
+      "name": "All the Right Moves",
+      "track_id": "5XRHGXut00SrJUFmcn2lQF"
     },
     {
       "artists": [
@@ -851,17 +905,8 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Someday",
-      "track_id": "6aDsgHPZsMztSbZernzlF8"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485102701cfe03aca6827b5c5449",
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+      "name": "Ships + Tides",
+      "track_id": "0GUncXNah8KoaErnDd7H1L"
     },
     {
       "artists": [
@@ -955,15 +1000,6 @@
     },
     {
       "artists": [
-        "エド・シーラン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048517f86f3a0572c58220e834b6a",
-      "name": "Regrets",
-      "track_id": "3ofhhx5VVZqgHlGeW9cKak"
-    },
-    {
-      "artists": [
         "Henry Moodie"
       ],
       "count": 1,
@@ -1027,15 +1063,6 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "name": "Heaven",
-      "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
-    },
-    {
-      "artists": [
         "テイラー・スウィフト"
       ],
       "count": 1,
@@ -1045,30 +1072,12 @@
     },
     {
       "artists": [
-        "コールドプレイ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
-      "name": "Charlie Brown",
-      "track_id": "0x5CxIxVZUxwOQbwiVLS6J"
-    },
-    {
-      "artists": [
         "ジャスティン・ビーバー"
       ],
       "count": 1,
       "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
       "name": "GO BABY",
       "track_id": "01p5urrGw5fuFCcfT7PBgc"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "name": "Love Runs Out",
-      "track_id": "3cOO5IQtOYs7huq4Z6lYfr"
     },
     {
       "artists": [
@@ -1135,15 +1144,6 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "Room For You",
-      "track_id": "0ZR0D8BOyH1b8vtrSnA5Xu"
-    },
-    {
-      "artists": [
         "The 1975"
       ],
       "count": 1,
@@ -1195,15 +1195,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048518a666ed36f975ba78b1c866e",
       "name": "Dusk Till Dawn (feat. Sia) - Radio Edit",
       "track_id": "1j4kHkkpqZRBwE0A4CN4Yv"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
-      "name": "All the Right Moves",
-      "track_id": "5XRHGXut00SrJUFmcn2lQF"
     },
     {
       "artists": [
@@ -1267,6 +1258,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a7c79b8f85ff6e56b39a549c",
       "name": "Easy On Me",
       "track_id": "0gplL1WMoJ6iYaPgMCL0gX"
+    },
+    {
+      "artists": [
+        "アークティック・モンキーズ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514ae1c4c5c45aabe565499163",
+      "name": "I Wanna Be Yours",
+      "track_id": "5XeFesFbtLpXzIVDNQP22n"
     }
   ]
 }
