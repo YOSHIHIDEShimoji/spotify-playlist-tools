@@ -26,7 +26,7 @@ Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub 
 ├── import_history.py  # 拡張ストリーミング履歴（Spotify のエクスポート）→ 年別 gz JSONL（一度きり）
 ├── recommend.py  # 似ているアーティスト/曲（Last.fm 類似度 × 生涯再生回数）
 ├── upcoming.py   # 発売予定（MusicBrainz。Spotify に未発売を返す API が無いため）
-├── one_year_ago.py  # 「1年前の今日」プレイリストを日替わりで入れ替える
+├── one_year_ago.py  # 「This Day, Last Year」（1年前の今日）プレイリストを日替わりで入れ替える
 │
 ├── artist_class_cache.json  # classify.py の永続キャッシュ（コミット対象）
 ├── sync_state.json          # sync.py のスナップショット（双方向同期用・コミット対象）
@@ -184,7 +184,7 @@ DEST_PLAYLIST_ID=<アーカイブ先のID>
 
 ---
 
-### one_year_ago.py — 「1年前の今日」プレイリスト
+### one_year_ago.py — 「This Day, Last Year」プレイリスト（1年前の今日）
 
 1年前の同じ日（日本時間）に再生した曲を、聴いた順・重複なしでプレイリストへ丸ごと入れ替える。
 その日に1曲も聴いていなければ、前後でいちばん近い「聴いた日」（同じ距離なら前の日）で代用し、

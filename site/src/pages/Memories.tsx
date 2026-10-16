@@ -106,9 +106,9 @@ function OnThisDayBlock({ onTrack }: { onTrack: (id: string) => void }) {
         {tx("What you were playing on this date in past years.", "同じ日付に、過去の年で聴いていた曲。")}
       </p>
       <div style={{ marginBottom: "var(--sp-3)" }}>
-        {/* 1年前の今日の曲は、毎日0時ごろに Spotify のプレイリストへ入れ替わる（one_year_ago.py） */}
+        {/* 1年前の今日の曲は、毎日0時ごろに「This Day, Last Year」プレイリストへ入れ替わる（one_year_ago.py） */}
         <a className="pill pill-green" href={ONE_YEAR_AGO_PLAYLIST_URL} target="_blank" rel="noreferrer">
-          {tx("Open “1年前の今日” in Spotify", "「1年前の今日」を Spotify で聴く")}
+          {tx("Play “This Day, Last Year” on Spotify", "「This Day, Last Year」を Spotify で聴く")}
         </a>
       </div>
       {shown.map((y) => (
