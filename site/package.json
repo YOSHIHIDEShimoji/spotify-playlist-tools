@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "build:vercel": "bash fetch-data.sh && tsc -b && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc -b --noEmit"
+    "typecheck": "tsc -b --noEmit && tsc -p tsconfig.api.json"
   },
   "dependencies": {
     "react": "^18.3.1",

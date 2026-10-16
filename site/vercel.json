@@ -7,5 +7,11 @@
     "deploymentEnabled": {
       "data": false
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/one-year-ago",
+      "schedule": "0 15 * * *"
+    }
+  ]
 }
