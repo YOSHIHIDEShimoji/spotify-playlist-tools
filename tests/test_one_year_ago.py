@@ -114,7 +114,9 @@ def test_describe_substituted_day_says_so():
 
 
 def test_describe_no_plays_at_all():
-    assert "再生記録がありません" in oya.describe(D, None, 0)
+    text = oya.describe(D, None, 0)
+    # 探した範囲（前後30日）を正しく書く。実際の探索幅と説明が食い違わないように
+    assert "前後30日は再生記録がありません" in text
 
 
 # ─────────────────────────── 全体 ───────────────────────────
@@ -151,10 +153,11 @@ def test_build_substitutes_nearest_day_when_target_is_silent():
 
 
 def test_build_uses_default_search_window():
-    # 既定の探索幅（30日）が build 経由で効いていること。31日離れた日しか無ければ空
-    recs = [_p("2025-11-16T01:00:00Z", "x")]  # 31日後
-    plan = oya.build(recs, date(2026, 10, 16))
-    assert plan["used"] is None and plan["track_ids"] == []
+    # 既定の探索幅（30日）が build 経由で効いていること。30日ちょうどは拾い、31日は拾わない
+    near = oya.build([_p("2025-11-15T01:00:00Z", "x")], date(2026, 10, 16))  # 30日後
+    assert near["used"] == date(2025, 11, 15) and near["track_ids"] == ["x"]
+    far = oya.build([_p("2025-11-16T01:00:00Z", "x")], date(2026, 10, 16))  # 31日後
+    assert far["used"] is None and far["track_ids"] == []
 
 
 def test_build_with_no_plays_anywhere_is_empty():
@@ -212,6 +215,27 @@ def test_apply_does_not_retry_add(no_sleep):
     with pytest.raises(spotipy.SpotifyException):
         oya.apply(sp, "pid", [f"t{i}" for i in range(150)], "desc")
     assert sp.calls.count("add") == 1
+
+
+def test_apply_stops_when_replace_keeps_failing(no_sleep):
+    """置き換えが再試行を使い切って失敗したら、追加にも説明欄にも進まず例外で止まる。
+
+    握りつぶして進むと、昨日の中身に今日の残りを継ぎ足し、説明欄だけ今日になる
+    （中身と説明が食い違ったまま成功扱いになる）。
+    """
+    sp = _Sp(fail={"replace": core.RETRY_ATTEMPTS})
+    with pytest.raises(spotipy.SpotifyException):
+        oya.apply(sp, "pid", [f"t{i}" for i in range(150)], "desc")
+    assert sp.calls.count("replace") == core.RETRY_ATTEMPTS
+    assert sp.added == [] and sp.description is None
+
+
+def test_apply_retries_details_on_transient_error(no_sleep):
+    # 説明欄の書き換えも冪等なので再試行する（落とすと中身は今日・説明は昨日のままになる）
+    sp = _Sp(fail={"details": 1})
+    oya.apply(sp, "pid", ["a"], "desc")
+    assert sp.calls.count("details") == 2
+    assert sp.description == "desc"
 
 
 def test_apply_order_is_replace_then_add_then_details():
