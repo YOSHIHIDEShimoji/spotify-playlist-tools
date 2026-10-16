@@ -26,6 +26,7 @@ Spotify プレイリストを自動管理する4つのツール。毎晩 GitHub 
 ├── import_history.py  # 拡張ストリーミング履歴（Spotify のエクスポート）→ 年別 gz JSONL（一度きり）
 ├── recommend.py  # 似ているアーティスト/曲（Last.fm 類似度 × 生涯再生回数）
 ├── upcoming.py   # 発売予定（MusicBrainz。Spotify に未発売を返す API が無いため）
+├── one_year_ago.py  # 「1年前の今日」プレイリストを日替わりで入れ替える
 │
 ├── artist_class_cache.json  # classify.py の永続キャッシュ（コミット対象）
 ├── sync_state.json          # sync.py のスナップショット（双方向同期用・コミット対象）
@@ -180,6 +181,35 @@ python archive.py --dry-run
 SOURCE_PLAYLIST_ID=<Top 50 などのID>
 DEST_PLAYLIST_ID=<アーカイブ先のID>
 ```
+
+---
+
+### one_year_ago.py — 「1年前の今日」プレイリスト
+
+1年前の同じ日（日本時間）に再生した曲を、聴いた順・重複なしでプレイリストへ丸ごと入れ替える。
+その日に1曲も聴いていなければ、前後でいちばん近い「聴いた日」（同じ距離なら前の日）で代用し、
+どの日の曲かを説明欄に書く。2/29 は前の年に無いので 2/28 を使う。
+
+```bash
+python one_year_ago.py --data-dir <data ブランチの data/>
+python one_year_ago.py --data-dir <...> --dry-run
+```
+
+`one_year_ago.txt`:
+
+```
+PLAYLIST_ID=<「1年前の今日」プレイリストのID>
+```
+
+**起動のしかた（0時台に更新するため）**: GitHub の定期実行は実測で数時間遅れ・大半の間引きが
+あるので、主な起動は Vercel Cron（`site/vercel.json`・0:00〜0:59 JST のどこか）→
+`site/api/cron/one-year-ago.ts` → `one-year-ago.yml` の workflow_dispatch。同じワークフローの
+定期実行は保険（何回動いても中身は同じ）。Vercel の Production に次の2つの環境変数が要る:
+
+| 変数 | 内容 |
+|---|---|
+| `GITHUB_DISPATCH_TOKEN` | fine-grained PAT（このリポジトリの Actions: Read and write のみ） |
+| `CRON_SECRET` | 任意のランダム文字列。Vercel Cron が `Authorization: Bearer` で送る |
 
 ---
 

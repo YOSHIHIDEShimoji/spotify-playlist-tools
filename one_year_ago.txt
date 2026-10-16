@@ -1,0 +1,9 @@
+# Spotify playlist ID for one_year_ago.py
+#
+# PLAYLIST_ID: 「1年前の今日」プレイリスト（自分のアカウントの非公開プレイリスト）。
+#              中身は毎日 one_year_ago.py が丸ごと入れ替える。手で曲を足しても翌日には消える。
+#
+# Spotify アプリでプレイリストを右クリック → "シェア" → "Spotify URI をコピー"
+# 例: spotify:playlist:3425aPpfi7aEAqpKxfqQBK → ID 部分は 3425aPpfi7aEAqpKxfqQBK
+
+PLAYLIST_ID=3425aPpfi7aEAqpKxfqQBK

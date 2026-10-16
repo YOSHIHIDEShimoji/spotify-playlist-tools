@@ -7,6 +7,7 @@ import { ArtistDetail, LifetimeRow, TrackDetail } from "../components/Detail";
 import { formatDuration, formatDurationLong, useLifetimeArtists, useLifetimeTracks } from "../lib/lifetime";
 import type { RankedLifetimeArtist, RankedLifetimeTrack } from "../lib/lifetime";
 import { dowLabels, monthYear, useLang, useT } from "../lib/i18n";
+import { ONE_YEAR_AGO_PLAYLIST_URL } from "../lib/links";
 
 // 曲ID → アルバムアート URL。search_index から補完する（管理プレイリストに在る曲は必ず出る）。
 function useTrackImages(): Map<string, string | null> {
@@ -104,6 +105,12 @@ function OnThisDayBlock({ onTrack }: { onTrack: (id: string) => void }) {
       <p className="t-small" style={{ margin: "0 0 var(--sp-3)" }}>
         {tx("What you were playing on this date in past years.", "同じ日付に、過去の年で聴いていた曲。")}
       </p>
+      <div style={{ marginBottom: "var(--sp-3)" }}>
+        {/* 1年前の今日の曲は、毎日0時ごろに Spotify のプレイリストへ入れ替わる（one_year_ago.py） */}
+        <a className="pill pill-green" href={ONE_YEAR_AGO_PLAYLIST_URL} target="_blank" rel="noreferrer">
+          {tx("Open “1年前の今日” in Spotify", "「1年前の今日」を Spotify で聴く")}
+        </a>
+      </div>
       {shown.map((y) => (
         <div className="card" key={y.year} style={{ marginBottom: "var(--sp-3)" }}>
           <div className="t-heading" style={{ marginBottom: "var(--sp-2)" }}>
