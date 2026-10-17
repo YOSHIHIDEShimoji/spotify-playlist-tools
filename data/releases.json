@@ -1,61 +1,6 @@
 {
-  "generated_at": "2026-10-16T19:12:49.987605+00:00",
+  "generated_at": "2026-10-17T18:07:03.401390+00:00",
   "items": [
-    {
-      "album_id": "3AKaapaS16LC64f2wHsCkF",
-      "album_name": "Ultraviolet",
-      "album_type": "single",
-      "artist": "Cartoon",
-      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "1q9LM9xC5ebSY216u31FOx",
-      "album_name": "expectations (feat. Chappell Roan)",
-      "album_type": "single",
-      "artist": "Olivia Rodrigo",
-      "artist_id": "1McMsnEElThX1knmY4oliG",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
-      "is_new": true,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "2NwvbHp4ZeTBsEIMCHtyPI",
-      "album_name": "Disney Jr. Music: Toddler Morning Routine",
-      "album_type": "album",
-      "artist": "Disney Junior",
-      "artist_id": "2mo58TszPz2XVmsp1IZt0H",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
-      "album_name": "The Devil's Tax Return: Volume 1",
-      "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
-      "album_name": "World Away (Orchestral Edit)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
     {
       "album_id": "4UI0gVstrcRStFLYrsCD2T",
       "album_name": "Fight For Love",
@@ -68,13 +13,13 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
-      "album_name": "Before You Know It",
-      "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "album_id": "2NwvbHp4ZeTBsEIMCHtyPI",
+      "album_name": "Disney Jr. Music: Toddler Morning Routine",
+      "album_type": "album",
+      "artist": "Disney Junior",
+      "artist_id": "2mo58TszPz2XVmsp1IZt0H",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
+      "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -90,6 +35,72 @@
       "release_date": "2026-10-16"
     },
     {
+      "album_id": "1q9LM9xC5ebSY216u31FOx",
+      "album_name": "expectations (feat. Chappell Roan)",
+      "album_type": "single",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
+      "album_name": "The Devil's Tax Return: Volume 1",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "3AKaapaS16LC64f2wHsCkF",
+      "album_name": "Ultraviolet",
+      "album_type": "single",
+      "artist": "Cartoon",
+      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
+      "album_name": "World Away (Orchestral Edit)",
+      "album_type": "single",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
+      "album_name": "Before You Know It",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
+      "album_name": "Starlight (Skrillex & ring noord Remix)",
+      "album_type": "single",
+      "artist": "Danny L Harle",
+      "artist_id": "1PNvaesh1mkKZucGhBuqgD",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
       "album_id": "1V8Qu6CwkBfYucnCWxynq8",
       "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
       "album_type": "single",
@@ -97,17 +108,6 @@
       "artist_id": "1gR0gsQYfi6joyO1dlp76N",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048514c4af9f49f2c276dca687ced",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "7McbOLLAMviPWN9hca0qX0",
-      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
       "is_new": false,
       "release_date": "2026-10-15"
     },
@@ -123,14 +123,14 @@
       "release_date": "2026-10-15"
     },
     {
-      "album_id": "5s237tEKiXD5CeO1ISPDMD",
-      "album_name": "Knockin (feat. The Paradox)",
-      "album_type": "single",
-      "artist": "Lucky Daye",
-      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
+      "album_id": "7McbOLLAMviPWN9hca0qX0",
+      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
+      "is_new": false,
       "release_date": "2026-10-15"
     },
     {
@@ -145,37 +145,15 @@
       "release_date": "2026-10-15"
     },
     {
-      "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
-      "album_name": "Starlight (Skrillex & ring noord Remix)",
+      "album_id": "5s237tEKiXD5CeO1ISPDMD",
+      "album_name": "Knockin (feat. The Paradox)",
       "album_type": "single",
-      "artist": "Danny L Harle",
-      "artist_id": "1PNvaesh1mkKZucGhBuqgD",
+      "artist": "Lucky Daye",
+      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
+      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
       "is_new": false,
       "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "058a3vX1dIGCcIX7UeLVUU",
-      "album_name": "Kerst met Stitch",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851413e01d5a06dc6a61840a7a0",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
-      "album_id": "24oSk67TQF7dlvkVJwWtWt",
-      "album_name": "咲き誇れ",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
-      "is_new": false,
-      "release_date": "2026-10-14"
     },
     {
       "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
@@ -196,6 +174,28 @@
       "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "058a3vX1dIGCcIX7UeLVUU",
+      "album_name": "Kerst met Stitch",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851413e01d5a06dc6a61840a7a0",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "24oSk67TQF7dlvkVJwWtWt",
+      "album_name": "咲き誇れ",
+      "album_type": "single",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -233,17 +233,6 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "3wn6xCydBAGXLIhkh0LEc8",
-      "album_name": "Skylines",
-      "album_type": "album",
-      "artist": "Gavin Greenaway",
-      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516681ca7999a5c7cd4dbba0c8",
-      "is_new": false,
-      "release_date": "2026-10-09"
-    },
-    {
       "album_id": "1m3Jun2PjCQAOL72bBExnT",
       "album_name": "Kinda Love It",
       "album_type": "single",
@@ -255,15 +244,15 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "2VIFY2T5QbFo48sIqt3vZm",
-      "album_name": "Zombie (Live from the Riviera Theatre) [feat. Billy Corgan]",
-      "album_type": "single",
-      "artist": "YUNGBLUD",
-      "artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
+      "album_id": "3wn6xCydBAGXLIhkh0LEc8",
+      "album_name": "Skylines",
+      "album_type": "album",
+      "artist": "Gavin Greenaway",
+      "artist_id": "3TaTCYiv3QcamWjvRCcz6Q",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
+      "image": "https://i.scdn.co/image/ab67616d000048516681ca7999a5c7cd4dbba0c8",
       "is_new": false,
-      "release_date": "2026-10-08"
+      "release_date": "2026-10-09"
     },
     {
       "album_id": "6bu9UAwyOykarcK9fJBjCz",
@@ -277,15 +266,15 @@
       "release_date": "2026-10-08"
     },
     {
-      "album_id": "1pEll2AomI6UfGZkeIMbh7",
-      "album_name": "Oh My My (Deluxe Edition)",
-      "album_type": "album",
-      "artist": "OneRepublic",
-      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
+      "album_id": "2VIFY2T5QbFo48sIqt3vZm",
+      "album_name": "Zombie (Live from the Riviera Theatre) [feat. Billy Corgan]",
+      "album_type": "single",
+      "artist": "YUNGBLUD",
+      "artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
+      "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
       "is_new": false,
-      "release_date": "2026-10-07"
+      "release_date": "2026-10-08"
     },
     {
       "album_id": "6w87m6AzjxlsbLF01WuXcE",
@@ -310,6 +299,17 @@
       "release_date": "2026-10-07"
     },
     {
+      "album_id": "1pEll2AomI6UfGZkeIMbh7",
+      "album_name": "Oh My My (Deluxe Edition)",
+      "album_type": "album",
+      "artist": "OneRepublic",
+      "artist_id": "5Pwc4xIPtQLFEnJriah9YJ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
+      "is_new": false,
+      "release_date": "2026-10-07"
+    },
+    {
       "album_id": "2oreJngznewLWRBP7ujHTJ",
       "album_name": "butterfly",
       "album_type": "single",
@@ -319,28 +319,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048513e9317d15aab1c071a43cb28",
       "is_new": false,
       "release_date": "2026-10-04"
-    },
-    {
-      "album_id": "7xLMVpgfwwxTPmAOPXwexb",
-      "album_name": "back number \"Grateful Yesterdays Tour 2026\" Live at NISSAN STADIUM",
-      "album_type": "album",
-      "artist": "back number",
-      "artist_id": "6rs1KAoQnFalSqSU4LTh8g",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851165ac10d7726575f7601a2df",
-      "is_new": false,
-      "release_date": "2026-10-03"
-    },
-    {
-      "album_id": "4qm2tySB0uod6NJstnJuTz",
-      "album_name": "QRÖMELIFE (Extended Version)",
-      "album_type": "album",
-      "artist": "Quavo",
-      "artist_id": "0VRj0yCOv2FXJNP47XQnx5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c665784f302102897be2fee9",
-      "is_new": false,
-      "release_date": "2026-10-03"
     }
   ]
 }
