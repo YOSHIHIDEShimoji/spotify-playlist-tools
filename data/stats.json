@@ -157,7 +157,7 @@
       "decade": 1970
     },
     {
-      "count": 4,
+      "count": 5,
       "decade": 1980
     },
     {
@@ -169,11 +169,11 @@
       "decade": 2000
     },
     {
-      "count": 363,
+      "count": 369,
       "decade": 2010
     },
     {
-      "count": 342,
+      "count": 344,
       "decade": 2020
     }
   ],
@@ -341,7 +341,7 @@
           "decade": 1970
         },
         {
-          "count": 86,
+          "count": 87,
           "decade": 1980
         },
         {
@@ -353,15 +353,15 @@
           "decade": 2000
         },
         {
-          "count": 372,
+          "count": 378,
           "decade": 2010
         },
         {
-          "count": 354,
+          "count": 356,
           "decade": 2020
         }
       ],
-      "total": 1164
+      "total": 1173
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -704,7 +704,7 @@
             "decade": 1970
           },
           {
-            "count": 3,
+            "count": 4,
             "decade": 1980
           },
           {
@@ -716,15 +716,15 @@
             "decade": 2000
           },
           {
-            "count": 280,
+            "count": 286,
             "decade": 2010
           },
           {
-            "count": 259,
+            "count": 261,
             "decade": 2020
           }
         ],
-        "total": 603
+        "total": 612
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -862,6 +862,6 @@
       }
     ]
   },
-  "generated_at": "2026-10-17T18:04:09.516824+00:00",
-  "total": 806
+  "generated_at": "2026-10-18T18:23:10.662435+00:00",
+  "total": 815
 }

@@ -37,52 +37,52 @@
       "month": "2026-09"
     },
     {
-      "count": 412,
+      "count": 480,
       "month": "2026-10"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 1013,
+  "new_tracks": 1029,
   "peak": {
-    "dow": 3,
-    "hour": 21
+    "dow": 6,
+    "hour": 18
   },
-  "plays": 12847,
+  "plays": 12915,
   "top_artists": [
     {
-      "count": 1641,
+      "count": 1648,
       "name": "OneRepublic"
     },
     {
-      "count": 940,
+      "count": 941,
       "name": "The Beatles"
     },
     {
-      "count": 761,
+      "count": 762,
       "name": "Charlie Puth"
     },
     {
-      "count": 493,
+      "count": 495,
       "name": "Taylor Swift"
     },
     {
-      "count": 378,
+      "count": 379,
       "name": "Henry Moodie"
     },
     {
-      "count": 338,
+      "count": 340,
       "name": "Justin Bieber"
     },
     {
-      "count": 323,
+      "count": 325,
       "name": "Maroon 5"
     },
     {
-      "count": 289,
+      "count": 292,
       "name": "Ed Sheeran"
     },
     {
-      "count": 283,
+      "count": 285,
       "name": "ワンリパブリック"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Michael Jackson"
     },
     {
-      "count": 249,
+      "count": 251,
       "name": "Novelbright"
     },
     {
@@ -98,12 +98,12 @@
       "name": "Train"
     },
     {
-      "count": 169,
-      "name": "Bruno Mars"
+      "count": 168,
+      "name": "Shawn Mendes"
     },
     {
       "count": 168,
-      "name": "Shawn Mendes"
+      "name": "Bruno Mars"
     },
     {
       "count": 158,
@@ -126,7 +126,7 @@
       "name": "LANY"
     },
     {
-      "count": 126,
+      "count": 127,
       "name": "One Direction"
     }
   ],
@@ -261,6 +261,14 @@
     },
     {
       "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 55,
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 55,
@@ -274,14 +282,6 @@
       "count": 55,
       "name": "Run",
       "track_id": "6KL88T4Ma4ABXqzgUoEwkd"
-    },
-    {
-      "artists": [
-        "YUNGBLUD"
-      ],
-      "count": 54,
-      "name": "Abyss - from Kaiju No. 8",
-      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
     {
       "artists": [

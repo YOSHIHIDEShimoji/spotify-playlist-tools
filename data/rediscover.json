@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:05:10.120883+00:00",
+  "generated_at": "2026-10-18T18:24:09.793702+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -462,26 +462,6 @@
     },
     {
       "artists": [
-        "Queen"
-      ],
-      "count": 60,
-      "first": "2019-10-09",
-      "id": "1MX6kqZ8FOht5UnQuPl6Jj",
-      "image": "https://i.scdn.co/image/ab67616d000048512fcad2af6e3d43006c6f42c4",
-      "last": "2023-01-06",
-      "ms": 14071846,
-      "name": "I Want It All - Single Version",
-      "short": 26,
-      "years": {
-        "2019": 2,
-        "2020": 36,
-        "2021": 12,
-        "2022": 9,
-        "2023": 1
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 60,
@@ -551,6 +531,24 @@
       "short": 8,
       "years": {
         "2024": 52,
+        "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "Taro Iwashiro"
+      ],
+      "count": 56,
+      "first": "2023-12-20",
+      "id": "3Tcu6hwmuaJOd4HRNlaBzd",
+      "image": "https://i.scdn.co/image/ab67616d000048515a7c837c1decf4be5b0967af",
+      "last": "2025-08-04",
+      "ms": 7398368,
+      "name": "For Precious One",
+      "short": 7,
+      "years": {
+        "2023": 9,
+        "2024": 43,
         "2025": 4
       }
     }
