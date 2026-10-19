@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-18T18:26:19.019483+00:00",
+  "generated_at": "2026-10-19T20:53:15.775461+00:00",
   "items": [
+    {
+      "album_id": "2nOFPiKwZSQccxG0lakaEV",
+      "album_name": "expectations (feat. Chappell Roan) [wheel of misfortune]",
+      "album_type": "single",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851609b15ffbc826411e19226da",
+      "is_new": true,
+      "release_date": "2026-10-19"
+    },
     {
       "album_id": "7x1ecpq0KS8olPNzUJOyF6",
       "album_name": "her (boy version)",
@@ -9,19 +20,8 @@
       "artist_id": "164Uj4eKjl6zTBKfJLFKKK",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048516816991cce05aa43778451eb",
-      "is_new": true,
-      "release_date": "2026-10-19"
-    },
-    {
-      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
-      "album_name": "Before You Know It",
-      "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
       "is_new": false,
-      "release_date": "2026-10-16"
+      "release_date": "2026-10-19"
     },
     {
       "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
@@ -31,17 +31,6 @@
       "artist_id": "4sTQVOfp9vEMCemLw50sbu",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "2NwvbHp4ZeTBsEIMCHtyPI",
-      "album_name": "Disney Jr. Music: Toddler Morning Routine",
-      "album_type": "album",
-      "artist": "Disney Junior",
-      "artist_id": "2mo58TszPz2XVmsp1IZt0H",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -57,6 +46,17 @@
       "release_date": "2026-10-16"
     },
     {
+      "album_id": "3AKaapaS16LC64f2wHsCkF",
+      "album_name": "Ultraviolet",
+      "album_type": "single",
+      "artist": "Cartoon",
+      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
       "album_id": "1q9LM9xC5ebSY216u31FOx",
       "album_name": "expectations (feat. Chappell Roan)",
       "album_type": "single",
@@ -68,13 +68,24 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "3AKaapaS16LC64f2wHsCkF",
-      "album_name": "Ultraviolet",
-      "album_type": "single",
-      "artist": "Cartoon",
-      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "album_id": "2NwvbHp4ZeTBsEIMCHtyPI",
+      "album_name": "Disney Jr. Music: Toddler Morning Routine",
+      "album_type": "album",
+      "artist": "Disney Junior",
+      "artist_id": "2mo58TszPz2XVmsp1IZt0H",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
+      "album_name": "Before You Know It",
+      "album_type": "single",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -101,35 +112,13 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "7McbOLLAMviPWN9hca0qX0",
-      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
-      "album_name": "Starlight (Skrillex & ring noord Remix)",
+      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
+      "album_name": "Blue Moon",
       "album_type": "single",
-      "artist": "Danny L Harle",
-      "artist_id": "1PNvaesh1mkKZucGhBuqgD",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "5s237tEKiXD5CeO1ISPDMD",
-      "album_name": "Knockin (feat. The Paradox)",
-      "album_type": "single",
-      "artist": "Lucky Daye",
-      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
+      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
       "is_new": false,
       "release_date": "2026-10-15"
     },
@@ -145,6 +134,28 @@
       "release_date": "2026-10-15"
     },
     {
+      "album_id": "7McbOLLAMviPWN9hca0qX0",
+      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "5s237tEKiXD5CeO1ISPDMD",
+      "album_name": "Knockin (feat. The Paradox)",
+      "album_type": "single",
+      "artist": "Lucky Daye",
+      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
       "album_id": "1V8Qu6CwkBfYucnCWxynq8",
       "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
       "album_type": "single",
@@ -156,37 +167,15 @@
       "release_date": "2026-10-15"
     },
     {
-      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
-      "album_name": "Blue Moon",
+      "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
+      "album_name": "Starlight (Skrillex & ring noord Remix)",
       "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "artist": "Danny L Harle",
+      "artist_id": "1PNvaesh1mkKZucGhBuqgD",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
+      "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
       "is_new": false,
       "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "058a3vX1dIGCcIX7UeLVUU",
-      "album_name": "Kerst met Stitch",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851413e01d5a06dc6a61840a7a0",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
-      "album_id": "24oSk67TQF7dlvkVJwWtWt",
-      "album_name": "咲き誇れ",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
-      "is_new": false,
-      "release_date": "2026-10-14"
     },
     {
       "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
@@ -207,6 +196,28 @@
       "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "24oSk67TQF7dlvkVJwWtWt",
+      "album_name": "咲き誇れ",
+      "album_type": "single",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "058a3vX1dIGCcIX7UeLVUU",
+      "album_name": "Kerst met Stitch",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851413e01d5a06dc6a61840a7a0",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -244,17 +255,6 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "4mu0jAPhEFU1f8KYltS3g0",
-      "album_name": "Day and Night (Continued)",
-      "album_type": "album",
-      "artist": "Carly Rae Jepsen",
-      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d2a7610fd1201c1e37683b8d",
-      "is_new": false,
-      "release_date": "2026-10-09"
-    },
-    {
       "album_id": "3wn6xCydBAGXLIhkh0LEc8",
       "album_name": "Skylines",
       "album_type": "album",
@@ -266,15 +266,15 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "2VIFY2T5QbFo48sIqt3vZm",
-      "album_name": "Zombie (Live from the Riviera Theatre) [feat. Billy Corgan]",
-      "album_type": "single",
-      "artist": "YUNGBLUD",
-      "artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
+      "album_id": "4mu0jAPhEFU1f8KYltS3g0",
+      "album_name": "Day and Night (Continued)",
+      "album_type": "album",
+      "artist": "Carly Rae Jepsen",
+      "artist_id": "6sFIWsNpZYqfjUpaCgueju",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
+      "image": "https://i.scdn.co/image/ab67616d00004851d2a7610fd1201c1e37683b8d",
       "is_new": false,
-      "release_date": "2026-10-08"
+      "release_date": "2026-10-09"
     },
     {
       "album_id": "6bu9UAwyOykarcK9fJBjCz",
@@ -284,6 +284,17 @@
       "artist_id": "4kYSro6naA4h99UJvo89HB",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851206dab5443ba01afdd5d16e5",
+      "is_new": false,
+      "release_date": "2026-10-08"
+    },
+    {
+      "album_id": "2VIFY2T5QbFo48sIqt3vZm",
+      "album_name": "Zombie (Live from the Riviera Theatre) [feat. Billy Corgan]",
+      "album_type": "single",
+      "artist": "YUNGBLUD",
+      "artist_id": "6Ad91Jof8Niiw0lGLLi3NW",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513346883affd333409fe59950",
       "is_new": false,
       "release_date": "2026-10-08"
     },

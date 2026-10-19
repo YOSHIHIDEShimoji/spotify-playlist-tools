@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:24:09.793702+00:00",
+  "generated_at": "2026-10-19T20:50:08.175461+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -374,6 +374,24 @@
     },
     {
       "artists": [
+        "Queen"
+      ],
+      "count": 62,
+      "first": "2019-09-05",
+      "id": "500o08SwO4Qoppq9zZrOZB",
+      "image": "https://i.scdn.co/image/ab67616d000048510c15ed47cc7d3baa77537b52",
+      "last": "2025-10-19",
+      "ms": 14525183,
+      "name": "I Was Born To Love You - Remastered 2011",
+      "short": 42,
+      "years": {
+        "2019": 60,
+        "2020": 1,
+        "2025": 1
+      }
+    },
+    {
+      "artists": [
         "Tota"
       ],
       "count": 62,
@@ -478,27 +496,6 @@
         "2022": 1,
         "2023": 5,
         "2024": 1
-      }
-    },
-    {
-      "artists": [
-        "TheFatRat"
-      ],
-      "count": 58,
-      "first": "2020-07-23",
-      "id": "0n3aMxrlVGrxoGfYgmVb0F",
-      "image": "https://i.scdn.co/image/ab67616d000048510e24ac6fad9178d9a0b78dba",
-      "last": "2025-10-15",
-      "ms": 11060218,
-      "name": "Oblivion",
-      "short": 15,
-      "years": {
-        "2020": 31,
-        "2021": 6,
-        "2022": 3,
-        "2023": 3,
-        "2024": 6,
-        "2025": 9
       }
     },
     {
