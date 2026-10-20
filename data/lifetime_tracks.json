@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T20:50:07.998105+00:00",
+  "generated_at": "2026-10-20T19:47:06.721499+00:00",
   "totals": {
     "artists": 1366,
-    "days": 2132,
+    "days": 2133,
     "ms": 12440720283,
-    "plays": 64638,
+    "plays": 64639,
     "since": "2019-09-05",
     "tracks": 4745
   },
@@ -27055,6 +27055,22 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 5,
+      "first": "2026-05-27",
+      "id": "5ld8E3DVBXCCWQ54yrkWVp",
+      "image": "https://i.scdn.co/image/ab67616d0000485137a5a19e52f8260b3b158e55",
+      "last": "2026-10-20",
+      "ms": 567216,
+      "name": "305",
+      "short": 1,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "B.o.B"
       ],
       "count": 5,
@@ -28951,22 +28967,6 @@
       "last": "2026-09-04",
       "ms": 62953,
       "name": "2011",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 4,
-      "first": "2026-05-27",
-      "id": "5ld8E3DVBXCCWQ54yrkWVp",
-      "image": "https://i.scdn.co/image/ab67616d0000485137a5a19e52f8260b3b158e55",
-      "last": "2026-09-25",
-      "ms": 567216,
-      "name": "305",
-      "short": 1,
       "years": {
         "2026": 4
       }

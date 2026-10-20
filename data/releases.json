@@ -1,16 +1,38 @@
 {
-  "generated_at": "2026-10-19T20:53:15.775461+00:00",
+  "generated_at": "2026-10-20T19:49:00.974691+00:00",
   "items": [
     {
-      "album_id": "2nOFPiKwZSQccxG0lakaEV",
-      "album_name": "expectations (feat. Chappell Roan) [wheel of misfortune]",
-      "album_type": "single",
-      "artist": "Olivia Rodrigo",
-      "artist_id": "1McMsnEElThX1knmY4oliG",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851609b15ffbc826411e19226da",
+      "album_id": "4q5OSaJVTrfLYcVeOOQAbM",
+      "album_name": "最後に熱い日々を狂わしき想いで",
+      "album_type": "album",
+      "artist": "aiko",
+      "artist_id": "6TDMbiQCWeMClsMr9ORLRK",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485197f89d61b8c6900b34703b5b",
       "is_new": true,
-      "release_date": "2026-10-19"
+      "release_date": "2026-10-21"
+    },
+    {
+      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
+      "album_name": "恋のせい",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
+      "is_new": true,
+      "release_date": "2026-10-21"
+    },
+    {
+      "album_id": "2SrERveIqyCZs2GBNZ3zFs",
+      "album_name": "奇跡の地球 (ライブ)",
+      "album_type": "single",
+      "artist": "Kazutoshi Sakurai",
+      "artist_id": "4zDHk92mbBkXMT6QIisUvN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851513dfaae26c7edf07d533397",
+      "is_new": true,
+      "release_date": "2026-10-21"
     },
     {
       "album_id": "7x1ecpq0KS8olPNzUJOyF6",
@@ -24,6 +46,28 @@
       "release_date": "2026-10-19"
     },
     {
+      "album_id": "2nOFPiKwZSQccxG0lakaEV",
+      "album_name": "expectations (feat. Chappell Roan) [wheel of misfortune]",
+      "album_type": "single",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851609b15ffbc826411e19226da",
+      "is_new": false,
+      "release_date": "2026-10-19"
+    },
+    {
+      "album_id": "3AKaapaS16LC64f2wHsCkF",
+      "album_name": "Ultraviolet",
+      "album_type": "single",
+      "artist": "Cartoon",
+      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
       "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
       "album_name": "The Devil's Tax Return: Volume 1",
       "album_type": "single",
@@ -35,24 +79,24 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "61Sce8yicPSTcvGnBQAKgb",
-      "album_name": "Baby",
+      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
+      "album_name": "World Away (Orchestral Edit)",
       "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
       "is_new": false,
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "3AKaapaS16LC64f2wHsCkF",
-      "album_name": "Ultraviolet",
+      "album_id": "4UI0gVstrcRStFLYrsCD2T",
+      "album_name": "Fight For Love",
       "album_type": "single",
-      "artist": "Cartoon",
-      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
+      "artist": "Alesso",
+      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
+      "image": "https://i.scdn.co/image/ab67616d000048514e071647c9612c26d5f591f4",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -79,6 +123,17 @@
       "release_date": "2026-10-16"
     },
     {
+      "album_id": "61Sce8yicPSTcvGnBQAKgb",
+      "album_name": "Baby",
+      "album_type": "single",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
       "album_id": "09MFYa0kaj2G2LpRZfKUyo",
       "album_name": "Before You Know It",
       "album_type": "single",
@@ -90,39 +145,6 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "4UI0gVstrcRStFLYrsCD2T",
-      "album_name": "Fight For Love",
-      "album_type": "single",
-      "artist": "Alesso",
-      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e071647c9612c26d5f591f4",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
-      "album_name": "World Away (Orchestral Edit)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
-      "album_name": "Blue Moon",
-      "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
       "album_id": "7GnB2LBBHp8s9MZqMI11Uh",
       "album_name": "Love Seat",
       "album_type": "single",
@@ -130,28 +152,6 @@
       "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048518e4862cb3ced621c2ade8f79",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "7McbOLLAMviPWN9hca0qX0",
-      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "5s237tEKiXD5CeO1ISPDMD",
-      "album_name": "Knockin (feat. The Paradox)",
-      "album_type": "single",
-      "artist": "Lucky Daye",
-      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
       "is_new": false,
       "release_date": "2026-10-15"
     },
@@ -167,6 +167,28 @@
       "release_date": "2026-10-15"
     },
     {
+      "album_id": "5s237tEKiXD5CeO1ISPDMD",
+      "album_name": "Knockin (feat. The Paradox)",
+      "album_type": "single",
+      "artist": "Lucky Daye",
+      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "7McbOLLAMviPWN9hca0qX0",
+      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
       "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
       "album_name": "Starlight (Skrillex & ring noord Remix)",
       "album_type": "single",
@@ -178,6 +200,28 @@
       "release_date": "2026-10-15"
     },
     {
+      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
+      "album_name": "Blue Moon",
+      "album_type": "single",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
+      "is_new": false,
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "2TFJL5W7rw97JggCUcyw4p",
+      "album_name": "結縁音",
+      "album_type": "album",
+      "artist": "kariyushi58",
+      "artist_id": "0JUEsKG18QuDt6SmyHDrnL",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048512ecd6893e43f1714e485902c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
       "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
       "album_name": "雲を抜け風下へ私だけ",
       "album_type": "single",
@@ -185,28 +229,6 @@
       "artist_id": "4UK2Lzi6fBfUi9rpDt6cik",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485119be9f04a7bdde3b93b138ca",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
-      "album_id": "0LZEC8oIL0s9sbiMyP3C3G",
-      "album_name": "みらいのうた (ライブ)",
-      "album_type": "single",
-      "artist": "Kazuya Yoshii",
-      "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
-      "album_id": "24oSk67TQF7dlvkVJwWtWt",
-      "album_name": "咲き誇れ",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -222,13 +244,24 @@
       "release_date": "2026-10-14"
     },
     {
-      "album_id": "2TFJL5W7rw97JggCUcyw4p",
-      "album_name": "結縁音",
-      "album_type": "album",
-      "artist": "kariyushi58",
-      "artist_id": "0JUEsKG18QuDt6SmyHDrnL",
+      "album_id": "24oSk67TQF7dlvkVJwWtWt",
+      "album_name": "咲き誇れ",
+      "album_type": "single",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048512ecd6893e43f1714e485902c",
+      "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "0LZEC8oIL0s9sbiMyP3C3G",
+      "album_name": "みらいのうた (ライブ)",
+      "album_type": "single",
+      "artist": "Kazuya Yoshii",
+      "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -242,17 +275,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851cb424f73d963536f1ec12359",
       "is_new": false,
       "release_date": "2026-10-12"
-    },
-    {
-      "album_id": "1m3Jun2PjCQAOL72bBExnT",
-      "album_name": "Kinda Love It",
-      "album_type": "single",
-      "artist": "Lainey Wilson",
-      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
-      "is_new": false,
-      "release_date": "2026-10-09"
     },
     {
       "album_id": "3wn6xCydBAGXLIhkh0LEc8",
@@ -277,15 +299,15 @@
       "release_date": "2026-10-09"
     },
     {
-      "album_id": "6bu9UAwyOykarcK9fJBjCz",
-      "album_name": "Don’t Chart (from GTAVI: The Album)",
+      "album_id": "1m3Jun2PjCQAOL72bBExnT",
+      "album_name": "Kinda Love It",
       "album_type": "single",
-      "artist": "Cardi B",
-      "artist_id": "4kYSro6naA4h99UJvo89HB",
+      "artist": "Lainey Wilson",
+      "artist_id": "6tPHARSq45lQ8BSALCfkFC",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851206dab5443ba01afdd5d16e5",
+      "image": "https://i.scdn.co/image/ab67616d000048517fc0122b42e3805c29efcb3b",
       "is_new": false,
-      "release_date": "2026-10-08"
+      "release_date": "2026-10-09"
     },
     {
       "album_id": "2VIFY2T5QbFo48sIqt3vZm",
@@ -299,15 +321,15 @@
       "release_date": "2026-10-08"
     },
     {
-      "album_id": "6w87m6AzjxlsbLF01WuXcE",
-      "album_name": "なごり雪 (ライブ)",
+      "album_id": "6bu9UAwyOykarcK9fJBjCz",
+      "album_name": "Don’t Chart (from GTAVI: The Album)",
       "album_type": "single",
-      "artist": "Aimyon",
-      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
+      "artist": "Cardi B",
+      "artist_id": "4kYSro6naA4h99UJvo89HB",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851206dab5443ba01afdd5d16e5",
       "is_new": false,
-      "release_date": "2026-10-07"
+      "release_date": "2026-10-08"
     },
     {
       "album_id": "1pEll2AomI6UfGZkeIMbh7",
@@ -328,6 +350,17 @@
       "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851fcd6c22de6f3415597412a44",
+      "is_new": false,
+      "release_date": "2026-10-07"
+    },
+    {
+      "album_id": "6w87m6AzjxlsbLF01WuXcE",
+      "album_name": "なごり雪 (ライブ)",
+      "album_type": "single",
+      "artist": "Aimyon",
+      "artist_id": "5kVZa4lFUmAQlBogl1fkd6",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d000048514c5d1d964b8ff60901e5c6a2",
       "is_new": false,
       "release_date": "2026-10-07"
     }

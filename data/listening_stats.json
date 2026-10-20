@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-19T20:48:52.069619+00:00",
+  "generated_at": "2026-10-20T19:45:56.495434+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 64638
+    "total": 64639
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 5,
+  "streak": 6,
   "weekly_top": [
     {
       "artists": [
@@ -1184,6 +1184,14 @@
       "count": 1,
       "name": "Out Of My League",
       "track_id": "3JSATYGj6yxP1Vc1b49SSK"
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 1,
+      "name": "305",
+      "track_id": "5ld8E3DVBXCCWQ54yrkWVp"
     }
   ]
 }
