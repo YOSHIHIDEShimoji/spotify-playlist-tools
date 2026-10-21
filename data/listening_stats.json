@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-20T19:45:56.495434+00:00",
+  "generated_at": "2026-10-21T19:48:40.065592+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,28 +813,28 @@
       5000,
       10000
     ],
-    "total": 64639
+    "total": 64645
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 6,
+  "streak": 7,
   "weekly_top": [
     {
       "artists": [
-        "チャーリー・プース"
+        "ジェイソン・デルーロ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "name": "Light Switch - Acoustic",
-      "track_id": "42nDnUAPjhZFlj5wt2BjJm"
+      "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
+      "name": "Want to Want Me",
+      "track_id": "6zKrj4SomgfbvsfuTAuElE"
     },
     {
       "artists": [
-        "Alex Warren"
+        "Katy Perry"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
-      "name": "The Outside",
-      "track_id": "0uaomEw1vvehttoRNBngKd"
+      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
+      "name": "Daisies",
+      "track_id": "4uqh9bualXNHXXwO2wPorc"
     },
     {
       "artists": [
@@ -979,15 +979,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048515393c5d3cac806092a9bc468",
       "name": "Waiting for Love",
       "track_id": "2P4OICZRVAQcYAV2JReRfj"
-    },
-    {
-      "artists": [
-        "ジェイソン・デルーロ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
-      "name": "Want to Want Me",
-      "track_id": "6zKrj4SomgfbvsfuTAuElE"
     },
     {
       "artists": [
@@ -1171,17 +1162,28 @@
     },
     {
       "artists": [
-        "Charlie Puth"
+        "チャーリー・プース"
       ],
       "count": 1,
-      "name": "Beat Yourself Up",
-      "track_id": "7dr9uWtuRR6sdFpRjk0mnN"
+      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
+      "name": "Light Switch - Acoustic",
+      "track_id": "42nDnUAPjhZFlj5wt2BjJm"
     },
     {
       "artists": [
-        "LANY"
+        "Alex Warren"
       ],
       "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
+      "name": "The Outside",
+      "track_id": "0uaomEw1vvehttoRNBngKd"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
       "name": "Out Of My League",
       "track_id": "3JSATYGj6yxP1Vc1b49SSK"
     },
@@ -1190,8 +1192,63 @@
         "Shawn Mendes"
       ],
       "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485137a5a19e52f8260b3b158e55",
       "name": "305",
       "track_id": "5ld8E3DVBXCCWQ54yrkWVp"
+    },
+    {
+      "artists": [
+        "クリーン・バンディット"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "name": "Rather Be (feat. Jess Glynne)",
+      "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+    },
+    {
+      "artists": [
+        "Josh Turner"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58c6afe4ba85402abe4669199bf95252.png",
+      "name": "Your Man",
+      "track_id": "lastfm:yourman|joshturner"
+    },
+    {
+      "artists": [
+        "Engelbert Humperdinck"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/924946079934e3202742f13377fe8f6d.jpg",
+      "name": "A Man Without Love",
+      "track_id": "lastfm:amanwithoutlove|engelberthumperdinck"
+    },
+    {
+      "artists": [
+        "ワン・ダイレクション"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
+      "name": "Live While We're Young",
+      "track_id": "2sF2NJT9rxRpLifXabqFNS"
+    },
+    {
+      "artists": [
+        "マライア・キャリー"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "All I Want For Christmas Is You",
+      "track_id": "lastfm:alliwantforchristmasisyou|マライア・キャリー"
     }
   ]
 }

@@ -153,6 +153,10 @@
   ],
   "decades": [
     {
+      "count": 1,
+      "decade": 1960
+    },
+    {
       "count": 11,
       "decade": 1970
     },
@@ -333,7 +337,7 @@
       ],
       "decades": [
         {
-          "count": 181,
+          "count": 182,
           "decade": 1960
         },
         {
@@ -361,7 +365,7 @@
           "decade": 2020
         }
       ],
-      "total": 1173
+      "total": 1174
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -700,6 +704,10 @@
         ],
         "decades": [
           {
+            "count": 1,
+            "decade": 1960
+          },
+          {
             "count": 10,
             "decade": 1970
           },
@@ -724,7 +732,7 @@
             "decade": 2020
           }
         ],
-        "total": 612
+        "total": 613
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -862,6 +870,6 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T19:46:06.270145+00:00",
-  "total": 815
+  "generated_at": "2026-10-21T19:48:50.489607+00:00",
+  "total": 816
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T19:47:06.721499+00:00",
+  "generated_at": "2026-10-21T19:49:52.268107+00:00",
   "totals": {
     "artists": 1366,
-    "days": 2133,
+    "days": 2134,
     "ms": 12440720283,
-    "plays": 64639,
+    "plays": 64645,
     "since": "2019-09-05",
-    "tracks": 4745
+    "tracks": 4746
   },
   "tracks": [
     {
@@ -3631,6 +3631,27 @@
     },
     {
       "artists": [
+        "Katy Perry"
+      ],
+      "count": 83,
+      "first": "2021-03-23",
+      "id": "4uqh9bualXNHXXwO2wPorc",
+      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
+      "last": "2026-10-21",
+      "ms": 13712886,
+      "name": "Daisies",
+      "short": 25,
+      "years": {
+        "2021": 27,
+        "2022": 9,
+        "2023": 3,
+        "2024": 6,
+        "2025": 23,
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 83,
@@ -3803,27 +3824,6 @@
         "2024": 4,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 81,
-      "first": "2021-03-23",
-      "id": "4uqh9bualXNHXXwO2wPorc",
-      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
-      "last": "2026-04-20",
-      "ms": 13712886,
-      "name": "Daisies",
-      "short": 25,
-      "years": {
-        "2021": 27,
-        "2022": 9,
-        "2023": 3,
-        "2024": 6,
-        "2025": 23,
-        "2026": 13
       }
     },
     {
@@ -7679,6 +7679,23 @@
     },
     {
       "artists": [
+        "Jason Derulo"
+      ],
+      "count": 59,
+      "first": "2025-02-24",
+      "id": "6zKrj4SomgfbvsfuTAuElE",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
+      "last": "2026-10-21",
+      "ms": 10769516,
+      "name": "Want to Want Me",
+      "short": 4,
+      "years": {
+        "2025": 41,
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 59,
@@ -7840,23 +7857,6 @@
         "2024": 6,
         "2025": 4,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Jason Derulo"
-      ],
-      "count": 58,
-      "first": "2025-02-24",
-      "id": "6zKrj4SomgfbvsfuTAuElE",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
-      "last": "2026-10-19",
-      "ms": 10769516,
-      "name": "Want to Want Me",
-      "short": 4,
-      "years": {
-        "2025": 41,
-        "2026": 17
       }
     },
     {
@@ -13375,23 +13375,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 33,
-      "first": "2025-12-20",
-      "id": "42nDnUAPjhZFlj5wt2BjJm",
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "last": "2026-10-19",
-      "ms": 4773876,
-      "name": "Light Switch - Acoustic",
-      "short": 5,
-      "years": {
-        "2025": 3,
-        "2026": 30
-      }
-    },
-    {
-      "artists": [
         "OneRepublic"
       ],
       "count": 33,
@@ -13481,22 +13464,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 32,
-      "first": "2026-02-04",
-      "id": "7dr9uWtuRR6sdFpRjk0mnN",
-      "image": "https://i.scdn.co/image/ab67616d0000485198b85fec496f0b04775e0293",
-      "last": "2026-10-19",
-      "ms": 4917647,
-      "name": "Beat Yourself Up",
-      "short": 4,
-      "years": {
-        "2026": 32
-      }
-    },
-    {
-      "artists": [
         "Galantis"
       ],
       "count": 32,
@@ -13561,6 +13528,23 @@
       "last": "2026-09-14",
       "ms": 4011150,
       "name": "Is It Just Me? (feat. Charlie Puth)",
+      "short": 5,
+      "years": {
+        "2025": 3,
+        "2026": 29
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 32,
+      "first": "2025-12-20",
+      "id": "42nDnUAPjhZFlj5wt2BjJm",
+      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
+      "last": "2026-10-19",
+      "ms": 4773876,
+      "name": "Light Switch - Acoustic",
       "short": 5,
       "years": {
         "2025": 3,
@@ -13720,6 +13704,22 @@
       "short": 13,
       "years": {
         "2026": 32
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 31,
+      "first": "2026-02-04",
+      "id": "7dr9uWtuRR6sdFpRjk0mnN",
+      "image": "https://i.scdn.co/image/ab67616d0000485198b85fec496f0b04775e0293",
+      "last": "2026-08-17",
+      "ms": 4917647,
+      "name": "Beat Yourself Up",
+      "short": 4,
+      "years": {
+        "2026": 31
       }
     },
     {
@@ -14501,6 +14501,23 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 27,
+      "first": "2024-06-04",
+      "id": "61dCUoMCg28qEBzrW6htYM",
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "last": "2026-10-21",
+      "ms": 455666,
+      "name": "Rather Be (feat. Jess Glynne)",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 27,
@@ -14774,23 +14791,6 @@
     },
     {
       "artists": [
-        "Clean Bandit"
-      ],
-      "count": 26,
-      "first": "2024-06-04",
-      "id": "61dCUoMCg28qEBzrW6htYM",
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "last": "2026-10-18",
-      "ms": 455666,
-      "name": "Rather Be (feat. Jess Glynne)",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2026": 25
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 26,
@@ -14807,6 +14807,21 @@
         "2023": 7,
         "2024": 3,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 26,
+      "first": "2026-05-06",
+      "id": "2009X8GyWTqyxIdzAEYW6N",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-10-21",
+      "ms": 909332,
+      "name": "The One That Got Away",
+      "years": {
+        "2026": 26
       }
     },
     {
@@ -15181,21 +15196,6 @@
         "2024": 6,
         "2025": 6,
         "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 25,
-      "first": "2026-05-06",
-      "id": "2009X8GyWTqyxIdzAEYW6N",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-10-06",
-      "ms": 909332,
-      "name": "The One That Got Away",
-      "years": {
-        "2026": 25
       }
     },
     {
@@ -22966,21 +22966,6 @@
     },
     {
       "artists": [
-        "Alex Warren"
-      ],
-      "count": 9,
-      "first": "2026-06-24",
-      "id": "0uaomEw1vvehttoRNBngKd",
-      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
-      "last": "2026-10-19",
-      "ms": 551562,
-      "name": "The Outside",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "Ed Sheeran"
       ],
       "count": 9,
@@ -24166,6 +24151,21 @@
       "short": 3,
       "years": {
         "2020": 8
+      }
+    },
+    {
+      "artists": [
+        "Alex Warren"
+      ],
+      "count": 8,
+      "first": "2026-06-24",
+      "id": "0uaomEw1vvehttoRNBngKd",
+      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
+      "last": "2026-10-19",
+      "ms": 551562,
+      "name": "The Outside",
+      "years": {
+        "2026": 8
       }
     },
     {
@@ -27865,6 +27865,21 @@
     },
     {
       "artists": [
+        "One Direction"
+      ],
+      "count": 5,
+      "first": "2026-08-24",
+      "id": "2sF2NJT9rxRpLifXabqFNS",
+      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
+      "last": "2026-10-21",
+      "ms": 0,
+      "name": "Live While We're Young",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Bon Jovi"
       ],
       "count": 5,
@@ -30116,21 +30131,6 @@
     },
     {
       "artists": [
-        "One Direction"
-      ],
-      "count": 4,
-      "first": "2026-08-24",
-      "id": "2sF2NJT9rxRpLifXabqFNS",
-      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
-      "last": "2026-09-03",
-      "ms": 0,
-      "name": "Live While We're Young",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Avicii"
       ],
       "count": 4,
@@ -32015,6 +32015,21 @@
       "short": 1,
       "years": {
         "2025": 3
+      }
+    },
+    {
+      "artists": [
+        "マライア・キャリー"
+      ],
+      "count": 3,
+      "first": "2026-09-10",
+      "id": "lastfm:alliwantforchristmasisyou|マライア・キャリー",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-10-21",
+      "ms": 0,
+      "name": "All I Want For Christmas Is You",
+      "years": {
+        "2026": 3
       }
     },
     {
@@ -36007,21 +36022,6 @@
       "last": "2026-09-13",
       "ms": 263787,
       "name": "Adventure of a Lifetime",
-      "years": {
-        "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "マライア・キャリー"
-      ],
-      "count": 2,
-      "first": "2026-09-10",
-      "id": "lastfm:alliwantforchristmasisyou|マライア・キャリー",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "last": "2026-10-17",
-      "ms": 0,
-      "name": "All I Want For Christmas Is You",
       "years": {
         "2026": 2
       }
@@ -43783,6 +43783,21 @@
     },
     {
       "artists": [
+        "Josh Turner"
+      ],
+      "count": 2,
+      "first": "2026-10-18",
+      "id": "lastfm:yourman|joshturner",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58c6afe4ba85402abe4669199bf95252.png",
+      "last": "2026-10-21",
+      "ms": 0,
+      "name": "Your Man",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "TheDewk"
       ],
       "count": 2,
@@ -45832,6 +45847,21 @@
       "last": "2026-09-07",
       "ms": 0,
       "name": "A Hard Day's Night - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Engelbert Humperdinck"
+      ],
+      "count": 1,
+      "first": "2026-10-21",
+      "id": "lastfm:amanwithoutlove|engelberthumperdinck",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/924946079934e3202742f13377fe8f6d.jpg",
+      "last": "2026-10-21",
+      "ms": 0,
+      "name": "A Man Without Love",
       "years": {
         "2026": 1
       }
@@ -71574,21 +71604,6 @@
       "short": 2,
       "years": {
         "2025": 1
-      }
-    },
-    {
-      "artists": [
-        "Josh Turner"
-      ],
-      "count": 1,
-      "first": "2026-10-18",
-      "id": "lastfm:yourman|joshturner",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58c6afe4ba85402abe4669199bf95252.png",
-      "last": "2026-10-18",
-      "ms": 0,
-      "name": "Your Man",
-      "years": {
-        "2026": 1
       }
     },
     {

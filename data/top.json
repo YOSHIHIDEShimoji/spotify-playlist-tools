@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T19:48:10.784831+00:00",
+  "generated_at": "2026-10-21T19:50:55.231508+00:00",
   "tracks": {
     "long_term": [
       {
@@ -899,12 +899,22 @@
       },
       {
         "artists": [
+          "Clean Bandit",
+          "Jess Glynne"
+        ],
+        "id": "61dCUoMCg28qEBzrW6htYM",
+        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+        "name": "Rather Be (feat. Jess Glynne)",
+        "rank": 19
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "2e42fb37LVhtCOescNb1yN",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Everybody Loves Me",
-        "rank": 19
+        "rank": 20
       },
       {
         "artists": [
@@ -913,7 +923,7 @@
         "id": "2JATE4qxTuVgKEKe12sqLp",
         "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
         "name": "Future Looks Good",
-        "rank": 20
+        "rank": 21
       },
       {
         "artists": [
@@ -922,7 +932,7 @@
         "id": "2SLxgJ2YFohfd8KwuJZTUE",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Better Days",
-        "rank": 21
+        "rank": 22
       },
       {
         "artists": [
@@ -931,7 +941,7 @@
         "id": "2iuZJX9X9P0GKaE93xcPjk",
         "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
         "name": "Sugar",
-        "rank": 22
+        "rank": 23
       },
       {
         "artists": [
@@ -940,7 +950,7 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
-        "rank": 23
+        "rank": 24
       },
       {
         "artists": [
@@ -949,7 +959,7 @@
         "id": "17Vqwvat9EmRmfDvmYqoi0",
         "image": "https://i.scdn.co/image/ab67616d000048511d582a27bf16b563991487cd",
         "name": "Give Me Something (for Arknights Endfield)",
-        "rank": 24
+        "rank": 25
       },
       {
         "artists": [
@@ -960,7 +970,7 @@
         "id": "7MYLHLCf0YWR4TVs3owDny",
         "image": "https://i.scdn.co/image/ab67616d00004851eff21577ce7a071868092b2b",
         "name": "Fire - Official UEFA EURO 2024 Song",
-        "rank": 25
+        "rank": 26
       },
       {
         "artists": [
@@ -969,7 +979,7 @@
         "id": "37LNNQNbL1YLyutBG6aWRx",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Rescue Me",
-        "rank": 26
+        "rank": 27
       },
       {
         "artists": [
@@ -979,16 +989,6 @@
         "id": "53Ji6ZvVjsBl4pIuiETfhN",
         "image": "https://i.scdn.co/image/ab67616d00004851b3e70fb498006743b7412305",
         "name": "Bones (feat. OneRepublic)",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "Clean Bandit",
-          "Jess Glynne"
-        ],
-        "id": "61dCUoMCg28qEBzrW6htYM",
-        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-        "name": "Rather Be (feat. Jess Glynne)",
         "rank": 28
       },
       {
@@ -1022,12 +1022,24 @@
       },
       {
         "artists": [
-          "OneRepublic"
+          "Clean Bandit",
+          "Jess Glynne"
         ],
-        "id": "2UyZTPrWFSMysY9cVVjmaB",
-        "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
-        "name": "Colors",
+        "id": "61dCUoMCg28qEBzrW6htYM",
+        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+        "name": "Rather Be (feat. Jess Glynne)",
         "rank": 2
+      },
+      {
+        "artists": [
+          "Robin Hustin",
+          "TobiMorrow",
+          "Jex"
+        ],
+        "id": "0BLb9ln9kg9OgO7W1jN3e2",
+        "image": "https://i.scdn.co/image/ab67616d000048512b848fb93c30954ccac4add6",
+        "name": "Light It Up",
+        "rank": 3
       },
       {
         "artists": [
@@ -1036,7 +1048,16 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 3
+        "rank": 4
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "2UyZTPrWFSMysY9cVVjmaB",
+        "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+        "name": "Colors",
+        "rank": 5
       },
       {
         "artists": [
@@ -1045,7 +1066,7 @@
         "id": "4Dvkj6JhhA12EX05fT7y2e",
         "image": "https://i.scdn.co/image/ab67616d0000485182ce362511fb3d9dda6578ee",
         "name": "As It Was",
-        "rank": 4
+        "rank": 6
       },
       {
         "artists": [
@@ -1054,17 +1075,16 @@
         "id": "5og4Qzt92jJzVDkOtSEilb",
         "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
         "name": "But Daddy I Love Him",
-        "rank": 5
+        "rank": 7
       },
       {
         "artists": [
-          "Clean Bandit",
-          "Jess Glynne"
+          "Jason Derulo"
         ],
-        "id": "61dCUoMCg28qEBzrW6htYM",
-        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-        "name": "Rather Be (feat. Jess Glynne)",
-        "rank": 6
+        "id": "6zKrj4SomgfbvsfuTAuElE",
+        "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
+        "name": "Want to Want Me",
+        "rank": 8
       },
       {
         "artists": [
@@ -1073,7 +1093,7 @@
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 7
+        "rank": 9
       },
       {
         "artists": [
@@ -1082,7 +1102,7 @@
         "id": "0x5CxIxVZUxwOQbwiVLS6J",
         "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
         "name": "Charlie Brown",
-        "rank": 8
+        "rank": 10
       },
       {
         "artists": [
@@ -1091,16 +1111,7 @@
         "id": "2ByBBvpR9b7IynvRmnG7kG",
         "image": "https://i.scdn.co/image/ab67616d000048514110bfab1185fdfc9dfc2cf0",
         "name": "Clean (Taylor's Version)",
-        "rank": 9
-      },
-      {
-        "artists": [
-          "Train"
-        ],
-        "id": "2GxGYGrixbXPFojONbzdo9",
-        "image": "https://i.scdn.co/image/ab67616d000048514d15ce704a8d334145e4994a",
-        "name": "Angel in Blue Jeans",
-        "rank": 10
+        "rank": 11
       },
       {
         "artists": [
@@ -1109,7 +1120,7 @@
         "id": "3JSATYGj6yxP1Vc1b49SSK",
         "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
         "name": "Out Of My League",
-        "rank": 11
+        "rank": 12
       },
       {
         "artists": [
@@ -1118,7 +1129,7 @@
         "id": "3KHrXuByzDnDOaVR15rZH7",
         "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
         "name": "The Real Hero",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -1127,7 +1138,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -1136,7 +1147,7 @@
         "id": "45nGWJRXJmYF4g3l4iuUyN",
         "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
         "name": "Finish Me",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -1145,7 +1156,7 @@
         "id": "4WiiRw2PHMNQE0ad6y6GdD",
         "image": "https://i.scdn.co/image/ab67616d0000485104f21e12e67ba0dfd5db4fbf",
         "name": "Chocolate",
-        "rank": 15
+        "rank": 16
       },
       {
         "artists": [
@@ -1154,7 +1165,7 @@
         "id": "4nNZ4ra9sJnsdixXELkfW5",
         "image": "https://i.scdn.co/image/ab67616d0000485166345dc4318d575d294e3567",
         "name": "Does It Feel",
-        "rank": 16
+        "rank": 17
       },
       {
         "artists": [
@@ -1163,7 +1174,7 @@
         "id": "4zRZAmBQP8vhNPf9i9opXt",
         "image": "https://i.scdn.co/image/ab67616d00004851b503cdb444b28826c4ca9217",
         "name": "8 Letters",
-        "rank": 17
+        "rank": 18
       },
       {
         "artists": [
@@ -1172,7 +1183,7 @@
         "id": "5BZsQlgw21vDOAjoqkNgKb",
         "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
         "name": "DAISIES",
-        "rank": 18
+        "rank": 19
       },
       {
         "artists": [
@@ -1181,7 +1192,7 @@
         "id": "5POrWnsqEV6HwTcRKLdXxk",
         "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
         "name": "Main on End",
-        "rank": 19
+        "rank": 20
       },
       {
         "artists": [
@@ -1190,7 +1201,7 @@
         "id": "6Fe0bY8vDxBnN7rDgu3ACE",
         "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
         "name": "I Would",
-        "rank": 20
+        "rank": 21
       },
       {
         "artists": [
@@ -1200,7 +1211,7 @@
         "id": "6Pgkp4qUoTmJIPn7ReaGxL",
         "image": "https://i.scdn.co/image/ab67616d00004851a26cc58b4d64c2ece3376389",
         "name": "Without You (feat. Sandro Cavazza)",
-        "rank": 21
+        "rank": 22
       },
       {
         "artists": [
@@ -1210,7 +1221,7 @@
         "id": "6lV2MSQmRIkycDScNtrBXO",
         "image": "https://i.scdn.co/image/ab67616d00004851caa23612279c2d059a0d3a82",
         "name": "Airplanes (feat. Hayley Williams of Paramore)",
-        "rank": 22
+        "rank": 23
       },
       {
         "artists": [
@@ -1219,15 +1230,6 @@
         "id": "6xTQD1ixS5uca8B9P97vQc",
         "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
         "name": "AM Gold",
-        "rank": 23
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0FgFjqelHSi4D64sBHakWK",
-        "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-        "name": "Waking Up",
         "rank": 24
       },
       {
@@ -1250,21 +1252,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "2tpWsVSb9UEmDRxAl1zhX1",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Counting Stars",
-        "rank": 27
-      },
-      {
-        "artists": [
           "Imagine Dragons"
         ],
         "id": "5qaEfEh1AtSdrdrByCP7qR",
         "image": "https://i.scdn.co/image/ab67616d00004851407bd04707c463bbb3410737",
         "name": "Demons",
-        "rank": 28
+        "rank": 27
       },
       {
         "artists": [
@@ -1273,17 +1266,24 @@
         "id": "03T4ttRCiLXST6MZjeMwmR",
         "image": "https://i.scdn.co/image/ab67616d00004851722d16eb3b31fae9cb1d2ada",
         "name": "Orphans",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0GUncXNah8KoaErnDd7H1L",
+        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+        "name": "Ships + Tides",
         "rank": 29
       },
       {
         "artists": [
-          "Robin Hustin",
-          "TobiMorrow",
-          "Jex"
+          "OneRepublic"
         ],
-        "id": "0BLb9ln9kg9OgO7W1jN3e2",
-        "image": "https://i.scdn.co/image/ab67616d000048512b848fb93c30954ccac4add6",
-        "name": "Light It Up",
+        "id": "0ZR0D8BOyH1b8vtrSnA5Xu",
+        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+        "name": "Room For You",
         "rank": 30
       }
     ]
