@@ -1,229 +1,41 @@
 {
-  "date": "10-22",
-  "generated_at": "2026-10-21T19:49:52.370560+00:00",
+  "date": "10-23",
+  "generated_at": "2026-10-22T19:41:45.006389+00:00",
   "years": [
     {
-      "plays": 24,
+      "plays": 39,
       "tracks": [
         {
           "artists": [
-            "SPITZ"
+            "Novelbright"
           ],
           "count": 2,
-          "name": "美しい鰭",
-          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+          "name": "ツキミソウ",
+          "track_id": "6sElEqOIGENWjpxGFeo5ct"
         },
         {
           "artists": [
-            "Aoi Teshima"
-          ],
-          "count": 1,
-          "name": "テルーの唄",
-          "track_id": "5TWGkkMIFvMY5VeqcDvAgG"
-        },
-        {
-          "artists": [
-            "藤岡藤巻と大橋のぞみ"
-          ],
-          "count": 1,
-          "name": "崖の上のポニョ",
-          "track_id": "631B0Vtr5oMc6GJJNXZLnp"
-        },
-        {
-          "artists": [
-            "本名陽子"
-          ],
-          "count": 1,
-          "name": "カントリー・ロード（主題歌）",
-          "track_id": "2kVW2Vx8Y7cnKLt3N2WEWq"
-        },
-        {
-          "artists": [
-            "Tsuji Ayano"
-          ],
-          "count": 1,
-          "name": "風になる",
-          "track_id": "1BMYkyKXS6UfnJteWN7nSD"
-        },
-        {
-          "artists": [
-            "Yumi Arai"
-          ],
-          "count": 1,
-          "name": "やさしさに包まれたなら",
-          "track_id": "3CtnuBSfdpoxHglOGGPgmU"
-        },
-        {
-          "artists": [
-            "Azumi Inoue"
-          ],
-          "count": 1,
-          "name": "君をのせて",
-          "track_id": "5VVkCfHAa2ayYRBGbRyRD1"
-        },
-        {
-          "artists": [
-            "Yoshikazu Mera"
-          ],
-          "count": 1,
-          "name": "もののけ姫（ヴォーカル）",
-          "track_id": "2i4cFd5DSJUTV7CCCR9dMx"
-        },
-        {
-          "artists": [
-            "Ayaka Hirahara"
-          ],
-          "count": 1,
-          "name": "いのちの名前",
-          "track_id": "3ZfHps9gj3X7X0u8j44LPm"
-        },
-        {
-          "artists": [
-            "Yumi Arai"
-          ],
-          "count": 1,
-          "name": "ルージュの伝言",
-          "track_id": "1jw992uwXhqJJ0H42ucTRL"
-        }
-      ],
-      "year": "2025"
-    },
-    {
-      "plays": 14,
-      "tracks": [
-        {
-          "artists": [
-            "Kenji Sawada"
-          ],
-          "count": 1,
-          "name": "ヤマトより愛をこめて",
-          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
-        },
-        {
-          "artists": [
-            "Katsuo Ohno"
-          ],
-          "count": 1,
-          "name": "名探偵コナン メイン・テーマ - 暗殺者ヴァージョン",
-          "track_id": "4ELXBKQHnfWiNt6OUcSo15"
-        },
-        {
-          "artists": [
-            "Katsuo Ohno"
-          ],
-          "count": 1,
-          "name": "蘭のテーマ - 世紀末ヴァージョン",
-          "track_id": "6lJq0JMOFI9MN47AOJrwEC"
-        },
-        {
-          "artists": [
-            "SPITZ"
-          ],
-          "count": 1,
-          "name": "美しい鰭",
-          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
-        },
-        {
-          "artists": [
-            "Mao"
-          ],
-          "count": 1,
-          "name": "夢をかなえてドラえもん",
-          "track_id": "6FEABJMKAHeFuz3OrKw5ix"
-        },
-        {
-          "artists": [
-            "Aoi Teshima"
-          ],
-          "count": 1,
-          "name": "さよならの夏～コクリコ坂から～",
-          "track_id": "7H6XelNUoK8FAejLzpgUoo"
-        },
-        {
-          "artists": [
-            "Azumi Inoue"
-          ],
-          "count": 1,
-          "name": "君をのせて",
-          "track_id": "5VVkCfHAa2ayYRBGbRyRD1"
-        },
-        {
-          "artists": [
-            "Azumi Inoue"
-          ],
-          "count": 1,
-          "name": "となりのトトロ",
-          "track_id": "3fSWMbzFRBew3EbAlDPE1u"
-        },
-        {
-          "artists": [
-            "Yumi Arai"
-          ],
-          "count": 1,
-          "name": "ひこうき雲",
-          "track_id": "2YyxBmzk2l7NzyBakN3TdM"
-        },
-        {
-          "artists": [
-            "Yumi Arai"
-          ],
-          "count": 1,
-          "name": "やさしさに包まれたなら",
-          "track_id": "3CtnuBSfdpoxHglOGGPgmU"
-        }
-      ],
-      "year": "2024"
-    },
-    {
-      "plays": 32,
-      "tracks": [
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 4,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "0W1uTK6I97CbjFKAVtRGfK"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 4,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 3,
-          "name": "The Show Must Go On - Remastered 2011",
-          "track_id": "5n6RDaGFSN88oRWuGtYAIN"
-        },
-        {
-          "artists": [
-            "Queen"
+            "Novelbright"
           ],
           "count": 2,
-          "name": "I Want It All - Single Version",
-          "track_id": "1gBNoqhVLbIMuBQmXKmyLj"
+          "name": "愛とか恋とか",
+          "track_id": "1VHL1PIkhDwWbFc65xHwOr"
         },
         {
           "artists": [
-            "Queen"
+            "Novelbright"
           ],
           "count": 2,
-          "name": "Let Me Live - Remastered 2011",
-          "track_id": "7zSX8U7W03AStPc5oJ3W3V"
+          "name": "アイビー",
+          "track_id": "3y3gIFisu61Qc3NtRE7a2r"
         },
         {
           "artists": [
-            "Queen"
+            "ONE OK ROCK"
           ],
           "count": 2,
-          "name": "These Are The Days Of Our Lives - 2011 Remaster",
-          "track_id": "5js1JJOAkR5KwlifBpvHMN"
+          "name": "The Beginning",
+          "track_id": "1J6MFj60gFCvYqOtjoYkM0"
         },
         {
           "artists": [
@@ -243,166 +55,274 @@
         },
         {
           "artists": [
-            "The Beatles"
+            "Queen"
           ],
-          "count": 1,
-          "name": "Let It Be - Remastered 2009",
-          "track_id": "7iN1s7xHE4ifF5povM6A48"
+          "count": 2,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
         },
         {
           "artists": [
-            "The Beatles"
+            "YUI"
           ],
           "count": 1,
-          "name": "Twist And Shout - Remastered 2009",
-          "track_id": "5ZBeML7Lf3FMEVviTyvi8l"
+          "name": "SUMMER SONG",
+          "track_id": "61GOrlx22o2KLrGhqaC5bY"
+        },
+        {
+          "artists": [
+            "ZONE"
+          ],
+          "count": 1,
+          "name": "secret base ～君がくれたもの～",
+          "track_id": "1k42CHnoxIlqAJ81VE65Uc"
+        },
+        {
+          "artists": [
+            "OFFICIAL HIGE DANDISM"
+          ],
+          "count": 1,
+          "name": "日常",
+          "track_id": "4bM39Z3rhnPdYrgpG9VuCb"
+        }
+      ],
+      "year": "2025"
+    },
+    {
+      "plays": 3,
+      "tracks": [
+        {
+          "artists": [
+            "Kenji Sawada"
+          ],
+          "count": 1,
+          "name": "ヤマトより愛をこめて",
+          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
+        },
+        {
+          "artists": [
+            "Naomi Scott"
+          ],
+          "count": 1,
+          "name": "Speechless (Full)",
+          "track_id": "0XPsOSYzDJZJArevQNm2AR"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        }
+      ],
+      "year": "2024"
+    },
+    {
+      "plays": 3,
+      "tracks": [
+        {
+          "artists": [
+            "Yumi Matsutoya"
+          ],
+          "count": 1,
+          "name": "春よ、来い",
+          "track_id": "7BgNhufmVuEQjRo86YrsJR"
+        },
+        {
+          "artists": [
+            "Tota"
+          ],
+          "count": 1,
+          "name": "紡ぐ",
+          "track_id": "53B8VwuDvaxVo1HmVgTECu"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
         }
       ],
       "year": "2023"
     },
     {
-      "plays": 5,
+      "plays": 27,
       "tracks": [
         {
           "artists": [
-            "back number"
+            "Taylor Swift"
           ],
-          "count": 1,
-          "name": "クリスマスソング",
-          "track_id": "02OYGL6lXPVvoJDiv6tfH1"
+          "count": 2,
+          "name": "Shake It Off",
+          "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
         },
         {
           "artists": [
-            "back number"
+            "Shawn Mendes"
           ],
           "count": 1,
-          "name": "恋",
-          "track_id": "7f9DsQEsIoeTwKxV6shsom"
+          "name": "If I Can't Have You",
+          "track_id": "6LsAAHotRLMOHfCsSfYCsz"
         },
         {
           "artists": [
-            "Sukima Switch"
+            "Ava Max"
           ],
           "count": 1,
-          "name": "奏(かなで)",
-          "track_id": "5RbMlPFL4gVyEHW2lEOuzG"
+          "name": "Sweet but Psycho",
+          "track_id": "7DnAm9FOTWE3cUvso43HhI"
         },
         {
           "artists": [
-            "Ikimonogakari"
+            "Avicii"
           ],
           "count": 1,
-          "name": "SAKURA",
-          "track_id": "47llhtLFunfzq4KBwzZmOP"
+          "name": "The Nights",
+          "track_id": "0ct6r3EGTcMLPtrXHDvVjc"
         },
         {
           "artists": [
-            "Ikimonogakari"
+            "Marshmello"
           ],
           "count": 1,
-          "name": "ありがとう",
-          "track_id": "3hlQBw2Z5YQQqIiX9JmLG4"
+          "name": "Leave Before You Love Me (with Jonas Brothers)",
+          "track_id": "4qu63nuBpdn0qHUHuObEj1"
+        },
+        {
+          "artists": [
+            "Ariana Grande"
+          ],
+          "count": 1,
+          "name": "One Last Time",
+          "track_id": "4Y8KhqNtOMToFdUOAJpECt"
+        },
+        {
+          "artists": [
+            "Keane"
+          ],
+          "count": 1,
+          "name": "Somewhere Only We Know",
+          "track_id": "1SKPmfSYaPsETbRHaiA18G"
+        },
+        {
+          "artists": [
+            "Hloshit"
+          ],
+          "count": 1,
+          "name": "somewhere only we know",
+          "track_id": "59CNjW1xGJwPoM8984q6VN"
+        },
+        {
+          "artists": [
+            "Dua Lipa"
+          ],
+          "count": 1,
+          "name": "Levitating (feat. DaBaby)",
+          "track_id": "5nujrmhLynf4yMoMtj8AQF"
+        },
+        {
+          "artists": [
+            "Ed Sheeran"
+          ],
+          "count": 1,
+          "name": "Perfect",
+          "track_id": "0tgVpDi06FyKpA1z0VMD4v"
         }
       ],
       "year": "2022"
     },
     {
-      "plays": 4,
+      "plays": 33,
       "tracks": [
         {
           "artists": [
-            "Jim Yosef"
+            "Paul McCartney"
           ],
-          "count": 1,
-          "name": "Linked",
-          "track_id": "2Ikdgh3J5vCRmnCL3Xcrtv"
+          "count": 2,
+          "name": "Take It Away - Remixed 2015",
+          "track_id": "2t2gZb03AlCSlBzbWeeHsM"
         },
         {
           "artists": [
-            "Kontekst"
+            "Paul McCartney"
           ],
-          "count": 1,
-          "name": "Buddha",
-          "track_id": "2eFHbrvjYbZkVexsclJffS"
+          "count": 2,
+          "name": "Say Say Say - Remastered 2015",
+          "track_id": "5BxoKS16fDiOpcwTztQF30"
         },
         {
           "artists": [
-            "ellis"
+            "Paul McCartney"
           ],
-          "count": 1,
-          "name": "Clear My Head",
-          "track_id": "45vW6Apg3QwawKzBi03rgD"
+          "count": 2,
+          "name": "Wanderlust - Remixed 2015",
+          "track_id": "7JQD17cbjWL8nHYQRkIkjp"
         },
         {
           "artists": [
-            "Ampyx"
+            "Wham!"
+          ],
+          "count": 2,
+          "name": "Last Christmas",
+          "track_id": "2FRnf9qhLbvw8fu4IBXx78"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
           ],
           "count": 1,
-          "name": "Rise",
-          "track_id": "7KDGTOwBE0HHMRsjzRaU2V"
+          "name": "The Back Seat Of My Car - Remastered 2012",
+          "track_id": "05wvXK5IW9CjFQToL0N7Go"
+        },
+        {
+          "artists": [
+            "Wings"
+          ],
+          "count": 1,
+          "name": "My Love - 2018 Remaster",
+          "track_id": "0Oj0TT23GBH2XuHAaSsloH"
+        },
+        {
+          "artists": [
+            "Wings"
+          ],
+          "count": 1,
+          "name": "With A Little Luck - DJ Edit / 2016 Remaster",
+          "track_id": "1CPTAkaqBwFfe7xUjScKIr"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "Band On The Run - 2010 Remaster",
+          "track_id": "1H4idkmruFoJBg1DvUv2tY"
+        },
+        {
+          "artists": [
+            "Wings"
+          ],
+          "count": 1,
+          "name": "Mary Had A Little Lamb - 2018 Remaster",
+          "track_id": "1SF8FzofinVngGEz329DdU"
+        },
+        {
+          "artists": [
+            "Paul McCartney"
+          ],
+          "count": 1,
+          "name": "One Of These Days - Remastered 2011",
+          "track_id": "2NOa1O7ExfvdaWCmoeDXIV"
         }
       ],
       "year": "2020"
     },
     {
-      "plays": 22,
+      "plays": 13,
       "tracks": [
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 3,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "3o4KExcCgRoh7zodB6o2ob"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 3,
-          "name": "Let Me Live - Remastered 2011",
-          "track_id": "7IE0BueyoTf5aMVP7t2FB2"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "Radio Ga Ga - Remastered 2011",
-          "track_id": "1nQRg9q9uwALGzouOX5OyQ"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "Under Pressure - Remastered 2011",
-          "track_id": "7osG0uVKP7rTCCLBeTOVxv"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "'39 - Remastered 2011",
-          "track_id": "215sst16bKF7Ee7eCjueo5"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "The Show Must Go On - Remastered 2011",
-          "track_id": "5cD5oH0nxIzsUVx39QP2i4"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 2,
-          "name": "I Was Born To Love You - Remastered 2011",
-          "track_id": "500o08SwO4Qoppq9zZrOZB"
-        },
         {
           "artists": [
             "Queen"
@@ -416,8 +336,24 @@
             "Queen"
           ],
           "count": 2,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
+          "name": "'39 - Remastered 2011",
+          "track_id": "215sst16bKF7Ee7eCjueo5"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Radio Ga Ga - Remastered 2011",
+          "track_id": "4hfoFFcN5y0QTjss6iW61A"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Somebody To Love - Remastered 2011",
+          "track_id": "4rDbp1vnvEhieiccprPMdI"
         },
         {
           "artists": [
@@ -426,6 +362,46 @@
           "count": 1,
           "name": "You're My Best Friend - Remastered 2011",
           "track_id": "2HNVRqYHTfdam1TnY0J4q7"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Don't Stop Me Now - Remastered 2011",
+          "track_id": "7vhL0SIX8hN703vwVh6SFb"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Under Pressure - Remastered 2011",
+          "track_id": "7osG0uVKP7rTCCLBeTOVxv"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Too Much Love Will Kill You - Remastered 2011",
+          "track_id": "3o4KExcCgRoh7zodB6o2ob"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Let Me Live - Remastered 2011",
+          "track_id": "7IE0BueyoTf5aMVP7t2FB2"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "The Show Must Go On - Remastered 2011",
+          "track_id": "5cD5oH0nxIzsUVx39QP2i4"
         }
       ],
       "year": "2019"

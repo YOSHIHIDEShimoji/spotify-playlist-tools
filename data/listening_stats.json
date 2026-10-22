@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 651,
+      "count": 652,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-10-21T19:48:40.065592+00:00",
+  "generated_at": "2026-10-22T19:39:34.871341+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,28 +813,37 @@
       5000,
       10000
     ],
-    "total": 64645
+    "total": 64705
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 7,
+  "streak": 8,
   "weekly_top": [
     {
       "artists": [
         "ジェイソン・デルーロ"
       ],
-      "count": 2,
+      "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
       "name": "Want to Want Me",
       "track_id": "6zKrj4SomgfbvsfuTAuElE"
     },
     {
       "artists": [
-        "Katy Perry"
+        "Karan Aujla"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
-      "name": "Daisies",
-      "track_id": "4uqh9bualXNHXXwO2wPorc"
+      "image": "https://i.scdn.co/image/ab67616d00004851ab7e63a11e638cf711ab7f46",
+      "name": "Tell Me",
+      "track_id": "7KH7qQDC34EPT0sK3EJP3s"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "name": "Hurts",
+      "track_id": "2N5AA16n90ZDksRqGID3kM"
     },
     {
       "artists": [
@@ -1228,9 +1237,9 @@
         "Engelbert Humperdinck"
       ],
       "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/924946079934e3202742f13377fe8f6d.jpg",
+      "image": "https://i.scdn.co/image/ab67616d0000485113f61b73b155d49c9ad671b9",
       "name": "A Man Without Love",
-      "track_id": "lastfm:amanwithoutlove|engelberthumperdinck"
+      "track_id": "0oUBuOO4g9P4lREqfqR5nq"
     },
     {
       "artists": [
@@ -1249,6 +1258,15 @@
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "name": "All I Want For Christmas Is You",
       "track_id": "lastfm:alliwantforchristmasisyou|マライア・キャリー"
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
+      "name": "Daisies",
+      "track_id": "4uqh9bualXNHXXwO2wPorc"
     }
   ]
 }
