@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 652,
+      "count": 653,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -68,7 +68,7 @@
       "artists": [
         "suis from Yorushika"
       ],
-      "count": 178,
+      "count": 179,
       "name": "星めぐる詩",
       "track_id": "30aPCMAtkH6Cf5ejzY4cE4"
     },
@@ -322,19 +322,19 @@
     },
     {
       "artists": [
+        "Stephen Sanchez"
+      ],
+      "count": 126,
+      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
+      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
+    },
+    {
+      "artists": [
         "Katy Perry"
       ],
       "count": 125,
       "name": "Firework",
       "track_id": "63k1w5YsTtHd8BRtgxaVhh"
-    },
-    {
-      "artists": [
-        "Stephen Sanchez"
-      ],
-      "count": 125,
-      "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-      "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
     },
     {
       "artists": [
@@ -786,22 +786,22 @@
     },
     {
       "artists": [
-        "The Beatles"
+        "Alan Silvestri"
       ],
-      "count": 100,
-      "name": "Any Time At All - Remastered 2009",
-      "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
+      "count": 101,
+      "name": "Portals",
+      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     },
     {
       "artists": [
         "The Beatles"
       ],
       "count": 100,
-      "name": "Anna (Go To Him) - Remastered 2009",
-      "track_id": "2baEFuU0gQon0hgVRioI1o"
+      "name": "Any Time At All - Remastered 2009",
+      "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-10-23T19:39:46.515929+00:00",
+  "generated_at": "2026-10-24T18:28:04.289049+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 64730
+    "total": 64793
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 9,
+  "streak": 11,
   "weekly_top": [
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
+      "name": "Finish Me",
+      "track_id": "45nGWJRXJmYF4g3l4iuUyN"
+    },
     {
       "artists": [
         "ジェイソン・デルーロ"
@@ -829,12 +838,129 @@
     },
     {
       "artists": [
-        "Justin Bieber"
+        "マーティン・ギャリックス"
       ],
       "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485199acb124b8c5a05f39e839d2",
+      "name": "Repeat It",
+      "track_id": "6TWWauThn6z8xOFpG4XF3O"
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851c820f033bd82bef4355d1563",
+      "name": "Señorita",
+      "track_id": "6v3KW9xbzN5yKLt9YKDYA2"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519164bafe9aaa168d93f4816a",
+      "name": "Shiver",
+      "track_id": "0qksx8mV28lztYIZ1om8ml"
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485137a5a19e52f8260b3b158e55",
+      "name": "305",
+      "track_id": "5ld8E3DVBXCCWQ54yrkWVp"
+    },
+    {
+      "artists": [
+        "スピッツ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
+      "name": "美しい鰭",
+      "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
+      "name": "Thru These Tears",
+      "track_id": "7GbAp0HKPQW7WnFJAzMoRk"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+      "name": "Company",
+      "track_id": "61uyGDPJ06MkxJtHgPmuyO"
+    },
+    {
+      "artists": [
+        "The Weeknd"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452",
+      "name": "Starboy",
+      "track_id": "7MXVkk9YMctZqd1Srtv4MB"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
       "name": "WALKING AWAY",
       "track_id": "0LutvoC2HqCfnaRSjrhtzo"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Something I Need",
+      "track_id": "5aIZ2jtxZ4o4GHQXTybkIa"
+    },
+    {
+      "artists": [
+        "サム・スミス"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518d1974dc3ab1893678ae499a",
+      "name": "Kids Again",
+      "track_id": "1ABS9lKaZ1uXkXCqr9zFO7"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "name": "If I Lose Myself - Alesso vs OneRepublic",
+      "track_id": "3ScJy88F8KqGDfWu8XJhHx"
+    },
+    {
+      "artists": [
+        "BTS"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f",
+      "name": "Boy With Luv (feat. Halsey)",
+      "track_id": "4a9tbd947vo9K8Vti9JwcI"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
+      "name": "(what i wish just one person would say to me)",
+      "track_id": "68BpjQ7Vc8uUHvUKMcLLHe"
     },
     {
       "artists": [
@@ -955,15 +1081,6 @@
     },
     {
       "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851c820f033bd82bef4355d1563",
-      "name": "Señorita",
-      "track_id": "6v3KW9xbzN5yKLt9YKDYA2"
-    },
-    {
-      "artists": [
         "パニック！アット・ザ・ディスコ"
       ],
       "count": 1,
@@ -1006,15 +1123,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
       "name": "Stop and Stare",
       "track_id": "0pg4ptWsO9eMH6nEhrM9fD"
-    },
-    {
-      "artists": [
-        "コールドプレイ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519164bafe9aaa168d93f4816a",
-      "name": "Shiver",
-      "track_id": "0qksx8mV28lztYIZ1om8ml"
     },
     {
       "artists": [
@@ -1159,114 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
       "name": "Cruel Summer",
       "track_id": "1BxfuPKGuaTgP7aM0Bbdwr"
-    },
-    {
-      "artists": [
-        "チャーリー・プース"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a896b26487ab4f09f86316d1",
-      "name": "Light Switch - Acoustic",
-      "track_id": "42nDnUAPjhZFlj5wt2BjJm"
-    },
-    {
-      "artists": [
-        "Alex Warren"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
-      "name": "The Outside",
-      "track_id": "0uaomEw1vvehttoRNBngKd"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
-      "name": "Out Of My League",
-      "track_id": "3JSATYGj6yxP1Vc1b49SSK"
-    },
-    {
-      "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485137a5a19e52f8260b3b158e55",
-      "name": "305",
-      "track_id": "5ld8E3DVBXCCWQ54yrkWVp"
-    },
-    {
-      "artists": [
-        "クリーン・バンディット"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "name": "Rather Be (feat. Jess Glynne)",
-      "track_id": "61dCUoMCg28qEBzrW6htYM"
-    },
-    {
-      "artists": [
-        "ケイティ・ペリー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "name": "The One That Got Away",
-      "track_id": "2009X8GyWTqyxIdzAEYW6N"
-    },
-    {
-      "artists": [
-        "Josh Turner"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/58c6afe4ba85402abe4669199bf95252.png",
-      "name": "Your Man",
-      "track_id": "lastfm:yourman|joshturner"
-    },
-    {
-      "artists": [
-        "Engelbert Humperdinck"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485113f61b73b155d49c9ad671b9",
-      "name": "A Man Without Love",
-      "track_id": "0oUBuOO4g9P4lREqfqR5nq"
-    },
-    {
-      "artists": [
-        "ワン・ダイレクション"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
-      "name": "Live While We're Young",
-      "track_id": "2sF2NJT9rxRpLifXabqFNS"
-    },
-    {
-      "artists": [
-        "マライア・キャリー"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "name": "All I Want For Christmas Is You",
-      "track_id": "lastfm:alliwantforchristmasisyou|マライア・キャリー"
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048518df6751bad8ab6b5c928dba3",
-      "name": "Daisies",
-      "track_id": "4uqh9bualXNHXXwO2wPorc"
-    },
-    {
-      "artists": [
-        "Novelbright"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a15dc066cec020b5da991c34",
-      "name": "ツキミソウ",
-      "track_id": "6sElEqOIGENWjpxGFeo5ct"
     }
   ]
 }
