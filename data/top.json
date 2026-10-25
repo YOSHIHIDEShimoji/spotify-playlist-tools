@@ -82,13 +82,13 @@
         "rank": 16
       },
       {
-        "id": "5kjGRHClVacSyllOUqU1S0",
-        "name": "SPITZ",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 17
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
+        "id": "5kjGRHClVacSyllOUqU1S0",
+        "name": "SPITZ",
         "rank": 18
       },
       {
@@ -112,13 +112,13 @@
         "rank": 22
       },
       {
-        "id": "7KSbqXHO0xzNQhzaIWILIo",
-        "name": "音田 雅則",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 23
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "7KSbqXHO0xzNQhzaIWILIo",
+        "name": "音田 雅則",
         "rank": 24
       },
       {
@@ -199,13 +199,13 @@
         "rank": 9
       },
       {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 10
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
         "rank": 11
       },
       {
@@ -311,13 +311,13 @@
         "rank": 1
       },
       {
-        "id": "1uNFoZAHBGtllmzznpCI3s",
-        "name": "Justin Bieber",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 2
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
         "rank": 3
       },
       {
@@ -351,13 +351,13 @@
         "rank": 9
       },
       {
-        "id": "3FUY2gzHeIiaesXtOAdB7A",
-        "name": "Train",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
         "rank": 10
       },
       {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
         "rank": 11
       },
       {
@@ -391,18 +391,18 @@
         "rank": 17
       },
       {
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "name": "Benson Boone",
+        "rank": 18
+      },
+      {
         "id": "0Xk15jHKly4c3AhPr5vjoA",
         "name": "Alan Silvestri",
-        "rank": 18
+        "rank": 19
       },
       {
         "id": "53XhwfbYqKCa1cC15pYq2q",
         "name": "Imagine Dragons",
-        "rank": 19
-      },
-      {
-        "id": "64KEffDW9EtZ1y2vBYgq8T",
-        "name": "Marshmello",
         "rank": 20
       },
       {
@@ -411,23 +411,23 @@
         "rank": 21
       },
       {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
+        "rank": 22
+      },
+      {
         "id": "69GGBxA162lTqCwzJG5jLp",
         "name": "The Chainsmokers",
-        "rank": 22
+        "rank": 23
       },
       {
         "id": "74KM79TiuVKeVCqs8QtB0B",
         "name": "Sabrina Carpenter",
-        "rank": 23
+        "rank": 24
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 24
-      },
-      {
-        "id": "22wbnEMDvgVIAGdFeek6ET",
-        "name": "Benson Boone",
         "rank": 25
       },
       {
@@ -436,28 +436,28 @@
         "rank": 26
       },
       {
+        "id": "0fTSzq9jAh4c36UVb4V7CB",
+        "name": "Alex Warren",
+        "rank": 27
+      },
+      {
         "id": "0jWCX6zp4RjWrmZRxJ2uri",
         "name": "Novelbright",
-        "rank": 27
+        "rank": 28
       },
       {
         "id": "1HY2Jd0NmPuamShAr6KMms",
         "name": "Lady Gaga",
-        "rank": 28
+        "rank": 29
       },
       {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 29
-      },
-      {
-        "id": "3pc0bOVB5whxmD50W79wwO",
-        "name": "keshi",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-10-24T18:31:02.527707+00:00",
+  "generated_at": "2026-10-25T18:41:16.338537+00:00",
   "tracks": {
     "long_term": [
       {
@@ -828,10 +828,19 @@
         "artists": [
           "OneRepublic"
         ],
+        "id": "5aIZ2jtxZ4o4GHQXTybkIa",
+        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+        "name": "Something I Need",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 11
+        "rank": 12
       },
       {
         "artists": [
@@ -840,7 +849,7 @@
         "id": "2IPpyxIgVLoDmYGIffJrol",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Marchin On",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -849,7 +858,7 @@
         "id": "2CJD3LSIVidK6nu4suUusa",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "All The Right Moves",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -858,7 +867,7 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -867,15 +876,6 @@
         "id": "2e42fb37LVhtCOescNb1yN",
         "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
         "name": "Everybody Loves Me",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "5aIZ2jtxZ4o4GHQXTybkIa",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Something I Need",
         "rank": 16
       },
       {
@@ -1079,12 +1079,41 @@
       },
       {
         "artists": [
+          "Justin Bieber",
+          "Daniel Caesar",
+          "GIVĒON"
+        ],
+        "id": "4iJyoBOLtHqaGxP12qzhQI",
+        "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+        "name": "Peaches (feat. Daniel Caesar & Giveon)",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "LANY"
+        ],
+        "id": "68BpjQ7Vc8uUHvUKMcLLHe",
+        "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
+        "name": "(what i wish just one person would say to me)",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "Justin Bieber"
+        ],
+        "id": "0LutvoC2HqCfnaRSjrhtzo",
+        "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+        "name": "WALKING AWAY",
+        "rank": 10
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "0ZR0D8BOyH1b8vtrSnA5Xu",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Room For You",
-        "rank": 8
+        "rank": 11
       },
       {
         "artists": [
@@ -1093,7 +1122,7 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 9
+        "rank": 12
       },
       {
         "artists": [
@@ -1103,7 +1132,7 @@
         "id": "18E1LAdiOj79wZqSOYMHE7",
         "image": "https://i.scdn.co/image/ab67616d0000485162ecbc14602444f8a6c3f5bf",
         "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-        "rank": 10
+        "rank": 13
       },
       {
         "artists": [
@@ -1112,7 +1141,16 @@
         "id": "2UyZTPrWFSMysY9cVVjmaB",
         "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
         "name": "Colors",
-        "rank": 11
+        "rank": 14
+      },
+      {
+        "artists": [
+          "YUNGBLUD"
+        ],
+        "id": "2kLWSmKHhfUBepkIA9oNe5",
+        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
+        "name": "Abyss - from Kaiju No. 8",
+        "rank": 15
       },
       {
         "artists": [
@@ -1121,7 +1159,16 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 12
+        "rank": 16
+      },
+      {
+        "artists": [
+          "The 1975"
+        ],
+        "id": "3TgMcrV32NUKjEG2ujn9eh",
+        "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
+        "name": "It's Not Living (If It's Not With You)",
+        "rank": 17
       },
       {
         "artists": [
@@ -1130,18 +1177,7 @@
         "id": "4Dvkj6JhhA12EX05fT7y2e",
         "image": "https://i.scdn.co/image/ab67616d0000485182ce362511fb3d9dda6578ee",
         "name": "As It Was",
-        "rank": 13
-      },
-      {
-        "artists": [
-          "Justin Bieber",
-          "Daniel Caesar",
-          "GIVĒON"
-        ],
-        "id": "4iJyoBOLtHqaGxP12qzhQI",
-        "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-        "name": "Peaches (feat. Daniel Caesar & Giveon)",
-        "rank": 14
+        "rank": 18
       },
       {
         "artists": [
@@ -1150,16 +1186,7 @@
         "id": "5og4Qzt92jJzVDkOtSEilb",
         "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
         "name": "But Daddy I Love Him",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "LANY"
-        ],
-        "id": "68BpjQ7Vc8uUHvUKMcLLHe",
-        "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
-        "name": "(what i wish just one person would say to me)",
-        "rank": 16
+        "rank": 19
       },
       {
         "artists": [
@@ -1168,7 +1195,7 @@
         "id": "6Fe0bY8vDxBnN7rDgu3ACE",
         "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
         "name": "I Would",
-        "rank": 17
+        "rank": 20
       },
       {
         "artists": [
@@ -1177,7 +1204,7 @@
         "id": "6xTQD1ixS5uca8B9P97vQc",
         "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
         "name": "AM Gold",
-        "rank": 18
+        "rank": 21
       },
       {
         "artists": [
@@ -1187,7 +1214,7 @@
         "id": "7so0lgd0zP2Sbgs2d7a1SZ",
         "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
         "name": "Die With A Smile",
-        "rank": 19
+        "rank": 22
       },
       {
         "artists": [
@@ -1196,7 +1223,7 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
-        "rank": 20
+        "rank": 23
       },
       {
         "artists": [
@@ -1205,7 +1232,7 @@
         "id": "2BaXRCVgn621xHOGoFSuW5",
         "image": "https://i.scdn.co/image/ab67616d00004851906478ec1684465b3dca4274",
         "name": "I Really Like You",
-        "rank": 21
+        "rank": 24
       },
       {
         "artists": [
@@ -1214,7 +1241,16 @@
         "id": "03T4ttRCiLXST6MZjeMwmR",
         "image": "https://i.scdn.co/image/ab67616d00004851722d16eb3b31fae9cb1d2ada",
         "name": "Orphans",
-        "rank": 22
+        "rank": 25
+      },
+      {
+        "artists": [
+          "Christina Aguilera"
+        ],
+        "id": "0G3iJ1r5SSv7nUBNCgBmwF",
+        "image": "https://i.scdn.co/image/ab67616d00004851535031d8ddef89102424a516",
+        "name": "We Remain - From “The Hunger Games: Catching Fire” Soundtrack",
+        "rank": 26
       },
       {
         "artists": [
@@ -1223,16 +1259,7 @@
         "id": "0ILXYaWxMQVEXnKq2eTmjW",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "What You Wanted",
-        "rank": 23
-      },
-      {
-        "artists": [
-          "Justin Bieber"
-        ],
-        "id": "0LutvoC2HqCfnaRSjrhtzo",
-        "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
-        "name": "WALKING AWAY",
-        "rank": 24
+        "rank": 27
       },
       {
         "artists": [
@@ -1241,7 +1268,7 @@
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 25
+        "rank": 28
       },
       {
         "artists": [
@@ -1250,7 +1277,7 @@
         "id": "0bYg9bo50gSsH3LtXe2SQn",
         "image": "https://i.scdn.co/image/ab67616d00004851c0862332847213b151ffab31",
         "name": "All I Want for Christmas Is You",
-        "rank": 26
+        "rank": 29
       },
       {
         "artists": [
@@ -1259,33 +1286,6 @@
         "id": "0ug5NqcwcFR2xrfTkc7k8e",
         "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
         "name": "Style",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "Coldplay"
-        ],
-        "id": "0x5CxIxVZUxwOQbwiVLS6J",
-        "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
-        "name": "Charlie Brown",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "1mXiSrqOdR09yT43TwkSLh",
-        "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-        "name": "Someone To Save You",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "Matt Hansen"
-        ],
-        "id": "27aLssrBr02bppwwWFCe7k",
-        "image": "https://i.scdn.co/image/ab67616d000048515a85de759e0cd335b9bd74e3",
-        "name": "SOMEONE TO YOU",
         "rank": 30
       }
     ]
