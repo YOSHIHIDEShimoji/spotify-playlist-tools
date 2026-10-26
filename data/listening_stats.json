@@ -274,19 +274,19 @@
     },
     {
       "artists": [
+        "Lea Salonga"
+      ],
+      "count": 137,
+      "name": "A Whole New World",
+      "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
+    },
+    {
+      "artists": [
         "Keane"
       ],
       "count": 135,
       "name": "Somewhere Only We Know",
       "track_id": "1SKPmfSYaPsETbRHaiA18G"
-    },
-    {
-      "artists": [
-        "Lea Salonga"
-      ],
-      "count": 135,
-      "name": "A Whole New World",
-      "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
     },
     {
       "artists": [
@@ -514,6 +514,14 @@
     },
     {
       "artists": [
+        "a-ha"
+      ],
+      "count": 114,
+      "name": "Take on Me",
+      "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
+    },
+    {
+      "artists": [
         "ALI"
       ],
       "count": 114,
@@ -527,14 +535,6 @@
       "count": 113,
       "name": "I Should Have Known Better - Remastered 2009",
       "track_id": "3pU1CUgPiFfxPCpscwIwQR"
-    },
-    {
-      "artists": [
-        "a-ha"
-      ],
-      "count": 113,
-      "name": "Take on Me",
-      "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
     },
     {
       "artists": [
@@ -762,6 +762,14 @@
     },
     {
       "artists": [
+        "Alan Silvestri"
+      ],
+      "count": 102,
+      "name": "Portals",
+      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 102,
@@ -786,14 +794,6 @@
     },
     {
       "artists": [
-        "Alan Silvestri"
-      ],
-      "count": 101,
-      "name": "Portals",
-      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 100,
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-10-25T18:38:22.871110+00:00",
+  "generated_at": "2026-10-26T20:49:34.499267+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,9 +813,343 @@
       5000,
       10000
     ],
-    "total": 64846
+    "total": 64887
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 11,
-  "weekly_top": []
+  "streak": 13,
+  "weekly_top": [
+    {
+      "artists": [
+        "ショーン・メンデス"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851cce29b5f028071ddeb23f21b",
+      "name": "When You're Gone",
+      "track_id": "0U1W2LZVUX7qTm7dDpqxh6"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+      "name": "What Do You Mean?",
+      "track_id": "4B0JvthVoAAuygILe3n4Bs"
+    },
+    {
+      "artists": [
+        "Lea Salonga"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514a4b92dcf7a5c51cc4f7424c",
+      "name": "A Whole New World",
+      "track_id": "1hwdPQtFHISvZ9SXMkNrIK"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
+      "name": "XXL",
+      "track_id": "3l1grOhgJQG4E1E2MjfHWG"
+    },
+    {
+      "artists": [
+        "Side Saddle"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
+      "name": "All My Days",
+      "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ea3ef7697cfd5705b8f47521",
+      "name": "Lights On",
+      "track_id": "348cSuo1eooBe21AzdjAqy"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "Wherever I Go",
+      "track_id": "46jLy47W8rkf8rEX04gMKB"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851da5d5aeeabacacc1263c0f4b",
+      "name": "Getaway Car",
+      "track_id": "0VE4kBnHJUgtMf0dy6DRmW"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512d9e8e3e016cf68d53536c64",
+      "name": "live it down",
+      "track_id": "0rYhybLBmOyTYx6buMVIBq"
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "name": "Done for Me (feat. Kehlani)",
+      "track_id": "1lsBTdE6MGsKeZCD6llNu7"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "name": "Destiny",
+      "track_id": "2URngwatR4R1nBokc2jiDc"
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+      "name": "Company",
+      "track_id": "61uyGDPJ06MkxJtHgPmuyO"
+    },
+    {
+      "artists": [
+        "Aaron Smith"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517715dbcfe17cf4260d47c311",
+      "name": "Dancin - Krono Remix",
+      "track_id": "5Cpo7btae5aI6QtOcVzWwB"
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
+      "name": "Collide",
+      "track_id": "5sv0WnUs74Orn6GoPmC5im"
+    },
+    {
+      "artists": [
+        "Marshmello"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ae40468931087f78919b86ce",
+      "name": "Leave Before You Love Me (with Jonas Brothers)",
+      "track_id": "4qu63nuBpdn0qHUHuObEj1"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Ships + Tides",
+      "track_id": "0GUncXNah8KoaErnDd7H1L"
+    },
+    {
+      "artists": [
+        "Lady Gaga"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485182ea2e9e1858aa012c57cd45",
+      "name": "Die with a Smile",
+      "track_id": "2plbrEY59IikOBgBGLjaoe"
+    },
+    {
+      "artists": [
+        "Alan Silvestri"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba70a3f1cc9aebbbc1fdfee1",
+      "name": "Portals",
+      "track_id": "0OVtnS3l4vThGxkdqCxN6K"
+    },
+    {
+      "artists": [
+        "Martin Garrix"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d0000485199acb124b8c5a05f39e839d2",
+      "name": "Repeat It",
+      "track_id": "6TWWauThn6z8xOFpG4XF3O"
+    },
+    {
+      "artists": [
+        "Gracie Abrams"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516e2101520787791370f4a96b",
+      "name": "Risk",
+      "track_id": "0gZGUAO42F1HmzZWHNPGAu"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512d9e8e3e016cf68d53536c64",
+      "name": "dna",
+      "track_id": "2McTSCNNzxgDtAqiuibhPI"
+    },
+    {
+      "artists": [
+        "ショーン・メンデス"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512d6a4125a1d62dc6185f74ea",
+      "name": "Imagination",
+      "track_id": "21TcDbGosp7w9YhTjOszgA"
+    },
+    {
+      "artists": [
+        "コールドプレイ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
+      "name": "Paradise",
+      "track_id": "7wBrglFVTNCcW6IhdgBkm1"
+    },
+    {
+      "artists": [
+        "Alex Warren"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851457cfd5a54720ab3b0820064",
+      "name": "Ordinary",
+      "track_id": "6qqrTXSdwiJaq8SO0X2lSe"
+    },
+    {
+      "artists": [
+        "ジョン・オーツ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851022c94db78a28f0ccaf58821",
+      "name": "Philly Forget Me Not (with Train)",
+      "track_id": "3T4iSOOStNDog0cgIPBiaU"
+    },
+    {
+      "artists": [
+        "セレーナ・ゴメス"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851307910d4242c0d6b1fedf955",
+      "name": "Wolves",
+      "track_id": "0tBbt8CrmxbjRP0pueQkyU"
+    },
+    {
+      "artists": [
+        "アーハ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e8dd4db47e7177c63b0b7d53",
+      "name": "Take On Me",
+      "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Anyone",
+      "track_id": "2WnAKZefdRHxtBEkRjFOHC"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+      "name": "WALKING AWAY",
+      "track_id": "0LutvoC2HqCfnaRSjrhtzo"
+    },
+    {
+      "artists": [
+        "チャーリー・プース"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851897f73256b9128a9d70eaf66",
+      "name": "The Way I Am",
+      "track_id": "6qNALlmZa1ESnCxJmXE1K9"
+    },
+    {
+      "artists": [
+        "ボン・ジョヴィ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518cadefc62ac1c0b7c4ab882a",
+      "name": "These Days",
+      "track_id": "4nnJRbVecvQwqf3OQP4mja"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "name": "EVERYTHING HALLELUJAH",
+      "track_id": "5AwNJ5mr7mHyIhlKnQICEJ"
+    },
+    {
+      "artists": [
+        "Gryffin"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+      "name": "You Were Loved (with OneRepublic)",
+      "track_id": "5gzZnru34wdecgMUQR2UO0"
+    },
+    {
+      "artists": [
+        "Taylor Swift"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
+      "name": "Opalite",
+      "track_id": "3yWuTOYDztXjZxdE2cIRUa"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "name": "Super Far",
+      "track_id": "15ahYSiHAIMxAnujlXVtta"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048517fe4a82a08c4f0decbeddbc6",
+      "name": "Come Around Me",
+      "track_id": "2o9LAypwGH4ctV0i9boo6d"
+    },
+    {
+      "artists": [
+        "YOASOBI"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851bb6370163b04145ed2e87442",
+      "name": "ハルカ",
+      "track_id": "6wKmxUeMJAoz2GpMrw95z5"
+    }
+  ]
 }

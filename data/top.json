@@ -122,13 +122,13 @@
         "rank": 24
       },
       {
-        "id": "5WUlDfRSoLAfcVSX1WnrxN",
-        "name": "Sia",
+        "id": "5W7F9IM2vsR9EDCk5T2Uqz",
+        "name": "Yumi Arai",
         "rank": 25
       },
       {
-        "id": "5W7F9IM2vsR9EDCk5T2Uqz",
-        "name": "Yumi Arai",
+        "id": "5WUlDfRSoLAfcVSX1WnrxN",
+        "name": "Sia",
         "rank": 26
       },
       {
@@ -219,13 +219,13 @@
         "rank": 13
       },
       {
-        "id": "0jWCX6zp4RjWrmZRxJ2uri",
-        "name": "Novelbright",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 14
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
         "rank": 15
       },
       {
@@ -311,13 +311,13 @@
         "rank": 1
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
         "rank": 2
       },
       {
-        "id": "1uNFoZAHBGtllmzznpCI3s",
-        "name": "Justin Bieber",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 3
       },
       {
@@ -341,18 +341,18 @@
         "rank": 7
       },
       {
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "rank": 8
+      },
+      {
         "id": "04gDigrS5kc9YWfZHwBETP",
         "name": "Maroon 5",
-        "rank": 8
+        "rank": 9
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 9
-      },
-      {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
         "rank": 10
       },
       {
@@ -361,38 +361,38 @@
         "rank": 11
       },
       {
-        "id": "6eUKZXaKkcviH0Ku9w2n3V",
-        "name": "Ed Sheeran",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 12
       },
       {
-        "id": "6wlhqnATSJIc0NQ64VxOVJ",
-        "name": "Matt Hansen",
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
         "rank": 13
-      },
-      {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
-        "rank": 14
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 15
+        "rank": 14
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
-        "rank": 16
+        "rank": 15
       },
       {
         "id": "1dfeR4HaWDbWqFHLkxsg1d",
         "name": "Queen",
-        "rank": 17
+        "rank": 16
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
+        "rank": 17
+      },
+      {
+        "id": "6wlhqnATSJIc0NQ64VxOVJ",
+        "name": "Matt Hansen",
         "rank": 18
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-25T18:41:16.338537+00:00",
+  "generated_at": "2026-10-26T20:52:16.297380+00:00",
   "tracks": {
     "long_term": [
       {
@@ -983,13 +983,22 @@
       },
       {
         "artists": [
+          "OneRepublic"
+        ],
+        "id": "46jLy47W8rkf8rEX04gMKB",
+        "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+        "name": "Wherever I Go",
+        "rank": 28
+      },
+      {
+        "artists": [
           "Galantis",
           "OneRepublic"
         ],
         "id": "53Ji6ZvVjsBl4pIuiETfhN",
         "image": "https://i.scdn.co/image/ab67616d00004851b3e70fb498006743b7412305",
         "name": "Bones (feat. OneRepublic)",
-        "rank": 28
+        "rank": 29
       },
       {
         "artists": [
@@ -998,15 +1007,6 @@
         "id": "6KL88T4Ma4ABXqzgUoEwkd",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Run",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0baR1QmlC8CruupaxA1IYA",
-        "image": "https://i.scdn.co/image/ab67616d000048515eb338ff72c493d5cce3559f",
-        "name": "Beautiful Colors - from Kaiju No. 8",
         "rank": 30
       }
     ],
@@ -1070,11 +1070,11 @@
       },
       {
         "artists": [
-          "LANY"
+          "Justin Bieber"
         ],
-        "id": "3JSATYGj6yxP1Vc1b49SSK",
-        "image": "https://i.scdn.co/image/ab67616d000048518d013d6d163279f56f54c7b5",
-        "name": "Out Of My League",
+        "id": "0LutvoC2HqCfnaRSjrhtzo",
+        "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+        "name": "WALKING AWAY",
         "rank": 7
       },
       {
@@ -1099,11 +1099,12 @@
       },
       {
         "artists": [
-          "Justin Bieber"
+          "Lady Gaga",
+          "Bruno Mars"
         ],
-        "id": "0LutvoC2HqCfnaRSjrhtzo",
-        "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
-        "name": "WALKING AWAY",
+        "id": "7so0lgd0zP2Sbgs2d7a1SZ",
+        "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
+        "name": "Die With A Smile",
         "rank": 10
       },
       {
@@ -1154,12 +1155,22 @@
       },
       {
         "artists": [
+          "OneRepublic",
+          "Alesso"
+        ],
+        "id": "3ScJy88F8KqGDfWu8XJhHx",
+        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+        "name": "If I Lose Myself - Alesso vs OneRepublic",
+        "rank": 16
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 16
+        "rank": 17
       },
       {
         "artists": [
@@ -1168,7 +1179,7 @@
         "id": "3TgMcrV32NUKjEG2ujn9eh",
         "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
         "name": "It's Not Living (If It's Not With You)",
-        "rank": 17
+        "rank": 18
       },
       {
         "artists": [
@@ -1177,7 +1188,17 @@
         "id": "4Dvkj6JhhA12EX05fT7y2e",
         "image": "https://i.scdn.co/image/ab67616d0000485182ce362511fb3d9dda6578ee",
         "name": "As It Was",
-        "rank": 18
+        "rank": 19
+      },
+      {
+        "artists": [
+          "Gryffin",
+          "OneRepublic"
+        ],
+        "id": "5gzZnru34wdecgMUQR2UO0",
+        "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+        "name": "You Were Loved (with OneRepublic)",
+        "rank": 20
       },
       {
         "artists": [
@@ -1186,7 +1207,7 @@
         "id": "5og4Qzt92jJzVDkOtSEilb",
         "image": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
         "name": "But Daddy I Love Him",
-        "rank": 19
+        "rank": 21
       },
       {
         "artists": [
@@ -1195,7 +1216,7 @@
         "id": "6Fe0bY8vDxBnN7rDgu3ACE",
         "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
         "name": "I Would",
-        "rank": 20
+        "rank": 22
       },
       {
         "artists": [
@@ -1204,17 +1225,7 @@
         "id": "6xTQD1ixS5uca8B9P97vQc",
         "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
         "name": "AM Gold",
-        "rank": 21
-      },
-      {
-        "artists": [
-          "Lady Gaga",
-          "Bruno Mars"
-        ],
-        "id": "7so0lgd0zP2Sbgs2d7a1SZ",
-        "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
-        "name": "Die With A Smile",
-        "rank": 22
+        "rank": 23
       },
       {
         "artists": [
@@ -1223,7 +1234,7 @@
         "id": "2jS3Oo8GqrhrBDAeU1stum",
         "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
         "name": "アイビー",
-        "rank": 23
+        "rank": 24
       },
       {
         "artists": [
@@ -1232,7 +1243,7 @@
         "id": "2BaXRCVgn621xHOGoFSuW5",
         "image": "https://i.scdn.co/image/ab67616d00004851906478ec1684465b3dca4274",
         "name": "I Really Like You",
-        "rank": 24
+        "rank": 25
       },
       {
         "artists": [
@@ -1241,7 +1252,7 @@
         "id": "03T4ttRCiLXST6MZjeMwmR",
         "image": "https://i.scdn.co/image/ab67616d00004851722d16eb3b31fae9cb1d2ada",
         "name": "Orphans",
-        "rank": 25
+        "rank": 26
       },
       {
         "artists": [
@@ -1250,7 +1261,16 @@
         "id": "0G3iJ1r5SSv7nUBNCgBmwF",
         "image": "https://i.scdn.co/image/ab67616d00004851535031d8ddef89102424a516",
         "name": "We Remain - From “The Hunger Games: Catching Fire” Soundtrack",
-        "rank": 26
+        "rank": 27
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0GUncXNah8KoaErnDd7H1L",
+        "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+        "name": "Ships + Tides",
+        "rank": 28
       },
       {
         "artists": [
@@ -1259,7 +1279,7 @@
         "id": "0ILXYaWxMQVEXnKq2eTmjW",
         "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
         "name": "What You Wanted",
-        "rank": 27
+        "rank": 29
       },
       {
         "artists": [
@@ -1268,24 +1288,6 @@
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "Mariah Carey"
-        ],
-        "id": "0bYg9bo50gSsH3LtXe2SQn",
-        "image": "https://i.scdn.co/image/ab67616d00004851c0862332847213b151ffab31",
-        "name": "All I Want for Christmas Is You",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "Taylor Swift"
-        ],
-        "id": "0ug5NqcwcFR2xrfTkc7k8e",
-        "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
-        "name": "Style",
         "rank": 30
       }
     ]

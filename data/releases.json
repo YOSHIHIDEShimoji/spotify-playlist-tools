@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-10-25T18:42:28.839694+00:00",
+  "generated_at": "2026-10-26T20:53:28.293302+00:00",
   "items": [
-    {
-      "album_id": "4MCHHOFcu9QMJAm8RtNN0l",
-      "album_name": "Sequel",
-      "album_type": "single",
-      "artist": "Fly By Midnight",
-      "artist_id": "4rQTEdG6hDVOlDUFKs9EjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485107136a4b4a7bf026fd7a08af",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1pbMoqpMgCyjPefcJ9PKdq",
-      "album_name": "Heavy Is The Crown",
-      "album_type": "album",
-      "artist": "Anderson .Paak",
-      "artist_id": "3jK9MiCrA42lLAdMGUZpwa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9c1b191c7e4b2f85e6431e8",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
     {
       "album_id": "1pOkH6rbrSW5E1pvQ6Qdtk",
       "album_name": "it's not you it's me",
@@ -46,39 +24,6 @@
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
-      "album_name": "Pray",
-      "album_type": "single",
-      "artist": "R. City",
-      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "25JdKC9G8UodEfjLFZUdlP",
-      "album_name": "La Dolce Vita",
-      "album_type": "single",
-      "artist": "Clean Bandit",
-      "artist_id": "6MDME20pz9RveH9rEXvrOM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9f95ef5f81efdac2278dc9",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "0BsxNDbKrBdbPFmJGGhALE",
-      "album_name": "Love Is The Piece (Cheat Codes Remix)",
-      "album_type": "single",
-      "artist": "Sir Ivan",
-      "artist_id": "65Es5dYCk8l5Vvaf4dbjvs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675085ccf4e2af1a9d05604e",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
       "album_id": "6JRUSG3hxZnQS9Pej43w1e",
       "album_name": "And The Crowd Goes Mild",
       "album_type": "album",
@@ -86,28 +31,6 @@
       "artist_id": "4xnihxcoXWK3UqryOSnbw5",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485128c14f277e07b618eff5aee3",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
-      "album_name": "The Greatest Adventure Yet",
-      "album_type": "album",
-      "artist": "Bogoo's Best Day",
-      "artist_id": "1HXy83mY59h6ovkRVdupB0",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
-      "album_name": "Sleeping Lion",
-      "album_type": "album",
-      "artist": "Lennon Stella",
-      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
       "is_new": false,
       "release_date": "2026-10-23"
     },
@@ -123,6 +46,39 @@
       "release_date": "2026-10-23"
     },
     {
+      "album_id": "4MCHHOFcu9QMJAm8RtNN0l",
+      "album_name": "Sequel",
+      "album_type": "single",
+      "artist": "Fly By Midnight",
+      "artist_id": "4rQTEdG6hDVOlDUFKs9EjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485107136a4b4a7bf026fd7a08af",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
+      "album_name": "Pray",
+      "album_type": "single",
+      "artist": "R. City",
+      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "0BsxNDbKrBdbPFmJGGhALE",
+      "album_name": "Love Is The Piece (Cheat Codes Remix)",
+      "album_type": "single",
+      "artist": "Sir Ivan",
+      "artist_id": "65Es5dYCk8l5Vvaf4dbjvs",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851675085ccf4e2af1a9d05604e",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
       "album_id": "5LheOmMsCEU09vOdcp0ka9",
       "album_name": "Muse",
       "album_type": "album",
@@ -130,6 +86,50 @@
       "artist_id": "5y2Xq6xcjJb2jVM54GHK3t",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485198a32c1a2a1f687b3ba914c8",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
+      "album_name": "Sleeping Lion",
+      "album_type": "album",
+      "artist": "Lennon Stella",
+      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
+      "album_name": "The Greatest Adventure Yet",
+      "album_type": "album",
+      "artist": "Bogoo's Best Day",
+      "artist_id": "1HXy83mY59h6ovkRVdupB0",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1pbMoqpMgCyjPefcJ9PKdq",
+      "album_name": "Heavy Is The Crown",
+      "album_type": "album",
+      "artist": "Anderson .Paak",
+      "artist_id": "3jK9MiCrA42lLAdMGUZpwa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9c1b191c7e4b2f85e6431e8",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "25JdKC9G8UodEfjLFZUdlP",
+      "album_name": "La Dolce Vita",
+      "album_type": "single",
+      "artist": "Clean Bandit",
+      "artist_id": "6MDME20pz9RveH9rEXvrOM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9f95ef5f81efdac2278dc9",
       "is_new": false,
       "release_date": "2026-10-23"
     },
@@ -156,17 +156,6 @@
       "release_date": "2026-10-22"
     },
     {
-      "album_id": "2l7dOY9oiOln2Ln4osavpP",
-      "album_name": "Love Sick (from the Netflix Series \"Nobody Wants This\" Season 3)",
-      "album_type": "single",
-      "artist": "Ravyn Lenae",
-      "artist_id": "5RTLRtXjbXI2lSXc6jxlAz",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851322f82c183fc0f887efd1ad8",
-      "is_new": false,
-      "release_date": "2026-10-22"
-    },
-    {
       "album_id": "5RpMu1ANIerj5wtw12jRO7",
       "album_name": "Morticia",
       "album_type": "single",
@@ -189,15 +178,15 @@
       "release_date": "2026-10-22"
     },
     {
-      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
-      "album_name": "恋のせい",
+      "album_id": "2l7dOY9oiOln2Ln4osavpP",
+      "album_name": "Love Sick (from the Netflix Series \"Nobody Wants This\" Season 3)",
       "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
+      "artist": "Ravyn Lenae",
+      "artist_id": "5RTLRtXjbXI2lSXc6jxlAz",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851322f82c183fc0f887efd1ad8",
       "is_new": false,
-      "release_date": "2026-10-21"
+      "release_date": "2026-10-22"
     },
     {
       "album_id": "4q5OSaJVTrfLYcVeOOQAbM",
@@ -222,15 +211,15 @@
       "release_date": "2026-10-21"
     },
     {
-      "album_id": "2nOFPiKwZSQccxG0lakaEV",
-      "album_name": "expectations (feat. Chappell Roan) [wheel of misfortune]",
+      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
+      "album_name": "恋のせい",
       "album_type": "single",
-      "artist": "Olivia Rodrigo",
-      "artist_id": "1McMsnEElThX1knmY4oliG",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851609b15ffbc826411e19226da",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
       "is_new": false,
-      "release_date": "2026-10-19"
+      "release_date": "2026-10-21"
     },
     {
       "album_id": "7x1ecpq0KS8olPNzUJOyF6",
@@ -244,24 +233,24 @@
       "release_date": "2026-10-19"
     },
     {
-      "album_id": "1q9LM9xC5ebSY216u31FOx",
-      "album_name": "expectations (feat. Chappell Roan)",
+      "album_id": "2nOFPiKwZSQccxG0lakaEV",
+      "album_name": "expectations (feat. Chappell Roan) [wheel of misfortune]",
       "album_type": "single",
       "artist": "Olivia Rodrigo",
       "artist_id": "1McMsnEElThX1knmY4oliG",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
+      "image": "https://i.scdn.co/image/ab67616d00004851609b15ffbc826411e19226da",
       "is_new": false,
-      "release_date": "2026-10-16"
+      "release_date": "2026-10-19"
     },
     {
-      "album_id": "61Sce8yicPSTcvGnBQAKgb",
-      "album_name": "Baby",
+      "album_id": "3AKaapaS16LC64f2wHsCkF",
+      "album_name": "Ultraviolet",
       "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "artist": "Cartoon",
+      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
+      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -273,39 +262,6 @@
       "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048514e071647c9612c26d5f591f4",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
-      "album_name": "Before You Know It",
-      "album_type": "single",
-      "artist": "Kygo",
-      "artist_id": "23fqKkggKUBHNkbKtXEls4",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
-      "album_name": "World Away (Orchestral Edit)",
-      "album_type": "single",
-      "artist": "Gryffin",
-      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "3AKaapaS16LC64f2wHsCkF",
-      "album_name": "Ultraviolet",
-      "album_type": "single",
-      "artist": "Cartoon",
-      "artist_id": "2sf28o6euxEDpYkG9dMtuM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851eb5cf0936427012e685798a3",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -343,37 +299,48 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "1V8Qu6CwkBfYucnCWxynq8",
-      "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "album_id": "2FCGbF5RycyECNTPFEJ1lR",
+      "album_name": "World Away (Orchestral Edit)",
       "album_type": "single",
-      "artist": "Justice",
-      "artist_id": "1gR0gsQYfi6joyO1dlp76N",
+      "artist": "Gryffin",
+      "artist_id": "2ZRQcIgzPCVaT9XKhXZIzh",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c4af9f49f2c276dca687ced",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3ddb681a22287657933b9f3",
       "is_new": false,
-      "release_date": "2026-10-15"
+      "release_date": "2026-10-16"
     },
     {
-      "album_id": "5s237tEKiXD5CeO1ISPDMD",
-      "album_name": "Knockin (feat. The Paradox)",
+      "album_id": "09MFYa0kaj2G2LpRZfKUyo",
+      "album_name": "Before You Know It",
       "album_type": "single",
-      "artist": "Lucky Daye",
-      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
+      "artist": "Kygo",
+      "artist_id": "23fqKkggKUBHNkbKtXEls4",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7f5ca7addb0cd2f3dc004a3",
       "is_new": false,
-      "release_date": "2026-10-15"
+      "release_date": "2026-10-16"
     },
     {
-      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
-      "album_name": "Blue Moon",
+      "album_id": "1q9LM9xC5ebSY216u31FOx",
+      "album_name": "expectations (feat. Chappell Roan)",
       "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
+      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
       "is_new": false,
-      "release_date": "2026-10-15"
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "61Sce8yicPSTcvGnBQAKgb",
+      "album_name": "Baby",
+      "album_type": "single",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
+      "is_new": false,
+      "release_date": "2026-10-16"
     },
     {
       "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
@@ -409,26 +376,37 @@
       "release_date": "2026-10-15"
     },
     {
-      "album_id": "2TFJL5W7rw97JggCUcyw4p",
-      "album_name": "結縁音",
-      "album_type": "album",
-      "artist": "kariyushi58",
-      "artist_id": "0JUEsKG18QuDt6SmyHDrnL",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048512ecd6893e43f1714e485902c",
+      "album_id": "1V8Qu6CwkBfYucnCWxynq8",
+      "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "album_type": "single",
+      "artist": "Justice",
+      "artist_id": "1gR0gsQYfi6joyO1dlp76N",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514c4af9f49f2c276dca687ced",
       "is_new": false,
-      "release_date": "2026-10-14"
+      "release_date": "2026-10-15"
     },
     {
-      "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
-      "album_name": "雲を抜け風下へ私だけ",
+      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
+      "album_name": "Blue Moon",
       "album_type": "single",
-      "artist": "ヨルシカ",
-      "artist_id": "4UK2Lzi6fBfUi9rpDt6cik",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485119be9f04a7bdde3b93b138ca",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
       "is_new": false,
-      "release_date": "2026-10-14"
+      "release_date": "2026-10-15"
+    },
+    {
+      "album_id": "5s237tEKiXD5CeO1ISPDMD",
+      "album_name": "Knockin (feat. The Paradox)",
+      "album_type": "single",
+      "artist": "Lucky Daye",
+      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
+      "is_new": false,
+      "release_date": "2026-10-15"
     },
     {
       "album_id": "24oSk67TQF7dlvkVJwWtWt",
@@ -438,17 +416,6 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485168faa01635ebf2a592fd715c",
-      "is_new": false,
-      "release_date": "2026-10-14"
-    },
-    {
-      "album_id": "0LZEC8oIL0s9sbiMyP3C3G",
-      "album_name": "みらいのうた (ライブ)",
-      "album_type": "single",
-      "artist": "Kazuya Yoshii",
-      "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
       "is_new": false,
       "release_date": "2026-10-14"
     },
@@ -464,15 +431,37 @@
       "release_date": "2026-10-14"
     },
     {
-      "album_id": "3hhjZ6pIGXNGtxS8PNem13",
-      "album_name": "涙の河",
-      "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "album_id": "2TFJL5W7rw97JggCUcyw4p",
+      "album_name": "結縁音",
+      "album_type": "album",
+      "artist": "kariyushi58",
+      "artist_id": "0JUEsKG18QuDt6SmyHDrnL",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851cb424f73d963536f1ec12359",
+      "image": "https://i.scdn.co/image/ab67616d000048512ecd6893e43f1714e485902c",
       "is_new": false,
-      "release_date": "2026-10-12"
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "0LZEC8oIL0s9sbiMyP3C3G",
+      "album_name": "みらいのうた (ライブ)",
+      "album_type": "single",
+      "artist": "Kazuya Yoshii",
+      "artist_id": "4tgnOBWTNWUtp3uhUiLCkj",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485192e4fcd975fc2ef773c1875c",
+      "is_new": false,
+      "release_date": "2026-10-14"
+    },
+    {
+      "album_id": "0FyaMUsOnxYdEEHXMWBlm0",
+      "album_name": "雲を抜け風下へ私だけ",
+      "album_type": "single",
+      "artist": "ヨルシカ",
+      "artist_id": "4UK2Lzi6fBfUi9rpDt6cik",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485119be9f04a7bdde3b93b138ca",
+      "is_new": false,
+      "release_date": "2026-10-14"
     }
   ]
 }
