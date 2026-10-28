@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T20:21:33.929251+00:00",
+  "generated_at": "2026-10-28T20:43:40.150658+00:00",
   "totals": {
-    "artists": 1370,
-    "days": 2140,
+    "artists": 1371,
+    "days": 2142,
     "ms": 12440720283,
-    "plays": 64887,
+    "plays": 64899,
     "since": "2019-09-05",
-    "tracks": 4747
+    "tracks": 4749
   },
   "tracks": [
     {
@@ -5280,6 +5280,24 @@
     },
     {
       "artists": [
+        "Justin Timberlake"
+      ],
+      "count": 71,
+      "first": "2023-04-16",
+      "id": "6JV2JOEocMgcZxYSZelKcc",
+      "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
+      "last": "2026-10-28",
+      "ms": 15680914,
+      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+      "short": 14,
+      "years": {
+        "2023": 1,
+        "2025": 51,
+        "2026": 19
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 71,
@@ -5508,24 +5526,6 @@
       "years": {
         "2025": 7,
         "2026": 63
-      }
-    },
-    {
-      "artists": [
-        "Justin Timberlake"
-      ],
-      "count": 70,
-      "first": "2023-04-16",
-      "id": "6JV2JOEocMgcZxYSZelKcc",
-      "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
-      "last": "2026-10-22",
-      "ms": 15680914,
-      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
-      "short": 14,
-      "years": {
-        "2023": 1,
-        "2025": 51,
-        "2026": 18
       }
     },
     {
@@ -14085,6 +14085,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 30,
+      "first": "2025-12-30",
+      "id": "0sBJA2OCEECMs0HsdIQhvR",
+      "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
+      "last": "2026-10-28",
+      "ms": 4823242,
+      "name": "West Coast",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 29
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 30,
@@ -14214,23 +14231,6 @@
         "2024": 4,
         "2025": 4,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 29,
-      "first": "2025-12-30",
-      "id": "0sBJA2OCEECMs0HsdIQhvR",
-      "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
-      "last": "2026-10-15",
-      "ms": 4823242,
-      "name": "West Coast",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 28
       }
     },
     {
@@ -19510,6 +19510,22 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 14,
+      "first": "2026-07-04",
+      "id": "2RttW7RAu5nOAfq6YFvApB",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "last": "2026-10-28",
+      "ms": 622560,
+      "name": "Happier",
+      "short": 1,
+      "years": {
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 14,
@@ -19899,6 +19915,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 14,
+      "first": "2026-07-12",
+      "id": "2OupMbGCv1k6UDN0ay6sdt",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-10-28",
+      "ms": 653265,
+      "name": "ten years time",
+      "years": {
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 14,
@@ -20123,22 +20154,6 @@
       "years": {
         "2025": 1,
         "2026": 12
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 13,
-      "first": "2026-07-04",
-      "id": "2RttW7RAu5nOAfq6YFvApB",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
-      "last": "2026-10-19",
-      "ms": 622560,
-      "name": "Happier",
-      "short": 1,
-      "years": {
-        "2026": 13
       }
     },
     {
@@ -20449,21 +20464,6 @@
     },
     {
       "artists": [
-        "Henry Moodie"
-      ],
-      "count": 13,
-      "first": "2026-07-12",
-      "id": "2OupMbGCv1k6UDN0ay6sdt",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-10-12",
-      "ms": 653265,
-      "name": "ten years time",
-      "years": {
-        "2026": 13
-      }
-    },
-    {
-      "artists": [
         "Ai Otsuka"
       ],
       "count": 13,
@@ -20576,6 +20576,23 @@
       "short": 8,
       "years": {
         "2020": 12
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 12,
+      "first": "2025-12-30",
+      "id": "2IpeTEPICyB66jjg2hU4Vg",
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "last": "2026-10-29",
+      "ms": 898315,
+      "name": "Didn't I",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 11
       }
     },
     {
@@ -20774,6 +20791,22 @@
       "ms": 1379651,
       "name": "Put It All on Me (feat. Ella Mai)",
       "short": 2,
+      "years": {
+        "2026": 12
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 12,
+      "first": "2026-06-23",
+      "id": "2LsFnG9KYkWSk8dVopmHw2",
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "last": "2026-10-29",
+      "ms": 145031,
+      "name": "RUNAWAY",
+      "short": 1,
       "years": {
         "2026": 12
       }
@@ -21850,23 +21883,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 10,
-      "first": "2025-12-30",
-      "id": "2IpeTEPICyB66jjg2hU4Vg",
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "last": "2026-10-22",
-      "ms": 898315,
-      "name": "Didn't I",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 10,
@@ -22195,22 +22211,6 @@
       "years": {
         "2025": 1,
         "2026": 9
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 10,
-      "first": "2026-06-23",
-      "id": "2LsFnG9KYkWSk8dVopmHw2",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "last": "2026-10-18",
-      "ms": 145031,
-      "name": "RUNAWAY",
-      "short": 1,
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -34480,6 +34480,21 @@
     },
     {
       "artists": [
+        "fun."
+      ],
+      "count": 3,
+      "first": "2026-06-23",
+      "id": "67WTwafOMgegV6ABnBQxcE",
+      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
+      "last": "2026-10-28",
+      "ms": 554080,
+      "name": "Some Nights",
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "artists": [
         "Lewis Capaldi"
       ],
       "count": 3,
@@ -41769,21 +41784,6 @@
     },
     {
       "artists": [
-        "fun."
-      ],
-      "count": 2,
-      "first": "2026-06-23",
-      "id": "67WTwafOMgegV6ABnBQxcE",
-      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
-      "last": "2026-07-14",
-      "ms": 554080,
-      "name": "Some Nights",
-      "years": {
-        "2026": 2
-      }
-    },
-    {
-      "artists": [
         "Nea"
       ],
       "count": 2,
@@ -42045,6 +42045,21 @@
       "years": {
         "2025": 1,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "ワン・ダイレクション"
+      ],
+      "count": 2,
+      "first": "2026-10-09",
+      "id": "lastfm:stealmygirl|ワン・ダイレクション",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-10-28",
+      "ms": 0,
+      "name": "Steal My Girl",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -59768,6 +59783,21 @@
     },
     {
       "artists": [
+        "Justin Timberlake"
+      ],
+      "count": 1,
+      "first": "2026-10-28",
+      "id": "lastfm:mirrors|justintimberlake",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1de1b815025e2ceadfad8736d89047c7.jpg",
+      "last": "2026-10-28",
+      "ms": 0,
+      "name": "Mirrors",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "SA2RN"
       ],
       "count": 1,
@@ -65905,21 +65935,6 @@
       "short": 1,
       "years": {
         "2023": 1
-      }
-    },
-    {
-      "artists": [
-        "ワン・ダイレクション"
-      ],
-      "count": 1,
-      "first": "2026-10-09",
-      "id": "lastfm:stealmygirl|ワン・ダイレクション",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "last": "2026-10-09",
-      "ms": 0,
-      "name": "Steal My Girl",
-      "years": {
-        "2026": 1
       }
     },
     {
@@ -72490,6 +72505,21 @@
       "short": 1,
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "ビリー・アイリッシュ"
+      ],
+      "count": 1,
+      "first": "2026-10-28",
+      "id": "lastfm:oceaneyes|ビリー・アイリッシュ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d04553184b4dcd2629fa3ab1cca0175d.jpg",
+      "last": "2026-10-28",
+      "ms": 0,
+      "name": "ocean eyes",
+      "years": {
+        "2026": 1
       }
     },
     {

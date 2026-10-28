@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-10-27T20:20:07.185535+00:00",
+  "generated_at": "2026-10-28T20:42:19.343903+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 64887
+    "total": 64899
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 13,
+  "streak": 15,
   "weekly_top": [
     {
       "artists": [
@@ -862,6 +862,24 @@
       "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
       "name": "All My Days",
       "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "RUNAWAY",
+      "track_id": "2LsFnG9KYkWSk8dVopmHw2"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Didn't I",
+      "track_id": "2IpeTEPICyB66jjg2hU4Vg"
     },
     {
       "artists": [
@@ -1150,6 +1168,78 @@
       "image": "https://i.scdn.co/image/ab67616d00004851bb6370163b04145ed2e87442",
       "name": "ハルカ",
       "track_id": "6wKmxUeMJAoz2GpMrw95z5"
+    },
+    {
+      "artists": [
+        "Justin Timberlake"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1de1b815025e2ceadfad8736d89047c7.jpg",
+      "name": "Mirrors",
+      "track_id": "lastfm:mirrors|justintimberlake"
+    },
+    {
+      "artists": [
+        "ファン."
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
+      "name": "Some Nights",
+      "track_id": "67WTwafOMgegV6ABnBQxcE"
+    },
+    {
+      "artists": [
+        "ビリー・アイリッシュ"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d04553184b4dcd2629fa3ab1cca0175d.jpg",
+      "name": "ocean eyes",
+      "track_id": "lastfm:oceaneyes|ビリー・アイリッシュ"
+    },
+    {
+      "artists": [
+        "ワン・ダイレクション"
+      ],
+      "count": 1,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Steal My Girl",
+      "track_id": "lastfm:stealmygirl|ワン・ダイレクション"
+    },
+    {
+      "artists": [
+        "マシュメロ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "name": "Happier",
+      "track_id": "2RttW7RAu5nOAfq6YFvApB"
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "name": "ten years time",
+      "track_id": "2OupMbGCv1k6UDN0ay6sdt"
+    },
+    {
+      "artists": [
+        "ジャスティン・ティンバーレイク"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
+      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+      "track_id": "6JV2JOEocMgcZxYSZelKcc"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
+      "name": "West Coast",
+      "track_id": "0sBJA2OCEECMs0HsdIQhvR"
     }
   ]
 }
