@@ -562,6 +562,14 @@
     },
     {
       "artists": [
+        "The Weeknd"
+      ],
+      "count": 112,
+      "name": "Save Your Tears",
+      "track_id": "5QO79kh1waicV47BqGRL3g"
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 112,
@@ -583,14 +591,6 @@
       "count": 112,
       "name": "風になる",
       "track_id": "1BMYkyKXS6UfnJteWN7nSD"
-    },
-    {
-      "artists": [
-        "The Weeknd"
-      ],
-      "count": 111,
-      "name": "Save Your Tears",
-      "track_id": "5QO79kh1waicV47BqGRL3g"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-10-28T20:42:19.343903+00:00",
+  "generated_at": "2026-10-29T20:45:28.130218+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 64899
+    "total": 64921
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 15,
@@ -856,6 +856,24 @@
     },
     {
       "artists": [
+        "コールドプレイ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
+      "name": "Paradise",
+      "track_id": "7wBrglFVTNCcW6IhdgBkm1"
+    },
+    {
+      "artists": [
+        "ジャスティン・ビーバー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+      "name": "Anyone",
+      "track_id": "2WnAKZefdRHxtBEkRjFOHC"
+    },
+    {
+      "artists": [
         "Side Saddle"
       ],
       "count": 2,
@@ -865,21 +883,21 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
+        "フォール・アウト・ボーイ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "name": "RUNAWAY",
-      "track_id": "2LsFnG9KYkWSk8dVopmHw2"
+      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
+      "name": "Centuries",
+      "track_id": "04aAxqtGp5pv12UXAg4pkq"
     },
     {
       "artists": [
-        "ワンリパブリック"
+        "ファイヴ・セカンズ・オブ・サマー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "name": "Didn't I",
-      "track_id": "2IpeTEPICyB66jjg2hU4Vg"
+      "image": "https://i.scdn.co/image/ab67616d0000485107fe068e7fc2e196d9a7721d",
+      "name": "2011",
+      "track_id": "1RbbLe9tPLPqvjXGeenfSC"
     },
     {
       "artists": [
@@ -1036,15 +1054,6 @@
     },
     {
       "artists": [
-        "コールドプレイ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
-      "name": "Paradise",
-      "track_id": "7wBrglFVTNCcW6IhdgBkm1"
-    },
-    {
-      "artists": [
         "Alex Warren"
       ],
       "count": 1,
@@ -1078,15 +1087,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851e8dd4db47e7177c63b0b7d53",
       "name": "Take On Me",
       "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
-      "name": "Anyone",
-      "track_id": "2WnAKZefdRHxtBEkRjFOHC"
     },
     {
       "artists": [
@@ -1240,6 +1240,33 @@
       "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
       "name": "West Coast",
       "track_id": "0sBJA2OCEECMs0HsdIQhvR"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "name": "RUNAWAY",
+      "track_id": "2LsFnG9KYkWSk8dVopmHw2"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Didn't I",
+      "track_id": "2IpeTEPICyB66jjg2hU4Vg"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+      "name": "Distance - from One Night In Malibu",
+      "track_id": "2gPWnjEtKZaCcEXRlH9yT4"
     }
   ]
 }

@@ -1,6 +1,83 @@
 {
-  "generated_at": "2026-10-28T20:45:57.741496+00:00",
+  "generated_at": "2026-10-29T20:49:01.998764+00:00",
   "items": [
+    {
+      "album_id": "5i69I7wUatT3gGm4IJj5sV",
+      "album_name": "Who I Am (Slowed)",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512394203f3170932fd068db24",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "7kqO6QdVtBFx2lFu8atDcZ",
+      "album_name": "Who I Am (Sped Up)",
+      "album_type": "single",
+      "artist": "Cheat Codes",
+      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048510dbd4bec9661ffc9b9c3453d",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "3EquYPRLoMWqXy12Ad28lR",
+      "album_name": "INDIAN SUMMER",
+      "album_type": "single",
+      "artist": "Alan Walker",
+      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851cd1acd2353316f3e1caf151c",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "4e6mApFhKsMODo9xT95sMY",
+      "album_name": "Unreleased Collection - Japan Exclusive",
+      "album_type": "album",
+      "artist": "ONE OK ROCK",
+      "artist_id": "7k73EtZwoPs516ZxE72KsO",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485160a2e453538697d0086ba034",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "7yeUtECMpr2lzo00a2mscy",
+      "album_name": "Face Card (The Kid LAROI Remix)",
+      "album_type": "single",
+      "artist": "nate sib",
+      "artist_id": "4TNu2ZIE566yKwEhOT8eTv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ac77ffb7ca974a0080d07064",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "1eTOyH11t346Eq3QbxaimT",
+      "album_name": "The Cat in the Hat (Original Motion Picture Soundtrack)",
+      "album_type": "album",
+      "artist": "Lorne Balfe",
+      "artist_id": "6dU7gPN2BhEPfO5QHLt7es",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ceca211286a49ceda5067411",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "2odXmoKfI3FRaWeX3XFQOD",
+      "album_name": "Blue Moon (The Remixes)",
+      "album_type": "single",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851564182bcd1ff30bc16c62005",
+      "is_new": true,
+      "release_date": "2026-10-30"
+    },
     {
       "album_id": "40Dds1oyfedkvZq0TD0VzG",
       "album_name": "Love Me to Death",
@@ -9,6 +86,17 @@
       "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048516089dfbe973a3f1708238554",
+      "is_new": false,
+      "release_date": "2026-10-29"
+    },
+    {
+      "album_id": "2Qj0IRHX4YllH22PNlmaBQ",
+      "album_name": "Here You Come, There You Go",
+      "album_type": "single",
+      "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519937fa4eb69a49681d073c97",
       "is_new": true,
       "release_date": "2026-10-29"
     },
@@ -20,7 +108,7 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048512acb3dbe57b51f57e2a66f93",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-29"
     },
     {
@@ -42,7 +130,7 @@
       "artist_id": "0e04xgVBPU6mE2QkSHlufD",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048516904f31737c86bd39dc358f5",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-10-28"
     },
     {
@@ -57,28 +145,6 @@
       "release_date": "2026-10-27"
     },
     {
-      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
-      "album_name": "Sleeping Lion",
-      "album_type": "album",
-      "artist": "Lennon Stella",
-      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
-      "album_name": "Pray",
-      "album_type": "single",
-      "artist": "R. City",
-      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
       "album_id": "0BsxNDbKrBdbPFmJGGhALE",
       "album_name": "Love Is The Piece (Cheat Codes Remix)",
       "album_type": "single",
@@ -86,39 +152,6 @@
       "artist_id": "65Es5dYCk8l5Vvaf4dbjvs",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851675085ccf4e2af1a9d05604e",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1pOkH6rbrSW5E1pvQ6Qdtk",
-      "album_name": "it's not you it's me",
-      "album_type": "single",
-      "artist": "gnash",
-      "artist_id": "3iri9nBFs9e4wN7PLIetAw",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485125a3ed1a970c2739fa160301",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "6nHQyy9rP10maDxisqUARF",
-      "album_name": "Apple Pie (acoustic)",
-      "album_type": "single",
-      "artist": "Daniel Levi",
-      "artist_id": "0cA0C4yBNRaN2EZsE2wT3Y",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513fc617093cee7af6a35774b4",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "25JdKC9G8UodEfjLFZUdlP",
-      "album_name": "La Dolce Vita",
-      "album_type": "single",
-      "artist": "Clean Bandit",
-      "artist_id": "6MDME20pz9RveH9rEXvrOM",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9f95ef5f81efdac2278dc9",
       "is_new": false,
       "release_date": "2026-10-23"
     },
@@ -134,35 +167,24 @@
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
-      "album_name": "The Greatest Adventure Yet",
-      "album_type": "album",
-      "artist": "Bogoo's Best Day",
-      "artist_id": "1HXy83mY59h6ovkRVdupB0",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "18QfFnvtg9l6VlBpgU5vkb",
-      "album_name": "MISS ME",
+      "album_id": "1pOkH6rbrSW5E1pvQ6Qdtk",
+      "album_name": "it's not you it's me",
       "album_type": "single",
-      "artist": "keshi",
-      "artist_id": "3pc0bOVB5whxmD50W79wwO",
+      "artist": "gnash",
+      "artist_id": "3iri9nBFs9e4wN7PLIetAw",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519f2c9d2c307e24f93a1831b5",
+      "image": "https://i.scdn.co/image/ab67616d0000485125a3ed1a970c2739fa160301",
       "is_new": false,
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "1TZUQVQW6dMSdqexGLBdwq",
-      "album_name": "Sit Still Look Pretty (10 Year Anniversary Deluxe Edition)",
+      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
+      "album_name": "Sleeping Lion",
       "album_type": "album",
-      "artist": "Daya",
-      "artist_id": "6Dd3NScHWwnW6obMFbl1BH",
+      "artist": "Lennon Stella",
+      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515c73e7a4b730a17a66102470",
+      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
       "is_new": false,
       "release_date": "2026-10-23"
     },
@@ -178,17 +200,6 @@
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "5LheOmMsCEU09vOdcp0ka9",
-      "album_name": "Muse",
-      "album_type": "album",
-      "artist": "John Legend",
-      "artist_id": "5y2Xq6xcjJb2jVM54GHK3t",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485198a32c1a2a1f687b3ba914c8",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
       "album_id": "6JRUSG3hxZnQS9Pej43w1e",
       "album_name": "And The Crowd Goes Mild",
       "album_type": "album",
@@ -200,13 +211,90 @@
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "2l7dOY9oiOln2Ln4osavpP",
-      "album_name": "Love Sick (from the Netflix Series \"Nobody Wants This\" Season 3)",
+      "album_id": "6nHQyy9rP10maDxisqUARF",
+      "album_name": "Apple Pie (acoustic)",
       "album_type": "single",
-      "artist": "Ravyn Lenae",
-      "artist_id": "5RTLRtXjbXI2lSXc6jxlAz",
+      "artist": "Daniel Levi",
+      "artist_id": "0cA0C4yBNRaN2EZsE2wT3Y",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851322f82c183fc0f887efd1ad8",
+      "image": "https://i.scdn.co/image/ab67616d000048513fc617093cee7af6a35774b4",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1TZUQVQW6dMSdqexGLBdwq",
+      "album_name": "Sit Still Look Pretty (10 Year Anniversary Deluxe Edition)",
+      "album_type": "album",
+      "artist": "Daya",
+      "artist_id": "6Dd3NScHWwnW6obMFbl1BH",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515c73e7a4b730a17a66102470",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "5LheOmMsCEU09vOdcp0ka9",
+      "album_name": "Muse",
+      "album_type": "album",
+      "artist": "John Legend",
+      "artist_id": "5y2Xq6xcjJb2jVM54GHK3t",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485198a32c1a2a1f687b3ba914c8",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "25JdKC9G8UodEfjLFZUdlP",
+      "album_name": "La Dolce Vita",
+      "album_type": "single",
+      "artist": "Clean Bandit",
+      "artist_id": "6MDME20pz9RveH9rEXvrOM",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9f95ef5f81efdac2278dc9",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "18QfFnvtg9l6VlBpgU5vkb",
+      "album_name": "MISS ME",
+      "album_type": "single",
+      "artist": "keshi",
+      "artist_id": "3pc0bOVB5whxmD50W79wwO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519f2c9d2c307e24f93a1831b5",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
+      "album_name": "The Greatest Adventure Yet",
+      "album_type": "album",
+      "artist": "Bogoo's Best Day",
+      "artist_id": "1HXy83mY59h6ovkRVdupB0",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
+      "album_name": "Pray",
+      "album_type": "single",
+      "artist": "R. City",
+      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "5RpMu1ANIerj5wtw12jRO7",
+      "album_name": "Morticia",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d2cadfc9469c0febe4c1c8cc",
       "is_new": false,
       "release_date": "2026-10-22"
     },
@@ -222,13 +310,13 @@
       "release_date": "2026-10-22"
     },
     {
-      "album_id": "5RpMu1ANIerj5wtw12jRO7",
-      "album_name": "Morticia",
+      "album_id": "2l7dOY9oiOln2Ln4osavpP",
+      "album_name": "Love Sick (from the Netflix Series \"Nobody Wants This\" Season 3)",
       "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "artist": "Ravyn Lenae",
+      "artist_id": "5RTLRtXjbXI2lSXc6jxlAz",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d2cadfc9469c0febe4c1c8cc",
+      "image": "https://i.scdn.co/image/ab67616d00004851322f82c183fc0f887efd1ad8",
       "is_new": false,
       "release_date": "2026-10-22"
     },
@@ -242,17 +330,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485182599b4d30caa94b7f415789",
       "is_new": false,
       "release_date": "2026-10-22"
-    },
-    {
-      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
-      "album_name": "恋のせい",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
-      "is_new": false,
-      "release_date": "2026-10-21"
     },
     {
       "album_id": "2SrERveIqyCZs2GBNZ3zFs",
@@ -273,6 +350,17 @@
       "artist_id": "6TDMbiQCWeMClsMr9ORLRK",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485197f89d61b8c6900b34703b5b",
+      "is_new": false,
+      "release_date": "2026-10-21"
+    },
+    {
+      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
+      "album_name": "恋のせい",
+      "album_type": "single",
+      "artist": "音田 雅則",
+      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
       "is_new": false,
       "release_date": "2026-10-21"
     },
@@ -299,6 +387,17 @@
       "release_date": "2026-10-19"
     },
     {
+      "album_id": "1q9LM9xC5ebSY216u31FOx",
+      "album_name": "expectations (feat. Chappell Roan)",
+      "album_type": "single",
+      "artist": "Olivia Rodrigo",
+      "artist_id": "1McMsnEElThX1knmY4oliG",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
       "album_id": "09MFYa0kaj2G2LpRZfKUyo",
       "album_name": "Before You Know It",
       "album_type": "single",
@@ -310,24 +409,13 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
-      "album_name": "The Devil's Tax Return: Volume 1",
+      "album_id": "61Sce8yicPSTcvGnBQAKgb",
+      "album_name": "Baby",
       "album_type": "single",
-      "artist": "Galantis",
-      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "4UI0gVstrcRStFLYrsCD2T",
-      "album_name": "Fight For Love",
-      "album_type": "single",
-      "artist": "Alesso",
-      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514e071647c9612c26d5f591f4",
+      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -343,17 +431,6 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "1q9LM9xC5ebSY216u31FOx",
-      "album_name": "expectations (feat. Chappell Roan)",
-      "album_type": "single",
-      "artist": "Olivia Rodrigo",
-      "artist_id": "1McMsnEElThX1knmY4oliG",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851706ab55cf3e8cb64efb0ccba",
-      "is_new": false,
-      "release_date": "2026-10-16"
-    },
-    {
       "album_id": "3AKaapaS16LC64f2wHsCkF",
       "album_name": "Ultraviolet",
       "album_type": "single",
@@ -365,13 +442,24 @@
       "release_date": "2026-10-16"
     },
     {
-      "album_id": "61Sce8yicPSTcvGnBQAKgb",
-      "album_name": "Baby",
+      "album_id": "4UI0gVstrcRStFLYrsCD2T",
+      "album_name": "Fight For Love",
       "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "artist": "Alesso",
+      "artist_id": "4AVFqumd2ogHFlRbKIjp1t",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851060079d1b7e0a8f7bee405df",
+      "image": "https://i.scdn.co/image/ab67616d000048514e071647c9612c26d5f591f4",
+      "is_new": false,
+      "release_date": "2026-10-16"
+    },
+    {
+      "album_id": "3rgOMpJ4GTgsHY1tyuof2r",
+      "album_name": "The Devil's Tax Return: Volume 1",
+      "album_type": "single",
+      "artist": "Galantis",
+      "artist_id": "4sTQVOfp9vEMCemLw50sbu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519ca713ecaed2aa349efea437",
       "is_new": false,
       "release_date": "2026-10-16"
     },
@@ -396,72 +484,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851741a53538482ae873178573a",
       "is_new": false,
       "release_date": "2026-10-16"
-    },
-    {
-      "album_id": "1V8Qu6CwkBfYucnCWxynq8",
-      "album_name": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
-      "album_type": "single",
-      "artist": "Justice",
-      "artist_id": "1gR0gsQYfi6joyO1dlp76N",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514c4af9f49f2c276dca687ced",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "4NOnqXQRLzTrFTtiAeqr8p",
-      "album_name": "Starlight (Skrillex & ring noord Remix)",
-      "album_type": "single",
-      "artist": "Danny L Harle",
-      "artist_id": "1PNvaesh1mkKZucGhBuqgD",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485152c505cf433dc101b871cd59",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "7GnB2LBBHp8s9MZqMI11Uh",
-      "album_name": "Love Seat",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518e4862cb3ced621c2ade8f79",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "7McbOLLAMviPWN9hca0qX0",
-      "album_name": "Vaiana 2: Monis und Mauis großes Abenteuer",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fe92120a8251e321ff544311",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "1wqnLiqd9x2fAM0VHHvb97",
-      "album_name": "Blue Moon",
-      "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485117de0825c1f62b5a3a1d808d",
-      "is_new": false,
-      "release_date": "2026-10-15"
-    },
-    {
-      "album_id": "5s237tEKiXD5CeO1ISPDMD",
-      "album_name": "Knockin (feat. The Paradox)",
-      "album_type": "single",
-      "artist": "Lucky Daye",
-      "artist_id": "5Vuvs6Py2JRU7WiFDVsI7J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fea056aaaeb0de81cc81c363",
-      "is_new": false,
-      "release_date": "2026-10-15"
     }
   ]
 }
