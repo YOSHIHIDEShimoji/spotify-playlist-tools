@@ -284,7 +284,7 @@
       "artists": [
         "Keane"
       ],
-      "count": 135,
+      "count": 136,
       "name": "Somewhere Only We Know",
       "track_id": "1SKPmfSYaPsETbRHaiA18G"
     },
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-10-29T20:45:28.130218+00:00",
+  "generated_at": "2026-10-30T20:17:12.298725+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,29 @@
       5000,
       10000
     ],
-    "total": 64921
+    "total": 64949
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 15,
+  "streak": 16,
   "weekly_top": [
+    {
+      "artists": [
+        "Alex Warren"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851457cfd5a54720ab3b0820064",
+      "name": "Ordinary",
+      "track_id": "6qqrTXSdwiJaq8SO0X2lSe"
+    },
+    {
+      "artists": [
+        "Side Saddle"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
+      "name": "All My Days",
+      "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
+    },
     {
       "artists": [
         "ショーン・メンデス"
@@ -874,30 +892,12 @@
     },
     {
       "artists": [
-        "Side Saddle"
+        "Taylor Swift"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
-      "name": "All My Days",
-      "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
-    },
-    {
-      "artists": [
-        "フォール・アウト・ボーイ"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
-      "name": "Centuries",
-      "track_id": "04aAxqtGp5pv12UXAg4pkq"
-    },
-    {
-      "artists": [
-        "ファイヴ・セカンズ・オブ・サマー"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485107fe068e7fc2e196d9a7721d",
-      "name": "2011",
-      "track_id": "1RbbLe9tPLPqvjXGeenfSC"
+      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
+      "name": "Opalite",
+      "track_id": "3yWuTOYDztXjZxdE2cIRUa"
     },
     {
       "artists": [
@@ -1054,15 +1054,6 @@
     },
     {
       "artists": [
-        "Alex Warren"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851457cfd5a54720ab3b0820064",
-      "name": "Ordinary",
-      "track_id": "6qqrTXSdwiJaq8SO0X2lSe"
-    },
-    {
-      "artists": [
         "ジョン・オーツ"
       ],
       "count": 1,
@@ -1132,15 +1123,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
       "name": "You Were Loved (with OneRepublic)",
       "track_id": "5gzZnru34wdecgMUQR2UO0"
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
-      "name": "Opalite",
-      "track_id": "3yWuTOYDztXjZxdE2cIRUa"
     },
     {
       "artists": [
@@ -1267,6 +1249,24 @@
       "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
       "name": "Distance - from One Night In Malibu",
       "track_id": "2gPWnjEtKZaCcEXRlH9yT4"
+    },
+    {
+      "artists": [
+        "エリー・ゴールディング"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851dc12b2bd6884bd1de21b6bae",
+      "name": "Still Falling For You - From \"Bridget Jones's Baby\"",
+      "track_id": "3odrUVQ9tvRpkC9II2oWzx"
+    },
+    {
+      "artists": [
+        "トレイン"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d00004851d0ba1ae03219e6bf35ac6660",
+      "name": "Drink Up",
+      "track_id": "17AtR2mHWKdDXCPUFydJKL"
     }
   ]
 }

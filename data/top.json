@@ -331,38 +331,38 @@
         "rank": 5
       },
       {
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
+        "rank": 6
+      },
+      {
         "id": "6VuMaDnrHyPL1p4EHjYLi7",
         "name": "Charlie Puth",
-        "rank": 6
+        "rank": 7
       },
       {
         "id": "7hr9W3IjXcm3UlLY7guLk5",
         "name": "Henry Moodie",
-        "rank": 7
+        "rank": 8
       },
       {
         "id": "04gDigrS5kc9YWfZHwBETP",
         "name": "Maroon 5",
-        "rank": 8
+        "rank": 9
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 9
+        "rank": 10
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 10
+        "rank": 11
       },
       {
         "id": "3FUY2gzHeIiaesXtOAdB7A",
         "name": "Train",
-        "rank": 11
-      },
-      {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
         "rank": 12
       },
       {
@@ -391,33 +391,33 @@
         "rank": 17
       },
       {
-        "id": "64KEffDW9EtZ1y2vBYgq8T",
-        "name": "Marshmello",
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "name": "Benson Boone",
         "rank": 18
       },
       {
-        "id": "22wbnEMDvgVIAGdFeek6ET",
-        "name": "Benson Boone",
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
         "rank": 19
-      },
-      {
-        "id": "69GGBxA162lTqCwzJG5jLp",
-        "name": "The Chainsmokers",
-        "rank": 20
-      },
-      {
-        "id": "4UXqAaa6dQYAk18Lv7PEgX",
-        "name": "Fall Out Boy",
-        "rank": 21
-      },
-      {
-        "id": "53XhwfbYqKCa1cC15pYq2q",
-        "name": "Imagine Dragons",
-        "rank": 22
       },
       {
         "id": "5ZsFI1h6hIdQRw2ti0hz81",
         "name": "ZAYN",
+        "rank": 20
+      },
+      {
+        "id": "69GGBxA162lTqCwzJG5jLp",
+        "name": "The Chainsmokers",
+        "rank": 21
+      },
+      {
+        "id": "4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy",
+        "rank": 22
+      },
+      {
+        "id": "53XhwfbYqKCa1cC15pYq2q",
+        "name": "Imagine Dragons",
         "rank": 23
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-29T20:47:58.486610+00:00",
+  "generated_at": "2026-10-30T20:19:35.446079+00:00",
   "tracks": {
     "long_term": [
       {
@@ -643,21 +643,12 @@
       },
       {
         "artists": [
-          "Naomi Scott"
-        ],
-        "id": "0XPsOSYzDJZJArevQNm2AR",
-        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
-        "name": "Speechless (Full)",
-        "rank": 21
-      },
-      {
-        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "58dxGXavrcagRqA58fNB0Z",
         "image": "https://i.scdn.co/image/ab67616d0000485176f402d83c2a85e5deca60e7",
         "name": "Pretender",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -666,6 +657,15 @@
         "id": "49F3htNmwzPKFycPdOrDvf",
         "image": "https://i.scdn.co/image/ab67616d00004851d69b54199b7773b97a57a196",
         "name": "Subtitle",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "Naomi Scott"
+        ],
+        "id": "0XPsOSYzDJZJArevQNm2AR",
+        "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
+        "name": "Speechless (Full)",
         "rank": 23
       },
       {
@@ -706,21 +706,12 @@
       },
       {
         "artists": [
-          "Novelbright"
-        ],
-        "id": "093KHY83BAuupQoAs4TpSh",
-        "image": "https://i.scdn.co/image/ab67616d00004851a15dc066cec020b5da991c34",
-        "name": "開幕宣言",
-        "rank": 28
-      },
-      {
-        "artists": [
           "Katsuo Ohno"
         ],
         "id": "6lJq0JMOFI9MN47AOJrwEC",
         "image": "https://i.scdn.co/image/ab67616d000048511d2e18dc8fff21228585bf55",
         "name": "蘭のテーマ - 世紀末ヴァージョン",
-        "rank": 29
+        "rank": 28
       },
       {
         "artists": [
@@ -729,6 +720,15 @@
         "id": "2p71NDW60CTBSDnIqDpXYP",
         "image": "https://i.scdn.co/image/ab67616d000048518e0c1aae35cbe28fbfc03854",
         "name": "南方仁のテーマ",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "OneRepublic"
+        ],
+        "id": "0qdpBSgdFsOPGv9QLxEjdu",
+        "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
+        "name": "Good Life - from One Night In Malibu",
         "rank": 30
       }
     ],
@@ -1108,12 +1108,30 @@
       },
       {
         "artists": [
+          "Adele"
+        ],
+        "id": "1Yk0cQdMLx5RzzFTYwmuld",
+        "image": "https://i.scdn.co/image/ab67616d000048517b9888dc365b8f957c63df14",
+        "name": "Hello",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "Bruno Mars"
+        ],
+        "id": "1myZ6GQewhAzMH2dKtKSWK",
+        "image": "https://i.scdn.co/image/ab67616d000048513eb8dc748f7efb1470f74395",
+        "name": "Dance With Me",
+        "rank": 12
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "2UyZTPrWFSMysY9cVVjmaB",
         "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
         "name": "Colors",
-        "rank": 11
+        "rank": 13
       },
       {
         "artists": [
@@ -1122,7 +1140,7 @@
         "id": "2WnAKZefdRHxtBEkRjFOHC",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Anyone",
-        "rank": 12
+        "rank": 14
       },
       {
         "artists": [
@@ -1132,7 +1150,7 @@
         "id": "3ScJy88F8KqGDfWu8XJhHx",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 13
+        "rank": 15
       },
       {
         "artists": [
@@ -1141,7 +1159,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 14
+        "rank": 16
       },
       {
         "artists": [
@@ -1150,7 +1168,7 @@
         "id": "3TgMcrV32NUKjEG2ujn9eh",
         "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
         "name": "It's Not Living (If It's Not With You)",
-        "rank": 15
+        "rank": 17
       },
       {
         "artists": [
@@ -1159,7 +1177,7 @@
         "id": "3ofhhx5VVZqgHlGeW9cKak",
         "image": "https://i.scdn.co/image/ab67616d000048517f86f3a0572c58220e834b6a",
         "name": "Regrets",
-        "rank": 16
+        "rank": 18
       },
       {
         "artists": [
@@ -1170,7 +1188,7 @@
         "id": "4iJyoBOLtHqaGxP12qzhQI",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Peaches (feat. Daniel Caesar & Giveon)",
-        "rank": 17
+        "rank": 19
       },
       {
         "artists": [
@@ -1180,7 +1198,7 @@
         "id": "5gzZnru34wdecgMUQR2UO0",
         "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
         "name": "You Were Loved (with OneRepublic)",
-        "rank": 18
+        "rank": 20
       },
       {
         "artists": [
@@ -1189,7 +1207,7 @@
         "id": "68BpjQ7Vc8uUHvUKMcLLHe",
         "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
         "name": "(what i wish just one person would say to me)",
-        "rank": 19
+        "rank": 21
       },
       {
         "artists": [
@@ -1198,7 +1216,7 @@
         "id": "6Fe0bY8vDxBnN7rDgu3ACE",
         "image": "https://i.scdn.co/image/ab67616d000048514e31e0d38b89b8fb239d4fbf",
         "name": "I Would",
-        "rank": 20
+        "rank": 22
       },
       {
         "artists": [
@@ -1207,7 +1225,7 @@
         "id": "6xTQD1ixS5uca8B9P97vQc",
         "image": "https://i.scdn.co/image/ab67616d00004851f25c763ecd923f2dad7e3008",
         "name": "AM Gold",
-        "rank": 21
+        "rank": 23
       },
       {
         "artists": [
@@ -1216,7 +1234,7 @@
         "id": "2BaXRCVgn621xHOGoFSuW5",
         "image": "https://i.scdn.co/image/ab67616d00004851906478ec1684465b3dca4274",
         "name": "I Really Like You",
-        "rank": 22
+        "rank": 24
       },
       {
         "artists": [
@@ -1226,7 +1244,7 @@
         "id": "61dCUoMCg28qEBzrW6htYM",
         "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
         "name": "Rather Be (feat. Jess Glynne)",
-        "rank": 23
+        "rank": 25
       },
       {
         "artists": [
@@ -1235,7 +1253,7 @@
         "id": "03T4ttRCiLXST6MZjeMwmR",
         "image": "https://i.scdn.co/image/ab67616d00004851722d16eb3b31fae9cb1d2ada",
         "name": "Orphans",
-        "rank": 24
+        "rank": 26
       },
       {
         "artists": [
@@ -1244,7 +1262,7 @@
         "id": "0G3iJ1r5SSv7nUBNCgBmwF",
         "image": "https://i.scdn.co/image/ab67616d00004851535031d8ddef89102424a516",
         "name": "We Remain - From “The Hunger Games: Catching Fire” Soundtrack",
-        "rank": 25
+        "rank": 27
       },
       {
         "artists": [
@@ -1253,7 +1271,7 @@
         "id": "0GUncXNah8KoaErnDd7H1L",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Ships + Tides",
-        "rank": 26
+        "rank": 28
       },
       {
         "artists": [
@@ -1262,7 +1280,7 @@
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 27
+        "rank": 29
       },
       {
         "artists": [
@@ -1271,25 +1289,6 @@
         "id": "0bYg9bo50gSsH3LtXe2SQn",
         "image": "https://i.scdn.co/image/ab67616d00004851c0862332847213b151ffab31",
         "name": "All I Want for Christmas Is You",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "Selena Gomez",
-          "Marshmello"
-        ],
-        "id": "0tBbt8CrmxbjRP0pueQkyU",
-        "image": "https://i.scdn.co/image/ab67616d00004851307910d4242c0d6b1fedf955",
-        "name": "Wolves",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "Taylor Swift"
-        ],
-        "id": "0ug5NqcwcFR2xrfTkc7k8e",
-        "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
-        "name": "Style",
         "rank": 30
       }
     ]
