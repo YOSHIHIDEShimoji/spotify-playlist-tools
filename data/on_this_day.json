@@ -1,42 +1,10 @@
 {
-  "date": "10-31",
-  "generated_at": "2026-10-30T20:18:27.983844+00:00",
+  "date": "11-01",
+  "generated_at": "2026-10-31T19:40:35.124910+00:00",
   "years": [
     {
-      "plays": 36,
+      "plays": 37,
       "tracks": [
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 4,
-          "name": "ツキミソウ",
-          "track_id": "6sElEqOIGENWjpxGFeo5ct"
-        },
-        {
-          "artists": [
-            "YOASOBI"
-          ],
-          "count": 3,
-          "name": "ハルカ",
-          "track_id": "6wKmxUeMJAoz2GpMrw95z5"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 2,
-          "name": "開幕宣言",
-          "track_id": "093KHY83BAuupQoAs4TpSh"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 2,
-          "name": "Walking with you",
-          "track_id": "7tGDXCPLpAScEwmqab9YZd"
-        },
         {
           "artists": [
             "Novelbright"
@@ -71,33 +39,105 @@
         },
         {
           "artists": [
-            "YUNGBLUD"
+            "Novelbright"
           ],
           "count": 2,
-          "name": "Abyss - from Kaiju No. 8",
-          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+          "name": "ツキミソウ",
+          "track_id": "6sElEqOIGENWjpxGFeo5ct"
         },
         {
           "artists": [
-            "Naomi Scott"
+            "Novelbright"
           ],
           "count": 1,
-          "name": "Speechless (Full)",
-          "track_id": "0XPsOSYzDJZJArevQNm2AR"
+          "name": "開幕宣言",
+          "track_id": "093KHY83BAuupQoAs4TpSh"
+        },
+        {
+          "artists": [
+            "Novelbright"
+          ],
+          "count": 1,
+          "name": "Walking with you",
+          "track_id": "7tGDXCPLpAScEwmqab9YZd"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "エメラルド",
+          "track_id": "55zU7fbOp00Hm8KyIl7Sk9"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "チェックのワンピース",
+          "track_id": "3TpD7kfsRSbXYzYvug4yey"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "日曜日",
+          "track_id": "7a0rnqKRdCSHqqfx5Nfp6V"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 6,
+      "plays": 18,
       "tracks": [
         {
           "artists": [
             "Omoinotake"
           ],
-          "count": 2,
+          "count": 3,
           "name": "幾億光年",
           "track_id": "4dmruTsdHIOjfOIeaFitXK"
+        },
+        {
+          "artists": [
+            "Eve"
+          ],
+          "count": 2,
+          "name": "平行線",
+          "track_id": "3v580RMq79nUPHqMFbsRco"
+        },
+        {
+          "artists": [
+            "Novelbright"
+          ],
+          "count": 2,
+          "name": "夢花火",
+          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
+        },
+        {
+          "artists": [
+            "I WiSH"
+          ],
+          "count": 2,
+          "name": "明日への扉",
+          "track_id": "42D5ZNyztjggvZeYVmpHs3"
+        },
+        {
+          "artists": [
+            "suis from Yorushika"
+          ],
+          "count": 2,
+          "name": "星めぐる詩",
+          "track_id": "30aPCMAtkH6Cf5ejzY4cE4"
+        },
+        {
+          "artists": [
+            "Taro Hakase"
+          ],
+          "count": 1,
+          "name": "情熱大陸",
+          "track_id": "21v76pMWsTkp7jUOBUncbl"
         },
         {
           "artists": [
@@ -106,14 +146,6 @@
           "count": 1,
           "name": "スパークル",
           "track_id": "6EuubEs5qOmJdpNhkU47OZ"
-        },
-        {
-          "artists": [
-            "suis from Yorushika"
-          ],
-          "count": 1,
-          "name": "星めぐる詩",
-          "track_id": "30aPCMAtkH6Cf5ejzY4cE4"
         },
         {
           "artists": [
@@ -130,64 +162,44 @@
           "count": 1,
           "name": "美しい鰭",
           "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "Kenji Sawada"
+          ],
+          "count": 1,
+          "name": "ヤマトより愛をこめて",
+          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
         }
       ],
       "year": "2024"
     },
     {
-      "plays": 1,
-      "tracks": [
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "0W1uTK6I97CbjFKAVtRGfK"
-        }
-      ],
-      "year": "2023"
-    },
-    {
-      "plays": 4,
+      "plays": 9,
       "tracks": [
         {
           "artists": [
             "Queen"
           ],
           "count": 2,
-          "name": "Radio Ga Ga - Remastered 2011",
-          "track_id": "1nQRg9q9uwALGzouOX5OyQ"
+          "name": "Friends Will Be Friends - Remastered 2011",
+          "track_id": "3EGlnkJGcwz73rT0oE0X1X"
         },
         {
           "artists": [
-            "Queen"
+            "back number"
           ],
           "count": 1,
-          "name": "Another One Bites The Dust - Remastered 2011",
-          "track_id": "5vdp5UmvTsnMEMESIF2Ym7"
+          "name": "恋",
+          "track_id": "7f9DsQEsIoeTwKxV6shsom"
         },
         {
           "artists": [
-            "Queen"
+            "back number"
           ],
           "count": 1,
-          "name": "A Kind Of Magic - Remastered 2011",
-          "track_id": "5RYLa5P4qweEAKq5U1gdcK"
-        }
-      ],
-      "year": "2022"
-    },
-    {
-      "plays": 27,
-      "tracks": [
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "I Was Born To Love You - Remastered 2011",
-          "track_id": "500o08SwO4Qoppq9zZrOZB"
+          "name": "クリスマスソング",
+          "track_id": "02OYGL6lXPVvoJDiv6tfH1"
         },
         {
           "artists": [
@@ -195,7 +207,31 @@
           ],
           "count": 1,
           "name": "Bohemian Rhapsody - Remastered 2011",
-          "track_id": "7k1dWFLqTfxNj4U2CfDRuK"
+          "track_id": "4u7EnebtmKWzUH433cf5Qv"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Who Wants To Live Forever - Remastered 2011",
+          "track_id": "41kCFJBcaLSt7Ruk5zO3Vr"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "'39 - Remastered 2011",
+          "track_id": "65NTcXUtOb27NHKQ4fAcw0"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "I Was Born To Love You - 2011 Remaster",
+          "track_id": "7DtdhIJlSSOaAFNk4JdXCb"
         },
         {
           "artists": [
@@ -203,15 +239,45 @@
           ],
           "count": 1,
           "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "7vhL0SIX8hN703vwVh6SFb"
+          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "plays": 11,
+      "tracks": [
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "Bohemian Rhapsody - Remastered 2011",
+          "track_id": "4u7EnebtmKWzUH433cf5Qv"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Keep Yourself Alive - 2011 Mix",
-          "track_id": "3N25RDKNufh7Sz8v7fwtUP"
+          "name": "I Want To Break Free - Single Remix",
+          "track_id": "2AkmdLbVKS1steeZdy8H1l"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "You're My Best Friend - Remastered 2011",
+          "track_id": "4vhVDkSx9RSb2k6mWFMYNI"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Under Pressure - Remastered 2011",
+          "track_id": "2fuCquhmrzHpu5xcA1ci9x"
         },
         {
           "artists": [
@@ -226,32 +292,16 @@
             "Queen"
           ],
           "count": 1,
-          "name": "I Want To Break Free - Remastered 2011",
-          "track_id": "32N12Qo31fQxKM0zcMGBMD"
+          "name": "Love Of My Life - Remastered 2011",
+          "track_id": "4YJUTdZ0Pgl0ZeNyHYXeLd"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Bicycle Race - Remastered 2011",
-          "track_id": "5bVeaQ524fdLcgHJZYGgza"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Seven Seas Of Rhye - Remastered 2011",
-          "track_id": "1IhLUUzMxDDJ9pzfT95exy"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Crazy Little Thing Called Love - Remastered 2011",
-          "track_id": "5jdOsWWqteiNypqRLQtbbi"
+          "name": "Save Me - Remastered 2011",
+          "track_id": "1pBFEy8cz0Fq4Pru0c4awd"
         },
         {
           "artists": [
@@ -259,7 +309,109 @@
           ],
           "count": 1,
           "name": "Who Wants To Live Forever - Remastered 2011",
-          "track_id": "21UlLfDLSVAfhhElUbIpPH"
+          "track_id": "41kCFJBcaLSt7Ruk5zO3Vr"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "'39 - Remastered 2011",
+          "track_id": "65NTcXUtOb27NHKQ4fAcw0"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "I Was Born To Love You - 2011 Remaster",
+          "track_id": "7DtdhIJlSSOaAFNk4JdXCb"
+        }
+      ],
+      "year": "2022"
+    },
+    {
+      "plays": 15,
+      "tracks": [
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Here, There And Everywhere - Remastered 2009",
+          "track_id": "2B4Y9u4ERAFiMo13XPJyGP"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Yellow Submarine - Remastered 2009",
+          "track_id": "50xwQXPtfNZFKFeZ0XePWc"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "She Said She Said - Remastered 2009",
+          "track_id": "3VSuWxZM6x6V3ig5nYtikL"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Good Day Sunshine - Remastered 2009",
+          "track_id": "7HTH1ppjkkOe7RLoBDKXYJ"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "And Your Bird Can Sing - Remastered 2009",
+          "track_id": "4KRgqwb4kvBuTz1utbYxfb"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "For No One - Remastered 2009",
+          "track_id": "1kDkaFlmkdEZiVUogaP9OZ"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Doctor Robert - Remastered 2009",
+          "track_id": "1ob06Ol8FMIPQgjpg7bMyk"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I Want To Tell You - Remastered 2009",
+          "track_id": "7orb0y6ySGdsYZywMoQtsD"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Got To Get You Into My Life - Remastered 2009",
+          "track_id": "3tGhRLgcCP6SIZU3tbGl7l"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Tomorrow Never Knows - Remastered 2009",
+          "track_id": "00oZhqZIQfL9P5CjOP6JsO"
         }
       ],
       "year": "2019"

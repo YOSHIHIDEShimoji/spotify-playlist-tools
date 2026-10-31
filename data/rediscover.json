@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:18:27.982195+00:00",
+  "generated_at": "2026-10-31T19:40:35.122972+00:00",
   "min_plays": 50,
   "quiet_days": 365,
   "tracks": [
@@ -228,25 +228,6 @@
         "2023": 28,
         "2024": 18,
         "2025": 2
-      }
-    },
-    {
-      "artists": [
-        "Tobu"
-      ],
-      "count": 68,
-      "first": "2021-01-23",
-      "id": "5NcYCtoBkAGyxL5SCF64av",
-      "image": "https://i.scdn.co/image/ab67616d00004851cde53a593271675e24b2cb61",
-      "last": "2025-02-05",
-      "ms": 11742194,
-      "name": "Sunburst",
-      "short": 27,
-      "years": {
-        "2021": 15,
-        "2022": 1,
-        "2024": 47,
-        "2025": 5
       }
     },
     {
@@ -547,6 +528,26 @@
         "2023": 9,
         "2024": 43,
         "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "League of Legends"
+      ],
+      "count": 56,
+      "first": "2020-05-19",
+      "id": "1FpVJ7HpZInE2GvhVE2TwT",
+      "image": "https://i.scdn.co/image/ab67616d0000485165233dedc44bbc41ca434c49",
+      "last": "2025-08-04",
+      "ms": 11863423,
+      "name": "Legends Never Die",
+      "short": 16,
+      "years": {
+        "2020": 1,
+        "2022": 20,
+        "2023": 13,
+        "2024": 13,
+        "2025": 9
       }
     }
   ]

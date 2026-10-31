@@ -12,35 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 23.7739
-    },
-    {
-      "because": [
-        {
-          "count": 15686,
-          "name": "The Beatles"
-        },
-        {
-          "count": 3378,
-          "name": "Paul McCartney"
-        }
-      ],
-      "name": "John Lennon & Yoko Ono",
-      "score": 15.5386
-    },
-    {
-      "because": [
-        {
-          "count": 2050,
-          "name": "OneRepublic"
-        },
-        {
-          "count": 477,
-          "name": "Maroon 5"
-        }
-      ],
-      "name": "The Script",
-      "score": 15.1089
+      "score": 23.8435
     },
     {
       "because": [
@@ -54,7 +26,35 @@
         }
       ],
       "name": "Niall Horan",
-      "score": 15.0799
+      "score": 15.3563
+    },
+    {
+      "because": [
+        {
+          "count": 2052,
+          "name": "OneRepublic"
+        },
+        {
+          "count": 477,
+          "name": "Maroon 5"
+        }
+      ],
+      "name": "The Script",
+      "score": 15.1793
+    },
+    {
+      "because": [
+        {
+          "count": 15686,
+          "name": "The Beatles"
+        },
+        {
+          "count": 3378,
+          "name": "Paul McCartney"
+        }
+      ],
+      "name": "John Lennon & Yoko Ono",
+      "score": 15.1426
     },
     {
       "because": [
@@ -68,7 +68,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 13.7948
+      "score": 13.7986
     },
     {
       "because": [
@@ -82,7 +82,7 @@
         }
       ],
       "name": "Louis Tomlinson",
-      "score": 11.7578
+      "score": 11.6911
     },
     {
       "because": [
@@ -96,7 +96,7 @@
         }
       ],
       "name": "Jason Derülo",
-      "score": 11.1903
+      "score": 11.1699
     },
     {
       "because": [
@@ -110,7 +110,7 @@
         }
       ],
       "name": "米津玄師",
-      "score": 10.9026
+      "score": 11.0729
     },
     {
       "because": [
@@ -124,21 +124,7 @@
         }
       ],
       "name": "James Horner",
-      "score": 10.2177
-    },
-    {
-      "because": [
-        {
-          "count": 388,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 246,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Usher",
-      "score": 9.9119
+      "score": 10.083
     },
     {
       "because": [
@@ -152,12 +138,26 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.8632
+      "score": 9.8891
     },
     {
       "because": [
         {
-          "count": 2050,
+          "count": 388,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 246,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Usher",
+      "score": 9.8765
+    },
+    {
+      "because": [
+        {
+          "count": 2052,
           "name": "OneRepublic"
         },
         {
@@ -166,7 +166,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.6154
+      "score": 9.7265
     },
     {
       "because": [
@@ -180,7 +180,7 @@
         }
       ],
       "name": "Givēon",
-      "score": 9.4149
+      "score": 9.3523
     },
     {
       "because": [
@@ -194,21 +194,21 @@
         }
       ],
       "name": "槇原敬之",
-      "score": 9.0955
+      "score": 9.2682
     },
     {
       "because": [
         {
-          "count": 370,
+          "count": 372,
           "name": "Jim Yosef"
         },
         {
-          "count": 303,
+          "count": 304,
           "name": "Elektronomia"
         }
       ],
       "name": "Lensko",
-      "score": 9.0087
+      "score": 9.1752
     },
     {
       "because": [
@@ -222,12 +222,12 @@
         }
       ],
       "name": "Jerry Goldsmith",
-      "score": 8.6507
+      "score": 8.5726
     },
     {
       "because": [
         {
-          "count": 2050,
+          "count": 2052,
           "name": "OneRepublic"
         },
         {
@@ -236,7 +236,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 8.1512
+      "score": 8.1169
     },
     {
       "because": [
@@ -250,7 +250,7 @@
         }
       ],
       "name": "Ne-Yo",
-      "score": 8.0599
+      "score": 7.9989
     },
     {
       "because": [
@@ -264,49 +264,21 @@
         }
       ],
       "name": "Myles Smith",
-      "score": 7.6878
+      "score": 7.7878
     },
     {
       "because": [
         {
-          "count": 2050,
+          "count": 2052,
           "name": "OneRepublic"
         },
         {
-          "count": 394,
-          "name": "Henry Moodie"
+          "count": 375,
+          "name": "Train"
         }
       ],
-      "name": "BANNERS",
-      "score": 7.6278
-    },
-    {
-      "because": [
-        {
-          "count": 369,
-          "name": "Alan Silvestri"
-        },
-        {
-          "count": 218,
-          "name": "Hans Zimmer"
-        }
-      ],
-      "name": "Marco Beltrami",
-      "score": 7.3994
-    },
-    {
-      "because": [
-        {
-          "count": 2704,
-          "name": "back number"
-        },
-        {
-          "count": 869,
-          "name": "Novelbright"
-        }
-      ],
-      "name": "SUPER BEAVER",
-      "score": 7.3295
+      "name": "Five for Fighting",
+      "score": 7.4581
     },
     {
       "because": [
@@ -320,12 +292,26 @@
         }
       ],
       "name": "Traveling Wilburys",
-      "score": 7.2769
+      "score": 7.3072
     },
     {
       "because": [
         {
-          "count": 2050,
+          "count": 2704,
+          "name": "back number"
+        },
+        {
+          "count": 869,
+          "name": "Novelbright"
+        }
+      ],
+      "name": "SUPER BEAVER",
+      "score": 7.2371
+    },
+    {
+      "because": [
+        {
+          "count": 2052,
           "name": "OneRepublic"
         },
         {
@@ -334,7 +320,21 @@
         }
       ],
       "name": "The Fray",
-      "score": 7.0489
+      "score": 7.2263
+    },
+    {
+      "because": [
+        {
+          "count": 369,
+          "name": "Alan Silvestri"
+        },
+        {
+          "count": 218,
+          "name": "Hans Zimmer"
+        }
+      ],
+      "name": "Marco Beltrami",
+      "score": 7.1523
     },
     {
       "because": [
@@ -344,45 +344,7 @@
         }
       ],
       "name": "くるり",
-      "score": 6.5832
-    },
-    {
-      "because": [
-        {
-          "count": 370,
-          "name": "Jim Yosef"
-        },
-        {
-          "count": 303,
-          "name": "Elektronomia"
-        }
-      ],
-      "name": "LFZ",
-      "score": 6.5412
-    },
-    {
-      "because": [
-        {
-          "count": 869,
-          "name": "Novelbright"
-        },
-        {
-          "count": 360,
-          "name": "ONE OK ROCK"
-        }
-      ],
-      "name": "SPYAIR",
-      "score": 6.3285
-    },
-    {
-      "because": [
-        {
-          "count": 556,
-          "name": "Katsuo Ohno"
-        }
-      ],
-      "name": "久石譲",
-      "score": 6.3226
+      "score": 6.759
     },
     {
       "because": [
@@ -396,25 +358,59 @@
         }
       ],
       "name": "James TW",
-      "score": 6.301
+      "score": 6.617
     },
     {
       "because": [
         {
-          "count": 369,
-          "name": "Alan Silvestri"
+          "count": 372,
+          "name": "Jim Yosef"
         },
         {
-          "count": 218,
-          "name": "Hans Zimmer"
+          "count": 304,
+          "name": "Elektronomia"
         }
       ],
-      "name": "Thomas Newman",
-      "score": 6.2849
+      "name": "LFZ",
+      "score": 6.5457
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
+        }
+      ],
+      "name": "フジファブリック",
+      "score": 6.4521
+    },
+    {
+      "because": [
+        {
+          "count": 15686,
+          "name": "The Beatles"
+        },
+        {
+          "count": 3378,
+          "name": "Paul McCartney"
+        }
+      ],
+      "name": "The Monkees",
+      "score": 6.4128
+    },
+    {
+      "because": [
+        {
+          "count": 556,
+          "name": "Katsuo Ohno"
+        }
+      ],
+      "name": "久石譲",
+      "score": 6.3226
     }
   ],
   "available": true,
-  "generated_at": "2026-10-30T20:18:57.992643+00:00",
+  "generated_at": "2026-10-31T19:41:06.139785+00:00",
   "source": "lastfm",
   "tracks": [
     {
