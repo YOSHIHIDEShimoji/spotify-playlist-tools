@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T19:40:34.980341+00:00",
+  "generated_at": "2026-11-01T20:00:57.101159+00:00",
   "totals": {
-    "artists": 1373,
-    "days": 2144,
+    "artists": 1374,
+    "days": 2145,
     "ms": 12440720283,
-    "plays": 64982,
+    "plays": 65083,
     "since": "2019-09-05",
-    "tracks": 4752
+    "tracks": 4754
   },
   "tracks": [
     {
@@ -68,11 +68,11 @@
       "artists": [
         "Naomi Scott"
       ],
-      "count": 274,
+      "count": 275,
       "first": "2023-12-03",
       "id": "0XPsOSYzDJZJArevQNm2AR",
       "image": "https://i.scdn.co/image/ab67616d000048519986d69836eac008a927b032",
-      "last": "2026-10-12",
+      "last": "2026-11-01",
       "ms": 55491241,
       "name": "Speechless (Full)",
       "short": 35,
@@ -80,7 +80,7 @@
         "2023": 39,
         "2024": 165,
         "2025": 43,
-        "2026": 27
+        "2026": 28
       }
     },
     {
@@ -150,11 +150,11 @@
       "artists": [
         "Sia"
       ],
-      "count": 183,
+      "count": 184,
       "first": "2020-12-07",
       "id": "4VrWlk8IQxevMvERoX08iC",
       "image": "https://i.scdn.co/image/ab67616d000048515d199c9f6e6562aafa5aa357",
-      "last": "2026-10-18",
+      "last": "2026-11-01",
       "ms": 38242653,
       "name": "Chandelier",
       "short": 32,
@@ -165,7 +165,7 @@
         "2023": 17,
         "2024": 14,
         "2025": 25,
-        "2026": 28
+        "2026": 29
       }
     },
     {
@@ -732,11 +732,11 @@
       "artists": [
         "Keane"
       ],
-      "count": 136,
+      "count": 137,
       "first": "2021-12-22",
       "id": "1SKPmfSYaPsETbRHaiA18G",
       "image": "https://i.scdn.co/image/ab67616d000048517d6cd95a046a3c0dacbc7d33",
-      "last": "2026-10-30",
+      "last": "2026-11-01",
       "ms": 29121050,
       "name": "Somewhere Only We Know",
       "short": 33,
@@ -746,7 +746,7 @@
         "2023": 49,
         "2024": 20,
         "2025": 19,
-        "2026": 18
+        "2026": 19
       }
     },
     {
@@ -2938,6 +2938,26 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 88,
+      "first": "2022-05-04",
+      "id": "1dGr1c8CrMLDpV6mPbImSI",
+      "image": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
+      "last": "2026-11-01",
+      "ms": 17018549,
+      "name": "Lover",
+      "short": 20,
+      "years": {
+        "2022": 15,
+        "2023": 15,
+        "2024": 10,
+        "2025": 19,
+        "2026": 29
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 88,
@@ -3064,26 +3084,6 @@
         "2024": 39,
         "2025": 14,
         "2026": 21
-      }
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 87,
-      "first": "2022-05-04",
-      "id": "1dGr1c8CrMLDpV6mPbImSI",
-      "image": "https://i.scdn.co/image/ab67616d00004851e787cffec20aa2a396a61647",
-      "last": "2026-09-30",
-      "ms": 17018549,
-      "name": "Lover",
-      "short": 20,
-      "years": {
-        "2022": 15,
-        "2023": 15,
-        "2024": 10,
-        "2025": 19,
-        "2026": 28
       }
     },
     {
@@ -3786,6 +3786,26 @@
     },
     {
       "artists": [
+        "Dua Lipa"
+      ],
+      "count": 82,
+      "first": "2022-05-04",
+      "id": "5nujrmhLynf4yMoMtj8AQF",
+      "image": "https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a",
+      "last": "2026-11-01",
+      "ms": 14303951,
+      "name": "Levitating (feat. DaBaby)",
+      "short": 12,
+      "years": {
+        "2022": 22,
+        "2023": 9,
+        "2024": 6,
+        "2025": 23,
+        "2026": 22
+      }
+    },
+    {
+      "artists": [
         "Avicii"
       ],
       "count": 82,
@@ -3845,26 +3865,6 @@
         "2024": 4,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Dua Lipa"
-      ],
-      "count": 81,
-      "first": "2022-05-04",
-      "id": "5nujrmhLynf4yMoMtj8AQF",
-      "image": "https://i.scdn.co/image/ab67616d000048514aa538a481e67131c214135a",
-      "last": "2026-10-19",
-      "ms": 14303951,
-      "name": "Levitating (feat. DaBaby)",
-      "short": 12,
-      "years": {
-        "2022": 22,
-        "2023": 9,
-        "2024": 6,
-        "2025": 23,
-        "2026": 21
       }
     },
     {
@@ -4976,6 +4976,26 @@
     },
     {
       "artists": [
+        "BTS"
+      ],
+      "count": 73,
+      "first": "2022-06-05",
+      "id": "4a9tbd947vo9K8Vti9JwcI",
+      "image": "https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f",
+      "last": "2026-11-01",
+      "ms": 15035453,
+      "name": "Boy With Luv (feat. Halsey)",
+      "short": 17,
+      "years": {
+        "2022": 13,
+        "2023": 11,
+        "2024": 6,
+        "2025": 21,
+        "2026": 22
+      }
+    },
+    {
+      "artists": [
         "Kontekst"
       ],
       "count": 73,
@@ -5129,26 +5149,6 @@
     },
     {
       "artists": [
-        "BTS"
-      ],
-      "count": 72,
-      "first": "2022-06-05",
-      "id": "4a9tbd947vo9K8Vti9JwcI",
-      "image": "https://i.scdn.co/image/ab67616d0000485118d0ed4f969b376893f9a38f",
-      "last": "2026-10-24",
-      "ms": 15035453,
-      "name": "Boy With Luv (feat. Halsey)",
-      "short": 17,
-      "years": {
-        "2022": 13,
-        "2023": 11,
-        "2024": 6,
-        "2025": 21,
-        "2026": 21
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 72,
@@ -5190,6 +5190,23 @@
         "2024": 8,
         "2025": 6,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 72,
+      "first": "2025-12-30",
+      "id": "5mQNY6pTeSDl2doFB7uLbE",
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "last": "2026-11-01",
+      "ms": 12982778,
+      "name": "Kids",
+      "short": 6,
+      "years": {
+        "2025": 1,
+        "2026": 71
       }
     },
     {
@@ -5384,23 +5401,6 @@
         "2024": 7,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 71,
-      "first": "2025-12-30",
-      "id": "5mQNY6pTeSDl2doFB7uLbE",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-09-23",
-      "ms": 12982778,
-      "name": "Kids",
-      "short": 6,
-      "years": {
-        "2025": 1,
-        "2026": 70
       }
     },
     {
@@ -5700,26 +5700,6 @@
     },
     {
       "artists": [
-        "Tobu"
-      ],
-      "count": 69,
-      "first": "2021-01-23",
-      "id": "5NcYCtoBkAGyxL5SCF64av",
-      "image": "https://i.scdn.co/image/ab67616d00004851cde53a593271675e24b2cb61",
-      "last": "2026-10-31",
-      "ms": 11742194,
-      "name": "Sunburst",
-      "short": 27,
-      "years": {
-        "2021": 15,
-        "2022": 1,
-        "2024": 47,
-        "2025": 5,
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 69,
@@ -5902,6 +5882,25 @@
       "years": {
         "2025": 65,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "Tobu"
+      ],
+      "count": 68,
+      "first": "2021-01-23",
+      "id": "5NcYCtoBkAGyxL5SCF64av",
+      "image": "https://i.scdn.co/image/ab67616d00004851cde53a593271675e24b2cb61",
+      "last": "2025-02-05",
+      "ms": 11742194,
+      "name": "Sunburst",
+      "short": 27,
+      "years": {
+        "2021": 15,
+        "2022": 1,
+        "2024": 47,
+        "2025": 5
       }
     },
     {
@@ -6309,6 +6308,27 @@
     },
     {
       "artists": [
+        "The Chainsmokers"
+      ],
+      "count": 65,
+      "first": "2021-02-21",
+      "id": "0QsvXIfqM0zZoerQfsI9lm",
+      "image": "https://i.scdn.co/image/ab67616d000048515e8bcc7e341843c708bcf655",
+      "last": "2026-11-01",
+      "ms": 12180891,
+      "name": "Don't Let Me Down",
+      "short": 25,
+      "years": {
+        "2021": 29,
+        "2022": 5,
+        "2023": 1,
+        "2024": 3,
+        "2025": 10,
+        "2026": 17
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 65,
@@ -6475,27 +6495,6 @@
         "2024": 7,
         "2025": 3,
         "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "The Chainsmokers"
-      ],
-      "count": 64,
-      "first": "2021-02-21",
-      "id": "0QsvXIfqM0zZoerQfsI9lm",
-      "image": "https://i.scdn.co/image/ab67616d000048515e8bcc7e341843c708bcf655",
-      "last": "2026-10-19",
-      "ms": 12180891,
-      "name": "Don't Let Me Down",
-      "short": 25,
-      "years": {
-        "2021": 29,
-        "2022": 5,
-        "2023": 1,
-        "2024": 3,
-        "2025": 10,
-        "2026": 16
       }
     },
     {
@@ -7101,6 +7100,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 62,
+      "first": "2025-11-19",
+      "id": "1NhPKVLsHhFUHIOZ32QnS2",
+      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
+      "last": "2026-11-01",
+      "ms": 12775428,
+      "name": "Secrets",
+      "short": 3,
+      "years": {
+        "2025": 9,
+        "2026": 53
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 62,
@@ -7224,6 +7240,26 @@
     },
     {
       "artists": [
+        "Dua Lipa"
+      ],
+      "count": 61,
+      "first": "2022-06-05",
+      "id": "6WrI0LAC5M1Rw2MnX2ZvEg",
+      "image": "https://i.scdn.co/image/ab67616d00004851252ba339f802d9cf88122757",
+      "last": "2026-11-01",
+      "ms": 10120805,
+      "name": "Don't Start Now",
+      "short": 22,
+      "years": {
+        "2022": 15,
+        "2023": 10,
+        "2024": 5,
+        "2025": 16,
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
         "BTS"
       ],
       "count": 61,
@@ -7257,6 +7293,25 @@
       "years": {
         "2024": 55,
         "2025": 6
+      }
+    },
+    {
+      "artists": [
+        "Blue Swede"
+      ],
+      "count": 61,
+      "first": "2022-03-03",
+      "id": "6Ac4NVYYl2U73QiTt11ZKd",
+      "image": "https://i.scdn.co/image/ab67616d00004851b2439940aedd2801c9ae2e5b",
+      "last": "2026-11-01",
+      "ms": 9311648,
+      "name": "Hooked On A Feeling",
+      "short": 12,
+      "years": {
+        "2022": 2,
+        "2024": 36,
+        "2025": 16,
+        "2026": 7
       }
     },
     {
@@ -7357,23 +7412,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 61,
-      "first": "2025-11-19",
-      "id": "1NhPKVLsHhFUHIOZ32QnS2",
-      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
-      "last": "2026-10-05",
-      "ms": 12775428,
-      "name": "Secrets",
-      "short": 3,
-      "years": {
-        "2025": 9,
-        "2026": 52
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 61,
@@ -7450,26 +7488,6 @@
     },
     {
       "artists": [
-        "Dua Lipa"
-      ],
-      "count": 60,
-      "first": "2022-06-05",
-      "id": "6WrI0LAC5M1Rw2MnX2ZvEg",
-      "image": "https://i.scdn.co/image/ab67616d00004851252ba339f802d9cf88122757",
-      "last": "2026-10-23",
-      "ms": 10120805,
-      "name": "Don't Start Now",
-      "short": 22,
-      "years": {
-        "2022": 15,
-        "2023": 10,
-        "2024": 5,
-        "2025": 16,
-        "2026": 14
-      }
-    },
-    {
-      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 60,
@@ -7483,25 +7501,6 @@
       "years": {
         "2025": 56,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Blue Swede"
-      ],
-      "count": 60,
-      "first": "2022-03-03",
-      "id": "6Ac4NVYYl2U73QiTt11ZKd",
-      "image": "https://i.scdn.co/image/ab67616d00004851b2439940aedd2801c9ae2e5b",
-      "last": "2026-10-15",
-      "ms": 9311648,
-      "name": "Hooked On A Feeling",
-      "short": 12,
-      "years": {
-        "2022": 2,
-        "2024": 36,
-        "2025": 16,
-        "2026": 6
       }
     },
     {
@@ -8021,6 +8020,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 57,
+      "first": "2025-12-30",
+      "id": "4BUtvtGTRvJB49Hx2F7lle",
+      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
+      "last": "2026-11-01",
+      "ms": 11660155,
+      "name": "Marchin On",
+      "short": 5,
+      "years": {
+        "2025": 1,
+        "2026": 56
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 57,
@@ -8272,23 +8288,6 @@
         "2023": 13,
         "2024": 13,
         "2025": 9
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 56,
-      "first": "2025-12-30",
-      "id": "4BUtvtGTRvJB49Hx2F7lle",
-      "image": "https://i.scdn.co/image/ab67616d0000485177a7bd558d81172446e525bb",
-      "last": "2026-09-23",
-      "ms": 11660155,
-      "name": "Marchin On",
-      "short": 5,
-      "years": {
-        "2025": 1,
-        "2026": 55
       }
     },
     {
@@ -8652,6 +8651,23 @@
     },
     {
       "artists": [
+        "Fall Out Boy"
+      ],
+      "count": 54,
+      "first": "2025-02-23",
+      "id": "3Te8uLyit6X3ncNW8Fp3K2",
+      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
+      "last": "2026-11-01",
+      "ms": 8960593,
+      "name": "Immortals",
+      "short": 2,
+      "years": {
+        "2025": 32,
+        "2026": 22
+      }
+    },
+    {
+      "artists": [
         "Wings"
       ],
       "count": 54,
@@ -8709,6 +8725,25 @@
         "2024": 22,
         "2025": 4,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Avicii"
+      ],
+      "count": 54,
+      "first": "2022-10-23",
+      "id": "0ct6r3EGTcMLPtrXHDvVjc",
+      "image": "https://i.scdn.co/image/ab67616d000048510ae4f4d42e4a09f3a29f64ad",
+      "last": "2026-11-01",
+      "ms": 8034270,
+      "name": "The Nights",
+      "short": 1,
+      "years": {
+        "2022": 1,
+        "2023": 1,
+        "2025": 31,
+        "2026": 21
       }
     },
     {
@@ -8867,23 +8902,6 @@
     },
     {
       "artists": [
-        "Fall Out Boy"
-      ],
-      "count": 53,
-      "first": "2025-02-23",
-      "id": "3Te8uLyit6X3ncNW8Fp3K2",
-      "image": "https://i.scdn.co/image/ab67616d000048513cf1c1dbcfa3f1ab7282719b",
-      "last": "2026-10-15",
-      "ms": 8960593,
-      "name": "Immortals",
-      "short": 2,
-      "years": {
-        "2025": 32,
-        "2026": 21
-      }
-    },
-    {
-      "artists": [
         "The Chainsmokers"
       ],
       "count": 53,
@@ -8897,25 +8915,6 @@
       "years": {
         "2025": 29,
         "2026": 24
-      }
-    },
-    {
-      "artists": [
-        "Avicii"
-      ],
-      "count": 53,
-      "first": "2022-10-23",
-      "id": "0ct6r3EGTcMLPtrXHDvVjc",
-      "image": "https://i.scdn.co/image/ab67616d000048510ae4f4d42e4a09f3a29f64ad",
-      "last": "2026-10-17",
-      "ms": 8034270,
-      "name": "The Nights",
-      "short": 1,
-      "years": {
-        "2022": 1,
-        "2023": 1,
-        "2025": 31,
-        "2026": 20
       }
     },
     {
@@ -9094,6 +9093,23 @@
     },
     {
       "artists": [
+        "Imagine Dragons"
+      ],
+      "count": 52,
+      "first": "2025-02-23",
+      "id": "2FY7b99s15jUprqC0M5NCT",
+      "image": "https://i.scdn.co/image/ab67616d00004851da6f73a25f4c79d0e6b4a8bd",
+      "last": "2026-11-01",
+      "ms": 9063723,
+      "name": "Natural",
+      "short": 3,
+      "years": {
+        "2025": 34,
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 52,
@@ -9244,23 +9260,6 @@
         "2024": 4,
         "2025": 5,
         "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "Imagine Dragons"
-      ],
-      "count": 51,
-      "first": "2025-02-23",
-      "id": "2FY7b99s15jUprqC0M5NCT",
-      "image": "https://i.scdn.co/image/ab67616d00004851da6f73a25f4c79d0e6b4a8bd",
-      "last": "2026-09-19",
-      "ms": 9063723,
-      "name": "Natural",
-      "short": 3,
-      "years": {
-        "2025": 34,
-        "2026": 17
       }
     },
     {
@@ -9905,6 +9904,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 47,
+      "first": "2025-12-20",
+      "id": "5TTyyKNJZHONhjtAiXL1nG",
+      "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
+      "last": "2026-11-01",
+      "ms": 7503419,
+      "name": "Hero",
+      "short": 1,
+      "years": {
+        "2025": 4,
+        "2026": 43
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 47,
@@ -10478,23 +10494,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 45,
-      "first": "2025-12-20",
-      "id": "5TTyyKNJZHONhjtAiXL1nG",
-      "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
-      "last": "2026-10-24",
-      "ms": 7503419,
-      "name": "Hero",
-      "short": 1,
-      "years": {
-        "2025": 4,
-        "2026": 41
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 45,
@@ -10512,6 +10511,23 @@
         "2024": 9,
         "2025": 3,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 45,
+      "first": "2025-12-20",
+      "id": "7uFhHMYpEC2MLXwxt64pMD",
+      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
+      "last": "2026-11-01",
+      "ms": 7270010,
+      "name": "I Won't Tell a Soul",
+      "short": 4,
+      "years": {
+        "2025": 7,
+        "2026": 38
       }
     },
     {
@@ -10749,23 +10765,6 @@
         "2024": 6,
         "2025": 4,
         "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Charlie Puth"
-      ],
-      "count": 44,
-      "first": "2025-12-20",
-      "id": "7uFhHMYpEC2MLXwxt64pMD",
-      "image": "https://i.scdn.co/image/ab67616d00004851e7bd365fb962fb7882a81d24",
-      "last": "2026-09-14",
-      "ms": 7270010,
-      "name": "I Won't Tell a Soul",
-      "short": 4,
-      "years": {
-        "2025": 7,
-        "2026": 37
       }
     },
     {
@@ -11204,6 +11203,23 @@
     },
     {
       "artists": [
+        "JVKE"
+      ],
+      "count": 42,
+      "first": "2025-12-20",
+      "id": "0ApadYqa3GRQkJJ3E7pQDJ",
+      "image": "https://i.scdn.co/image/ab67616d000048513af4efcbc640cf0cb0888d63",
+      "last": "2026-11-01",
+      "ms": 6559697,
+      "name": "Angel Pt. 2 (feat. Jimin of BTS, Charlie Puth and Muni Long / FAST X Soundtrack)",
+      "short": 2,
+      "years": {
+        "2025": 5,
+        "2026": 37
+      }
+    },
+    {
+      "artists": [
         "MC4D"
       ],
       "count": 42,
@@ -11256,6 +11272,26 @@
         "2024": 6,
         "2025": 22,
         "2026": 13
+      }
+    },
+    {
+      "artists": [
+        "Aerosmith"
+      ],
+      "count": 42,
+      "first": "2021-12-21",
+      "id": "225xvV8r1yKMHErSWivnow",
+      "image": "https://i.scdn.co/image/ab67616d00004851da8d92affd796f7e20af7375",
+      "last": "2026-11-01",
+      "ms": 10597475,
+      "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+      "short": 12,
+      "years": {
+        "2021": 1,
+        "2022": 19,
+        "2023": 1,
+        "2024": 5,
+        "2026": 16
       }
     },
     {
@@ -11415,23 +11451,6 @@
     },
     {
       "artists": [
-        "JVKE"
-      ],
-      "count": 41,
-      "first": "2025-12-20",
-      "id": "0ApadYqa3GRQkJJ3E7pQDJ",
-      "image": "https://i.scdn.co/image/ab67616d000048513af4efcbc640cf0cb0888d63",
-      "last": "2026-09-14",
-      "ms": 6559697,
-      "name": "Angel Pt. 2 (feat. Jimin of BTS, Charlie Puth and Muni Long / FAST X Soundtrack)",
-      "short": 2,
-      "years": {
-        "2025": 5,
-        "2026": 36
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 41,
@@ -11538,26 +11557,6 @@
         "2024": 14,
         "2025": 19,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Aerosmith"
-      ],
-      "count": 41,
-      "first": "2021-12-21",
-      "id": "225xvV8r1yKMHErSWivnow",
-      "image": "https://i.scdn.co/image/ab67616d00004851da8d92affd796f7e20af7375",
-      "last": "2026-10-24",
-      "ms": 10597475,
-      "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
-      "short": 12,
-      "years": {
-        "2021": 1,
-        "2022": 19,
-        "2023": 1,
-        "2024": 5,
-        "2026": 15
       }
     },
     {
@@ -11912,6 +11911,23 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 40,
+      "first": "2025-12-25",
+      "id": "3yWuTOYDztXjZxdE2cIRUa",
+      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
+      "last": "2026-11-01",
+      "ms": 7564282,
+      "name": "Opalite",
+      "short": 2,
+      "years": {
+        "2025": 4,
+        "2026": 36
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 40,
@@ -12119,19 +12135,19 @@
     },
     {
       "artists": [
-        "Taylor Swift"
+        "Little Mix"
       ],
       "count": 39,
-      "first": "2025-12-25",
-      "id": "3yWuTOYDztXjZxdE2cIRUa",
-      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
-      "last": "2026-10-30",
-      "ms": 7564282,
-      "name": "Opalite",
-      "short": 2,
+      "first": "2025-12-20",
+      "id": "7uU7UhUzfZJ5vEMoemdcIW",
+      "image": "https://i.scdn.co/image/ab67616d000048513042c53026e29faf3a21c9f9",
+      "last": "2026-11-01",
+      "ms": 6937750,
+      "name": "Oops (feat. Charlie Puth)",
+      "short": 6,
       "years": {
-        "2025": 4,
-        "2026": 35
+        "2025": 5,
+        "2026": 34
       }
     },
     {
@@ -12309,23 +12325,6 @@
     },
     {
       "artists": [
-        "Little Mix"
-      ],
-      "count": 38,
-      "first": "2025-12-20",
-      "id": "7uU7UhUzfZJ5vEMoemdcIW",
-      "image": "https://i.scdn.co/image/ab67616d000048513042c53026e29faf3a21c9f9",
-      "last": "2026-08-14",
-      "ms": 6937750,
-      "name": "Oops (feat. Charlie Puth)",
-      "short": 6,
-      "years": {
-        "2025": 5,
-        "2026": 33
-      }
-    },
-    {
-      "artists": [
         "Charlie Puth"
       ],
       "count": 38,
@@ -12453,6 +12452,22 @@
         "2024": 1,
         "2025": 5,
         "2026": 32
+      }
+    },
+    {
+      "artists": [
+        "yung kai"
+      ],
+      "count": 38,
+      "first": "2025-12-20",
+      "id": "3be9ACTxtcL6Zm4vJRUiPG",
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "last": "2026-11-01",
+      "ms": 6099472,
+      "name": "blue",
+      "years": {
+        "2025": 8,
+        "2026": 30
       }
     },
     {
@@ -12702,22 +12717,6 @@
         "2024": 17,
         "2025": 5,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "yung kai"
-      ],
-      "count": 37,
-      "first": "2025-12-20",
-      "id": "3be9ACTxtcL6Zm4vJRUiPG",
-      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
-      "last": "2026-09-18",
-      "ms": 6099472,
-      "name": "blue",
-      "years": {
-        "2025": 8,
-        "2026": 29
       }
     },
     {
@@ -13017,6 +13016,40 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 35,
+      "first": "2025-12-30",
+      "id": "4FDDExmv76Da7aaFqxbxVp",
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "last": "2026-11-01",
+      "ms": 4106835,
+      "name": "Sink Or Swim",
+      "short": 4,
+      "years": {
+        "2025": 1,
+        "2026": 34
+      }
+    },
+    {
+      "artists": [
+        "Charlie Puth"
+      ],
+      "count": 35,
+      "first": "2025-12-20",
+      "id": "3brfhVrVESFlfqE1IdlFdp",
+      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
+      "last": "2026-11-01",
+      "ms": 6732464,
+      "name": "Smells Like Me",
+      "short": 6,
+      "years": {
+        "2025": 4,
+        "2026": 31
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 35,
@@ -13268,23 +13301,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 34,
-      "first": "2025-12-20",
-      "id": "3brfhVrVESFlfqE1IdlFdp",
-      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
-      "last": "2026-10-16",
-      "ms": 6732464,
-      "name": "Smells Like Me",
-      "short": 6,
-      "years": {
-        "2025": 4,
-        "2026": 30
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 34,
@@ -13421,23 +13437,6 @@
       "ms": 5191397,
       "name": "If I Lose Myself - Alesso vs OneRepublic",
       "short": 6,
-      "years": {
-        "2025": 1,
-        "2026": 32
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 33,
-      "first": "2025-12-30",
-      "id": "4FDDExmv76Da7aaFqxbxVp",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "last": "2026-10-18",
-      "ms": 4106835,
-      "name": "Sink Or Swim",
-      "short": 4,
       "years": {
         "2025": 1,
         "2026": 32
@@ -13921,6 +13920,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 31,
+      "first": "2025-12-30",
+      "id": "0sBJA2OCEECMs0HsdIQhvR",
+      "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
+      "last": "2026-11-01",
+      "ms": 4823242,
+      "name": "West Coast",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 30
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 31,
@@ -13992,6 +14008,23 @@
       "short": 2,
       "years": {
         "2025": 30
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 30,
+      "first": "2025-12-30",
+      "id": "3T4UodGkfZObJ43RtA5KFU",
+      "image": "https://i.scdn.co/image/ab67616d00004851b426da27e85bc2e3e97bee66",
+      "last": "2026-11-01",
+      "ms": 3197778,
+      "name": "Connection",
+      "short": 5,
+      "years": {
+        "2025": 1,
+        "2026": 29
       }
     },
     {
@@ -14086,23 +14119,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 30,
-      "first": "2025-12-30",
-      "id": "0sBJA2OCEECMs0HsdIQhvR",
-      "image": "https://i.scdn.co/image/ab67616d00004851929014e8baba6299a54c5b7c",
-      "last": "2026-10-28",
-      "ms": 4823242,
-      "name": "West Coast",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 29
-      }
-    },
-    {
-      "artists": [
         "Justin Bieber"
       ],
       "count": 30,
@@ -14161,12 +14177,12 @@
       ],
       "count": 29,
       "first": "2025-12-30",
-      "id": "3T4UodGkfZObJ43RtA5KFU",
-      "image": "https://i.scdn.co/image/ab67616d00004851b426da27e85bc2e3e97bee66",
-      "last": "2026-10-22",
-      "ms": 3197778,
-      "name": "Connection",
-      "short": 5,
+      "id": "1nE1VjP943pIuFdNWcLgYM",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-11-01",
+      "ms": 4142490,
+      "name": "Feel Again - With Heartbeats",
+      "short": 7,
       "years": {
         "2025": 1,
         "2026": 28
@@ -14232,6 +14248,22 @@
         "2024": 4,
         "2025": 4,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 29,
+      "first": "2026-03-31",
+      "id": "5LOCCIGEVJZ1B8fwu4h9UA",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-11-01",
+      "ms": 1966297,
+      "name": "pick up the phone",
+      "short": 1,
+      "years": {
+        "2026": 29
       }
     },
     {
@@ -14306,23 +14338,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 28,
-      "first": "2025-12-30",
-      "id": "1nE1VjP943pIuFdNWcLgYM",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-10-22",
-      "ms": 4142490,
-      "name": "Feel Again - With Heartbeats",
-      "short": 7,
-      "years": {
-        "2025": 1,
-        "2026": 27
-      }
-    },
-    {
-      "artists": [
         "Carly Rae Jepsen"
       ],
       "count": 28,
@@ -14374,22 +14389,6 @@
         "2022": 1,
         "2025": 3,
         "2026": 24
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 28,
-      "first": "2026-03-31",
-      "id": "5LOCCIGEVJZ1B8fwu4h9UA",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-10-30",
-      "ms": 1966297,
-      "name": "pick up the phone",
-      "short": 1,
-      "years": {
-        "2026": 28
       }
     },
     {
@@ -15512,6 +15511,22 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 23,
+      "first": "2026-03-04",
+      "id": "0RZyUsKfiC7MtiGKatCtGc",
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "last": "2026-11-01",
+      "ms": 3277656,
+      "name": "Misery",
+      "short": 2,
+      "years": {
+        "2026": 23
+      }
+    },
+    {
+      "artists": [
         "George Harrison"
       ],
       "count": 23,
@@ -15894,22 +15909,6 @@
         "2024": 5,
         "2025": 7,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 22,
-      "first": "2026-03-04",
-      "id": "0RZyUsKfiC7MtiGKatCtGc",
-      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
-      "last": "2026-10-24",
-      "ms": 3277656,
-      "name": "Misery",
-      "short": 2,
-      "years": {
-        "2026": 22
       }
     },
     {
@@ -16672,6 +16671,24 @@
     },
     {
       "artists": [
+        "Bruno Mars"
+      ],
+      "count": 20,
+      "first": "2021-12-31",
+      "id": "47Slg6LuqLaX0VodpSCvPt",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "last": "2026-11-01",
+      "ms": 3129238,
+      "name": "Just the Way You Are",
+      "short": 9,
+      "years": {
+        "2021": 1,
+        "2022": 1,
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 20,
@@ -16774,6 +16791,25 @@
         "2024": 5,
         "2025": 6,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 20,
+      "first": "2021-07-22",
+      "id": "09CtPGIpYB4BrO8qb1RGsF",
+      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
+      "last": "2026-11-01",
+      "ms": 3387310,
+      "name": "Sorry",
+      "short": 3,
+      "years": {
+        "2021": 1,
+        "2023": 1,
+        "2025": 3,
+        "2026": 15
       }
     },
     {
@@ -17023,24 +17059,6 @@
     },
     {
       "artists": [
-        "Bruno Mars"
-      ],
-      "count": 19,
-      "first": "2021-12-31",
-      "id": "47Slg6LuqLaX0VodpSCvPt",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "last": "2026-10-16",
-      "ms": 3129238,
-      "name": "Just the Way You Are",
-      "short": 9,
-      "years": {
-        "2021": 1,
-        "2022": 1,
-        "2026": 17
-      }
-    },
-    {
-      "artists": [
         "Kenshi Yonezu"
       ],
       "count": 19,
@@ -17115,25 +17133,6 @@
         "2024": 4,
         "2025": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 19,
-      "first": "2021-07-22",
-      "id": "09CtPGIpYB4BrO8qb1RGsF",
-      "image": "https://i.scdn.co/image/ab67616d00004851f46b9d202509a8f7384b90de",
-      "last": "2026-08-14",
-      "ms": 3387310,
-      "name": "Sorry",
-      "short": 3,
-      "years": {
-        "2021": 1,
-        "2023": 1,
-        "2025": 3,
-        "2026": 14
       }
     },
     {
@@ -17340,6 +17339,23 @@
       "short": 2,
       "years": {
         "2026": 18
+      }
+    },
+    {
+      "artists": [
+        "Major Lazer"
+      ],
+      "count": 18,
+      "first": "2025-08-08",
+      "id": "13pVIIellD76zNT1APT1De",
+      "image": "https://i.scdn.co/image/ab67616d00004851bc308b81b82fc8baf8f26617",
+      "last": "2026-11-01",
+      "ms": 2224223,
+      "name": "Cold Water",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 17
       }
     },
     {
@@ -17795,6 +17811,21 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 17,
+      "first": "2026-04-28",
+      "id": "5sv0WnUs74Orn6GoPmC5im",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
+      "last": "2026-11-01",
+      "ms": 2732769,
+      "name": "Collide",
+      "years": {
+        "2026": 17
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 17,
@@ -17864,6 +17895,22 @@
       "short": 4,
       "years": {
         "2025": 17
+      }
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 17,
+      "first": "2026-07-04",
+      "id": "2RttW7RAu5nOAfq6YFvApB",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+      "last": "2026-11-01",
+      "ms": 622560,
+      "name": "Happier",
+      "short": 1,
+      "years": {
+        "2026": 17
       }
     },
     {
@@ -18322,38 +18369,6 @@
     },
     {
       "artists": [
-        "Major Lazer"
-      ],
-      "count": 16,
-      "first": "2025-08-08",
-      "id": "13pVIIellD76zNT1APT1De",
-      "image": "https://i.scdn.co/image/ab67616d00004851bc308b81b82fc8baf8f26617",
-      "last": "2026-10-22",
-      "ms": 2224223,
-      "name": "Cold Water",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 16,
-      "first": "2026-04-28",
-      "id": "5sv0WnUs74Orn6GoPmC5im",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
-      "last": "2026-10-26",
-      "ms": 2732769,
-      "name": "Collide",
-      "years": {
-        "2026": 16
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 16,
@@ -18475,6 +18490,24 @@
     },
     {
       "artists": [
+        "ZAYN"
+      ],
+      "count": 16,
+      "first": "2021-07-28",
+      "id": "55n9yjI6qqXh5F2mYvUc2y",
+      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
+      "last": "2026-11-01",
+      "ms": 1977280,
+      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+      "short": 1,
+      "years": {
+        "2021": 1,
+        "2025": 1,
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 16,
@@ -18527,6 +18560,22 @@
         "2021": 9,
         "2022": 2,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 16,
+      "first": "2026-05-04",
+      "id": "3kZLeZr4StCy1tlOBRJrUH",
+      "image": "https://i.scdn.co/image/ab67616d000048519f05db24a0ce9b5d02b87408",
+      "last": "2026-11-01",
+      "ms": 2070200,
+      "name": "Lifetime",
+      "short": 1,
+      "years": {
+        "2026": 16
       }
     },
     {
@@ -18780,6 +18829,21 @@
     },
     {
       "artists": [
+        "Henry Moodie"
+      ],
+      "count": 16,
+      "first": "2026-07-12",
+      "id": "1sjqZ6Q3YTA2RyEjG8uGYs",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-11-01",
+      "ms": 503148,
+      "name": "mood swings",
+      "years": {
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "FUNKY MONKEY BABYS"
       ],
       "count": 16,
@@ -19003,40 +19067,6 @@
     },
     {
       "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 15,
-      "first": "2026-07-04",
-      "id": "2RttW7RAu5nOAfq6YFvApB",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
-      "last": "2026-10-31",
-      "ms": 622560,
-      "name": "Happier",
-      "short": 1,
-      "years": {
-        "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "ZAYN"
-      ],
-      "count": 15,
-      "first": "2021-07-28",
-      "id": "55n9yjI6qqXh5F2mYvUc2y",
-      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
-      "last": "2026-10-29",
-      "ms": 1977280,
-      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-      "short": 1,
-      "years": {
-        "2021": 1,
-        "2025": 1,
-        "2026": 13
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 15,
@@ -19050,22 +19080,6 @@
       "years": {
         "2019": 1,
         "2020": 14
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 15,
-      "first": "2026-05-04",
-      "id": "3kZLeZr4StCy1tlOBRJrUH",
-      "image": "https://i.scdn.co/image/ab67616d000048519f05db24a0ce9b5d02b87408",
-      "last": "2026-10-12",
-      "ms": 2070200,
-      "name": "Lifetime",
-      "short": 1,
-      "years": {
-        "2026": 15
       }
     },
     {
@@ -19087,6 +19101,22 @@
         "2024": 3,
         "2025": 5,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 15,
+      "first": "2026-02-10",
+      "id": "3cOO5IQtOYs7huq4Z6lYfr",
+      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
+      "last": "2026-11-01",
+      "ms": 383393,
+      "name": "Love Runs Out",
+      "short": 2,
+      "years": {
+        "2026": 15
       }
     },
     {
@@ -19211,6 +19241,23 @@
       "years": {
         "2025": 1,
         "2026": 14
+      }
+    },
+    {
+      "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 15,
+      "first": "2025-09-11",
+      "id": "7JJmb5XwzOO8jgpou264Ml",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea3ef7697cfd5705b8f47521",
+      "last": "2026-11-01",
+      "ms": 1396080,
+      "name": "There's Nothing Holdin' Me Back",
+      "short": 10,
+      "years": {
+        "2025": 2,
+        "2026": 13
       }
     },
     {
@@ -19357,6 +19404,21 @@
       "ms": 529119,
       "name": "people pleaser",
       "short": 1,
+      "years": {
+        "2026": 15
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 15,
+      "first": "2026-07-12",
+      "id": "2OupMbGCv1k6UDN0ay6sdt",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-11-01",
+      "ms": 653265,
+      "name": "ten years time",
       "years": {
         "2026": 15
       }
@@ -19679,22 +19741,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 14,
-      "first": "2026-02-10",
-      "id": "3cOO5IQtOYs7huq4Z6lYfr",
-      "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-      "last": "2026-10-15",
-      "ms": 383393,
-      "name": "Love Runs Out",
-      "short": 2,
-      "years": {
-        "2026": 14
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 14,
@@ -19836,23 +19882,6 @@
     },
     {
       "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 14,
-      "first": "2025-09-11",
-      "id": "7JJmb5XwzOO8jgpou264Ml",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea3ef7697cfd5705b8f47521",
-      "last": "2026-10-09",
-      "ms": 1396080,
-      "name": "There's Nothing Holdin' Me Back",
-      "short": 10,
-      "years": {
-        "2025": 2,
-        "2026": 12
-      }
-    },
-    {
-      "artists": [
         "Ed Sheeran"
       ],
       "count": 14,
@@ -19862,21 +19891,6 @@
       "last": "2026-10-23",
       "ms": 1566080,
       "name": "Tides",
-      "years": {
-        "2026": 14
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 14,
-      "first": "2026-07-12",
-      "id": "1sjqZ6Q3YTA2RyEjG8uGYs",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-10-16",
-      "ms": 503148,
-      "name": "mood swings",
       "years": {
         "2026": 14
       }
@@ -19912,21 +19926,6 @@
       "years": {
         "2024": 1,
         "2025": 13
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 14,
-      "first": "2026-07-12",
-      "id": "2OupMbGCv1k6UDN0ay6sdt",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-10-28",
-      "ms": 653265,
-      "name": "ten years time",
-      "years": {
-        "2026": 14
       }
     },
     {
@@ -20143,6 +20142,22 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 13,
+      "first": "2025-12-18",
+      "id": "03bTIHJElXZ0O0jqOQvAbY",
+      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
+      "last": "2026-11-01",
+      "ms": 1984823,
+      "name": "Father Figure",
+      "years": {
+        "2025": 4,
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Katy Perry"
       ],
       "count": 13,
@@ -20278,6 +20293,22 @@
     },
     {
       "artists": [
+        "Justin Bieber"
+      ],
+      "count": 13,
+      "first": "2026-05-09",
+      "id": "69ghzc538EQSVon2Gm3wrr",
+      "image": "https://i.scdn.co/image/ab67616d000048517c3bb9f74a98f60bdda6c9a7",
+      "last": "2026-11-01",
+      "ms": 1832856,
+      "name": "One Less Lonely Girl",
+      "short": 1,
+      "years": {
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 13,
@@ -20307,6 +20338,22 @@
       "years": {
         "2021": 2,
         "2026": 11
+      }
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 13,
+      "first": "2026-05-02",
+      "id": "5T03itPFOPGGkvVPvPiyla",
+      "image": "https://i.scdn.co/image/ab67616d00004851f528fc2d5d8b26e4e3413715",
+      "last": "2026-11-01",
+      "ms": 1379651,
+      "name": "Put It All on Me (feat. Ella Mai)",
+      "short": 2,
+      "years": {
+        "2026": 13
       }
     },
     {
@@ -20377,6 +20424,22 @@
       "years": {
         "2021": 3,
         "2026": 10
+      }
+    },
+    {
+      "artists": [
+        "Bruno Mars"
+      ],
+      "count": 13,
+      "first": "2026-02-22",
+      "id": "386RUes7n1uM1yfzgeUuwp",
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "last": "2026-11-01",
+      "ms": 1187873,
+      "name": "The Lazy Song",
+      "short": 1,
+      "years": {
+        "2026": 13
       }
     },
     {
@@ -20613,22 +20676,6 @@
     },
     {
       "artists": [
-        "Taylor Swift"
-      ],
-      "count": 12,
-      "first": "2025-12-18",
-      "id": "03bTIHJElXZ0O0jqOQvAbY",
-      "image": "https://i.scdn.co/image/ab67616d00004851d7812467811a7da6e6a44902",
-      "last": "2026-09-13",
-      "ms": 1984823,
-      "name": "Father Figure",
-      "years": {
-        "2025": 4,
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Hikaru Utada"
       ],
       "count": 12,
@@ -20731,6 +20778,21 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 12,
+      "first": "2026-05-18",
+      "id": "5bpjnItVAZvbTtFl8zMslP",
+      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
+      "last": "2026-11-01",
+      "ms": 1790296,
+      "name": "Just A Feeling",
+      "years": {
+        "2026": 12
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 12,
@@ -20789,12 +20851,11 @@
       ],
       "count": 12,
       "first": "2026-05-09",
-      "id": "69ghzc538EQSVon2Gm3wrr",
-      "image": "https://i.scdn.co/image/ab67616d000048517c3bb9f74a98f60bdda6c9a7",
-      "last": "2026-09-08",
-      "ms": 1832856,
-      "name": "One Less Lonely Girl",
-      "short": 1,
+      "id": "1tsN57SdHZSoC5zQq3wELh",
+      "image": "https://i.scdn.co/image/ab67616d00004851f1454966dfb8996bf84f0e6b",
+      "last": "2026-11-01",
+      "ms": 1823680,
+      "name": "Never Say Never - Single Version",
       "years": {
         "2026": 12
       }
@@ -20813,22 +20874,6 @@
       "short": 4,
       "years": {
         "2020": 12
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 12,
-      "first": "2026-05-02",
-      "id": "5T03itPFOPGGkvVPvPiyla",
-      "image": "https://i.scdn.co/image/ab67616d00004851f528fc2d5d8b26e4e3413715",
-      "last": "2026-10-18",
-      "ms": 1379651,
-      "name": "Put It All on Me (feat. Ella Mai)",
-      "short": 2,
-      "years": {
-        "2026": 12
       }
     },
     {
@@ -20947,22 +20992,6 @@
     },
     {
       "artists": [
-        "Bruno Mars"
-      ],
-      "count": 12,
-      "first": "2026-02-22",
-      "id": "386RUes7n1uM1yfzgeUuwp",
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "last": "2026-10-22",
-      "ms": 1187873,
-      "name": "The Lazy Song",
-      "short": 1,
-      "years": {
-        "2026": 12
-      }
-    },
-    {
-      "artists": [
         "Ludwig Göransson"
       ],
       "count": 12,
@@ -20991,6 +21020,22 @@
       "name": "The Weekend",
       "years": {
         "2026": 12
+      }
+    },
+    {
+      "artists": [
+        "fun."
+      ],
+      "count": 12,
+      "first": "2021-07-16",
+      "id": "5rgy6ghBq1eRApCkeUdJXf",
+      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
+      "last": "2026-11-01",
+      "ms": 897568,
+      "name": "We Are Young (feat. Janelle Monáe)",
+      "years": {
+        "2021": 2,
+        "2026": 10
       }
     },
     {
@@ -21034,6 +21079,21 @@
       "last": "2026-09-05",
       "ms": 948194,
       "name": "indigo",
+      "years": {
+        "2026": 12
+      }
+    },
+    {
+      "artists": [
+        "Henry Moodie"
+      ],
+      "count": 12,
+      "first": "2026-07-18",
+      "id": "0eqqORX2j2REFwmdoJaRkH",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-11-01",
+      "ms": 182040,
+      "name": "me, myself and i",
       "years": {
         "2026": 12
       }
@@ -21119,6 +21179,40 @@
       "years": {
         "2019": 10,
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "count": 11,
+      "first": "2022-05-04",
+      "id": "0pqnGHJpmpxLKifKRmU6WP",
+      "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
+      "last": "2026-11-01",
+      "ms": 1430423,
+      "name": "Believer",
+      "short": 7,
+      "years": {
+        "2022": 4,
+        "2023": 2,
+        "2025": 1,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 11,
+      "first": "2026-05-09",
+      "id": "3UGIZ8qcrMTwzLbx6Kttqt",
+      "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
+      "last": "2026-11-01",
+      "ms": 856665,
+      "name": "Boyfriend",
+      "years": {
+        "2026": 11
       }
     },
     {
@@ -21254,6 +21348,22 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 11,
+      "first": "2025-12-25",
+      "id": "5EYBryPOgIEPB7r5QIy6eG",
+      "image": "https://i.scdn.co/image/ab67616d00004851269423eb6467e308c0fbce24",
+      "last": "2026-11-01",
+      "ms": 1414482,
+      "name": "Fallin' All In You",
+      "years": {
+        "2025": 1,
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "Bruno Mars"
       ],
       "count": 11,
@@ -21354,21 +21464,6 @@
       ],
       "count": 11,
       "first": "2026-05-18",
-      "id": "5bpjnItVAZvbTtFl8zMslP",
-      "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
-      "last": "2026-09-05",
-      "ms": 1790296,
-      "name": "Just A Feeling",
-      "years": {
-        "2026": 11
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 11,
-      "first": "2026-05-18",
       "id": "5H0ajL4EHsrcAEGESo2Lzx",
       "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
       "last": "2026-09-05",
@@ -21408,6 +21503,21 @@
       "ms": 730554,
       "name": "Nobody’s Son",
       "short": 1,
+      "years": {
+        "2026": 11
+      }
+    },
+    {
+      "artists": [
+        "Sabrina Carpenter"
+      ],
+      "count": 11,
+      "first": "2026-04-30",
+      "id": "359HNzfOXhCMHB1pNKhyfH",
+      "image": "https://i.scdn.co/image/ab67616d0000485138b27a27cea311f34bb68eff",
+      "last": "2026-11-01",
+      "ms": 872320,
+      "name": "Paris",
       "years": {
         "2026": 11
       }
@@ -21509,22 +21619,6 @@
     },
     {
       "artists": [
-        "fun."
-      ],
-      "count": 11,
-      "first": "2021-07-16",
-      "id": "5rgy6ghBq1eRApCkeUdJXf",
-      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
-      "last": "2026-10-09",
-      "ms": 897568,
-      "name": "We Are Young (feat. Janelle Monáe)",
-      "years": {
-        "2021": 2,
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 11,
@@ -21559,6 +21653,22 @@
     },
     {
       "artists": [
+        "Gryffin"
+      ],
+      "count": 11,
+      "first": "2026-07-21",
+      "id": "5gzZnru34wdecgMUQR2UO0",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "You Were Loved (with OneRepublic)",
+      "short": 1,
+      "years": {
+        "2026": 11
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 11,
@@ -21572,21 +21682,6 @@
       "years": {
         "2021": 3,
         "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 11,
-      "first": "2026-07-18",
-      "id": "0eqqORX2j2REFwmdoJaRkH",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-09-18",
-      "ms": 182040,
-      "name": "me, myself and i",
-      "years": {
-        "2026": 11
       }
     },
     {
@@ -21785,25 +21880,6 @@
     },
     {
       "artists": [
-        "Imagine Dragons"
-      ],
-      "count": 10,
-      "first": "2022-05-04",
-      "id": "0pqnGHJpmpxLKifKRmU6WP",
-      "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
-      "last": "2026-10-22",
-      "ms": 1430423,
-      "name": "Believer",
-      "short": 7,
-      "years": {
-        "2022": 4,
-        "2023": 2,
-        "2025": 1,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 10,
@@ -21817,21 +21893,6 @@
       "years": {
         "2019": 2,
         "2020": 8
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 10,
-      "first": "2026-05-09",
-      "id": "3UGIZ8qcrMTwzLbx6Kttqt",
-      "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
-      "last": "2026-10-12",
-      "ms": 856665,
-      "name": "Boyfriend",
-      "years": {
-        "2026": 10
       }
     },
     {
@@ -21918,18 +21979,17 @@
     },
     {
       "artists": [
-        "Shawn Mendes"
+        "Owl City"
       ],
       "count": 10,
-      "first": "2025-12-25",
-      "id": "5EYBryPOgIEPB7r5QIy6eG",
-      "image": "https://i.scdn.co/image/ab67616d00004851269423eb6467e308c0fbce24",
-      "last": "2026-10-19",
-      "ms": 1414482,
-      "name": "Fallin' All In You",
+      "first": "2026-06-23",
+      "id": "3DamFFqW32WihKkTVlwTYQ",
+      "image": "https://i.scdn.co/image/ab67616d00004851785d4e702802da500fc78b32",
+      "last": "2026-11-01",
+      "ms": 685041,
+      "name": "Fireflies",
       "years": {
-        "2025": 1,
-        "2026": 9
+        "2026": 10
       }
     },
     {
@@ -22003,6 +22063,21 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 10,
+      "first": "2026-06-06",
+      "id": "5uPaqMMt59KGrdKIitDRqa",
+      "image": "https://i.scdn.co/image/ab67616d00004851a35a1d4983e2b4fd0094f910",
+      "last": "2026-11-01",
+      "ms": 760494,
+      "name": "I Knew It, I Knew You",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "Yutaka Ozaki"
       ],
       "count": 10,
@@ -22016,6 +22091,22 @@
       "years": {
         "2025": 9,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 10,
+      "first": "2026-06-17",
+      "id": "2btKtacOXuMtC9WjcNRvAA",
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "last": "2026-11-01",
+      "ms": 1266900,
+      "name": "ILYSB",
+      "short": 2,
+      "years": {
+        "2026": 10
       }
     },
     {
@@ -22134,21 +22225,6 @@
     },
     {
       "artists": [
-        "Justin Bieber"
-      ],
-      "count": 10,
-      "first": "2026-05-09",
-      "id": "1tsN57SdHZSoC5zQq3wELh",
-      "image": "https://i.scdn.co/image/ab67616d00004851f1454966dfb8996bf84f0e6b",
-      "last": "2026-09-13",
-      "ms": 1823680,
-      "name": "Never Say Never - Single Version",
-      "years": {
-        "2026": 10
-      }
-    },
-    {
-      "artists": [
         "Bruno Mars"
       ],
       "count": 10,
@@ -22202,21 +22278,6 @@
         "Sabrina Carpenter"
       ],
       "count": 10,
-      "first": "2026-04-30",
-      "id": "359HNzfOXhCMHB1pNKhyfH",
-      "image": "https://i.scdn.co/image/ab67616d0000485138b27a27cea311f34bb68eff",
-      "last": "2026-10-12",
-      "ms": 872320,
-      "name": "Paris",
-      "years": {
-        "2026": 10
-      }
-    },
-    {
-      "artists": [
-        "Sabrina Carpenter"
-      ],
-      "count": 10,
       "first": "2025-11-23",
       "id": "2tHwzyyOLoWSFqYNjeVMzj",
       "image": "https://i.scdn.co/image/ab67616d00004851fd8d7a8d96871e791cb1f626",
@@ -22249,6 +22310,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 10,
+      "first": "2026-04-05",
+      "id": "3YM33EBnwRe7G7aUPVQ7lY",
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "last": "2026-11-01",
+      "ms": 135086,
+      "name": "Red Light Green Light",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "Martin Garrix"
       ],
       "count": 10,
@@ -22273,6 +22349,22 @@
       "last": "2026-10-19",
       "ms": 710768,
       "name": "Reply To This",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 10,
+      "first": "2026-06-14",
+      "id": "50nfwKoDiSYg8zOCREWAm5",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
+      "last": "2026-11-01",
+      "ms": 1039265,
+      "name": "Shivers",
+      "short": 1,
       "years": {
         "2026": 10
       }
@@ -22474,16 +22566,15 @@
     },
     {
       "artists": [
-        "Gryffin"
+        "LANY"
       ],
       "count": 10,
-      "first": "2026-07-21",
-      "id": "5gzZnru34wdecgMUQR2UO0",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
-      "last": "2026-10-26",
-      "ms": 0,
-      "name": "You Were Loved (with OneRepublic)",
-      "short": 1,
+      "first": "2026-06-17",
+      "id": "2McTSCNNzxgDtAqiuibhPI",
+      "image": "https://i.scdn.co/image/ab67616d000048512d9e8e3e016cf68d53536c64",
+      "last": "2026-11-01",
+      "ms": 709528,
+      "name": "dna",
       "years": {
         "2026": 10
       }
@@ -22887,21 +22978,6 @@
     },
     {
       "artists": [
-        "Owl City"
-      ],
-      "count": 9,
-      "first": "2026-06-23",
-      "id": "3DamFFqW32WihKkTVlwTYQ",
-      "image": "https://i.scdn.co/image/ab67616d00004851785d4e702802da500fc78b32",
-      "last": "2026-10-29",
-      "ms": 685041,
-      "name": "Fireflies",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 9,
@@ -23014,21 +23090,6 @@
     },
     {
       "artists": [
-        "Taylor Swift"
-      ],
-      "count": 9,
-      "first": "2026-06-06",
-      "id": "5uPaqMMt59KGrdKIitDRqa",
-      "image": "https://i.scdn.co/image/ab67616d00004851a35a1d4983e2b4fd0094f910",
-      "last": "2026-10-24",
-      "ms": 760494,
-      "name": "I Knew It, I Knew You",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "Arctic Monkeys"
       ],
       "count": 9,
@@ -23060,22 +23121,6 @@
         "2021": 1,
         "2022": 1,
         "2024": 7
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 9,
-      "first": "2026-06-17",
-      "id": "2btKtacOXuMtC9WjcNRvAA",
-      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
-      "last": "2026-10-19",
-      "ms": 1266900,
-      "name": "ILYSB",
-      "short": 2,
-      "years": {
-        "2026": 9
       }
     },
     {
@@ -23180,6 +23225,24 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 9,
+      "first": "2024-08-17",
+      "id": "3SiVMpHxTS1gspWzRZE50S",
+      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
+      "last": "2026-11-01",
+      "ms": 196806,
+      "name": "Nobody - from Kaiju No. 8",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2025": 1,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "LANY"
       ],
       "count": 9,
@@ -23230,15 +23293,15 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "Benson Boone"
       ],
       "count": 9,
-      "first": "2026-04-05",
-      "id": "3YM33EBnwRe7G7aUPVQ7lY",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "last": "2026-10-31",
-      "ms": 135086,
-      "name": "Red Light Green Light",
+      "first": "2026-06-24",
+      "id": "1QxxBUAx42J8pIFYJJR880",
+      "image": "https://i.scdn.co/image/ab67616d000048519a9366c5c7721402a61f9a69",
+      "last": "2026-11-01",
+      "ms": 1045684,
+      "name": "Pretty Slowly",
       "years": {
         "2026": 9
       }
@@ -23260,6 +23323,22 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 9,
+      "first": "2026-06-24",
+      "id": "6H4vq5gz0rlNjH0LBzu4An",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-01",
+      "ms": 230573,
+      "name": "Say (All I Need)",
+      "short": 1,
+      "years": {
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "ワンリパブリック"
       ],
       "count": 9,
@@ -23269,22 +23348,6 @@
       "last": "2026-10-26",
       "ms": 0,
       "name": "Ships + Tides",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 9,
-      "first": "2026-06-14",
-      "id": "50nfwKoDiSYg8zOCREWAm5",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
-      "last": "2026-10-15",
-      "ms": 1039265,
-      "name": "Shivers",
-      "short": 1,
       "years": {
         "2026": 9
       }
@@ -23351,6 +23414,21 @@
       "short": 5,
       "years": {
         "2020": 9
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 9,
+      "first": "2026-07-02",
+      "id": "2ExaKO7GhafvrUHOjWxjgC",
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "last": "2026-11-01",
+      "ms": 168260,
+      "name": "Take Care Of You",
+      "years": {
+        "2026": 9
       }
     },
     {
@@ -23445,21 +23523,6 @@
       "short": 9,
       "years": {
         "2020": 9
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 9,
-      "first": "2026-06-17",
-      "id": "2McTSCNNzxgDtAqiuibhPI",
-      "image": "https://i.scdn.co/image/ab67616d000048512d9e8e3e016cf68d53536c64",
-      "last": "2026-10-26",
-      "ms": 709528,
-      "name": "dna",
-      "years": {
-        "2026": 9
       }
     },
     {
@@ -23826,6 +23889,21 @@
     },
     {
       "artists": [
+        "ショーン・キングストン"
+      ],
+      "count": 8,
+      "first": "2026-07-30",
+      "id": "2ndqapgweLK4BXRHAcSsXM",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8f2f418080b32a1bbe87311",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Eenie Meenie",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 8,
@@ -23902,6 +23980,22 @@
       "short": 2,
       "years": {
         "2020": 8
+      }
+    },
+    {
+      "artists": [
+        "Lady Gaga"
+      ],
+      "count": 8,
+      "first": "2026-05-13",
+      "id": "0oWraSo5ASJ0h1BEagTyEw",
+      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
+      "last": "2026-11-01",
+      "ms": 675900,
+      "name": "Hold My Hand",
+      "short": 2,
+      "years": {
+        "2026": 8
       }
     },
     {
@@ -23984,6 +24078,22 @@
       "years": {
         "2021": 1,
         "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "Sabrina Carpenter"
+      ],
+      "count": 8,
+      "first": "2026-05-29",
+      "id": "59tskctgqUmjCWAwhzYAFm",
+      "image": "https://i.scdn.co/image/ab67616d00004851f22e1263704f24cb504700ea",
+      "last": "2026-11-01",
+      "ms": 253910,
+      "name": "Looking at Me",
+      "short": 1,
+      "years": {
+        "2026": 8
       }
     },
     {
@@ -24084,24 +24194,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 8,
-      "first": "2024-08-17",
-      "id": "3SiVMpHxTS1gspWzRZE50S",
-      "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-      "last": "2026-10-18",
-      "ms": 196806,
-      "name": "Nobody - from Kaiju No. 8",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2025": 1,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "Michael DiMuccio"
       ],
       "count": 8,
@@ -24133,15 +24225,16 @@
     },
     {
       "artists": [
-        "Benson Boone"
+        "LANY"
       ],
       "count": 8,
-      "first": "2026-06-24",
-      "id": "1QxxBUAx42J8pIFYJJR880",
-      "image": "https://i.scdn.co/image/ab67616d000048519a9366c5c7721402a61f9a69",
-      "last": "2026-10-25",
-      "ms": 1045684,
-      "name": "Pretty Slowly",
+      "first": "2026-06-26",
+      "id": "5f9Nt75lq1MLzf5F2xJwTI",
+      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
+      "last": "2026-11-01",
+      "ms": 993880,
+      "name": "Prettiest Thing I’ve Ever Seen",
+      "short": 1,
       "years": {
         "2026": 8
       }
@@ -24161,22 +24254,6 @@
       "years": {
         "2019": 1,
         "2020": 7
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 8,
-      "first": "2026-06-24",
-      "id": "6H4vq5gz0rlNjH0LBzu4An",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-09-18",
-      "ms": 230573,
-      "name": "Say (All I Need)",
-      "short": 1,
-      "years": {
-        "2026": 8
       }
     },
     {
@@ -24388,21 +24465,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 8,
-      "first": "2026-07-02",
-      "id": "2ExaKO7GhafvrUHOjWxjgC",
-      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
-      "last": "2026-10-22",
-      "ms": 168260,
-      "name": "Take Care Of You",
-      "years": {
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Alex Warren"
       ],
       "count": 8,
@@ -24492,6 +24554,36 @@
       "last": "2026-09-13",
       "ms": 646521,
       "name": "Visiting Hours",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "Coldplay"
+      ],
+      "count": 8,
+      "first": "2026-05-04",
+      "id": "2sKHevALE8DKDkwEo04Pbh",
+      "image": "https://i.scdn.co/image/ab67616d00004851ab0f6e5fabce2bc57f0ae81a",
+      "last": "2026-11-01",
+      "ms": 1167030,
+      "name": "WE PRAY - Single Version",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "Justin Bieber"
+      ],
+      "count": 8,
+      "first": "2026-07-05",
+      "id": "7itUbJA4IGNGOrvOOGywD7",
+      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
+      "last": "2026-11-01",
+      "ms": 163320,
+      "name": "WITCHYA",
       "years": {
         "2026": 8
       }
@@ -24716,6 +24808,21 @@
       "last": "2026-10-31",
       "ms": 0,
       "name": "the bottom",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 8,
+      "first": "2026-06-17",
+      "id": "1vg0ZHaTvBwlNxLxyYrEvP",
+      "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
+      "last": "2026-11-01",
+      "ms": 822039,
+      "name": "you!",
       "years": {
         "2026": 8
       }
@@ -24962,6 +25069,21 @@
     },
     {
       "artists": [
+        "Ed Sheeran"
+      ],
+      "count": 7,
+      "first": "2026-06-14",
+      "id": "4zrKN5Sv8JS5mqnbVcsul7",
+      "image": "https://i.scdn.co/image/ab67616d000048515a4c27131ef5cf3f48f50805",
+      "last": "2026-11-01",
+      "ms": 1045135,
+      "name": "Celestial",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "Adele"
       ],
       "count": 7,
@@ -25133,22 +25255,6 @@
         "2021": 1,
         "2023": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Lady Gaga"
-      ],
-      "count": 7,
-      "first": "2026-05-13",
-      "id": "0oWraSo5ASJ0h1BEagTyEw",
-      "image": "https://i.scdn.co/image/ab67616d00004851b7e7edfee5626b7b1f15192a",
-      "last": "2026-10-06",
-      "ms": 675900,
-      "name": "Hold My Hand",
-      "short": 2,
-      "years": {
-        "2026": 7
       }
     },
     {
@@ -25330,16 +25436,15 @@
     },
     {
       "artists": [
-        "Sabrina Carpenter"
+        "Gracie Abrams"
       ],
       "count": 7,
-      "first": "2026-05-29",
-      "id": "59tskctgqUmjCWAwhzYAFm",
-      "image": "https://i.scdn.co/image/ab67616d00004851f22e1263704f24cb504700ea",
-      "last": "2026-10-30",
-      "ms": 253910,
-      "name": "Looking at Me",
-      "short": 1,
+      "first": "2026-07-03",
+      "id": "65aS53swxB9LUGbHDKdvvB",
+      "image": "https://i.scdn.co/image/ab67616d000048512a6c9aa7070279c1c3193338",
+      "last": "2026-11-01",
+      "ms": 381066,
+      "name": "Look at My Life",
       "years": {
         "2026": 7
       }
@@ -25462,22 +25567,6 @@
     },
     {
       "artists": [
-        "LANY"
-      ],
-      "count": 7,
-      "first": "2026-06-26",
-      "id": "5f9Nt75lq1MLzf5F2xJwTI",
-      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
-      "last": "2026-09-04",
-      "ms": 993880,
-      "name": "Prettiest Thing I’ve Ever Seen",
-      "short": 1,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "DaBaby"
       ],
       "count": 7,
@@ -25591,6 +25680,21 @@
     },
     {
       "artists": [
+        "Shawn Mendes"
+      ],
+      "count": 7,
+      "first": "2026-04-30",
+      "id": "6E0U3OTvJwFvc8rmTqZiBK",
+      "image": "https://i.scdn.co/image/ab67616d000048515f981eee6ccc05d8eb1f1c4d",
+      "last": "2026-11-01",
+      "ms": 540360,
+      "name": "Show You",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "WALK THE MOON"
       ],
       "count": 7,
@@ -25652,6 +25756,39 @@
       "short": 2,
       "years": {
         "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "Reneé Rapp"
+      ],
+      "count": 7,
+      "first": "2026-07-18",
+      "id": "1daFcmkDEXxCNZIBINQ3Ui",
+      "image": "https://i.scdn.co/image/ab67616d000048511f22a0d14fbba8dd80b186a4",
+      "last": "2026-11-01",
+      "ms": 183741,
+      "name": "Sometimes",
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "Jonas Brothers"
+      ],
+      "count": 7,
+      "first": "2022-06-05",
+      "id": "22vgEDb5hykfaTwLuskFGD",
+      "image": "https://i.scdn.co/image/ab67616d00004851de1a3a5eaa0c75bb18e7b597",
+      "last": "2026-11-01",
+      "ms": 724105,
+      "name": "Sucker",
+      "short": 5,
+      "years": {
+        "2022": 2,
+        "2024": 1,
+        "2026": 4
       }
     },
     {
@@ -25750,30 +25887,16 @@
     },
     {
       "artists": [
-        "Coldplay"
+        "Bruno Mars"
       ],
       "count": 7,
-      "first": "2026-05-04",
-      "id": "2sKHevALE8DKDkwEo04Pbh",
-      "image": "https://i.scdn.co/image/ab67616d00004851ab0f6e5fabce2bc57f0ae81a",
-      "last": "2026-09-04",
-      "ms": 1167030,
-      "name": "WE PRAY - Single Version",
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "Justin Bieber"
-      ],
-      "count": 7,
-      "first": "2026-07-05",
-      "id": "7itUbJA4IGNGOrvOOGywD7",
-      "image": "https://i.scdn.co/image/ab67616d00004851a958d093e94944dd0e7258b2",
-      "last": "2026-10-25",
-      "ms": 163320,
-      "name": "WITCHYA",
+      "first": "2026-06-03",
+      "id": "0kN8xEmgMW9mh7UmDYHlJP",
+      "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
+      "last": "2026-11-01",
+      "ms": 413270,
+      "name": "Versace on the Floor",
+      "short": 1,
       "years": {
         "2026": 7
       }
@@ -25878,15 +26001,15 @@
     },
     {
       "artists": [
-        "LANY"
+        "Henry Moodie"
       ],
       "count": 7,
-      "first": "2026-06-17",
-      "id": "1vg0ZHaTvBwlNxLxyYrEvP",
-      "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
-      "last": "2026-10-31",
-      "ms": 822039,
-      "name": "you!",
+      "first": "2026-07-18",
+      "id": "6bnKECEvkntGfJMiRMPH41",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
+      "last": "2026-11-01",
+      "ms": 201827,
+      "name": "favourite mistake",
       "years": {
         "2026": 7
       }
@@ -26134,21 +26257,6 @@
     },
     {
       "artists": [
-        "Ed Sheeran"
-      ],
-      "count": 6,
-      "first": "2026-06-14",
-      "id": "4zrKN5Sv8JS5mqnbVcsul7",
-      "image": "https://i.scdn.co/image/ab67616d000048515a4c27131ef5cf3f48f50805",
-      "last": "2026-08-17",
-      "ms": 1045135,
-      "name": "Celestial",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "ワンリパブリック"
       ],
       "count": 6,
@@ -26221,21 +26329,6 @@
       "last": "2026-10-26",
       "ms": 497804,
       "name": "EVERYTHING HALLELUJAH",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "ショーン・キングストン"
-      ],
-      "count": 6,
-      "first": "2026-07-30",
-      "id": "2ndqapgweLK4BXRHAcSsXM",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8f2f418080b32a1bbe87311",
-      "last": "2026-10-24",
-      "ms": 0,
-      "name": "Eenie Meenie",
       "years": {
         "2026": 6
       }
@@ -26341,6 +26434,22 @@
     },
     {
       "artists": [
+        "ZAYN"
+      ],
+      "count": 6,
+      "first": "2026-04-29",
+      "id": "7LbT1qYiCmO5sKTtSejUp5",
+      "image": "https://i.scdn.co/image/ab67616d00004851dfe6f99373d3fc2784c20f34",
+      "last": "2026-11-01",
+      "ms": 899359,
+      "name": "False Starts",
+      "short": 1,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 6,
@@ -26402,6 +26511,21 @@
       "years": {
         "2025": 5,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 6,
+      "first": "2026-06-18",
+      "id": "4bU5xCQQiURmotfz9ohUNo",
+      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
+      "last": "2026-11-01",
+      "ms": 1040391,
+      "name": "Hericane",
+      "years": {
+        "2026": 6
       }
     },
     {
@@ -26469,6 +26593,21 @@
     },
     {
       "artists": [
+        "サム・スミス"
+      ],
+      "count": 6,
+      "first": "2026-07-21",
+      "id": "1ABS9lKaZ1uXkXCqr9zFO7",
+      "image": "https://i.scdn.co/image/ab67616d000048518d1974dc3ab1893678ae499a",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Kids Again",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 6,
@@ -26482,6 +26621,21 @@
       "years": {
         "2019": 4,
         "2020": 2
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 6,
+      "first": "2026-06-18",
+      "id": "3tyx8RY0iZl94SuiQc6Y3S",
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "last": "2026-11-01",
+      "ms": 446160,
+      "name": "Last Forever",
+      "years": {
+        "2026": 6
       }
     },
     {
@@ -26534,6 +26688,21 @@
     },
     {
       "artists": [
+        "One Direction"
+      ],
+      "count": 6,
+      "first": "2026-08-24",
+      "id": "2sF2NJT9rxRpLifXabqFNS",
+      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Live While We're Young",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Adam Lang"
       ],
       "count": 6,
@@ -26544,21 +26713,6 @@
       "ms": 1222575,
       "name": "Locked Away",
       "short": 1,
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Gracie Abrams"
-      ],
-      "count": 6,
-      "first": "2026-07-03",
-      "id": "65aS53swxB9LUGbHDKdvvB",
-      "image": "https://i.scdn.co/image/ab67616d000048512a6c9aa7070279c1c3193338",
-      "last": "2026-10-23",
-      "ms": 381066,
-      "name": "Look at My Life",
       "years": {
         "2026": 6
       }
@@ -26792,21 +26946,6 @@
     },
     {
       "artists": [
-        "Shawn Mendes"
-      ],
-      "count": 6,
-      "first": "2026-04-30",
-      "id": "6E0U3OTvJwFvc8rmTqZiBK",
-      "image": "https://i.scdn.co/image/ab67616d000048515f981eee6ccc05d8eb1f1c4d",
-      "last": "2026-08-25",
-      "ms": 540360,
-      "name": "Show You",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "LANY"
       ],
       "count": 6,
@@ -26854,21 +26993,6 @@
     },
     {
       "artists": [
-        "Reneé Rapp"
-      ],
-      "count": 6,
-      "first": "2026-07-18",
-      "id": "1daFcmkDEXxCNZIBINQ3Ui",
-      "image": "https://i.scdn.co/image/ab67616d000048511f22a0d14fbba8dd80b186a4",
-      "last": "2026-10-18",
-      "ms": 183741,
-      "name": "Sometimes",
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "LORYN"
       ],
       "count": 6,
@@ -26897,24 +27021,6 @@
       "years": {
         "2020": 4,
         "2021": 2
-      }
-    },
-    {
-      "artists": [
-        "Jonas Brothers"
-      ],
-      "count": 6,
-      "first": "2022-06-05",
-      "id": "22vgEDb5hykfaTwLuskFGD",
-      "image": "https://i.scdn.co/image/ab67616d00004851de1a3a5eaa0c75bb18e7b597",
-      "last": "2026-10-07",
-      "ms": 724105,
-      "name": "Sucker",
-      "short": 5,
-      "years": {
-        "2022": 2,
-        "2024": 1,
-        "2026": 3
       }
     },
     {
@@ -27036,22 +27142,6 @@
     },
     {
       "artists": [
-        "Bruno Mars"
-      ],
-      "count": 6,
-      "first": "2026-06-03",
-      "id": "0kN8xEmgMW9mh7UmDYHlJP",
-      "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
-      "last": "2026-10-25",
-      "ms": 413270,
-      "name": "Versace on the Floor",
-      "short": 1,
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "Matt Hansen"
       ],
       "count": 6,
@@ -27109,6 +27199,36 @@
       "short": 19,
       "years": {
         "2019": 6
+      }
+    },
+    {
+      "artists": [
+        "LANY"
+      ],
+      "count": 6,
+      "first": "2026-06-18",
+      "id": "4ejDIKJgiukea84koZCHOk",
+      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
+      "last": "2026-11-01",
+      "ms": 461044,
+      "name": "When Did You Stop Loving Me?",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "One Direction"
+      ],
+      "count": 6,
+      "first": "2026-07-19",
+      "id": "6HFywc5eQYRRYHYTatCb5Y",
+      "image": "https://i.scdn.co/image/ab67616d0000485134a29f220057810cce98e1b4",
+      "last": "2026-11-01",
+      "ms": 229038,
+      "name": "Where Do Broken Hearts Go",
+      "years": {
+        "2026": 6
       }
     },
     {
@@ -27190,21 +27310,6 @@
       "years": {
         "2021": 2,
         "2025": 4
-      }
-    },
-    {
-      "artists": [
-        "Henry Moodie"
-      ],
-      "count": 6,
-      "first": "2026-07-18",
-      "id": "6bnKECEvkntGfJMiRMPH41",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-      "last": "2026-08-11",
-      "ms": 201827,
-      "name": "favourite mistake",
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -27714,22 +27819,6 @@
     },
     {
       "artists": [
-        "ZAYN"
-      ],
-      "count": 5,
-      "first": "2026-04-29",
-      "id": "7LbT1qYiCmO5sKTtSejUp5",
-      "image": "https://i.scdn.co/image/ab67616d00004851dfe6f99373d3fc2784c20f34",
-      "last": "2026-06-28",
-      "ms": 899359,
-      "name": "False Starts",
-      "short": 1,
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Yusuf / Cat Stevens"
       ],
       "count": 5,
@@ -27943,21 +28032,6 @@
     },
     {
       "artists": [
-        "LANY"
-      ],
-      "count": 5,
-      "first": "2026-06-18",
-      "id": "4bU5xCQQiURmotfz9ohUNo",
-      "image": "https://i.scdn.co/image/ab67616d000048514011de7822423ed7557c3c81",
-      "last": "2026-09-13",
-      "ms": 1040391,
-      "name": "Hericane",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Gracie Abrams"
       ],
       "count": 5,
@@ -28091,36 +28165,6 @@
     },
     {
       "artists": [
-        "サム・スミス"
-      ],
-      "count": 5,
-      "first": "2026-07-21",
-      "id": "1ABS9lKaZ1uXkXCqr9zFO7",
-      "image": "https://i.scdn.co/image/ab67616d000048518d1974dc3ab1893678ae499a",
-      "last": "2026-10-24",
-      "ms": 0,
-      "name": "Kids Again",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 5,
-      "first": "2026-06-18",
-      "id": "3tyx8RY0iZl94SuiQc6Y3S",
-      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
-      "last": "2026-10-23",
-      "ms": 446160,
-      "name": "Last Forever",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "John Williams"
       ],
       "count": 5,
@@ -28163,21 +28207,6 @@
       "ms": 226187,
       "name": "Lift Me Up",
       "short": 1,
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "One Direction"
-      ],
-      "count": 5,
-      "first": "2026-08-24",
-      "id": "2sF2NJT9rxRpLifXabqFNS",
-      "image": "https://i.scdn.co/image/ab67616d000048510ecae1ff4b14444a376db7ea",
-      "last": "2026-10-21",
-      "ms": 0,
-      "name": "Live While We're Young",
       "years": {
         "2026": 5
       }
@@ -28594,6 +28623,21 @@
     },
     {
       "artists": [
+        "Coldplay"
+      ],
+      "count": 5,
+      "first": "2026-05-20",
+      "id": "7clUVcSOtkNWa58Gw5RfD4",
+      "image": "https://i.scdn.co/image/ab67616d000048514e0362c225863f6ae2432651",
+      "last": "2026-11-01",
+      "ms": 575814,
+      "name": "Speed of Sound",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Novelbright"
       ],
       "count": 5,
@@ -28606,6 +28650,21 @@
       "years": {
         "2024": 1,
         "2025": 4
+      }
+    },
+    {
+      "artists": [
+        "Matt Hansen"
+      ],
+      "count": 5,
+      "first": "2026-07-22",
+      "id": "5YG2G8i8NPuyPBY3YjZQXJ",
+      "image": "https://i.scdn.co/image/ab67616d00004851018a8fc259c87e4b8a8c3329",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "THINKING BOUT ME",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -28864,21 +28923,6 @@
     },
     {
       "artists": [
-        "LANY"
-      ],
-      "count": 5,
-      "first": "2026-06-18",
-      "id": "4ejDIKJgiukea84koZCHOk",
-      "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
-      "last": "2026-09-13",
-      "ms": 461044,
-      "name": "When Did You Stop Loving Me?",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Adele"
       ],
       "count": 5,
@@ -28894,21 +28938,6 @@
         "2022": 1,
         "2025": 1,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "One Direction"
-      ],
-      "count": 5,
-      "first": "2026-07-19",
-      "id": "6HFywc5eQYRRYHYTatCb5Y",
-      "image": "https://i.scdn.co/image/ab67616d0000485134a29f220057810cce98e1b4",
-      "last": "2026-10-19",
-      "ms": 229038,
-      "name": "Where Do Broken Hearts Go",
-      "years": {
-        "2026": 5
       }
     },
     {
@@ -28956,6 +28985,21 @@
       "name": "X",
       "years": {
         "2021": 5
+      }
+    },
+    {
+      "artists": [
+        "Alex Warren"
+      ],
+      "count": 5,
+      "first": "2026-06-24",
+      "id": "15ugBBMTmevxMc2WSbRULC",
+      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
+      "last": "2026-11-01",
+      "ms": 322205,
+      "name": "You Can't Stop This",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -29063,6 +29107,22 @@
       "ms": 771088,
       "name": "stranger",
       "short": 2,
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "keshi"
+      ],
+      "count": 5,
+      "first": "2026-06-14",
+      "id": "0LqCvXVNvcnkq78sCQsoO0",
+      "image": "https://i.scdn.co/image/ab67616d0000485144ce5e5926e0d277b70f0bd5",
+      "last": "2026-11-01",
+      "ms": 330426,
+      "name": "summer",
+      "short": 1,
       "years": {
         "2026": 5
       }
@@ -29232,6 +29292,21 @@
       "years": {
         "2021": 2,
         "2022": 2
+      }
+    },
+    {
+      "artists": [
+        "Coldplay"
+      ],
+      "count": 4,
+      "first": "2026-07-14",
+      "id": "69uxyAqqPIsUyTO8txoP2M",
+      "image": "https://i.scdn.co/image/ab67616d000048518ff7c3580d429c8212b9a3b6",
+      "last": "2026-11-01",
+      "ms": 263787,
+      "name": "Adventure of a Lifetime",
+      "years": {
+        "2026": 4
       }
     },
     {
@@ -30918,6 +30993,21 @@
     },
     {
       "artists": [
+        "LANY"
+      ],
+      "count": 4,
+      "first": "2026-06-18",
+      "id": "663ygaYivYV5zqpkTBpjCg",
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "last": "2026-11-01",
+      "ms": 424150,
+      "name": "Sound Of Rain",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Glen Campbell"
       ],
       "count": 4,
@@ -30931,21 +31021,6 @@
       "years": {
         "2022": 1,
         "2024": 3
-      }
-    },
-    {
-      "artists": [
-        "Coldplay"
-      ],
-      "count": 4,
-      "first": "2026-05-20",
-      "id": "7clUVcSOtkNWa58Gw5RfD4",
-      "image": "https://i.scdn.co/image/ab67616d000048514e0362c225863f6ae2432651",
-      "last": "2026-09-25",
-      "ms": 575814,
-      "name": "Speed of Sound",
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -31038,21 +31113,6 @@
       "short": 1,
       "years": {
         "2020": 4
-      }
-    },
-    {
-      "artists": [
-        "Matt Hansen"
-      ],
-      "count": 4,
-      "first": "2026-07-22",
-      "id": "5YG2G8i8NPuyPBY3YjZQXJ",
-      "image": "https://i.scdn.co/image/ab67616d00004851018a8fc259c87e4b8a8c3329",
-      "last": "2026-09-03",
-      "ms": 0,
-      "name": "THINKING BOUT ME",
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -31311,6 +31371,21 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 4,
+      "first": "2026-08-03",
+      "id": "2Xy1eJuPJHiLkGfCTaLkSx",
+      "image": "https://i.scdn.co/image/ab67616d000048515a85de759e0cd335b9bd74e3",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "VISION",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Coldplay"
       ],
       "count": 4,
@@ -31470,6 +31545,21 @@
     },
     {
       "artists": [
+        "Matt Hansen"
+      ],
+      "count": 4,
+      "first": "2026-08-08",
+      "id": "0WqHYUiGuqkC7koA2l5Ou1",
+      "image": "https://i.scdn.co/image/ab67616d000048511fc12eaf7888fe5fbcaa70d1",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Without You With Me",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 4,
@@ -31517,21 +31607,6 @@
       "short": 3,
       "years": {
         "2020": 4
-      }
-    },
-    {
-      "artists": [
-        "Alex Warren"
-      ],
-      "count": 4,
-      "first": "2026-06-24",
-      "id": "15ugBBMTmevxMc2WSbRULC",
-      "image": "https://i.scdn.co/image/ab67616d00004851d6371b93dc556ff52b4cd945",
-      "last": "2026-09-13",
-      "ms": 322205,
-      "name": "You Can't Stop This",
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -31705,22 +31780,6 @@
       "last": "2026-10-16",
       "ms": 0,
       "name": "strangers again",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "keshi"
-      ],
-      "count": 4,
-      "first": "2026-06-14",
-      "id": "0LqCvXVNvcnkq78sCQsoO0",
-      "image": "https://i.scdn.co/image/ab67616d0000485144ce5e5926e0d277b70f0bd5",
-      "last": "2026-09-25",
-      "ms": 330426,
-      "name": "summer",
-      "short": 1,
       "years": {
         "2026": 4
       }
@@ -32077,21 +32136,6 @@
       "years": {
         "2025": 2,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "Coldplay"
-      ],
-      "count": 3,
-      "first": "2026-07-14",
-      "id": "69uxyAqqPIsUyTO8txoP2M",
-      "image": "https://i.scdn.co/image/ab67616d000048518ff7c3580d429c8212b9a3b6",
-      "last": "2026-10-25",
-      "ms": 263787,
-      "name": "Adventure of a Lifetime",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -34476,6 +34520,21 @@
     },
     {
       "artists": [
+        "テイラー・スウィフト"
+      ],
+      "count": 3,
+      "first": "2026-08-31",
+      "id": "0cqRj7pUJDkTCEsJkx8snD",
+      "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Shake It Off",
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "artists": [
         "Lady Gaga"
       ],
       "count": 3,
@@ -34617,21 +34676,6 @@
       "name": "Soul Mates",
       "years": {
         "2021": 3
-      }
-    },
-    {
-      "artists": [
-        "LANY"
-      ],
-      "count": 3,
-      "first": "2026-06-18",
-      "id": "663ygaYivYV5zqpkTBpjCg",
-      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
-      "last": "2026-08-28",
-      "ms": 424150,
-      "name": "Sound Of Rain",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -35180,21 +35224,6 @@
     },
     {
       "artists": [
-        "Matt Hansen"
-      ],
-      "count": 3,
-      "first": "2026-08-03",
-      "id": "2Xy1eJuPJHiLkGfCTaLkSx",
-      "image": "https://i.scdn.co/image/ab67616d000048515a85de759e0cd335b9bd74e3",
-      "last": "2026-09-13",
-      "ms": 0,
-      "name": "VISION",
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "J Williams"
       ],
       "count": 3,
@@ -35419,21 +35448,6 @@
       "short": 1,
       "years": {
         "2021": 3
-      }
-    },
-    {
-      "artists": [
-        "Matt Hansen"
-      ],
-      "count": 3,
-      "first": "2026-08-08",
-      "id": "0WqHYUiGuqkC7koA2l5Ou1",
-      "image": "https://i.scdn.co/image/ab67616d000048511fc12eaf7888fe5fbcaa70d1",
-      "last": "2026-10-16",
-      "ms": 0,
-      "name": "Without You With Me",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -41733,21 +41747,6 @@
     },
     {
       "artists": [
-        "テイラー・スウィフト"
-      ],
-      "count": 2,
-      "first": "2026-08-31",
-      "id": "0cqRj7pUJDkTCEsJkx8snD",
-      "image": "https://i.scdn.co/image/ab67616d0000485152b2a3824413eefe9e33817a",
-      "last": "2026-09-04",
-      "ms": 0,
-      "name": "Shake It Off",
-      "years": {
-        "2026": 2
-      }
-    },
-    {
-      "artists": [
         "Peaches & Herb"
       ],
       "count": 2,
@@ -47375,6 +47374,21 @@
     },
     {
       "artists": [
+        "Jamie Miller"
+      ],
+      "count": 1,
+      "first": "2026-11-01",
+      "id": "1o9mAOmNm3wT2NdyGV1Ard",
+      "image": "https://i.scdn.co/image/ab67616d00004851762978a11f6ddee8c55781e7",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Babydoll",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "AC/DC"
       ],
       "count": 1,
@@ -47550,6 +47564,21 @@
       "last": "2026-05-06",
       "ms": 260096,
       "name": "Basement",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "マシュメロ"
+      ],
+      "count": 1,
+      "first": "2026-11-01",
+      "id": "lastfm:bekind|マシュメロ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-11-01",
+      "ms": 0,
+      "name": "Be Kind",
       "years": {
         "2026": 1
       }

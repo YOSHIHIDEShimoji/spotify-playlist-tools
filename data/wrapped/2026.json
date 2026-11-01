@@ -37,17 +37,21 @@
       "month": "2026-09"
     },
     {
-      "count": 865,
+      "count": 864,
       "month": "2026-10"
+    },
+    {
+      "count": 102,
+      "month": "2026-11"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 1032,
+  "new_tracks": 1034,
   "peak": {
     "dow": 6,
-    "hour": 18
+    "hour": 17
   },
-  "plays": 13300,
+  "plays": 13401,
   "top_artists": [
     {
       "count": 1660,
@@ -66,11 +70,11 @@
       "name": "Taylor Swift"
     },
     {
-      "count": 394,
+      "count": 400,
       "name": "Henry Moodie"
     },
     {
-      "count": 352,
+      "count": 353,
       "name": "Justin Bieber"
     },
     {
@@ -78,7 +82,7 @@
       "name": "Maroon 5"
     },
     {
-      "count": 307,
+      "count": 320,
       "name": "ワンリパブリック"
     },
     {
@@ -114,12 +118,12 @@
       "name": "ザ・ビートルズ"
     },
     {
-      "count": 140,
-      "name": "Kygo"
+      "count": 144,
+      "name": "Lany"
     },
     {
-      "count": 136,
-      "name": "Lany"
+      "count": 140,
+      "name": "Kygo"
     },
     {
       "count": 131,
@@ -149,6 +153,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 71,
+      "name": "Kids",
+      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
+    },
+    {
+      "artists": [
         "ALI"
       ],
       "count": 70,
@@ -162,14 +174,6 @@
       "count": 70,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 70,
-      "name": "Kids",
-      "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
     {
       "artists": [
@@ -245,6 +249,14 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 56,
+      "name": "Marchin On",
+      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
+    },
+    {
+      "artists": [
         "YUNGBLUD"
       ],
       "count": 56,
@@ -258,14 +270,6 @@
       "count": 55,
       "name": "Lose Somebody",
       "track_id": "1sgDyuLooyvEML4oHspNza"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 55,
-      "name": "Marchin On",
-      "track_id": "4BUtvtGTRvJB49Hx2F7lle"
     },
     {
       "artists": [
