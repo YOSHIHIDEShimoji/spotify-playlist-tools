@@ -1,57 +1,17 @@
 {
-  "date": "11-03",
-  "generated_at": "2026-11-02T23:17:10.882005+00:00",
+  "date": "11-04",
+  "generated_at": "2026-11-03T21:24:41.135699+00:00",
   "years": [
     {
-      "plays": 73,
+      "plays": 9,
       "tracks": [
         {
           "artists": [
-            "KOBUKURO"
-          ],
-          "count": 2,
-          "name": "未来",
-          "track_id": "5pXJeXG9INNmKHL7x94HIc"
-        },
-        {
-          "artists": [
-            "ONE OK ROCK"
-          ],
-          "count": 2,
-          "name": "Broken Heart of Gold",
-          "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
-        },
-        {
-          "artists": [
-            "YUNGBLUD"
-          ],
-          "count": 2,
-          "name": "Abyss - from Kaiju No. 8",
-          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
-        },
-        {
-          "artists": [
             "Novelbright"
           ],
           "count": 2,
-          "name": "PRIDE",
-          "track_id": "2AYbTW085eR0dUS0JzwIXJ"
-        },
-        {
-          "artists": [
-            "DISH//"
-          ],
-          "count": 1,
-          "name": "猫",
-          "track_id": "6sIx7Cn37DGEhjy9hBP8Gx"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 1,
-          "name": "ツキミソウ",
-          "track_id": "6sElEqOIGENWjpxGFeo5ct"
+          "name": "愛とか恋とか",
+          "track_id": "1VHL1PIkhDwWbFc65xHwOr"
         },
         {
           "artists": [
@@ -84,52 +44,60 @@
           "count": 1,
           "name": "夢花火",
           "track_id": "4CqQqMqOQKuvAUDyTDRvtv"
+        },
+        {
+          "artists": [
+            "Novelbright"
+          ],
+          "count": 1,
+          "name": "アイビー",
+          "track_id": "3y3gIFisu61Qc3NtRE7a2r"
+        },
+        {
+          "artists": [
+            "Novelbright"
+          ],
+          "count": 1,
+          "name": "ツキミソウ",
+          "track_id": "6sElEqOIGENWjpxGFeo5ct"
+        },
+        {
+          "artists": [
+            "ONE OK ROCK"
+          ],
+          "count": 1,
+          "name": "The Beginning",
+          "track_id": "1J6MFj60gFCvYqOtjoYkM0"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 8,
+      "plays": 49,
       "tracks": [
         {
           "artists": [
-            "Novelbright"
+            "Katsuo Ohno"
           ],
-          "count": 1,
-          "name": "開幕宣言",
-          "track_id": "093KHY83BAuupQoAs4TpSh"
+          "count": 9,
+          "name": "蘭のテーマ - 世紀末ヴァージョン",
+          "track_id": "6lJq0JMOFI9MN47AOJrwEC"
         },
         {
           "artists": [
-            "Novelbright"
+            "Naomi Scott"
           ],
           "count": 1,
-          "name": "夢花火",
-          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
+          "name": "Speechless (Full)",
+          "track_id": "0XPsOSYzDJZJArevQNm2AR"
         },
         {
           "artists": [
-            "Novelbright"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "Walking with you",
-          "track_id": "7tGDXCPLpAScEwmqab9YZd"
-        },
-        {
-          "artists": [
-            "I WiSH"
-          ],
-          "count": 1,
-          "name": "明日への扉",
-          "track_id": "42D5ZNyztjggvZeYVmpHs3"
-        },
-        {
-          "artists": [
-            "Eve"
-          ],
-          "count": 1,
-          "name": "平行線",
-          "track_id": "3v580RMq79nUPHqMFbsRco"
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
         },
         {
           "artists": [
@@ -149,50 +117,50 @@
         },
         {
           "artists": [
-            "Lilas Ikuta"
+            "Novelbright"
           ],
           "count": 1,
-          "name": "スパークル",
-          "track_id": "6EuubEs5qOmJdpNhkU47OZ"
+          "name": "夢花火",
+          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
+        },
+        {
+          "artists": [
+            "I WiSH"
+          ],
+          "count": 1,
+          "name": "明日への扉",
+          "track_id": "42D5ZNyztjggvZeYVmpHs3"
+        },
+        {
+          "artists": [
+            "Eve"
+          ],
+          "count": 1,
+          "name": "平行線",
+          "track_id": "3v580RMq79nUPHqMFbsRco"
+        },
+        {
+          "artists": [
+            "Katsuo Ohno"
+          ],
+          "count": 1,
+          "name": "名探偵コナン メイン・テーマ - 暗殺者ヴァージョン",
+          "track_id": "4ELXBKQHnfWiNt6OUcSo15"
+        },
+        {
+          "artists": [
+            "Yoshikazu Mera"
+          ],
+          "count": 1,
+          "name": "もののけ姫（ヴォーカル）",
+          "track_id": "2i4cFd5DSJUTV7CCCR9dMx"
         }
       ],
       "year": "2024"
     },
     {
-      "plays": 26,
+      "plays": 11,
       "tracks": [
-        {
-          "artists": [
-            "back number"
-          ],
-          "count": 2,
-          "name": "僕の名前を",
-          "track_id": "4q5eB08azjHq4g1vEJwOMS"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Till There Was You - Remastered 2009",
-          "track_id": "0ESIjVxnDnCDaTPo6sStHm"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Please Mister Postman - Remastered 2009",
-          "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Devil In Her Heart - Remastered 2009",
-          "track_id": "5maTh4fY9SlgR3FhRkf040"
-        },
         {
           "artists": [
             "Queen"
@@ -203,261 +171,333 @@
         },
         {
           "artists": [
-            "The Beatles"
+            "Queen"
           ],
           "count": 1,
-          "name": "I'll Be Back - Remastered 2009",
-          "track_id": "3lSi6qfnp2YZazTzcOLBZk"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "I Feel Fine - Remastered 2009",
-          "track_id": "1Q7gCIpOjIIU0bUKcGzrG4"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "No Reply - Remastered 2009",
-          "track_id": "4ltC6PrqkTtpcRNi5lvS4z"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Help! - Remastered 2009",
-          "track_id": "7DD7eSuYSC5xk2ArU62esN"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "The Night Before - Remastered 2009",
-          "track_id": "5xcfepnz1v7a83T8An9gjw"
-        }
-      ],
-      "year": "2023"
-    },
-    {
-      "plays": 19,
-      "tracks": [
-        {
-          "artists": [
-            "Alessia Cara"
-          ],
-          "count": 2,
-          "name": "How Far I'll Go - Alessia Cara Version",
-          "track_id": "5VBEyc4i8MIS1IVVvgBDr6"
-        },
-        {
-          "artists": [
-            "Taylor Swift"
-          ],
-          "count": 1,
-          "name": "Shake It Off",
-          "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
-        },
-        {
-          "artists": [
-            "Michael Jackson"
-          ],
-          "count": 1,
-          "name": "For All Time",
-          "track_id": "4NYi8J4w2AuI9qyv5bY2Nt"
-        },
-        {
-          "artists": [
-            "Dua Lipa"
-          ],
-          "count": 1,
-          "name": "Levitating (feat. DaBaby)",
-          "track_id": "5nujrmhLynf4yMoMtj8AQF"
-        },
-        {
-          "artists": [
-            "Michael Jackson"
-          ],
-          "count": 1,
-          "name": "Heal the World",
-          "track_id": "37HyO9EKIh9jgQcPNq1RfL"
-        },
-        {
-          "artists": [
-            "Avicii"
-          ],
-          "count": 1,
-          "name": "Without You (feat. Sandro Cavazza)",
-          "track_id": "6Pgkp4qUoTmJIPn7ReaGxL"
-        },
-        {
-          "artists": [
-            "Dua Lipa"
-          ],
-          "count": 1,
-          "name": "Break My Heart",
-          "track_id": "017PF4Q3l4DBUiWoXk4OWT"
-        },
-        {
-          "artists": [
-            "Keane"
-          ],
-          "count": 1,
-          "name": "Somewhere Only We Know",
-          "track_id": "1SKPmfSYaPsETbRHaiA18G"
-        },
-        {
-          "artists": [
-            "Taylor Swift"
-          ],
-          "count": 1,
-          "name": "Lover",
-          "track_id": "1dGr1c8CrMLDpV6mPbImSI"
-        },
-        {
-          "artists": [
-            "Marshmello"
-          ],
-          "count": 1,
-          "name": "Happier",
-          "track_id": "2dpaYNEQHiRxtZbfNsse99"
-        }
-      ],
-      "year": "2022"
-    },
-    {
-      "plays": 7,
-      "tracks": [
-        {
-          "artists": [
-            "Kontekst"
-          ],
-          "count": 2,
-          "name": "Buddha",
-          "track_id": "2eFHbrvjYbZkVexsclJffS"
-        },
-        {
-          "artists": [
-            "Jawsh 685"
-          ],
-          "count": 1,
-          "name": "Savage Love (Laxed – Siren Beat) [BTS Remix]",
-          "track_id": "4TgxFMOn5yoESW6zCidCXL"
-        },
-        {
-          "artists": [
-            "Taro Hakase"
-          ],
-          "count": 1,
-          "name": "情熱大陸 - 2018 Full Orchestra Ver.",
-          "track_id": "4NklbS7m2tJeyDQCe78HWF"
-        },
-        {
-          "artists": [
-            "Jim Yosef"
-          ],
-          "count": 1,
-          "name": "Linked",
-          "track_id": "23BEJWSkNjoTNA94sT9sxD"
-        },
-        {
-          "artists": [
-            "ellis"
-          ],
-          "count": 1,
-          "name": "Clear My Head",
-          "track_id": "45vW6Apg3QwawKzBi03rgD"
-        },
-        {
-          "artists": [
-            "Electro-Light"
-          ],
-          "count": 1,
-          "name": "Symbolism",
-          "track_id": "2zVJlAEB0ublkqJMIn43AE"
-        }
-      ],
-      "year": "2020"
-    },
-    {
-      "plays": 9,
-      "tracks": [
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "I Am The Walrus - Remastered 2009",
-          "track_id": "6Pq9MmkDQYZiiCDpxnvrf6"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Help! - Remastered 2009",
-          "track_id": "7DD7eSuYSC5xk2ArU62esN"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "The Night Before - Remastered 2009",
-          "track_id": "5xcfepnz1v7a83T8An9gjw"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "You've Got To Hide Your Love Away - Remastered 2009",
-          "track_id": "4F1AgKpuFRMLEgtPETVwZk"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "I Need You - Remastered 2009",
-          "track_id": "5EzvwjFwdP5Kfl5AZAemzu"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Another Girl - Remastered 2009",
-          "track_id": "7hefVXaGsFPesbK6fKwS6F"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "It's Only Love - Remastered 2009",
-          "track_id": "2ue1KRstSKHF8jQkIJZiNC"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "If I Needed Someone - Remastered 2009",
-          "track_id": "7C6hdDIz90Uf5YmdZnYbJJ"
+          "name": "Too Much Love Will Kill You - Remastered 2011",
+          "track_id": "0W1uTK6I97CbjFKAVtRGfK"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "3o4KExcCgRoh7zodB6o2ob"
+          "name": "I Want It All - Single Version",
+          "track_id": "1gBNoqhVLbIMuBQmXKmyLj"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "Let Me Live - Remastered 2011",
+          "track_id": "7zSX8U7W03AStPc5oJ3W3V"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "These Are The Days Of Our Lives - 2011 Remaster",
+          "track_id": "5js1JJOAkR5KwlifBpvHMN"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 1,
+          "name": "The Show Must Go On - Remastered 2011",
+          "track_id": "5n6RDaGFSN88oRWuGtYAIN"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
+          "track_id": "1WutVejYvP7220sofj3xId"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "黄色",
+          "track_id": "1MwOfRqCALxvx9keUhGCdV"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "HAPPY BIRTHDAY",
+          "track_id": "4FMz2RFrbDGzJO7K4D0vS3"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "瞬き",
+          "track_id": "7hIfpcdUZcyCKHYy8gp49E"
+        }
+      ],
+      "year": "2023"
+    },
+    {
+      "plays": 12,
+      "tracks": [
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "fish",
+          "track_id": "067KuBjJphffCxUkxDCmcG"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "思い出せなくなるその日まで",
+          "track_id": "3BbxLoUEcvMV4QZtcZyKMO"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "繋いだ手から",
+          "track_id": "2u78pHUMyL60GbrmAf2Yhz"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "僕の名前を",
+          "track_id": "4q5eB08azjHq4g1vEJwOMS"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
+          "track_id": "1WutVejYvP7220sofj3xId"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "黄色",
+          "track_id": "1MwOfRqCALxvx9keUhGCdV"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "水平線",
+          "track_id": "5m1i6hq7dmRlp3c1utE48L"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "怪盗",
+          "track_id": "10Eyo4juZQFthKqlJgGMdp"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "雨と僕の話",
+          "track_id": "3XcLf52WHnE85mLAXDSf2F"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
+          "name": "HAPPY BIRTHDAY",
+          "track_id": "4FMz2RFrbDGzJO7K4D0vS3"
+        }
+      ],
+      "year": "2022"
+    },
+    {
+      "plays": 17,
+      "tracks": [
+        {
+          "artists": [
+            "Rick Astley"
+          ],
+          "count": 1,
+          "name": "Together Forever",
+          "track_id": "76QJgXPE3oc1cnkE4PFHEn"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Baby, You're A Rich Man - Remastered 2009",
+          "track_id": "0JBvtprXP2Z0LP3jmzA7Xp"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Back In The U.S.S.R. - Remastered 2009",
+          "track_id": "0j3p1p06deJ7f9xmJ9yG22"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Magical Mystery Tour - Remastered 2009",
+          "track_id": "0qHMhBZqYb99yhX9BHcIkV"
+        },
+        {
+          "artists": [
+            "BTS"
+          ],
+          "count": 1,
+          "name": "Dynamite",
+          "track_id": "0t1kP63rueHleOhQkYSXFY"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Hello, Goodbye - Remastered 2009",
+          "track_id": "0vZ97gHhemKm6c64hTfJNA"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Your Mother Should Know - Remastered 2009",
+          "track_id": "1dxbAIfCASqv6jix2R1Taj"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Ob-La-Di, Ob-La-Da - Remastered 2009",
+          "track_id": "1gFNm7cXfG1vSMcxPpSxec"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Lady Madonna - Remastered 2009",
+          "track_id": "1tM9TBNPjieSOZ2d5VAQ1y"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Hey Jude - Remastered 2009",
+          "track_id": "2iGtdYI4lI0jDpnxJOqZRw"
+        }
+      ],
+      "year": "2020"
+    },
+    {
+      "plays": 36,
+      "tracks": [
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 3,
+          "name": "Bohemian Rhapsody - Remastered 2011",
+          "track_id": "7k1dWFLqTfxNj4U2CfDRuK"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 2,
+          "name": "All You Need Is Love - Remastered 2015",
+          "track_id": "6KqiVlOLfDzJViJVAPym1p"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 2,
+          "name": "Yesterday - Remastered 2015",
+          "track_id": "4E5rL7YL0hVUPqeMSpjEF2"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 2,
+          "name": "Drive My Car - Remastered 2009",
+          "track_id": "06ypiqmILMdVeaiErMFA91"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "The Night Before - Remastered 2009",
+          "track_id": "5xcfepnz1v7a83T8An9gjw"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "And Your Bird Can Sing - Remastered 2009",
+          "track_id": "4KRgqwb4kvBuTz1utbYxfb"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I'm Happy Just To Dance With You - Remastered 2009",
+          "track_id": "0gd50I2gKioJ59C827EdAY"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Things We Said Today - Remastered 2009",
+          "track_id": "0voUr8lubIafUVJlauJxYF"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Can't Buy Me Love - Remastered 2015",
+          "track_id": "38Vb1J5W5LOs0i7SAF76pa"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "The Ballad Of John And Yoko - Remastered 2015",
+          "track_id": "1F7s27lLKshLPt9TPCgMDL"
         }
       ],
       "year": "2019"

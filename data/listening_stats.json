@@ -405,6 +405,14 @@
         "The Beatles"
       ],
       "count": 120,
+      "name": "All I've Got To Do - Remastered 2009",
+      "track_id": "5tztLBvTlNC15Np2tnQ5Ll"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 120,
       "name": "Please Mister Postman - Remastered 2009",
       "track_id": "6wfK1R6FoLpmUA9lk5ll4T"
     },
@@ -439,14 +447,6 @@
       "count": 119,
       "name": "Nowhere Man - Remastered 2009",
       "track_id": "5SUlhldQJtOhUr2GzH5RI7"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 119,
-      "name": "All I've Got To Do - Remastered 2009",
-      "track_id": "5tztLBvTlNC15Np2tnQ5Ll"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-11-02T23:16:04.083812+00:00",
+  "generated_at": "2026-11-03T21:23:26.794887+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 65196
+    "total": 65212
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 19,
+  "streak": 20,
   "weekly_top": [
     {
       "artists": [
@@ -829,6 +829,15 @@
     },
     {
       "artists": [
+        "アデル"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851827945d7638c464bca9fc647",
+      "name": "Rolling In The Deep",
+      "track_id": "6IAZHEBUIGJ6NJKxxOBIEr"
+    },
+    {
+      "artists": [
         "ザ・ビートルズ"
       ],
       "count": 2,
@@ -838,12 +847,12 @@
     },
     {
       "artists": [
-        "ザ・ビートルズ"
+        "ZAYN"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
-      "name": "Wait - Remastered 2009",
-      "track_id": "0CGbof9amBnsNlRhZ8IY2H"
+      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
+      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+      "track_id": "55n9yjI6qqXh5F2mYvUc2y"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
       "name": "Payphone",
       "track_id": "1XGmzt0PVuFgQYYnV2It7A"
-    },
-    {
-      "artists": [
-        "イマジン・ドラゴンズ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515675e83f707f1d7271e5cf8a",
-      "name": "Walking The Wire",
-      "track_id": "1y3bE5i57eUm3hfLAc7h08"
     }
   ]
 }

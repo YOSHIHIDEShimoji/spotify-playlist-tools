@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-02T23:17:10.700159+00:00",
+  "generated_at": "2026-11-03T21:24:40.979738+00:00",
   "totals": {
-    "artists": 1373,
-    "days": 2146,
+    "artists": 1375,
+    "days": 2147,
     "ms": 12440720283,
-    "plays": 65196,
+    "plays": 65212,
     "since": "2019-09-05",
-    "tracks": 4755
+    "tracks": 4763
   },
   "tracks": [
     {
@@ -1056,6 +1056,29 @@
       ],
       "count": 120,
       "first": "2019-09-07",
+      "id": "5tztLBvTlNC15Np2tnQ5Ll",
+      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+      "last": "2026-11-02",
+      "ms": 14008991,
+      "name": "All I've Got To Do - Remastered 2009",
+      "short": 25,
+      "years": {
+        "2019": 9,
+        "2020": 36,
+        "2021": 23,
+        "2022": 13,
+        "2023": 5,
+        "2024": 18,
+        "2025": 9,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 120,
+      "first": "2019-09-07",
       "id": "6wfK1R6FoLpmUA9lk5ll4T",
       "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
       "last": "2026-10-03",
@@ -1128,29 +1151,6 @@
         "2024": 27,
         "2025": 12,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 119,
-      "first": "2019-09-07",
-      "id": "5tztLBvTlNC15Np2tnQ5Ll",
-      "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-      "last": "2026-10-03",
-      "ms": 14008991,
-      "name": "All I've Got To Do - Remastered 2009",
-      "short": 25,
-      "years": {
-        "2019": 9,
-        "2020": 36,
-        "2021": 23,
-        "2022": 13,
-        "2023": 5,
-        "2024": 18,
-        "2025": 9,
-        "2026": 6
       }
     },
     {
@@ -6351,6 +6351,27 @@
     },
     {
       "artists": [
+        "Owl City"
+      ],
+      "count": 65,
+      "first": "2021-07-20",
+      "id": "1kPpge9JDLpcj15qgrPbYX",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf5459850259268f98b07f7a",
+      "last": "2026-11-03",
+      "ms": 11846916,
+      "name": "Good Time",
+      "short": 26,
+      "years": {
+        "2021": 7,
+        "2022": 4,
+        "2023": 1,
+        "2024": 6,
+        "2025": 23,
+        "2026": 24
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 65,
@@ -6541,27 +6562,6 @@
         "2024": 4,
         "2025": 7,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Owl City"
-      ],
-      "count": 64,
-      "first": "2021-07-20",
-      "id": "1kPpge9JDLpcj15qgrPbYX",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf5459850259268f98b07f7a",
-      "last": "2026-09-13",
-      "ms": 11846916,
-      "name": "Good Time",
-      "short": 26,
-      "years": {
-        "2021": 7,
-        "2022": 4,
-        "2023": 1,
-        "2024": 6,
-        "2025": 23,
-        "2026": 23
       }
     },
     {
@@ -11451,6 +11451,25 @@
     },
     {
       "artists": [
+        "Imagine Dragons"
+      ],
+      "count": 41,
+      "first": "2022-06-05",
+      "id": "2RSHsoi04658QL5xgQVov3",
+      "image": "https://i.scdn.co/image/ab67616d00004851da6f73a25f4c79d0e6b4a8bd",
+      "last": "2026-11-03",
+      "ms": 9722617,
+      "name": "Bad Liar",
+      "short": 5,
+      "years": {
+        "2022": 2,
+        "2024": 4,
+        "2025": 17,
+        "2026": 18
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 41,
@@ -11766,25 +11785,6 @@
     },
     {
       "artists": [
-        "Imagine Dragons"
-      ],
-      "count": 40,
-      "first": "2022-06-05",
-      "id": "2RSHsoi04658QL5xgQVov3",
-      "image": "https://i.scdn.co/image/ab67616d00004851da6f73a25f4c79d0e6b4a8bd",
-      "last": "2026-05-16",
-      "ms": 9722617,
-      "name": "Bad Liar",
-      "short": 5,
-      "years": {
-        "2022": 2,
-        "2024": 4,
-        "2025": 17,
-        "2026": 17
-      }
-    },
-    {
-      "artists": [
         "Taylor Swift"
       ],
       "count": 40,
@@ -11961,26 +11961,6 @@
         "2022": 1,
         "2023": 4,
         "2024": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 40,
-      "first": "2019-09-06",
-      "id": "0CGbof9amBnsNlRhZ8IY2H",
-      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
-      "last": "2026-11-02",
-      "ms": 4856734,
-      "name": "Wait - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 4,
-        "2020": 9,
-        "2024": 13,
-        "2025": 7,
-        "2026": 7
       }
     },
     {
@@ -12223,6 +12203,26 @@
       "years": {
         "2025": 25,
         "2026": 14
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 39,
+      "first": "2019-09-06",
+      "id": "0CGbof9amBnsNlRhZ8IY2H",
+      "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
+      "last": "2026-11-02",
+      "ms": 4856734,
+      "name": "Wait - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 4,
+        "2020": 9,
+        "2024": 13,
+        "2025": 7,
+        "2026": 6
       }
     },
     {
@@ -13882,6 +13882,23 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 31,
+      "first": "2025-12-16",
+      "id": "72jCZdH0Lhg93z6Z4hBjgj",
+      "image": "https://i.scdn.co/image/ab67616d0000485196384c98ac4f3e7c2440f5b5",
+      "last": "2026-11-03",
+      "ms": 6040157,
+      "name": "I Knew You Were Trouble.",
+      "short": 4,
+      "years": {
+        "2025": 4,
+        "2026": 27
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 31,
@@ -14061,23 +14078,6 @@
         "2023": 3,
         "2025": 1,
         "2026": 23
-      }
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 30,
-      "first": "2025-12-16",
-      "id": "72jCZdH0Lhg93z6Z4hBjgj",
-      "image": "https://i.scdn.co/image/ab67616d0000485196384c98ac4f3e7c2440f5b5",
-      "last": "2026-09-26",
-      "ms": 6040157,
-      "name": "I Knew You Were Trouble.",
-      "short": 4,
-      "years": {
-        "2025": 4,
-        "2026": 26
       }
     },
     {
@@ -17399,6 +17399,24 @@
     },
     {
       "artists": [
+        "ZAYN"
+      ],
+      "count": 18,
+      "first": "2021-07-28",
+      "id": "55n9yjI6qqXh5F2mYvUc2y",
+      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
+      "last": "2026-11-03",
+      "ms": 1977280,
+      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+      "short": 1,
+      "years": {
+        "2021": 1,
+        "2025": 1,
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 18,
@@ -18486,24 +18504,6 @@
         "2023": 2,
         "2025": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "ZAYN"
-      ],
-      "count": 16,
-      "first": "2021-07-28",
-      "id": "55n9yjI6qqXh5F2mYvUc2y",
-      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
-      "last": "2026-11-01",
-      "ms": 1977280,
-      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-      "short": 1,
-      "years": {
-        "2021": 1,
-        "2025": 1,
-        "2026": 14
       }
     },
     {
@@ -31071,6 +31071,21 @@
     },
     {
       "artists": [
+        "Hotel Apache"
+      ],
+      "count": 4,
+      "first": "2026-07-21",
+      "id": "600n43hYlo97yOuIwimzm7",
+      "image": "https://i.scdn.co/image/ab67616d00004851b54ad5957fa942526c07c0e6",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Stay",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "LANY"
       ],
       "count": 4,
@@ -34422,6 +34437,21 @@
     },
     {
       "artists": [
+        "アデル"
+      ],
+      "count": 3,
+      "first": "2026-10-30",
+      "id": "6IAZHEBUIGJ6NJKxxOBIEr",
+      "image": "https://i.scdn.co/image/ab67616d00004851827945d7638c464bca9fc647",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Rolling In The Deep",
+      "years": {
+        "2026": 3
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 3,
@@ -34789,21 +34819,6 @@
       "short": 1,
       "years": {
         "2025": 3
-      }
-    },
-    {
-      "artists": [
-        "Hotel Apache"
-      ],
-      "count": 3,
-      "first": "2026-07-21",
-      "id": "600n43hYlo97yOuIwimzm7",
-      "image": "https://i.scdn.co/image/ab67616d00004851b54ad5957fa942526c07c0e6",
-      "last": "2026-09-13",
-      "ms": 0,
-      "name": "Stay",
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -41058,6 +41073,21 @@
     },
     {
       "artists": [
+        "The Chainsmokers"
+      ],
+      "count": 2,
+      "first": "2026-08-24",
+      "id": "72jbDTw1piOOj770jWNeaG",
+      "image": "https://i.scdn.co/image/ab67616d000048510c13d3d5a503c84fcc60ae94",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Paris",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 2,
@@ -41381,21 +41411,6 @@
       "name": "Rollerblades",
       "years": {
         "2021": 2
-      }
-    },
-    {
-      "artists": [
-        "アデル"
-      ],
-      "count": 2,
-      "first": "2026-10-30",
-      "id": "6IAZHEBUIGJ6NJKxxOBIEr",
-      "image": "https://i.scdn.co/image/ab67616d00004851827945d7638c464bca9fc647",
-      "last": "2026-11-02",
-      "ms": 0,
-      "name": "Rolling In The Deep",
-      "years": {
-        "2026": 2
       }
     },
     {
@@ -47491,6 +47506,21 @@
       "name": "Back in time",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:badliar|imaginedragons",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/22fae11f52714165e3efeca3c14084ea.jpg",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Bad Liar",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -55512,6 +55542,21 @@
     },
     {
       "artists": [
+        "Lauv"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:ilikemebetter|lauv",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1191e058732a5bb5eb8722e09330a58b.jpg",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "I Like Me Better",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Demi Lovato"
       ],
       "count": 1,
@@ -62180,21 +62225,6 @@
     },
     {
       "artists": [
-        "The Chainsmokers"
-      ],
-      "count": 1,
-      "first": "2026-08-24",
-      "id": "72jbDTw1piOOj770jWNeaG",
-      "image": "https://i.scdn.co/image/ab67616d000048510c13d3d5a503c84fcc60ae94",
-      "last": "2026-08-24",
-      "ms": 0,
-      "name": "Paris",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "LAUV"
       ],
       "count": 1,
@@ -63759,6 +63789,21 @@
     },
     {
       "artists": [
+        "Lorde"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:royals|lorde",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/1c3f14fba3dececc85d10d7252e68b93.png",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Royals",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "MAGIC!"
       ],
       "count": 1,
@@ -63998,6 +64043,21 @@
       "last": "2026-05-04",
       "ms": 267093,
       "name": "Sad Song",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Capital Cities"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:safeandsound|capitalcities",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/56a65ecc5b7a67938ed901c045a5e542.jpg",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Safe and Sound",
       "years": {
         "2026": 1
       }
@@ -67738,6 +67798,21 @@
     },
     {
       "artists": [
+        "Zedd"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:themiddle|zedd",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a7dc977b7a53d3e898f86eaee644aba7.jpg",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "The Middle",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 1,
@@ -69832,6 +69907,21 @@
     },
     {
       "artists": [
+        "Harry Styles"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:watermelonsugar|harrystyles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/7940fbb1df766b4683951aed490a8b5a.jpg",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Watermelon Sugar",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Dazik69"
       ],
       "count": 1,
@@ -70652,6 +70742,21 @@
       "last": "2026-05-01",
       "ms": 323747,
       "name": "Wicked Games",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:wideawake|katyperry",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/efbd28cada9ae700d7e3732c7edfcc8b.png",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Wide Awake",
       "years": {
         "2026": 1
       }
@@ -71696,6 +71801,21 @@
       "short": 1,
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Lana Del Rey"
+      ],
+      "count": 1,
+      "first": "2026-11-03",
+      "id": "lastfm:youngandbeautiful|lanadelrey",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/f8408df7304e49685980e09662b6c808.png",
+      "last": "2026-11-03",
+      "ms": 0,
+      "name": "Young and Beautiful",
+      "years": {
+        "2026": 1
       }
     },
     {
