@@ -41,7 +41,7 @@
       "month": "2026-10"
     },
     {
-      "count": 231,
+      "count": 247,
       "month": "2026-11"
     }
   ],
@@ -51,7 +51,7 @@
     "dow": 6,
     "hour": 17
   },
-  "plays": 13530,
+  "plays": 13546,
   "top_artists": [
     {
       "count": 1660,
@@ -66,7 +66,7 @@
       "name": "Charlie Puth"
     },
     {
-      "count": 501,
+      "count": 500,
       "name": "Taylor Swift"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Henry Moodie"
     },
     {
-      "count": 352,
+      "count": 353,
       "name": "Justin Bieber"
     },
     {
@@ -118,7 +118,7 @@
       "name": "King Gnu"
     },
     {
-      "count": 147,
+      "count": 148,
       "name": "Lany"
     },
     {
@@ -241,6 +241,14 @@
     },
     {
       "artists": [
+        "YUNGBLUD"
+      ],
+      "count": 57,
+      "name": "Abyss - from Kaiju No. 8",
+      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 57,
@@ -254,14 +262,6 @@
       "count": 56,
       "name": "Marchin On",
       "track_id": "4BUtvtGTRvJB49Hx2F7lle"
-    },
-    {
-      "artists": [
-        "YUNGBLUD"
-      ],
-      "count": 56,
-      "name": "Abyss - from Kaiju No. 8",
-      "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
     {
       "artists": [

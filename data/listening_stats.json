@@ -92,7 +92,7 @@
       "artists": [
         "YUNGBLUD"
       ],
-      "count": 175,
+      "count": 176,
       "name": "Abyss - from Kaiju No. 8",
       "track_id": "2kLWSmKHhfUBepkIA9oNe5"
     },
@@ -258,19 +258,19 @@
     },
     {
       "artists": [
+        "Keane"
+      ],
+      "count": 139,
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 138,
       "name": "Another Girl - Remastered 2009",
       "track_id": "7hefVXaGsFPesbK6fKwS6F"
-    },
-    {
-      "artists": [
-        "Keane"
-      ],
-      "count": 138,
-      "name": "Somewhere Only We Know",
-      "track_id": "1SKPmfSYaPsETbRHaiA18G"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-11-03T21:23:26.794887+00:00",
+  "generated_at": "2026-11-04T21:38:39.540679+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 65212
+    "total": 65228
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 20,
+  "streak": 21,
   "weekly_top": [
     {
       "artists": [
@@ -826,6 +826,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851d26246b23c8bfa8ce543b3bb",
       "name": "Something Big",
       "track_id": "4eQznxonJdR6NEksFNHMCT"
+    },
+    {
+      "artists": [
+        "Keane"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048517d6cd95a046a3c0dacbc7d33",
+      "name": "Somewhere Only We Know",
+      "track_id": "1SKPmfSYaPsETbRHaiA18G"
     },
     {
       "artists": [
@@ -847,12 +856,21 @@
     },
     {
       "artists": [
-        "ZAYN"
+        "ジャスティン・ビーバー"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
-      "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-      "track_id": "55n9yjI6qqXh5F2mYvUc2y"
+      "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
+      "name": "Boyfriend",
+      "track_id": "3UGIZ8qcrMTwzLbx6Kttqt"
+    },
+    {
+      "artists": [
+        "ザ・ウィークエンド"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452",
+      "name": "Starboy",
+      "track_id": "7MXVkk9YMctZqd1Srtv4MB"
     },
     {
       "artists": [
@@ -1249,24 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048510bd42a81fa579f7a8d7c1312",
       "name": "Changes",
       "track_id": "4kUI0vuDd0Zub4IvxxNreM"
-    },
-    {
-      "artists": [
-        "ブルーノ・マーズ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
-      "name": "Just the Way You Are",
-      "track_id": "47Slg6LuqLaX0VodpSCvPt"
-    },
-    {
-      "artists": [
-        "マルーン５"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "name": "Payphone",
-      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     }
   ]
 }

@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-11-03T21:27:23.533905+00:00",
+  "generated_at": "2026-11-04T21:42:13.271741+00:00",
   "items": [
-    {
-      "album_id": "523noajUhbyPeCzT9u1yVK",
-      "album_name": "M25",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8f65ef20cc32183854e034b",
-      "is_new": true,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "1Mjrfn6qqRAAJM6OTjxnaz",
-      "album_name": "僕らの事にさせて (Prod. Vaundy)",
-      "album_type": "single",
-      "artist": "Jeremy Quartus",
-      "artist_id": "3RsPoeUFdT5nPJi59X63iy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851409166fe009c5421673d0ea9",
-      "is_new": true,
-      "release_date": "2026-11-04"
-    },
     {
       "album_id": "5sETgU14pI1EaV9iV1QImv",
       "album_name": "DEKAI",
@@ -31,7 +9,7 @@
       "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d000048519a99151d71b17fdd803e7770",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-04"
     },
     {
@@ -42,7 +20,7 @@
       "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-04"
     },
     {
@@ -53,6 +31,28 @@
       "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485121dbd63fb98c90712b9283d2",
+      "is_new": false,
+      "release_date": "2026-11-04"
+    },
+    {
+      "album_id": "523noajUhbyPeCzT9u1yVK",
+      "album_name": "M25",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8f65ef20cc32183854e034b",
+      "is_new": false,
+      "release_date": "2026-11-04"
+    },
+    {
+      "album_id": "1kzCUstnUUZiVaIp5qflhA",
+      "album_name": "It’s the Most Wonderful Time of the Year",
+      "album_type": "single",
+      "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b184f3fc9a4b3786752502d",
       "is_new": true,
       "release_date": "2026-11-04"
     },
@@ -64,7 +64,18 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d00004851adff752004f9de4b27b20b2f",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-11-04"
+    },
+    {
+      "album_id": "1Mjrfn6qqRAAJM6OTjxnaz",
+      "album_name": "僕らの事にさせて (Prod. Vaundy)",
+      "album_type": "single",
+      "artist": "Jeremy Quartus",
+      "artist_id": "3RsPoeUFdT5nPJi59X63iy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851409166fe009c5421673d0ea9",
+      "is_new": false,
       "release_date": "2026-11-04"
     },
     {
@@ -86,6 +97,17 @@
       "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851564182bcd1ff30bc16c62005",
+      "is_new": false,
+      "release_date": "2026-10-30"
+    },
+    {
+      "album_id": "1eTOyH11t346Eq3QbxaimT",
+      "album_name": "The Cat in the Hat (Original Motion Picture Soundtrack)",
+      "album_type": "album",
+      "artist": "Lorne Balfe",
+      "artist_id": "6dU7gPN2BhEPfO5QHLt7es",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ceca211286a49ceda5067411",
       "is_new": false,
       "release_date": "2026-10-30"
     },
@@ -123,17 +145,6 @@
       "release_date": "2026-10-30"
     },
     {
-      "album_id": "4Vjz8h1mL6g09olXnuAl7r",
-      "album_name": "COSITA",
-      "album_type": "single",
-      "artist": "Daddy Yankee",
-      "artist_id": "4VMYDCV2IEDYJArk749S6m",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d8d798140178d163c4e6b77f",
-      "is_new": true,
-      "release_date": "2026-10-30"
-    },
-    {
       "album_id": "4e6mApFhKsMODo9xT95sMY",
       "album_name": "Unreleased Collection - Japan Exclusive",
       "album_type": "album",
@@ -145,13 +156,13 @@
       "release_date": "2026-10-30"
     },
     {
-      "album_id": "1eTOyH11t346Eq3QbxaimT",
-      "album_name": "The Cat in the Hat (Original Motion Picture Soundtrack)",
-      "album_type": "album",
-      "artist": "Lorne Balfe",
-      "artist_id": "6dU7gPN2BhEPfO5QHLt7es",
+      "album_id": "4Vjz8h1mL6g09olXnuAl7r",
+      "album_name": "COSITA",
+      "album_type": "single",
+      "artist": "Daddy Yankee",
+      "artist_id": "4VMYDCV2IEDYJArk749S6m",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ceca211286a49ceda5067411",
+      "image": "https://i.scdn.co/image/ab67616d00004851d8d798140178d163c4e6b77f",
       "is_new": false,
       "release_date": "2026-10-30"
     },
@@ -167,13 +178,13 @@
       "release_date": "2026-10-30"
     },
     {
-      "album_id": "40Dds1oyfedkvZq0TD0VzG",
-      "album_name": "Love Me to Death",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "album_id": "0htu3AfqfIuSSyqZWMmmeE",
+      "album_name": "Vaiana 2: Der Lieblingshahn der Kokomora",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048516089dfbe973a3f1708238554",
+      "image": "https://i.scdn.co/image/ab67616d000048512acb3dbe57b51f57e2a66f93",
       "is_new": false,
       "release_date": "2026-10-29"
     },
@@ -189,13 +200,13 @@
       "release_date": "2026-10-29"
     },
     {
-      "album_id": "0htu3AfqfIuSSyqZWMmmeE",
-      "album_name": "Vaiana 2: Der Lieblingshahn der Kokomora",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "album_id": "40Dds1oyfedkvZq0TD0VzG",
+      "album_name": "Love Me to Death",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512acb3dbe57b51f57e2a66f93",
+      "image": "https://i.scdn.co/image/ab67616d000048516089dfbe973a3f1708238554",
       "is_new": false,
       "release_date": "2026-10-29"
     },
@@ -244,83 +255,6 @@
       "release_date": "2026-10-27"
     },
     {
-      "album_id": "6nHQyy9rP10maDxisqUARF",
-      "album_name": "Apple Pie (acoustic)",
-      "album_type": "single",
-      "artist": "Daniel Levi",
-      "artist_id": "0cA0C4yBNRaN2EZsE2wT3Y",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513fc617093cee7af6a35774b4",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
-      "album_name": "Sleeping Lion",
-      "album_type": "album",
-      "artist": "Lennon Stella",
-      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "6JRUSG3hxZnQS9Pej43w1e",
-      "album_name": "And The Crowd Goes Mild",
-      "album_type": "album",
-      "artist": "Sasha Alex Sloan",
-      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485128c14f277e07b618eff5aee3",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "5LheOmMsCEU09vOdcp0ka9",
-      "album_name": "Muse",
-      "album_type": "album",
-      "artist": "John Legend",
-      "artist_id": "5y2Xq6xcjJb2jVM54GHK3t",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485198a32c1a2a1f687b3ba914c8",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "0BsxNDbKrBdbPFmJGGhALE",
-      "album_name": "Love Is The Piece (Cheat Codes Remix)",
-      "album_type": "single",
-      "artist": "Sir Ivan",
-      "artist_id": "65Es5dYCk8l5Vvaf4dbjvs",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675085ccf4e2af1a9d05604e",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1pOkH6rbrSW5E1pvQ6Qdtk",
-      "album_name": "it's not you it's me",
-      "album_type": "single",
-      "artist": "gnash",
-      "artist_id": "3iri9nBFs9e4wN7PLIetAw",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485125a3ed1a970c2739fa160301",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
-      "album_name": "The Greatest Adventure Yet",
-      "album_type": "album",
-      "artist": "Bogoo's Best Day",
-      "artist_id": "1HXy83mY59h6ovkRVdupB0",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
       "album_id": "18QfFnvtg9l6VlBpgU5vkb",
       "album_name": "MISS ME",
       "album_type": "single",
@@ -328,50 +262,6 @@
       "artist_id": "3pc0bOVB5whxmD50W79wwO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048519f2c9d2c307e24f93a1831b5",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1pbMoqpMgCyjPefcJ9PKdq",
-      "album_name": "Heavy Is The Crown",
-      "album_type": "album",
-      "artist": "Anderson .Paak",
-      "artist_id": "3jK9MiCrA42lLAdMGUZpwa",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9c1b191c7e4b2f85e6431e8",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
-      "album_name": "Pray",
-      "album_type": "single",
-      "artist": "R. City",
-      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "4MCHHOFcu9QMJAm8RtNN0l",
-      "album_name": "Sequel",
-      "album_type": "single",
-      "artist": "Fly By Midnight",
-      "artist_id": "4rQTEdG6hDVOlDUFKs9EjZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485107136a4b4a7bf026fd7a08af",
-      "is_new": false,
-      "release_date": "2026-10-23"
-    },
-    {
-      "album_id": "1TZUQVQW6dMSdqexGLBdwq",
-      "album_name": "Sit Still Look Pretty (10 Year Anniversary Deluxe Edition)",
-      "album_type": "album",
-      "artist": "Daya",
-      "artist_id": "6Dd3NScHWwnW6obMFbl1BH",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048515c73e7a4b730a17a66102470",
       "is_new": false,
       "release_date": "2026-10-23"
     },
@@ -387,13 +277,134 @@
       "release_date": "2026-10-23"
     },
     {
-      "album_id": "5RpMu1ANIerj5wtw12jRO7",
-      "album_name": "Morticia",
-      "album_type": "single",
-      "artist": "Clever",
-      "artist_id": "5yy76ufVriyvidNSvXlRU1",
+      "album_id": "4zQuVVzjN8G5j7unW1oM7J",
+      "album_name": "The Greatest Adventure Yet",
+      "album_type": "album",
+      "artist": "Bogoo's Best Day",
+      "artist_id": "1HXy83mY59h6ovkRVdupB0",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d2cadfc9469c0febe4c1c8cc",
+      "image": "https://i.scdn.co/image/ab67616d000048514b612fc46e87898ad73feda5",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1pbMoqpMgCyjPefcJ9PKdq",
+      "album_name": "Heavy Is The Crown",
+      "album_type": "album",
+      "artist": "Anderson .Paak",
+      "artist_id": "3jK9MiCrA42lLAdMGUZpwa",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9c1b191c7e4b2f85e6431e8",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "6JRUSG3hxZnQS9Pej43w1e",
+      "album_name": "And The Crowd Goes Mild",
+      "album_type": "album",
+      "artist": "Sasha Alex Sloan",
+      "artist_id": "4xnihxcoXWK3UqryOSnbw5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485128c14f277e07b618eff5aee3",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1RtuCvuc1k2s9AeXYFiiDP",
+      "album_name": "Pray",
+      "album_type": "single",
+      "artist": "R. City",
+      "artist_id": "4TH4BHy0LdBi3dpBW4P2UX",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c0f9de6e25c08be069123164",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "0BsxNDbKrBdbPFmJGGhALE",
+      "album_name": "Love Is The Piece (Cheat Codes Remix)",
+      "album_type": "single",
+      "artist": "Sir Ivan",
+      "artist_id": "65Es5dYCk8l5Vvaf4dbjvs",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851675085ccf4e2af1a9d05604e",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "6nHQyy9rP10maDxisqUARF",
+      "album_name": "Apple Pie (acoustic)",
+      "album_type": "single",
+      "artist": "Daniel Levi",
+      "artist_id": "0cA0C4yBNRaN2EZsE2wT3Y",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513fc617093cee7af6a35774b4",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "4MCHHOFcu9QMJAm8RtNN0l",
+      "album_name": "Sequel",
+      "album_type": "single",
+      "artist": "Fly By Midnight",
+      "artist_id": "4rQTEdG6hDVOlDUFKs9EjZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485107136a4b4a7bf026fd7a08af",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "5LheOmMsCEU09vOdcp0ka9",
+      "album_name": "Muse",
+      "album_type": "album",
+      "artist": "John Legend",
+      "artist_id": "5y2Xq6xcjJb2jVM54GHK3t",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485198a32c1a2a1f687b3ba914c8",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1pOkH6rbrSW5E1pvQ6Qdtk",
+      "album_name": "it's not you it's me",
+      "album_type": "single",
+      "artist": "gnash",
+      "artist_id": "3iri9nBFs9e4wN7PLIetAw",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485125a3ed1a970c2739fa160301",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1uDux5bGlSh9JUxMkQ05dE",
+      "album_name": "Sleeping Lion",
+      "album_type": "album",
+      "artist": "Lennon Stella",
+      "artist_id": "1cZQSpDsxgKIX2yW5OR9Ot",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517d7819383bbe99f4dace26cf",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1TZUQVQW6dMSdqexGLBdwq",
+      "album_name": "Sit Still Look Pretty (10 Year Anniversary Deluxe Edition)",
+      "album_type": "album",
+      "artist": "Daya",
+      "artist_id": "6Dd3NScHWwnW6obMFbl1BH",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515c73e7a4b730a17a66102470",
+      "is_new": false,
+      "release_date": "2026-10-23"
+    },
+    {
+      "album_id": "1uXaIzjpjDrB3eMwbqnxXf",
+      "album_name": "Stitch rettet Weihnachten",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485182599b4d30caa94b7f415789",
       "is_new": false,
       "release_date": "2026-10-22"
     },
@@ -420,48 +431,15 @@
       "release_date": "2026-10-22"
     },
     {
-      "album_id": "1uXaIzjpjDrB3eMwbqnxXf",
-      "album_name": "Stitch rettet Weihnachten",
-      "album_type": "album",
-      "artist": "Disney",
-      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "album_id": "5RpMu1ANIerj5wtw12jRO7",
+      "album_name": "Morticia",
+      "album_type": "single",
+      "artist": "Clever",
+      "artist_id": "5yy76ufVriyvidNSvXlRU1",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485182599b4d30caa94b7f415789",
+      "image": "https://i.scdn.co/image/ab67616d00004851d2cadfc9469c0febe4c1c8cc",
       "is_new": false,
       "release_date": "2026-10-22"
-    },
-    {
-      "album_id": "4q5OSaJVTrfLYcVeOOQAbM",
-      "album_name": "最後に熱い日々を狂わしき想いで",
-      "album_type": "album",
-      "artist": "aiko",
-      "artist_id": "6TDMbiQCWeMClsMr9ORLRK",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485197f89d61b8c6900b34703b5b",
-      "is_new": false,
-      "release_date": "2026-10-21"
-    },
-    {
-      "album_id": "4B8fhucelhrf7gzdy7JoJ6",
-      "album_name": "恋のせい",
-      "album_type": "single",
-      "artist": "音田 雅則",
-      "artist_id": "7KSbqXHO0xzNQhzaIWILIo",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851bbaa047ddd54bd0434f785e7",
-      "is_new": false,
-      "release_date": "2026-10-21"
-    },
-    {
-      "album_id": "2SrERveIqyCZs2GBNZ3zFs",
-      "album_name": "奇跡の地球 (ライブ)",
-      "album_type": "single",
-      "artist": "Kazutoshi Sakurai",
-      "artist_id": "4zDHk92mbBkXMT6QIisUvN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851513dfaae26c7edf07d533397",
-      "is_new": false,
-      "release_date": "2026-10-21"
     }
   ]
 }
