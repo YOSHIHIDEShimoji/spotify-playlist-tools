@@ -637,6 +637,14 @@
         "The Beatles"
       ],
       "count": 107,
+      "name": "I Saw Her Standing There - Remastered 2009",
+      "track_id": "3KiexfmhxHvG5IgAElmTkd"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 107,
       "name": "Till There Was You - Remastered 2009",
       "track_id": "0ESIjVxnDnCDaTPo6sStHm"
     },
@@ -647,14 +655,6 @@
       "count": 107,
       "name": "The Fool On The Hill - Remastered 2009",
       "track_id": "6rHh8urosEFRI67xVa6fzU"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 106,
-      "name": "I Saw Her Standing There - Remastered 2009",
-      "track_id": "3KiexfmhxHvG5IgAElmTkd"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-11-04T21:38:39.540679+00:00",
+  "generated_at": "2026-11-05T21:42:47.158072+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 65228
+    "total": 65251
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 21,
+  "streak": 23,
   "weekly_top": [
     {
       "artists": [
@@ -826,6 +826,33 @@
       "image": "https://i.scdn.co/image/ab67616d00004851d26246b23c8bfa8ce543b3bb",
       "name": "Something Big",
       "track_id": "4eQznxonJdR6NEksFNHMCT"
+    },
+    {
+      "artists": [
+        "yung kai"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
+      "name": "blue",
+      "track_id": "3be9ACTxtcL6Zm4vJRUiPG"
+    },
+    {
+      "artists": [
+        "Lany"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
+      "name": "Act My Age",
+      "track_id": "5UkRlF0Xidx4JJ5ph4za6c"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485147f930accd8ac01686401fa2",
+      "name": "Roar",
+      "track_id": "6F5c58TMEs1byxUstkzVeM"
     },
     {
       "artists": [
@@ -856,21 +883,12 @@
     },
     {
       "artists": [
-        "ジャスティン・ビーバー"
+        "ザ・ビートルズ"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851f1d02a6cec967f8b6b78f76e",
-      "name": "Boyfriend",
-      "track_id": "3UGIZ8qcrMTwzLbx6Kttqt"
-    },
-    {
-      "artists": [
-        "ザ・ウィークエンド"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514718e2b124f79258be7bc452",
-      "name": "Starboy",
-      "track_id": "7MXVkk9YMctZqd1Srtv4MB"
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "name": "I Feel Fine - Remastered 2009",
+      "track_id": "1Q7gCIpOjIIU0bUKcGzrG4"
     },
     {
       "artists": [
@@ -955,15 +973,6 @@
     },
     {
       "artists": [
-        "yung kai"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e3c060bdd41fed06a866c494",
-      "name": "blue",
-      "track_id": "3be9ACTxtcL6Zm4vJRUiPG"
-    },
-    {
-      "artists": [
         "Reneé Rapp"
       ],
       "count": 1,
@@ -988,15 +997,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048513042c53026e29faf3a21c9f9",
       "name": "Oops (feat. Charlie Puth)",
       "track_id": "7uU7UhUzfZJ5vEMoemdcIW"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511826ebf3d171e17a23f59502",
-      "name": "Act My Age",
-      "track_id": "5UkRlF0Xidx4JJ5ph4za6c"
     },
     {
       "artists": [
@@ -1135,15 +1135,6 @@
     },
     {
       "artists": [
-        "ケイティ・ペリー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485147f930accd8ac01686401fa2",
-      "name": "Roar",
-      "track_id": "6F5c58TMEs1byxUstkzVeM"
-    },
-    {
-      "artists": [
         "Benson Boone"
       ],
       "count": 1,
@@ -1267,6 +1258,15 @@
       "image": "https://i.scdn.co/image/ab67616d000048510bd42a81fa579f7a8d7c1312",
       "name": "Changes",
       "track_id": "4kUI0vuDd0Zub4IvxxNreM"
+    },
+    {
+      "artists": [
+        "ブルーノ・マーズ"
+      ],
+      "count": 1,
+      "image": "https://i.scdn.co/image/ab67616d000048518a9eb5a1f701d1d367a5ea10",
+      "name": "Just the Way You Are",
+      "track_id": "47Slg6LuqLaX0VodpSCvPt"
     }
   ]
 }
