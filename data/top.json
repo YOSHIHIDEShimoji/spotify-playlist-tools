@@ -316,13 +316,13 @@
         "rank": 2
       },
       {
-        "id": "49tQo2QULno7gxHutgccqF",
-        "name": "LANY",
+        "id": "3WrFJ7ztbogyGnTHbHJFl2",
+        "name": "The Beatles",
         "rank": 3
       },
       {
-        "id": "3WrFJ7ztbogyGnTHbHJFl2",
-        "name": "The Beatles",
+        "id": "49tQo2QULno7gxHutgccqF",
+        "name": "LANY",
         "rank": 4
       },
       {
@@ -376,13 +376,13 @@
         "rank": 14
       },
       {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
         "rank": 15
       },
       {
-        "id": "1vCWHaC5f2uS3yhpwWbIA6",
-        "name": "Avicii",
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
         "rank": 16
       },
       {
@@ -431,33 +431,33 @@
         "rank": 25
       },
       {
-        "id": "69GGBxA162lTqCwzJG5jLp",
-        "name": "The Chainsmokers",
-        "rank": 26
-      },
-      {
         "id": "6jJ0s89eD6GaHleKKya26X",
         "name": "Katy Perry",
-        "rank": 27
+        "rank": 26
       },
       {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 28
+        "rank": 27
       },
       {
         "id": "3pc0bOVB5whxmD50W79wwO",
         "name": "keshi",
-        "rank": 29
+        "rank": 28
       },
       {
         "id": "4dpARuHxo51G3z768sgnrY",
         "name": "Adele",
+        "rank": 29
+      },
+      {
+        "id": "69GGBxA162lTqCwzJG5jLp",
+        "name": "The Chainsmokers",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-11-05T21:45:04.750072+00:00",
+  "generated_at": "2026-11-06T21:12:38.858457+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1108,21 +1108,12 @@
       },
       {
         "artists": [
-          "Coldplay"
-        ],
-        "id": "7wBrglFVTNCcW6IhdgBkm1",
-        "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
-        "name": "Paradise",
-        "rank": 11
-      },
-      {
-        "artists": [
           "Avicii"
         ],
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 12
+        "rank": 11
       },
       {
         "artists": [
@@ -1131,7 +1122,7 @@
         "id": "0ZR0D8BOyH1b8vtrSnA5Xu",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Room For You",
-        "rank": 13
+        "rank": 12
       },
       {
         "artists": [
@@ -1140,7 +1131,7 @@
         "id": "0kN8xEmgMW9mh7UmDYHlJP",
         "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
         "name": "Versace on the Floor",
-        "rank": 14
+        "rank": 13
       },
       {
         "artists": [
@@ -1149,7 +1140,7 @@
         "id": "1Yk0cQdMLx5RzzFTYwmuld",
         "image": "https://i.scdn.co/image/ab67616d000048517b9888dc365b8f957c63df14",
         "name": "Hello",
-        "rank": 15
+        "rank": 14
       },
       {
         "artists": [
@@ -1158,7 +1149,7 @@
         "id": "2OupMbGCv1k6UDN0ay6sdt",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "ten years time",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -1167,7 +1158,7 @@
         "id": "2P4OICZRVAQcYAV2JReRfj",
         "image": "https://i.scdn.co/image/ab67616d000048515393c5d3cac806092a9bc468",
         "name": "Waiting For Love",
-        "rank": 17
+        "rank": 16
       },
       {
         "artists": [
@@ -1176,7 +1167,7 @@
         "id": "2WnAKZefdRHxtBEkRjFOHC",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Anyone",
-        "rank": 18
+        "rank": 17
       },
       {
         "artists": [
@@ -1185,7 +1176,7 @@
         "id": "2kLWSmKHhfUBepkIA9oNe5",
         "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
         "name": "Abyss - from Kaiju No. 8",
-        "rank": 19
+        "rank": 18
       },
       {
         "artists": [
@@ -1194,7 +1185,7 @@
         "id": "3KW0gOfzhckFmxi4c8tPhA",
         "image": "https://i.scdn.co/image/ab67616d00004851452eab95b1147fd8376f2006",
         "name": "Collide",
-        "rank": 20
+        "rank": 19
       },
       {
         "artists": [
@@ -1204,7 +1195,7 @@
         "id": "3ScJy88F8KqGDfWu8XJhHx",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 21
+        "rank": 20
       },
       {
         "artists": [
@@ -1213,7 +1204,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -1222,7 +1213,7 @@
         "id": "3TgMcrV32NUKjEG2ujn9eh",
         "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
         "name": "It's Not Living (If It's Not With You)",
-        "rank": 23
+        "rank": 22
       },
       {
         "artists": [
@@ -1231,7 +1222,7 @@
         "id": "3YM33EBnwRe7G7aUPVQ7lY",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Red Light Green Light",
-        "rank": 24
+        "rank": 23
       },
       {
         "artists": [
@@ -1240,7 +1231,7 @@
         "id": "3cOO5IQtOYs7huq4Z6lYfr",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "Love Runs Out",
-        "rank": 25
+        "rank": 24
       },
       {
         "artists": [
@@ -1249,7 +1240,7 @@
         "id": "3nsYC8LMmGNKyAYog7Xhx3",
         "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
         "name": "All My Days",
-        "rank": 26
+        "rank": 25
       },
       {
         "artists": [
@@ -1258,7 +1249,7 @@
         "id": "45nGWJRXJmYF4g3l4iuUyN",
         "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
         "name": "Finish Me",
-        "rank": 27
+        "rank": 26
       },
       {
         "artists": [
@@ -1267,7 +1258,7 @@
         "id": "4G2Hbfwvn3oH7LxxPXjjGn",
         "image": "https://i.scdn.co/image/ab67616d0000485149055dce3554e72e82082980",
         "name": "Treasure",
-        "rank": 28
+        "rank": 27
       },
       {
         "artists": [
@@ -1276,7 +1267,7 @@
         "id": "4Yf6QS1hjFWT1qMqvpzNcK",
         "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
         "name": "Look at My Life",
-        "rank": 29
+        "rank": 28
       },
       {
         "artists": [
@@ -1287,6 +1278,16 @@
         "id": "4iJyoBOLtHqaGxP12qzhQI",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Peaches (feat. Daniel Caesar & Giveon)",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Sean Kingston",
+          "Justin Bieber"
+        ],
+        "id": "4vVTI94F9uJ8lHNDWKv0i2",
+        "image": "https://i.scdn.co/image/ab67616d000048514dea4c1cdf30c359dbaec318",
+        "name": "Eenie Meenie",
         "rank": 30
       }
     ]
