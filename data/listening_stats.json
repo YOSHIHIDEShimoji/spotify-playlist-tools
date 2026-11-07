@@ -212,7 +212,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 146,
+      "count": 147,
       "name": "No Reply - Remastered 2009",
       "track_id": "4ltC6PrqkTtpcRNi5lvS4z"
     },
@@ -626,19 +626,19 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 108,
+      "name": "I Saw Her Standing There - Remastered 2009",
+      "track_id": "3KiexfmhxHvG5IgAElmTkd"
+    },
+    {
+      "artists": [
         "Maroon 5"
       ],
       "count": 108,
       "name": "Payphone",
       "track_id": "1XGmzt0PVuFgQYYnV2It7A"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 107,
-      "name": "I Saw Her Standing There - Remastered 2009",
-      "track_id": "3KiexfmhxHvG5IgAElmTkd"
     },
     {
       "artists": [
@@ -722,6 +722,14 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 104,
+      "name": "Ask Me Why - Remastered 2009",
+      "track_id": "7529Z6b1rlGZFFPWjHPeV5"
+    },
+    {
+      "artists": [
         "Aimyon"
       ],
       "count": 103,
@@ -733,8 +741,8 @@
         "The Beatles"
       ],
       "count": 103,
-      "name": "Ask Me Why - Remastered 2009",
-      "track_id": "7529Z6b1rlGZFFPWjHPeV5"
+      "name": "Please Please Me - Remastered 2009",
+      "track_id": "6EHuOufBeL6vk3TvVJB5qo"
     },
     {
       "artists": [
@@ -765,8 +773,8 @@
         "The Beatles"
       ],
       "count": 102,
-      "name": "Please Please Me - Remastered 2009",
-      "track_id": "6EHuOufBeL6vk3TvVJB5qo"
+      "name": "Anna (Go To Him) - Remastered 2009",
+      "track_id": "2baEFuU0gQon0hgVRioI1o"
     },
     {
       "artists": [
@@ -791,17 +799,9 @@
       "count": 101,
       "name": "Back In The U.S.S.R. - Remastered 2009",
       "track_id": "0j3p1p06deJ7f9xmJ9yG22"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 101,
-      "name": "Anna (Go To Him) - Remastered 2009",
-      "track_id": "2baEFuU0gQon0hgVRioI1o"
     }
   ],
-  "generated_at": "2026-11-06T21:10:25.812641+00:00",
+  "generated_at": "2026-11-07T19:45:32.553233+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,20 +813,11 @@
       5000,
       10000
     ],
-    "total": 65263
+    "total": 65275
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 23,
+  "streak": 24,
   "weekly_top": [
-    {
-      "artists": [
-        "ジョン・レノン"
-      ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Imagine - Ultimate Mix",
-      "track_id": "6VKGB8b37Ju8iw9DzugVw3"
-    },
     {
       "artists": [
         "ショーン・メンデス"
@@ -886,6 +877,15 @@
         "ザ・ビートルズ"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "Anna (Go To Him) - Remastered 2009",
+      "track_id": "2baEFuU0gQon0hgVRioI1o"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
       "name": "Hey Jude - Remastered 2009",
       "track_id": "3m7V717IKZqZLW5qUIOxdD"
@@ -904,9 +904,36 @@
         "ザ・ビートルズ"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "Please Please Me - Remastered 2009",
+      "track_id": "6EHuOufBeL6vk3TvVJB5qo"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
+      "name": "No Reply - Remastered 2009",
+      "track_id": "4ltC6PrqkTtpcRNi5lvS4z"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
       "name": "Let It Be - Remastered 2009",
       "track_id": "7iN1s7xHE4ifF5povM6A48"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "Chains - Remastered 2009",
+      "track_id": "3JQWLa88R35d971o5bIImd"
     },
     {
       "artists": [
@@ -914,8 +941,44 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d000048514ba32dba27854f0f7457f445",
-      "name": "Jealous Guy - Ultimate Mix",
-      "track_id": "7CnLOnPnWy1eES9UWq6U1j"
+      "name": "Imagine - Ultimate Mix",
+      "track_id": "6VKGB8b37Ju8iw9DzugVw3"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "I Saw Her Standing There - Remastered 2009",
+      "track_id": "3KiexfmhxHvG5IgAElmTkd"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "Misery - Remastered 2009",
+      "track_id": "40qXGg5nRbcWzcFb26KWkQ"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "Love Me Do - Remastered 2009",
+      "track_id": "3VbGCXWRiouAq8VyMYN2MI"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+      "name": "P.S. I Love You - Remastered 2009",
+      "track_id": "7Msq9qojB7yORuJvz49iUy"
     },
     {
       "artists": [
@@ -1204,69 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
       "name": "Sunflower - Spider-Man: Into the Spider-Verse",
       "track_id": "0RiRZpuVRbi7oqRdSMwhQY"
-    },
-    {
-      "artists": [
-        "テイラー・スウィフト"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a35a1d4983e2b4fd0094f910",
-      "name": "I Knew It, I Knew You - From \"Toy Story 5\"",
-      "track_id": "5uPaqMMt59KGrdKIitDRqa"
-    },
-    {
-      "artists": [
-        "クリーン・バンディット"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "name": "Rather Be (feat. Jess Glynne)",
-      "track_id": "61dCUoMCg28qEBzrW6htYM"
-    },
-    {
-      "artists": [
-        "ヴァネッサ・カールトン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851bc3ada3a19bb4e657f10917e",
-      "name": "A thousand miles",
-      "track_id": "4w1lzcaoZ1IC2K5TwjalRP"
-    },
-    {
-      "artists": [
-        "クリーン・バンディット"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515b1130d050c4cd2295999d85",
-      "name": "Symphony (feat. Zara Larsson)",
-      "track_id": "1x5sYLZiu9r5E43kMlt9f8"
-    },
-    {
-      "artists": [
-        "テイラー・スウィフト"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851e1bc852a04501952c765d5cd",
-      "name": "Back to December",
-      "track_id": "0tr6XR58KBdDYd8qvHVTs8"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "What You Wanted",
-      "track_id": "0ILXYaWxMQVEXnKq2eTmjW"
-    },
-    {
-      "artists": [
-        "チャーリー・プース"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851043168fd87de1ce066b4afa3",
-      "name": "Smells Like Me",
-      "track_id": "3brfhVrVESFlfqE1IdlFdp"
     }
   ]
 }
