@@ -77,13 +77,13 @@
         "rank": 15
       },
       {
-        "id": "0du5cEVh5yTK9QJze8zA0C",
-        "name": "Bruno Mars",
+        "id": "1dfeR4HaWDbWqFHLkxsg1d",
+        "name": "Queen",
         "rank": 16
       },
       {
-        "id": "1dfeR4HaWDbWqFHLkxsg1d",
-        "name": "Queen",
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
         "rank": 17
       },
       {
@@ -336,23 +336,23 @@
         "rank": 6
       },
       {
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
         "rank": 7
       },
       {
-        "id": "6eUKZXaKkcviH0Ku9w2n3V",
-        "name": "Ed Sheeran",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
         "rank": 8
-      },
-      {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
-        "rank": 9
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
+        "rank": 9
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
         "rank": 10
       },
       {
@@ -381,18 +381,18 @@
         "rank": 15
       },
       {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
-        "rank": 16
-      },
-      {
         "id": "1dfeR4HaWDbWqFHLkxsg1d",
         "name": "Queen",
-        "rank": 17
+        "rank": 16
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
+        "rank": 17
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
         "rank": 18
       },
       {
@@ -401,23 +401,23 @@
         "rank": 19
       },
       {
-        "id": "64KEffDW9EtZ1y2vBYgq8T",
-        "name": "Marshmello",
-        "rank": 20
-      },
-      {
         "id": "53XhwfbYqKCa1cC15pYq2q",
         "name": "Imagine Dragons",
-        "rank": 21
+        "rank": 20
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 22
+        "rank": 21
       },
       {
         "id": "4tuJ0bMpJh08umKkEXKUI5",
         "name": "Gracie Abrams",
+        "rank": 22
+      },
+      {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
         "rank": 23
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-08T20:06:18.560541+00:00",
+  "generated_at": "2026-11-09T23:57:32.794447+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1041,12 +1041,21 @@
       },
       {
         "artists": [
+          "The Beatles"
+        ],
+        "id": "3KiexfmhxHvG5IgAElmTkd",
+        "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+        "name": "I Saw Her Standing There - Remastered 2009",
+        "rank": 4
+      },
+      {
+        "artists": [
           "keshi"
         ],
         "id": "41EnM4giX9PJYZIBUCPmiI",
         "image": "https://i.scdn.co/image/ab67616d000048513dfa5d71dad925112f5d5b9a",
         "name": "I Choose You",
-        "rank": 4
+        "rank": 5
       },
       {
         "artists": [
@@ -1057,7 +1066,7 @@
         "id": "0BLb9ln9kg9OgO7W1jN3e2",
         "image": "https://i.scdn.co/image/ab67616d000048512b848fb93c30954ccac4add6",
         "name": "Light It Up",
-        "rank": 5
+        "rank": 6
       },
       {
         "artists": [
@@ -1066,7 +1075,7 @@
         "id": "0LutvoC2HqCfnaRSjrhtzo",
         "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
         "name": "WALKING AWAY",
-        "rank": 6
+        "rank": 7
       },
       {
         "artists": [
@@ -1076,7 +1085,7 @@
         "id": "5gzZnru34wdecgMUQR2UO0",
         "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
         "name": "You Were Loved (with OneRepublic)",
-        "rank": 7
+        "rank": 8
       },
       {
         "artists": [
@@ -1086,7 +1095,7 @@
         "id": "7so0lgd0zP2Sbgs2d7a1SZ",
         "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
         "name": "Die With A Smile",
-        "rank": 8
+        "rank": 9
       },
       {
         "artists": [
@@ -1096,7 +1105,7 @@
         "id": "7BqHUALzNBTanL6OvsqmC1",
         "image": "https://i.scdn.co/image/ab67616d00004851dd0a40eecd4b13e4c59988da",
         "name": "Happier",
-        "rank": 9
+        "rank": 10
       },
       {
         "artists": [
@@ -1105,15 +1114,6 @@
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 10
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "0ZR0D8BOyH1b8vtrSnA5Xu",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "Room For You",
         "rank": 11
       },
       {
@@ -1145,21 +1145,12 @@
       },
       {
         "artists": [
-          "Henry Moodie"
-        ],
-        "id": "2OupMbGCv1k6UDN0ay6sdt",
-        "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
-        "name": "ten years time",
-        "rank": 15
-      },
-      {
-        "artists": [
           "Avicii"
         ],
         "id": "2P4OICZRVAQcYAV2JReRfj",
         "image": "https://i.scdn.co/image/ab67616d000048515393c5d3cac806092a9bc468",
         "name": "Waiting For Love",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
@@ -1168,16 +1159,7 @@
         "id": "2WnAKZefdRHxtBEkRjFOHC",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Anyone",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "YUNGBLUD"
-        ],
-        "id": "2kLWSmKHhfUBepkIA9oNe5",
-        "image": "https://i.scdn.co/image/ab67616d0000485119eb8cff3ed753683309e485",
-        "name": "Abyss - from Kaiju No. 8",
-        "rank": 18
+        "rank": 16
       },
       {
         "artists": [
@@ -1186,16 +1168,7 @@
         "id": "3KW0gOfzhckFmxi4c8tPhA",
         "image": "https://i.scdn.co/image/ab67616d00004851452eab95b1147fd8376f2006",
         "name": "Collide",
-        "rank": 19
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "3KiexfmhxHvG5IgAElmTkd",
-        "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
-        "name": "I Saw Her Standing There - Remastered 2009",
-        "rank": 20
+        "rank": 17
       },
       {
         "artists": [
@@ -1205,7 +1178,7 @@
         "id": "3ScJy88F8KqGDfWu8XJhHx",
         "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
         "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 21
+        "rank": 18
       },
       {
         "artists": [
@@ -1214,7 +1187,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 22
+        "rank": 19
       },
       {
         "artists": [
@@ -1223,7 +1196,7 @@
         "id": "3TgMcrV32NUKjEG2ujn9eh",
         "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
         "name": "It's Not Living (If It's Not With You)",
-        "rank": 23
+        "rank": 20
       },
       {
         "artists": [
@@ -1232,16 +1205,7 @@
         "id": "3YM33EBnwRe7G7aUPVQ7lY",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Red Light Green Light",
-        "rank": 24
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "3cOO5IQtOYs7huq4Z6lYfr",
-        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-        "name": "Love Runs Out",
-        "rank": 25
+        "rank": 21
       },
       {
         "artists": [
@@ -1250,7 +1214,7 @@
         "id": "3nsYC8LMmGNKyAYog7Xhx3",
         "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
         "name": "All My Days",
-        "rank": 26
+        "rank": 22
       },
       {
         "artists": [
@@ -1259,7 +1223,7 @@
         "id": "45nGWJRXJmYF4g3l4iuUyN",
         "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
         "name": "Finish Me",
-        "rank": 27
+        "rank": 23
       },
       {
         "artists": [
@@ -1268,16 +1232,7 @@
         "id": "4G2Hbfwvn3oH7LxxPXjjGn",
         "image": "https://i.scdn.co/image/ab67616d0000485149055dce3554e72e82082980",
         "name": "Treasure",
-        "rank": 28
-      },
-      {
-        "artists": [
-          "Gracie Abrams"
-        ],
-        "id": "4Yf6QS1hjFWT1qMqvpzNcK",
-        "image": "https://i.scdn.co/image/ab67616d0000485199bc33b47a0a67fd50783055",
-        "name": "Look at My Life",
-        "rank": 29
+        "rank": 24
       },
       {
         "artists": [
@@ -1288,6 +1243,52 @@
         "id": "4iJyoBOLtHqaGxP12qzhQI",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Peaches (feat. Daniel Caesar & Giveon)",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "4ltC6PrqkTtpcRNi5lvS4z",
+        "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
+        "name": "No Reply - Remastered 2009",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Sean Kingston",
+          "Justin Bieber"
+        ],
+        "id": "4vVTI94F9uJ8lHNDWKv0i2",
+        "image": "https://i.scdn.co/image/ab67616d000048514dea4c1cdf30c359dbaec318",
+        "name": "Eenie Meenie",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "Vanessa Carlton"
+        ],
+        "id": "4w1lzcaoZ1IC2K5TwjalRP",
+        "image": "https://i.scdn.co/image/ab67616d00004851bc3ada3a19bb4e657f10917e",
+        "name": "A Thousand Miles",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Charlie Puth"
+        ],
+        "id": "5TTyyKNJZHONhjtAiXL1nG",
+        "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
+        "name": "Hero",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "Aerosmith"
+        ],
+        "id": "5qlJg0Wbj3sslxfwiaRNpq",
+        "image": "https://i.scdn.co/image/ab67616d00004851f039d2a6afcfab0827bb9bc0",
+        "name": "I Don't Want To Miss A Thing - From \"Armageddon\" Soundtrack",
         "rank": 30
       }
     ]
