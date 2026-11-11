@@ -396,23 +396,23 @@
         "rank": 18
       },
       {
-        "id": "5ZsFI1h6hIdQRw2ti0hz81",
-        "name": "ZAYN",
-        "rank": 19
-      },
-      {
         "id": "53XhwfbYqKCa1cC15pYq2q",
         "name": "Imagine Dragons",
-        "rank": 20
+        "rank": 19
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 21
+        "rank": 20
       },
       {
         "id": "4tuJ0bMpJh08umKkEXKUI5",
         "name": "Gracie Abrams",
+        "rank": 21
+      },
+      {
+        "id": "5ZsFI1h6hIdQRw2ti0hz81",
+        "name": "ZAYN",
         "rank": 22
       },
       {
@@ -446,18 +446,18 @@
         "rank": 28
       },
       {
-        "id": "4dpARuHxo51G3z768sgnrY",
-        "name": "Adele",
+        "id": "69GGBxA162lTqCwzJG5jLp",
+        "name": "The Chainsmokers",
         "rank": 29
       },
       {
-        "id": "69GGBxA162lTqCwzJG5jLp",
-        "name": "The Chainsmokers",
+        "id": "74KM79TiuVKeVCqs8QtB0B",
+        "name": "Sabrina Carpenter",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-11-10T21:37:27.399293+00:00",
+  "generated_at": "2026-11-11T22:25:16.235140+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1072,8 +1072,8 @@
         "artists": [
           "Justin Bieber"
         ],
-        "id": "0LutvoC2HqCfnaRSjrhtzo",
-        "image": "https://i.scdn.co/image/ab67616d00004851d65c4773bc5061fd27facc5b",
+        "id": "4j1CIdkHupnUFqLzcBfIIH",
+        "image": "https://i.scdn.co/image/ab67616d00004851cd94f516227c9a79df614af3",
         "name": "WALKING AWAY",
         "rank": 7
       },
@@ -1200,30 +1200,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "3YM33EBnwRe7G7aUPVQ7lY",
-        "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
-        "name": "Red Light Green Light",
-        "rank": 21
-      },
-      {
-        "artists": [
           "Side Saddle"
         ],
         "id": "3nsYC8LMmGNKyAYog7Xhx3",
         "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
         "name": "All My Days",
-        "rank": 22
-      },
-      {
-        "artists": [
-          "LANY"
-        ],
-        "id": "45nGWJRXJmYF4g3l4iuUyN",
-        "image": "https://i.scdn.co/image/ab67616d00004851bfa8a400e5931042691af196",
-        "name": "Finish Me",
-        "rank": 23
+        "rank": 21
       },
       {
         "artists": [
@@ -1232,7 +1214,7 @@
         "id": "4G2Hbfwvn3oH7LxxPXjjGn",
         "image": "https://i.scdn.co/image/ab67616d0000485149055dce3554e72e82082980",
         "name": "Treasure",
-        "rank": 24
+        "rank": 22
       },
       {
         "artists": [
@@ -1243,7 +1225,7 @@
         "id": "4iJyoBOLtHqaGxP12qzhQI",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Peaches (feat. Daniel Caesar & Giveon)",
-        "rank": 25
+        "rank": 23
       },
       {
         "artists": [
@@ -1252,7 +1234,7 @@
         "id": "4ltC6PrqkTtpcRNi5lvS4z",
         "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
         "name": "No Reply - Remastered 2009",
-        "rank": 26
+        "rank": 24
       },
       {
         "artists": [
@@ -1262,7 +1244,7 @@
         "id": "4vVTI94F9uJ8lHNDWKv0i2",
         "image": "https://i.scdn.co/image/ab67616d000048514dea4c1cdf30c359dbaec318",
         "name": "Eenie Meenie",
-        "rank": 27
+        "rank": 25
       },
       {
         "artists": [
@@ -1271,7 +1253,7 @@
         "id": "4w1lzcaoZ1IC2K5TwjalRP",
         "image": "https://i.scdn.co/image/ab67616d00004851bc3ada3a19bb4e657f10917e",
         "name": "A Thousand Miles",
-        "rank": 28
+        "rank": 26
       },
       {
         "artists": [
@@ -1280,15 +1262,34 @@
         "id": "5TTyyKNJZHONhjtAiXL1nG",
         "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
         "name": "Hero",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "Clean Bandit",
+          "Jess Glynne"
+        ],
+        "id": "61dCUoMCg28qEBzrW6htYM",
+        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+        "name": "Rather Be (feat. Jess Glynne)",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "LANY"
+        ],
+        "id": "68BpjQ7Vc8uUHvUKMcLLHe",
+        "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
+        "name": "(what i wish just one person would say to me)",
         "rank": 29
       },
       {
         "artists": [
-          "Aerosmith"
+          "The Beatles"
         ],
-        "id": "5qlJg0Wbj3sslxfwiaRNpq",
-        "image": "https://i.scdn.co/image/ab67616d00004851f039d2a6afcfab0827bb9bc0",
-        "name": "I Don't Want To Miss A Thing - From \"Armageddon\" Soundtrack",
+        "id": "6rHh8urosEFRI67xVa6fzU",
+        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+        "name": "The Fool On The Hill - Remastered 2009",
         "rank": 30
       }
     ]
