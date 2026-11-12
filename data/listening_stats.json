@@ -594,19 +594,19 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 111,
+      "name": "Here Comes The Sun - Remastered 2009",
+      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
+    },
+    {
+      "artists": [
         "ONE OK ROCK"
       ],
       "count": 111,
       "name": "Renegades",
       "track_id": "3RpFwqdROrxJvHywpT1pJ4"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 110,
-      "name": "Here Comes The Sun - Remastered 2009",
-      "track_id": "6dGnYIeXmHdcikdzNNDMm2"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     }
   ],
-  "generated_at": "2026-11-11T22:23:12.459603+00:00",
+  "generated_at": "2026-11-12T21:59:04.398069+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 65452
+    "total": 65506
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 29,
+  "streak": 30,
   "weekly_top": [
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485128b8b9b46428896e6491e97a",
+      "name": "Yellow Submarine - Remastered 2009",
+      "track_id": "50xwQXPtfNZFKFeZ0XePWc"
+    },
     {
       "artists": [
         "ザ・ビートルズ"
@@ -826,6 +835,33 @@
       "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
       "name": "Your Mother Should Know - Remastered 2009",
       "track_id": "1dxbAIfCASqv6jix2R1Taj"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "name": "All You Need Is Love - Remastered 2009",
+      "track_id": "68BTFws92cRztMS1oQ7Ewj"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "name": "Across The Universe - Remastered 2009",
+      "track_id": "4dkoqJrP0L8FXftrMZongF"
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "name": "I Me Mine - Remastered 2009",
+      "track_id": "2BMqay80iBzZTa608Y1eG1"
     },
     {
       "artists": [
@@ -1231,42 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
       "name": "Rock And Roll Music - Remastered 2009",
       "track_id": "7Ho3T7ERfooiAfvODaMQ2N"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "I'll Follow The Sun - Remastered 2009",
-      "track_id": "45WX2cfbL8bCIqv3rOq1G3"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "Mr Moonlight - Remastered 2009",
-      "track_id": "6pPOkr2OxhQ6htrzOiDmq9"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "Kansas City / Hey-Hey-Hey-Hey - Medley / Remastered 2009",
-      "track_id": "5xf0zdP4KCfshyVn02D3Ea"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "Eight Days A Week - Remastered 2009",
-      "track_id": "1Dg4dFJr3HW7sbA7vPejre"
     }
   ]
 }

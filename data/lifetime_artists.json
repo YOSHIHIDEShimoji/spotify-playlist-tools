@@ -1,11 +1,11 @@
 {
   "artists": [
     {
-      "count": 15809,
+      "count": 15811,
       "first": "2019-09-05",
       "id": "3WrFJ7ztbogyGnTHbHJFl2",
       "image": "https://i.scdn.co/image/ab67616100005174119b61b35985e3b957c5ecb7",
-      "last": "2026-11-11",
+      "last": "2026-11-13",
       "ms": 2380205759,
       "name": "The Beatles",
       "tracks": 472,
@@ -17,7 +17,7 @@
         "2023": 846,
         "2024": 2399,
         "2025": 1237,
-        "2026": 1064
+        "2026": 1066
       }
     },
     {
@@ -438,6 +438,19 @@
       }
     },
     {
+      "count": 324,
+      "first": "2024-08-10",
+      "id": "5w5w3P76LNwloNryCPiADq",
+      "last": "2026-11-13",
+      "ms": 33920,
+      "name": "ザ・ビートルズ",
+      "tracks": 206,
+      "years": {
+        "2024": 1,
+        "2026": 323
+      }
+    },
+    {
       "count": 307,
       "first": "2020-06-13",
       "id": "0gxyHStUsqpMadRV0Di1Qt",
@@ -519,19 +532,6 @@
       "tracks": 39,
       "years": {
         "2026": 279
-      }
-    },
-    {
-      "count": 279,
-      "first": "2024-08-10",
-      "id": "5w5w3P76LNwloNryCPiADq",
-      "last": "2026-11-12",
-      "ms": 33920,
-      "name": "ザ・ビートルズ",
-      "tracks": 189,
-      "years": {
-        "2024": 1,
-        "2026": 278
       }
     },
     {
@@ -4021,6 +4021,22 @@
     },
     {
       "count": 26,
+      "first": "2020-07-10",
+      "id": "4Fgf6RvuWpiwDXSE7Vammx",
+      "image": "https://i.scdn.co/image/99a77f2d142761bd40ca5f5d7fb2bda987b15399",
+      "last": "2026-11-12",
+      "ms": 2564568,
+      "name": "George Martin",
+      "tracks": 7,
+      "years": {
+        "2020": 5,
+        "2024": 8,
+        "2025": 1,
+        "2026": 12
+      }
+    },
+    {
+      "count": 26,
       "first": "2025-12-12",
       "id": "5y2Xq6xcjJb2jVM54GHK3t",
       "image": "https://i.scdn.co/image/ab6761610000517417510421a3d87ada21397a1f",
@@ -4332,22 +4348,6 @@
         "2024": 1,
         "2025": 12,
         "2026": 2
-      }
-    },
-    {
-      "count": 19,
-      "first": "2020-07-10",
-      "id": "4Fgf6RvuWpiwDXSE7Vammx",
-      "image": "https://i.scdn.co/image/99a77f2d142761bd40ca5f5d7fb2bda987b15399",
-      "last": "2026-05-24",
-      "ms": 2564568,
-      "name": "George Martin",
-      "tracks": 6,
-      "years": {
-        "2020": 5,
-        "2024": 8,
-        "2025": 1,
-        "2026": 5
       }
     },
     {
@@ -18699,5 +18699,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-11T22:24:10.612997+00:00"
+  "generated_at": "2026-11-12T22:00:01.599797+00:00"
 }

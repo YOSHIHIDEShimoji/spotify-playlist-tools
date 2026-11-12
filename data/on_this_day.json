@@ -1,73 +1,41 @@
 {
-  "date": "11-12",
-  "generated_at": "2026-11-11T22:24:10.736957+00:00",
+  "date": "11-13",
+  "generated_at": "2026-11-12T22:00:01.721633+00:00",
   "years": [
     {
-      "plays": 29,
+      "plays": 21,
       "tracks": [
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 2,
-          "name": "愛とか恋とか",
-          "track_id": "1VHL1PIkhDwWbFc65xHwOr"
-        },
         {
           "artists": [
             "ONE OK ROCK"
           ],
           "count": 2,
+          "name": "Renegades",
+          "track_id": "3RpFwqdROrxJvHywpT1pJ4"
+        },
+        {
+          "artists": [
+            "ONE OK ROCK"
+          ],
+          "count": 1,
+          "name": "The Beginning",
+          "track_id": "1J6MFj60gFCvYqOtjoYkM0"
+        },
+        {
+          "artists": [
+            "ONE OK ROCK"
+          ],
+          "count": 1,
           "name": "Broken Heart of Gold",
           "track_id": "2SRmR6w3MMCA0UwAtKkVrZ"
         },
         {
           "artists": [
-            "YUNGBLUD"
-          ],
-          "count": 2,
-          "name": "Abyss - from Kaiju No. 8",
-          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
-        },
-        {
-          "artists": [
-            "Jason Derulo"
-          ],
-          "count": 2,
-          "name": "Want to Want Me",
-          "track_id": "6zKrj4SomgfbvsfuTAuElE"
-        },
-        {
-          "artists": [
-            "Novelbright"
+            "OneRepublic"
           ],
           "count": 1,
-          "name": "Walking with you",
-          "track_id": "7tGDXCPLpAScEwmqab9YZd"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 1,
-          "name": "開幕宣言",
-          "track_id": "093KHY83BAuupQoAs4TpSh"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 1,
-          "name": "雪の音",
-          "track_id": "2Wahb8YS7s2zPFRVK3l5gT"
-        },
-        {
-          "artists": [
-            "Novelbright"
-          ],
-          "count": 1,
-          "name": "夢花火",
-          "track_id": "4CqQqMqOQKuvAUDyTDRvtv"
+          "name": "Nobody - from Kaiju No. 8",
+          "track_id": "47N81NMkB488fuOwOC3Oip"
         },
         {
           "artists": [
@@ -83,21 +51,69 @@
           ],
           "count": 1,
           "name": "ツキミソウ",
-          "track_id": "0UWTRBGWfOp709f6rxd63R"
+          "track_id": "6sElEqOIGENWjpxGFeo5ct"
+        },
+        {
+          "artists": [
+            "YUNGBLUD"
+          ],
+          "count": 1,
+          "name": "Abyss - from Kaiju No. 8",
+          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
+        },
+        {
+          "artists": [
+            "Kana Nishino"
+          ],
+          "count": 1,
+          "name": "トリセツ",
+          "track_id": "23b0C1AE9Jt408lzWIvPSn"
+        },
+        {
+          "artists": [
+            "YOASOBI"
+          ],
+          "count": 1,
+          "name": "ハルカ",
+          "track_id": "6wKmxUeMJAoz2GpMrw95z5"
+        },
+        {
+          "artists": [
+            "Katsuo Ohno"
+          ],
+          "count": 1,
+          "name": "蘭のテーマ - 世紀末ヴァージョン",
+          "track_id": "6lJq0JMOFI9MN47AOJrwEC"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 86,
+      "plays": 13,
       "tracks": [
         {
           "artists": [
-            "The Beatles"
+            "SPITZ"
           ],
-          "count": 2,
-          "name": "Think For Yourself - Remastered 2009",
-          "track_id": "64bKVrkaXQAKx04dLHqCNz"
+          "count": 1,
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "Mao"
+          ],
+          "count": 1,
+          "name": "夢をかなえてドラえもん",
+          "track_id": "6FEABJMKAHeFuz3OrKw5ix"
+        },
+        {
+          "artists": [
+            "Kenji Sawada"
+          ],
+          "count": 1,
+          "name": "ヤマトより愛をこめて",
+          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
         },
         {
           "artists": [
@@ -109,97 +125,73 @@
         },
         {
           "artists": [
-            "Taylor Swift"
+            "The Jackson 5"
           ],
           "count": 1,
-          "name": "Lover",
-          "track_id": "1dGr1c8CrMLDpV6mPbImSI"
+          "name": "I Want You Back",
+          "track_id": "2OSfEYKhlSsLx6vn4O75RK"
         },
         {
           "artists": [
-            "OFFICIAL HIGE DANDISM"
+            "Band of Silver"
           ],
           "count": 1,
-          "name": "Same Blue",
-          "track_id": "3tRgmNTaFYgtbt7XCy6Les"
+          "name": "Enjoy the Silence",
+          "track_id": "4xdv75EPU7HdxWj2wyql7t"
         },
         {
           "artists": [
-            "Yumi Arai"
+            "The Beach Boys"
           ],
           "count": 1,
-          "name": "ルージュの伝言",
-          "track_id": "1jw992uwXhqJJ0H42ucTRL"
+          "name": "Wouldn't It Be Nice",
+          "track_id": "2Gy7qnDwt8Z3MNxqat4CsK"
         },
         {
           "artists": [
-            "Eve"
+            "Side Saddle"
           ],
           "count": 1,
-          "name": "平行線",
-          "track_id": "3v580RMq79nUPHqMFbsRco"
+          "name": "All My Days",
+          "track_id": "3nsYC8LMmGNKyAYog7Xhx3"
         },
         {
           "artists": [
-            "Novelbright"
+            "Aliotta Haynes Jeremiah"
           ],
           "count": 1,
-          "name": "夢花火",
-          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
+          "name": "Lake Shore Drive",
+          "track_id": "46MX86XQqYCZRvwPpeq4Gi"
         },
         {
           "artists": [
-            "The Beatles"
+            "*NSYNC"
           ],
           "count": 1,
-          "name": "Ask Me Why - Remastered 2009",
-          "track_id": "7529Z6b1rlGZFFPWjHPeV5"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Please Please Me - Remastered 2009",
-          "track_id": "6EHuOufBeL6vk3TvVJB5qo"
-        },
-        {
-          "artists": [
-            "The Beatles"
-          ],
-          "count": 1,
-          "name": "Love Me Do - Remastered 2009",
-          "track_id": "3VbGCXWRiouAq8VyMYN2MI"
+          "name": "Bye Bye Bye",
+          "track_id": "4r8lRYnoOGdEi6YyI5OC1o"
         }
       ],
       "year": "2024"
     },
     {
-      "plays": 22,
+      "plays": 14,
       "tracks": [
         {
           "artists": [
-            "League of Legends"
+            "Prateek Kuhad"
           ],
-          "count": 3,
-          "name": "Legends Never Die",
-          "track_id": "1FpVJ7HpZInE2GvhVE2TwT"
+          "count": 1,
+          "name": "Co2",
+          "track_id": "3hB9lDLyAClYVZivMMl20N"
         },
         {
           "artists": [
-            "Engelbert Humperdinck"
+            "d4vd"
           ],
-          "count": 2,
-          "name": "A Man Without Love",
-          "track_id": "0oUBuOO4g9P4lREqfqR5nq"
-        },
-        {
-          "artists": [
-            "Taylor Swift"
-          ],
-          "count": 2,
-          "name": "august",
-          "track_id": "3hUxzQpSfdDqwM3ZTFQY0K"
+          "count": 1,
+          "name": "Here With Me",
+          "track_id": "5LrN7yUQAzvthd4QujgPFr"
         },
         {
           "artists": [
@@ -208,14 +200,6 @@
           "count": 1,
           "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
           "track_id": "0qcr5FMsEO85NAQjrlDRKo"
-        },
-        {
-          "artists": [
-            "Stephen Sanchez"
-          ],
-          "count": 1,
-          "name": "Until I Found You (with Em Beihold) - Em Beihold Version",
-          "track_id": "1Y3LN4zO1Edc2EluIoSPJN"
         },
         {
           "artists": [
@@ -235,57 +219,65 @@
         },
         {
           "artists": [
-            "Prateek Kuhad"
+            "Engelbert Humperdinck"
           ],
           "count": 1,
-          "name": "Co2",
-          "track_id": "3hB9lDLyAClYVZivMMl20N"
+          "name": "A Man Without Love",
+          "track_id": "0oUBuOO4g9P4lREqfqR5nq"
         },
         {
           "artists": [
-            "d4vd"
+            "Taylor Swift"
           ],
           "count": 1,
-          "name": "Here With Me",
-          "track_id": "5LrN7yUQAzvthd4QujgPFr"
+          "name": "august",
+          "track_id": "3hUxzQpSfdDqwM3ZTFQY0K"
         },
         {
           "artists": [
-            "Rei Yasuda"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "Best of my Love",
-          "track_id": "1q9CwY8w7SKWkMMTuY6GOF"
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "チェリー",
+          "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "ロビンソン",
+          "track_id": "0sVnyL71jTOuMt9TZ59bws"
         }
       ],
       "year": "2023"
     },
     {
-      "plays": 8,
+      "plays": 6,
       "tracks": [
         {
           "artists": [
             "back number"
           ],
           "count": 2,
+          "name": "恋",
+          "track_id": "7f9DsQEsIoeTwKxV6shsom"
+        },
+        {
+          "artists": [
+            "back number"
+          ],
+          "count": 1,
           "name": "クリスマスソング",
           "track_id": "02OYGL6lXPVvoJDiv6tfH1"
-        },
-        {
-          "artists": [
-            "SEKAI NO OWARI"
-          ],
-          "count": 1,
-          "name": "silent",
-          "track_id": "6c5k0VC9TBzlcKwtjpzFW2"
-        },
-        {
-          "artists": [
-            "Keane"
-          ],
-          "count": 1,
-          "name": "Somewhere Only We Know",
-          "track_id": "1SKPmfSYaPsETbRHaiA18G"
         },
         {
           "artists": [
@@ -310,173 +302,95 @@
           "count": 1,
           "name": "高嶺の花子さん",
           "track_id": "2iH7om9rE3QRWOXpuGEgic"
-        },
-        {
-          "artists": [
-            "back number"
-          ],
-          "count": 1,
-          "name": "恋",
-          "track_id": "7f9DsQEsIoeTwKxV6shsom"
         }
       ],
       "year": "2022"
     },
     {
-      "plays": 11,
+      "plays": 25,
       "tracks": [
         {
           "artists": [
-            "Selena Gomez"
+            "The Chainsmokers"
           ],
           "count": 1,
-          "name": "Wolves",
-          "track_id": "0tBbt8CrmxbjRP0pueQkyU"
+          "name": "Don't Let Me Down",
+          "track_id": "0QsvXIfqM0zZoerQfsI9lm"
         },
         {
           "artists": [
-            "Axol"
+            "The Weeknd"
           ],
           "count": 1,
-          "name": "You",
-          "track_id": "1YNl1Wb2OHayqWt38EQYXf"
+          "name": "Blinding Lights",
+          "track_id": "0VjIjW4GlUZAMYd2vXMi3b"
         },
         {
           "artists": [
-            "Rita Ora"
+            "Kelly Clarkson"
           ],
           "count": 1,
-          "name": "Only Want You (feat. 6LACK)",
-          "track_id": "1fPYcrgm9wODvukYw46vcg"
+          "name": "Because of You",
+          "track_id": "0gJvqi9QyASOCtJu99tytc"
         },
         {
           "artists": [
-            "Hans Zimmer"
+            "Gym Class Heroes"
           ],
           "count": 1,
-          "name": "Now We Are Free - From \"Gladiator\" Soundtrack",
-          "track_id": "1raWfcURBd1Q3W3K0ojDCM"
+          "name": "Stereo Hearts (feat. Adam Levine)",
+          "track_id": "0qOnSQQF0yzuPWsXrQ9paz"
         },
         {
           "artists": [
-            "Michael Jackson"
+            "Maroon 5"
           ],
           "count": 1,
-          "name": "You Are Not Alone",
-          "track_id": "3AoeaZs8dFemFJr3JdzOL0"
+          "name": "Payphone",
+          "track_id": "1XGmzt0PVuFgQYYnV2It7A"
         },
         {
           "artists": [
-            "David Guetta"
+            "a-ha"
           ],
           "count": 1,
-          "name": "The Whisperer (feat. Sia)",
-          "track_id": "4J1DXVKlC7h5wSgeuULPYh"
+          "name": "Take on Me",
+          "track_id": "2WfaOiMkCvy7F5fcp2zZ8L"
         },
         {
           "artists": [
-            "Michael Jackson"
+            "Sia"
           ],
           "count": 1,
-          "name": "Scream",
-          "track_id": "4LD5dhQ3kqpqe14sGPDtBC"
+          "name": "Fire Meet Gasoline",
+          "track_id": "3Rw6shHCDFRWv3g2WmEFKv"
         },
         {
           "artists": [
-            "The Beatles"
+            "Marshmello"
           ],
           "count": 1,
-          "name": "All My Loving - Remastered 2009",
-          "track_id": "4joiWvli4qJVEW6qZV2i2J"
+          "name": "Be Kind (with Halsey)",
+          "track_id": "3Z8FwOEN59mRMxDCtb8N0A"
         },
         {
           "artists": [
-            "Kygo"
+            "The Jacksons"
           ],
           "count": 1,
-          "name": "It Ain't Me (with Selena Gomez)",
-          "track_id": "3eR23VReFzcdmS7TYCrhCe"
+          "name": "Show You the Way to Go",
+          "track_id": "3gGy2V4n2vELDCyuioZLYh"
         },
         {
           "artists": [
-            "Azumi Inoue"
+            "Ellie Goulding"
           ],
           "count": 1,
-          "name": "君をのせて",
-          "track_id": "5VVkCfHAa2ayYRBGbRyRD1"
+          "name": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+          "track_id": "3kEeZiBHzg8aIJ7iVJPl7y"
         }
       ],
       "year": "2021"
-    },
-    {
-      "plays": 8,
-      "tracks": [
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Who Wants To Live Forever",
-          "track_id": "77X4MKKCVpGSHsaErgCLzT"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Who Wants To Live Forever - Remastered 2011",
-          "track_id": "7bEfP3mGMJik4UOrf6lXjf"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "The Show Must Go On - Live / Theatre National de Chaillot, Paris / 1997",
-          "track_id": "4GRyEnshYyoShwFtgNRqKa"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "0W1uTK6I97CbjFKAVtRGfK"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "'39 - Remastered 2011",
-          "track_id": "65NTcXUtOb27NHKQ4fAcw0"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Under Pressure - Remastered 2011",
-          "track_id": "2fuCquhmrzHpu5xcA1ci9x"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "I Want To Break Free - Single Remix",
-          "track_id": "2AkmdLbVKS1steeZdy8H1l"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Don't Stop Me Now - Remastered 2011",
-          "track_id": "5T8EDUDqKcs6OSOwEsfqG7"
-        }
-      ],
-      "year": "2019"
     }
   ]
 }

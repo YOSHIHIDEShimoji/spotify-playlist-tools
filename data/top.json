@@ -336,13 +336,13 @@
         "rank": 6
       },
       {
-        "id": "4gzpq5DPGxSnKTe4SA8HAU",
-        "name": "Coldplay",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
         "rank": 7
       },
       {
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
+        "id": "4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "Coldplay",
         "rank": 8
       },
       {
@@ -366,18 +366,18 @@
         "rank": 12
       },
       {
-        "id": "3FUY2gzHeIiaesXtOAdB7A",
-        "name": "Train",
-        "rank": 13
-      },
-      {
         "id": "6wlhqnATSJIc0NQ64VxOVJ",
         "name": "Matt Hansen",
-        "rank": 14
+        "rank": 13
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
+        "rank": 14
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
         "rank": 15
       },
       {
@@ -386,13 +386,13 @@
         "rank": 16
       },
       {
-        "id": "22wbnEMDvgVIAGdFeek6ET",
-        "name": "Benson Boone",
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
         "rank": 17
       },
       {
-        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
-        "name": "One Direction",
+        "id": "4Fgf6RvuWpiwDXSE7Vammx",
+        "name": "George Martin",
         "rank": 18
       },
       {
@@ -406,18 +406,18 @@
         "rank": 20
       },
       {
+        "id": "22wbnEMDvgVIAGdFeek6ET",
+        "name": "Benson Boone",
+        "rank": 21
+      },
+      {
         "id": "4tuJ0bMpJh08umKkEXKUI5",
         "name": "Gracie Abrams",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "5ZsFI1h6hIdQRw2ti0hz81",
         "name": "ZAYN",
-        "rank": 22
-      },
-      {
-        "id": "64KEffDW9EtZ1y2vBYgq8T",
-        "name": "Marshmello",
         "rank": 23
       },
       {
@@ -426,38 +426,38 @@
         "rank": 24
       },
       {
-        "id": "4UXqAaa6dQYAk18Lv7PEgX",
-        "name": "Fall Out Boy",
-        "rank": 25
-      },
-      {
         "id": "6jJ0s89eD6GaHleKKya26X",
         "name": "Katy Perry",
-        "rank": 26
+        "rank": 25
       },
       {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 27
+        "rank": 26
       },
       {
         "id": "3pc0bOVB5whxmD50W79wwO",
         "name": "keshi",
+        "rank": 27
+      },
+      {
+        "id": "4UXqAaa6dQYAk18Lv7PEgX",
+        "name": "Fall Out Boy",
         "rank": 28
+      },
+      {
+        "id": "64KEffDW9EtZ1y2vBYgq8T",
+        "name": "Marshmello",
+        "rank": 29
       },
       {
         "id": "69GGBxA162lTqCwzJG5jLp",
         "name": "The Chainsmokers",
-        "rank": 29
-      },
-      {
-        "id": "74KM79TiuVKeVCqs8QtB0B",
-        "name": "Sabrina Carpenter",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-11-11T22:25:16.235140+00:00",
+  "generated_at": "2026-11-12T22:01:17.012125+00:00",
   "tracks": {
     "long_term": [
       {
@@ -1079,42 +1079,12 @@
       },
       {
         "artists": [
-          "Gryffin",
-          "OneRepublic"
-        ],
-        "id": "5gzZnru34wdecgMUQR2UO0",
-        "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
-        "name": "You Were Loved (with OneRepublic)",
-        "rank": 8
-      },
-      {
-        "artists": [
-          "Lady Gaga",
-          "Bruno Mars"
-        ],
-        "id": "7so0lgd0zP2Sbgs2d7a1SZ",
-        "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
-        "name": "Die With A Smile",
-        "rank": 9
-      },
-      {
-        "artists": [
-          "Marshmello",
-          "Bastille"
-        ],
-        "id": "7BqHUALzNBTanL6OvsqmC1",
-        "image": "https://i.scdn.co/image/ab67616d00004851dd0a40eecd4b13e4c59988da",
-        "name": "Happier",
-        "rank": 10
-      },
-      {
-        "artists": [
           "Avicii"
         ],
         "id": "0QjpQP1w7apeMXzioL8sqN",
         "image": "https://i.scdn.co/image/ab67616d0000485130aa949449ea897b801fd5b2",
         "name": "The Nights",
-        "rank": 11
+        "rank": 8
       },
       {
         "artists": [
@@ -1123,7 +1093,7 @@
         "id": "0kN8xEmgMW9mh7UmDYHlJP",
         "image": "https://i.scdn.co/image/ab67616d00004851232711f7d66a1e19e89e28c5",
         "name": "Versace on the Floor",
-        "rank": 12
+        "rank": 9
       },
       {
         "artists": [
@@ -1132,16 +1102,7 @@
         "id": "1Yk0cQdMLx5RzzFTYwmuld",
         "image": "https://i.scdn.co/image/ab67616d000048517b9888dc365b8f957c63df14",
         "name": "Hello",
-        "rank": 13
-      },
-      {
-        "artists": [
-          "Carly Rae Jepsen"
-        ],
-        "id": "2BaXRCVgn621xHOGoFSuW5",
-        "image": "https://i.scdn.co/image/ab67616d00004851906478ec1684465b3dca4274",
-        "name": "I Really Like You",
-        "rank": 14
+        "rank": 10
       },
       {
         "artists": [
@@ -1150,7 +1111,7 @@
         "id": "2P4OICZRVAQcYAV2JReRfj",
         "image": "https://i.scdn.co/image/ab67616d000048515393c5d3cac806092a9bc468",
         "name": "Waiting For Love",
-        "rank": 15
+        "rank": 11
       },
       {
         "artists": [
@@ -1159,7 +1120,7 @@
         "id": "2WnAKZefdRHxtBEkRjFOHC",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Anyone",
-        "rank": 16
+        "rank": 12
       },
       {
         "artists": [
@@ -1168,17 +1129,7 @@
         "id": "3KW0gOfzhckFmxi4c8tPhA",
         "image": "https://i.scdn.co/image/ab67616d00004851452eab95b1147fd8376f2006",
         "name": "Collide",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "OneRepublic",
-          "Alesso"
-        ],
-        "id": "3ScJy88F8KqGDfWu8XJhHx",
-        "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
-        "name": "If I Lose Myself - Alesso vs OneRepublic",
-        "rank": 18
+        "rank": 13
       },
       {
         "artists": [
@@ -1187,7 +1138,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 19
+        "rank": 14
       },
       {
         "artists": [
@@ -1196,7 +1147,7 @@
         "id": "3TgMcrV32NUKjEG2ujn9eh",
         "image": "https://i.scdn.co/image/ab67616d000048516c582022e90b11f0da287a9a",
         "name": "It's Not Living (If It's Not With You)",
-        "rank": 20
+        "rank": 15
       },
       {
         "artists": [
@@ -1205,16 +1156,7 @@
         "id": "3nsYC8LMmGNKyAYog7Xhx3",
         "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
         "name": "All My Days",
-        "rank": 21
-      },
-      {
-        "artists": [
-          "Bruno Mars"
-        ],
-        "id": "4G2Hbfwvn3oH7LxxPXjjGn",
-        "image": "https://i.scdn.co/image/ab67616d0000485149055dce3554e72e82082980",
-        "name": "Treasure",
-        "rank": 22
+        "rank": 16
       },
       {
         "artists": [
@@ -1225,7 +1167,7 @@
         "id": "4iJyoBOLtHqaGxP12qzhQI",
         "image": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
         "name": "Peaches (feat. Daniel Caesar & Giveon)",
-        "rank": 23
+        "rank": 17
       },
       {
         "artists": [
@@ -1234,7 +1176,7 @@
         "id": "4ltC6PrqkTtpcRNi5lvS4z",
         "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
         "name": "No Reply - Remastered 2009",
-        "rank": 24
+        "rank": 18
       },
       {
         "artists": [
@@ -1244,7 +1186,7 @@
         "id": "4vVTI94F9uJ8lHNDWKv0i2",
         "image": "https://i.scdn.co/image/ab67616d000048514dea4c1cdf30c359dbaec318",
         "name": "Eenie Meenie",
-        "rank": 25
+        "rank": 19
       },
       {
         "artists": [
@@ -1253,16 +1195,17 @@
         "id": "4w1lzcaoZ1IC2K5TwjalRP",
         "image": "https://i.scdn.co/image/ab67616d00004851bc3ada3a19bb4e657f10917e",
         "name": "A Thousand Miles",
-        "rank": 26
+        "rank": 20
       },
       {
         "artists": [
-          "Charlie Puth"
+          "Gryffin",
+          "OneRepublic"
         ],
-        "id": "5TTyyKNJZHONhjtAiXL1nG",
-        "image": "https://i.scdn.co/image/ab67616d0000485146ae8e6671d0e96b240e5381",
-        "name": "Hero",
-        "rank": 27
+        "id": "5gzZnru34wdecgMUQR2UO0",
+        "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
+        "name": "You Were Loved (with OneRepublic)",
+        "rank": 21
       },
       {
         "artists": [
@@ -1272,7 +1215,7 @@
         "id": "61dCUoMCg28qEBzrW6htYM",
         "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
         "name": "Rather Be (feat. Jess Glynne)",
-        "rank": 28
+        "rank": 22
       },
       {
         "artists": [
@@ -1281,7 +1224,7 @@
         "id": "68BpjQ7Vc8uUHvUKMcLLHe",
         "image": "https://i.scdn.co/image/ab67616d000048513621fd5a6b01ba2f7f716b87",
         "name": "(what i wish just one person would say to me)",
-        "rank": 29
+        "rank": 23
       },
       {
         "artists": [
@@ -1290,6 +1233,62 @@
         "id": "6rHh8urosEFRI67xVa6fzU",
         "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
         "name": "The Fool On The Hill - Remastered 2009",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "LANY"
+        ],
+        "id": "7GbAp0HKPQW7WnFJAzMoRk",
+        "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
+        "name": "Thru These Tears",
+        "rank": 25
+      },
+      {
+        "artists": [
+          "Lady Gaga",
+          "Bruno Mars"
+        ],
+        "id": "7so0lgd0zP2Sbgs2d7a1SZ",
+        "image": "https://i.scdn.co/image/ab67616d00004851b0860cf0a98e09663c82290c",
+        "name": "Die With A Smile",
+        "rank": 26
+      },
+      {
+        "artists": [
+          "Coldplay"
+        ],
+        "id": "7wBrglFVTNCcW6IhdgBkm1",
+        "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
+        "name": "Paradise",
+        "rank": 27
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "2baEFuU0gQon0hgVRioI1o",
+        "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
+        "name": "Anna (Go To Him) - Remastered 2009",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "Raven & Kreyn"
+        ],
+        "id": "5UrbgoskqGlkEPYldIifI3",
+        "image": "https://i.scdn.co/image/ab67616d00004851dbdaf9f8712eba10d179a5aa",
+        "name": "Bubble",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "ZAYN",
+          "Taylor Swift"
+        ],
+        "id": "55n9yjI6qqXh5F2mYvUc2y",
+        "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
+        "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
         "rank": 30
       }
     ]
