@@ -801,7 +801,7 @@
       "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     }
   ],
-  "generated_at": "2026-11-12T21:59:04.398069+00:00",
+  "generated_at": "2026-11-13T21:44:42.721011+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 65506
+    "total": 65510
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 30,
+  "streak": 31,
   "weekly_top": [
     {
       "artists": [
@@ -842,6 +842,24 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "name": "Penny Lane - Remastered 2009",
+      "track_id": "1h04XMpzGzmAudoI6VHBgA"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "name": "Baby, You're A Rich Man - Remastered 2009",
+      "track_id": "0JBvtprXP2Z0LP3jmzA7Xp"
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
       "name": "All You Need Is Love - Remastered 2009",
       "track_id": "68BTFws92cRztMS1oQ7Ewj"
     },
@@ -851,8 +869,8 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "name": "Across The Universe - Remastered 2009",
-      "track_id": "4dkoqJrP0L8FXftrMZongF"
+      "name": "I Me Mine - Remastered 2009",
+      "track_id": "2BMqay80iBzZTa608Y1eG1"
     },
     {
       "artists": [
@@ -860,8 +878,8 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "name": "I Me Mine - Remastered 2009",
-      "track_id": "2BMqay80iBzZTa608Y1eG1"
+      "name": "Dig It - Remastered 2009",
+      "track_id": "0eRyOunOVBChlXxIvqwOxH"
     },
     {
       "artists": [
@@ -1249,24 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
       "name": "I'm A Loser - Remastered 2009",
       "track_id": "7wC4EW11mBVxDK3xdC7FTf"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "Baby's In Black - Remastered 2009",
-      "track_id": "7cb2SdLm1UMLwdUoWwrZN1"
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-      "name": "Rock And Roll Music - Remastered 2009",
-      "track_id": "7Ho3T7ERfooiAfvODaMQ2N"
     }
   ]
 }

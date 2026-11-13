@@ -1,11 +1,11 @@
 {
   "artists": [
     {
-      "count": 15811,
+      "count": 15813,
       "first": "2019-09-05",
       "id": "3WrFJ7ztbogyGnTHbHJFl2",
       "image": "https://i.scdn.co/image/ab67616100005174119b61b35985e3b957c5ecb7",
-      "last": "2026-11-13",
+      "last": "2026-11-14",
       "ms": 2380205759,
       "name": "The Beatles",
       "tracks": 472,
@@ -17,7 +17,7 @@
         "2023": 846,
         "2024": 2399,
         "2025": 1237,
-        "2026": 1066
+        "2026": 1068
       }
     },
     {
@@ -438,7 +438,7 @@
       }
     },
     {
-      "count": 324,
+      "count": 325,
       "first": "2024-08-10",
       "id": "5w5w3P76LNwloNryCPiADq",
       "last": "2026-11-13",
@@ -447,7 +447,7 @@
       "tracks": 206,
       "years": {
         "2024": 1,
-        "2026": 323
+        "2026": 324
       }
     },
     {
@@ -16726,6 +16726,19 @@
     },
     {
       "count": 1,
+      "first": "2026-11-14",
+      "id": "0dIXV3ffgWlMcnywNIy0Wf",
+      "image": "https://i.scdn.co/image/ab6772690000bac3c2e3cf550b6a286e3c5d2861",
+      "last": "2026-11-14",
+      "ms": 0,
+      "name": "Tal Farlow",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
       "first": "2026-05-06",
       "id": "4mJRRZIVLsJyGMBOkgHqtj",
       "image": "https://i.scdn.co/image/ab6761610000517465694a778576c9fdfa777b7a",
@@ -18699,5 +18712,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-12T22:00:01.599797+00:00"
+  "generated_at": "2026-11-13T21:45:38.501193+00:00"
 }

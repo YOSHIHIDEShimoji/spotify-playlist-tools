@@ -1,28 +1,6 @@
 {
-  "generated_at": "2026-11-12T22:02:32.904121+00:00",
+  "generated_at": "2026-11-13T21:47:44.882679+00:00",
   "items": [
-    {
-      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
-      "album_name": "Wait All Night",
-      "album_type": "single",
-      "artist": "Lost Frequencies",
-      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
-      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
-      "album_type": "single",
-      "artist": "Au/Ra",
-      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851104b9c3563e968e1c0172701",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
     {
       "album_id": "1dbEt8HquK1ogAVXcPV3ve",
       "album_name": "Drop Anchor Here",
@@ -31,18 +9,7 @@
       "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
-      "album_name": "Gravity",
-      "album_type": "single",
-      "artist": "Alex Alexander",
-      "artist_id": "1mJucMwGjnCatEdVk9eedj",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-13"
     },
     {
@@ -53,7 +20,29 @@
       "artist_id": "7j7kL8K4GE1z5Cdxl7ucBF",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851294c561798761131ed4b4e16",
-      "is_new": true,
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
+      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
+      "album_type": "single",
+      "artist": "Au/Ra",
+      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851104b9c3563e968e1c0172701",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
+      "album_name": "Take What You Need",
+      "album_type": "single",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
+      "is_new": false,
       "release_date": "2026-11-13"
     },
     {
@@ -64,6 +53,39 @@
       "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851ee6926418cea793f374a0457",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "1chX7y1XoYa6FKoVh2fzsB",
+      "album_name": "天邪鬼",
+      "album_type": "single",
+      "artist": "wacci",
+      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbf4666c6a63e78bb68d3e44",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "4XL0B1OBmNpbiHCE3FqwR7",
+      "album_name": "御節介",
+      "album_type": "single",
+      "artist": "wacci",
+      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485142b26f932315998b98633d82",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
+      "album_name": "Cool",
+      "album_type": "album",
+      "artist": "Wiz Khalifa",
+      "artist_id": "137W8MRPWKqSmrBGDBFSop",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
       "is_new": true,
       "release_date": "2026-11-13"
     },
@@ -75,18 +97,7 @@
       "artist_id": "1Yx4q389ioC1sT4vplLtJW",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851aebc7c64be158872e8f41ca7",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
-      "album_name": "Fly (Remix)",
-      "album_type": "single",
-      "artist": "Tone Stith",
-      "artist_id": "756t7CBmWLNYsshVtS6P44",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517691a0d7b120821345e5dae2",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-13"
     },
     {
@@ -97,40 +108,51 @@
       "artist_id": "3bmlmoASHg6ycjrKV05CP2",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "1chX7y1XoYa6FKoVh2fzsB",
-      "album_name": "天邪鬼",
+      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
+      "album_name": "Fly (feat. Muni Long)",
       "album_type": "single",
-      "artist": "wacci",
-      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbf4666c6a63e78bb68d3e44",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "4XL0B1OBmNpbiHCE3FqwR7",
-      "album_name": "御節介",
-      "album_type": "single",
-      "artist": "wacci",
-      "artist_id": "7jCHrVGjeHUYP2pHv8FOJ3",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485142b26f932315998b98633d82",
-      "is_new": true,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
-      "album_name": "Take What You Need",
-      "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
+      "artist": "Tone Stith",
+      "artist_id": "756t7CBmWLNYsshVtS6P44",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
+      "image": "https://i.scdn.co/image/ab67616d000048517691a0d7b120821345e5dae2",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "3Arw97tnQUGQ3zBkWrEORn",
+      "album_name": "Christmas in New York",
+      "album_type": "single",
+      "artist": "EJAE",
+      "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
       "is_new": true,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
+      "album_name": "Gravity",
+      "album_type": "single",
+      "artist": "Alex Alexander",
+      "artist_id": "1mJucMwGjnCatEdVk9eedj",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
+      "album_name": "Wait All Night",
+      "album_type": "single",
+      "artist": "Lost Frequencies",
+      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
+      "is_new": false,
       "release_date": "2026-11-13"
     },
     {
@@ -146,13 +168,13 @@
     },
     {
       "album_id": "77LfTDogh8RqhYVK0k5n84",
-      "album_name": "Why Not (feat. Quavo & Loe Shimmy)",
+      "album_name": "Why Not? (feat. Quavo & Loe Shimmy)",
       "album_type": "single",
       "artist": "Offset",
       "artist_id": "4DdkRBBYG6Yk9Ka8tdJ9BW",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485128bff49e1a91c6593772e769",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851cc234e5b0f7364e7f0388f0b",
+      "is_new": false,
       "release_date": "2026-11-12"
     },
     {
@@ -163,19 +185,8 @@
       "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485140c95342374f8c233d5298f5",
-      "is_new": true,
-      "release_date": "2026-11-12"
-    },
-    {
-      "album_id": "0ueroD3J7dZxmf0lQEBHbV",
-      "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
-      "album_type": "album",
-      "artist": "Mai Kuraki",
-      "artist_id": "4x3GOic9xXFOoOBrEMuvN9",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851d3719f72799de173bb693e5e",
       "is_new": false,
-      "release_date": "2026-11-11"
+      "release_date": "2026-11-12"
     },
     {
       "album_id": "67kLj3jphSXfZpTkPL5UsN",
@@ -185,6 +196,17 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
+      "is_new": false,
+      "release_date": "2026-11-11"
+    },
+    {
+      "album_id": "0ueroD3J7dZxmf0lQEBHbV",
+      "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
+      "album_type": "album",
+      "artist": "Mai Kuraki",
+      "artist_id": "4x3GOic9xXFOoOBrEMuvN9",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851d3719f72799de173bb693e5e",
       "is_new": false,
       "release_date": "2026-11-11"
     },
@@ -200,17 +222,6 @@
       "release_date": "2026-11-10"
     },
     {
-      "album_id": "4IusailOZxQhm1g8GXj6kc",
-      "album_name": "Sugar",
-      "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851946c61ee0bd28b2cad8647df",
-      "is_new": false,
-      "release_date": "2026-11-10"
-    },
-    {
       "album_id": "48t5uBGJucx2rRiS7HKWR6",
       "album_name": "Ghazali (Part I)",
       "album_type": "album",
@@ -218,6 +229,17 @@
       "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485181dcd68d9627500b41b689ea",
+      "is_new": false,
+      "release_date": "2026-11-10"
+    },
+    {
+      "album_id": "4IusailOZxQhm1g8GXj6kc",
+      "album_name": "Sugar",
+      "album_type": "single",
+      "artist": "Hitsujibungaku",
+      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851946c61ee0bd28b2cad8647df",
       "is_new": false,
       "release_date": "2026-11-10"
     },
@@ -233,57 +255,24 @@
       "release_date": "2026-11-07"
     },
     {
-      "album_id": "1wQnunDL2cXMlZbjPye6Pb",
-      "album_name": "X&O",
+      "album_id": "21BkH2O10433QoWLGs6pZN",
+      "album_name": "All The People",
       "album_type": "single",
-      "artist": "LMNT 115",
-      "artist_id": "2uhgJK13algiylq9MtKRWu",
+      "artist": "Shimza",
+      "artist_id": "0WHbjg8hVel1R9kq5794HX",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8cee3b7b5ad483dca9c8f85",
+      "image": "https://i.scdn.co/image/ab67616d00004851c6652163f92103afc6d51dc8",
       "is_new": false,
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "7kjFKbcW8aAOXPLgZgjscS",
-      "album_name": "My Body Isn't Ready (Orchestral Version from Sound City)",
+      "album_id": "0UHPk8s5kziOTMEBQAmPbC",
+      "album_name": "Closer (En Español)",
       "album_type": "single",
-      "artist": "sombr",
-      "artist_id": "4G9NDjRyZFDlJKMRL8hx3S",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851224e4610703960a262e82207",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "2ZEh1rTXVI5QkF4sH6aiR1",
-      "album_name": "EXPOSED. ft Quavo.",
-      "album_type": "single",
-      "artist": "YFN Lucci",
-      "artist_id": "5Berubt6ysOy2LCMyqhmXP",
+      "artist": "The Linda Lindas",
+      "artist_id": "13dTrWNNrnZ3AkgNyQNKP5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519b507b8716f184c85472aa25",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "4cR5n1PGL2ROVd8l9fDxZY",
-      "album_name": "It's Beginning To Look A Lot Like Christmas",
-      "album_type": "single",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485194fa1f2ac81fd5046e0d73fa",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "146FOLcIdDJxQ0aAN7RJK0",
-      "album_name": "FADED EYES : REFRESHED",
-      "album_type": "single",
-      "artist": "Zerb",
-      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851398ceaa7c269bcf54b468427",
+      "image": "https://i.scdn.co/image/ab67616d000048518b1af2d0c63e4a381ebbac6e",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -299,6 +288,17 @@
       "release_date": "2026-11-06"
     },
     {
+      "album_id": "146FOLcIdDJxQ0aAN7RJK0",
+      "album_name": "FADED EYES : REFRESHED",
+      "album_type": "single",
+      "artist": "Zerb",
+      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851398ceaa7c269bcf54b468427",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
       "album_id": "379McNO5sSbweTq3tZi68P",
       "album_name": "Airplane Mode",
       "album_type": "album",
@@ -310,6 +310,28 @@
       "release_date": "2026-11-06"
     },
     {
+      "album_id": "7d3jar5PO8Gom2OcHQddBI",
+      "album_name": "Useless",
+      "album_type": "single",
+      "artist": "Gym Class Heroes",
+      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851d60c8151e1a116066015899e",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
+      "album_id": "1wQnunDL2cXMlZbjPye6Pb",
+      "album_name": "X&O",
+      "album_type": "single",
+      "artist": "LMNT 115",
+      "artist_id": "2uhgJK13algiylq9MtKRWu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8cee3b7b5ad483dca9c8f85",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
       "album_id": "6RBkkVmaZTm7dU44FJCr6U",
       "album_name": "The Book",
       "album_type": "single",
@@ -317,17 +339,6 @@
       "artist_id": "4BqK6JLgMwQ99hx85DxNhP",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513c1e4c78427b9c5a249fcf39",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "0UHPk8s5kziOTMEBQAmPbC",
-      "album_name": "Closer (En Español)",
-      "album_type": "single",
-      "artist": "The Linda Lindas",
-      "artist_id": "13dTrWNNrnZ3AkgNyQNKP5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518b1af2d0c63e4a381ebbac6e",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -354,17 +365,6 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "7d3jar5PO8Gom2OcHQddBI",
-      "album_name": "Useless",
-      "album_type": "single",
-      "artist": "Gym Class Heroes",
-      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d60c8151e1a116066015899e",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
       "album_id": "1T63JcP763j4DUqtqeWZ3I",
       "album_name": "Gotta Have Faith",
       "album_type": "single",
@@ -387,13 +387,35 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "21BkH2O10433QoWLGs6pZN",
-      "album_name": "All The People",
+      "album_id": "2ZEh1rTXVI5QkF4sH6aiR1",
+      "album_name": "EXPOSED. ft Quavo.",
       "album_type": "single",
-      "artist": "Shimza",
-      "artist_id": "0WHbjg8hVel1R9kq5794HX",
+      "artist": "YFN Lucci",
+      "artist_id": "5Berubt6ysOy2LCMyqhmXP",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c6652163f92103afc6d51dc8",
+      "image": "https://i.scdn.co/image/ab67616d000048519b507b8716f184c85472aa25",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
+      "album_id": "7kjFKbcW8aAOXPLgZgjscS",
+      "album_name": "My Body Isn't Ready (Orchestral Version from Sound City)",
+      "album_type": "single",
+      "artist": "sombr",
+      "artist_id": "4G9NDjRyZFDlJKMRL8hx3S",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851224e4610703960a262e82207",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
+      "album_id": "4cR5n1PGL2ROVd8l9fDxZY",
+      "album_name": "It's Beginning To Look A Lot Like Christmas",
+      "album_type": "single",
+      "artist": "Dan + Shay",
+      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485194fa1f2ac81fd5046e0d73fa",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -409,17 +431,6 @@
       "release_date": "2026-11-05"
     },
     {
-      "album_id": "3JIymeKAqCtQidOcorfNpA",
-      "album_name": "YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” at TOKYO DOME",
-      "album_type": "album",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851adff752004f9de4b27b20b2f",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
       "album_id": "1kzCUstnUUZiVaIp5qflhA",
       "album_name": "It’s the Most Wonderful Time of the Year",
       "album_type": "single",
@@ -427,17 +438,6 @@
       "artist_id": "4DHLoiIqFYYFjH09WduvFd",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851469a5b37aa26c927f8a9e90c",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "4ZqVWABkm88cM9yBjqeB4e",
-      "album_name": "Born This Way",
-      "album_type": "single",
-      "artist": "Beverly",
-      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485121dbd63fb98c90712b9283d2",
       "is_new": false,
       "release_date": "2026-11-04"
     },
@@ -453,13 +453,24 @@
       "release_date": "2026-11-04"
     },
     {
-      "album_id": "523noajUhbyPeCzT9u1yVK",
-      "album_name": "M25",
+      "album_id": "3JIymeKAqCtQidOcorfNpA",
+      "album_name": "YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” at TOKYO DOME",
       "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8f65ef20cc32183854e034b",
+      "image": "https://i.scdn.co/image/ab67616d00004851adff752004f9de4b27b20b2f",
+      "is_new": false,
+      "release_date": "2026-11-04"
+    },
+    {
+      "album_id": "4ZqVWABkm88cM9yBjqeB4e",
+      "album_name": "Born This Way",
+      "album_type": "single",
+      "artist": "Beverly",
+      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485121dbd63fb98c90712b9283d2",
       "is_new": false,
       "release_date": "2026-11-04"
     },
@@ -486,6 +497,17 @@
       "release_date": "2026-11-04"
     },
     {
+      "album_id": "523noajUhbyPeCzT9u1yVK",
+      "album_name": "M25",
+      "album_type": "album",
+      "artist": "Mika Nakashima",
+      "artist_id": "3D73KNJRMbV45N59E8IN0F",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8f65ef20cc32183854e034b",
+      "is_new": false,
+      "release_date": "2026-11-04"
+    },
+    {
       "album_id": "2pK0DdmBYd4Dkgvwt8zdxR",
       "album_name": "飽々",
       "album_type": "single",
@@ -495,94 +517,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851952d3898dedaf8c2f6115f96",
       "is_new": false,
       "release_date": "2026-11-02"
-    },
-    {
-      "album_id": "5i69I7wUatT3gGm4IJj5sV",
-      "album_name": "Who I Am (Slowed)",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512394203f3170932fd068db24",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "7kqO6QdVtBFx2lFu8atDcZ",
-      "album_name": "Who I Am (Sped Up)",
-      "album_type": "single",
-      "artist": "Cheat Codes",
-      "artist_id": "7DMveApC7UnC2NPfPvlHSU",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048510dbd4bec9661ffc9b9c3453d",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "7yeUtECMpr2lzo00a2mscy",
-      "album_name": "Face Card (The Kid LAROI Remix)",
-      "album_type": "single",
-      "artist": "nate sib",
-      "artist_id": "4TNu2ZIE566yKwEhOT8eTv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518c3edbc087b7ad4c298dc4f4",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "4e6mApFhKsMODo9xT95sMY",
-      "album_name": "Unreleased Collection - Japan Exclusive",
-      "album_type": "album",
-      "artist": "ONE OK ROCK",
-      "artist_id": "7k73EtZwoPs516ZxE72KsO",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485160a2e453538697d0086ba034",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "3EquYPRLoMWqXy12Ad28lR",
-      "album_name": "INDIAN SUMMER",
-      "album_type": "single",
-      "artist": "Alan Walker",
-      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485144f8563c0c050e89ec2f1eea",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "4Vjz8h1mL6g09olXnuAl7r",
-      "album_name": "COSITA",
-      "album_type": "single",
-      "artist": "Daddy Yankee",
-      "artist_id": "4VMYDCV2IEDYJArk749S6m",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d8d798140178d163c4e6b77f",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "2odXmoKfI3FRaWeX3XFQOD",
-      "album_name": "Blue Moon (The Remixes)",
-      "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851564182bcd1ff30bc16c62005",
-      "is_new": false,
-      "release_date": "2026-10-30"
-    },
-    {
-      "album_id": "1eTOyH11t346Eq3QbxaimT",
-      "album_name": "The Cat in the Hat (Original Motion Picture Soundtrack)",
-      "album_type": "album",
-      "artist": "Lorne Balfe",
-      "artist_id": "6dU7gPN2BhEPfO5QHLt7es",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ceca211286a49ceda5067411",
-      "is_new": false,
-      "release_date": "2026-10-30"
     }
   ]
 }
