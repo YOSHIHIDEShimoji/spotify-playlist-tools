@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T20:16:28.212131+00:00",
+  "generated_at": "2026-11-15T20:41:52.625295+00:00",
   "totals": {
-    "artists": 1377,
-    "days": 2159,
+    "artists": 1380,
+    "days": 2160,
     "ms": 12440720283,
-    "plays": 65519,
+    "plays": 65594,
     "since": "2019-09-05",
-    "tracks": 4767
+    "tracks": 4773
   },
   "tracks": [
     {
@@ -1447,6 +1447,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 112,
+      "first": "2019-09-05",
+      "id": "6dGnYIeXmHdcikdzNNDMm2",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 17795964,
+      "name": "Here Comes The Sun - Remastered 2009",
+      "short": 57,
+      "years": {
+        "2019": 24,
+        "2020": 44,
+        "2021": 19,
+        "2022": 3,
+        "2023": 5,
+        "2024": 6,
+        "2025": 4,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "The Weeknd"
       ],
       "count": 112,
@@ -1545,29 +1568,6 @@
         "2024": 102,
         "2025": 8,
         "2026": 2
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 111,
-      "first": "2019-09-05",
-      "id": "6dGnYIeXmHdcikdzNNDMm2",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 17795964,
-      "name": "Here Comes The Sun - Remastered 2009",
-      "short": 57,
-      "years": {
-        "2019": 24,
-        "2020": 44,
-        "2021": 19,
-        "2022": 3,
-        "2023": 5,
-        "2024": 6,
-        "2025": 4,
-        "2026": 6
       }
     },
     {
@@ -2499,29 +2499,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 94,
-      "first": "2019-09-10",
-      "id": "5NQYyej46WQkgCbnzGD21W",
-      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
-      "last": "2026-11-14",
-      "ms": 21175968,
-      "name": "Dear Prudence - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 9,
-        "2020": 33,
-        "2021": 18,
-        "2022": 7,
-        "2023": 6,
-        "2024": 7,
-        "2025": 6,
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
         "Sia"
       ],
       "count": 94,
@@ -2562,6 +2539,29 @@
         "2024": 18,
         "2025": 6,
         "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 93,
+      "first": "2019-09-10",
+      "id": "5NQYyej46WQkgCbnzGD21W",
+      "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
+      "last": "2026-11-14",
+      "ms": 21175968,
+      "name": "Dear Prudence - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 9,
+        "2020": 33,
+        "2021": 18,
+        "2022": 7,
+        "2023": 6,
+        "2024": 7,
+        "2025": 6,
+        "2026": 7
       }
     },
     {
@@ -2839,6 +2839,29 @@
         "The Beatles"
       ],
       "count": 90,
+      "first": "2019-12-25",
+      "id": "1Q7gCIpOjIIU0bUKcGzrG4",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 11971655,
+      "name": "I Feel Fine - Remastered 2009",
+      "short": 28,
+      "years": {
+        "2019": 2,
+        "2020": 21,
+        "2021": 26,
+        "2022": 9,
+        "2023": 8,
+        "2024": 12,
+        "2025": 6,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 90,
       "first": "2019-09-07",
       "id": "5E3BVY66TEDexFutOO5GeS",
       "image": "https://i.scdn.co/image/ab67616d00004851ed801e58a9ababdea6ac7ce4",
@@ -2876,6 +2899,29 @@
         "2023": 5,
         "2024": 6,
         "2025": 3
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 90,
+      "first": "2019-10-28",
+      "id": "1h04XMpzGzmAudoI6VHBgA",
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "last": "2026-11-15",
+      "ms": 15137448,
+      "name": "Penny Lane - Remastered 2009",
+      "short": 21,
+      "years": {
+        "2019": 4,
+        "2020": 36,
+        "2021": 18,
+        "2022": 6,
+        "2023": 4,
+        "2024": 7,
+        "2025": 5,
+        "2026": 10
       }
     },
     {
@@ -2929,22 +2975,22 @@
         "The Beatles"
       ],
       "count": 89,
-      "first": "2019-12-25",
-      "id": "1Q7gCIpOjIIU0bUKcGzrG4",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 11971655,
-      "name": "I Feel Fine - Remastered 2009",
-      "short": 28,
+      "first": "2019-09-12",
+      "id": "01SfTM5nfCou5gQL70r6gs",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 7534211,
+      "name": "Golden Slumbers - Remastered 2009",
+      "short": 13,
       "years": {
-        "2019": 2,
-        "2020": 21,
-        "2021": 26,
-        "2022": 9,
-        "2023": 8,
-        "2024": 12,
+        "2019": 5,
+        "2020": 37,
+        "2021": 22,
+        "2022": 3,
+        "2023": 4,
+        "2024": 5,
         "2025": 6,
-        "2026": 5
+        "2026": 7
       }
     },
     {
@@ -2952,22 +2998,22 @@
         "The Beatles"
       ],
       "count": 89,
-      "first": "2019-10-28",
-      "id": "1h04XMpzGzmAudoI6VHBgA",
+      "first": "2019-09-14",
+      "id": "0vZ97gHhemKm6c64hTfJNA",
       "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-      "last": "2026-11-14",
-      "ms": 15137448,
-      "name": "Penny Lane - Remastered 2009",
-      "short": 21,
+      "last": "2026-11-15",
+      "ms": 17395301,
+      "name": "Hello, Goodbye - Remastered 2009",
+      "short": 17,
       "years": {
-        "2019": 4,
-        "2020": 36,
-        "2021": 18,
-        "2022": 6,
-        "2023": 4,
-        "2024": 7,
+        "2019": 6,
+        "2020": 40,
+        "2021": 16,
+        "2022": 7,
+        "2023": 2,
+        "2024": 6,
         "2025": 5,
-        "2026": 9
+        "2026": 7
       }
     },
     {
@@ -3046,52 +3092,6 @@
         "2024": 39,
         "2025": 14,
         "2026": 22
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 88,
-      "first": "2019-09-12",
-      "id": "01SfTM5nfCou5gQL70r6gs",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 7534211,
-      "name": "Golden Slumbers - Remastered 2009",
-      "short": 13,
-      "years": {
-        "2019": 5,
-        "2020": 37,
-        "2021": 22,
-        "2022": 3,
-        "2023": 4,
-        "2024": 5,
-        "2025": 6,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 88,
-      "first": "2019-09-14",
-      "id": "0vZ97gHhemKm6c64hTfJNA",
-      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-      "last": "2026-11-11",
-      "ms": 17395301,
-      "name": "Hello, Goodbye - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2019": 6,
-        "2020": 40,
-        "2021": 16,
-        "2022": 7,
-        "2023": 2,
-        "2024": 6,
-        "2025": 5,
-        "2026": 6
       }
     },
     {
@@ -3288,6 +3288,51 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 87,
+      "first": "2019-09-10",
+      "id": "0pNeVovbiZHkulpGeOx1Gj",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 14689680,
+      "name": "Something - Remastered 2009",
+      "short": 14,
+      "years": {
+        "2019": 3,
+        "2020": 37,
+        "2021": 18,
+        "2022": 4,
+        "2023": 5,
+        "2024": 8,
+        "2025": 5,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 87,
+      "first": "2020-02-02",
+      "id": "7tBAxQ6hD4mhr1sYQhwWDP",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 11148463,
+      "name": "We Can Work It Out - Remastered 2009",
+      "short": 14,
+      "years": {
+        "2020": 22,
+        "2021": 23,
+        "2022": 10,
+        "2023": 9,
+        "2024": 13,
+        "2025": 3,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 86,
@@ -3347,29 +3392,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 86,
-      "first": "2019-09-10",
-      "id": "0pNeVovbiZHkulpGeOx1Gj",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 14689680,
-      "name": "Something - Remastered 2009",
-      "short": 14,
-      "years": {
-        "2019": 3,
-        "2020": 37,
-        "2021": 18,
-        "2022": 4,
-        "2023": 5,
-        "2024": 8,
-        "2025": 5,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "Alan Silvestri"
       ],
       "count": 86,
@@ -3388,28 +3410,6 @@
         "2024": 6,
         "2025": 3,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 86,
-      "first": "2020-02-02",
-      "id": "7tBAxQ6hD4mhr1sYQhwWDP",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 11148463,
-      "name": "We Can Work It Out - Remastered 2009",
-      "short": 14,
-      "years": {
-        "2020": 22,
-        "2021": 23,
-        "2022": 10,
-        "2023": 9,
-        "2024": 13,
-        "2025": 3,
-        "2026": 6
       }
     },
     {
@@ -3724,6 +3724,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 83,
+      "first": "2019-09-12",
+      "id": "5eZrW59C3UgBhkqNlowEID",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 7570839,
+      "name": "Carry That Weight - Remastered 2009",
+      "short": 14,
+      "years": {
+        "2019": 8,
+        "2020": 33,
+        "2021": 20,
+        "2022": 3,
+        "2023": 4,
+        "2024": 4,
+        "2025": 4,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 83,
@@ -3784,29 +3807,6 @@
         "2024": 20,
         "2025": 10,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 82,
-      "first": "2019-09-12",
-      "id": "5eZrW59C3UgBhkqNlowEID",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 7570839,
-      "name": "Carry That Weight - Remastered 2009",
-      "short": 14,
-      "years": {
-        "2019": 8,
-        "2020": 33,
-        "2021": 20,
-        "2022": 3,
-        "2023": 4,
-        "2024": 4,
-        "2025": 4,
-        "2026": 6
       }
     },
     {
@@ -3938,6 +3938,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 81,
+      "first": "2019-09-12",
+      "id": "7iN1s7xHE4ifF5povM6A48",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 16763147,
+      "name": "Let It Be - Remastered 2009",
+      "short": 52,
+      "years": {
+        "2019": 12,
+        "2020": 24,
+        "2021": 18,
+        "2022": 3,
+        "2023": 3,
+        "2024": 5,
+        "2025": 6,
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 81,
@@ -4039,6 +4062,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 80,
+      "first": "2019-11-03",
+      "id": "6Pq9MmkDQYZiiCDpxnvrf6",
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "last": "2026-11-15",
+      "ms": 18210689,
+      "name": "I Am The Walrus - Remastered 2009",
+      "short": 25,
+      "years": {
+        "2019": 4,
+        "2020": 40,
+        "2021": 9,
+        "2022": 6,
+        "2023": 3,
+        "2024": 8,
+        "2025": 4,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 80,
@@ -4057,29 +4103,6 @@
         "2024": 7,
         "2025": 7,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 80,
-      "first": "2019-09-12",
-      "id": "7iN1s7xHE4ifF5povM6A48",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-02",
-      "ms": 16763147,
-      "name": "Let It Be - Remastered 2009",
-      "short": 52,
-      "years": {
-        "2019": 12,
-        "2020": 24,
-        "2021": 18,
-        "2022": 3,
-        "2023": 3,
-        "2024": 5,
-        "2025": 6,
-        "2026": 9
       }
     },
     {
@@ -4227,6 +4250,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 79,
+      "first": "2019-12-12",
+      "id": "0JBvtprXP2Z0LP3jmzA7Xp",
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "last": "2026-11-15",
+      "ms": 13230007,
+      "name": "Baby, You're A Rich Man - Remastered 2009",
+      "short": 19,
+      "years": {
+        "2019": 3,
+        "2020": 33,
+        "2021": 16,
+        "2022": 6,
+        "2023": 2,
+        "2024": 6,
+        "2025": 5,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "Marshmello"
       ],
       "count": 79,
@@ -4288,29 +4334,6 @@
         "2024": 14,
         "2025": 8,
         "2026": 11
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 79,
-      "first": "2019-11-03",
-      "id": "6Pq9MmkDQYZiiCDpxnvrf6",
-      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-      "last": "2026-11-11",
-      "ms": 18210689,
-      "name": "I Am The Walrus - Remastered 2009",
-      "short": 25,
-      "years": {
-        "2019": 4,
-        "2020": 40,
-        "2021": 9,
-        "2022": 6,
-        "2023": 3,
-        "2024": 8,
-        "2025": 4,
-        "2026": 5
       }
     },
     {
@@ -4397,6 +4420,29 @@
         "2024": 7,
         "2025": 6,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 79,
+      "first": "2019-09-10",
+      "id": "2mxByJWOajjiVsLWjNXvDJ",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 14820280,
+      "name": "Oh! Darling - Remastered 2009",
+      "short": 20,
+      "years": {
+        "2019": 3,
+        "2020": 36,
+        "2021": 17,
+        "2022": 3,
+        "2023": 4,
+        "2024": 5,
+        "2025": 4,
+        "2026": 7
       }
     },
     {
@@ -4497,30 +4543,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 78,
-      "first": "2019-12-12",
-      "id": "0JBvtprXP2Z0LP3jmzA7Xp",
-      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-      "last": "2026-11-14",
-      "ms": 13230007,
-      "name": "Baby, You're A Rich Man - Remastered 2009",
-      "short": 19,
-      "years": {
-        "2019": 3,
-        "2020": 33,
-        "2021": 16,
-        "2022": 6,
-        "2023": 2,
-        "2024": 6,
-        "2025": 5,
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 78,
+      "count": 77,
       "first": "2019-09-10",
       "id": "2jAojvUaPoHPFSPpF0UNRo",
       "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
@@ -4536,30 +4559,7 @@
         "2023": 5,
         "2024": 5,
         "2025": 6,
-        "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 78,
-      "first": "2019-09-10",
-      "id": "2mxByJWOajjiVsLWjNXvDJ",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 14820280,
-      "name": "Oh! Darling - Remastered 2009",
-      "short": 20,
-      "years": {
-        "2019": 3,
-        "2020": 36,
-        "2021": 17,
-        "2022": 3,
-        "2023": 4,
-        "2024": 5,
-        "2025": 4,
-        "2026": 6
+        "2026": 7
       }
     },
     {
@@ -4580,6 +4580,27 @@
         "2022": 2,
         "2023": 3,
         "2024": 2
+      }
+    },
+    {
+      "artists": [
+        "Gym Class Heroes"
+      ],
+      "count": 77,
+      "first": "2021-04-29",
+      "id": "0qOnSQQF0yzuPWsXrQ9paz",
+      "image": "https://i.scdn.co/image/ab67616d0000485118b8088fe0c3dbf78398b55a",
+      "last": "2026-11-15",
+      "ms": 14170102,
+      "name": "Stereo Hearts (feat. Adam Levine)",
+      "short": 15,
+      "years": {
+        "2021": 16,
+        "2022": 9,
+        "2023": 5,
+        "2024": 5,
+        "2025": 22,
+        "2026": 20
       }
     },
     {
@@ -4792,27 +4813,6 @@
     },
     {
       "artists": [
-        "Gym Class Heroes"
-      ],
-      "count": 76,
-      "first": "2021-04-29",
-      "id": "0qOnSQQF0yzuPWsXrQ9paz",
-      "image": "https://i.scdn.co/image/ab67616d0000485118b8088fe0c3dbf78398b55a",
-      "last": "2026-10-25",
-      "ms": 14170102,
-      "name": "Stereo Hearts (feat. Adam Levine)",
-      "short": 15,
-      "years": {
-        "2021": 16,
-        "2022": 9,
-        "2023": 5,
-        "2024": 5,
-        "2025": 22,
-        "2026": 19
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 76,
@@ -4868,6 +4868,29 @@
         "2024": 17,
         "2025": 7,
         "2026": 9
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 75,
+      "first": "2019-09-10",
+      "id": "2EqlS6tkEnglzr7tkKAAYD",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 16227396,
+      "name": "Come Together - Remastered 2009",
+      "short": 74,
+      "years": {
+        "2019": 7,
+        "2020": 27,
+        "2021": 18,
+        "2022": 3,
+        "2023": 3,
+        "2024": 5,
+        "2025": 4,
+        "2026": 8
       }
     },
     {
@@ -4986,29 +5009,6 @@
         "The Beatles"
       ],
       "count": 74,
-      "first": "2019-09-10",
-      "id": "2EqlS6tkEnglzr7tkKAAYD",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 16227396,
-      "name": "Come Together - Remastered 2009",
-      "short": 74,
-      "years": {
-        "2019": 7,
-        "2020": 27,
-        "2021": 18,
-        "2022": 3,
-        "2023": 3,
-        "2024": 5,
-        "2025": 4,
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 74,
       "first": "2019-11-20",
       "id": "3LtOmWpTXLhilL5odoKysR",
       "image": "https://i.scdn.co/image/ab67616d0000485134ef8f7d06cf2fc2146f420a",
@@ -5048,6 +5048,52 @@
         "2024": 5,
         "2025": 5,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 74,
+      "first": "2019-09-12",
+      "id": "2jtUGFsqanQ82zqDlhiKIp",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 8024266,
+      "name": "She Came In Through The Bathroom Window - Remastered 2009",
+      "short": 20,
+      "years": {
+        "2019": 3,
+        "2020": 22,
+        "2021": 24,
+        "2022": 4,
+        "2023": 4,
+        "2024": 6,
+        "2025": 5,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 74,
+      "first": "2019-12-11",
+      "id": "3Am0IbOxmvlSXro7N5iSfZ",
+      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+      "last": "2026-11-15",
+      "ms": 17126130,
+      "name": "Strawberry Fields Forever - Remastered 2009",
+      "short": 25,
+      "years": {
+        "2019": 4,
+        "2020": 28,
+        "2021": 17,
+        "2022": 5,
+        "2023": 3,
+        "2024": 7,
+        "2025": 4,
+        "2026": 6
       }
     },
     {
@@ -5201,6 +5247,29 @@
         "The Beatles"
       ],
       "count": 73,
+      "first": "2019-12-16",
+      "id": "27E39dDg0Bx1RzkF3eJJsb",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 9842050,
+      "name": "I Want To Hold Your Hand - Remastered 2009",
+      "short": 12,
+      "years": {
+        "2019": 2,
+        "2020": 16,
+        "2021": 22,
+        "2022": 9,
+        "2023": 6,
+        "2024": 7,
+        "2025": 4,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 73,
       "first": "2019-10-20",
       "id": "3VbGCXWRiouAq8VyMYN2MI",
       "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
@@ -5217,29 +5286,6 @@
         "2024": 17,
         "2025": 9,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 73,
-      "first": "2019-09-12",
-      "id": "2jtUGFsqanQ82zqDlhiKIp",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 8024266,
-      "name": "She Came In Through The Bathroom Window - Remastered 2009",
-      "short": 20,
-      "years": {
-        "2019": 3,
-        "2020": 22,
-        "2021": 24,
-        "2022": 4,
-        "2023": 4,
-        "2024": 6,
-        "2025": 5,
-        "2026": 5
       }
     },
     {
@@ -5267,29 +5313,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 73,
-      "first": "2019-12-11",
-      "id": "3Am0IbOxmvlSXro7N5iSfZ",
-      "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-      "last": "2026-11-11",
-      "ms": 17126130,
-      "name": "Strawberry Fields Forever - Remastered 2009",
-      "short": 25,
-      "years": {
-        "2019": 4,
-        "2020": 28,
-        "2021": 17,
-        "2022": 5,
-        "2023": 3,
-        "2024": 7,
-        "2025": 4,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "SPITZ"
       ],
       "count": 73,
@@ -5305,6 +5328,24 @@
         "2024": 14,
         "2025": 12,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Justin Timberlake"
+      ],
+      "count": 72,
+      "first": "2023-04-16",
+      "id": "6JV2JOEocMgcZxYSZelKcc",
+      "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
+      "last": "2026-11-15",
+      "ms": 15680914,
+      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+      "short": 14,
+      "years": {
+        "2023": 1,
+        "2025": 51,
+        "2026": 20
       }
     },
     {
@@ -5348,29 +5389,6 @@
         "2022": 5,
         "2023": 2,
         "2024": 6,
-        "2025": 4,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 72,
-      "first": "2019-12-16",
-      "id": "27E39dDg0Bx1RzkF3eJJsb",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 9842050,
-      "name": "I Want To Hold Your Hand - Remastered 2009",
-      "short": 12,
-      "years": {
-        "2019": 2,
-        "2020": 16,
-        "2021": 22,
-        "2022": 9,
-        "2023": 6,
-        "2024": 7,
         "2025": 4,
         "2026": 6
       }
@@ -5429,6 +5447,29 @@
       "years": {
         "2020": 71,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 72,
+      "first": "2019-12-28",
+      "id": "1jOLTO379yIu9aMnCkpMQl",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 15907535,
+      "name": "You Never Give Me Your Money - Remastered 2009",
+      "short": 27,
+      "years": {
+        "2019": 1,
+        "2020": 23,
+        "2021": 22,
+        "2022": 3,
+        "2023": 5,
+        "2024": 5,
+        "2025": 5,
+        "2026": 8
       }
     },
     {
@@ -5497,24 +5538,6 @@
         "2024": 7,
         "2025": 5,
         "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "Justin Timberlake"
-      ],
-      "count": 71,
-      "first": "2023-04-16",
-      "id": "6JV2JOEocMgcZxYSZelKcc",
-      "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
-      "last": "2026-10-28",
-      "ms": 15680914,
-      "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
-      "short": 14,
-      "years": {
-        "2023": 1,
-        "2025": 51,
-        "2026": 19
       }
     },
     {
@@ -5603,29 +5626,6 @@
         "2024": 9,
         "2025": 20,
         "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 71,
-      "first": "2019-12-28",
-      "id": "1jOLTO379yIu9aMnCkpMQl",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 15907535,
-      "name": "You Never Give Me Your Money - Remastered 2009",
-      "short": 27,
-      "years": {
-        "2019": 1,
-        "2020": 23,
-        "2021": 22,
-        "2022": 3,
-        "2023": 5,
-        "2024": 5,
-        "2025": 5,
-        "2026": 7
       }
     },
     {
@@ -5754,6 +5754,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 70,
+      "first": "2019-09-12",
+      "id": "5aHHf6jrqDRb1fcBmue2kn",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 8692206,
+      "name": "The End - Remastered 2009",
+      "short": 21,
+      "years": {
+        "2019": 6,
+        "2020": 24,
+        "2021": 19,
+        "2022": 3,
+        "2023": 4,
+        "2024": 4,
+        "2025": 4,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "Azumi Inoue"
       ],
       "count": 70,
@@ -5810,29 +5833,6 @@
         "2024": 3,
         "2025": 11,
         "2026": 20
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 69,
-      "first": "2019-09-12",
-      "id": "5aHHf6jrqDRb1fcBmue2kn",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 8692206,
-      "name": "The End - Remastered 2009",
-      "short": 21,
-      "years": {
-        "2019": 6,
-        "2020": 24,
-        "2021": 19,
-        "2022": 3,
-        "2023": 4,
-        "2024": 4,
-        "2025": 4,
-        "2026": 5
       }
     },
     {
@@ -5934,6 +5934,29 @@
         "2024": 22,
         "2025": 6,
         "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 68,
+      "first": "2019-09-13",
+      "id": "48TNLcToLs8DWkdj5vYdiW",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 11718762,
+      "name": "Rain - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 3,
+        "2020": 17,
+        "2021": 21,
+        "2022": 7,
+        "2023": 6,
+        "2024": 4,
+        "2025": 5,
+        "2026": 5
       }
     },
     {
@@ -6150,29 +6173,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 67,
-      "first": "2019-09-13",
-      "id": "48TNLcToLs8DWkdj5vYdiW",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 11718762,
-      "name": "Rain - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 3,
-        "2020": 17,
-        "2021": 21,
-        "2022": 7,
-        "2023": 6,
-        "2024": 4,
-        "2025": 5,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Ed Sheeran"
       ],
       "count": 67,
@@ -6187,6 +6187,52 @@
         "2023": 4,
         "2025": 35,
         "2026": 28
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 67,
+      "first": "2019-12-28",
+      "id": "4nwKdZID1ht0lDBJ5h2p87",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 9065791,
+      "name": "Sun King - Remastered 2009",
+      "short": 24,
+      "years": {
+        "2019": 1,
+        "2020": 23,
+        "2021": 21,
+        "2022": 3,
+        "2023": 5,
+        "2024": 4,
+        "2025": 4,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 67,
+      "first": "2019-12-16",
+      "id": "0oQshbv1BFLZ61b1tQ4Eqg",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 8480184,
+      "name": "This Boy - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2019": 2,
+        "2020": 20,
+        "2021": 18,
+        "2022": 8,
+        "2023": 4,
+        "2024": 6,
+        "2025": 3,
+        "2026": 6
       }
     },
     {
@@ -6259,6 +6305,29 @@
         "The Beatles"
       ],
       "count": 66,
+      "first": "2019-09-15",
+      "id": "4MLBqAEzNN89o2M9h92Z26",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-16",
+      "ms": 11108744,
+      "name": "Get Back - Remastered 2009",
+      "short": 17,
+      "years": {
+        "2019": 5,
+        "2020": 20,
+        "2021": 18,
+        "2022": 3,
+        "2023": 2,
+        "2024": 4,
+        "2025": 7,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 66,
       "first": "2019-12-06",
       "id": "5xYC2ZJJ9TMJL8BOl85O2R",
       "image": "https://i.scdn.co/image/ab67616d00004851d283808926ad3d2220e63c1c",
@@ -6319,6 +6388,29 @@
         "The Beatles"
       ],
       "count": 66,
+      "first": "2019-12-28",
+      "id": "4JOyMhad5dD81uGYLGgKrS",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 4050826,
+      "name": "Mean Mr Mustard - Remastered 2009",
+      "short": 25,
+      "years": {
+        "2019": 1,
+        "2020": 21,
+        "2021": 21,
+        "2022": 3,
+        "2023": 5,
+        "2024": 5,
+        "2025": 4,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 66,
       "first": "2019-12-07",
       "id": "4ZmjfLdJXbqjAENqk7eWSE",
       "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
@@ -6356,29 +6448,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 66,
-      "first": "2019-12-28",
-      "id": "4nwKdZID1ht0lDBJ5h2p87",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 9065791,
-      "name": "Sun King - Remastered 2009",
-      "short": 24,
-      "years": {
-        "2019": 1,
-        "2020": 23,
-        "2021": 21,
-        "2022": 3,
-        "2023": 5,
-        "2024": 4,
-        "2025": 4,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 66,
@@ -6405,22 +6474,22 @@
         "The Beatles"
       ],
       "count": 66,
-      "first": "2019-12-16",
-      "id": "0oQshbv1BFLZ61b1tQ4Eqg",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 8480184,
-      "name": "This Boy - Remastered 2009",
-      "short": 23,
+      "first": "2019-09-10",
+      "id": "0CaBBQsaAiRHhiLmzi7ZRp",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 12867825,
+      "name": "Two Of Us - Remastered 2009",
+      "short": 16,
       "years": {
-        "2019": 2,
-        "2020": 20,
-        "2021": 18,
-        "2022": 8,
+        "2019": 6,
+        "2020": 19,
+        "2021": 19,
+        "2022": 3,
         "2023": 4,
-        "2024": 6,
-        "2025": 3,
-        "2026": 5
+        "2024": 5,
+        "2025": 4,
+        "2026": 6
       }
     },
     {
@@ -6441,6 +6510,29 @@
         "2024": 21,
         "2025": 6,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 65,
+      "first": "2019-12-07",
+      "id": "4dkoqJrP0L8FXftrMZongF",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 13003147,
+      "name": "Across The Universe - Remastered 2009",
+      "short": 16,
+      "years": {
+        "2019": 3,
+        "2020": 27,
+        "2021": 14,
+        "2022": 3,
+        "2023": 2,
+        "2024": 4,
+        "2025": 4,
+        "2026": 8
       }
     },
     {
@@ -6490,22 +6582,45 @@
         "The Beatles"
       ],
       "count": 65,
-      "first": "2019-12-28",
-      "id": "4JOyMhad5dD81uGYLGgKrS",
+      "first": "2019-09-10",
+      "id": "0suLngfo7rJoetk7Ub6N8l",
       "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 4050826,
-      "name": "Mean Mr Mustard - Remastered 2009",
-      "short": 25,
+      "last": "2026-11-15",
+      "ms": 10132120,
+      "name": "Octopus's Garden - Remastered 2009",
+      "short": 19,
+      "years": {
+        "2019": 3,
+        "2020": 23,
+        "2021": 17,
+        "2022": 4,
+        "2023": 4,
+        "2024": 5,
+        "2025": 3,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 65,
+      "first": "2019-12-28",
+      "id": "1FTCA6wQwulQFokDddKE68",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 4409909,
+      "name": "Polythene Pam - Remastered 2009",
+      "short": 14,
       "years": {
         "2019": 1,
         "2020": 21,
         "2021": 21,
         "2022": 3,
-        "2023": 5,
+        "2023": 4,
         "2024": 5,
         "2025": 4,
-        "2026": 5
+        "2026": 6
       }
     },
     {
@@ -6548,29 +6663,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 65,
-      "first": "2019-09-10",
-      "id": "0CaBBQsaAiRHhiLmzi7ZRp",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-12",
-      "ms": 12867825,
-      "name": "Two Of Us - Remastered 2009",
-      "short": 16,
-      "years": {
-        "2019": 6,
-        "2020": 19,
-        "2021": 19,
-        "2022": 3,
-        "2023": 4,
-        "2024": 5,
-        "2025": 4,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Novelbright"
       ],
       "count": 65,
@@ -6592,45 +6684,22 @@
         "The Beatles"
       ],
       "count": 64,
-      "first": "2019-12-07",
-      "id": "4dkoqJrP0L8FXftrMZongF",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-12",
-      "ms": 13003147,
-      "name": "Across The Universe - Remastered 2009",
-      "short": 16,
-      "years": {
-        "2019": 3,
-        "2020": 27,
-        "2021": 14,
-        "2022": 3,
-        "2023": 2,
-        "2024": 4,
-        "2025": 4,
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 64,
-      "first": "2019-09-15",
-      "id": "4MLBqAEzNN89o2M9h92Z26",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-02",
-      "ms": 11108744,
-      "name": "Get Back - Remastered 2009",
+      "first": "2019-12-06",
+      "id": "1rxoyGj1QuPoVi8fOft1Kt",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 9985324,
+      "name": "Because - Remastered 2009",
       "short": 17,
       "years": {
-        "2019": 5,
-        "2020": 20,
+        "2019": 2,
+        "2020": 21,
         "2021": 18,
         "2022": 3,
-        "2023": 2,
-        "2024": 4,
-        "2025": 7,
-        "2026": 5
+        "2023": 4,
+        "2024": 5,
+        "2025": 5,
+        "2026": 6
       }
     },
     {
@@ -6654,6 +6723,29 @@
         "2024": 8,
         "2025": 4,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 64,
+      "first": "2019-12-16",
+      "id": "4VMOdHVfB57lNhSDadhOBc",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 7342899,
+      "name": "I'll Get You - Remastered 2009",
+      "short": 16,
+      "years": {
+        "2019": 2,
+        "2020": 14,
+        "2021": 19,
+        "2022": 7,
+        "2023": 3,
+        "2024": 6,
+        "2025": 5,
+        "2026": 8
       }
     },
     {
@@ -6705,22 +6797,22 @@
         "The Beatles"
       ],
       "count": 64,
-      "first": "2019-09-10",
-      "id": "0suLngfo7rJoetk7Ub6N8l",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 10132120,
-      "name": "Octopus's Garden - Remastered 2009",
-      "short": 19,
+      "first": "2019-12-16",
+      "id": "3k6zSunlStXxWF0s1063lk",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 7150320,
+      "name": "Thank You Girl - Remastered 2009",
+      "short": 15,
       "years": {
-        "2019": 3,
-        "2020": 23,
-        "2021": 17,
-        "2022": 4,
-        "2023": 4,
+        "2019": 1,
+        "2020": 20,
+        "2021": 18,
+        "2022": 7,
+        "2023": 2,
         "2024": 5,
-        "2025": 3,
-        "2026": 5
+        "2025": 5,
+        "2026": 6
       }
     },
     {
@@ -6728,22 +6820,22 @@
         "The Beatles"
       ],
       "count": 64,
-      "first": "2019-12-28",
-      "id": "1FTCA6wQwulQFokDddKE68",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 4409909,
-      "name": "Polythene Pam - Remastered 2009",
-      "short": 14,
+      "first": "2019-10-26",
+      "id": "3mlMpmY8oZIBFc39D9zLbh",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 12666466,
+      "name": "The Long And Winding Road - Remastered 2009",
+      "short": 18,
       "years": {
-        "2019": 1,
-        "2020": 21,
-        "2021": 21,
+        "2019": 4,
+        "2020": 20,
+        "2021": 18,
         "2022": 3,
         "2023": 4,
-        "2024": 5,
-        "2025": 4,
-        "2026": 5
+        "2024": 4,
+        "2025": 5,
+        "2026": 6
       }
     },
     {
@@ -6788,6 +6880,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 64,
+      "first": "2019-12-16",
+      "id": "2rQvZscmpb6a7ejDiKprcL",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 9555507,
+      "name": "Yes It Is - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 2,
+        "2020": 18,
+        "2021": 19,
+        "2022": 8,
+        "2023": 3,
+        "2024": 6,
+        "2025": 3,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 64,
@@ -6801,29 +6916,6 @@
       "years": {
         "2025": 60,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 63,
-      "first": "2019-12-06",
-      "id": "1rxoyGj1QuPoVi8fOft1Kt",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 9985324,
-      "name": "Because - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2019": 2,
-        "2020": 21,
-        "2021": 18,
-        "2022": 3,
-        "2023": 4,
-        "2024": 5,
-        "2025": 5,
-        "2026": 5
       }
     },
     {
@@ -6878,29 +6970,6 @@
       "years": {
         "2025": 3,
         "2026": 60
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 63,
-      "first": "2019-12-16",
-      "id": "4VMOdHVfB57lNhSDadhOBc",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-02",
-      "ms": 7342899,
-      "name": "I'll Get You - Remastered 2009",
-      "short": 16,
-      "years": {
-        "2019": 2,
-        "2020": 14,
-        "2021": 19,
-        "2022": 7,
-        "2023": 3,
-        "2024": 6,
-        "2025": 5,
-        "2026": 7
       }
     },
     {
@@ -6977,75 +7046,6 @@
       "years": {
         "2025": 9,
         "2026": 54
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 63,
-      "first": "2019-12-16",
-      "id": "3k6zSunlStXxWF0s1063lk",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-10-03",
-      "ms": 7150320,
-      "name": "Thank You Girl - Remastered 2009",
-      "short": 15,
-      "years": {
-        "2019": 1,
-        "2020": 20,
-        "2021": 18,
-        "2022": 7,
-        "2023": 2,
-        "2024": 5,
-        "2025": 5,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 63,
-      "first": "2019-10-26",
-      "id": "3mlMpmY8oZIBFc39D9zLbh",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-02",
-      "ms": 12666466,
-      "name": "The Long And Winding Road - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 4,
-        "2020": 20,
-        "2021": 18,
-        "2022": 3,
-        "2023": 4,
-        "2024": 4,
-        "2025": 5,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 63,
-      "first": "2019-12-16",
-      "id": "2rQvZscmpb6a7ejDiKprcL",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-02",
-      "ms": 9555507,
-      "name": "Yes It Is - Remastered 2009",
-      "short": 18,
-      "years": {
-        "2019": 2,
-        "2020": 18,
-        "2021": 19,
-        "2022": 8,
-        "2023": 3,
-        "2024": 6,
-        "2025": 3,
-        "2026": 4
       }
     },
     {
@@ -7531,6 +7531,29 @@
         "The Beatles"
       ],
       "count": 60,
+      "first": "2019-12-16",
+      "id": "7nBGBbzfnPiowCvXKJnV9J",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 6402582,
+      "name": "From Me To You - Remastered 2009",
+      "short": 18,
+      "years": {
+        "2019": 1,
+        "2020": 15,
+        "2021": 19,
+        "2022": 7,
+        "2023": 3,
+        "2024": 3,
+        "2025": 4,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 60,
       "first": "2019-09-07",
       "id": "6pPOkr2OxhQ6htrzOiDmq9",
       "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
@@ -7569,6 +7592,29 @@
         "2024": 6,
         "2025": 9,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 60,
+      "first": "2019-12-25",
+      "id": "6vsb1bU8oW7iqtjH2GeEaS",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 9620472,
+      "name": "She's A Woman - Remastered 2009",
+      "short": 27,
+      "years": {
+        "2019": 1,
+        "2020": 20,
+        "2021": 18,
+        "2022": 6,
+        "2023": 3,
+        "2024": 4,
+        "2025": 4,
+        "2026": 4
       }
     },
     {
@@ -7697,22 +7743,21 @@
         "The Beatles"
       ],
       "count": 59,
-      "first": "2019-12-16",
-      "id": "7nBGBbzfnPiowCvXKJnV9J",
+      "first": "2020-01-12",
+      "id": "7qbRP2jO0Sq3kTYdEW1v00",
       "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-10-03",
-      "ms": 6402582,
-      "name": "From Me To You - Remastered 2009",
-      "short": 18,
+      "last": "2026-11-15",
+      "ms": 9157469,
+      "name": "Day Tripper - Remastered 2009",
+      "short": 24,
       "years": {
-        "2019": 1,
-        "2020": 15,
-        "2021": 19,
+        "2020": 13,
+        "2021": 21,
         "2022": 7,
         "2023": 3,
-        "2024": 3,
-        "2025": 4,
-        "2026": 7
+        "2024": 5,
+        "2025": 5,
+        "2026": 5
       }
     },
     {
@@ -7756,29 +7801,6 @@
         "2024": 6,
         "2025": 4,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 59,
-      "first": "2019-12-25",
-      "id": "6vsb1bU8oW7iqtjH2GeEaS",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 9620472,
-      "name": "She's A Woman - Remastered 2009",
-      "short": 27,
-      "years": {
-        "2019": 1,
-        "2020": 20,
-        "2021": 18,
-        "2022": 6,
-        "2023": 3,
-        "2024": 4,
-        "2025": 4,
-        "2026": 3
       }
     },
     {
@@ -7861,28 +7883,6 @@
         "2023": 26,
         "2024": 26,
         "2025": 6
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 58,
-      "first": "2020-01-12",
-      "id": "7qbRP2jO0Sq3kTYdEW1v00",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 9157469,
-      "name": "Day Tripper - Remastered 2009",
-      "short": 24,
-      "years": {
-        "2020": 13,
-        "2021": 21,
-        "2022": 7,
-        "2023": 3,
-        "2024": 5,
-        "2025": 5,
-        "2026": 4
       }
     },
     {
@@ -7971,6 +7971,28 @@
         "2024": 5,
         "2025": 3,
         "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 58,
+      "first": "2020-02-22",
+      "id": "4401c08DdNwwGEg8WGCkQf",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 7430901,
+      "name": "Paperback Writer - Remastered 2009",
+      "short": 23,
+      "years": {
+        "2020": 16,
+        "2021": 20,
+        "2022": 6,
+        "2023": 4,
+        "2024": 4,
+        "2025": 3,
+        "2026": 5
       }
     },
     {
@@ -8150,28 +8172,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 57,
-      "first": "2020-02-22",
-      "id": "4401c08DdNwwGEg8WGCkQf",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 7430901,
-      "name": "Paperback Writer - Remastered 2009",
-      "short": 23,
-      "years": {
-        "2020": 16,
-        "2021": 20,
-        "2022": 6,
-        "2023": 4,
-        "2024": 4,
-        "2025": 3,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Queen"
       ],
       "count": 57,
@@ -8191,6 +8191,28 @@
         "2024": 5,
         "2025": 4,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 57,
+      "first": "2020-02-06",
+      "id": "48JM82SHQTBYkhEYhMaOaa",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 7157125,
+      "name": "She Loves You - Remastered 2009",
+      "short": 20,
+      "years": {
+        "2020": 15,
+        "2021": 18,
+        "2022": 7,
+        "2023": 2,
+        "2024": 3,
+        "2025": 6,
+        "2026": 6
       }
     },
     {
@@ -8380,28 +8402,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 56,
-      "first": "2020-02-06",
-      "id": "48JM82SHQTBYkhEYhMaOaa",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-10-03",
-      "ms": 7157125,
-      "name": "She Loves You - Remastered 2009",
-      "short": 20,
-      "years": {
-        "2020": 15,
-        "2021": 18,
-        "2022": 7,
-        "2023": 2,
-        "2024": 3,
-        "2025": 6,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Electro-Light"
       ],
       "count": 56,
@@ -8498,6 +8498,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 55,
+      "first": "2019-12-16",
+      "id": "1QQSTB03vIsgjU67UnUPEL",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 6579543,
+      "name": "I Call Your Name - Remastered 2009",
+      "short": 17,
+      "years": {
+        "2019": 2,
+        "2020": 13,
+        "2021": 20,
+        "2022": 6,
+        "2023": 3,
+        "2024": 3,
+        "2025": 4,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Jim Yosef"
       ],
       "count": 55,
@@ -8512,6 +8535,29 @@
         "2020": 31,
         "2021": 22,
         "2022": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 55,
+      "first": "2019-09-10",
+      "id": "2S8xyNRJX1XQdo3qnTuovI",
+      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+      "last": "2026-11-15",
+      "ms": 10231502,
+      "name": "Maxwell's Silver Hammer - Remastered 2009",
+      "short": 10,
+      "years": {
+        "2019": 3,
+        "2020": 14,
+        "2021": 13,
+        "2022": 3,
+        "2023": 4,
+        "2024": 6,
+        "2025": 5,
+        "2026": 7
       }
     },
     {
@@ -8592,6 +8638,29 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 54,
+      "first": "2019-12-07",
+      "id": "4OUmlC67FoPLvQNuE5C7kF",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 11190416,
+      "name": "Dig A Pony - Remastered 2009",
+      "short": 20,
+      "years": {
+        "2019": 3,
+        "2020": 17,
+        "2021": 15,
+        "2022": 3,
+        "2023": 2,
+        "2024": 3,
+        "2025": 5,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "JUJU"
       ],
       "count": 54,
@@ -8610,6 +8679,28 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 54,
+      "first": "2020-06-02",
+      "id": "0FP04YnQ8eDxkAH4rlwFar",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 10730565,
+      "name": "Don't Let Me Down - Remastered 2009",
+      "short": 11,
+      "years": {
+        "2020": 14,
+        "2021": 19,
+        "2022": 6,
+        "2023": 3,
+        "2024": 4,
+        "2025": 4,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "K-391"
       ],
       "count": 54,
@@ -8624,29 +8715,6 @@
         "2020": 31,
         "2021": 20,
         "2022": 3
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 54,
-      "first": "2019-12-16",
-      "id": "1QQSTB03vIsgjU67UnUPEL",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 6579543,
-      "name": "I Call Your Name - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2019": 2,
-        "2020": 13,
-        "2021": 20,
-        "2022": 6,
-        "2023": 3,
-        "2024": 3,
-        "2025": 4,
-        "2026": 3
       }
     },
     {
@@ -8728,29 +8796,6 @@
         "2024": 7,
         "2025": 3,
         "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 54,
-      "first": "2019-09-10",
-      "id": "2S8xyNRJX1XQdo3qnTuovI",
-      "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
-      "last": "2026-11-12",
-      "ms": 10231502,
-      "name": "Maxwell's Silver Hammer - Remastered 2009",
-      "short": 10,
-      "years": {
-        "2019": 3,
-        "2020": 14,
-        "2021": 13,
-        "2022": 3,
-        "2023": 4,
-        "2024": 6,
-        "2025": 5,
-        "2026": 6
       }
     },
     {
@@ -8882,51 +8927,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 53,
-      "first": "2019-12-07",
-      "id": "4OUmlC67FoPLvQNuE5C7kF",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-12",
-      "ms": 11190416,
-      "name": "Dig A Pony - Remastered 2009",
-      "short": 20,
-      "years": {
-        "2019": 3,
-        "2020": 17,
-        "2021": 15,
-        "2022": 3,
-        "2023": 2,
-        "2024": 3,
-        "2025": 5,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 53,
-      "first": "2020-06-02",
-      "id": "0FP04YnQ8eDxkAH4rlwFar",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 10730565,
-      "name": "Don't Let Me Down - Remastered 2009",
-      "short": 11,
-      "years": {
-        "2020": 14,
-        "2021": 19,
-        "2022": 6,
-        "2023": 3,
-        "2024": 4,
-        "2025": 4,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Michael Jackson"
       ],
       "count": 53,
@@ -8943,6 +8943,51 @@
         "2023": 1,
         "2024": 1,
         "2025": 1,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 53,
+      "first": "2020-06-02",
+      "id": "1tM9TBNPjieSOZ2d5VAQ1y",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 6746347,
+      "name": "Lady Madonna - Remastered 2009",
+      "short": 22,
+      "years": {
+        "2020": 13,
+        "2021": 17,
+        "2022": 6,
+        "2023": 3,
+        "2024": 4,
+        "2025": 5,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 53,
+      "first": "2019-12-16",
+      "id": "4qh4lu4xf4r3ZkBoyeajuc",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 10028198,
+      "name": "Revolution - Remastered 2009",
+      "short": 13,
+      "years": {
+        "2019": 1,
+        "2020": 13,
+        "2021": 19,
+        "2022": 6,
+        "2023": 4,
+        "2024": 3,
+        "2025": 3,
         "2026": 4
       }
     },
@@ -9096,28 +9141,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 52,
-      "first": "2020-06-02",
-      "id": "1tM9TBNPjieSOZ2d5VAQ1y",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-06",
-      "ms": 6746347,
-      "name": "Lady Madonna - Remastered 2009",
-      "short": 22,
-      "years": {
-        "2020": 13,
-        "2021": 17,
-        "2022": 6,
-        "2023": 3,
-        "2024": 4,
-        "2025": 5,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 52,
@@ -9148,29 +9171,6 @@
       "years": {
         "2025": 34,
         "2026": 18
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 52,
-      "first": "2019-12-16",
-      "id": "4qh4lu4xf4r3ZkBoyeajuc",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 10028198,
-      "name": "Revolution - Remastered 2009",
-      "short": 13,
-      "years": {
-        "2019": 1,
-        "2020": 13,
-        "2021": 19,
-        "2022": 6,
-        "2023": 4,
-        "2024": 3,
-        "2025": 3,
-        "2026": 3
       }
     },
     {
@@ -9298,6 +9298,28 @@
       "short": 4,
       "years": {
         "2020": 51
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 51,
+      "first": "2020-06-02",
+      "id": "6r7JAngkBzKGDKRUzLgY2U",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 7843771,
+      "name": "The Ballad Of John And Yoko - Remastered 2009",
+      "short": 12,
+      "years": {
+        "2020": 12,
+        "2021": 17,
+        "2022": 5,
+        "2023": 4,
+        "2024": 4,
+        "2025": 3,
+        "2026": 6
       }
     },
     {
@@ -9541,6 +9563,29 @@
       "years": {
         "2020": 48,
         "2022": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 49,
+      "first": "2019-12-07",
+      "id": "2BMqay80iBzZTa608Y1eG1",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 6534706,
+      "name": "I Me Mine - Remastered 2009",
+      "short": 19,
+      "years": {
+        "2019": 2,
+        "2020": 13,
+        "2021": 15,
+        "2022": 3,
+        "2023": 2,
+        "2024": 4,
+        "2025": 4,
+        "2026": 6
       }
     },
     {
@@ -9800,29 +9845,6 @@
         "The Beatles"
       ],
       "count": 48,
-      "first": "2019-12-07",
-      "id": "2BMqay80iBzZTa608Y1eG1",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-13",
-      "ms": 6534706,
-      "name": "I Me Mine - Remastered 2009",
-      "short": 19,
-      "years": {
-        "2019": 2,
-        "2020": 13,
-        "2021": 15,
-        "2022": 3,
-        "2023": 2,
-        "2024": 4,
-        "2025": 4,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 48,
       "first": "2020-02-10",
       "id": "6h9W5FxX4E9lUFsyq8j1AD",
       "image": "https://i.scdn.co/image/ab67616d0000485134ef8f7d06cf2fc2146f420a",
@@ -9890,28 +9912,6 @@
         "2023": 1,
         "2025": 28,
         "2026": 19
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 48,
-      "first": "2020-06-02",
-      "id": "6r7JAngkBzKGDKRUzLgY2U",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 7843771,
-      "name": "The Ballad Of John And Yoko - Remastered 2009",
-      "short": 12,
-      "years": {
-        "2020": 12,
-        "2021": 17,
-        "2022": 5,
-        "2023": 4,
-        "2024": 4,
-        "2025": 3,
-        "2026": 3
       }
     },
     {
@@ -10026,6 +10026,29 @@
       "years": {
         "2025": 4,
         "2026": 43
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 47,
+      "first": "2019-12-07",
+      "id": "3gwRWIbr5ycEVLIAXrWaw7",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 9245303,
+      "name": "I've Got A Feeling - Remastered 2009",
+      "short": 14,
+      "years": {
+        "2019": 2,
+        "2020": 10,
+        "2021": 16,
+        "2022": 3,
+        "2023": 3,
+        "2024": 4,
+        "2025": 4,
+        "2026": 5
       }
     },
     {
@@ -10293,29 +10316,6 @@
       "years": {
         "2020": 30,
         "2021": 16
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 46,
-      "first": "2019-12-07",
-      "id": "3gwRWIbr5ycEVLIAXrWaw7",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-08-01",
-      "ms": 9245303,
-      "name": "I've Got A Feeling - Remastered 2009",
-      "short": 14,
-      "years": {
-        "2019": 2,
-        "2020": 10,
-        "2021": 16,
-        "2022": 3,
-        "2023": 3,
-        "2024": 4,
-        "2025": 4,
-        "2026": 4
       }
     },
     {
@@ -11016,6 +11016,25 @@
     },
     {
       "artists": [
+        "Marshmello"
+      ],
+      "count": 43,
+      "first": "2023-11-09",
+      "id": "7BqHUALzNBTanL6OvsqmC1",
+      "image": "https://i.scdn.co/image/ab67616d00004851dd0a40eecd4b13e4c59988da",
+      "last": "2026-11-15",
+      "ms": 8642792,
+      "name": "Happier",
+      "short": 8,
+      "years": {
+        "2023": 1,
+        "2024": 6,
+        "2025": 22,
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "Taylor Swift"
       ],
       "count": 43,
@@ -11270,25 +11289,6 @@
         "2022": 2,
         "2023": 3,
         "2024": 1
-      }
-    },
-    {
-      "artists": [
-        "Marshmello"
-      ],
-      "count": 42,
-      "first": "2023-11-09",
-      "id": "7BqHUALzNBTanL6OvsqmC1",
-      "image": "https://i.scdn.co/image/ab67616d00004851dd0a40eecd4b13e4c59988da",
-      "last": "2026-07-07",
-      "ms": 8642792,
-      "name": "Happier",
-      "short": 8,
-      "years": {
-        "2023": 1,
-        "2024": 6,
-        "2025": 22,
-        "2026": 13
       }
     },
     {
@@ -14430,6 +14430,23 @@
     },
     {
       "artists": [
+        "Charlie Puth"
+      ],
+      "count": 28,
+      "first": "2025-12-20",
+      "id": "54PbBpquVfhfrwRwvjSXbI",
+      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
+      "last": "2026-11-15",
+      "ms": 5369621,
+      "name": "We Don't Talk Anymore (feat. Selena Gomez)",
+      "short": 6,
+      "years": {
+        "2025": 2,
+        "2026": 26
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 27,
@@ -14688,23 +14705,6 @@
     },
     {
       "artists": [
-        "Charlie Puth"
-      ],
-      "count": 27,
-      "first": "2025-12-20",
-      "id": "54PbBpquVfhfrwRwvjSXbI",
-      "image": "https://i.scdn.co/image/ab67616d0000485115145482a542a9adb282250b",
-      "last": "2026-07-30",
-      "ms": 5369621,
-      "name": "We Don't Talk Anymore (feat. Selena Gomez)",
-      "short": 6,
-      "years": {
-        "2025": 2,
-        "2026": 25
-      }
-    },
-    {
-      "artists": [
         "Henry Moodie"
       ],
       "count": 27,
@@ -14826,6 +14826,27 @@
       "years": {
         "2025": 4,
         "2026": 22
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 26,
+      "first": "2019-09-05",
+      "id": "0eRyOunOVBChlXxIvqwOxH",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 1085754,
+      "name": "Dig It - Remastered 2009",
+      "short": 15,
+      "years": {
+        "2019": 2,
+        "2020": 6,
+        "2023": 1,
+        "2024": 4,
+        "2025": 6,
+        "2026": 7
       }
     },
     {
@@ -15115,27 +15136,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 25,
-      "first": "2019-09-05",
-      "id": "0eRyOunOVBChlXxIvqwOxH",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-13",
-      "ms": 1085754,
-      "name": "Dig It - Remastered 2009",
-      "short": 15,
-      "years": {
-        "2019": 2,
-        "2020": 6,
-        "2023": 1,
-        "2024": 4,
-        "2025": 6,
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "BTS"
       ],
       "count": 25,
@@ -15333,6 +15333,46 @@
         "The Beatles"
       ],
       "count": 24,
+      "first": "2019-12-26",
+      "id": "5ovYFa8Em47SgPmhBlZb5N",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 3009983,
+      "name": "I'm Down - Remastered 2009",
+      "short": 5,
+      "years": {
+        "2019": 2,
+        "2020": 6,
+        "2024": 7,
+        "2025": 5,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 24,
+      "first": "2019-12-16",
+      "id": "7ds98B8y5BQltzC60Gdkri",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 2278543,
+      "name": "Long Tall Sally - Remastered 2009",
+      "short": 15,
+      "years": {
+        "2019": 1,
+        "2020": 5,
+        "2024": 5,
+        "2025": 7,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 24,
       "first": "2019-10-31",
       "id": "4RdJFhfLQcezwN5LsXl4qP",
       "image": "https://i.scdn.co/image/ab67616d0000485128b8b9b46428896e6491e97a",
@@ -15346,6 +15386,27 @@
         "2024": 8,
         "2025": 2,
         "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 24,
+      "first": "2019-12-29",
+      "id": "50qHmeex1nPTyQTwBXjSE4",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 3474392,
+      "name": "One After 909 - Remastered 2009",
+      "short": 16,
+      "years": {
+        "2019": 1,
+        "2020": 7,
+        "2023": 1,
+        "2024": 5,
+        "2025": 5,
+        "2026": 5
       }
     },
     {
@@ -15513,26 +15574,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 23,
-      "first": "2019-12-26",
-      "id": "5ovYFa8Em47SgPmhBlZb5N",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 3009983,
-      "name": "I'm Down - Remastered 2009",
-      "short": 5,
-      "years": {
-        "2019": 2,
-        "2020": 6,
-        "2024": 7,
-        "2025": 5,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Taylor Swift"
       ],
       "count": 23,
@@ -15598,27 +15639,6 @@
         "2020": 1,
         "2021": 5,
         "2022": 17
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 23,
-      "first": "2019-12-29",
-      "id": "50qHmeex1nPTyQTwBXjSE4",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-11-07",
-      "ms": 3474392,
-      "name": "One After 909 - Remastered 2009",
-      "short": 16,
-      "years": {
-        "2019": 1,
-        "2020": 7,
-        "2023": 1,
-        "2024": 5,
-        "2025": 5,
-        "2026": 4
       }
     },
     {
@@ -16008,26 +16028,6 @@
       "years": {
         "2025": 1,
         "2026": 21
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 22,
-      "first": "2019-12-16",
-      "id": "7ds98B8y5BQltzC60Gdkri",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 2278543,
-      "name": "Long Tall Sally - Remastered 2009",
-      "short": 15,
-      "years": {
-        "2019": 1,
-        "2020": 5,
-        "2024": 5,
-        "2025": 7,
-        "2026": 4
       }
     },
     {
@@ -16485,6 +16485,26 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 21,
+      "first": "2019-12-16",
+      "id": "2x7vw79tKsW99s8sbyuvPM",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 2721319,
+      "name": "Slow Down - Remastered 2009",
+      "short": 17,
+      "years": {
+        "2019": 2,
+        "2020": 4,
+        "2024": 5,
+        "2025": 6,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Novelbright"
       ],
       "count": 21,
@@ -16795,26 +16815,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 20,
-      "first": "2019-12-16",
-      "id": "2x7vw79tKsW99s8sbyuvPM",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 2721319,
-      "name": "Slow Down - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2019": 2,
-        "2020": 4,
-        "2024": 5,
-        "2025": 6,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Justin Bieber"
       ],
       "count": 20,
@@ -17004,6 +17004,27 @@
       "years": {
         "2021": 12,
         "2022": 3,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 19,
+      "first": "2019-12-29",
+      "id": "5dpRJkvY8oWMQmQbEQTXhO",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 2497428,
+      "name": "For You Blue - Remastered 2009",
+      "short": 13,
+      "years": {
+        "2019": 1,
+        "2020": 4,
+        "2023": 1,
+        "2024": 3,
+        "2025": 6,
         "2026": 4
       }
     },
@@ -17371,27 +17392,6 @@
       "name": "Collide",
       "years": {
         "2026": 18
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 18,
-      "first": "2019-12-29",
-      "id": "5dpRJkvY8oWMQmQbEQTXhO",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-07-21",
-      "ms": 2497428,
-      "name": "For You Blue - Remastered 2009",
-      "short": 13,
-      "years": {
-        "2019": 1,
-        "2020": 4,
-        "2023": 1,
-        "2024": 3,
-        "2025": 6,
-        "2026": 3
       }
     },
     {
@@ -17848,6 +17848,26 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 17,
+      "first": "2019-12-25",
+      "id": "7iTjGs5z7opNGCXyurs0Q7",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 2009713,
+      "name": "Bad Boy - Remastered 2009",
+      "short": 10,
+      "years": {
+        "2019": 1,
+        "2020": 5,
+        "2024": 4,
+        "2025": 3,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 17,
@@ -18058,6 +18078,27 @@
         "2020": 12,
         "2023": 1,
         "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 17,
+      "first": "2019-12-07",
+      "id": "2VsX1BoWSGiuVXGiFSUr6h",
+      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
+      "last": "2026-11-15",
+      "ms": 595834,
+      "name": "Maggie Mae - Remastered 2009",
+      "short": 16,
+      "years": {
+        "2019": 1,
+        "2020": 3,
+        "2023": 1,
+        "2024": 3,
+        "2025": 5,
+        "2026": 4
       }
     },
     {
@@ -18388,26 +18429,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 16,
-      "first": "2019-12-25",
-      "id": "7iTjGs5z7opNGCXyurs0Q7",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 2009713,
-      "name": "Bad Boy - Remastered 2009",
-      "short": 10,
-      "years": {
-        "2019": 1,
-        "2020": 5,
-        "2024": 4,
-        "2025": 3,
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
         "Tobu"
       ],
       "count": 16,
@@ -18583,20 +18604,20 @@
         "The Beatles"
       ],
       "count": 16,
-      "first": "2019-12-07",
-      "id": "2VsX1BoWSGiuVXGiFSUr6h",
-      "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
-      "last": "2026-07-21",
-      "ms": 595834,
-      "name": "Maggie Mae - Remastered 2009",
-      "short": 16,
+      "first": "2019-12-16",
+      "id": "149YAUOqxwKc32BlnxVjxn",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 1572352,
+      "name": "Love Me Do - Single Version / Remastered 2009",
+      "short": 14,
       "years": {
         "2019": 1,
-        "2020": 3,
-        "2023": 1,
+        "2020": 1,
+        "2021": 1,
         "2024": 3,
         "2025": 5,
-        "2026": 3
+        "2026": 5
       }
     },
     {
@@ -18737,6 +18758,26 @@
       "years": {
         "2025": 1,
         "2026": 15
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 16,
+      "first": "2019-12-16",
+      "id": "379hxtlY5LvbPQa5LL6dPo",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-16",
+      "ms": 2027041,
+      "name": "The Inner Light - Remastered 2009",
+      "short": 9,
+      "years": {
+        "2019": 1,
+        "2020": 4,
+        "2024": 3,
+        "2025": 2,
+        "2026": 6
       }
     },
     {
@@ -19153,6 +19194,23 @@
         "The Beatles"
       ],
       "count": 15,
+      "first": "2020-01-05",
+      "id": "3m7V717IKZqZLW5qUIOxdD",
+      "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
+      "last": "2026-11-16",
+      "ms": 2875743,
+      "name": "Hey Jude - Remastered 2009",
+      "short": 8,
+      "years": {
+        "2020": 10,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 15,
       "first": "2019-12-26",
       "id": "5Qe7NHxeLAn8KoLTNLSdwe",
       "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
@@ -19163,27 +19221,6 @@
       "years": {
         "2019": 1,
         "2020": 14
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 15,
-      "first": "2019-12-16",
-      "id": "149YAUOqxwKc32BlnxVjxn",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-25",
-      "ms": 1572352,
-      "name": "Love Me Do - Single Version / Remastered 2009",
-      "short": 14,
-      "years": {
-        "2019": 1,
-        "2020": 1,
-        "2021": 1,
-        "2024": 3,
-        "2025": 5,
-        "2026": 4
       }
     },
     {
@@ -19235,6 +19272,26 @@
         "2024": 5,
         "2025": 2,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 15,
+      "first": "2019-12-25",
+      "id": "4jXXFZtmxoYU15WKTIiYrE",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 1539814,
+      "name": "Matchbox - Remastered 2009",
+      "short": 12,
+      "years": {
+        "2019": 2,
+        "2020": 3,
+        "2024": 3,
+        "2025": 3,
+        "2026": 4
       }
     },
     {
@@ -19307,26 +19364,6 @@
         "2024": 3,
         "2025": 3,
         "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 15,
-      "first": "2019-12-16",
-      "id": "379hxtlY5LvbPQa5LL6dPo",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-11-07",
-      "ms": 2027041,
-      "name": "The Inner Light - Remastered 2009",
-      "short": 9,
-      "years": {
-        "2019": 1,
-        "2020": 4,
-        "2024": 3,
-        "2025": 2,
-        "2026": 5
       }
     },
     {
@@ -19696,6 +19733,22 @@
     },
     {
       "artists": [
+        "Katy Perry"
+      ],
+      "count": 14,
+      "first": "2025-08-19",
+      "id": "3lXbHd0EoryoQh3vpevNEP",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-11-15",
+      "ms": 221198,
+      "name": "Firework",
+      "years": {
+        "2025": 1,
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 14,
@@ -19728,23 +19781,6 @@
         "2023": 10,
         "2024": 1,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 14,
-      "first": "2020-01-05",
-      "id": "3m7V717IKZqZLW5qUIOxdD",
-      "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
-      "last": "2026-11-06",
-      "ms": 2875743,
-      "name": "Hey Jude - Remastered 2009",
-      "short": 8,
-      "years": {
-        "2020": 10,
-        "2026": 4
       }
     },
     {
@@ -19828,26 +19864,6 @@
       "name": "LOVE SONG",
       "years": {
         "2026": 14
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 14,
-      "first": "2019-12-25",
-      "id": "4jXXFZtmxoYU15WKTIiYrE",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 1539814,
-      "name": "Matchbox - Remastered 2009",
-      "short": 12,
-      "years": {
-        "2019": 2,
-        "2020": 3,
-        "2024": 3,
-        "2025": 3,
-        "2026": 3
       }
     },
     {
@@ -20227,22 +20243,6 @@
     },
     {
       "artists": [
-        "Katy Perry"
-      ],
-      "count": 13,
-      "first": "2025-08-19",
-      "id": "3lXbHd0EoryoQh3vpevNEP",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-10-29",
-      "ms": 221198,
-      "name": "Firework",
-      "years": {
-        "2025": 1,
-        "2026": 12
-      }
-    },
-    {
-      "artists": [
         "Justin Bieber"
       ],
       "count": 13,
@@ -20318,6 +20318,26 @@
       "short": 5,
       "years": {
         "2020": 13
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 13,
+      "first": "2019-12-16",
+      "id": "6oUjSwtifVaM8iIN01KVzC",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 1349398,
+      "name": "Komm gib mir deine Hand - Remastered 2009",
+      "short": 17,
+      "years": {
+        "2019": 1,
+        "2020": 1,
+        "2024": 3,
+        "2025": 3,
+        "2026": 5
       }
     },
     {
@@ -20868,26 +20888,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 12,
-      "first": "2019-12-16",
-      "id": "6oUjSwtifVaM8iIN01KVzC",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-25",
-      "ms": 1349398,
-      "name": "Komm gib mir deine Hand - Remastered 2009",
-      "short": 17,
-      "years": {
-        "2019": 1,
-        "2020": 1,
-        "2024": 3,
-        "2025": 3,
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "Yasutaka Nakata"
       ],
       "count": 12,
@@ -21289,6 +21289,22 @@
     },
     {
       "artists": [
+        "Taylor Swift"
+      ],
+      "count": 11,
+      "first": "2025-12-19",
+      "id": "4SHyS2ThjrS1iBGruKweCz",
+      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
+      "last": "2026-11-15",
+      "ms": 1309660,
+      "name": "Bad Blood",
+      "years": {
+        "2025": 2,
+        "2026": 9
+      }
+    },
+    {
+      "artists": [
         "Imagine Dragons"
       ],
       "count": 11,
@@ -21662,6 +21678,26 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 11,
+      "first": "2019-12-16",
+      "id": "5rkgbGIOTBGlKTAawWb06X",
+      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
+      "last": "2026-11-15",
+      "ms": 1213472,
+      "name": "Sie liebt dich - Remastered 2009",
+      "short": 20,
+      "years": {
+        "2019": 1,
+        "2020": 1,
+        "2024": 3,
+        "2025": 2,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "NewJeans"
       ],
       "count": 11,
@@ -21919,22 +21955,6 @@
       "years": {
         "2025": 1,
         "2026": 9
-      }
-    },
-    {
-      "artists": [
-        "Taylor Swift"
-      ],
-      "count": 10,
-      "first": "2025-12-19",
-      "id": "4SHyS2ThjrS1iBGruKweCz",
-      "image": "https://i.scdn.co/image/ab67616d000048510432bfd9e6adb616fd8bcc97",
-      "last": "2026-08-24",
-      "ms": 1309660,
-      "name": "Bad Blood",
-      "years": {
-        "2025": 2,
-        "2026": 8
       }
     },
     {
@@ -22496,26 +22516,6 @@
       "short": 1,
       "years": {
         "2026": 10
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 10,
-      "first": "2019-12-16",
-      "id": "5rkgbGIOTBGlKTAawWb06X",
-      "image": "https://i.scdn.co/image/ab67616d000048518d23bdb7c0a6c420f4ffa644",
-      "last": "2026-07-21",
-      "ms": 1213472,
-      "name": "Sie liebt dich - Remastered 2009",
-      "short": 20,
-      "years": {
-        "2019": 1,
-        "2020": 1,
-        "2024": 3,
-        "2025": 2,
-        "2026": 3
       }
     },
     {
@@ -26110,6 +26110,21 @@
     },
     {
       "artists": [
+        "B.o.B"
+      ],
+      "count": 6,
+      "first": "2026-07-29",
+      "id": "6lV2MSQmRIkycDScNtrBXO",
+      "image": "https://i.scdn.co/image/ab67616d00004851caa23612279c2d059a0d3a82",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Airplanes (feat. Hayley Williams of Paramore)",
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 6,
@@ -27659,21 +27674,6 @@
       "last": "2026-10-29",
       "ms": 62953,
       "name": "2011",
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "B.o.B"
-      ],
-      "count": 5,
-      "first": "2026-07-29",
-      "id": "6lV2MSQmRIkycDScNtrBXO",
-      "image": "https://i.scdn.co/image/ab67616d00004851caa23612279c2d059a0d3a82",
-      "last": "2026-10-16",
-      "ms": 0,
-      "name": "Airplanes (feat. Hayley Williams of Paramore)",
       "years": {
         "2026": 5
       }
@@ -48148,6 +48148,21 @@
     },
     {
       "artists": [
+        "Travie McCoy"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:billionairefeatbrunomars|traviemccoy",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d81b9cbffeea42659d7cfb25f07386a8.png",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Billionaire (feat. Bruno Mars)",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Imagine Dragons"
       ],
       "count": 1,
@@ -62092,6 +62107,21 @@
     },
     {
       "artists": [
+        "The Lumineers"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:ophelia|thelumineers",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ea77f864eff0a4283fa30b8edade7ddb.jpg",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Ophelia",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Train"
       ],
       "count": 1,
@@ -64956,6 +64986,21 @@
     },
     {
       "artists": [
+        "Becky G"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:shower|beckyg",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dda7abc86e33f62cedd1329cbed97396.jpg",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Shower",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "[ocean jams]"
       ],
       "count": 1,
@@ -64998,6 +65043,21 @@
       "name": "Sign",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "Harry Styles"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:signofthetimes|harrystyles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/295ed1c0727ce10652867d628139beb1.png",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Sign of the Times",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -68423,6 +68483,21 @@
     },
     {
       "artists": [
+        "Niall Horan"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:thistown|niallhoran",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2ba8f409c9812def364a2c1535c1b51c.jpg",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "This Town",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "New West"
       ],
       "count": 1,
@@ -69045,6 +69120,21 @@
       "short": 1,
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "Olly Murs"
+      ],
+      "count": 1,
+      "first": "2026-11-15",
+      "id": "lastfm:troublemakerfeatflorida|ollymurs",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/48bf30fbe9ad2856c2881091bb052ec0.jpg",
+      "last": "2026-11-15",
+      "ms": 0,
+      "name": "Troublemaker (feat. Flo Rida)",
+      "years": {
+        "2026": 1
       }
     },
     {
