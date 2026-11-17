@@ -41,28 +41,28 @@
       "month": "2026-10"
     },
     {
-      "count": 683,
+      "count": 737,
       "month": "2026-11"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 1066,
+  "new_tracks": 1069,
   "peak": {
     "dow": 6,
     "hour": 18
   },
-  "plays": 13982,
+  "plays": 14036,
   "top_artists": [
     {
-      "count": 1662,
+      "count": 1680,
       "name": "OneRepublic"
     },
     {
-      "count": 1089,
+      "count": 1090,
       "name": "The Beatles"
     },
     {
-      "count": 768,
+      "count": 767,
       "name": "Charlie Puth"
     },
     {
@@ -122,7 +122,7 @@
       "name": "Lany"
     },
     {
-      "count": 140,
+      "count": 142,
       "name": "Kygo"
     },
     {
@@ -130,7 +130,7 @@
       "name": "back number"
     },
     {
-      "count": 130,
+      "count": 129,
       "name": "LANY"
     }
   ],
@@ -139,7 +139,7 @@
       "artists": [
         "Eve"
       ],
-      "count": 119,
+      "count": 120,
       "name": "廻廻奇譚",
       "track_id": "5MVjxslIF7mVtYo75Nk445"
     },
@@ -150,6 +150,14 @@
       "count": 103,
       "name": "SPECIALZ",
       "track_id": "0GWNtMohuYUEHVZ40tcnHF"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 71,
+      "name": "I Lived",
+      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
     {
       "artists": [
@@ -171,9 +179,9 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 70,
-      "name": "I Lived",
-      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
+      "count": 64,
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
     {
       "artists": [
@@ -190,14 +198,6 @@
       "count": 64,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 63,
-      "name": "Apologize",
-      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
     {
       "artists": [
@@ -228,16 +228,16 @@
         "OneRepublic"
       ],
       "count": 58,
-      "name": "Beautiful Colors - from Kaiju No. 8",
-      "track_id": "0baR1QmlC8CruupaxA1IYA"
+      "name": "Good Life - from One Night In Malibu",
+      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
     },
     {
       "artists": [
         "OneRepublic"
       ],
-      "count": 57,
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
+      "count": 58,
+      "name": "Beautiful Colors - from Kaiju No. 8",
+      "track_id": "0baR1QmlC8CruupaxA1IYA"
     },
     {
       "artists": [
