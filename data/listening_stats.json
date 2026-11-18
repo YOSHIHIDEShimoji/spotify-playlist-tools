@@ -458,6 +458,14 @@
     },
     {
       "artists": [
+        "King Gnu"
+      ],
+      "count": 120,
+      "name": "SPECIALZ",
+      "track_id": "0GWNtMohuYUEHVZ40tcnHF"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 118,
@@ -479,14 +487,6 @@
       "count": 118,
       "name": "Ticket To Ride - Remastered 2009",
       "track_id": "7CZiDzGVjUssMSOXrDNYHL"
-    },
-    {
-      "artists": [
-        "King Gnu"
-      ],
-      "count": 118,
-      "name": "SPECIALZ",
-      "track_id": "0GWNtMohuYUEHVZ40tcnHF"
     },
     {
       "artists": [
@@ -522,6 +522,14 @@
     },
     {
       "artists": [
+        "ALI"
+      ],
+      "count": 115,
+      "name": "LOST IN PARADISE",
+      "track_id": "7kRKlFCFLAUwt43HWtauhX"
+    },
+    {
+      "artists": [
         "a-ha"
       ],
       "count": 114,
@@ -535,14 +543,6 @@
       "count": 114,
       "name": "Cry Baby",
       "track_id": "6wDntdm888mDo458RaYjGl"
-    },
-    {
-      "artists": [
-        "ALI"
-      ],
-      "count": 114,
-      "name": "LOST IN PARADISE",
-      "track_id": "7kRKlFCFLAUwt43HWtauhX"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-11-17T23:15:25.331863+00:00",
+  "generated_at": "2026-11-18T22:47:29.389343+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,10 +813,10 @@
       5000,
       10000
     ],
-    "total": 65718
+    "total": 65725
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 34,
+  "streak": 36,
   "weekly_top": [
     {
       "artists": [
@@ -853,6 +853,15 @@
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dcc118961e3a6d70b826f8fb2af9495d.jpg",
       "name": "Clear My Head",
       "track_id": "lastfm:clearmyhead|ellis"
+    },
+    {
+      "artists": [
+        "King Gnu"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514ad6e7ba87518d193e08e578",
+      "name": "SPECIALZ",
+      "track_id": "0GWNtMohuYUEHVZ40tcnHF"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485181f04c407e0ec68e3dea6b2c",
       "name": "Cornfield Chase",
       "track_id": "6pWgRkpqVfxnj3WuIcJ7WP"
-    },
-    {
-      "artists": [
-        "エド・シーラン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851dc806722f6802a8ea9953c89",
-      "name": "Bad Habits",
-      "track_id": "3rmo8F54jFF8OgYsqTxm5d"
     }
   ]
 }

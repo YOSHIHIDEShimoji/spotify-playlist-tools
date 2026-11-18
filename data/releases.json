@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-11-17T23:18:31.962239+00:00",
+  "generated_at": "2026-11-18T22:50:41.749135+00:00",
   "items": [
+    {
+      "album_id": "7A40u0vpClHm8JJE92fvyp",
+      "album_name": "Evil",
+      "album_type": "single",
+      "artist": "CHVRCHES",
+      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519bfc18e4d1d06e298eb455ee",
+      "is_new": true,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "3nLDUGzq99Lm0gRtDjUxSX",
+      "album_name": "Vaiana 2: Ein Babysitter für Simea",
+      "album_type": "album",
+      "artist": "Disney",
+      "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851affd68d04fa6ce7cb019c114",
+      "is_new": true,
+      "release_date": "2026-11-19"
+    },
     {
       "album_id": "4GXxmmS9kxeIeJBROvzQib",
       "album_name": "神々の襷(たすき)",
@@ -11,6 +33,39 @@
       "image": "https://i.scdn.co/image/ab67616d000048511f43f07f2761bc2335a65268",
       "is_new": false,
       "release_date": "2026-11-16"
+    },
+    {
+      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
+      "album_name": "Cool",
+      "album_type": "album",
+      "artist": "Wiz Khalifa",
+      "artist_id": "137W8MRPWKqSmrBGDBFSop",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
+      "album_name": "I Need A Light",
+      "album_type": "single",
+      "artist": "Zach Seabaugh",
+      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
+      "album_name": "Wait All Night",
+      "album_type": "single",
+      "artist": "Lost Frequencies",
+      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
+      "is_new": false,
+      "release_date": "2026-11-13"
     },
     {
       "album_id": "6BPFXxkpETKQklASxmLujm",
@@ -24,13 +79,13 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
-      "album_name": "Drop Anchor Here",
+      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
+      "album_name": "Take What You Need",
       "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -42,6 +97,28 @@
       "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
+      "album_name": "Fly (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Tone Stith",
+      "artist_id": "756t7CBmWLNYsshVtS6P44",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485187d0c528b62b8cf423950b82",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "2CNaaADlssuKJb72ijRWJg",
+      "album_name": "Blue Planet III (Original Television Soundtrack)",
+      "album_type": "album",
+      "artist": "Hans Zimmer",
+      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ee6926418cea793f374a0457",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -68,24 +145,13 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
-      "album_name": "Wait All Night",
+      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
+      "album_name": "Gravity",
       "album_type": "single",
-      "artist": "Lost Frequencies",
-      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "artist": "Alex Alexander",
+      "artist_id": "1mJucMwGjnCatEdVk9eedj",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
-      "album_name": "Cool",
-      "album_type": "album",
-      "artist": "Wiz Khalifa",
-      "artist_id": "137W8MRPWKqSmrBGDBFSop",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
+      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -101,35 +167,13 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
-      "album_name": "Fly (feat. Muni Long)",
+      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
+      "album_name": "Drop Anchor Here",
       "album_type": "single",
-      "artist": "Tone Stith",
-      "artist_id": "756t7CBmWLNYsshVtS6P44",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517691a0d7b120821345e5dae2",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
-      "album_name": "Gravity",
-      "album_type": "single",
-      "artist": "Alex Alexander",
-      "artist_id": "1mJucMwGjnCatEdVk9eedj",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
-      "album_name": "I Need A Light",
-      "album_type": "single",
-      "artist": "Zach Seabaugh",
-      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
+      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -145,28 +189,6 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "2CNaaADlssuKJb72ijRWJg",
-      "album_name": "Blue Planet III (Original Television Soundtrack)",
-      "album_type": "album",
-      "artist": "Hans Zimmer",
-      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ee6926418cea793f374a0457",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
-      "album_name": "Take What You Need",
-      "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
       "album_id": "77LfTDogh8RqhYVK0k5n84",
       "album_name": "Why Not? (feat. Quavo & Loe Shimmy)",
       "album_type": "single",
@@ -174,17 +196,6 @@
       "artist_id": "4DdkRBBYG6Yk9Ka8tdJ9BW",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851cc234e5b0f7364e7f0388f0b",
-      "is_new": false,
-      "release_date": "2026-11-12"
-    },
-    {
-      "album_id": "5BVWDl6DMXN7IgbzTqnFud",
-      "album_name": "Guts",
-      "album_type": "single",
-      "artist": "Lauv",
-      "artist_id": "5JZ7CnR6gTvEMKX4g70Amv",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513878ff854e069ed478bd9f1a",
       "is_new": false,
       "release_date": "2026-11-12"
     },
@@ -200,15 +211,15 @@
       "release_date": "2026-11-12"
     },
     {
-      "album_id": "0ueroD3J7dZxmf0lQEBHbV",
-      "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
-      "album_type": "album",
-      "artist": "Mai Kuraki",
-      "artist_id": "4x3GOic9xXFOoOBrEMuvN9",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851d3719f72799de173bb693e5e",
+      "album_id": "5BVWDl6DMXN7IgbzTqnFud",
+      "album_name": "Guts",
+      "album_type": "single",
+      "artist": "Lauv",
+      "artist_id": "5JZ7CnR6gTvEMKX4g70Amv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513878ff854e069ed478bd9f1a",
       "is_new": false,
-      "release_date": "2026-11-11"
+      "release_date": "2026-11-12"
     },
     {
       "album_id": "67kLj3jphSXfZpTkPL5UsN",
@@ -218,6 +229,17 @@
       "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
       "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
+      "is_new": false,
+      "release_date": "2026-11-11"
+    },
+    {
+      "album_id": "0ueroD3J7dZxmf0lQEBHbV",
+      "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
+      "album_type": "album",
+      "artist": "Mai Kuraki",
+      "artist_id": "4x3GOic9xXFOoOBrEMuvN9",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851d3719f72799de173bb693e5e",
       "is_new": false,
       "release_date": "2026-11-11"
     },
@@ -277,35 +299,24 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "7d3jar5PO8Gom2OcHQddBI",
-      "album_name": "Useless",
+      "album_id": "6RBkkVmaZTm7dU44FJCr6U",
+      "album_name": "The Book",
       "album_type": "single",
-      "artist": "Gym Class Heroes",
-      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
+      "artist": "John Michael Howell",
+      "artist_id": "4BqK6JLgMwQ99hx85DxNhP",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d60c8151e1a116066015899e",
+      "image": "https://i.scdn.co/image/ab67616d000048513c1e4c78427b9c5a249fcf39",
       "is_new": false,
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "7kjFKbcW8aAOXPLgZgjscS",
-      "album_name": "My Body Isn't Ready (Orchestral Version from Sound City)",
+      "album_id": "0UHPk8s5kziOTMEBQAmPbC",
+      "album_name": "Closer (En Español)",
       "album_type": "single",
-      "artist": "sombr",
-      "artist_id": "4G9NDjRyZFDlJKMRL8hx3S",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851224e4610703960a262e82207",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "146FOLcIdDJxQ0aAN7RJK0",
-      "album_name": "FADED EYES : REFRESHED",
-      "album_type": "single",
-      "artist": "Zerb",
-      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
+      "artist": "The Linda Lindas",
+      "artist_id": "13dTrWNNrnZ3AkgNyQNKP5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851398ceaa7c269bcf54b468427",
+      "image": "https://i.scdn.co/image/ab67616d000048518b1af2d0c63e4a381ebbac6e",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -321,35 +332,46 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "379McNO5sSbweTq3tZi68P",
-      "album_name": "Airplane Mode",
-      "album_type": "album",
-      "artist": "James Blunt",
-      "artist_id": "7KMqksf0UMdyA0UCf4R3ux",
+      "album_id": "5AczFK8cMM64bmUrmUxGWN",
+      "album_name": "Love Me Through (The Collection)",
+      "album_type": "single",
+      "artist": "Coco Jones",
+      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519942f451880f2d1bc751f130",
+      "image": "https://i.scdn.co/image/ab67616d0000485158e0bd857fc78d0bb3b667f7",
       "is_new": false,
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "21BkH2O10433QoWLGs6pZN",
-      "album_name": "All The People",
+      "album_id": "4SwcMmCbaWgoxMjoS94VaT",
+      "album_name": "Why'd You Have To Leave?",
       "album_type": "single",
-      "artist": "Shimza",
-      "artist_id": "0WHbjg8hVel1R9kq5794HX",
+      "artist": "The Neighbourhood",
+      "artist_id": "77SW9BnxLY8rJ0RciFqkHh",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c6652163f92103afc6d51dc8",
+      "image": "https://i.scdn.co/image/ab67616d00004851cf14f55dce8f6975ae6757b9",
       "is_new": false,
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "0UHPk8s5kziOTMEBQAmPbC",
-      "album_name": "Closer (En Español)",
+      "album_id": "7kjFKbcW8aAOXPLgZgjscS",
+      "album_name": "My Body Isn't Ready (Orchestral Version from Sound City)",
       "album_type": "single",
-      "artist": "The Linda Lindas",
-      "artist_id": "13dTrWNNrnZ3AkgNyQNKP5",
+      "artist": "sombr",
+      "artist_id": "4G9NDjRyZFDlJKMRL8hx3S",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851224e4610703960a262e82207",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
+      "album_id": "7d3jar5PO8Gom2OcHQddBI",
+      "album_name": "Useless",
+      "album_type": "single",
+      "artist": "Gym Class Heroes",
+      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518b1af2d0c63e4a381ebbac6e",
+      "image": "https://i.scdn.co/image/ab67616d00004851d60c8151e1a116066015899e",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -376,24 +398,35 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "5AczFK8cMM64bmUrmUxGWN",
-      "album_name": "Love Me Through (The Collection)",
-      "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
+      "album_id": "379McNO5sSbweTq3tZi68P",
+      "album_name": "Airplane Mode",
+      "album_type": "album",
+      "artist": "James Blunt",
+      "artist_id": "7KMqksf0UMdyA0UCf4R3ux",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485158e0bd857fc78d0bb3b667f7",
+      "image": "https://i.scdn.co/image/ab67616d000048519942f451880f2d1bc751f130",
       "is_new": false,
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "6RBkkVmaZTm7dU44FJCr6U",
-      "album_name": "The Book",
+      "album_id": "21BkH2O10433QoWLGs6pZN",
+      "album_name": "All The People",
       "album_type": "single",
-      "artist": "John Michael Howell",
-      "artist_id": "4BqK6JLgMwQ99hx85DxNhP",
+      "artist": "Shimza",
+      "artist_id": "0WHbjg8hVel1R9kq5794HX",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513c1e4c78427b9c5a249fcf39",
+      "image": "https://i.scdn.co/image/ab67616d00004851c6652163f92103afc6d51dc8",
+      "is_new": false,
+      "release_date": "2026-11-06"
+    },
+    {
+      "album_id": "146FOLcIdDJxQ0aAN7RJK0",
+      "album_name": "FADED EYES : REFRESHED",
+      "album_type": "single",
+      "artist": "Zerb",
+      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851398ceaa7c269bcf54b468427",
       "is_new": false,
       "release_date": "2026-11-06"
     },
@@ -409,17 +442,6 @@
       "release_date": "2026-11-06"
     },
     {
-      "album_id": "4SwcMmCbaWgoxMjoS94VaT",
-      "album_name": "Why'd You Have To Leave?",
-      "album_type": "single",
-      "artist": "The Neighbourhood",
-      "artist_id": "77SW9BnxLY8rJ0RciFqkHh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf14f55dce8f6975ae6757b9",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
       "album_id": "50o3Wm98DQENFLiiX3zd5B",
       "album_name": "take me home (4 christmas)",
       "album_type": "single",
@@ -429,83 +451,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851046e076b1fba2bac0770f65f",
       "is_new": false,
       "release_date": "2026-11-05"
-    },
-    {
-      "album_id": "3JIymeKAqCtQidOcorfNpA",
-      "album_name": "YOASOBI 5th ANNIVERSARY DOME LIVE 2024 “超現実” at TOKYO DOME",
-      "album_type": "album",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851adff752004f9de4b27b20b2f",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "5R0dCdjb1aDADy623EOLpg",
-      "album_name": "PURE",
-      "album_type": "album",
-      "artist": "Tatsuya Kitani",
-      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851750008babf4f7387d2ac7f40",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "5sETgU14pI1EaV9iV1QImv",
-      "album_name": "DEKAI",
-      "album_type": "album",
-      "artist": "Tatsuya Kitani",
-      "artist_id": "7mvhRvEAHiCTQHUnH7fgnv",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d000048519a99151d71b17fdd803e7770",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "1Mjrfn6qqRAAJM6OTjxnaz",
-      "album_name": "僕らの事にさせて (Prod. Vaundy)",
-      "album_type": "single",
-      "artist": "Jeremy Quartus",
-      "artist_id": "3RsPoeUFdT5nPJi59X63iy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851409166fe009c5421673d0ea9",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "4ZqVWABkm88cM9yBjqeB4e",
-      "album_name": "Born This Way",
-      "album_type": "single",
-      "artist": "Beverly",
-      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485121dbd63fb98c90712b9283d2",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "523noajUhbyPeCzT9u1yVK",
-      "album_name": "M25",
-      "album_type": "album",
-      "artist": "Mika Nakashima",
-      "artist_id": "3D73KNJRMbV45N59E8IN0F",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8f65ef20cc32183854e034b",
-      "is_new": false,
-      "release_date": "2026-11-04"
-    },
-    {
-      "album_id": "1kzCUstnUUZiVaIp5qflhA",
-      "album_name": "It’s the Most Wonderful Time of the Year",
-      "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851469a5b37aa26c927f8a9e90c",
-      "is_new": false,
-      "release_date": "2026-11-04"
     }
   ]
 }

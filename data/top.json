@@ -72,23 +72,23 @@
         "rank": 14
       },
       {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
+        "rank": 15
+      },
+      {
         "id": "4STHEaNw4mPZ2tzheohgXB",
         "name": "Paul McCartney",
-        "rank": 15
+        "rank": 16
       },
       {
         "id": "1dfeR4HaWDbWqFHLkxsg1d",
         "name": "Queen",
-        "rank": 16
+        "rank": 17
       },
       {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 17
-      },
-      {
-        "id": "1vCWHaC5f2uS3yhpwWbIA6",
-        "name": "Avicii",
         "rank": 18
       },
       {
@@ -421,43 +421,43 @@
         "rank": 23
       },
       {
-        "id": "6jJ0s89eD6GaHleKKya26X",
-        "name": "Katy Perry",
-        "rank": 24
-      },
-      {
         "id": "1McMsnEElThX1knmY4oliG",
         "name": "Olivia Rodrigo",
-        "rank": 25
+        "rank": 24
       },
       {
         "id": "4UXqAaa6dQYAk18Lv7PEgX",
         "name": "Fall Out Boy",
-        "rank": 26
+        "rank": 25
       },
       {
         "id": "5nCi3BB41mBaMH9gfr6Su0",
         "name": "fun.",
-        "rank": 27
+        "rank": 26
       },
       {
         "id": "0Xk15jHKly4c3AhPr5vjoA",
         "name": "Alan Silvestri",
-        "rank": 28
+        "rank": 27
       },
       {
         "id": "1Xyo4u8uXC1ZmMpatF05PJ",
         "name": "The Weeknd",
-        "rank": 29
+        "rank": 28
       },
       {
         "id": "23fqKkggKUBHNkbKtXEls4",
         "name": "Kygo",
+        "rank": 29
+      },
+      {
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
         "rank": 30
       }
     ]
   },
-  "generated_at": "2026-11-17T23:17:27.041039+00:00",
+  "generated_at": "2026-11-18T22:49:30.861856+00:00",
   "tracks": {
     "long_term": [
       {
@@ -589,30 +589,21 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "6sy3LkhNFjJWlaeSMNwQ62",
-        "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-        "name": "Counting Stars",
-        "rank": 15
-      },
-      {
-        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "66hblHI9wl1Nim70ZYLb6D",
         "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
         "name": "TATTOO",
-        "rank": 16
+        "rank": 15
       },
       {
         "artists": [
-          "OFFICIAL HIGE DANDISM"
+          "OneRepublic"
         ],
-        "id": "3ouZoixdw9pSbIq8aHDh3V",
-        "image": "https://i.scdn.co/image/ab67616d000048516a4326912dec0528b4a0eb83",
-        "name": "宿命",
-        "rank": 17
+        "id": "6sy3LkhNFjJWlaeSMNwQ62",
+        "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+        "name": "Counting Stars",
+        "rank": 16
       },
       {
         "artists": [
@@ -621,6 +612,15 @@
         "id": "6vtHQ7FcAXSOKSOeaBm5bc",
         "image": "https://i.scdn.co/image/ab67616d00004851671029020a0ce4210b24e666",
         "name": "異端なスター",
+        "rank": 17
+      },
+      {
+        "artists": [
+          "OFFICIAL HIGE DANDISM"
+        ],
+        "id": "3ouZoixdw9pSbIq8aHDh3V",
+        "image": "https://i.scdn.co/image/ab67616d000048516a4326912dec0528b4a0eb83",
+        "name": "宿命",
         "rank": 18
       },
       {
@@ -706,29 +706,29 @@
       },
       {
         "artists": [
-          "髙見 優/長岡 成貢"
-        ],
-        "id": "2p71NDW60CTBSDnIqDpXYP",
-        "image": "https://i.scdn.co/image/ab67616d000048518e0c1aae35cbe28fbfc03854",
-        "name": "南方仁のテーマ",
-        "rank": 28
-      },
-      {
-        "artists": [
           "OneRepublic"
         ],
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "髙見 優/長岡 成貢"
+        ],
+        "id": "2p71NDW60CTBSDnIqDpXYP",
+        "image": "https://i.scdn.co/image/ab67616d000048518e0c1aae35cbe28fbfc03854",
+        "name": "南方仁のテーマ",
         "rank": 29
       },
       {
         "artists": [
-          "OFFICIAL HIGE DANDISM"
+          "OneRepublic"
         ],
-        "id": "4SmhIMQMZjjUQq7i2fWWz2",
-        "image": "https://i.scdn.co/image/ab67616d0000485176daf130b080f6ac6b2c4ad2",
-        "name": "キャッチボール",
+        "id": "1NrJYpdAi7uosDRPmSYrsG",
+        "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+        "name": "Apologize",
         "rank": 30
       }
     ],
@@ -817,13 +817,22 @@
       },
       {
         "artists": [
+          "OneRepublic"
+        ],
+        "id": "7BJmqCLX37kEjiPhIYEpgh",
+        "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
+        "name": "Future Looks Good",
+        "rank": 10
+      },
+      {
+        "artists": [
           "Clean Bandit",
           "Jess Glynne"
         ],
         "id": "61dCUoMCg28qEBzrW6htYM",
         "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
         "name": "Rather Be (feat. Jess Glynne)",
-        "rank": 10
+        "rank": 11
       },
       {
         "artists": [
@@ -832,7 +841,7 @@
         "id": "4KPuYiTDV0eRL9NvDxMcLT",
         "image": "https://i.scdn.co/image/ab67616d000048516823e3a4f0a685140701fcf2",
         "name": "All The Right Moves - 2026 Remastered",
-        "rank": 11
+        "rank": 12
       },
       {
         "artists": [
@@ -841,7 +850,7 @@
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 12
+        "rank": 13
       },
       {
         "artists": [
@@ -850,7 +859,7 @@
         "id": "4zlKxtOh6Ejd4PJa9145dX",
         "image": "https://i.scdn.co/image/ab67616d000048516823e3a4f0a685140701fcf2",
         "name": "Marchin On - 2026 Remastered",
-        "rank": 13
+        "rank": 14
       },
       {
         "artists": [
@@ -859,7 +868,7 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -868,7 +877,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 15
+        "rank": 16
       },
       {
         "artists": [
@@ -877,15 +886,6 @@
         "id": "6aDsgHPZsMztSbZernzlF8",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Someday",
-        "rank": 16
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "7BJmqCLX37kEjiPhIYEpgh",
-        "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
-        "name": "Future Looks Good",
         "rank": 17
       },
       {
@@ -1194,21 +1194,12 @@
       },
       {
         "artists": [
-          "Jason Derulo"
-        ],
-        "id": "6zKrj4SomgfbvsfuTAuElE",
-        "image": "https://i.scdn.co/image/ab67616d00004851c8ef608c30067dd8d3a80f56",
-        "name": "Want to Want Me",
-        "rank": 21
-      },
-      {
-        "artists": [
           "LANY"
         ],
         "id": "7GbAp0HKPQW7WnFJAzMoRk",
         "image": "https://i.scdn.co/image/ab67616d00004851c4dae9528b2a8408f463eb17",
         "name": "Thru These Tears",
-        "rank": 22
+        "rank": 21
       },
       {
         "artists": [
@@ -1217,7 +1208,7 @@
         "id": "7wBrglFVTNCcW6IhdgBkm1",
         "image": "https://i.scdn.co/image/ab67616d000048512e62096e4daf8cd0d29fda48",
         "name": "Paradise",
-        "rank": 23
+        "rank": 22
       },
       {
         "artists": [
@@ -1227,7 +1218,7 @@
         "id": "7BqHUALzNBTanL6OvsqmC1",
         "image": "https://i.scdn.co/image/ab67616d00004851dd0a40eecd4b13e4c59988da",
         "name": "Happier",
-        "rank": 24
+        "rank": 23
       },
       {
         "artists": [
@@ -1236,7 +1227,7 @@
         "id": "0IeF66D9oZJIUzo1p8tifq",
         "image": "https://i.scdn.co/image/ab67616d0000485185b4aa0db466f09dc4354ee7",
         "name": "Clear My Head",
-        "rank": 25
+        "rank": 24
       },
       {
         "artists": [
@@ -1245,7 +1236,7 @@
         "id": "0j3p1p06deJ7f9xmJ9yG22",
         "image": "https://i.scdn.co/image/ab67616d000048514ce8b4e42588bf18182a1ad2",
         "name": "Back In The U.S.S.R. - Remastered 2009",
-        "rank": 26
+        "rank": 25
       },
       {
         "artists": [
@@ -1254,17 +1245,7 @@
         "id": "2baEFuU0gQon0hgVRioI1o",
         "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
         "name": "Anna (Go To Him) - Remastered 2009",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "Clean Bandit",
-          "Jess Glynne"
-        ],
-        "id": "61dCUoMCg28qEBzrW6htYM",
-        "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-        "name": "Rather Be (feat. Jess Glynne)",
-        "rank": 28
+        "rank": 26
       },
       {
         "artists": [
@@ -1274,7 +1255,7 @@
         "id": "55n9yjI6qqXh5F2mYvUc2y",
         "image": "https://i.scdn.co/image/ab67616d0000485163d77f99117b28af9f656918",
         "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        "rank": 29
+        "rank": 27
       },
       {
         "artists": [
@@ -1283,6 +1264,24 @@
         "id": "6JV2JOEocMgcZxYSZelKcc",
         "image": "https://i.scdn.co/image/ab67616d00004851ef37416970812293c08e8a78",
         "name": "CAN'T STOP THE FEELING! (from DreamWorks Animation's \"TROLLS\")",
+        "rank": 28
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "01SfTM5nfCou5gQL70r6gs",
+        "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
+        "name": "Golden Slumbers - Remastered 2009",
+        "rank": 29
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "0ESIjVxnDnCDaTPo6sStHm",
+        "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+        "name": "Till There Was You - Remastered 2009",
         "rank": 30
       }
     ]
