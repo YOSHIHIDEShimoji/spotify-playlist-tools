@@ -17,13 +17,13 @@
     },
     {
       "count": 33,
-      "id": "6VuMaDnrHyPL1p4EHjYLi7",
-      "name": "Charlie Puth"
-    },
-    {
-      "count": 32,
       "id": "6rs1KAoQnFalSqSU4LTh8g",
       "name": "back number"
+    },
+    {
+      "count": 33,
+      "id": "6VuMaDnrHyPL1p4EHjYLi7",
+      "name": "Charlie Puth"
     },
     {
       "count": 31,
@@ -169,7 +169,7 @@
       "decade": 1990
     },
     {
-      "count": 67,
+      "count": 68,
       "decade": 2000
     },
     {
@@ -177,7 +177,7 @@
       "decade": 2010
     },
     {
-      "count": 346,
+      "count": 348,
       "decade": 2020
     }
   ],
@@ -220,7 +220,7 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 31,
+          "count": 32,
           "id": "6rs1KAoQnFalSqSU4LTh8g",
           "name": "back number"
         },
@@ -353,7 +353,7 @@
           "decade": 1990
         },
         {
-          "count": 77,
+          "count": 78,
           "decade": 2000
         },
         {
@@ -361,17 +361,17 @@
           "decade": 2010
         },
         {
-          "count": 358,
+          "count": 360,
           "decade": 2020
         }
       ],
-      "total": 1185
+      "total": 1188
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
         "artists_top": [
           {
-            "count": 31,
+            "count": 32,
             "id": "6rs1KAoQnFalSqSU4LTh8g",
             "name": "back number"
           },
@@ -407,6 +407,11 @@
           },
           {
             "count": 5,
+            "id": "5YneEA2nLtAhkD5t2769lZ",
+            "name": "Ikimonogakari"
+          },
+          {
+            "count": 5,
             "id": "6n4SsAp5VjvIBg3s9QCcPX",
             "name": "SUDA MASAKI"
           },
@@ -414,11 +419,6 @@
             "count": 4,
             "id": "6wxfx1yhyqjCPYwwxJktR2",
             "name": "King Gnu"
-          },
-          {
-            "count": 4,
-            "id": "5YneEA2nLtAhkD5t2769lZ",
-            "name": "Ikimonogakari"
           },
           {
             "count": 3,
@@ -472,6 +472,11 @@
           },
           {
             "count": 2,
+            "id": "2IUl3m1H1EQ7QfNbNWvgru",
+            "name": "Vaundy"
+          },
+          {
+            "count": 2,
             "id": "4UK2Lzi6fBfUi9rpDt6cik",
             "name": "ヨルシカ"
           },
@@ -514,11 +519,6 @@
             "count": 1,
             "id": "1IEretLePzJKj8R6KCEaBA",
             "name": "Soushi Sakiyama"
-          },
-          {
-            "count": 1,
-            "id": "5Wfhi0FggHCfOSa3ux39fk",
-            "name": "jo0ji"
           }
         ],
         "decades": [
@@ -535,7 +535,7 @@
             "decade": 1990
           },
           {
-            "count": 26,
+            "count": 27,
             "decade": 2000
           },
           {
@@ -543,11 +543,11 @@
             "decade": 2010
           },
           {
-            "count": 81,
+            "count": 83,
             "decade": 2020
           }
         ],
-        "total": 198
+        "total": 201
       },
       "3gWeVkYJPREpkdCpDRjHFw": {
         "artists_top": [
@@ -870,6 +870,6 @@
       }
     ]
   },
-  "generated_at": "2026-11-18T22:47:41.659792+00:00",
-  "total": 827
+  "generated_at": "2026-11-19T22:51:10.015421+00:00",
+  "total": 830
 }

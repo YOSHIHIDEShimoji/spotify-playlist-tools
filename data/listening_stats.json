@@ -460,7 +460,7 @@
       "artists": [
         "King Gnu"
       ],
-      "count": 120,
+      "count": 119,
       "name": "SPECIALZ",
       "track_id": "0GWNtMohuYUEHVZ40tcnHF"
     },
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-11-18T22:47:29.389343+00:00",
+  "generated_at": "2026-11-19T22:50:59.338430+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,11 +813,20 @@
       5000,
       10000
     ],
-    "total": 65725
+    "total": 65740
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 36,
+  "streak": 37,
   "weekly_top": [
+    {
+      "artists": [
+        "Clean Bandit"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "name": "Rather Be (feat. Jess Glynne)",
+      "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
     {
       "artists": [
         "The Beatles"
@@ -847,6 +856,24 @@
     },
     {
       "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Marchin On - 2026 Remastered",
+      "track_id": "lastfm:marchinon2026remastered|ワンリパブリック"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
+      "name": "Stop and Stare",
+      "track_id": "0pg4ptWsO9eMH6nEhrM9fD"
+    },
+    {
+      "artists": [
         "Ellis"
       ],
       "count": 2,
@@ -856,12 +883,21 @@
     },
     {
       "artists": [
-        "King Gnu"
+        "Mao"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048514ad6e7ba87518d193e08e578",
-      "name": "SPECIALZ",
-      "track_id": "0GWNtMohuYUEHVZ40tcnHF"
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ba71ddfe924dce79ca713b55c46f3d33.jpg",
+      "name": "夢をかなえてドラえもん",
+      "track_id": "lastfm:夢をかなえてドラえもん|mao"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
     },
     {
       "artists": [
@@ -1231,42 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
       "name": "We Are Young (feat. Janelle Monáe)",
       "track_id": "5rgy6ghBq1eRApCkeUdJXf"
-    },
-    {
-      "artists": [
-        "Olivia Rodrigo"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
-      "name": "good 4 u",
-      "track_id": "4ZtFanR9U6ndgddUvNcjcG"
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "name": "Marchin On - 2026 Remastered",
-      "track_id": "lastfm:marchinon2026remastered|ワンリパブリック"
-    },
-    {
-      "artists": [
-        "アデル"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851756527c53c3e52f122db4644",
-      "name": "Chasing Pavements",
-      "track_id": "4YoGMmUJJ9dZpQ2CLOmPl2"
-    },
-    {
-      "artists": [
-        "ハンス・ジマー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485181f04c407e0ec68e3dea6b2c",
-      "name": "Cornfield Chase",
-      "track_id": "6pWgRkpqVfxnj3WuIcJ7WP"
     }
   ]
 }
