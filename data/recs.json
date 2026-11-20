@@ -3,7 +3,7 @@
     {
       "because": [
         {
-          "count": 15835,
+          "count": 15863,
           "name": "The Beatles"
         },
         {
@@ -12,12 +12,12 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 27.8352
+      "score": 27.8363
     },
     {
       "because": [
         {
-          "count": 15835,
+          "count": 15863,
           "name": "The Beatles"
         },
         {
@@ -26,12 +26,12 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 17.3004
+      "score": 17.3011
     },
     {
       "because": [
         {
-          "count": 15835,
+          "count": 15863,
           "name": "The Beatles"
         },
         {
@@ -40,12 +40,12 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 16.5753
+      "score": 16.5761
     },
     {
       "because": [
         {
-          "count": 2072,
+          "count": 2089,
           "name": "OneRepublic"
         },
         {
@@ -54,7 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0065
+      "score": 15.0147
     },
     {
       "because": [
@@ -82,7 +82,7 @@
         }
       ],
       "name": "米津玄師",
-      "score": 11.5206
+      "score": 11.5216
     },
     {
       "because": [
@@ -101,7 +101,7 @@
     {
       "because": [
         {
-          "count": 869,
+          "count": 871,
           "name": "Novelbright"
         },
         {
@@ -110,7 +110,7 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.913
+      "score": 9.9144
     },
     {
       "because": [
@@ -129,7 +129,7 @@
     {
       "because": [
         {
-          "count": 2072,
+          "count": 2089,
           "name": "OneRepublic"
         },
         {
@@ -138,7 +138,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.5478
+      "score": 9.5509
     },
     {
       "because": [
@@ -185,7 +185,7 @@
     {
       "because": [
         {
-          "count": 15835,
+          "count": 15863,
           "name": "The Beatles"
         },
         {
@@ -194,12 +194,12 @@
         }
       ],
       "name": "Traveling Wilburys",
-      "score": 8.6684
+      "score": 8.6688
     },
     {
       "because": [
         {
-          "count": 2072,
+          "count": 2089,
           "name": "OneRepublic"
         },
         {
@@ -208,7 +208,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 8.3647
+      "score": 8.3688
     },
     {
       "because": [
@@ -255,21 +255,7 @@
     {
       "because": [
         {
-          "count": 15835,
-          "name": "The Beatles"
-        },
-        {
-          "count": 2389,
-          "name": "Queen"
-        }
-      ],
-      "name": "The Who",
-      "score": 7.1461
-    },
-    {
-      "because": [
-        {
-          "count": 2072,
+          "count": 2089,
           "name": "OneRepublic"
         },
         {
@@ -278,7 +264,21 @@
         }
       ],
       "name": "The Fray",
-      "score": 7.1438
+      "score": 7.1482
+    },
+    {
+      "because": [
+        {
+          "count": 15863,
+          "name": "The Beatles"
+        },
+        {
+          "count": 2389,
+          "name": "Queen"
+        }
+      ],
+      "name": "The Who",
+      "score": 7.1464
     },
     {
       "because": [
@@ -297,7 +297,7 @@
     {
       "because": [
         {
-          "count": 15835,
+          "count": 15863,
           "name": "The Beatles"
         },
         {
@@ -306,7 +306,7 @@
         }
       ],
       "name": "The Monkees",
-      "score": 7.0062
+      "score": 7.0067
     },
     {
       "because": [
@@ -325,12 +325,12 @@
           "name": "back number"
         },
         {
-          "count": 869,
+          "count": 871,
           "name": "Novelbright"
         }
       ],
       "name": "SUPER BEAVER",
-      "score": 6.7976
+      "score": 6.7985
     },
     {
       "because": [
@@ -410,7 +410,7 @@
     }
   ],
   "available": true,
-  "generated_at": "2026-11-19T22:52:25.616042+00:00",
+  "generated_at": "2026-11-20T22:29:07.442625+00:00",
   "source": "lastfm",
   "tracks": [
     {

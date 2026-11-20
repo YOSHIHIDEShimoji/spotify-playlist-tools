@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-19T22:51:55.721773+00:00",
+  "generated_at": "2026-11-20T22:28:36.912315+00:00",
   "totals": {
     "artists": 1383,
-    "days": 2164,
+    "days": 2165,
     "ms": 12440720283,
-    "plays": 65740,
+    "plays": 65800,
     "since": "2019-09-05",
-    "tracks": 4791
+    "tracks": 4811
   },
   "tracks": [
     {
@@ -605,6 +605,23 @@
     },
     {
       "artists": [
+        "Eve"
+      ],
+      "count": 142,
+      "first": "2025-12-20",
+      "id": "5MVjxslIF7mVtYo75Nk445",
+      "image": "https://i.scdn.co/image/ab67616d00004851ad5d6db67f662909067fdb4a",
+      "last": "2026-11-20",
+      "ms": 29326454,
+      "name": "廻廻奇譚",
+      "short": 17,
+      "years": {
+        "2025": 21,
+        "2026": 121
+      }
+    },
+    {
+      "artists": [
         "back number"
       ],
       "count": 142,
@@ -621,23 +638,6 @@
         "2024": 32,
         "2025": 11,
         "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Eve"
-      ],
-      "count": 141,
-      "first": "2025-12-20",
-      "id": "5MVjxslIF7mVtYo75Nk445",
-      "image": "https://i.scdn.co/image/ab67616d00004851ad5d6db67f662909067fdb4a",
-      "last": "2026-11-17",
-      "ms": 29326454,
-      "name": "廻廻奇譚",
-      "short": 17,
-      "years": {
-        "2025": 21,
-        "2026": 120
       }
     },
     {
@@ -839,11 +839,11 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 126,
+      "count": 127,
       "first": "2019-09-07",
       "id": "4ekUX4pWizXXksJe0JfS9U",
       "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-      "last": "2026-11-09",
+      "last": "2026-11-20",
       "ms": 16232724,
       "name": "It Won't Be Long - Remastered 2009",
       "short": 44,
@@ -855,7 +855,7 @@
         "2023": 9,
         "2024": 20,
         "2025": 8,
-        "2026": 9
+        "2026": 10
       }
     },
     {
@@ -1330,6 +1330,23 @@
     },
     {
       "artists": [
+        "ALI"
+      ],
+      "count": 116,
+      "first": "2025-11-21",
+      "id": "7kRKlFCFLAUwt43HWtauhX",
+      "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
+      "last": "2026-11-20",
+      "ms": 34268905,
+      "name": "LOST IN PARADISE",
+      "short": 19,
+      "years": {
+        "2025": 44,
+        "2026": 72
+      }
+    },
+    {
+      "artists": [
         "YOASOBI"
       ],
       "count": 116,
@@ -1370,23 +1387,6 @@
         "2024": 26,
         "2025": 8,
         "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "ALI"
-      ],
-      "count": 115,
-      "first": "2025-11-21",
-      "id": "7kRKlFCFLAUwt43HWtauhX",
-      "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
-      "last": "2026-11-18",
-      "ms": 34268905,
-      "name": "LOST IN PARADISE",
-      "short": 19,
-      "years": {
-        "2025": 44,
-        "2026": 71
       }
     },
     {
@@ -2966,6 +2966,24 @@
     },
     {
       "artists": [
+        "Novelbright"
+      ],
+      "count": 90,
+      "first": "2024-10-28",
+      "id": "3y3gIFisu61Qc3NtRE7a2r",
+      "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
+      "last": "2026-11-21",
+      "ms": 20324505,
+      "name": "アイビー",
+      "short": 12,
+      "years": {
+        "2024": 1,
+        "2025": 46,
+        "2026": 43
+      }
+    },
+    {
+      "artists": [
         "Kenny Loggins"
       ],
       "count": 89,
@@ -3200,24 +3218,6 @@
         "2024": 8,
         "2025": 7,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Novelbright"
-      ],
-      "count": 88,
-      "first": "2024-10-28",
-      "id": "3y3gIFisu61Qc3NtRE7a2r",
-      "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
-      "last": "2026-10-18",
-      "ms": 20324505,
-      "name": "アイビー",
-      "short": 12,
-      "years": {
-        "2024": 1,
-        "2025": 46,
-        "2026": 41
       }
     },
     {
@@ -5332,6 +5332,23 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 72,
+      "first": "2025-11-19",
+      "id": "1NrJYpdAi7uosDRPmSYrsG",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 12430846,
+      "name": "Apologize",
+      "short": 8,
+      "years": {
+        "2025": 7,
+        "2026": 65
+      }
+    },
+    {
+      "artists": [
         "Justin Timberlake"
       ],
       "count": 72,
@@ -5538,23 +5555,6 @@
         "2024": 7,
         "2025": 5,
         "2026": 8
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 71,
-      "first": "2025-11-19",
-      "id": "1NrJYpdAi7uosDRPmSYrsG",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-17",
-      "ms": 12430846,
-      "name": "Apologize",
-      "short": 8,
-      "years": {
-        "2025": 7,
-        "2026": 64
       }
     },
     {
@@ -11220,6 +11220,23 @@
     },
     {
       "artists": [
+        "Hitsujibungaku"
+      ],
+      "count": 43,
+      "first": "2025-12-31",
+      "id": "2ZT6eELxeETGamaiXu6vmk",
+      "image": "https://i.scdn.co/image/ab67616d00004851a896d95ee294f8fe78766a4c",
+      "last": "2026-11-20",
+      "ms": 10977748,
+      "name": "more than words",
+      "short": 8,
+      "years": {
+        "2025": 1,
+        "2026": 42
+      }
+    },
+    {
+      "artists": [
         "SPITZ"
       ],
       "count": 43,
@@ -11412,23 +11429,6 @@
         "2022": 1,
         "2024": 32,
         "2025": 9
-      }
-    },
-    {
-      "artists": [
-        "Hitsujibungaku"
-      ],
-      "count": 42,
-      "first": "2025-12-31",
-      "id": "2ZT6eELxeETGamaiXu6vmk",
-      "image": "https://i.scdn.co/image/ab67616d00004851a896d95ee294f8fe78766a4c",
-      "last": "2026-11-19",
-      "ms": 10977748,
-      "name": "more than words",
-      "short": 8,
-      "years": {
-        "2025": 1,
-        "2026": 41
       }
     },
     {
@@ -12645,6 +12645,23 @@
     },
     {
       "artists": [
+        "Clean Bandit"
+      ],
+      "count": 37,
+      "first": "2024-06-04",
+      "id": "61dCUoMCg28qEBzrW6htYM",
+      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
+      "last": "2026-11-21",
+      "ms": 455666,
+      "name": "Rather Be (feat. Jess Glynne)",
+      "short": 2,
+      "years": {
+        "2024": 1,
+        "2026": 36
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 37,
@@ -12679,6 +12696,23 @@
       "years": {
         "2025": 4,
         "2026": 33
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 37,
+      "first": "2025-12-30",
+      "id": "0pg4ptWsO9eMH6nEhrM9fD",
+      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
+      "last": "2026-11-20",
+      "ms": 6428619,
+      "name": "Stop And Stare",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 36
       }
     },
     {
@@ -12935,23 +12969,6 @@
       "years": {
         "2025": 6,
         "2026": 30
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 36,
-      "first": "2025-12-30",
-      "id": "0pg4ptWsO9eMH6nEhrM9fD",
-      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
-      "last": "2026-11-20",
-      "ms": 6428619,
-      "name": "Stop And Stare",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 35
       }
     },
     {
@@ -13749,23 +13766,6 @@
     },
     {
       "artists": [
-        "Clean Bandit"
-      ],
-      "count": 32,
-      "first": "2024-06-04",
-      "id": "61dCUoMCg28qEBzrW6htYM",
-      "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
-      "last": "2026-11-20",
-      "ms": 455666,
-      "name": "Rather Be (feat. Jess Glynne)",
-      "short": 2,
-      "years": {
-        "2024": 1,
-        "2026": 31
-      }
-    },
-    {
-      "artists": [
         "Aaron Brown"
       ],
       "count": 32,
@@ -14215,6 +14215,21 @@
     },
     {
       "artists": [
+        "Katy Perry"
+      ],
+      "count": 30,
+      "first": "2026-05-06",
+      "id": "2009X8GyWTqyxIdzAEYW6N",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-11-20",
+      "ms": 909332,
+      "name": "The One That Got Away",
+      "years": {
+        "2026": 30
+      }
+    },
+    {
+      "artists": [
         "Justin Bieber"
       ],
       "count": 30,
@@ -14425,21 +14440,6 @@
       "years": {
         "2025": 2,
         "2026": 26
-      }
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 28,
-      "first": "2026-05-06",
-      "id": "2009X8GyWTqyxIdzAEYW6N",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-11-20",
-      "ms": 909332,
-      "name": "The One That Got Away",
-      "years": {
-        "2026": 28
       }
     },
     {
@@ -15428,6 +15428,27 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 24,
+      "first": "2019-09-30",
+      "id": "1hTUFqJuQAMjXVGwUPWDqi",
+      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
+      "last": "2026-11-20",
+      "ms": 2586592,
+      "name": "We Can Work It Out - Remastered 2015",
+      "short": 3,
+      "years": {
+        "2019": 2,
+        "2020": 5,
+        "2021": 1,
+        "2023": 8,
+        "2024": 3,
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "John Lennon"
       ],
       "count": 24,
@@ -15693,27 +15714,6 @@
         "2020": 12,
         "2022": 1,
         "2023": 10
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 23,
-      "first": "2019-09-30",
-      "id": "1hTUFqJuQAMjXVGwUPWDqi",
-      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
-      "last": "2026-11-02",
-      "ms": 2586592,
-      "name": "We Can Work It Out - Remastered 2015",
-      "short": 3,
-      "years": {
-        "2019": 2,
-        "2020": 5,
-        "2021": 1,
-        "2023": 8,
-        "2024": 3,
-        "2026": 4
       }
     },
     {
@@ -17955,6 +17955,22 @@
     },
     {
       "artists": [
+        "Katy Perry"
+      ],
+      "count": 17,
+      "first": "2025-08-19",
+      "id": "3lXbHd0EoryoQh3vpevNEP",
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "last": "2026-11-21",
+      "ms": 221198,
+      "name": "Firework",
+      "years": {
+        "2025": 1,
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 17,
@@ -19777,22 +19793,6 @@
         "2023": 5,
         "2024": 6,
         "2025": 3
-      }
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 14,
-      "first": "2025-08-19",
-      "id": "3lXbHd0EoryoQh3vpevNEP",
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "last": "2026-11-15",
-      "ms": 221198,
-      "name": "Firework",
-      "years": {
-        "2025": 1,
-        "2026": 13
       }
     },
     {
@@ -22539,6 +22539,22 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 10,
+      "first": "2026-06-24",
+      "id": "6H4vq5gz0rlNjH0LBzu4An",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 230573,
+      "name": "Say (All I Need)",
+      "short": 1,
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "ワンリパブリック"
       ],
       "count": 10,
@@ -22614,6 +22630,21 @@
         "2024": 3,
         "2025": 3,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 10,
+      "first": "2026-07-20",
+      "id": "1mXiSrqOdR09yT43TwkSLh",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Someone to Save You",
+      "years": {
+        "2026": 10
       }
     },
     {
@@ -23508,22 +23539,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 9,
-      "first": "2026-06-24",
-      "id": "6H4vq5gz0rlNjH0LBzu4An",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-01",
-      "ms": 230573,
-      "name": "Say (All I Need)",
-      "short": 1,
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "Adele"
       ],
       "count": 9,
@@ -23537,21 +23552,6 @@
         "2021": 1,
         "2025": 2,
         "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 9,
-      "first": "2026-07-20",
-      "id": "1mXiSrqOdR09yT43TwkSLh",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-20",
-      "ms": 0,
-      "name": "Someone to Save You",
-      "years": {
-        "2026": 9
       }
     },
     {
@@ -23837,6 +23837,22 @@
       "last": "2026-10-16",
       "ms": 939272,
       "name": "13",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 8,
+      "first": "2026-07-20",
+      "id": "1Jx69b09LKTuBQxkEiFfVX",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "All We Are",
+      "short": 1,
       "years": {
         "2026": 8
       }
@@ -25048,12 +25064,13 @@
         "OneRepublic"
       ],
       "count": 7,
-      "first": "2026-07-29",
-      "id": "48FuVo0KwE3N7Fqmc8cT4r",
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "last": "2026-10-15",
-      "ms": 0,
-      "name": "All This Time",
+      "first": "2026-07-18",
+      "id": "1zjJg21AG4sXU9wzbQnQiQ",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 127000,
+      "name": "All Fall Down",
+      "short": 1,
       "years": {
         "2026": 7
       }
@@ -25063,13 +25080,12 @@
         "OneRepublic"
       ],
       "count": 7,
-      "first": "2026-07-20",
-      "id": "1Jx69b09LKTuBQxkEiFfVX",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-20",
+      "first": "2026-07-29",
+      "id": "48FuVo0KwE3N7Fqmc8cT4r",
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "last": "2026-10-15",
       "ms": 0,
-      "name": "All We Are",
-      "short": 1,
+      "name": "All This Time",
       "years": {
         "2026": 7
       }
@@ -26186,22 +26202,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 6,
-      "first": "2026-07-18",
-      "id": "1zjJg21AG4sXU9wzbQnQiQ",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-09-29",
-      "ms": 127000,
-      "name": "All Fall Down",
-      "short": 1,
-      "years": {
-        "2026": 6
-      }
-    },
-    {
-      "artists": [
         "LANY"
       ],
       "count": 6,
@@ -26373,6 +26373,22 @@
       "last": "2026-09-30",
       "ms": 0,
       "name": "Christmas Without You",
+      "short": 1,
+      "years": {
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 6,
+      "first": "2026-07-29",
+      "id": "0bJfgUyjfPJYqRgUxb12Eh",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Come Home",
       "short": 1,
       "years": {
         "2026": 6
@@ -27906,22 +27922,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 5,
-      "first": "2026-07-29",
-      "id": "0bJfgUyjfPJYqRgUxb12Eh",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-20",
-      "ms": 0,
-      "name": "Come Home",
-      "short": 1,
-      "years": {
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "Tones And I"
       ],
       "count": 5,
@@ -28723,6 +28723,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 5,
+      "first": "2026-07-20",
+      "id": "5rvS6QdcKCXXLGq4YpinQe",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Prodigal",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
         "Ampyx"
       ],
       "count": 5,
@@ -28868,6 +28883,21 @@
       "last": "2026-11-17",
       "ms": 0,
       "name": "Stay",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 5,
+      "first": "2026-07-29",
+      "id": "5phIlbhXRbIgZwf8yFlSWv",
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Sucker Punch",
       "years": {
         "2026": 5
       }
@@ -29063,6 +29093,21 @@
       "years": {
         "2024": 1,
         "2026": 4
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 5,
+      "first": "2026-08-03",
+      "id": "7Jf6ay2g947vLxqRUkC09Q",
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Trap Door",
+      "years": {
+        "2026": 5
       }
     },
     {
@@ -30405,6 +30450,21 @@
     },
     {
       "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 4,
+      "first": "2026-08-14",
+      "id": "3WANeXpetY3TAi6PTlIMpc",
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "It's A Shame",
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Paul McCartney"
       ],
       "count": 4,
@@ -30886,21 +30946,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 4,
-      "first": "2026-07-20",
-      "id": "5rvS6QdcKCXXLGq4YpinQe",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-09-03",
-      "ms": 0,
-      "name": "Prodigal",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "ジョナス・ブラザース"
       ],
       "count": 4,
@@ -31206,21 +31251,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 4,
-      "first": "2026-07-29",
-      "id": "5phIlbhXRbIgZwf8yFlSWv",
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "last": "2026-09-04",
-      "ms": 0,
-      "name": "Sucker Punch",
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
         "The Beatles"
       ],
       "count": 4,
@@ -31424,21 +31454,6 @@
       "ms": 847664,
       "name": "Through The Fire",
       "short": 1,
-      "years": {
-        "2026": 4
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 4,
-      "first": "2026-08-03",
-      "id": "7Jf6ay2g947vLxqRUkC09Q",
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "last": "2026-08-31",
-      "ms": 0,
-      "name": "Trap Door",
       "years": {
         "2026": 4
       }
@@ -33651,21 +33666,6 @@
       "last": "2026-10-22",
       "ms": 289533,
       "name": "Iris",
-      "years": {
-        "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 3,
-      "first": "2026-08-14",
-      "id": "3WANeXpetY3TAi6PTlIMpc",
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "last": "2026-11-16",
-      "ms": 0,
-      "name": "It's A Shame",
       "years": {
         "2026": 3
       }
@@ -36518,6 +36518,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:allyouneedisloveremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "All You Need Is Love - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "Zara Larsson"
       ],
       "count": 2,
@@ -37936,6 +37951,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-07",
+      "id": "lastfm:eightdaysaweekremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Eight Days A Week - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "ザ・ビートルズ"
       ],
       "count": 2,
@@ -37962,6 +37992,21 @@
       "name": "Eldest Daughter",
       "years": {
         "2025": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:eleanorrigbyremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Eleanor Rigby - Remastered 2015",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -38941,6 +38986,36 @@
         "The Beatles"
       ],
       "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:hellogoodbyeremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Hello, Goodbye - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:helpremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Help! - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
       "first": "2020-06-11",
       "id": "3CPFHaVEHkkH26hAEPgMMp",
       "image": "https://i.scdn.co/image/ab67616d00004851c94603dcb78ec39322cebb5b",
@@ -39155,6 +39230,21 @@
       "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
       "years": {
         "2025": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-07",
+      "id": "lastfm:ifeelfineremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "I Feel Fine - Remastered 2015",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -39939,6 +40029,21 @@
       "ms": 381408,
       "name": "LIMBO",
       "short": 3,
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:ladymadonnaremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Lady Madonna - Remastered 2015",
       "years": {
         "2026": 2
       }
@@ -41242,6 +41347,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:paperbackwriterremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Paperback Writer - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "The Chainsmokers"
       ],
       "count": 2,
@@ -41284,6 +41404,21 @@
       "years": {
         "2021": 1,
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:pennylaneremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Penny Lane - Remastered 2015",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -43248,6 +43383,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:tickettorideremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Ticket To Ride - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 2,
@@ -44206,6 +44356,36 @@
       "last": "2026-05-04",
       "ms": 387130,
       "name": "Wrapped Around Your Finger",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:yellowsubmarineremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Yellow Submarine - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:yesterdayremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Yesterday - Remastered 2015",
       "years": {
         "2026": 2
       }
@@ -46297,6 +46477,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:aharddaysnightremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "A Hard Day's Night - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Coldplay"
       ],
       "count": 1,
@@ -46674,6 +46869,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:alltherightmoves2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "All The Right Moves - 2026 Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -46686,6 +46896,21 @@
       "short": 3,
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:allthistime2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "All This Time - 2026 Remastered",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -46773,21 +46998,6 @@
       "id": "lastfm:allyouneedisloveremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "All You Need Is Love - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:allyouneedisloveremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "All You Need Is Love - Remastered 2015",
       "years": {
@@ -49122,6 +49332,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:cantbuymeloveremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Can't Buy Me Love - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Elvis Presley"
       ],
       "count": 1,
@@ -49906,6 +50131,21 @@
       "name": "Come Together - Remastered 2009",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:cometogetherremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Come Together - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -50745,6 +50985,21 @@
       "id": "lastfm:daytripperremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Day Tripper - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:daytripperremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
       "ms": 0,
       "name": "Day Tripper - Remastered 2015",
       "years": {
@@ -51875,21 +52130,6 @@
         "The Beatles"
       ],
       "count": 1,
-      "first": "2026-09-07",
-      "id": "lastfm:eightdaysaweekremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-07",
-      "ms": 0,
-      "name": "Eight Days A Week - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
       "first": "2020-05-28",
       "id": "1zhZzC08dfpyuFdct8Oj1Z",
       "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
@@ -51910,21 +52150,6 @@
       "id": "lastfm:eleanorrigbyremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "Eleanor Rigby - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:eleanorrigbyremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "Eleanor Rigby - Remastered 2015",
       "years": {
@@ -52137,6 +52362,21 @@
       "last": "2026-02-01",
       "ms": 105603,
       "name": "Everybody (Backstreet's Back) - Radio Edit",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:everybodylovesme2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Everybody Loves Me - 2026 Remastered",
       "years": {
         "2026": 1
       }
@@ -53399,6 +53639,21 @@
         "The Beatles"
       ],
       "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:frommetoyoumonoremastered|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "From Me To You - Mono / Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
       "first": "2020-05-27",
       "id": "5JCbyeGTxbxMRZICQ0OkZO",
       "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
@@ -53603,6 +53858,21 @@
       "id": "lastfm:getbackremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Get Back - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:getbackremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
       "ms": 0,
       "name": "Get Back - Remastered 2015",
       "years": {
@@ -54763,21 +55033,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:hellogoodbyeremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
-      "ms": 0,
-      "name": "Hello, Goodbye - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "Yumi Matsutoya"
       ],
       "count": 1,
@@ -54863,21 +55118,6 @@
       "id": "lastfm:helpremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "Help! - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:helpremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "Help! - Remastered 2015",
       "years": {
@@ -55169,6 +55409,21 @@
       "id": "lastfm:heyjuderemastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "Hey Jude - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:heyjuderemastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
       "ms": 0,
       "name": "Hey Jude - Remastered 2015",
       "years": {
@@ -55758,21 +56013,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-07",
-      "id": "lastfm:ifeelfineremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-07",
-      "ms": 0,
-      "name": "I Feel Fine - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "Train"
       ],
       "count": 1,
@@ -56057,6 +56297,21 @@
       "id": "lastfm:iwanttoholdyourhandremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "I Want To Hold Your Hand - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:iwanttoholdyourhandremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
       "ms": 0,
       "name": "I Want To Hold Your Hand - Remastered 2015",
       "years": {
@@ -57950,21 +58205,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:ladymadonnaremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
-      "ms": 0,
-      "name": "Lady Madonna - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "Stephen Sanchez"
       ],
       "count": 1,
@@ -58265,6 +58505,21 @@
       "name": "Let It Be - Remastered 2009",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:letitberemastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Let It Be - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -59063,6 +59318,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:lovemedomonoremastered|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Love Me Do - Mono / Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Ariana Grande"
       ],
       "count": 1,
@@ -59772,6 +60042,21 @@
       "ms": 0,
       "name": "March Of The Meanies - Remastered 2009",
       "short": 5,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:marchinon2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Marchin On - 2026 Remastered",
       "years": {
         "2026": 1
       }
@@ -62593,21 +62878,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:paperbackwriterremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
-      "ms": 0,
-      "name": "Paperback Writer - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "TELL YOUR STORY music by Ikson™"
       ],
       "count": 1,
@@ -62723,21 +62993,6 @@
       "id": "lastfm:pennylaneremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "Penny Lane - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:pennylaneremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "Penny Lane - Remastered 2015",
       "years": {
@@ -64745,6 +65000,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:secrets2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Secrets - 2026 Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Wiz Khalifa"
       ],
       "count": 1,
@@ -64968,6 +65238,21 @@
       "id": "lastfm:shelovesyoumonoremastered|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
+      "ms": 0,
+      "name": "She Loves You - Mono / Remastered",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:shelovesyoumonoremastered|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
       "ms": 0,
       "name": "She Loves You - Mono / Remastered",
       "years": {
@@ -65866,6 +66151,21 @@
       "name": "Something - Remastered 2009",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:somethingremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Something - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -67660,6 +67960,21 @@
     },
     {
       "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:theballadofjohnandyokoremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "The Ballad Of John And Yoko - Remastered 2015",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Klaus Badelt"
       ],
       "count": 1,
@@ -68113,6 +68428,21 @@
       "short": 3,
       "years": {
         "2019": 1
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:thelongandwindingroadremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/61a11afe6b469c78c298d82628411783.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "The Long And Winding Road - Remastered 2015",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -68872,21 +69202,6 @@
       "id": "lastfm:tickettorideremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "Ticket To Ride - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:tickettorideremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "Ticket To Ride - Remastered 2015",
       "years": {
@@ -70111,6 +70426,21 @@
       "last": "2026-07-18",
       "ms": 47213,
       "name": "Waking Up",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 1,
+      "first": "2026-11-20",
+      "id": "lastfm:wakingup2026remastered|onerepublic",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "Waking Up - 2026 Remastered",
       "years": {
         "2026": 1
       }
@@ -71744,21 +72074,6 @@
         "The Beatles"
       ],
       "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:yellowsubmarineremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
-      "ms": 0,
-      "name": "Yellow Submarine - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
       "first": "2020-05-28",
       "id": "3iD2CCv5bsJRIaqJRYD0uJ",
       "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
@@ -71778,21 +72093,6 @@
       "id": "lastfm:yesterdayremastered2015|ザ・ビートルズ",
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
       "last": "2026-09-07",
-      "ms": 0,
-      "name": "Yesterday - Remastered 2015",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "The Beatles"
-      ],
-      "count": 1,
-      "first": "2026-09-10",
-      "id": "lastfm:yesterdayremastered2015|thebeatles",
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
-      "last": "2026-09-10",
       "ms": 0,
       "name": "Yesterday - Remastered 2015",
       "years": {

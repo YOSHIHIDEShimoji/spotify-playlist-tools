@@ -1,15 +1,81 @@
 {
-  "generated_at": "2026-11-19T22:54:00.213628+00:00",
+  "generated_at": "2026-11-20T22:31:00.747813+00:00",
   "items": [
     {
-      "album_id": "7hAEgpAEje0obsJ8SrJKg2",
-      "album_name": "Daughter from Hell (Deluxe)",
-      "album_type": "album",
-      "artist": "Gracie Abrams",
-      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "album_id": "4cNtPGMuwAtNKCN7NT7dMj",
+      "album_name": "Sun Showers (From \"The Angry Birds Movie 3”)",
+      "album_type": "single",
+      "artist": "JISOO",
+      "artist_id": "6UZ0ba50XreR4TM8u322gs",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485158dd09c7c38055e13d9612a9",
+      "image": "https://i.scdn.co/image/ab67616d00004851008762b741229e4a1ab24c4b",
       "is_new": true,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "4i03JuGhTAVzOemgFYo88e",
+      "album_name": "YUME",
+      "album_type": "single",
+      "artist": "Alan Walker",
+      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851baaf48c92fe2978a9a29f454",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "31rzlcY3HwoGOXZMMDK98E",
+      "album_name": "Rock Of The Westies (50th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "Elton John",
+      "artist_id": "3PhoLpVuITZKcymswpck5b",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485160d3515763490a99853f7a4f",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "6ooTcopS5BYCcQjakxP3O5",
+      "album_name": "Where's our love",
+      "album_type": "single",
+      "artist": "Macklemore",
+      "artist_id": "3JhNCzhSMTxs9WLGJJxWOY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485116671006bd65390606286912",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "5aqKsW1DEwhyFWopnzWykz",
+      "album_name": "Piece of Your Love",
+      "album_type": "single",
+      "artist": "MEDUZA",
+      "artist_id": "0xRXCcSX89eobfrshSVdyu",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485180f453458de4cb0ea7570b2b",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "3W4zbFnTRn0dUvkzm8HjLd",
+      "album_name": "Fast Asleep",
+      "album_type": "single",
+      "artist": "GIVĒON",
+      "artist_id": "4fxd5Ee7UefO4CUXgwJ7IP",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048515fd8378b2e0fc843b0c12c95",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "1h2WJJI1GFrW6pmrYjdVLy",
+      "album_name": "It’s Beginning to Look a Lot Like Christmas",
+      "album_type": "single",
+      "artist": "Jamie Miller",
+      "artist_id": "2LkkwxA19J8C52wPQl5bG6",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048512f0a24ecffedc28707dc1376",
+      "is_new": false,
       "release_date": "2026-11-20"
     },
     {
@@ -19,8 +85,30 @@
       "artist": "keshi",
       "artist_id": "3pc0bOVB5whxmD50W79wwO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485179593aa03a028d16a0b3db6c",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851cd6091837f2235d466cc091e",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "7hAEgpAEje0obsJ8SrJKg2",
+      "album_name": "Daughter from Hell (Deluxe)",
+      "album_type": "album",
+      "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba327df7359f933cb8d686e0",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "5DievKzmlCMzHlE2mqB68S",
+      "album_name": "A PLACE TO GO",
+      "album_type": "single",
+      "artist": "The Kid LAROI",
+      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519e1dc2b3e524c249d30d904b",
+      "is_new": false,
       "release_date": "2026-11-20"
     },
     {
@@ -35,91 +123,14 @@
       "release_date": "2026-11-20"
     },
     {
-      "album_id": "6ooTcopS5BYCcQjakxP3O5",
-      "album_name": "Where's our love",
-      "album_type": "single",
-      "artist": "Macklemore",
-      "artist_id": "3JhNCzhSMTxs9WLGJJxWOY",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485116671006bd65390606286912",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "5aqKsW1DEwhyFWopnzWykz",
-      "album_name": "Piece of Your Love",
-      "album_type": "single",
-      "artist": "MEDUZA",
-      "artist_id": "0xRXCcSX89eobfrshSVdyu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485180f453458de4cb0ea7570b2b",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "4i03JuGhTAVzOemgFYo88e",
-      "album_name": "YUME",
-      "album_type": "single",
-      "artist": "Alan Walker",
-      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851baaf48c92fe2978a9a29f454",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "1h2WJJI1GFrW6pmrYjdVLy",
-      "album_name": "It’s Beginning to Look a Lot Like Christmas",
-      "album_type": "single",
-      "artist": "Jamie Miller",
-      "artist_id": "2LkkwxA19J8C52wPQl5bG6",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512f0a24ecffedc28707dc1376",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "31rzlcY3HwoGOXZMMDK98E",
-      "album_name": "Rock Of The Westies (50th Anniversary Edition)",
-      "album_type": "album",
-      "artist": "Elton John",
-      "artist_id": "3PhoLpVuITZKcymswpck5b",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519c98ae930f077501bf25ebbc",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "3W4zbFnTRn0dUvkzm8HjLd",
-      "album_name": "Fast Asleep",
-      "album_type": "single",
-      "artist": "GIVĒON",
-      "artist_id": "4fxd5Ee7UefO4CUXgwJ7IP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485147592fa87309c3061e63b7c9",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "5DievKzmlCMzHlE2mqB68S",
-      "album_name": "A PLACE TO GO",
-      "album_type": "single",
-      "artist": "The Kid LAROI",
-      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519e1dc2b3e524c249d30d904b",
-      "is_new": true,
-      "release_date": "2026-11-20"
-    },
-    {
       "album_id": "6hkaerWZMubBWwyTDJP8J3",
       "album_name": "Bigger (from GTAVI: The Album)",
       "album_type": "single",
       "artist": "Burna Boy",
       "artist_id": "3wcj11K77LjEY1PkEazffa",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851e0003b039e2fd9448e32f5c5",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d000048512f3cf972223d5fd0f60a4a53",
+      "is_new": false,
       "release_date": "2026-11-19"
     },
     {
@@ -141,7 +152,7 @@
       "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851a1d5da1a7d1eaac4535ab969",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-19"
     },
     {
@@ -151,8 +162,8 @@
       "artist": "Dua Lipa",
       "artist_id": "6M2wZ9GZgrQXHCFfjv46we",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485117b02e0470f9792de151e0b2",
-      "is_new": true,
+      "image": "https://i.scdn.co/image/ab67616d00004851c8b29eb380509bdaee35e15c",
+      "is_new": false,
       "release_date": "2026-11-19"
     },
     {
@@ -163,7 +174,7 @@
       "artist_id": "6tPHARSq45lQ8BSALCfkFC",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851259a4a6e2dbd0c35acd827f9",
-      "is_new": true,
+      "is_new": false,
       "release_date": "2026-11-18"
     },
     {
@@ -178,24 +189,13 @@
       "release_date": "2026-11-16"
     },
     {
-      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
-      "album_name": "Drop Anchor Here",
+      "album_id": "3rAIzaGkMIWpZxd1wefSm6",
+      "album_name": "W1000",
       "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "artist": "Tohji",
+      "artist_id": "7j7kL8K4GE1z5Cdxl7ucBF",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
-      "album_name": "Take What You Need",
-      "album_type": "single",
-      "artist": "The Chainsmokers",
-      "artist_id": "69GGBxA162lTqCwzJG5jLp",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
+      "image": "https://i.scdn.co/image/ab67616d00004851294c561798761131ed4b4e16",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -211,24 +211,13 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
-      "album_name": "Cool",
-      "album_type": "album",
-      "artist": "Wiz Khalifa",
-      "artist_id": "137W8MRPWKqSmrBGDBFSop",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
-      "album_name": "I Need A Light",
+      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
+      "album_name": "Drop Anchor Here",
       "album_type": "single",
-      "artist": "Zach Seabaugh",
-      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
+      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -255,68 +244,13 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "3rAIzaGkMIWpZxd1wefSm6",
-      "album_name": "W1000",
+      "album_id": "6mKaexnVCCwdcaK2gGRxjX",
+      "album_name": "Take What You Need",
       "album_type": "single",
-      "artist": "Tohji",
-      "artist_id": "7j7kL8K4GE1z5Cdxl7ucBF",
+      "artist": "The Chainsmokers",
+      "artist_id": "69GGBxA162lTqCwzJG5jLp",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851294c561798761131ed4b4e16",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
-      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
-      "album_type": "single",
-      "artist": "Au/Ra",
-      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbe96a2617be8a2e91bdb034",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
-      "album_name": "Gravity",
-      "album_type": "single",
-      "artist": "Alex Alexander",
-      "artist_id": "1mJucMwGjnCatEdVk9eedj",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
-      "album_name": "Wait All Night",
-      "album_type": "single",
-      "artist": "Lost Frequencies",
-      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "3Arw97tnQUGQ3zBkWrEORn",
-      "album_name": "Christmas in New York",
-      "album_type": "single",
-      "artist": "EJAE",
-      "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
-      "album_name": "Fly (feat. Muni Long)",
-      "album_type": "single",
-      "artist": "Tone Stith",
-      "artist_id": "756t7CBmWLNYsshVtS6P44",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485187d0c528b62b8cf423950b82",
+      "image": "https://i.scdn.co/image/ab67616d00004851fbc059411e5d7e7818c92ce0",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -332,26 +266,81 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "5BVWDl6DMXN7IgbzTqnFud",
-      "album_name": "Guts",
+      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
+      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
       "album_type": "single",
-      "artist": "Lauv",
-      "artist_id": "5JZ7CnR6gTvEMKX4g70Amv",
+      "artist": "Au/Ra",
+      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513878ff854e069ed478bd9f1a",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbe96a2617be8a2e91bdb034",
       "is_new": false,
-      "release_date": "2026-11-12"
+      "release_date": "2026-11-13"
     },
     {
-      "album_id": "5I5UOWV5c2wiVVF01SF4X1",
+      "album_id": "3Arw97tnQUGQ3zBkWrEORn",
+      "album_name": "Christmas in New York",
+      "album_type": "single",
+      "artist": "EJAE",
+      "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
+      "album_name": "I Need A Light",
+      "album_type": "single",
+      "artist": "Zach Seabaugh",
+      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
+      "album_name": "Wait All Night",
+      "album_type": "single",
+      "artist": "Lost Frequencies",
+      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
       "album_name": "Cool",
       "album_type": "album",
       "artist": "Wiz Khalifa",
       "artist_id": "137W8MRPWKqSmrBGDBFSop",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048514bb5ed64925db6c4d04eafcd",
-      "is_new": true,
-      "release_date": "2026-11-12"
+      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
+      "album_name": "Gravity",
+      "album_type": "single",
+      "artist": "Alex Alexander",
+      "artist_id": "1mJucMwGjnCatEdVk9eedj",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
+      "album_name": "Fly (feat. Muni Long)",
+      "album_type": "single",
+      "artist": "Tone Stith",
+      "artist_id": "756t7CBmWLNYsshVtS6P44",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485187d0c528b62b8cf423950b82",
+      "is_new": false,
+      "release_date": "2026-11-13"
     },
     {
       "album_id": "2Dq9DuoVZB8eLsBygdBd7g",
@@ -361,6 +350,17 @@
       "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485140c95342374f8c233d5298f5",
+      "is_new": false,
+      "release_date": "2026-11-12"
+    },
+    {
+      "album_id": "5BVWDl6DMXN7IgbzTqnFud",
+      "album_name": "Guts",
+      "album_type": "single",
+      "artist": "Lauv",
+      "artist_id": "5JZ7CnR6gTvEMKX4g70Amv",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048513878ff854e069ed478bd9f1a",
       "is_new": false,
       "release_date": "2026-11-12"
     },
@@ -376,17 +376,6 @@
       "release_date": "2026-11-12"
     },
     {
-      "album_id": "67kLj3jphSXfZpTkPL5UsN",
-      "album_name": "KILLA",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
-      "is_new": false,
-      "release_date": "2026-11-11"
-    },
-    {
       "album_id": "0ueroD3J7dZxmf0lQEBHbV",
       "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
       "album_type": "album",
@@ -398,13 +387,24 @@
       "release_date": "2026-11-11"
     },
     {
-      "album_id": "48t5uBGJucx2rRiS7HKWR6",
-      "album_name": "Ghazali (Part I)",
-      "album_type": "album",
-      "artist": "Elyanna",
-      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
+      "album_id": "67kLj3jphSXfZpTkPL5UsN",
+      "album_name": "KILLA",
+      "album_type": "single",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
+      "is_new": false,
+      "release_date": "2026-11-11"
+    },
+    {
+      "album_id": "4Al0Bkb4LDezxd52QrMHlm",
+      "album_name": "The Current (From The ViQueens Soundtrack)",
+      "album_type": "single",
+      "artist": "Rita Ora",
+      "artist_id": "5CCwRZC6euC8Odo6y9X8jr",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485181dcd68d9627500b41b689ea",
+      "image": "https://i.scdn.co/image/ab67616d0000485178ed7f4158fdb9153c6877ad",
       "is_new": false,
       "release_date": "2026-11-10"
     },
@@ -420,13 +420,13 @@
       "release_date": "2026-11-10"
     },
     {
-      "album_id": "4Al0Bkb4LDezxd52QrMHlm",
-      "album_name": "The Current (From The ViQueens Soundtrack)",
-      "album_type": "single",
-      "artist": "Rita Ora",
-      "artist_id": "5CCwRZC6euC8Odo6y9X8jr",
+      "album_id": "48t5uBGJucx2rRiS7HKWR6",
+      "album_name": "Ghazali (Part I)",
+      "album_type": "album",
+      "artist": "Elyanna",
+      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485178ed7f4158fdb9153c6877ad",
+      "image": "https://i.scdn.co/image/ab67616d0000485181dcd68d9627500b41b689ea",
       "is_new": false,
       "release_date": "2026-11-10"
     },
@@ -440,160 +440,6 @@
       "image": "https://i.scdn.co/image/ab67616d00004851da9728833edb6fa6cad3c3f2",
       "is_new": false,
       "release_date": "2026-11-07"
-    },
-    {
-      "album_id": "4SwcMmCbaWgoxMjoS94VaT",
-      "album_name": "Why'd You Have To Leave?",
-      "album_type": "single",
-      "artist": "The Neighbourhood",
-      "artist_id": "77SW9BnxLY8rJ0RciFqkHh",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cf14f55dce8f6975ae6757b9",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "7kjFKbcW8aAOXPLgZgjscS",
-      "album_name": "My Body Isn't Ready (Orchestral Version from Sound City)",
-      "album_type": "single",
-      "artist": "sombr",
-      "artist_id": "4G9NDjRyZFDlJKMRL8hx3S",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851224e4610703960a262e82207",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "1wQnunDL2cXMlZbjPye6Pb",
-      "album_name": "X&O",
-      "album_type": "single",
-      "artist": "LMNT 115",
-      "artist_id": "2uhgJK13algiylq9MtKRWu",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8cee3b7b5ad483dca9c8f85",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "4cR5n1PGL2ROVd8l9fDxZY",
-      "album_name": "It's Beginning To Look A Lot Like Christmas",
-      "album_type": "single",
-      "artist": "Dan + Shay",
-      "artist_id": "7z5WFjZAIYejWy0NI5lv4T",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485194fa1f2ac81fd5046e0d73fa",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "4TvpmzHgr2UqniQChY2dxn",
-      "album_name": "3two",
-      "album_type": "single",
-      "artist": "Ella Mai",
-      "artist_id": "7HkdQ0gt53LP4zmHsL0nap",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485135c23162a1a9eae531df97b4",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "7d3jar5PO8Gom2OcHQddBI",
-      "album_name": "Useless",
-      "album_type": "single",
-      "artist": "Gym Class Heroes",
-      "artist_id": "4IJczjB0fJ04gs4uvP0Fli",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851d60c8151e1a116066015899e",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "2ZEh1rTXVI5QkF4sH6aiR1",
-      "album_name": "EXPOSED. ft. Quavo.",
-      "album_type": "single",
-      "artist": "YFN Lucci",
-      "artist_id": "5Berubt6ysOy2LCMyqhmXP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519b507b8716f184c85472aa25",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "7B1fw3DJ1RqnWD60fMJfRg",
-      "album_name": "Ghazali",
-      "album_type": "single",
-      "artist": "Elyanna",
-      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048512615d8d839c3e8133ed9ec5c",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "6RBkkVmaZTm7dU44FJCr6U",
-      "album_name": "The Book",
-      "album_type": "single",
-      "artist": "John Michael Howell",
-      "artist_id": "4BqK6JLgMwQ99hx85DxNhP",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048513c1e4c78427b9c5a249fcf39",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "21BkH2O10433QoWLGs6pZN",
-      "album_name": "All The People",
-      "album_type": "single",
-      "artist": "Shimza",
-      "artist_id": "0WHbjg8hVel1R9kq5794HX",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c6652163f92103afc6d51dc8",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "5AczFK8cMM64bmUrmUxGWN",
-      "album_name": "Love Me Through (The Collection)",
-      "album_type": "single",
-      "artist": "Coco Jones",
-      "artist_id": "4DHLoiIqFYYFjH09WduvFd",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485158e0bd857fc78d0bb3b667f7",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "146FOLcIdDJxQ0aAN7RJK0",
-      "album_name": "FADED EYES : REFRESHED",
-      "album_type": "single",
-      "artist": "Zerb",
-      "artist_id": "6mDl7lQiLxT0iQ8LYhAlWy",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851398ceaa7c269bcf54b468427",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "0UHPk8s5kziOTMEBQAmPbC",
-      "album_name": "Closer (En Español)",
-      "album_type": "single",
-      "artist": "The Linda Lindas",
-      "artist_id": "13dTrWNNrnZ3AkgNyQNKP5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048518b1af2d0c63e4a381ebbac6e",
-      "is_new": false,
-      "release_date": "2026-11-06"
-    },
-    {
-      "album_id": "379McNO5sSbweTq3tZi68P",
-      "album_name": "Airplane Mode",
-      "album_type": "album",
-      "artist": "James Blunt",
-      "artist_id": "7KMqksf0UMdyA0UCf4R3ux",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519942f451880f2d1bc751f130",
-      "is_new": false,
-      "release_date": "2026-11-06"
     }
   ]
 }

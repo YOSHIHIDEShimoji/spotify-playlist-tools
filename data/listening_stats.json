@@ -244,7 +244,7 @@
       "artists": [
         "Eve"
       ],
-      "count": 141,
+      "count": 142,
       "name": "廻廻奇譚",
       "track_id": "5MVjxslIF7mVtYo75Nk445"
     },
@@ -324,7 +324,7 @@
       "artists": [
         "The Beatles"
       ],
-      "count": 126,
+      "count": 127,
       "name": "It Won't Be Long - Remastered 2009",
       "track_id": "4ekUX4pWizXXksJe0JfS9U"
     },
@@ -514,19 +514,19 @@
     },
     {
       "artists": [
+        "ALI"
+      ],
+      "count": 116,
+      "name": "LOST IN PARADISE",
+      "track_id": "7kRKlFCFLAUwt43HWtauhX"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 115,
       "name": "I Should Have Known Better - Remastered 2009",
       "track_id": "3pU1CUgPiFfxPCpscwIwQR"
-    },
-    {
-      "artists": [
-        "ALI"
-      ],
-      "count": 115,
-      "name": "LOST IN PARADISE",
-      "track_id": "7kRKlFCFLAUwt43HWtauhX"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "70XHAdaMaoLIOVb1hSaeJ4"
     }
   ],
-  "generated_at": "2026-11-19T22:50:59.338430+00:00",
+  "generated_at": "2026-11-20T22:27:33.287898+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,46 @@
       5000,
       10000
     ],
-    "total": 65740
+    "total": 65800
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 37,
+  "streak": 38,
   "weekly_top": [
     {
       "artists": [
         "Clean Bandit"
       ],
-      "count": 4,
+      "count": 9,
       "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
       "name": "Rather Be (feat. Jess Glynne)",
       "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
+    {
+      "artists": [
+        "ケイティ・ペリー"
+      ],
+      "count": 4,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
+      "name": "Stop and Stare",
+      "track_id": "0pg4ptWsO9eMH6nEhrM9fD"
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "Firework",
+      "track_id": "3lXbHd0EoryoQh3vpevNEP"
     },
     {
       "artists": [
@@ -859,18 +886,18 @@
         "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
-      "name": "Marchin On - 2026 Remastered",
-      "track_id": "lastfm:marchinon2026remastered|ワンリパブリック"
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "It's A Shame",
+      "track_id": "3WANeXpetY3TAi6PTlIMpc"
     },
     {
       "artists": [
-        "OneRepublic"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048518d2a873567851166946387a0",
-      "name": "Stop and Stare",
-      "track_id": "0pg4ptWsO9eMH6nEhrM9fD"
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "Marchin On - 2026 Remastered",
+      "track_id": "lastfm:marchinon2026remastered|ワンリパブリック"
     },
     {
       "artists": [
@@ -883,6 +910,42 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Apologize",
+      "track_id": "1NrJYpdAi7uosDRPmSYrsG"
+    },
+    {
+      "artists": [
+        "Eve"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851ad5d6db67f662909067fdb4a",
+      "name": "廻廻奇譚",
+      "track_id": "5MVjxslIF7mVtYo75Nk445"
+    },
+    {
+      "artists": [
+        "Ali"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048514d0fb5b5d49c879a5cfed01e",
+      "name": "LOST IN PARADISE",
+      "track_id": "7kRKlFCFLAUwt43HWtauhX"
+    },
+    {
+      "artists": [
+        "Hitsujibungaku"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851a896d95ee294f8fe78766a4c",
+      "name": "more than words",
+      "track_id": "2ZT6eELxeETGamaiXu6vmk"
+    },
+    {
+      "artists": [
         "Mao"
       ],
       "count": 2,
@@ -892,12 +955,39 @@
     },
     {
       "artists": [
-        "ケイティ・ペリー"
+        "ワンリパブリック"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "name": "The One That Got Away",
-      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "All We Are",
+      "track_id": "1Jx69b09LKTuBQxkEiFfVX"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Someone To Save You",
+      "track_id": "1mXiSrqOdR09yT43TwkSLh"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Come Home",
+      "track_id": "0bJfgUyjfPJYqRgUxb12Eh"
+    },
+    {
+      "artists": [
+        "Novelbright"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
+      "name": "アイビー",
+      "track_id": "3y3gIFisu61Qc3NtRE7a2r"
     },
     {
       "artists": [
@@ -1063,15 +1153,6 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "It's A Shame",
-      "track_id": "3WANeXpetY3TAi6PTlIMpc"
-    },
-    {
-      "artists": [
         "ジェイムズ・ブラント"
       ],
       "count": 1,
@@ -1186,87 +1267,6 @@
       "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6c38e833fcd5f0e92bccd932931cd5c0.jpg",
       "name": "Dancin - Krono Remix",
       "track_id": "lastfm:dancinkronoremix|aaronsmith"
-    },
-    {
-      "artists": [
-        "カイゴ"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851238d888f4282893ed8f83f2a",
-      "name": "Stranger Things (feat. OneRepublic)",
-      "track_id": "4sJqSKPc5fZ5OZ8JiVI44N"
-    },
-    {
-      "artists": [
-        "Matt Hansen"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851018a8fc259c87e4b8a8c3329",
-      "name": "THINKING BOUT ME",
-      "track_id": "5YG2G8i8NPuyPBY3YjZQXJ"
-    },
-    {
-      "artists": [
-        "ショーン・メンデス"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485104d6b1cca796816d03f4d698",
-      "name": "Why Why Why",
-      "track_id": "0kPIcJ1Mp6m9AR9Y7UnMLR"
-    },
-    {
-      "artists": [
-        "ナイル・ホーラン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048515bac234d5511248b248caf36",
-      "name": "This Town",
-      "track_id": "0qvzXomUDJVaUboy2wMfiS"
-    },
-    {
-      "artists": [
-        "イン・シンク"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851fceb9d92981970dbeea23257",
-      "name": "Bye Bye Bye",
-      "track_id": "4r8lRYnoOGdEi6YyI5OC1o"
-    },
-    {
-      "artists": [
-        "ジャスティン・ビーバー"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516c20c4638a558132ba95bc39",
-      "name": "Maria",
-      "track_id": "7E1dQbOk1qcx9gEPUMBKsk"
-    },
-    {
-      "artists": [
-        "エド・シーラン"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851b07c28bb3192bdfb585fb438",
-      "name": "Camera",
-      "track_id": "6vqyk3mbDBv3npTpctYoka"
-    },
-    {
-      "artists": [
-        "Lany"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851c7a37e0649c5bea6f9ec3aff",
-      "name": "pink skies",
-      "track_id": "6BZ6pl5bczDc3cMF1kBaOy"
-    },
-    {
-      "artists": [
-        "ファン."
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851a036e1724bc7f2bab15cfda8",
-      "name": "We Are Young (feat. Janelle Monáe)",
-      "track_id": "5rgy6ghBq1eRApCkeUdJXf"
     }
   ]
 }
