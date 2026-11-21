@@ -209,23 +209,23 @@
         "rank": 11
       },
       {
+        "id": "0jWCX6zp4RjWrmZRxJ2uri",
+        "name": "Novelbright",
+        "rank": 12
+      },
+      {
         "id": "0du5cEVh5yTK9QJze8zA0C",
         "name": "Bruno Mars",
-        "rank": 12
+        "rank": 13
       },
       {
         "id": "3FUY2gzHeIiaesXtOAdB7A",
         "name": "Train",
-        "rank": 13
+        "rank": 14
       },
       {
         "id": "7n2wHs1TKAczGzO7Dd2rGr",
         "name": "Shawn Mendes",
-        "rank": 14
-      },
-      {
-        "id": "0jWCX6zp4RjWrmZRxJ2uri",
-        "name": "Novelbright",
         "rank": 15
       },
       {
@@ -244,28 +244,28 @@
         "rank": 18
       },
       {
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
+        "rank": 19
+      },
+      {
         "id": "5Vo1hnCRmCM6M4thZCInCj",
         "name": "OFFICIAL HIGE DANDISM",
-        "rank": 19
+        "rank": 20
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "6wlhqnATSJIc0NQ64VxOVJ",
         "name": "Matt Hansen",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "1vCWHaC5f2uS3yhpwWbIA6",
         "name": "Avicii",
-        "rank": 22
-      },
-      {
-        "id": "1McMsnEElThX1knmY4oliG",
-        "name": "Olivia Rodrigo",
         "rank": 23
       },
       {
@@ -279,18 +279,18 @@
         "rank": 25
       },
       {
+        "id": "6rs1KAoQnFalSqSU4LTh8g",
+        "name": "back number",
+        "rank": 26
+      },
+      {
         "id": "58lV9VcRSjABbAbfWS6skp",
         "name": "Bon Jovi",
-        "rank": 26
+        "rank": 27
       },
       {
         "id": "5WUlDfRSoLAfcVSX1WnrxN",
         "name": "Sia",
-        "rank": 27
-      },
-      {
-        "id": "6rs1KAoQnFalSqSU4LTh8g",
-        "name": "back number",
         "rank": 28
       },
       {
@@ -341,13 +341,13 @@
         "rank": 7
       },
       {
-        "id": "7n2wHs1TKAczGzO7Dd2rGr",
-        "name": "Shawn Mendes",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
         "rank": 8
       },
       {
-        "id": "06HL4z0CvFAxyc27GXpf02",
-        "name": "Taylor Swift",
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
         "rank": 9
       },
       {
@@ -366,48 +366,48 @@
         "rank": 12
       },
       {
-        "id": "6wlhqnATSJIc0NQ64VxOVJ",
-        "name": "Matt Hansen",
+        "id": "6jJ0s89eD6GaHleKKya26X",
+        "name": "Katy Perry",
         "rank": 13
       },
       {
-        "id": "04gDigrS5kc9YWfZHwBETP",
-        "name": "Maroon 5",
+        "id": "6wlhqnATSJIc0NQ64VxOVJ",
+        "name": "Matt Hansen",
         "rank": 14
-      },
-      {
-        "id": "6jJ0s89eD6GaHleKKya26X",
-        "name": "Katy Perry",
-        "rank": 15
-      },
-      {
-        "id": "1vCWHaC5f2uS3yhpwWbIA6",
-        "name": "Avicii",
-        "rank": 16
       },
       {
         "id": "4AK6F7OLvEQ5QYCBNiQWHq",
         "name": "One Direction",
-        "rank": 17
+        "rank": 15
       },
       {
         "id": "4Fgf6RvuWpiwDXSE7Vammx",
         "name": "George Martin",
-        "rank": 18
+        "rank": 16
       },
       {
-        "id": "3FUY2gzHeIiaesXtOAdB7A",
-        "name": "Train",
-        "rank": 19
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "rank": 17
+      },
+      {
+        "id": "1vCWHaC5f2uS3yhpwWbIA6",
+        "name": "Avicii",
+        "rank": 18
       },
       {
         "id": "4dpARuHxo51G3z768sgnrY",
         "name": "Adele",
-        "rank": 20
+        "rank": 19
       },
       {
         "id": "22wbnEMDvgVIAGdFeek6ET",
         "name": "Benson Boone",
+        "rank": 20
+      },
+      {
+        "id": "3FUY2gzHeIiaesXtOAdB7A",
+        "name": "Train",
         "rank": 21
       },
       {
@@ -457,7 +457,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-20T22:29:39.938011+00:00",
+  "generated_at": "2026-11-21T21:24:26.463824+00:00",
   "tracks": {
     "long_term": [
       {
@@ -607,12 +607,21 @@
       },
       {
         "artists": [
+          "Novelbright"
+        ],
+        "id": "3y3gIFisu61Qc3NtRE7a2r",
+        "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
+        "name": "アイビー",
+        "rank": 17
+      },
+      {
+        "artists": [
           "OFFICIAL HIGE DANDISM"
         ],
         "id": "6vtHQ7FcAXSOKSOeaBm5bc",
         "image": "https://i.scdn.co/image/ab67616d00004851671029020a0ce4210b24e666",
         "name": "異端なスター",
-        "rank": 17
+        "rank": 18
       },
       {
         "artists": [
@@ -621,7 +630,7 @@
         "id": "3ouZoixdw9pSbIq8aHDh3V",
         "image": "https://i.scdn.co/image/ab67616d000048516a4326912dec0528b4a0eb83",
         "name": "宿命",
-        "rank": 18
+        "rank": 19
       },
       {
         "artists": [
@@ -630,15 +639,6 @@
         "id": "53WuztMfY1VH3rLIm0zApQ",
         "image": "https://i.scdn.co/image/ab67616d000048516a4326912dec0528b4a0eb83",
         "name": "イエスタデイ",
-        "rank": 19
-      },
-      {
-        "artists": [
-          "Novelbright"
-        ],
-        "id": "3y3gIFisu61Qc3NtRE7a2r",
-        "image": "https://i.scdn.co/image/ab67616d0000485140781807ae18e93b50cd98e3",
-        "name": "アイビー",
         "rank": 20
       },
       {
@@ -854,12 +854,21 @@
       },
       {
         "artists": [
+          "Maroon 5"
+        ],
+        "id": "2iuZJX9X9P0GKaE93xcPjk",
+        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+        "name": "Sugar",
+        "rank": 14
+      },
+      {
+        "artists": [
           "OneRepublic"
         ],
         "id": "0qdpBSgdFsOPGv9QLxEjdu",
         "image": "https://i.scdn.co/image/ab67616d000048516ccd70de60c0a5de9fd8f86d",
         "name": "Good Life - from One Night In Malibu",
-        "rank": 14
+        "rank": 15
       },
       {
         "artists": [
@@ -868,7 +877,7 @@
         "id": "2huog03SvMO8Mo5dEBP7k8",
         "image": "https://i.scdn.co/image/ab67616d000048516823e3a4f0a685140701fcf2",
         "name": "Everybody Loves Me - 2026 Remastered",
-        "rank": 15
+        "rank": 16
       },
       {
         "artists": [
@@ -877,7 +886,7 @@
         "id": "2LsFnG9KYkWSk8dVopmHw2",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "RUNAWAY",
-        "rank": 16
+        "rank": 17
       },
       {
         "artists": [
@@ -886,7 +895,7 @@
         "id": "3SiVMpHxTS1gspWzRZE50S",
         "image": "https://i.scdn.co/image/ab67616d00004851d9b914089ee1525387783989",
         "name": "Nobody - from Kaiju No. 8",
-        "rank": 17
+        "rank": 18
       },
       {
         "artists": [
@@ -895,7 +904,7 @@
         "id": "6aDsgHPZsMztSbZernzlF8",
         "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
         "name": "Someday",
-        "rank": 18
+        "rank": 19
       },
       {
         "artists": [
@@ -904,7 +913,7 @@
         "id": "61xU2tvHvTGLbqF2AYza7g",
         "image": "https://i.scdn.co/image/ab67616d000048518ddf50e87a75358e78825fed",
         "name": "Stop And Stare",
-        "rank": 19
+        "rank": 20
       },
       {
         "artists": [
@@ -913,15 +922,6 @@
         "id": "5MvWvLJXqaOc5XOpMbAPkQ",
         "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
         "name": "Wherever I Go",
-        "rank": 20
-      },
-      {
-        "artists": [
-          "Maroon 5"
-        ],
-        "id": "2iuZJX9X9P0GKaE93xcPjk",
-        "image": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
-        "name": "Sugar",
         "rank": 21
       },
       {
@@ -1023,21 +1023,12 @@
       },
       {
         "artists": [
-          "OneRepublic"
-        ],
-        "id": "5aIZ2jtxZ4o4GHQXTybkIa",
-        "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-        "name": "Something I Need",
-        "rank": 2
-      },
-      {
-        "artists": [
           "The Beatles"
         ],
         "id": "1h04XMpzGzmAudoI6VHBgA",
         "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
         "name": "Penny Lane - Remastered 2009",
-        "rank": 3
+        "rank": 2
       },
       {
         "artists": [
@@ -1046,7 +1037,7 @@
         "id": "3KiexfmhxHvG5IgAElmTkd",
         "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
         "name": "I Saw Her Standing There - Remastered 2009",
-        "rank": 4
+        "rank": 3
       },
       {
         "artists": [
@@ -1055,7 +1046,7 @@
         "id": "4r6eNCsrZnQWJzzvFh4nlg",
         "image": "https://i.scdn.co/image/ab67616d00004851d20c38f295039520d688a888",
         "name": "Firework",
-        "rank": 5
+        "rank": 4
       },
       {
         "artists": [
@@ -1064,7 +1055,7 @@
         "id": "2EqlS6tkEnglzr7tkKAAYD",
         "image": "https://i.scdn.co/image/ab67616d00004851dc30583ba717007b00cceb25",
         "name": "Come Together - Remastered 2009",
-        "rank": 6
+        "rank": 5
       },
       {
         "artists": [
@@ -1073,16 +1064,7 @@
         "id": "3VbGCXWRiouAq8VyMYN2MI",
         "image": "https://i.scdn.co/image/ab67616d00004851dbeec63ad914c973e75c24df",
         "name": "Love Me Do - Remastered 2009",
-        "rank": 7
-      },
-      {
-        "artists": [
-          "keshi"
-        ],
-        "id": "41EnM4giX9PJYZIBUCPmiI",
-        "image": "https://i.scdn.co/image/ab67616d000048513dfa5d71dad925112f5d5b9a",
-        "name": "I Choose You",
-        "rank": 8
+        "rank": 6
       },
       {
         "artists": [
@@ -1091,7 +1073,7 @@
         "id": "4MLBqAEzNN89o2M9h92Z26",
         "image": "https://i.scdn.co/image/ab67616d0000485184243a01af3c77b56fe01ab1",
         "name": "Get Back - Remastered 2009",
-        "rank": 9
+        "rank": 7
       },
       {
         "artists": [
@@ -1100,7 +1082,160 @@
         "id": "5J2CHimS7dWYMImCHkEFaJ",
         "image": "https://i.scdn.co/image/ab67616d00004851e230f303815e82a86713eedd",
         "name": "A Hard Day's Night - Remastered 2009",
+        "rank": 8
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "68BTFws92cRztMS1oQ7Ewj",
+        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+        "name": "All You Need Is Love - Remastered 2009",
+        "rank": 9
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "6hLY3Tz1Xt5kBuKNDTs4ib",
+        "image": "https://i.scdn.co/image/ab67616d000048510783cc5a58376729af0c9812",
+        "name": "Free As A Bird - 1995 Mix",
         "rank": 10
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "0qHMhBZqYb99yhX9BHcIkV",
+        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+        "name": "Magical Mystery Tour - Remastered 2009",
+        "rank": 11
+      },
+      {
+        "artists": [
+          "Novelbright"
+        ],
+        "id": "2jS3Oo8GqrhrBDAeU1stum",
+        "image": "https://i.scdn.co/image/ab67616d0000485181c4e874cf884152aded3783",
+        "name": "アイビー",
+        "rank": 12
+      },
+      {
+        "artists": [
+          "Eve"
+        ],
+        "id": "6y4GYuZszeXNOXuBFsJlos",
+        "image": "https://i.scdn.co/image/ab67616d000048514b54d2a72484832db80a0fe9",
+        "name": "Kaikai Kitan",
+        "rank": 13
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "0iwo02NoGqyooxs81iEkz3",
+        "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
+        "name": "The Ballad Of John And Yoko - Remastered 2009",
+        "rank": 14
+      },
+      {
+        "artists": [
+          "Keane"
+        ],
+        "id": "0ll8uFnc0nANY35E0Lfxvg",
+        "image": "https://i.scdn.co/image/ab67616d00004851045d0a38105fbe7bde43c490",
+        "name": "Somewhere Only We Know",
+        "rank": 15
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "0vZ97gHhemKm6c64hTfJNA",
+        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+        "name": "Hello, Goodbye - Remastered 2009",
+        "rank": 16
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "1dxbAIfCASqv6jix2R1Taj",
+        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
+        "name": "Your Mother Should Know - Remastered 2009",
+        "rank": 17
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "2aHIsu5QYQc5tUR2KaN5Ke",
+        "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
+        "name": "Day Tripper (2023 Mix)",
+        "rank": 18
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "2xAEMttFb293s8FmbH8tgX",
+        "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
+        "name": "Let It Be - Remastered 2009",
+        "rank": 19
+      },
+      {
+        "artists": [
+          "Syn Cole"
+        ],
+        "id": "2yWtbIBhuwJ6GHR5X5qP4O",
+        "image": "https://i.scdn.co/image/ab67616d000048513498750e76f2bc864bdd6bf3",
+        "name": "Feel Good",
+        "rank": 20
+      },
+      {
+        "artists": [
+          "Side Saddle"
+        ],
+        "id": "3nsYC8LMmGNKyAYog7Xhx3",
+        "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
+        "name": "All My Days",
+        "rank": 21
+      },
+      {
+        "artists": [
+          "keshi"
+        ],
+        "id": "41EnM4giX9PJYZIBUCPmiI",
+        "image": "https://i.scdn.co/image/ab67616d000048513dfa5d71dad925112f5d5b9a",
+        "name": "I Choose You",
+        "rank": 22
+      },
+      {
+        "artists": [
+          "Kenny Loggins"
+        ],
+        "id": "4HiC3ulkTgbEcYYsSuR6PO",
+        "image": "https://i.scdn.co/image/ab67616d00004851b3db03cc26a3fc4e9c70a070",
+        "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+        "rank": 23
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "4ekUX4pWizXXksJe0JfS9U",
+        "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
+        "name": "It Won't Be Long - Remastered 2009",
+        "rank": 24
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "4ltC6PrqkTtpcRNi5lvS4z",
+        "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
+        "name": "No Reply - Remastered 2009",
+        "rank": 25
       },
       {
         "artists": [
@@ -1109,7 +1244,16 @@
         "id": "5LOCCIGEVJZ1B8fwu4h9UA",
         "image": "https://i.scdn.co/image/ab67616d00004851fbcb59071e40163ffc25b6f9",
         "name": "pick up the phone",
-        "rank": 11
+        "rank": 26
+      },
+      {
+        "artists": [
+          "The Beatles"
+        ],
+        "id": "5Qe7NHxeLAn8KoLTNLSdwe",
+        "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
+        "name": "I Want To Hold Your Hand - Remastered 2009",
+        "rank": 27
       },
       {
         "artists": [
@@ -1119,151 +1263,16 @@
         "id": "5gzZnru34wdecgMUQR2UO0",
         "image": "https://i.scdn.co/image/ab67616d00004851cf5a124cc18be293a2a278ae",
         "name": "You Were Loved (with OneRepublic)",
-        "rank": 12
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "68BTFws92cRztMS1oQ7Ewj",
-        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-        "name": "All You Need Is Love - Remastered 2009",
-        "rank": 13
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "6hLY3Tz1Xt5kBuKNDTs4ib",
-        "image": "https://i.scdn.co/image/ab67616d000048510783cc5a58376729af0c9812",
-        "name": "Free As A Bird - 1995 Mix",
-        "rank": 14
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "0qHMhBZqYb99yhX9BHcIkV",
-        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-        "name": "Magical Mystery Tour - Remastered 2009",
-        "rank": 15
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "0iwo02NoGqyooxs81iEkz3",
-        "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
-        "name": "The Ballad Of John And Yoko - Remastered 2009",
-        "rank": 16
-      },
-      {
-        "artists": [
-          "Keane"
-        ],
-        "id": "0ll8uFnc0nANY35E0Lfxvg",
-        "image": "https://i.scdn.co/image/ab67616d00004851045d0a38105fbe7bde43c490",
-        "name": "Somewhere Only We Know",
-        "rank": 17
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "0vZ97gHhemKm6c64hTfJNA",
-        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-        "name": "Hello, Goodbye - Remastered 2009",
-        "rank": 18
-      },
-      {
-        "artists": [
-          "Adele"
-        ],
-        "id": "1Yk0cQdMLx5RzzFTYwmuld",
-        "image": "https://i.scdn.co/image/ab67616d000048517b9888dc365b8f957c63df14",
-        "name": "Hello",
-        "rank": 19
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "1dxbAIfCASqv6jix2R1Taj",
-        "image": "https://i.scdn.co/image/ab67616d00004851692d9189b2bd75525893f0c1",
-        "name": "Your Mother Should Know - Remastered 2009",
-        "rank": 20
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "2aHIsu5QYQc5tUR2KaN5Ke",
-        "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
-        "name": "Day Tripper (2023 Mix)",
-        "rank": 21
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "2xAEMttFb293s8FmbH8tgX",
-        "image": "https://i.scdn.co/image/ab67616d000048516e3d3c964df32136fb1cd594",
-        "name": "Let It Be - Remastered 2009",
-        "rank": 22
-      },
-      {
-        "artists": [
-          "Syn Cole"
-        ],
-        "id": "2yWtbIBhuwJ6GHR5X5qP4O",
-        "image": "https://i.scdn.co/image/ab67616d000048513498750e76f2bc864bdd6bf3",
-        "name": "Feel Good",
-        "rank": 23
-      },
-      {
-        "artists": [
-          "Side Saddle"
-        ],
-        "id": "3nsYC8LMmGNKyAYog7Xhx3",
-        "image": "https://i.scdn.co/image/ab67616d0000485155ae26b4f6269e4c7ed394bb",
-        "name": "All My Days",
-        "rank": 24
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "4ekUX4pWizXXksJe0JfS9U",
-        "image": "https://i.scdn.co/image/ab67616d00004851608a63ad5b18e99da94a3f73",
-        "name": "It Won't Be Long - Remastered 2009",
-        "rank": 25
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "4ltC6PrqkTtpcRNi5lvS4z",
-        "image": "https://i.scdn.co/image/ab67616d0000485155612ece447bec5d62c68375",
-        "name": "No Reply - Remastered 2009",
-        "rank": 26
-      },
-      {
-        "artists": [
-          "OneRepublic"
-        ],
-        "id": "5MvWvLJXqaOc5XOpMbAPkQ",
-        "image": "https://i.scdn.co/image/ab67616d00004851eda6aa1f189c24679b46c4aa",
-        "name": "Wherever I Go",
-        "rank": 27
-      },
-      {
-        "artists": [
-          "The Beatles"
-        ],
-        "id": "5Qe7NHxeLAn8KoLTNLSdwe",
-        "image": "https://i.scdn.co/image/ab67616d000048515ef4660298ae29ee18799fc2",
-        "name": "I Want To Hold Your Hand - Remastered 2009",
         "rank": 28
+      },
+      {
+        "artists": [
+          "Mao"
+        ],
+        "id": "6FEABJMKAHeFuz3OrKw5ix",
+        "image": "https://i.scdn.co/image/ab67616d0000485175aaf44757bb574e4c094817",
+        "name": "夢をかなえてドラえもん",
+        "rank": 29
       },
       {
         "artists": [
@@ -1272,15 +1281,6 @@
         "id": "6v4jPxoVe7vlh0WxZ81qKL",
         "image": "https://i.scdn.co/image/ab67616d0000485193c93b47abc6149259d341dc",
         "name": "We Can Work It Out (2023 Mix)",
-        "rank": 29
-      },
-      {
-        "artists": [
-          "Eve"
-        ],
-        "id": "6y4GYuZszeXNOXuBFsJlos",
-        "image": "https://i.scdn.co/image/ab67616d000048514b54d2a72484832db80a0fe9",
-        "name": "Kaikai Kitan",
         "rank": 30
       }
     ]

@@ -169,7 +169,7 @@
       "decade": 1990
     },
     {
-      "count": 68,
+      "count": 67,
       "decade": 2000
     },
     {
@@ -185,7 +185,7 @@
     "all": {
       "artists_top": [
         {
-          "count": 223,
+          "count": 222,
           "id": "3WrFJ7ztbogyGnTHbHJFl2",
           "name": "The Beatles"
         },
@@ -353,7 +353,7 @@
           "decade": 1990
         },
         {
-          "count": 78,
+          "count": 77,
           "decade": 2000
         },
         {
@@ -365,7 +365,7 @@
           "decade": 2020
         }
       ],
-      "total": 1188
+      "total": 1187
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -720,7 +720,7 @@
             "decade": 1990
           },
           {
-            "count": 41,
+            "count": 40,
             "decade": 2000
           },
           {
@@ -732,7 +732,7 @@
             "decade": 2020
           }
         ],
-        "total": 624
+        "total": 623
       },
       "6sqoiZw75RIvnUFC058VJv": {
         "artists_top": [
@@ -870,6 +870,6 @@
       }
     ]
   },
-  "generated_at": "2026-11-20T22:27:45.697653+00:00",
-  "total": 830
+  "generated_at": "2026-11-21T21:22:31.774002+00:00",
+  "total": 829
 }

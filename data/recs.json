@@ -12,7 +12,7 @@
         }
       ],
       "name": "Paul McCartney & Wings",
-      "score": 27.8363
+      "score": 27.4869
     },
     {
       "because": [
@@ -26,7 +26,7 @@
         }
       ],
       "name": "John Lennon & Yoko Ono",
-      "score": 17.3011
+      "score": 17.3441
     },
     {
       "because": [
@@ -40,7 +40,7 @@
         }
       ],
       "name": "Paul & Linda McCartney",
-      "score": 16.5761
+      "score": 16.3196
     },
     {
       "because": [
@@ -54,21 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0147
-    },
-    {
-      "because": [
-        {
-          "count": 414,
-          "name": "Ed Sheeran"
-        },
-        {
-          "count": 327,
-          "name": "Shawn Mendes"
-        }
-      ],
-      "name": "Louis Tomlinson",
-      "score": 11.6755
+      "score": 14.9806
     },
     {
       "because": [
@@ -82,7 +68,7 @@
         }
       ],
       "name": "米津玄師",
-      "score": 11.5216
+      "score": 11.669
     },
     {
       "because": [
@@ -91,17 +77,17 @@
           "name": "Charlie Puth"
         },
         {
-          "count": 388,
+          "count": 389,
           "name": "Justin Bieber"
         }
       ],
       "name": "Jason Derülo",
-      "score": 11.1523
+      "score": 11.3707
     },
     {
       "because": [
         {
-          "count": 871,
+          "count": 873,
           "name": "Novelbright"
         },
         {
@@ -110,21 +96,7 @@
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 9.9144
-    },
-    {
-      "because": [
-        {
-          "count": 388,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 246,
-          "name": "The Weeknd"
-        }
-      ],
-      "name": "Usher",
-      "score": 9.6809
+      "score": 10.1083
     },
     {
       "because": [
@@ -138,7 +110,21 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.5509
+      "score": 9.7143
+    },
+    {
+      "because": [
+        {
+          "count": 389,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 246,
+          "name": "The Weeknd"
+        }
+      ],
+      "name": "Usher",
+      "score": 9.6425
     },
     {
       "because": [
@@ -152,21 +138,21 @@
         }
       ],
       "name": "Lensko",
-      "score": 9.4896
+      "score": 9.4429
     },
     {
       "because": [
         {
-          "count": 388,
-          "name": "Justin Bieber"
+          "count": 327,
+          "name": "Shawn Mendes"
         },
         {
-          "count": 246,
-          "name": "The Weeknd"
+          "count": 290,
+          "name": "One Direction"
         }
       ],
-      "name": "Givēon",
-      "score": 9.3905
+      "name": "Louis Tomlinson",
+      "score": 9.0204
     },
     {
       "because": [
@@ -180,7 +166,7 @@
         }
       ],
       "name": "槇原敬之",
-      "score": 8.9849
+      "score": 8.9858
     },
     {
       "because": [
@@ -194,7 +180,7 @@
         }
       ],
       "name": "Traveling Wilburys",
-      "score": 8.6688
+      "score": 8.5347
     },
     {
       "because": [
@@ -208,7 +194,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 8.3688
+      "score": 8.4406
     },
     {
       "because": [
@@ -222,26 +208,12 @@
         }
       ],
       "name": "Myles Smith",
-      "score": 8.1101
+      "score": 8.4331
     },
     {
       "because": [
         {
-          "count": 1248,
-          "name": "SPITZ"
-        },
-        {
-          "count": 277,
-          "name": "Yumi Arai"
-        }
-      ],
-      "name": "My Little Lover",
-      "score": 8.0155
-    },
-    {
-      "because": [
-        {
-          "count": 388,
+          "count": 389,
           "name": "Justin Bieber"
         },
         {
@@ -250,7 +222,7 @@
         }
       ],
       "name": "Ne-Yo",
-      "score": 7.9965
+      "score": 8.3582
     },
     {
       "because": [
@@ -264,21 +236,7 @@
         }
       ],
       "name": "The Fray",
-      "score": 7.1482
-    },
-    {
-      "because": [
-        {
-          "count": 15863,
-          "name": "The Beatles"
-        },
-        {
-          "count": 2389,
-          "name": "Queen"
-        }
-      ],
-      "name": "The Who",
-      "score": 7.1464
+      "score": 7.2962
     },
     {
       "because": [
@@ -292,7 +250,31 @@
         }
       ],
       "name": "James TW",
-      "score": 7.0479
+      "score": 7.2868
+    },
+    {
+      "because": [
+        {
+          "count": 15863,
+          "name": "The Beatles"
+        },
+        {
+          "count": 2389,
+          "name": "Queen"
+        }
+      ],
+      "name": "The Who",
+      "score": 7.2165
+    },
+    {
+      "because": [
+        {
+          "count": 1248,
+          "name": "SPITZ"
+        }
+      ],
+      "name": "くるり",
+      "score": 7.1301
     },
     {
       "because": [
@@ -306,31 +288,7 @@
         }
       ],
       "name": "The Monkees",
-      "score": 7.0067
-    },
-    {
-      "because": [
-        {
-          "count": 1248,
-          "name": "SPITZ"
-        }
-      ],
-      "name": "くるり",
-      "score": 6.9739
-    },
-    {
-      "because": [
-        {
-          "count": 2704,
-          "name": "back number"
-        },
-        {
-          "count": 871,
-          "name": "Novelbright"
-        }
-      ],
-      "name": "SUPER BEAVER",
-      "score": 6.7985
+      "score": 7.1122
     },
     {
       "because": [
@@ -344,7 +302,35 @@
         }
       ],
       "name": "LFZ",
-      "score": 6.628
+      "score": 6.7752
+    },
+    {
+      "because": [
+        {
+          "count": 389,
+          "name": "Justin Bieber"
+        },
+        {
+          "count": 225,
+          "name": "Bruno Mars"
+        }
+      ],
+      "name": "Mario",
+      "score": 6.7735
+    },
+    {
+      "because": [
+        {
+          "count": 246,
+          "name": "The Weeknd"
+        },
+        {
+          "count": 225,
+          "name": "Bruno Mars"
+        }
+      ],
+      "name": "Givēon",
+      "score": 6.6887
     },
     {
       "because": [
@@ -354,21 +340,21 @@
         }
       ],
       "name": "フジファブリック",
-      "score": 6.5298
+      "score": 6.6651
     },
     {
       "because": [
         {
-          "count": 908,
-          "name": "Charlie Puth"
+          "count": 2704,
+          "name": "back number"
         },
         {
-          "count": 477,
-          "name": "Maroon 5"
+          "count": 873,
+          "name": "Novelbright"
         }
       ],
-      "name": "Nick Jonas",
-      "score": 6.4412
+      "name": "SUPER BEAVER",
+      "score": 6.5375
     },
     {
       "because": [
@@ -382,7 +368,7 @@
         }
       ],
       "name": "HRVY",
-      "score": 6.341
+      "score": 6.4316
     },
     {
       "because": [
@@ -397,20 +383,30 @@
     {
       "because": [
         {
-          "count": 388,
-          "name": "Justin Bieber"
-        },
-        {
-          "count": 225,
-          "name": "Bruno Mars"
+          "count": 477,
+          "name": "Maroon 5"
         }
       ],
-      "name": "Mario",
-      "score": 6.283
+      "name": "Adam Levine",
+      "score": 6.1696
+    },
+    {
+      "because": [
+        {
+          "count": 873,
+          "name": "Novelbright"
+        },
+        {
+          "count": 360,
+          "name": "ONE OK ROCK"
+        }
+      ],
+      "name": "SPYAIR",
+      "score": 6.1428
     }
   ],
   "available": true,
-  "generated_at": "2026-11-20T22:29:07.442625+00:00",
+  "generated_at": "2026-11-21T21:23:54.056731+00:00",
   "source": "lastfm",
   "tracks": [
     {
