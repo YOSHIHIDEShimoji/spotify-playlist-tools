@@ -1,96 +1,112 @@
 {
-  "date": "11-22",
-  "generated_at": "2026-11-21T21:23:20.592007+00:00",
+  "date": "11-23",
+  "generated_at": "2026-11-22T21:26:59.938338+00:00",
   "years": [
     {
-      "plays": 13,
+      "plays": 47,
       "tracks": [
         {
           "artists": [
             "ALI"
           ],
-          "count": 1,
+          "count": 3,
           "name": "LOST IN PARADISE",
           "track_id": "7kRKlFCFLAUwt43HWtauhX"
         },
         {
           "artists": [
-            "Idina Menzel"
+            "YUNGBLUD"
           ],
-          "count": 1,
-          "name": "Let It Go - From \"Frozen\"/Soundtrack Version",
-          "track_id": "0qcr5FMsEO85NAQjrlDRKo"
+          "count": 2,
+          "name": "Abyss - from Kaiju No. 8",
+          "track_id": "2kLWSmKHhfUBepkIA9oNe5"
         },
         {
           "artists": [
-            "Hawk Nelson"
+            "Aaron Smith"
           ],
           "count": 1,
-          "name": "Sold Out",
-          "track_id": "1WyBe9jWz0wbwUItMAnaLb"
+          "name": "Dancin (feat. Luvli) - Krono Remix",
+          "track_id": "6WkJ2OK163XXS2oARUC9JM"
         },
         {
           "artists": [
-            "Ed Sheeran"
+            "Lady Gaga"
           ],
           "count": 1,
-          "name": "Shape of You",
-          "track_id": "7qiZfU4dY1lWllzX7mPBI3"
+          "name": "Die With A Smile",
+          "track_id": "2plbrEY59IikOBgBGLjaoe"
         },
         {
           "artists": [
-            "Bruno Mars"
+            "Stellar"
           ],
           "count": 1,
-          "name": "Runaway Baby",
-          "track_id": "7hCNBVRhHzcsRAv0TQnOzq"
+          "name": "Ashes",
+          "track_id": "3Pj6u2KTgepyyidp5xfbHp"
         },
         {
           "artists": [
-            "Jake Miller"
+            "ONE OK ROCK"
           ],
           "count": 1,
-          "name": "Rumors",
-          "track_id": "6llBOJ6HLHvlVnKeZqhXk8"
+          "name": "Delusion:All",
+          "track_id": "61f3iPQRIe0I6CSj7qJdi3"
         },
         {
           "artists": [
-            "Imagine Dragons"
+            "Taylor Swift"
           ],
           "count": 1,
-          "name": "Natural",
-          "track_id": "2FY7b99s15jUprqC0M5NCT"
+          "name": "Shake It Off",
+          "track_id": "1CiVz2WkmZRwhU3A6J2Gjz"
         },
         {
           "artists": [
-            "VØJ"
+            "OneRepublic"
           ],
           "count": 1,
-          "name": "Memory Reboot",
-          "track_id": "1Q68oodivzKjIDnPTXFy83"
+          "name": "Nobody - from Kaiju No. 8",
+          "track_id": "47N81NMkB488fuOwOC3Oip"
         },
         {
           "artists": [
-            "Fall Out Boy"
+            "MC4D"
           ],
           "count": 1,
-          "name": "Immortals",
-          "track_id": "3Te8uLyit6X3ncNW8Fp3K2"
+          "name": "Be Here With Me Now",
+          "track_id": "5vOZflu9doigyNV5ifO7pr"
         },
         {
           "artists": [
-            "gnash"
+            "KALEO"
           ],
           "count": 1,
-          "name": "imagine if",
-          "track_id": "7nDdxPUC5LbxmspeqkOzt8"
+          "name": "Way down We Go",
+          "track_id": "0y1QJc3SJVPKJ1OvFmFqe6"
         }
       ],
       "year": "2025"
     },
     {
-      "plays": 6,
+      "plays": 14,
       "tracks": [
+        {
+          "artists": [
+            "OFFICIAL HIGE DANDISM"
+          ],
+          "count": 3,
+          "name": "Same Blue",
+          "track_id": "3tRgmNTaFYgtbt7XCy6Les"
+        },
+        {
+          "artists": [
+            "I WiSH"
+          ],
+          "count": 2,
+          "name": "明日への扉",
+          "track_id": "42D5ZNyztjggvZeYVmpHs3"
+        },
         {
           "artists": [
             "Eve"
@@ -101,19 +117,11 @@
         },
         {
           "artists": [
-            "Kenji Sawada"
+            "Novelbright"
           ],
-          "count": 1,
-          "name": "ヤマトより愛をこめて",
-          "track_id": "04sRMRy0XH1hP3PKUfGyLW"
-        },
-        {
-          "artists": [
-            "OFFICIAL HIGE DANDISM"
-          ],
-          "count": 1,
-          "name": "Same Blue",
-          "track_id": "3tRgmNTaFYgtbt7XCy6Les"
+          "count": 2,
+          "name": "夢花火",
+          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
         },
         {
           "artists": [
@@ -125,227 +133,313 @@
         },
         {
           "artists": [
-            "Novelbright"
+            "Taro Hakase"
           ],
           "count": 1,
-          "name": "夢花火",
-          "track_id": "4e6E9s6OK7u6kmmXWp1FX2"
+          "name": "情熱大陸",
+          "track_id": "21v76pMWsTkp7jUOBUncbl"
+        },
+        {
+          "artists": [
+            "Lilas Ikuta"
+          ],
+          "count": 1,
+          "name": "スパークル",
+          "track_id": "6EuubEs5qOmJdpNhkU47OZ"
+        },
+        {
+          "artists": [
+            "Omoinotake"
+          ],
+          "count": 1,
+          "name": "幾億光年",
+          "track_id": "4dmruTsdHIOjfOIeaFitXK"
+        },
+        {
+          "artists": [
+            "SPITZ"
+          ],
+          "count": 1,
+          "name": "春の歌",
+          "track_id": "56ISW3rNZJHEkUfVbZ61bq"
         }
       ],
       "year": "2024"
     },
     {
-      "plays": 31,
+      "plays": 22,
       "tracks": [
         {
           "artists": [
-            "The Beatles"
+            "Arc North"
           ],
           "count": 2,
-          "name": "Being For The Benefit Of Mr. Kite! - Remastered 2009",
-          "track_id": "6W35n1UlkvqhfMZstB4BXs"
+          "name": "Meant To Be",
+          "track_id": "4Ix1tLTlUuKpRFivN7CS8Q"
         },
         {
           "artists": [
             "The Beatles"
           ],
           "count": 1,
-          "name": "In My Life - Remastered 2009",
-          "track_id": "3KfbEIOC7YIv90FIfNSZpo"
+          "name": "A Day In The Life - Remastered 2009",
+          "track_id": "0hKRSZhUGEhKU6aNSPBACZ"
         },
         {
           "artists": [
-            "The Beatles"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "If I Needed Someone - Remastered 2009",
-          "track_id": "7C6hdDIz90Uf5YmdZnYbJJ"
+          "name": "美しい鰭",
+          "track_id": "3RauRsiIxUOQTS8h9sVWcP"
         },
         {
           "artists": [
-            "The Beatles"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "Run For Your Life - Remastered 2009",
-          "track_id": "4gUYV3ktbaOeAK5KrXMWV5"
+          "name": "チェリー",
+          "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
         },
         {
           "artists": [
-            "The Beatles"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "Paperback Writer - Remastered 2009",
-          "track_id": "4401c08DdNwwGEg8WGCkQf"
+          "name": "ロビンソン",
+          "track_id": "0sVnyL71jTOuMt9TZ59bws"
         },
         {
           "artists": [
-            "The Beatles"
+            "SPITZ"
           ],
           "count": 1,
-          "name": "Rain - Remastered 2009",
-          "track_id": "48TNLcToLs8DWkdj5vYdiW"
+          "name": "春の歌",
+          "track_id": "56ISW3rNZJHEkUfVbZ61bq"
         },
         {
           "artists": [
-            "The Beatles"
+            "Cartoon"
           ],
           "count": 1,
-          "name": "Eleanor Rigby - Remastered 2009",
-          "track_id": "5GjPQ0eI7AgmOnADn1EO6Q"
+          "name": "On & On",
+          "track_id": "2uZWffKoemZDI0gHcBEcDc"
         },
         {
           "artists": [
-            "The Beatles"
+            "back number"
           ],
           "count": 1,
-          "name": "I'm Only Sleeping - Remastered 2009",
-          "track_id": "2ylCrFiBu98SC0vFfaCent"
+          "name": "幸せ",
+          "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
         },
         {
           "artists": [
-            "The Beatles"
+            "back number"
           ],
           "count": 1,
-          "name": "Here, There And Everywhere - Remastered 2009",
-          "track_id": "2B4Y9u4ERAFiMo13XPJyGP"
+          "name": "高嶺の花子さん",
+          "track_id": "2iH7om9rE3QRWOXpuGEgic"
         },
         {
           "artists": [
-            "The Beatles"
+            "League of Legends"
           ],
           "count": 1,
-          "name": "She Said She Said - Remastered 2009",
-          "track_id": "3VSuWxZM6x6V3ig5nYtikL"
+          "name": "Legends Never Die",
+          "track_id": "1FpVJ7HpZInE2GvhVE2TwT"
         }
       ],
       "year": "2023"
     },
     {
-      "plays": 16,
+      "plays": 11,
       "tracks": [
         {
           "artists": [
-            "back number"
-          ],
-          "count": 2,
-          "name": "はなびら",
-          "track_id": "2A1yJLSVRdLGZbRoF8nkAG"
-        },
-        {
-          "artists": [
-            "back number"
+            "Alessia Cara"
           ],
           "count": 1,
-          "name": "思い出せなくなるその日まで",
-          "track_id": "3BbxLoUEcvMV4QZtcZyKMO"
+          "name": "How Far I'll Go - Alessia Cara Version",
+          "track_id": "5VBEyc4i8MIS1IVVvgBDr6"
         },
         {
           "artists": [
             "Dua Lipa"
           ],
           "count": 1,
-          "name": "Levitating (feat. DaBaby)",
-          "track_id": "5nujrmhLynf4yMoMtj8AQF"
+          "name": "Break My Heart",
+          "track_id": "017PF4Q3l4DBUiWoXk4OWT"
         },
         {
           "artists": [
-            "back number"
+            "Dua Lipa"
           ],
           "count": 1,
-          "name": "繋いだ手から",
-          "track_id": "2u78pHUMyL60GbrmAf2Yhz"
+          "name": "Don't Start Now",
+          "track_id": "6WrI0LAC5M1Rw2MnX2ZvEg"
         },
         {
           "artists": [
-            "back number"
+            "Shawn Mendes"
           ],
           "count": 1,
-          "name": "僕の名前を",
-          "track_id": "4q5eB08azjHq4g1vEJwOMS"
+          "name": "In My Blood",
+          "track_id": "2QZ7WLBE8h2y1Y5Fb8RYbH"
         },
         {
           "artists": [
-            "back number"
+            "Taylor Swift"
           ],
           "count": 1,
-          "name": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
-          "track_id": "1WutVejYvP7220sofj3xId"
+          "name": "Lover",
+          "track_id": "1dGr1c8CrMLDpV6mPbImSI"
         },
         {
           "artists": [
-            "back number"
+            "Avicii"
           ],
           "count": 1,
-          "name": "黄色",
-          "track_id": "1MwOfRqCALxvx9keUhGCdV"
+          "name": "Without You (feat. Sandro Cavazza)",
+          "track_id": "6Pgkp4qUoTmJIPn7ReaGxL"
         },
         {
           "artists": [
-            "back number"
+            "BTS"
           ],
           "count": 1,
-          "name": "水平線",
-          "track_id": "5m1i6hq7dmRlp3c1utE48L"
+          "name": "Boy With Luv (feat. Halsey)",
+          "track_id": "4a9tbd947vo9K8Vti9JwcI"
         },
         {
           "artists": [
-            "back number"
+            "Marshmello"
           ],
           "count": 1,
-          "name": "怪盗",
-          "track_id": "10Eyo4juZQFthKqlJgGMdp"
+          "name": "Happier",
+          "track_id": "2dpaYNEQHiRxtZbfNsse99"
         },
         {
           "artists": [
-            "back number"
+            "Harry Styles"
           ],
           "count": 1,
-          "name": "雨と僕の話",
-          "track_id": "3XcLf52WHnE85mLAXDSf2F"
+          "name": "Watermelon Sugar",
+          "track_id": "6UelLqGlWMcVH1E5c4H7lY"
+        },
+        {
+          "artists": [
+            "Anne-Marie"
+          ],
+          "count": 1,
+          "name": "2002",
+          "track_id": "2BgEsaKNfHUdlh97KmvFyo"
         }
       ],
       "year": "2022"
     },
     {
-      "plays": 10,
+      "plays": 12,
+      "tracks": [
+        {
+          "artists": [
+            "Carly Rae Jepsen"
+          ],
+          "count": 1,
+          "name": "Call Me Maybe",
+          "track_id": "4L3Vw8hTyqJ1AdyypY4e61"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I'm So Tired - Remastered 2009",
+          "track_id": "2X9H5BokS1u5O46YpNYNsZ"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Piggies - Remastered 2009",
+          "track_id": "4ZmjfLdJXbqjAENqk7eWSE"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Don't Pass Me By - Remastered 2009",
+          "track_id": "4zq4rrfHZeZsTbo5vjJXSV"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "I Will - Remastered 2009",
+          "track_id": "09x9v1o51dbqi5H0u7UGfp"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Birthday - Remastered 2009",
+          "track_id": "1ABegtCPBMMJaMpfDyATjE"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Yer Blues - Remastered 2009",
+          "track_id": "2AsGApoUuN8pTM17Lq9eUd"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Mother Nature's Son - Remastered 2009",
+          "track_id": "6TjUg1cTUzWHbal6yQAi7c"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Sexy Sadie - Remastered 2009",
+          "track_id": "2tBv9tAdqEbLNDi5smSjbg"
+        },
+        {
+          "artists": [
+            "The Beatles"
+          ],
+          "count": 1,
+          "name": "Honey Pie - Remastered 2009",
+          "track_id": "1TPcNcmuKlq0PKpYOBgP1U"
+        }
+      ],
+      "year": "2021"
+    },
+    {
+      "plays": 33,
       "tracks": [
         {
           "artists": [
             "Queen"
           ],
-          "count": 2,
-          "name": "Too Much Love Will Kill You - Remastered 2011",
-          "track_id": "0W1uTK6I97CbjFKAVtRGfK"
-        },
-        {
-          "artists": [
-            "John Lennon"
-          ],
-          "count": 1,
-          "name": "Woman - Remastered 2010",
-          "track_id": "0GGxVTb0UwDwdaKNjBdCn3"
+          "count": 3,
+          "name": "Let Me Live - Remastered 2011",
+          "track_id": "7zSX8U7W03AStPc5oJ3W3V"
         },
         {
           "artists": [
             "Queen"
           ],
-          "count": 1,
-          "name": "A Kind Of Magic - Remastered 2011",
-          "track_id": "5RYLa5P4qweEAKq5U1gdcK"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
-          "name": "Who Wants To Live Forever - Remastered 2011",
-          "track_id": "41kCFJBcaLSt7Ruk5zO3Vr"
-        },
-        {
-          "artists": [
-            "Queen"
-          ],
-          "count": 1,
+          "count": 3,
           "name": "Friends Will Be Friends - Remastered 2011",
           "track_id": "3EGlnkJGcwz73rT0oE0X1X"
         },
@@ -353,9 +447,41 @@
           "artists": [
             "Queen"
           ],
-          "count": 1,
-          "name": "Let Me Live - Remastered 2011",
-          "track_id": "7zSX8U7W03AStPc5oJ3W3V"
+          "count": 3,
+          "name": "'39 - Remastered 2011",
+          "track_id": "65NTcXUtOb27NHKQ4fAcw0"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 3,
+          "name": "Who Wants To Live Forever - Remastered 2011",
+          "track_id": "41kCFJBcaLSt7Ruk5zO3Vr"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "You're My Best Friend - Remastered 2011",
+          "track_id": "4vhVDkSx9RSb2k6mWFMYNI"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "I Want To Break Free - Single Remix",
+          "track_id": "2AkmdLbVKS1steeZdy8H1l"
+        },
+        {
+          "artists": [
+            "Queen"
+          ],
+          "count": 2,
+          "name": "Under Pressure - Remastered 2011",
+          "track_id": "2fuCquhmrzHpu5xcA1ci9x"
         },
         {
           "artists": [
@@ -370,16 +496,16 @@
             "Queen"
           ],
           "count": 1,
-          "name": "I Was Born To Love You - 2011 Remaster",
-          "track_id": "7DtdhIJlSSOaAFNk4JdXCb"
+          "name": "The Show Must Go On - Remastered 2011",
+          "track_id": "5n6RDaGFSN88oRWuGtYAIN"
         },
         {
           "artists": [
             "Queen"
           ],
           "count": 1,
-          "name": "The Show Must Go On - Remastered 2011",
-          "track_id": "5n6RDaGFSN88oRWuGtYAIN"
+          "name": "It's A Hard Life - Remastered 2011",
+          "track_id": "34MoKBRdC9JDjcL4b4X1Ic"
         }
       ],
       "year": "2019"

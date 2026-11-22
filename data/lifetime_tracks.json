@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T21:23:20.448526+00:00",
+  "generated_at": "2026-11-22T21:26:59.788244+00:00",
   "totals": {
     "artists": 1384,
     "days": 2165,
     "ms": 12440720283,
     "plays": 65815,
     "since": "2019-09-05",
-    "tracks": 4811
+    "tracks": 4813
   },
   "tracks": [
     {
@@ -15429,27 +15429,6 @@
     },
     {
       "artists": [
-        "The Beatles"
-      ],
-      "count": 24,
-      "first": "2019-09-30",
-      "id": "1hTUFqJuQAMjXVGwUPWDqi",
-      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
-      "last": "2026-11-20",
-      "ms": 2586592,
-      "name": "We Can Work It Out - Remastered 2015",
-      "short": 3,
-      "years": {
-        "2019": 2,
-        "2020": 5,
-        "2021": 1,
-        "2023": 8,
-        "2024": 3,
-        "2026": 5
-      }
-    },
-    {
-      "artists": [
         "John Lennon"
       ],
       "count": 24,
@@ -16902,6 +16881,27 @@
       "short": 1,
       "years": {
         "2026": 20
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 20,
+      "first": "2019-09-30",
+      "id": "1hTUFqJuQAMjXVGwUPWDqi",
+      "image": "https://i.scdn.co/image/ab67616d00004851582d56ce20fe0146ffa0e5cf",
+      "last": "2026-07-10",
+      "ms": 2586592,
+      "name": "We Can Work It Out - Remastered 2015",
+      "short": 3,
+      "years": {
+        "2019": 2,
+        "2020": 5,
+        "2021": 1,
+        "2023": 8,
+        "2024": 3,
+        "2026": 1
       }
     },
     {
@@ -43941,6 +43941,36 @@
       "years": {
         "2021": 1,
         "2023": 1
+      }
+    },
+    {
+      "artists": [
+        "ザ・ビートルズ"
+      ],
+      "count": 2,
+      "first": "2026-09-07",
+      "id": "lastfm:wecanworkitoutremastered2015|ザ・ビートルズ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/6d911b5078d2c75b706fd65c1c437917.jpg",
+      "last": "2026-11-02",
+      "ms": 0,
+      "name": "We Can Work It Out - Remastered 2015",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "The Beatles"
+      ],
+      "count": 2,
+      "first": "2026-09-10",
+      "id": "lastfm:wecanworkitoutremastered2015|thebeatles",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/207c9708aabfc084aee235ab2c8c4ee9.jpg",
+      "last": "2026-11-20",
+      "ms": 0,
+      "name": "We Can Work It Out - Remastered 2015",
+      "years": {
+        "2026": 2
       }
     },
     {
