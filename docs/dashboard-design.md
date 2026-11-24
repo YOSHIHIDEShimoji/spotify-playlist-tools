@@ -383,7 +383,7 @@ site/
 
 1. **統合スコープで再認証**: `core.py` の SCOPE を全ツール共通の統合定数にした後
    (`playlist-* + user-library-* + user-read-recently-played + user-top-read + user-follow-read`)、
-   ローカルで `python inbox.py` → ブラウザ認証 → `gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify`
+   ローカルで `python reauth.py`（全 scope を確認する）→ ブラウザ認証 → `gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify`
 2. **fine-grained PAT 発行**: 対象=このリポジトリのみ / Repository permissions = **Actions: Read and write** のみ /
    期限1年 → サイトの初回設定画面に貼る(リポジトリ Secret には入れない。期限切れ時は再発行して貼り直し)
 3. **Vercel Deploy Hook 作成**(Phase 2 でプロジェクト作成後): ダッシュボード → Settings → Git → Deploy Hooks

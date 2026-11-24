@@ -1,9 +1,11 @@
 import json
+import socket
 import time
 
 import pytest
 import requests
 import spotipy
+from spotipy.oauth2 import SpotifyOAuth
 
 import core
 
@@ -252,8 +254,12 @@ def test_iter_playlist_tracks_retries_the_first_page(no_sleep):
 
 # ───────────── トークンキャッシュの scope（狭い scope の実行で記録が狭まらない） ─────────────
 
-# Spotify の実際の応答に近い形（並びは要求と無関係で、要求していない scope も含む。2026-11-24 実測）
+# CACHED はキャッシュの初期値（reauth.py が書く形）。GRANTED は Spotify の実際の応答に近い形で、
+# 並びが要求と無関係で、要求していない scope も含む（2026-11-24 実測）。両者を変えてあるので、
+# 「応答を記録した」ことを「初期値のまま」と区別できる。
+CACHED = core.SCOPE_ALL
 GRANTED = " ".join([*reversed(core.SCOPE_ALL.split()), "playlist-read-collaborative"])
+NARROW = "playlist-read-private"
 
 
 class _FakeTokenResponse:
@@ -267,12 +273,23 @@ class _FakeTokenResponse:
         return dict(self._body)
 
 
+def _cached(cache):
+    return json.loads(cache.read_text())
+
+
 @pytest.fixture
 def token_env(tmp_path, monkeypatch):
     """期限切れトークンのキャッシュ（全 scope 許可済み）を置き、Spotify の token 応答を差し替える。
 
-    返り値の reply を書き換えると、次の refresh で Spotify が返す内容が変わる。
+    返り値は (cache, reply, posts)。reply を書き換えると、次に Spotify が返す内容が変わる。
+    posts には token エンドポイントへの送信内容が順に入る。ネットワークには一切出さない。
     """
+    def no_network(*args, **kwargs):
+        pytest.fail("テストからネットワークに出ようとした")  # except Exception に握りつぶされない
+
+    monkeypatch.setattr(socket, "getaddrinfo", no_network)  # 接続の前に DNS 問い合わせが出るのも塞ぐ
+    monkeypatch.setattr(socket, "create_connection", no_network)
+    monkeypatch.setattr(socket.socket, "connect", no_network)
     monkeypatch.setenv("SPOTIPY_CLIENT_ID", "id")
     monkeypatch.setenv("SPOTIPY_CLIENT_SECRET", "secret")
     monkeypatch.setenv("SPOTIPY_REDIRECT_URI", "http://127.0.0.1:8000/callback")
@@ -281,12 +298,19 @@ def token_env(tmp_path, monkeypatch):
     cache = tmp_path / ".cache-spotify"
     cache.write_text(json.dumps({
         "access_token": "old", "token_type": "Bearer", "expires_in": 3600,
-        "expires_at": int(time.time()) - 10, "refresh_token": "rt", "scope": GRANTED,
+        "expires_at": int(time.time()) - 10, "refresh_token": "rt", "scope": CACHED,
     }))
     monkeypatch.setattr(core, "CACHE_PATH", cache)
     reply = {"access_token": "new", "token_type": "Bearer", "expires_in": 3600, "scope": GRANTED}
-    monkeypatch.setattr(requests.Session, "post", lambda self, url, **kw: _FakeTokenResponse(reply))
-    return cache, reply
+    posts: list[dict] = []
+
+    def fake_post(self, url, data=None, **kwargs):
+        assert url == SpotifyOAuth.OAUTH_TOKEN_URL
+        posts.append(dict(data or {}))
+        return _FakeTokenResponse(reply)
+
+    monkeypatch.setattr(requests.Session, "post", fake_post)
+    return cache, reply, posts
 
 
 def test_narrow_scope_run_does_not_lock_out_broader_runs(token_env):
@@ -295,34 +319,100 @@ def test_narrow_scope_run_does_not_lock_out_broader_runs(token_env):
     素の spotipy だと refresh 時にキャッシュの scope が "playlist-read-private" に書き換わり、
     2回目の build_client が AuthRequired で落ちる（2026-11-23 にローカルで実際に起きた）。
     """
-    cache, _ = token_env
-    core.build_client("playlist-read-private")
-    assert json.loads(cache.read_text())["access_token"] == "new"  # 本当に refresh が走った
+    cache, _, posts = token_env
+    core.build_client(NARROW)
+    assert [p["grant_type"] for p in posts] == ["refresh_token"]
+    assert _cached(cache)["access_token"] == "new"
+    assert _cached(cache)["refresh_token"] == "rt"  # 応答に無い refresh token は保たれる
     core.build_client(core.SCOPE_ALL)  # AuthRequired にならない
+    assert len(posts) == 1  # 2回目は有効なトークンをそのまま使う
 
 
 def test_refresh_records_scope_spotify_granted(token_env):
-    cache, _ = token_env
-    core.build_client("playlist-read-private")
-    assert json.loads(cache.read_text())["scope"] == GRANTED
+    cache, _, _ = token_env
+    core.build_client(NARROW)
+    assert _cached(cache)["scope"] == GRANTED  # 初期値（CACHED）でも要求（NARROW）でもない
 
 
-def test_refresh_does_not_widen_beyond_what_spotify_granted(token_env):
-    # 許可が本当に狭いなら、広い scope の実行は今までどおり AuthRequired で止める（記録を水増ししない）
-    cache, reply = token_env
-    reply["scope"] = "playlist-read-private"
-    core.build_client("playlist-read-private")
-    assert json.loads(cache.read_text())["scope"] == "playlist-read-private"
+def test_refresh_does_not_record_more_than_spotify_granted(token_env):
+    """要求より許可が狭いときは、記録も許可どおりに狭める（要求や和集合で水増ししない）。
+
+    水増しすると次の実行が validate_token を素通りし、AuthRequired ではなく API の 403 で落ちる。
+    記録と実態がずれるという、直したはずの問題が逆向きに戻る。
+    """
+    cache, reply, _ = token_env
+    reply["scope"] = NARROW
+    core.build_client(core.SCOPE_ALL)  # 初期記録（全 scope）で通り、refresh で狭い許可が返る
+    assert _cached(cache)["scope"] == NARROW
     with pytest.raises(core.AuthRequired):
         core.build_client(core.SCOPE_ALL)
 
 
 @pytest.mark.parametrize("missing", [None, ""])
 def test_refresh_without_scope_in_reply_falls_back_to_requested(token_env, missing):
-    cache, reply = token_env
+    cache, reply, _ = token_env
     if missing is None:
         del reply["scope"]
     else:
         reply["scope"] = missing
-    core.build_client("playlist-read-private")
-    assert json.loads(cache.read_text())["scope"] == "playlist-read-private"
+    core.build_client(NARROW)
+    assert _cached(cache)["scope"] == NARROW
+
+
+@pytest.fixture
+def interactive(token_env, monkeypatch):
+    """対話実行（ローカルの手動実行・reauth.py）の経路。ブラウザ起動と 8000 番の listen は禁止する。"""
+    def forbidden(*args, **kwargs):
+        pytest.fail("ブラウザ認証の経路に入った")
+
+    monkeypatch.delenv("CI", raising=False)
+    monkeypatch.setattr(core, "is_headless", lambda: False)
+    monkeypatch.setattr(core, "_free_redirect_port", lambda: None)
+    monkeypatch.setattr(SpotifyOAuth, "_open_auth_url", forbidden)
+    monkeypatch.setattr(SpotifyOAuth, "_get_auth_response_local_server", forbidden)
+    monkeypatch.setattr(SpotifyOAuth, "_get_auth_response_interactive", forbidden)
+    return token_env
+
+
+def test_interactive_refresh_records_scope_spotify_granted(interactive):
+    # 対話実行では build_client は検証せず、最初の API 呼び出しの直前に refresh が走る
+    cache, _, posts = interactive
+    sp = core.build_client(NARROW)
+    assert posts == []  # build_client の時点ではまだ refresh しない（遅延 refresh の経路を踏んでいる）
+    assert sp.auth_manager.get_access_token(as_dict=False) == "new"
+    assert [p["grant_type"] for p in posts] == ["refresh_token"]
+    assert _cached(cache)["scope"] == GRANTED
+
+
+@pytest.mark.parametrize(("requested", "reply_scope", "recorded"), [
+    (NARROW, GRANTED, GRANTED),
+    (NARROW, None, NARROW),
+    (core.SCOPE_ALL, NARROW, NARROW),  # 許可が要求より狭い → 要求や和集合で水増ししない
+])
+def test_reauthorization_records_scope_spotify_granted(interactive, monkeypatch, requested, reply_scope, recorded):
+    """キャッシュが要求を満たさず再認証（auth code 交換）になったときも、応答の scope を記録する。
+
+    reauth.py と README の再認証手順が通る経路。ここで書いたキャッシュが Secret として全 CI ジョブに配られる。
+    """
+    cache, reply, posts = interactive
+    saved = _cached(cache)
+    saved["scope"] = "user-top-read"  # 要求を満たさない → refresh ではなく再認証になる
+    cache.write_text(json.dumps(saved))
+    monkeypatch.setattr(SpotifyOAuth, "get_auth_response", lambda self, *a, **k: "the-code")
+    reply["refresh_token"] = "rt2"
+    if reply_scope is None:
+        del reply["scope"]
+    else:
+        reply["scope"] = reply_scope
+    sp = core.build_client(requested)
+    assert sp.auth_manager.get_access_token(as_dict=False) == "new"
+    assert [(p["grant_type"], p.get("code")) for p in posts] == [("authorization_code", "the-code")]
+    assert _cached(cache)["scope"] == recorded
+    assert _cached(cache)["refresh_token"] == "rt2"
+
+
+def test_spotipy_still_has_the_hook_we_override():
+    # private API に依存している。名前が変わると override が黙って効かなくなり、修正前の挙動に戻る
+    assert "_add_custom_values_to_token_info" in vars(SpotifyOAuth), (
+        "spotipy の private API が変わった。core._GrantedScopeOAuth を見直すこと"
+    )

@@ -104,7 +104,7 @@ macOS 通知は廃止した。失敗・要対応は Issue になる（GitHub モ
 
 ```bash
 cd spotify-playlist-tools
-python inbox.py                                   # 対話実行 → ブラウザ認証
+python reauth.py                                  # 対話実行 → ブラウザ認証（全 scope を確認する）
 gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify
 gh workflow run nightly --field dry_run=true      # 動作確認
 ```

@@ -144,7 +144,7 @@ jobs:
         run: |
           run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           tail_log="$(tail -40 log/nightly.log 2>/dev/null || echo '(ログなし)')"
-          body="$(printf '実行: %s\n\n### ログ末尾\n```\n%s\n```\n\n### 認証エラー(exit 3)の場合の復旧手順\nローカルで `python inbox.py` を対話実行してブラウザ認証し、\n`gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify` でトークンを更新する。' "$run_url" "$tail_log")"
+          body="$(printf '実行: %s\n\n### ログ末尾\n```\n%s\n```\n\n### 認証エラー(exit 3)の場合の復旧手順\nローカルで `python reauth.py` を対話実行してブラウザ認証し（全 scope を確認する）、\n`gh secret set SPOTIFY_TOKEN_CACHE < .cache-spotify` でトークンを更新する。' "$run_url" "$tail_log")"
           existing=$(gh issue list --label nightly-failure --state open --json number --jq '.[0].number')
           if [ -n "$existing" ]; then
             gh issue comment "$existing" --body "$body"
