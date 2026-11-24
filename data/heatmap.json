@@ -11,7 +11,7 @@
       "hour": 1
     },
     {
-      "count": 32,
+      "count": 33,
       "dow": 0,
       "hour": 2
     },
@@ -71,32 +71,32 @@
       "hour": 13
     },
     {
-      "count": 302,
+      "count": 311,
       "dow": 0,
       "hour": 14
     },
     {
-      "count": 279,
+      "count": 295,
       "dow": 0,
       "hour": 15
     },
     {
-      "count": 430,
+      "count": 439,
       "dow": 0,
       "hour": 16
     },
     {
-      "count": 439,
+      "count": 453,
       "dow": 0,
       "hour": 17
     },
     {
-      "count": 571,
+      "count": 581,
       "dow": 0,
       "hour": 18
     },
     {
-      "count": 549,
+      "count": 557,
       "dow": 0,
       "hour": 19
     },
@@ -681,7 +681,7 @@
       "hour": 15
     },
     {
-      "count": 429,
+      "count": 428,
       "dow": 5,
       "hour": 16
     },
@@ -841,5 +841,5 @@
       "hour": 23
     }
   ],
-  "generated_at": "2026-11-22T21:25:57.076571+00:00"
+  "generated_at": "2026-11-24T02:41:47.148712+00:00"
 }

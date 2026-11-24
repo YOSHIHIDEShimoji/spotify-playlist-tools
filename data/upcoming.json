@@ -1,7 +1,15 @@
 {
   "followed": 18,
-  "generated_at": "2026-11-22T21:27:58.308015+00:00",
-  "items": [],
+  "generated_at": "2026-11-24T02:43:48.342328+00:00",
+  "items": [
+    {
+      "artist": "Michael Jackson",
+      "artist_id": "3fMbdgg4jU18AjLCKBhRSm",
+      "date": "2026-11-26",
+      "title": "Dangerous 35",
+      "type": "Album"
+    }
+  ],
   "known": 18,
   "source": "musicbrainz"
 }

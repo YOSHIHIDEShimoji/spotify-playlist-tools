@@ -41,7 +41,7 @@
       "month": "2026-10"
     },
     {
-      "count": 834,
+      "count": 900,
       "month": "2026-11"
     }
   ],
@@ -51,10 +51,10 @@
     "dow": 6,
     "hour": 18
   },
-  "plays": 14133,
+  "plays": 14199,
   "top_artists": [
     {
-      "count": 1697,
+      "count": 1739,
       "name": "OneRepublic"
     },
     {
@@ -78,16 +78,16 @@
       "name": "ザ・ビートルズ"
     },
     {
-      "count": 353,
+      "count": 352,
       "name": "Justin Bieber"
+    },
+    {
+      "count": 345,
+      "name": "Maroon 5"
     },
     {
       "count": 339,
       "name": "ワンリパブリック"
-    },
-    {
-      "count": 326,
-      "name": "Maroon 5"
     },
     {
       "count": 294,
@@ -163,7 +163,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 71,
+      "count": 72,
       "name": "I Lived",
       "track_id": "3IQF4xCQUPicbA4hWfTxPo"
     },
@@ -171,7 +171,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 71,
+      "count": 72,
       "name": "Kids",
       "track_id": "5mQNY6pTeSDl2doFB7uLbE"
     },
@@ -179,7 +179,7 @@
       "artists": [
         "OneRepublic"
       ],
-      "count": 65,
+      "count": 66,
       "name": "Apologize",
       "track_id": "1NrJYpdAi7uosDRPmSYrsG"
     },
