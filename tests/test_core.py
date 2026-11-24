@@ -285,8 +285,9 @@ def token_env(tmp_path, monkeypatch):
     posts には token エンドポイントへの送信内容が順に入る。ネットワークには一切出さない。
     """
     def no_network(*args, **kwargs):
-        raise AssertionError("テストからネットワークに出ようとした")
+        pytest.fail("テストからネットワークに出ようとした")  # except Exception に握りつぶされない
 
+    monkeypatch.setattr(socket, "getaddrinfo", no_network)  # 接続の前に DNS 問い合わせが出るのも塞ぐ
     monkeypatch.setattr(socket, "create_connection", no_network)
     monkeypatch.setattr(socket.socket, "connect", no_network)
     monkeypatch.setenv("SPOTIPY_CLIENT_ID", "id")
@@ -377,20 +378,25 @@ def test_interactive_refresh_records_scope_spotify_granted(interactive):
     # 対話実行では build_client は検証せず、最初の API 呼び出しの直前に refresh が走る
     cache, _, posts = interactive
     sp = core.build_client(NARROW)
+    assert posts == []  # build_client の時点ではまだ refresh しない（遅延 refresh の経路を踏んでいる）
     assert sp.auth_manager.get_access_token(as_dict=False) == "new"
     assert [p["grant_type"] for p in posts] == ["refresh_token"]
     assert _cached(cache)["scope"] == GRANTED
 
 
-@pytest.mark.parametrize(("reply_scope", "recorded"), [(GRANTED, GRANTED), (None, NARROW)])
-def test_reauthorization_records_scope_spotify_granted(interactive, monkeypatch, reply_scope, recorded):
+@pytest.mark.parametrize(("requested", "reply_scope", "recorded"), [
+    (NARROW, GRANTED, GRANTED),
+    (NARROW, None, NARROW),
+    (core.SCOPE_ALL, NARROW, NARROW),  # 許可が要求より狭い → 要求や和集合で水増ししない
+])
+def test_reauthorization_records_scope_spotify_granted(interactive, monkeypatch, requested, reply_scope, recorded):
     """キャッシュが要求を満たさず再認証（auth code 交換）になったときも、応答の scope を記録する。
 
     reauth.py と README の再認証手順が通る経路。ここで書いたキャッシュが Secret として全 CI ジョブに配られる。
     """
     cache, reply, posts = interactive
     saved = _cached(cache)
-    saved["scope"] = "user-top-read"  # 要求（NARROW）を満たさない → refresh ではなく再認証になる
+    saved["scope"] = "user-top-read"  # 要求を満たさない → refresh ではなく再認証になる
     cache.write_text(json.dumps(saved))
     monkeypatch.setattr(SpotifyOAuth, "get_auth_response", lambda self, *a, **k: "the-code")
     reply["refresh_token"] = "rt2"
@@ -398,7 +404,7 @@ def test_reauthorization_records_scope_spotify_granted(interactive, monkeypatch,
         del reply["scope"]
     else:
         reply["scope"] = reply_scope
-    sp = core.build_client(NARROW)
+    sp = core.build_client(requested)
     assert sp.auth_manager.get_access_token(as_dict=False) == "new"
     assert [(p["grant_type"], p.get("code")) for p in posts] == [("authorization_code", "the-code")]
     assert _cached(cache)["scope"] == recorded
