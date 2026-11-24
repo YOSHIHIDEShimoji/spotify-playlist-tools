@@ -114,6 +114,25 @@ def is_dry_run() -> bool:
     return os.getenv("DRY_RUN") == "1" or "--dry-run" in sys.argv
 
 
+class _GrantedScopeOAuth(SpotifyOAuth):
+    """トークンキャッシュの scope 欄に「Spotify が実際に許可した scope」を残す SpotifyOAuth。
+
+    素の spotipy は refresh のたびに、キャッシュの scope 欄を「その呼び出しで要求した scope」で
+    上書きする（_add_custom_values_to_token_info）。狭い scope（例 "playlist-read-private"）で
+    一度呼ぶだけで記録が狭まり、以後の広い scope の headless 実行が「scope 不足」と判定されて
+    AuthRequired で落ちる。Spotify 側の許可は変わっていないのに、である（2026-11-23 実例）。
+    Spotify はトークン応答に実際の scope を入れて返す（実測）ので、それを記録する。
+    応答に scope が無いときだけ、従来どおり要求した scope を記録する。
+    """
+
+    def _add_custom_values_to_token_info(self, token_info):
+        granted = token_info.get("scope")
+        token_info = super()._add_custom_values_to_token_info(token_info)
+        if granted:
+            token_info["scope"] = granted
+        return token_info
+
+
 def build_client(scope: str) -> spotipy.Spotify:
     load_dotenv(ENV_PATH)  # CI では .env が無く no-op（env は Secrets 由来）
     for key in ("SPOTIPY_CLIENT_ID", "SPOTIPY_CLIENT_SECRET", "SPOTIPY_REDIRECT_URI"):
@@ -121,7 +140,7 @@ def build_client(scope: str) -> spotipy.Spotify:
             raise RuntimeError(f"{key} が設定されていません（.env または環境変数）")
 
     headless = is_headless()
-    auth = SpotifyOAuth(scope=scope, cache_path=str(CACHE_PATH), open_browser=not headless)
+    auth = _GrantedScopeOAuth(scope=scope, cache_path=str(CACHE_PATH), open_browser=not headless)
 
     if headless:
         # ブラウザフローを絶対に開始しない。キャッシュ→refresh で取れなければ即 AuthRequired。

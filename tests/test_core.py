@@ -1,3 +1,6 @@
+import json
+import time
+
 import pytest
 import requests
 import spotipy
@@ -245,3 +248,81 @@ def test_iter_playlist_tracks_retries_the_first_page(no_sleep):
     sp = _Sp()
     assert [t["id"] for t in core.iter_playlist_tracks(sp, "pid", "f,next")] == ["a"]
     assert sp.first_calls == 2
+
+
+# ───────────── トークンキャッシュの scope（狭い scope の実行で記録が狭まらない） ─────────────
+
+# Spotify の実際の応答に近い形（並びは要求と無関係で、要求していない scope も含む。2026-11-24 実測）
+GRANTED = " ".join([*reversed(core.SCOPE_ALL.split()), "playlist-read-collaborative"])
+
+
+class _FakeTokenResponse:
+    def __init__(self, body):
+        self._body = body
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return dict(self._body)
+
+
+@pytest.fixture
+def token_env(tmp_path, monkeypatch):
+    """期限切れトークンのキャッシュ（全 scope 許可済み）を置き、Spotify の token 応答を差し替える。
+
+    返り値の reply を書き換えると、次の refresh で Spotify が返す内容が変わる。
+    """
+    monkeypatch.setenv("SPOTIPY_CLIENT_ID", "id")
+    monkeypatch.setenv("SPOTIPY_CLIENT_SECRET", "secret")
+    monkeypatch.setenv("SPOTIPY_REDIRECT_URI", "http://127.0.0.1:8000/callback")
+    monkeypatch.setenv("CI", "true")  # headless（ブラウザ認証を始めない経路）
+    monkeypatch.setattr(core, "ENV_PATH", tmp_path / "no.env")
+    cache = tmp_path / ".cache-spotify"
+    cache.write_text(json.dumps({
+        "access_token": "old", "token_type": "Bearer", "expires_in": 3600,
+        "expires_at": int(time.time()) - 10, "refresh_token": "rt", "scope": GRANTED,
+    }))
+    monkeypatch.setattr(core, "CACHE_PATH", cache)
+    reply = {"access_token": "new", "token_type": "Bearer", "expires_in": 3600, "scope": GRANTED}
+    monkeypatch.setattr(requests.Session, "post", lambda self, url, **kw: _FakeTokenResponse(reply))
+    return cache, reply
+
+
+def test_narrow_scope_run_does_not_lock_out_broader_runs(token_env):
+    """狭い scope の実行で refresh が走っても、そのあと広い scope の headless 実行が通ること。
+
+    素の spotipy だと refresh 時にキャッシュの scope が "playlist-read-private" に書き換わり、
+    2回目の build_client が AuthRequired で落ちる（2026-11-23 にローカルで実際に起きた）。
+    """
+    cache, _ = token_env
+    core.build_client("playlist-read-private")
+    assert json.loads(cache.read_text())["access_token"] == "new"  # 本当に refresh が走った
+    core.build_client(core.SCOPE_ALL)  # AuthRequired にならない
+
+
+def test_refresh_records_scope_spotify_granted(token_env):
+    cache, _ = token_env
+    core.build_client("playlist-read-private")
+    assert json.loads(cache.read_text())["scope"] == GRANTED
+
+
+def test_refresh_does_not_widen_beyond_what_spotify_granted(token_env):
+    # 許可が本当に狭いなら、広い scope の実行は今までどおり AuthRequired で止める（記録を水増ししない）
+    cache, reply = token_env
+    reply["scope"] = "playlist-read-private"
+    core.build_client("playlist-read-private")
+    assert json.loads(cache.read_text())["scope"] == "playlist-read-private"
+    with pytest.raises(core.AuthRequired):
+        core.build_client(core.SCOPE_ALL)
+
+
+@pytest.mark.parametrize("missing", [None, ""])
+def test_refresh_without_scope_in_reply_falls_back_to_requested(token_env, missing):
+    cache, reply = token_env
+    if missing is None:
+        del reply["scope"]
+    else:
+        reply["scope"] = missing
+    core.build_client("playlist-read-private")
+    assert json.loads(cache.read_text())["scope"] == "playlist-read-private"
