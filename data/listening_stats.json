@@ -220,7 +220,7 @@
       "artists": [
         "Eve"
       ],
-      "count": 143,
+      "count": 144,
       "name": "廻廻奇譚",
       "track_id": "5MVjxslIF7mVtYo75Nk445"
     },
@@ -316,7 +316,7 @@
       "artists": [
         "音田 雅則"
       ],
-      "count": 128,
+      "count": 129,
       "name": "夜空",
       "track_id": "1rWp9c9Po0i4lAfCJYOoBh"
     },
@@ -394,6 +394,14 @@
     },
     {
       "artists": [
+        "音田 雅則"
+      ],
+      "count": 122,
+      "name": "聖なるクリスマス",
+      "track_id": "7i3YnL4zlmqGeQV9G1xLzr"
+    },
+    {
+      "artists": [
         "髙見 優/長岡 成貢"
       ],
       "count": 122,
@@ -415,14 +423,6 @@
       "count": 121,
       "name": "ロビンソン",
       "track_id": "0sVnyL71jTOuMt9TZ59bws"
-    },
-    {
-      "artists": [
-        "音田 雅則"
-      ],
-      "count": 121,
-      "name": "聖なるクリスマス",
-      "track_id": "7i3YnL4zlmqGeQV9G1xLzr"
     },
     {
       "artists": [
@@ -506,19 +506,19 @@
     },
     {
       "artists": [
+        "ALI"
+      ],
+      "count": 117,
+      "name": "LOST IN PARADISE",
+      "track_id": "7kRKlFCFLAUwt43HWtauhX"
+    },
+    {
+      "artists": [
         "YOASOBI"
       ],
       "count": 116,
       "name": "夜に駆ける",
       "track_id": "3dPtXHP0oXQ4HCWHsOA9js"
-    },
-    {
-      "artists": [
-        "ALI"
-      ],
-      "count": 116,
-      "name": "LOST IN PARADISE",
-      "track_id": "7kRKlFCFLAUwt43HWtauhX"
     },
     {
       "artists": [
@@ -602,19 +602,19 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 111,
+      "name": "Payphone",
+      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
+    },
+    {
+      "artists": [
         "ONE OK ROCK"
       ],
       "count": 111,
       "name": "Renegades",
       "track_id": "3RpFwqdROrxJvHywpT1pJ4"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 110,
-      "name": "Payphone",
-      "track_id": "1XGmzt0PVuFgQYYnV2It7A"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     }
   ],
-  "generated_at": "2026-11-25T00:15:19.376285+00:00",
+  "generated_at": "2026-11-25T23:55:42.635141+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,34 +813,43 @@
       5000,
       10000
     ],
-    "total": 65886
+    "total": 65959
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 2,
+  "streak": 3,
   "weekly_top": [
     {
       "artists": [
         "Maroon 5"
       ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "name": "Girls Like You (feat. Cardi B) - Cardi B Version",
-      "track_id": "0ynF2svLpsCqkfcWwG03eo"
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "name": "Maps",
+      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
     },
     {
       "artists": [
         "Maroon 5"
       ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "name": "Cold (feat. Future)",
-      "track_id": "4eQ31LSLD3AbGFNdYD7el1"
+      "count": 6,
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "name": "Sugar",
+      "track_id": "6eV7eK07znOHcKz3bzEmpS"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 5,
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "name": "Animals",
+      "track_id": "6R68hi6blw52Kg73DzICnM"
     },
     {
       "artists": [
         "クリーン・バンディット"
       ],
-      "count": 2,
+      "count": 4,
       "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
       "name": "Rather Be (feat. Jess Glynne)",
       "track_id": "61dCUoMCg28qEBzrW6htYM"
@@ -849,7 +858,7 @@
       "artists": [
         "Maroon 5"
       ],
-      "count": 2,
+      "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
       "name": "Payphone",
       "track_id": "1XGmzt0PVuFgQYYnV2It7A"
@@ -858,10 +867,28 @@
       "artists": [
         "Maroon 5"
       ],
-      "count": 2,
+      "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
       "name": "Lucky Strike",
       "track_id": "4rpzPAbwJboZQw2p9T5T3f"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "Wherever I Go",
+      "track_id": "46jLy47W8rkf8rEX04gMKB"
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
     },
     {
       "artists": [
@@ -877,36 +904,18 @@
         "Maroon 5"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "name": "Animals",
-      "track_id": "6R68hi6blw52Kg73DzICnM"
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "name": "Girls Like You (feat. Cardi B) - Cardi B Version",
+      "track_id": "0ynF2svLpsCqkfcWwG03eo"
     },
     {
       "artists": [
         "Maroon 5"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "name": "Maps",
-      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
-      "name": "Sugar",
-      "track_id": "6eV7eK07znOHcKz3bzEmpS"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
-      "name": "Wherever I Go",
-      "track_id": "46jLy47W8rkf8rEX04gMKB"
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "name": "Cold (feat. Future)",
+      "track_id": "4eQ31LSLD3AbGFNdYD7el1"
     },
     {
       "artists": [
@@ -919,12 +928,12 @@
     },
     {
       "artists": [
-        "Katy Perry"
+        "OneRepublic"
       ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "name": "The One That Got Away",
-      "track_id": "2009X8GyWTqyxIdzAEYW6N"
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "Heaven",
+      "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
     },
     {
       "artists": [
@@ -1258,15 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
       "name": "Don't Look Down",
       "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
-      "name": "Something's Gotta Give",
-      "track_id": "1WY42ffdMgNO6q15cePW2g"
     }
   ]
 }
