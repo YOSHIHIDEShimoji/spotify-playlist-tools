@@ -1,36 +1,47 @@
 {
-  "generated_at": "2026-11-24T02:45:06.249881+00:00",
+  "generated_at": "2026-11-25T00:18:56.057130+00:00",
   "items": [
     {
-      "album_id": "7A40u0vpClHm8JJE92fvyp",
-      "album_name": "Evil",
+      "album_id": "0ZQk4MWPeiROv3AipQEXdK",
+      "album_name": "Honesty",
       "album_type": "single",
-      "artist": "CHVRCHES",
-      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519bfc18e4d1d06e298eb455ee",
-      "is_new": false,
-      "release_date": "2026-11-20"
+      "artist": "Beverly",
+      "artist_id": "5AJRsYTgSVuUTT2SbhLLxu",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d0000485171f749d01a27b8ee849ab621",
+      "is_new": true,
+      "release_date": "2026-11-25"
     },
     {
-      "album_id": "4i03JuGhTAVzOemgFYo88e",
-      "album_name": "YUME",
-      "album_type": "single",
-      "artist": "Alan Walker",
-      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851baaf48c92fe2978a9a29f454",
-      "is_new": false,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "31rzlcY3HwoGOXZMMDK98E",
-      "album_name": "Rock Of The Westies (50th Anniversary Edition)",
+      "album_id": "6NWKcj82F5EDqqxNh4J68Z",
+      "album_name": "kettle",
       "album_type": "album",
-      "artist": "Elton John",
-      "artist_id": "3PhoLpVuITZKcymswpck5b",
+      "artist": "SPITZ",
+      "artist_id": "5kjGRHClVacSyllOUqU1S0",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851aec4eceafc78996aa224e975",
+      "is_new": true,
+      "release_date": "2026-11-25"
+    },
+    {
+      "album_id": "7hAEgpAEje0obsJ8SrJKg2",
+      "album_name": "Daughter from Hell (Deluxe)",
+      "album_type": "album",
+      "artist": "Gracie Abrams",
+      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485160d3515763490a99853f7a4f",
+      "image": "https://i.scdn.co/image/ab67616d00004851ba327df7359f933cb8d686e0",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "4AwqOYFutqKIlBI1MBz1QL",
+      "album_name": "DON'T SAY SORRY",
+      "album_type": "single",
+      "artist": "Łaszewo",
+      "artist_id": "6jxGLrn1I14RIeRYodOpLN",
+      "class": "japanese",
+      "image": "https://i.scdn.co/image/ab67616d00004851f4b915b4a3fe6033657dee43",
       "is_new": false,
       "release_date": "2026-11-20"
     },
@@ -46,6 +57,50 @@
       "release_date": "2026-11-20"
     },
     {
+      "album_id": "7A40u0vpClHm8JJE92fvyp",
+      "album_name": "Evil",
+      "album_type": "single",
+      "artist": "CHVRCHES",
+      "artist_id": "3CjlHNtplJyTf9npxaPl5w",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519bfc18e4d1d06e298eb455ee",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "5DievKzmlCMzHlE2mqB68S",
+      "album_name": "A PLACE TO GO",
+      "album_type": "single",
+      "artist": "The Kid LAROI",
+      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519e1dc2b3e524c249d30d904b",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "31rzlcY3HwoGOXZMMDK98E",
+      "album_name": "Rock Of The Westies (50th Anniversary Edition)",
+      "album_type": "album",
+      "artist": "Elton John",
+      "artist_id": "3PhoLpVuITZKcymswpck5b",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485160d3515763490a99853f7a4f",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
+      "album_id": "6ooTcopS5BYCcQjakxP3O5",
+      "album_name": "Where's our love",
+      "album_type": "single",
+      "artist": "Macklemore",
+      "artist_id": "3JhNCzhSMTxs9WLGJJxWOY",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485116671006bd65390606286912",
+      "is_new": false,
+      "release_date": "2026-11-20"
+    },
+    {
       "album_id": "5aqKsW1DEwhyFWopnzWykz",
       "album_name": "Piece of Your Love",
       "album_type": "single",
@@ -53,28 +108,6 @@
       "artist_id": "0xRXCcSX89eobfrshSVdyu",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d0000485180f453458de4cb0ea7570b2b",
-      "is_new": false,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "4AwqOYFutqKIlBI1MBz1QL",
-      "album_name": "DON'T SAY SORRY",
-      "album_type": "single",
-      "artist": "Łaszewo",
-      "artist_id": "6jxGLrn1I14RIeRYodOpLN",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851139276bd8fd8689974d2657b",
-      "is_new": false,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "17TEBH9jRRcZLdeQWUprHs",
-      "album_name": "MISS ME (Orchestral)",
-      "album_type": "single",
-      "artist": "keshi",
-      "artist_id": "3pc0bOVB5whxmD50W79wwO",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851cd6091837f2235d466cc091e",
       "is_new": false,
       "release_date": "2026-11-20"
     },
@@ -101,59 +134,26 @@
       "release_date": "2026-11-20"
     },
     {
-      "album_id": "6ooTcopS5BYCcQjakxP3O5",
-      "album_name": "Where's our love",
+      "album_id": "17TEBH9jRRcZLdeQWUprHs",
+      "album_name": "MISS ME (Orchestral)",
       "album_type": "single",
-      "artist": "Macklemore",
-      "artist_id": "3JhNCzhSMTxs9WLGJJxWOY",
+      "artist": "keshi",
+      "artist_id": "3pc0bOVB5whxmD50W79wwO",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485116671006bd65390606286912",
+      "image": "https://i.scdn.co/image/ab67616d00004851cd6091837f2235d466cc091e",
       "is_new": false,
       "release_date": "2026-11-20"
     },
     {
-      "album_id": "5DievKzmlCMzHlE2mqB68S",
-      "album_name": "A PLACE TO GO",
+      "album_id": "4i03JuGhTAVzOemgFYo88e",
+      "album_name": "YUME",
       "album_type": "single",
-      "artist": "The Kid LAROI",
-      "artist_id": "2tIP7SsRs7vjIcLrU85W8J",
+      "artist": "Alan Walker",
+      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519e1dc2b3e524c249d30d904b",
+      "image": "https://i.scdn.co/image/ab67616d00004851baaf48c92fe2978a9a29f454",
       "is_new": false,
       "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "7hAEgpAEje0obsJ8SrJKg2",
-      "album_name": "Daughter from Hell (Deluxe)",
-      "album_type": "album",
-      "artist": "Gracie Abrams",
-      "artist_id": "4tuJ0bMpJh08umKkEXKUI5",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ba327df7359f933cb8d686e0",
-      "is_new": false,
-      "release_date": "2026-11-20"
-    },
-    {
-      "album_id": "7o1zyOQAQwAcseaLOHRpHe",
-      "album_name": "Go Easy (from GTAVI: The Album)",
-      "album_type": "single",
-      "artist": "Dua Lipa",
-      "artist_id": "6M2wZ9GZgrQXHCFfjv46we",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851c8b29eb380509bdaee35e15c",
-      "is_new": false,
-      "release_date": "2026-11-19"
-    },
-    {
-      "album_id": "6NL0OEV68wSPHAxQiGsuO5",
-      "album_name": "Fast Emotion (from GTAVI: The Album)",
-      "album_type": "single",
-      "artist": "Zara Larsson",
-      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851a1d5da1a7d1eaac4535ab969",
-      "is_new": false,
-      "release_date": "2026-11-19"
     },
     {
       "album_id": "6hkaerWZMubBWwyTDJP8J3",
@@ -174,6 +174,28 @@
       "artist_id": "3xvaSlT4xsyk6lY1ESOspO",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d00004851affd68d04fa6ce7cb019c114",
+      "is_new": false,
+      "release_date": "2026-11-19"
+    },
+    {
+      "album_id": "6NL0OEV68wSPHAxQiGsuO5",
+      "album_name": "Fast Emotion (from GTAVI: The Album)",
+      "album_type": "single",
+      "artist": "Zara Larsson",
+      "artist_id": "1Xylc3o4UrD53lo9CvFvVg",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851a1d5da1a7d1eaac4535ab969",
+      "is_new": false,
+      "release_date": "2026-11-19"
+    },
+    {
+      "album_id": "7o1zyOQAQwAcseaLOHRpHe",
+      "album_name": "Go Easy (from GTAVI: The Album)",
+      "album_type": "single",
+      "artist": "Dua Lipa",
+      "artist_id": "6M2wZ9GZgrQXHCFfjv46we",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851c8b29eb380509bdaee35e15c",
       "is_new": false,
       "release_date": "2026-11-19"
     },
@@ -200,94 +222,6 @@
       "release_date": "2026-11-16"
     },
     {
-      "album_id": "3Arw97tnQUGQ3zBkWrEORn",
-      "album_name": "Christmas in New York",
-      "album_type": "single",
-      "artist": "EJAE",
-      "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
-      "album_name": "Drop Anchor Here",
-      "album_type": "single",
-      "artist": "Gabby Barrett",
-      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
-      "album_name": "I Need A Light",
-      "album_type": "single",
-      "artist": "Zach Seabaugh",
-      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "6BPFXxkpETKQklASxmLujm",
-      "album_name": "Daya (Live at The Song)",
-      "album_type": "single",
-      "artist": "The Song TV",
-      "artist_id": "1Yx4q389ioC1sT4vplLtJW",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851aebc7c64be158872e8f41ca7",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
-      "album_name": "Cool",
-      "album_type": "album",
-      "artist": "Wiz Khalifa",
-      "artist_id": "137W8MRPWKqSmrBGDBFSop",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
-      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
-      "album_type": "single",
-      "artist": "Au/Ra",
-      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851dbe96a2617be8a2e91bdb034",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
-      "album_name": "Fly (feat. Muni Long)",
-      "album_type": "single",
-      "artist": "Tone Stith",
-      "artist_id": "756t7CBmWLNYsshVtS6P44",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485187d0c528b62b8cf423950b82",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
-      "album_id": "2CNaaADlssuKJb72ijRWJg",
-      "album_name": "Blue Planet III (Original Television Soundtrack)",
-      "album_type": "album",
-      "artist": "Hans Zimmer",
-      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851ee6926418cea793f374a0457",
-      "is_new": false,
-      "release_date": "2026-11-13"
-    },
-    {
       "album_id": "1chX7y1XoYa6FKoVh2fzsB",
       "album_name": "天邪鬼",
       "album_type": "single",
@@ -310,35 +244,57 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
-      "album_name": "Gravity",
-      "album_type": "single",
-      "artist": "Alex Alexander",
-      "artist_id": "1mJucMwGjnCatEdVk9eedj",
+      "album_id": "62vOhQo4OJwUNlEVPQ1owK",
+      "album_name": "Cool",
+      "album_type": "album",
+      "artist": "Wiz Khalifa",
+      "artist_id": "137W8MRPWKqSmrBGDBFSop",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
+      "image": "https://i.scdn.co/image/ab67616d00004851ea6d876aa8528f70cb35f699",
       "is_new": false,
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
-      "album_name": "Wait All Night",
+      "album_id": "28VfI5mxbTg8T1VQcjpIwJ",
+      "album_name": "Fly (feat. Muni Long)",
       "album_type": "single",
-      "artist": "Lost Frequencies",
-      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "artist": "Tone Stith",
+      "artist_id": "756t7CBmWLNYsshVtS6P44",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
+      "image": "https://i.scdn.co/image/ab67616d0000485187d0c528b62b8cf423950b82",
       "is_new": false,
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "3rAIzaGkMIWpZxd1wefSm6",
-      "album_name": "W1000",
+      "album_id": "6BPFXxkpETKQklASxmLujm",
+      "album_name": "Daya (Live at The Song)",
       "album_type": "single",
-      "artist": "Tohji",
-      "artist_id": "7j7kL8K4GE1z5Cdxl7ucBF",
+      "artist": "The Song TV",
+      "artist_id": "1Yx4q389ioC1sT4vplLtJW",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d00004851294c561798761131ed4b4e16",
+      "image": "https://i.scdn.co/image/ab67616d00004851aebc7c64be158872e8f41ca7",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "1dbEt8HquK1ogAVXcPV3ve",
+      "album_name": "Drop Anchor Here",
+      "album_type": "single",
+      "artist": "Gabby Barrett",
+      "artist_id": "6Iz3eq2aQGFf7TbGT2iahL",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048519de738f7e4b7a92e96d2c518",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "2CNaaADlssuKJb72ijRWJg",
+      "album_name": "Blue Planet III (Original Television Soundtrack)",
+      "album_type": "album",
+      "artist": "Hans Zimmer",
+      "artist_id": "0YC192cP3KPCRWx8zr8MfZ",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851ee6926418cea793f374a0457",
       "is_new": false,
       "release_date": "2026-11-13"
     },
@@ -354,15 +310,70 @@
       "release_date": "2026-11-13"
     },
     {
-      "album_id": "2Dq9DuoVZB8eLsBygdBd7g",
-      "album_name": "Alfaaz (Alan Walker Relight)",
+      "album_id": "3Arw97tnQUGQ3zBkWrEORn",
+      "album_name": "Christmas in New York",
       "album_type": "single",
-      "artist": "Alan Walker",
-      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
+      "artist": "EJAE",
+      "artist_id": "0RMJOzHDhAKY1o2j0W0vxY",
       "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485140c95342374f8c233d5298f5",
+      "image": "https://i.scdn.co/image/ab67616d00004851675727c6cb0bd791047526ac",
       "is_new": false,
-      "release_date": "2026-11-12"
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "3rAIzaGkMIWpZxd1wefSm6",
+      "album_name": "W1000",
+      "album_type": "single",
+      "artist": "Tohji",
+      "artist_id": "7j7kL8K4GE1z5Cdxl7ucBF",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851294c561798761131ed4b4e16",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "5vgawNv5SNpnqsLgy1wpdI",
+      "album_name": "Wait All Night",
+      "album_type": "single",
+      "artist": "Lost Frequencies",
+      "artist_id": "7f5Zgnp2spUuuzKplmRkt7",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d000048517b575f30cfdbd40235b8f453",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "1YkBywFDuO1oTrWIIUTJlo",
+      "album_name": "I Need A Light",
+      "album_type": "single",
+      "artist": "Zach Seabaugh",
+      "artist_id": "3bmlmoASHg6ycjrKV05CP2",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485145216f81060c7e916deb31aa",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "6EiNtRHCSNMORx24ZYvWRM",
+      "album_name": "Gravity",
+      "album_type": "single",
+      "artist": "Alex Alexander",
+      "artist_id": "1mJucMwGjnCatEdVk9eedj",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851175e6096f9493e31990b7c1f",
+      "is_new": false,
+      "release_date": "2026-11-13"
+    },
+    {
+      "album_id": "4eKwMgTZbSNq5PJpV5SOev",
+      "album_name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
+      "album_type": "single",
+      "artist": "Au/Ra",
+      "artist_id": "1eMmoIprPDWeFdB1FxU6ZV",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d00004851dbe96a2617be8a2e91bdb034",
+      "is_new": false,
+      "release_date": "2026-11-13"
     },
     {
       "album_id": "5BVWDl6DMXN7IgbzTqnFud",
@@ -372,6 +383,17 @@
       "artist_id": "5JZ7CnR6gTvEMKX4g70Amv",
       "class": "western",
       "image": "https://i.scdn.co/image/ab67616d000048513878ff854e069ed478bd9f1a",
+      "is_new": false,
+      "release_date": "2026-11-12"
+    },
+    {
+      "album_id": "2Dq9DuoVZB8eLsBygdBd7g",
+      "album_name": "Alfaaz (Alan Walker Relight)",
+      "album_type": "single",
+      "artist": "Alan Walker",
+      "artist_id": "7vk5e3vY1uw9plTHJAMwjN",
+      "class": "western",
+      "image": "https://i.scdn.co/image/ab67616d0000485140c95342374f8c233d5298f5",
       "is_new": false,
       "release_date": "2026-11-12"
     },
@@ -387,17 +409,6 @@
       "release_date": "2026-11-12"
     },
     {
-      "album_id": "67kLj3jphSXfZpTkPL5UsN",
-      "album_name": "KILLA",
-      "album_type": "single",
-      "artist": "YOASOBI",
-      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
-      "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
-      "is_new": false,
-      "release_date": "2026-11-11"
-    },
-    {
       "album_id": "0ueroD3J7dZxmf0lQEBHbV",
       "album_name": "倉木麻衣×名探偵コナン COLLABORATION BEST 30 -キミがいてくれたから、歌がある。-",
       "album_type": "album",
@@ -409,37 +420,15 @@
       "release_date": "2026-11-11"
     },
     {
-      "album_id": "4IusailOZxQhm1g8GXj6kc",
-      "album_name": "Sugar",
+      "album_id": "67kLj3jphSXfZpTkPL5UsN",
+      "album_name": "KILLA",
       "album_type": "single",
-      "artist": "Hitsujibungaku",
-      "artist_id": "6S8w5rLsEwjN21jQeRES0n",
+      "artist": "YOASOBI",
+      "artist_id": "64tJ2EAv1R6UaZqc4iOCyj",
       "class": "japanese",
-      "image": "https://i.scdn.co/image/ab67616d00004851946c61ee0bd28b2cad8647df",
+      "image": "https://i.scdn.co/image/ab67616d0000485149e10cb9f2b289afb288180c",
       "is_new": false,
-      "release_date": "2026-11-10"
-    },
-    {
-      "album_id": "4Al0Bkb4LDezxd52QrMHlm",
-      "album_name": "The Current (From The ViQueens Soundtrack)",
-      "album_type": "single",
-      "artist": "Rita Ora",
-      "artist_id": "5CCwRZC6euC8Odo6y9X8jr",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485178ed7f4158fdb9153c6877ad",
-      "is_new": false,
-      "release_date": "2026-11-10"
-    },
-    {
-      "album_id": "48t5uBGJucx2rRiS7HKWR6",
-      "album_name": "Ghazali (Part I)",
-      "album_type": "album",
-      "artist": "Elyanna",
-      "artist_id": "0jIWKlfmD4Ew7HeVVrq03g",
-      "class": "western",
-      "image": "https://i.scdn.co/image/ab67616d0000485181dcd68d9627500b41b689ea",
-      "is_new": false,
-      "release_date": "2026-11-10"
+      "release_date": "2026-11-11"
     }
   ]
 }

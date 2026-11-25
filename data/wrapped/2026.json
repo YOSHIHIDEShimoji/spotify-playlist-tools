@@ -41,20 +41,20 @@
       "month": "2026-10"
     },
     {
-      "count": 900,
+      "count": 905,
       "month": "2026-11"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 1093,
+  "new_tracks": 1102,
   "peak": {
     "dow": 6,
     "hour": 18
   },
-  "plays": 14199,
+  "plays": 14204,
   "top_artists": [
     {
-      "count": 1739,
+      "count": 1737,
       "name": "OneRepublic"
     },
     {
@@ -82,7 +82,7 @@
       "name": "Justin Bieber"
     },
     {
-      "count": 345,
+      "count": 347,
       "name": "Maroon 5"
     },
     {
@@ -188,14 +188,6 @@
         "OneRepublic"
       ],
       "count": 64,
-      "name": "I Ain't Worried",
-      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 64,
       "name": "Someday",
       "track_id": "6aDsgHPZsMztSbZernzlF8"
     },
@@ -222,14 +214,6 @@
       "count": 58,
       "name": "Nobody - from Kaiju No. 8",
       "track_id": "47N81NMkB488fuOwOC3Oip"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 58,
-      "name": "Good Life - from One Night In Malibu",
-      "track_id": "0qdpBSgdFsOPGv9QLxEjdu"
     },
     {
       "artists": [
@@ -292,8 +276,24 @@
         "OneRepublic"
       ],
       "count": 54,
-      "name": "Sunshine",
-      "track_id": "6keF0sk7i4WU3cVnMkTtS3"
+      "name": "I Ain't Worried",
+      "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 54,
+      "name": "Rich Love (with Seeb)",
+      "track_id": "7dOeiXeTSfA1ixaYmQcWu7"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 53,
+      "name": "Love Runs Out",
+      "track_id": "5BJSZocnCeSNeYMj3iVqM7"
     }
   ],
   "year": "2026"

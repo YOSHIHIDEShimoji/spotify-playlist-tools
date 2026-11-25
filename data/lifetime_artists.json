@@ -99,21 +99,21 @@
       }
     },
     {
-      "count": 2131,
+      "count": 2129,
       "first": "2021-04-17",
       "id": "5Pwc4xIPtQLFEnJriah9YJ",
       "image": "https://i.scdn.co/image/ab676161000051743202f1bcacc6d8f581f32ffd",
       "last": "2026-11-23",
       "ms": 335839304,
       "name": "OneRepublic",
-      "tracks": 141,
+      "tracks": 145,
       "years": {
         "2021": 1,
         "2022": 3,
         "2023": 1,
         "2024": 20,
         "2025": 367,
-        "2026": 1739
+        "2026": 1737
       }
     },
     {
@@ -278,11 +278,11 @@
       }
     },
     {
-      "count": 496,
+      "count": 498,
       "first": "2020-05-19",
       "id": "04gDigrS5kc9YWfZHwBETP",
       "image": "https://i.scdn.co/image/ab67616100005174f8349dfb619a7f842242de77",
-      "last": "2026-11-23",
+      "last": "2026-11-24",
       "ms": 83904831,
       "name": "Maroon 5",
       "tracks": 34,
@@ -293,7 +293,7 @@
         "2023": 8,
         "2024": 9,
         "2025": 74,
-        "2026": 345
+        "2026": 347
       }
     },
     {
@@ -1520,7 +1520,7 @@
       "last": "2026-11-17",
       "ms": 19077616,
       "name": "David Guetta",
-      "tracks": 10,
+      "tracks": 11,
       "years": {
         "2020": 2,
         "2021": 37,
@@ -2235,6 +2235,17 @@
       }
     },
     {
+      "count": 66,
+      "first": "2026-07-21",
+      "last": "2026-11-24",
+      "ms": 0,
+      "name": "マルーン５",
+      "tracks": 18,
+      "years": {
+        "2026": 66
+      }
+    },
+    {
       "count": 65,
       "first": "2020-03-21",
       "id": "6uothxMWeLWIhsGeF7cyo4",
@@ -2499,17 +2510,6 @@
         "2024": 36,
         "2025": 16,
         "2026": 7
-      }
-    },
-    {
-      "count": 61,
-      "first": "2026-07-21",
-      "last": "2026-11-23",
-      "ms": 0,
-      "name": "マルーン５",
-      "tracks": 17,
-      "years": {
-        "2026": 61
       }
     },
     {
@@ -3716,7 +3716,7 @@
       "last": "2026-11-17",
       "ms": 4728928,
       "name": "MEDUZA",
-      "tracks": 2,
+      "tracks": 3,
       "years": {
         "2021": 2,
         "2025": 1,
@@ -7260,6 +7260,19 @@
     },
     {
       "count": 4,
+      "first": "2026-04-29",
+      "id": "1RyvyyTE3xzB2ZywiAwp0i",
+      "image": "https://i.scdn.co/image/ab676161000051742c472c891062acb4f3068583",
+      "last": "2026-11-24",
+      "ms": 477597,
+      "name": "Future",
+      "tracks": 4,
+      "years": {
+        "2026": 4
+      }
+    },
+    {
+      "count": 4,
       "first": "2022-03-05",
       "id": "59hLmB5DrdihCYtNeFeW1U",
       "image": "https://i.scdn.co/image/ab6761610000517464f0f928da3d4ff7746a2df1",
@@ -8176,19 +8189,6 @@
       "tracks": 2,
       "years": {
         "2021": 3
-      }
-    },
-    {
-      "count": 3,
-      "first": "2026-04-29",
-      "id": "1RyvyyTE3xzB2ZywiAwp0i",
-      "image": "https://i.scdn.co/image/ab676161000051742c472c891062acb4f3068583",
-      "last": "2026-06-04",
-      "ms": 477597,
-      "name": "Future",
-      "tracks": 3,
-      "years": {
-        "2026": 3
       }
     },
     {
@@ -12512,6 +12512,19 @@
       "last": "2026-11-03",
       "ms": 0,
       "name": "Capital Cities",
+      "tracks": 1,
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "count": 1,
+      "first": "2026-11-24",
+      "id": "4kYSro6naA4h99UJvo89HB",
+      "image": "https://i.scdn.co/image/ab67616100005174a23286f24edd4a7dbdc6311d",
+      "last": "2026-11-24",
+      "ms": 0,
+      "name": "Cardi B",
       "tracks": 1,
       "years": {
         "2026": 1
@@ -18791,5 +18804,5 @@
       }
     }
   ],
-  "generated_at": "2026-11-24T02:42:47.125032+00:00"
+  "generated_at": "2026-11-25T00:16:51.157571+00:00"
 }
