@@ -801,7 +801,7 @@
       "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     }
   ],
-  "generated_at": "2026-11-25T23:55:42.635141+00:00",
+  "generated_at": "2026-11-27T00:11:41.981946+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,19 +813,28 @@
       5000,
       10000
     ],
-    "total": 65959
+    "total": 66037
   },
   "since": "2019-09-05T13:21:59Z",
-  "streak": 3,
+  "streak": 5,
   "weekly_top": [
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 7,
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "name": "Maps",
+      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
+    },
     {
       "artists": [
         "Maroon 5"
       ],
       "count": 6,
       "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "name": "Maps",
-      "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
+      "name": "Animals",
+      "track_id": "6R68hi6blw52Kg73DzICnM"
     },
     {
       "artists": [
@@ -838,21 +847,21 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 5,
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "name": "Animals",
-      "track_id": "6R68hi6blw52Kg73DzICnM"
-    },
-    {
-      "artists": [
         "クリーン・バンディット"
       ],
       "count": 4,
       "image": "https://i.scdn.co/image/ab67616d000048515ef315d54fd701725176292e",
       "name": "Rather Be (feat. Jess Glynne)",
       "track_id": "61dCUoMCg28qEBzrW6htYM"
+    },
+    {
+      "artists": [
+        "Katy Perry"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
+      "name": "The One That Got Away",
+      "track_id": "2009X8GyWTqyxIdzAEYW6N"
     },
     {
       "artists": [
@@ -874,21 +883,39 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
+      "name": "Girls Like You (feat. Cardi B) - Cardi B Version",
+      "track_id": "0ynF2svLpsCqkfcWwG03eo"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Don't Look Down",
+      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 3,
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "name": "Life in Color",
+      "track_id": "2JDMJhjJmx2GtMz5HFSTim"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 3,
       "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
       "name": "Wherever I Go",
       "track_id": "46jLy47W8rkf8rEX04gMKB"
-    },
-    {
-      "artists": [
-        "Katy Perry"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d000048511d955011a3ed477dc77865ad",
-      "name": "The One That Got Away",
-      "track_id": "2009X8GyWTqyxIdzAEYW6N"
     },
     {
       "artists": [
@@ -905,17 +932,62 @@
       ],
       "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "name": "Girls Like You (feat. Cardi B) - Cardi B Version",
-      "track_id": "0ynF2svLpsCqkfcWwG03eo"
+      "name": "Cold (feat. Future)",
+      "track_id": "4eQ31LSLD3AbGFNdYD7el1"
     },
     {
       "artists": [
-        "Maroon 5"
+        "OneRepublic"
       ],
       "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
-      "name": "Cold (feat. Future)",
-      "track_id": "4eQ31LSLD3AbGFNdYD7el1"
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Say (All I Need)",
+      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Someone to Save You",
+      "track_id": "1mXiSrqOdR09yT43TwkSLh"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "It's a Shame",
+      "track_id": "3WANeXpetY3TAi6PTlIMpc"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
+      "name": "Trap Door",
+      "track_id": "7Jf6ay2g947vLxqRUkC09Q"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Feel Again - With Heartbeats",
+      "track_id": "1nE1VjP943pIuFdNWcLgYM"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516d6be071aa09ee4c51a10ece",
+      "name": "Ordinary Human",
+      "track_id": "0VmdveDdlr2FMGwBljCfxA"
     },
     {
       "artists": [
@@ -934,6 +1006,51 @@
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "Heaven",
       "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851780c99d2c7307e9525efa03d",
+      "name": "The Less I Know",
+      "track_id": "0zDu21d7aHrScpTHXRddNr"
+    },
+    {
+      "artists": [
+        "カイゴ"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d0000485180368f0aa8f90c51674f9dd2",
+      "name": "Lose Somebody",
+      "track_id": "1sgDyuLooyvEML4oHspNza"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Someday",
+      "track_id": "6aDsgHPZsMztSbZernzlF8"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048512e2889865b7b05955c1d3bcf",
+      "name": "Rescue Me",
+      "track_id": "37LNNQNbL1YLyutBG6aWRx"
+    },
+    {
+      "artists": [
+        "keshi"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851617997bc09bb7fa23624eff5",
+      "name": "Soft Spot",
+      "track_id": "2aL4lMGhWdPpyPL6COPou7"
     },
     {
       "artists": [
@@ -1049,15 +1166,6 @@
       ],
       "count": 1,
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Say (All I Need)",
-      "track_id": "6H4vq5gz0rlNjH0LBzu4An"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "All Fall Down",
       "track_id": "1zjJg21AG4sXU9wzbQnQiQ"
     },
@@ -1078,15 +1186,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "All We Are",
       "track_id": "1Jx69b09LKTuBQxkEiFfVX"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Someone to Save You",
-      "track_id": "1mXiSrqOdR09yT43TwkSLh"
     },
     {
       "artists": [
@@ -1166,107 +1265,8 @@
       ],
       "count": 1,
       "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "It's a Shame",
-      "track_id": "3WANeXpetY3TAi6PTlIMpc"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "Trap Door",
-      "track_id": "7Jf6ay2g947vLxqRUkC09Q"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
       "name": "Sucker Punch",
       "track_id": "5phIlbhXRbIgZwf8yFlSWv"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048516cf020c9308b467a8e3aa523",
-      "name": "Christmas Without You",
-      "track_id": "4gWpUjTbcwASiRVkJM319B"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "I Lived",
-      "track_id": "3IQF4xCQUPicbA4hWfTxPo"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Something I Need",
-      "track_id": "5aIZ2jtxZ4o4GHQXTybkIa"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Feel Again - With Heartbeats",
-      "track_id": "1nE1VjP943pIuFdNWcLgYM"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Burning Bridges",
-      "track_id": "3FQrnheOyqkoJPVgS7ZjoH"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Counting Stars",
-      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "What You Wanted",
-      "track_id": "0ILXYaWxMQVEXnKq2eTmjW"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Preacher",
-      "track_id": "5ESl7nKS7eZDMkH4hfXY7r"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Don't Look Down",
-      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
     }
   ]
 }
