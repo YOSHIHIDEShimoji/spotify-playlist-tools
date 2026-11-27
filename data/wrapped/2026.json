@@ -41,20 +41,20 @@
       "month": "2026-10"
     },
     {
-      "count": 1056,
+      "count": 1124,
       "month": "2026-11"
     }
   ],
   "ms": 1987489094,
-  "new_tracks": 1104,
+  "new_tracks": 1137,
   "peak": {
     "dow": 3,
     "hour": 21
   },
-  "plays": 14355,
+  "plays": 14423,
   "top_artists": [
     {
-      "count": 1747,
+      "count": 1743,
       "name": "OneRepublic"
     },
     {
@@ -74,7 +74,7 @@
       "name": "Henry Moodie"
     },
     {
-      "count": 383,
+      "count": 391,
       "name": "ワンリパブリック"
     },
     {
@@ -126,7 +126,7 @@
       "name": "Kygo"
     },
     {
-      "count": 131,
+      "count": 139,
       "name": "back number"
     },
     {
@@ -281,19 +281,19 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 55,
+      "name": "Sugar",
+      "track_id": "6eV7eK07znOHcKz3bzEmpS"
+    },
+    {
+      "artists": [
         "OneRepublic"
       ],
       "count": 54,
       "name": "I Ain't Worried",
       "track_id": "73PAbYaVbnFG0tQ4aBfxeN"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 54,
-      "name": "Sugar",
-      "track_id": "6eV7eK07znOHcKz3bzEmpS"
     }
   ],
   "year": "2026"

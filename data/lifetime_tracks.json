@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-27T00:12:42.307522+00:00",
+  "generated_at": "2026-11-27T23:52:14.815842+00:00",
   "totals": {
-    "artists": 1383,
+    "artists": 1394,
     "days": 2170,
     "ms": 12440720283,
-    "plays": 66037,
+    "plays": 66105,
     "since": "2019-09-05",
-    "tracks": 4824
+    "tracks": 4857
   },
   "tracks": [
     {
       "artists": [
         "SPITZ"
       ],
-      "count": 653,
+      "count": 654,
       "first": "2023-05-19",
       "id": "3RauRsiIxUOQTS8h9sVWcP",
       "image": "https://i.scdn.co/image/ab67616d000048515992d6d168443e5a1b166b7b",
-      "last": "2026-10-24",
+      "last": "2026-11-27",
       "ms": 132558904,
       "name": "美しい鰭",
       "short": 76,
@@ -25,7 +25,7 @@
         "2023": 238,
         "2024": 309,
         "2025": 81,
-        "2026": 25
+        "2026": 26
       }
     },
     {
@@ -87,11 +87,11 @@
       "artists": [
         "back number"
       ],
-      "count": 211,
+      "count": 212,
       "first": "2022-07-04",
       "id": "7f9DsQEsIoeTwKxV6shsom",
       "image": "https://i.scdn.co/image/ab67616d0000485103808f76fad28ce8523f5ac6",
-      "last": "2026-10-17",
+      "last": "2026-11-27",
       "ms": 52837326,
       "name": "恋",
       "short": 47,
@@ -100,7 +100,7 @@
         "2023": 96,
         "2024": 40,
         "2025": 16,
-        "2026": 8
+        "2026": 9
       }
     },
     {
@@ -130,11 +130,11 @@
       "artists": [
         "back number"
       ],
-      "count": 188,
+      "count": 189,
       "first": "2022-07-10",
       "id": "02OYGL6lXPVvoJDiv6tfH1",
       "image": "https://i.scdn.co/image/ab67616d000048518767a3a986514d6fb5adc2f9",
-      "last": "2026-10-17",
+      "last": "2026-11-27",
       "ms": 62249143,
       "name": "クリスマスソング",
       "short": 39,
@@ -143,7 +143,7 @@
         "2023": 81,
         "2024": 35,
         "2025": 14,
-        "2026": 6
+        "2026": 7
       }
     },
     {
@@ -309,6 +309,26 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 162,
+      "first": "2022-07-05",
+      "id": "0sQsDJj9BnBsWH9fnJ2PDW",
+      "image": "https://i.scdn.co/image/ab67616d000048519d3c8816baaf67e2974490c5",
+      "last": "2026-11-27",
+      "ms": 42601842,
+      "name": "ヒロイン",
+      "short": 36,
+      "years": {
+        "2022": 48,
+        "2023": 65,
+        "2024": 31,
+        "2025": 10,
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "Sia"
       ],
       "count": 161,
@@ -331,33 +351,13 @@
     },
     {
       "artists": [
-        "back number"
-      ],
-      "count": 161,
-      "first": "2022-07-05",
-      "id": "0sQsDJj9BnBsWH9fnJ2PDW",
-      "image": "https://i.scdn.co/image/ab67616d000048519d3c8816baaf67e2974490c5",
-      "last": "2026-10-17",
-      "ms": 42601842,
-      "name": "ヒロイン",
-      "short": 36,
-      "years": {
-        "2022": 48,
-        "2023": 65,
-        "2024": 31,
-        "2025": 10,
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "SPITZ"
       ],
-      "count": 159,
+      "count": 160,
       "first": "2023-05-21",
       "id": "1ihCiJaXRl4f6Sy4LJov5z",
       "image": "https://i.scdn.co/image/ab67616d00004851ca6cb1176913264c1f402f68",
-      "last": "2026-07-29",
+      "last": "2026-11-27",
       "ms": 34458898,
       "name": "チェリー",
       "short": 121,
@@ -365,18 +365,18 @@
         "2023": 98,
         "2024": 37,
         "2025": 21,
-        "2026": 3
+        "2026": 4
       }
     },
     {
       "artists": [
         "back number"
       ],
-      "count": 159,
+      "count": 160,
       "first": "2022-07-08",
       "id": "0z2QJ0vsRV7xT5iIDRhFAT",
       "image": "https://i.scdn.co/image/ab67616d00004851b25066b6e7051edb7d67d157",
-      "last": "2026-10-17",
+      "last": "2026-11-27",
       "ms": 61335006,
       "name": "幸せ",
       "short": 34,
@@ -385,7 +385,7 @@
         "2023": 65,
         "2024": 31,
         "2025": 13,
-        "2026": 7
+        "2026": 8
       }
     },
     {
@@ -579,6 +579,26 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 143,
+      "first": "2022-07-10",
+      "id": "2iH7om9rE3QRWOXpuGEgic",
+      "image": "https://i.scdn.co/image/ab67616d000048518767a3a986514d6fb5adc2f9",
+      "last": "2026-11-27",
+      "ms": 41469918,
+      "name": "高嶺の花子さん",
+      "short": 33,
+      "years": {
+        "2022": 36,
+        "2023": 57,
+        "2024": 32,
+        "2025": 11,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 142,
@@ -618,26 +638,6 @@
         "2024": 9,
         "2025": 82,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "back number"
-      ],
-      "count": 142,
-      "first": "2022-07-10",
-      "id": "2iH7om9rE3QRWOXpuGEgic",
-      "image": "https://i.scdn.co/image/ab67616d000048518767a3a986514d6fb5adc2f9",
-      "last": "2026-06-06",
-      "ms": 41469918,
-      "name": "高嶺の花子さん",
-      "short": 33,
-      "years": {
-        "2022": 36,
-        "2023": 57,
-        "2024": 32,
-        "2025": 11,
-        "2026": 6
       }
     },
     {
@@ -1472,6 +1472,23 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 112,
+      "first": "2025-06-30",
+      "id": "3RpFwqdROrxJvHywpT1pJ4",
+      "image": "https://i.scdn.co/image/ab67616d00004851da39ffc023976a4481547736",
+      "last": "2026-11-27",
+      "ms": 24697488,
+      "name": "Renegades",
+      "short": 19,
+      "years": {
+        "2025": 96,
+        "2026": 16
+      }
+    },
+    {
+      "artists": [
         "The Weeknd"
       ],
       "count": 112,
@@ -1591,23 +1608,6 @@
         "2024": 9,
         "2025": 17,
         "2026": 36
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 111,
-      "first": "2025-06-30",
-      "id": "3RpFwqdROrxJvHywpT1pJ4",
-      "image": "https://i.scdn.co/image/ab67616d00004851da39ffc023976a4481547736",
-      "last": "2026-10-18",
-      "ms": 24697488,
-      "name": "Renegades",
-      "short": 19,
-      "years": {
-        "2025": 96,
-        "2026": 15
       }
     },
     {
@@ -1953,6 +1953,28 @@
     },
     {
       "artists": [
+        "Aimyon"
+      ],
+      "count": 104,
+      "first": "2019-09-05",
+      "id": "2cKiHG16JBiqHdi7Llq0r7",
+      "image": "https://i.scdn.co/image/ab67616d00004851c12d785df5dbf2b15ec49504",
+      "last": "2026-11-27",
+      "ms": 29600774,
+      "name": "マリーゴールド",
+      "short": 32,
+      "years": {
+        "2019": 1,
+        "2020": 39,
+        "2022": 13,
+        "2023": 15,
+        "2024": 20,
+        "2025": 12,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 103,
@@ -2039,28 +2061,6 @@
         "2024": 10,
         "2025": 3,
         "2026": 6
-      }
-    },
-    {
-      "artists": [
-        "Aimyon"
-      ],
-      "count": 103,
-      "first": "2019-09-05",
-      "id": "2cKiHG16JBiqHdi7Llq0r7",
-      "image": "https://i.scdn.co/image/ab67616d00004851c12d785df5dbf2b15ec49504",
-      "last": "2026-07-29",
-      "ms": 29600774,
-      "name": "マリーゴールド",
-      "short": 32,
-      "years": {
-        "2019": 1,
-        "2020": 39,
-        "2022": 13,
-        "2023": 15,
-        "2024": 20,
-        "2025": 12,
-        "2026": 3
       }
     },
     {
@@ -2252,6 +2252,23 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 98,
+      "first": "2025-08-15",
+      "id": "2SRmR6w3MMCA0UwAtKkVrZ",
+      "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
+      "last": "2026-11-27",
+      "ms": 22855059,
+      "name": "Broken Heart of Gold",
+      "short": 13,
+      "years": {
+        "2025": 85,
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 98,
@@ -2359,23 +2376,6 @@
         "2024": 8,
         "2025": 18,
         "2026": 14
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 97,
-      "first": "2025-08-15",
-      "id": "2SRmR6w3MMCA0UwAtKkVrZ",
-      "image": "https://i.scdn.co/image/ab67616d00004851199e87ed724fc1d1a0c64e4e",
-      "last": "2026-10-18",
-      "ms": 22855059,
-      "name": "Broken Heart of Gold",
-      "short": 13,
-      "years": {
-        "2025": 85,
-        "2026": 12
       }
     },
     {
@@ -3552,6 +3552,24 @@
     },
     {
       "artists": [
+        "Maroon 5"
+      ],
+      "count": 85,
+      "first": "2020-05-19",
+      "id": "6eV7eK07znOHcKz3bzEmpS",
+      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
+      "last": "2026-11-27",
+      "ms": 13338655,
+      "name": "Sugar",
+      "short": 11,
+      "years": {
+        "2020": 1,
+        "2025": 29,
+        "2026": 55
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 85,
@@ -3637,24 +3655,6 @@
         "2024": 5,
         "2025": 42,
         "2026": 5
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 84,
-      "first": "2020-05-19",
-      "id": "6eV7eK07znOHcKz3bzEmpS",
-      "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
-      "last": "2026-11-27",
-      "ms": 13338655,
-      "name": "Sugar",
-      "short": 11,
-      "years": {
-        "2020": 1,
-        "2025": 29,
-        "2026": 54
       }
     },
     {
@@ -7513,6 +7513,26 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 61,
+      "first": "2022-07-04",
+      "id": "0Xn30nT5EKFPsWvpiJ2Iav",
+      "image": "https://i.scdn.co/image/ab67616d00004851ce51ffc5c742ed217779cb9d",
+      "last": "2026-11-27",
+      "ms": 14575702,
+      "name": "オールドファッション",
+      "short": 10,
+      "years": {
+        "2022": 20,
+        "2023": 17,
+        "2024": 13,
+        "2025": 8,
+        "2026": 3
+      }
+    },
+    {
+      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 60,
@@ -7678,26 +7698,6 @@
         "2024": 6,
         "2025": 3,
         "2026": 1
-      }
-    },
-    {
-      "artists": [
-        "back number"
-      ],
-      "count": 60,
-      "first": "2022-07-04",
-      "id": "0Xn30nT5EKFPsWvpiJ2Iav",
-      "image": "https://i.scdn.co/image/ab67616d00004851ce51ffc5c742ed217779cb9d",
-      "last": "2026-03-20",
-      "ms": 14575702,
-      "name": "オールドファッション",
-      "short": 10,
-      "years": {
-        "2022": 20,
-        "2023": 17,
-        "2024": 13,
-        "2025": 8,
-        "2026": 2
       }
     },
     {
@@ -10892,6 +10892,23 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 44,
+      "first": "2025-02-25",
+      "id": "1J6MFj60gFCvYqOtjoYkM0",
+      "image": "https://i.scdn.co/image/ab67616d0000485127bf6c146c2400aed6ee4770",
+      "last": "2026-11-27",
+      "ms": 11235907,
+      "name": "The Beginning",
+      "short": 11,
+      "years": {
+        "2025": 42,
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "Charlie Puth"
       ],
       "count": 44,
@@ -11201,23 +11218,6 @@
         "2024": 5,
         "2025": 20,
         "2026": 14
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 43,
-      "first": "2025-02-25",
-      "id": "1J6MFj60gFCvYqOtjoYkM0",
-      "image": "https://i.scdn.co/image/ab67616d0000485127bf6c146c2400aed6ee4770",
-      "last": "2026-07-29",
-      "ms": 11235907,
-      "name": "The Beginning",
-      "short": 11,
-      "years": {
-        "2025": 42,
-        "2026": 1
       }
     },
     {
@@ -13064,6 +13064,23 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 35,
+      "first": "2025-02-23",
+      "id": "61f3iPQRIe0I6CSj7qJdi3",
+      "image": "https://i.scdn.co/image/ab67616d00004851685a43b64c9d624af57c4e79",
+      "last": "2026-11-27",
+      "ms": 5791405,
+      "name": "Delusion:All",
+      "short": 7,
+      "years": {
+        "2025": 28,
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "BTS"
       ],
       "count": 35,
@@ -13318,23 +13335,6 @@
       "years": {
         "2025": 4,
         "2026": 30
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 34,
-      "first": "2025-02-23",
-      "id": "61f3iPQRIe0I6CSj7qJdi3",
-      "image": "https://i.scdn.co/image/ab67616d00004851685a43b64c9d624af57c4e79",
-      "last": "2026-07-18",
-      "ms": 5791405,
-      "name": "Delusion:All",
-      "short": 7,
-      "years": {
-        "2025": 28,
-        "2026": 6
       }
     },
     {
@@ -14269,6 +14269,24 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 29,
+      "first": "2024-08-17",
+      "id": "2tpWsVSb9UEmDRxAl1zhX1",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-11-27",
+      "ms": 737492,
+      "name": "Counting Stars",
+      "short": 4,
+      "years": {
+        "2024": 1,
+        "2025": 1,
+        "2026": 27
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 29,
@@ -14392,24 +14410,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 28,
-      "first": "2024-08-17",
-      "id": "2tpWsVSb9UEmDRxAl1zhX1",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-11-23",
-      "ms": 737492,
-      "name": "Counting Stars",
-      "short": 4,
-      "years": {
-        "2024": 1,
-        "2025": 1,
-        "2026": 26
-      }
-    },
-    {
-      "artists": [
         "Michael Giacchino"
       ],
       "count": 28,
@@ -14444,6 +14444,23 @@
       "years": {
         "2025": 2,
         "2026": 26
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 28,
+      "first": "2025-11-19",
+      "id": "4BTsEp2tjLdQZcLiI2OT4E",
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "last": "2026-11-27",
+      "ms": 1712403,
+      "name": "Maps",
+      "short": 3,
+      "years": {
+        "2025": 1,
+        "2026": 27
       }
     },
     {
@@ -14757,6 +14774,24 @@
     },
     {
       "artists": [
+        "Sukima Switch"
+      ],
+      "count": 27,
+      "first": "2022-09-30",
+      "id": "5RbMlPFL4gVyEHW2lEOuzG",
+      "image": "https://i.scdn.co/image/ab67616d00004851a716d5aa6f08492ad5bdae37",
+      "last": "2026-11-27",
+      "ms": 7384958,
+      "name": "奏(かなで)",
+      "short": 3,
+      "years": {
+        "2022": 2,
+        "2025": 21,
+        "2026": 4
+      }
+    },
+    {
+      "artists": [
         "Michael Jackson"
       ],
       "count": 26,
@@ -14890,23 +14925,6 @@
     },
     {
       "artists": [
-        "Maroon 5"
-      ],
-      "count": 26,
-      "first": "2025-11-19",
-      "id": "4BTsEp2tjLdQZcLiI2OT4E",
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "last": "2026-11-27",
-      "ms": 1712403,
-      "name": "Maps",
-      "short": 3,
-      "years": {
-        "2025": 1,
-        "2026": 25
-      }
-    },
-    {
-      "artists": [
         "Ariana Grande"
       ],
       "count": 26,
@@ -15027,24 +15045,6 @@
       "short": 4,
       "years": {
         "2024": 26
-      }
-    },
-    {
-      "artists": [
-        "Sukima Switch"
-      ],
-      "count": 26,
-      "first": "2022-09-30",
-      "id": "5RbMlPFL4gVyEHW2lEOuzG",
-      "image": "https://i.scdn.co/image/ab67616d00004851a716d5aa6f08492ad5bdae37",
-      "last": "2026-05-01",
-      "ms": 7384958,
-      "name": "奏(かなで)",
-      "short": 3,
-      "years": {
-        "2022": 2,
-        "2025": 21,
-        "2026": 3
       }
     },
     {
@@ -17715,6 +17715,23 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 18,
+      "first": "2025-02-24",
+      "id": "2gSQoIbvF2hDfIayhF7QLa",
+      "image": "https://i.scdn.co/image/ab67616d00004851cbc358e2b350a7389a7c2927",
+      "last": "2026-11-27",
+      "ms": 3712321,
+      "name": "Wasted Nights",
+      "short": 2,
+      "years": {
+        "2025": 17,
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Wings"
       ],
       "count": 18,
@@ -17831,6 +17848,23 @@
     },
     {
       "artists": [
+        "Macaroni Empitsu"
+      ],
+      "count": 18,
+      "first": "2025-03-24",
+      "id": "2SihT7AVMiI2VtaAyVIcnO",
+      "image": "https://i.scdn.co/image/ab67616d00004851ad388532d6600cc70e57139d",
+      "last": "2026-11-27",
+      "ms": 2801622,
+      "name": "恋人ごっこ",
+      "short": 9,
+      "years": {
+        "2025": 17,
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Kenshi Yonezu"
       ],
       "count": 18,
@@ -17861,6 +17895,23 @@
       "years": {
         "2025": 16,
         "2026": 2
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 17,
+      "first": "2025-11-19",
+      "id": "6R68hi6blw52Kg73DzICnM",
+      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
+      "last": "2026-11-27",
+      "ms": 1829950,
+      "name": "Animals",
+      "short": 1,
+      "years": {
+        "2025": 1,
+        "2026": 16
       }
     },
     {
@@ -17899,6 +17950,22 @@
         "2021": 12,
         "2022": 2,
         "2026": 3
+      }
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 17,
+      "first": "2026-05-17",
+      "id": "1NNAI51EuoRWw1ydX1zV7S",
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "last": "2026-11-27",
+      "ms": 1800536,
+      "name": "Daylight",
+      "short": 2,
+      "years": {
+        "2026": 17
       }
     },
     {
@@ -18102,22 +18169,6 @@
         "OneRepublic"
       ],
       "count": 17,
-      "first": "2026-06-24",
-      "id": "2JDMJhjJmx2GtMz5HFSTim",
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "last": "2026-11-27",
-      "ms": 2026190,
-      "name": "Life In Color",
-      "short": 5,
-      "years": {
-        "2026": 17
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 17,
       "first": "2026-02-10",
       "id": "3cOO5IQtOYs7huq4Z6lYfr",
       "image": "https://i.scdn.co/image/ab67616d000048516f91180b662ca15ad2fb88f0",
@@ -18276,22 +18327,6 @@
     },
     {
       "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 17,
-      "first": "2025-02-24",
-      "id": "2gSQoIbvF2hDfIayhF7QLa",
-      "image": "https://i.scdn.co/image/ab67616d00004851cbc358e2b350a7389a7c2927",
-      "last": "2025-12-24",
-      "ms": 3712321,
-      "name": "Wasted Nights",
-      "short": 2,
-      "years": {
-        "2025": 17
-      }
-    },
-    {
-      "artists": [
         "Paul McCartney"
       ],
       "count": 17,
@@ -18391,22 +18426,6 @@
         "2023": 1,
         "2024": 1,
         "2025": 15
-      }
-    },
-    {
-      "artists": [
-        "Macaroni Empitsu"
-      ],
-      "count": 17,
-      "first": "2025-03-24",
-      "id": "2SihT7AVMiI2VtaAyVIcnO",
-      "image": "https://i.scdn.co/image/ab67616d00004851ad388532d6600cc70e57139d",
-      "last": "2025-11-28",
-      "ms": 2801622,
-      "name": "恋人ごっこ",
-      "short": 9,
-      "years": {
-        "2025": 17
       }
     },
     {
@@ -18514,23 +18533,6 @@
         "Maroon 5"
       ],
       "count": 16,
-      "first": "2025-11-19",
-      "id": "6R68hi6blw52Kg73DzICnM",
-      "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
-      "last": "2026-11-27",
-      "ms": 1829950,
-      "name": "Animals",
-      "short": 1,
-      "years": {
-        "2025": 1,
-        "2026": 15
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 16,
       "first": "2026-05-17",
       "id": "0ehxWIhybOYQ3acRhmcNVF",
       "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
@@ -18606,22 +18608,6 @@
         "2021": 11,
         "2022": 2,
         "2026": 3
-      }
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 16,
-      "first": "2026-05-17",
-      "id": "1NNAI51EuoRWw1ydX1zV7S",
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "last": "2026-11-23",
-      "ms": 1800536,
-      "name": "Daylight",
-      "short": 2,
-      "years": {
-        "2026": 16
       }
     },
     {
@@ -18777,6 +18763,22 @@
         "2021": 9,
         "2022": 2,
         "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 16,
+      "first": "2026-06-24",
+      "id": "2JDMJhjJmx2GtMz5HFSTim",
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "last": "2026-11-27",
+      "ms": 2026190,
+      "name": "Life In Color",
+      "short": 5,
+      "years": {
+        "2026": 16
       }
     },
     {
@@ -19677,6 +19679,24 @@
     },
     {
       "artists": [
+        "SPITZ"
+      ],
+      "count": 15,
+      "first": "2023-05-22",
+      "id": "55BtEArKBlkTmJaGwdsgwA",
+      "image": "https://i.scdn.co/image/ab67616d00004851352479ce21394b87166d748a",
+      "last": "2026-11-27",
+      "ms": 3316510,
+      "name": "ありがとさん",
+      "years": {
+        "2023": 5,
+        "2024": 4,
+        "2025": 4,
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "PornoGraffitti"
       ],
       "count": 15,
@@ -20148,6 +20168,22 @@
     },
     {
       "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 14,
+      "first": "2026-07-19",
+      "id": "0ILXYaWxMQVEXnKq2eTmjW",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "What You Wanted",
+      "short": 1,
+      "years": {
+        "2026": 14
+      }
+    },
+    {
+      "artists": [
         "Olivia Rodrigo"
       ],
       "count": 14,
@@ -20180,24 +20216,6 @@
       "years": {
         "2024": 1,
         "2025": 13
-      }
-    },
-    {
-      "artists": [
-        "SPITZ"
-      ],
-      "count": 14,
-      "first": "2023-05-22",
-      "id": "55BtEArKBlkTmJaGwdsgwA",
-      "image": "https://i.scdn.co/image/ab67616d00004851352479ce21394b87166d748a",
-      "last": "2026-03-20",
-      "ms": 3316510,
-      "name": "ありがとさん",
-      "years": {
-        "2023": 5,
-        "2024": 4,
-        "2025": 4,
-        "2026": 1
       }
     },
     {
@@ -20387,22 +20405,6 @@
       "years": {
         "2025": 1,
         "2026": 12
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 13,
-      "first": "2026-07-18",
-      "id": "3cA7Xne5Zp9HEo69oOqLMc",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-11-27",
-      "ms": 97227,
-      "name": "Don't Look Down",
-      "short": 1,
-      "years": {
-        "2026": 13
       }
     },
     {
@@ -20613,6 +20615,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 13,
+      "first": "2026-07-20",
+      "id": "1mXiSrqOdR09yT43TwkSLh",
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Someone to Save You",
+      "years": {
+        "2026": 13
+      }
+    },
+    {
+      "artists": [
         "Kelly Clarkson"
       ],
       "count": 13,
@@ -20737,22 +20754,6 @@
       "years": {
         "2021": 2,
         "2026": 11
-      }
-    },
-    {
-      "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 13,
-      "first": "2026-07-19",
-      "id": "0ILXYaWxMQVEXnKq2eTmjW",
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "last": "2026-11-23",
-      "ms": 0,
-      "name": "What You Wanted",
-      "short": 1,
-      "years": {
-        "2026": 13
       }
     },
     {
@@ -20997,6 +20998,22 @@
       "years": {
         "2025": 1,
         "2026": 11
+      }
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 12,
+      "first": "2026-07-18",
+      "id": "3cA7Xne5Zp9HEo69oOqLMc",
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "last": "2026-11-27",
+      "ms": 97227,
+      "name": "Don't Look Down",
+      "short": 1,
+      "years": {
+        "2026": 12
       }
     },
     {
@@ -21320,21 +21337,6 @@
       "short": 5,
       "years": {
         "2020": 12
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 12,
-      "first": "2026-07-20",
-      "id": "1mXiSrqOdR09yT43TwkSLh",
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "last": "2026-11-26",
-      "ms": 0,
-      "name": "Someone to Save You",
-      "years": {
-        "2026": 12
       }
     },
     {
@@ -21889,6 +21891,23 @@
     },
     {
       "artists": [
+        "Simple Plan"
+      ],
+      "count": 11,
+      "first": "2025-08-09",
+      "id": "3aPeDyuxofQ0GXVOdcsax5",
+      "image": "https://i.scdn.co/image/ab67616d00004851e9e7c3e1fdf16507c3e5a6cf",
+      "last": "2026-11-27",
+      "ms": 2129456,
+      "name": "Summer Paradise (feat. Taka from One OK Rock)",
+      "short": 5,
+      "years": {
+        "2025": 5,
+        "2026": 6
+      }
+    },
+    {
+      "artists": [
         "NewJeans"
       ],
       "count": 11,
@@ -22067,6 +22086,25 @@
       "short": 7,
       "years": {
         "2025": 11
+      }
+    },
+    {
+      "artists": [
+        "back number"
+      ],
+      "count": 11,
+      "first": "2022-08-11",
+      "id": "0k4KaqElLVjdR6sVHPTS6h",
+      "image": "https://i.scdn.co/image/ab67616d00004851e09353d6028fda18c3699085",
+      "last": "2026-11-27",
+      "ms": 2085907,
+      "name": "君の恋人になったら",
+      "short": 5,
+      "years": {
+        "2022": 2,
+        "2024": 1,
+        "2025": 3,
+        "2026": 5
       }
     },
     {
@@ -22845,6 +22883,21 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 10,
+      "first": "2026-07-20",
+      "id": "1WY42ffdMgNO6q15cePW2g",
+      "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Something's Gotta Give",
+      "years": {
+        "2026": 10
+      }
+    },
+    {
+      "artists": [
         "LANY"
       ],
       "count": 10,
@@ -22856,23 +22909,6 @@
       "name": "Sugar & Cinnamon",
       "years": {
         "2026": 10
-      }
-    },
-    {
-      "artists": [
-        "Simple Plan"
-      ],
-      "count": 10,
-      "first": "2025-08-09",
-      "id": "3aPeDyuxofQ0GXVOdcsax5",
-      "image": "https://i.scdn.co/image/ab67616d00004851e9e7c3e1fdf16507c3e5a6cf",
-      "last": "2026-07-18",
-      "ms": 2129456,
-      "name": "Summer Paradise (feat. Taka from One OK Rock)",
-      "short": 5,
-      "years": {
-        "2025": 5,
-        "2026": 5
       }
     },
     {
@@ -23142,25 +23178,6 @@
       "short": 2,
       "years": {
         "2025": 10
-      }
-    },
-    {
-      "artists": [
-        "back number"
-      ],
-      "count": 10,
-      "first": "2022-08-11",
-      "id": "0k4KaqElLVjdR6sVHPTS6h",
-      "image": "https://i.scdn.co/image/ab67616d00004851e09353d6028fda18c3699085",
-      "last": "2026-05-21",
-      "ms": 2085907,
-      "name": "君の恋人になったら",
-      "short": 5,
-      "years": {
-        "2022": 2,
-        "2024": 1,
-        "2025": 3,
-        "2026": 4
       }
     },
     {
@@ -23699,21 +23716,6 @@
     },
     {
       "artists": [
-        "OneRepublic"
-      ],
-      "count": 9,
-      "first": "2026-07-20",
-      "id": "1WY42ffdMgNO6q15cePW2g",
-      "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
-      "last": "2026-11-23",
-      "ms": 0,
-      "name": "Something's Gotta Give",
-      "years": {
-        "2026": 9
-      }
-    },
-    {
-      "artists": [
         "ワンリパブリック"
       ],
       "count": 9,
@@ -24062,6 +24064,22 @@
     },
     {
       "artists": [
+        "OneRepublic"
+      ],
+      "count": 8,
+      "first": "2026-07-20",
+      "id": "5SlNjNaibdMLveJPYqAAaE",
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "All These Things",
+      "short": 1,
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
         "Queen"
       ],
       "count": 8,
@@ -24170,6 +24188,22 @@
       "last": "2026-11-26",
       "ms": 1045135,
       "name": "Celestial",
+      "years": {
+        "2026": 8
+      }
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 8,
+      "first": "2026-08-01",
+      "id": "4gWpUjTbcwASiRVkJM319B",
+      "image": "https://i.scdn.co/image/ab67616d000048516cf020c9308b467a8e3aa523",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Christmas Without You",
+      "short": 1,
       "years": {
         "2026": 8
       }
@@ -25252,22 +25286,6 @@
         "OneRepublic"
       ],
       "count": 7,
-      "first": "2026-07-20",
-      "id": "5SlNjNaibdMLveJPYqAAaE",
-      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
-      "last": "2026-11-25",
-      "ms": 0,
-      "name": "All These Things",
-      "short": 1,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 7,
       "first": "2026-07-29",
       "id": "48FuVo0KwE3N7Fqmc8cT4r",
       "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
@@ -25427,22 +25445,6 @@
     },
     {
       "artists": [
-        "ワンリパブリック"
-      ],
-      "count": 7,
-      "first": "2026-08-01",
-      "id": "4gWpUjTbcwASiRVkJM319B",
-      "image": "https://i.scdn.co/image/ab67616d000048516cf020c9308b467a8e3aa523",
-      "last": "2026-11-23",
-      "ms": 0,
-      "name": "Christmas Without You",
-      "short": 1,
-      "years": {
-        "2026": 7
-      }
-    },
-    {
-      "artists": [
         "John Lennon"
       ],
       "count": 7,
@@ -25517,6 +25519,23 @@
       "name": "End Game",
       "years": {
         "2026": 7
+      }
+    },
+    {
+      "artists": [
+        "MISIA"
+      ],
+      "count": 7,
+      "first": "2022-06-08",
+      "id": "6bkJ4p6uSKmSnKxYpmB4aG",
+      "image": "https://i.scdn.co/image/ab67616d0000485129ee6cd1adbe927a00a614f0",
+      "last": "2026-11-27",
+      "ms": 2413658,
+      "name": "Everything",
+      "short": 9,
+      "years": {
+        "2022": 6,
+        "2026": 1
       }
     },
     {
@@ -26360,6 +26379,22 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 7,
+      "first": "2026-03-08",
+      "id": "3x3xDJexQhxbFQUwCbUc0y",
+      "image": "https://i.scdn.co/image/ab67616d000048519f8ec42c93505b1b29ccd630",
+      "last": "2026-11-27",
+      "ms": 1095805,
+      "name": "完全感覚Dreamer",
+      "short": 2,
+      "years": {
+        "2026": 7
+      }
+    },
+    {
+      "artists": [
         "5 Seconds of Summer"
       ],
       "count": 6,
@@ -26725,22 +26760,6 @@
       "years": {
         "2020": 4,
         "2021": 2
-      }
-    },
-    {
-      "artists": [
-        "MISIA"
-      ],
-      "count": 6,
-      "first": "2022-06-08",
-      "id": "6bkJ4p6uSKmSnKxYpmB4aG",
-      "image": "https://i.scdn.co/image/ab67616d0000485129ee6cd1adbe927a00a614f0",
-      "last": "2022-10-27",
-      "ms": 2413658,
-      "name": "Everything",
-      "short": 9,
-      "years": {
-        "2022": 6
       }
     },
     {
@@ -27949,22 +27968,6 @@
       "years": {
         "2024": 5,
         "2025": 1
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 6,
-      "first": "2026-03-08",
-      "id": "3x3xDJexQhxbFQUwCbUc0y",
-      "image": "https://i.scdn.co/image/ab67616d000048519f8ec42c93505b1b29ccd630",
-      "last": "2026-07-18",
-      "ms": 1095805,
-      "name": "完全感覚Dreamer",
-      "short": 2,
-      "years": {
-        "2026": 6
       }
     },
     {
@@ -29351,6 +29354,22 @@
       "last": "2026-09-03",
       "ms": 730479,
       "name": "We Weren't Born To Follow",
+      "years": {
+        "2026": 5
+      }
+    },
+    {
+      "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 5,
+      "first": "2026-03-25",
+      "id": "3J7MDUvZShF6g10L5uicv6",
+      "image": "https://i.scdn.co/image/ab67616d000048518549a4c88f87cab4fe870e64",
+      "last": "2026-11-27",
+      "ms": 959365,
+      "name": "We are",
+      "short": 3,
       "years": {
         "2026": 5
       }
@@ -31706,22 +31725,6 @@
       "years": {
         "2020": 2,
         "2022": 2
-      }
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 4,
-      "first": "2026-03-25",
-      "id": "3J7MDUvZShF6g10L5uicv6",
-      "image": "https://i.scdn.co/image/ab67616d000048518549a4c88f87cab4fe870e64",
-      "last": "2026-07-18",
-      "ms": 959365,
-      "name": "We are",
-      "short": 3,
-      "years": {
-        "2026": 4
       }
     },
     {
@@ -40013,6 +40016,21 @@
     },
     {
       "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 2,
+      "first": "2026-11-27",
+      "id": "lastfm:itdontmatterwithdonavonfrankenreiter|hiraidai",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "It don't matter with Donavon Frankenreiter",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "Shawn Mendes"
       ],
       "count": 2,
@@ -41211,6 +41229,21 @@
       "name": "My Brave Face - Remastered 2017",
       "years": {
         "2020": 2
+      }
+    },
+    {
+      "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 2,
+      "first": "2026-11-27",
+      "id": "6q9JjGg7puap2DyEqfP31k",
+      "image": "https://i.scdn.co/image/ab67616d000048515cd52dff5928f3cbf5c696d9",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "MyLove",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -45725,6 +45758,21 @@
     },
     {
       "artists": [
+        "平井 大"
+      ],
+      "count": 2,
+      "first": "2026-11-27",
+      "id": "lastfm:名残花|平井大",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "名残花",
+      "years": {
+        "2026": 2
+      }
+    },
+    {
+      "artists": [
         "S. Kiyotaka & Omega Tribe"
       ],
       "count": 2,
@@ -45785,6 +45833,21 @@
       "name": "夜空 - Piano Ver.",
       "years": {
         "2024": 2
+      }
+    },
+    {
+      "artists": [
+        "M!LK"
+      ],
+      "count": 2,
+      "first": "2026-07-29",
+      "id": "lastfm:好きすぎて滅|mlk",
+      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2519973d319182a517df3459e723c48f.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "好きすぎて滅！",
+      "years": {
+        "2026": 2
       }
     },
     {
@@ -47205,12 +47268,12 @@
     },
     {
       "artists": [
-        "OneRepublic"
+        "ワンリパブリック"
       ],
       "count": 1,
       "first": "2026-11-27",
-      "id": "25zJrXyAfUszzb0iK5QeH7",
-      "image": "https://i.scdn.co/image/ab67616d000048516823e3a4f0a685140701fcf2",
+      "id": "lastfm:allthistime2026remastered|ワンリパブリック",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
       "last": "2026-11-27",
       "ms": 0,
       "name": "All This Time - 2026 Remastered",
@@ -48104,6 +48167,21 @@
     },
     {
       "artists": [
+        "Kvi Baba"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:bpmfeatkreva|kvibaba",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/8954afe5acca344a0136dd20172c7f8c.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "BPM (feat. KREVA)",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Number_i"
       ],
       "count": 1,
@@ -48463,6 +48541,21 @@
       "name": "Beautiful",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "平井 大"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:beautiful|平井大",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Beautiful",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -48948,6 +49041,21 @@
       "name": "Blossoming",
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "Hana"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:bluejeans|hana",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/46441e85f4e5ee0ad3832afeb6ff143f.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Blue Jeans",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -52719,6 +52827,21 @@
     },
     {
       "artists": [
+        "MISIA"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:everything|misia",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/79d8df93875561a690ca258ccd515968.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Everything",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Cascada"
       ],
       "count": 1,
@@ -54061,6 +54184,21 @@
       "name": "GOAT",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Number_i"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:goat|numberi",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/00a84df42bf2c23786804b75875addfd.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "GOAT",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -57067,6 +57205,36 @@
     },
     {
       "artists": [
+        "Number_i"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:inzm|numberi",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/4cf58c8e31c38732cd891b1ee8bd599a.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "INZM",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "米津玄師"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:irisout|米津玄師",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/b5efa39c08bd746ed253c7f538ddd334.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "IRIS OUT",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "XG"
       ],
       "count": 1,
@@ -57078,6 +57246,21 @@
       "name": "IS THIS LOVE",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "ILLIT"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:itsme|illit",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/298c471068c502cacd6fc695763903fa.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "IT'S ME",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -59895,6 +60078,21 @@
     },
     {
       "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "3nFxkwyRpr4xYBR9Z0ywjo",
+      "image": "https://i.scdn.co/image/ab67616d00004851e27617e66ce7f788b0be8282",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "MIRROR MIRROR",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Simpatico"
       ],
       "count": 1,
@@ -61423,6 +61621,21 @@
       "name": "NASTY",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "A2O LITE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:neon|a2olite",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/e2ad252629bec92ed3f6697cefe3ecc3.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "NEON",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -63842,6 +64055,36 @@
       "name": "Progression",
       "years": {
         "2021": 1
+      }
+    },
+    {
+      "artists": [
+        "平井 大"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:promise|平井大",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Promise",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "3gHafa1e1SYNX5GFS7Mlnb",
+      "image": "https://i.scdn.co/image/ab67616d00004851933e7b71adc48fcecd6c252a",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Promise",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -66548,6 +66791,21 @@
       "name": "Soranji",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "Mrs. GREEN APPLE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:soranji|mrsgreenapple",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/ac2ead0a40c77147af925e98f9279dcf.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Soranji",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -72270,6 +72528,21 @@
     },
     {
       "artists": [
+        "EBiDAN (恵比寿学園男子部)"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:yes東京|ebidan恵比寿学園男子部",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/46b2dac1948d0581d5b4c1b718239286.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "Yes! 東京",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 1,
@@ -72647,6 +72920,21 @@
       "name": "You're On Your Own, Kid",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "ILLIT"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:youreunderarrest|illit",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3a561ae864daa69c3d0670bfbf9a272a.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "You're Under Arrest",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -73504,6 +73792,21 @@
     },
     {
       "artists": [
+        "Mrs. GREEN APPLE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:lulu|mrsgreenapple",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/20fdd23608c6cbb754f385a89f32d507.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "lulu.",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Kendrick Lamar"
       ],
       "count": 1,
@@ -74252,6 +74555,21 @@
     },
     {
       "artists": [
+        "YAO"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:ありふれた世界の果てにfeatawichchicocarlitooneokrockpaledusk|yao",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/5717e1f39d15adf9b15f1bb9a0652dee.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "ありふれた世界の果てに (feat. Awich, CHICO CARLITO, ONE OK ROCK & Paledusk)",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Saucy Dog"
       ],
       "count": 1,
@@ -74571,6 +74889,21 @@
       "name": "しるし",
       "years": {
         "2025": 1
+      }
+    },
+    {
+      "artists": [
+        "Vaundy"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "03nLyVPeLP7ivujEZW0dIj",
+      "image": "https://i.scdn.co/image/ab67616d0000485141a0679c06a1f5851032e644",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "しわあわせ",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -75079,6 +75412,21 @@
     },
     {
       "artists": [
+        "MISIA"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:アイノカタチ|misia",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eca83fd562973ab37eefb092e2e8d39f.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "アイノカタチ",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Nogizaka46"
       ],
       "count": 1,
@@ -75339,6 +75687,21 @@
     },
     {
       "artists": [
+        "GReeeeN"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:キセキ|greeeen",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/0a18bde01f044f87a0b4d64219ca4c81.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "キセキ",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "ONE OK ROCK"
       ],
       "count": 1,
@@ -75425,6 +75788,21 @@
       "name": "サンサーラ",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "M!LK"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:ザッツ超常|mlk",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/d77595ec4ccaeb30ad5cb82621233b9c.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "ザッツ！超常",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -75638,6 +76016,21 @@
       "name": "ダンデライオン ~ 遅咲きのたんぽぽ",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Mrs. GREEN APPLE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:ダーリン|mrsgreenapple",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3c9c78177bd6c7250eb1e709393c6493.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "ダーリン",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -75993,6 +76386,21 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "35MeePbBnryubkVG0v8GbI",
+      "image": "https://i.scdn.co/image/ab67616d00004851a58f0d10db6a676c3b422fda",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "ブルーアンバー",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Mariya Takeuchi"
       ],
       "count": 1,
@@ -76066,6 +76474,21 @@
       "name": "ヤマトより愛をこめて",
       "years": {
         "2024": 1
+      }
+    },
+    {
+      "artists": [
+        "Mrs. GREEN APPLE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:ライラック|mrsgreenapple",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/3c9c78177bd6c7250eb1e709393c6493.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "ライラック",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -76834,21 +77257,6 @@
     },
     {
       "artists": [
-        "M!LK"
-      ],
-      "count": 1,
-      "first": "2026-07-29",
-      "id": "lastfm:好きすぎて滅|mlk",
-      "image": "https://lastfm.freetls.fastly.net/i/u/300x300/2519973d319182a517df3459e723c48f.jpg",
-      "last": "2026-07-29",
-      "ms": 0,
-      "name": "好きすぎて滅！",
-      "years": {
-        "2026": 1
-      }
-    },
-    {
-      "artists": [
         "OFFICIAL HIGE DANDISM"
       ],
       "count": 1,
@@ -76983,6 +77391,21 @@
       "short": 4,
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "BEGIN"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "5WgCHXvD4eJbDuIKDLMLFm",
+      "image": "https://i.scdn.co/image/ab67616d000048516f64b1e531f569121c017a20",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "島人ぬ宝",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -77307,6 +77730,21 @@
       "short": 1,
       "years": {
         "2022": 1
+      }
+    },
+    {
+      "artists": [
+        "Superfly"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:愛をこめて花束を|superfly",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/420b324fe019423d98b09a0db8a28dd4.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "愛をこめて花束を",
+      "years": {
+        "2026": 1
       }
     },
     {
@@ -77875,6 +78313,21 @@
     },
     {
       "artists": [
+        "Mrs. GREEN APPLE"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:点描の唄|mrsgreenapple",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/dd83d29f77e62d219060e2ce251eb5d4.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "点描の唄",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "frederic"
       ],
       "count": 1,
@@ -78229,6 +78682,21 @@
     },
     {
       "artists": [
+        "Ayumu Imazu"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:結び|ayumuimazu",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/fda3fbcdd31e4b9a7918bca0666d6620.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "結び",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "=LOVE"
       ],
       "count": 1,
@@ -78491,6 +78959,21 @@
     },
     {
       "artists": [
+        "MISIA"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:逢いたくていま|misia",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/a6b9c04635b38444bd29568c0ceab8b0.png",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "逢いたくていま",
+      "years": {
+        "2026": 1
+      }
+    },
+    {
+      "artists": [
         "Misato Watanabe"
       ],
       "count": 1,
@@ -78502,6 +78985,21 @@
       "name": "遅れてきた夏休み",
       "years": {
         "2020": 1
+      }
+    },
+    {
+      "artists": [
+        "マカロニえんぴつ"
+      ],
+      "count": 1,
+      "first": "2026-11-27",
+      "id": "lastfm:運命さがし|マカロニえんぴつ",
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/c8cdc22b39e375cf6a726746eaaf4b09.jpg",
+      "last": "2026-11-27",
+      "ms": 0,
+      "name": "運命さがし",
+      "years": {
+        "2026": 1
       }
     },
     {

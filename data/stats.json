@@ -173,7 +173,7 @@
       "decade": 2000
     },
     {
-      "count": 378,
+      "count": 380,
       "decade": 2010
     },
     {
@@ -357,7 +357,7 @@
           "decade": 2000
         },
         {
-          "count": 387,
+          "count": 389,
           "decade": 2010
         },
         {
@@ -365,7 +365,7 @@
           "decade": 2020
         }
       ],
-      "total": 1190
+      "total": 1192
     },
     "by": {
       "1NMKQVChOdoOy1o6bLw564": {
@@ -496,6 +496,11 @@
             "name": "Gen Hoshino"
           },
           {
+            "count": 2,
+            "id": "3uyDATzOGjbGCts7v2eszk",
+            "name": "MISIA"
+          },
+          {
             "count": 1,
             "id": "2Qqrew4ZcEwf9NY7UqWGfU",
             "name": "ALI"
@@ -514,11 +519,6 @@
             "count": 1,
             "id": "7mvhRvEAHiCTQHUnH7fgnv",
             "name": "Tatsuya Kitani"
-          },
-          {
-            "count": 1,
-            "id": "1IEretLePzJKj8R6KCEaBA",
-            "name": "Soushi Sakiyama"
           }
         ],
         "decades": [
@@ -539,7 +539,7 @@
             "decade": 2000
           },
           {
-            "count": 80,
+            "count": 82,
             "decade": 2010
           },
           {
@@ -547,7 +547,7 @@
             "decade": 2020
           }
         ],
-        "total": 202
+        "total": 204
       },
       "3gWeVkYJPREpkdCpDRjHFw": {
         "artists_top": [
@@ -870,6 +870,6 @@
       }
     ]
   },
-  "generated_at": "2026-11-27T00:11:54.072495+00:00",
-  "total": 832
+  "generated_at": "2026-11-27T23:51:22.805652+00:00",
+  "total": 834
 }

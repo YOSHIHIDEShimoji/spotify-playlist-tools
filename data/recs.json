@@ -45,7 +45,7 @@
     {
       "because": [
         {
-          "count": 2139,
+          "count": 2135,
           "name": "OneRepublic"
         },
         {
@@ -54,21 +54,7 @@
         }
       ],
       "name": "The Script",
-      "score": 15.0325
-    },
-    {
-      "because": [
-        {
-          "count": 2704,
-          "name": "back number"
-        },
-        {
-          "count": 2298,
-          "name": "OFFICIAL HIGE DANDISM"
-        }
-      ],
-      "name": "米津玄師",
-      "score": 11.669
+      "score": 15.0307
     },
     {
       "because": [
@@ -91,17 +77,17 @@
           "name": "Novelbright"
         },
         {
-          "count": 360,
+          "count": 367,
           "name": "ONE OK ROCK"
         }
       ],
       "name": "MY FIRST STORY",
-      "score": 10.1083
+      "score": 10.1275
     },
     {
       "because": [
         {
-          "count": 2139,
+          "count": 2135,
           "name": "OneRepublic"
         },
         {
@@ -110,7 +96,7 @@
         }
       ],
       "name": "Rob Thomas",
-      "score": 9.7439
+      "score": 9.7432
     },
     {
       "because": [
@@ -185,7 +171,7 @@
     {
       "because": [
         {
-          "count": 2139,
+          "count": 2135,
           "name": "OneRepublic"
         },
         {
@@ -194,7 +180,7 @@
         }
       ],
       "name": "Lifehouse",
-      "score": 8.4587
+      "score": 8.4578
     },
     {
       "because": [
@@ -227,7 +213,7 @@
     {
       "because": [
         {
-          "count": 2139,
+          "count": 2135,
           "name": "OneRepublic"
         },
         {
@@ -236,7 +222,7 @@
         }
       ],
       "name": "The Fray",
-      "score": 7.3132
+      "score": 7.3122
     },
     {
       "because": [
@@ -345,7 +331,7 @@
     {
       "because": [
         {
-          "count": 2704,
+          "count": 2712,
           "name": "back number"
         },
         {
@@ -354,7 +340,7 @@
         }
       ],
       "name": "SUPER BEAVER",
-      "score": 6.5375
+      "score": 6.5389
     },
     {
       "because": [
@@ -397,50 +383,38 @@
           "name": "Novelbright"
         },
         {
-          "count": 360,
+          "count": 367,
           "name": "ONE OK ROCK"
         }
       ],
       "name": "SPYAIR",
-      "score": 6.1428
+      "score": 6.1493
+    },
+    {
+      "because": [
+        {
+          "count": 412,
+          "name": "Henry Moodie"
+        }
+      ],
+      "name": "Caleb Hearn",
+      "score": 6.0234
     }
   ],
   "available": true,
-  "generated_at": "2026-11-27T00:13:12.770942+00:00",
+  "generated_at": "2026-11-27T23:52:42.553024+00:00",
   "source": "lastfm",
   "tracks": [
     {
-      "artist": "Yorushika",
-      "because": {
-        "count": 335,
-        "name": "Same Blue"
-      },
-      "id": "5eY7692tmgHB9dbmq6wa2M",
-      "image": "https://i.scdn.co/image/ab67616d000048515e763f5fcb87919a7ae96f8b",
-      "name": "Sunny",
-      "score": 6.5857
-    },
-    {
       "artist": "Spitz",
       "because": {
-        "count": 653,
+        "count": 654,
         "name": "美しい鰭"
       },
       "id": "0tu73VStd4PNxbF37Y6YSD",
       "image": "https://i.scdn.co/image/ab67616d00004851a64488e09a7cf0088f39d19f",
       "name": "Protect the Light",
-      "score": 6.4831
-    },
-    {
-      "artist": "ヨルシカ",
-      "because": {
-        "count": 335,
-        "name": "Same Blue"
-      },
-      "id": "6z1TvLTR0oOsWSJfDrERmj",
-      "image": "https://i.scdn.co/image/ab67616d0000485118b1145d9883e5b140151fa9",
-      "name": "言って。",
-      "score": 6.2046
+      "score": 6.4846
     },
     {
       "artist": "Bridgit Mendler",
@@ -467,13 +441,13 @@
     {
       "artist": "嵐",
       "because": {
-        "count": 188,
+        "count": 189,
         "name": "クリスマスソング"
       },
       "id": "7keyH84kNCdYq6LVRMni3Z",
       "image": "https://i.scdn.co/image/ab67616d000048511c4dcca755821ec227e907d8",
       "name": "青空の下、キミのとなり",
-      "score": 5.2417
+      "score": 5.247
     },
     {
       "artist": "Tayori",
@@ -533,13 +507,13 @@
     {
       "artist": "スピッツ",
       "because": {
-        "count": 159,
+        "count": 160,
         "name": "チェリー"
       },
       "id": "24jtZbj9rh5RWoLGeibPuz",
       "image": "https://i.scdn.co/image/ab67616d00004851ca6cb1176913264c1f402f68",
       "name": "渚",
-      "score": 5.0752
+      "score": 5.0814
     },
     {
       "artist": "Miley Cyrus",
@@ -588,13 +562,13 @@
     {
       "artist": "RADWIMPS",
       "because": {
-        "count": 211,
+        "count": 212,
         "name": "恋"
       },
       "id": "5NAtMtiyKLZFNDFHAtDrXj",
       "image": "https://i.scdn.co/image/ab67616d000048514490022d0f425aace1c49d83",
       "name": "ラストバージン",
-      "score": 4.4846
+      "score": 4.4892
     },
     {
       "artist": "Ke$ha",
@@ -610,35 +584,35 @@
     {
       "artist": "スピッツ",
       "because": {
-        "count": 159,
+        "count": 160,
         "name": "チェリー"
       },
       "id": "02kBYC3M7ss43dr7i8ADyT",
       "image": "https://i.scdn.co/image/ab67616d0000485116aeaa20fccbe7ef8e32f876",
       "name": "涙がキラリ☆",
-      "score": 4.2651
+      "score": 4.2703
     },
     {
       "artist": "back number",
       "because": {
-        "count": 159,
+        "count": 160,
         "name": "幸せ"
       },
       "id": "4e12iareeiaefS0Qd62zR2",
       "image": "https://i.scdn.co/image/ab67616d000048514951a4f5f9d719dfa4ef3d75",
       "name": "半透明人間",
-      "score": 4.2443
+      "score": 4.2495
     },
     {
       "artist": "スピッツ",
       "because": {
-        "count": 211,
+        "count": 212,
         "name": "恋"
       },
       "id": "1ihCiJaXRl4f6Sy4LJov5z",
       "image": "https://i.scdn.co/image/ab67616d00004851ca6cb1176913264c1f402f68",
       "name": "チェリー",
-      "score": 4.2384
+      "score": 4.2428
     },
     {
       "artist": "The All-American Rejects",
@@ -687,13 +661,13 @@
     {
       "artist": "Spitz",
       "because": {
-        "count": 653,
+        "count": 654,
         "name": "美しい鰭"
       },
       "id": "01Wc6RiaghdtkpJXV9WmAj",
       "image": "https://i.scdn.co/image/ab67616d000048519f6f318c2d70e3dec67321cc",
       "name": "見知らぬ糸",
-      "score": 4.0232
+      "score": 4.0241
     },
     {
       "artist": "Carly Rae Jepsen",
@@ -707,6 +681,17 @@
       "score": 4.0191
     },
     {
+      "artist": "米津玄師",
+      "because": {
+        "count": 176,
+        "name": "I LOVE..."
+      },
+      "id": "45YBVp6zMwQZRbUDcPzmMB",
+      "image": "https://i.scdn.co/image/ab67616d000048514f220d17ad81c943221ce335",
+      "name": "アイネクライネ",
+      "score": 4.0114
+    },
+    {
       "artist": "Hachi",
       "because": {
         "count": 179,
@@ -718,15 +703,15 @@
       "score": 4.011
     },
     {
-      "artist": "米津玄師",
+      "artist": "Sumika",
       "because": {
-        "count": 176,
-        "name": "I LOVE..."
+        "count": 212,
+        "name": "恋"
       },
-      "id": "45YBVp6zMwQZRbUDcPzmMB",
-      "image": "https://i.scdn.co/image/ab67616d000048514f220d17ad81c943221ce335",
-      "name": "アイネクライネ",
-      "score": 4.0089
+      "id": "6IEqiEgTQn4FwE0seKXFZO",
+      "image": "https://i.scdn.co/image/ab67616d00004851b4695efdcdd9e57051815e48",
+      "name": "Lovers",
+      "score": 3.9859
     },
     {
       "artist": "Panic! at the Disco",
@@ -738,17 +723,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485127b4ded7dddab94bb7b3cddd",
       "name": "Say Amen (Saturday Night)",
       "score": 3.9847
-    },
-    {
-      "artist": "Sumika",
-      "because": {
-        "count": 211,
-        "name": "恋"
-      },
-      "id": "6IEqiEgTQn4FwE0seKXFZO",
-      "image": "https://i.scdn.co/image/ab67616d00004851b4695efdcdd9e57051815e48",
-      "name": "Lovers",
-      "score": 3.9818
     },
     {
       "artist": "Rihanna",
@@ -773,13 +747,13 @@
     {
       "artist": "RADWIMPS",
       "because": {
-        "count": 211,
+        "count": 212,
         "name": "恋"
       },
       "id": "0BYa5V0RyOYthDeCMUBJQZ",
       "image": "https://i.scdn.co/image/ab67616d00004851a2f4114eb1e98cafef5a3f3d",
       "name": "me me she",
-      "score": 3.9459
+      "score": 3.95
     },
     {
       "artist": "Maroon 5",
@@ -817,13 +791,13 @@
     {
       "artist": "スキマスイッチ",
       "because": {
-        "count": 159,
+        "count": 160,
         "name": "チェリー"
       },
       "id": "3Ztjw8utVpcrzms1RrsJvR",
       "image": "https://i.scdn.co/image/ab67616d00004851d0624e5204e7871f088a65b9",
       "name": "全力少年",
-      "score": 3.7208
+      "score": 3.7254
     },
     {
       "artist": "Sunrise Avenue",
@@ -846,6 +820,28 @@
       "image": "https://i.scdn.co/image/ab67616d000048511551c93dfa33ea4f30ef4eea",
       "name": "Warriors",
       "score": 3.6729
+    },
+    {
+      "artist": "Jessie J",
+      "because": {
+        "count": 150,
+        "name": "Call Me Maybe"
+      },
+      "id": "6zKVzJb8SfgGbXa9QSsOFa",
+      "image": "https://i.scdn.co/image/ab67616d00004851a86d6e61c13d2052c606c8c0",
+      "name": "Domino",
+      "score": 3.6222
+    },
+    {
+      "artist": "The Cheetah Girls",
+      "because": {
+        "count": 275,
+        "name": "Speechless (Full)"
+      },
+      "id": "2bfGwW35pcxYvTbugPFyIn",
+      "image": "https://i.scdn.co/image/ab67616d00004851d1206b01f28168331a4c88a8",
+      "name": "Cheetah Love",
+      "score": 3.4769
     }
   ]
 }

@@ -4,7 +4,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 653,
+      "count": 654,
       "name": "美しい鰭",
       "track_id": "3RauRsiIxUOQTS8h9sVWcP"
     },
@@ -36,7 +36,7 @@
       "artists": [
         "back number"
       ],
-      "count": 211,
+      "count": 212,
       "name": "恋",
       "track_id": "7f9DsQEsIoeTwKxV6shsom"
     },
@@ -52,7 +52,7 @@
       "artists": [
         "back number"
       ],
-      "count": 188,
+      "count": 189,
       "name": "クリスマスソング",
       "track_id": "02OYGL6lXPVvoJDiv6tfH1"
     },
@@ -122,6 +122,14 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 162,
+      "name": "ヒロイン",
+      "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
+    },
+    {
+      "artists": [
         "Sia"
       ],
       "count": 161,
@@ -132,15 +140,7 @@
       "artists": [
         "back number"
       ],
-      "count": 161,
-      "name": "ヒロイン",
-      "track_id": "0sQsDJj9BnBsWH9fnJ2PDW"
-    },
-    {
-      "artists": [
-        "back number"
-      ],
-      "count": 159,
+      "count": 160,
       "name": "幸せ",
       "track_id": "0z2QJ0vsRV7xT5iIDRhFAT"
     },
@@ -148,7 +148,7 @@
       "artists": [
         "SPITZ"
       ],
-      "count": 159,
+      "count": 160,
       "name": "チェリー",
       "track_id": "1ihCiJaXRl4f6Sy4LJov5z"
     },
@@ -226,6 +226,14 @@
     },
     {
       "artists": [
+        "back number"
+      ],
+      "count": 143,
+      "name": "高嶺の花子さん",
+      "track_id": "2iH7om9rE3QRWOXpuGEgic"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 142,
@@ -239,14 +247,6 @@
       "count": 142,
       "name": "Pretender",
       "track_id": "58dxGXavrcagRqA58fNB0Z"
-    },
-    {
-      "artists": [
-        "back number"
-      ],
-      "count": 142,
-      "name": "高嶺の花子さん",
-      "track_id": "2iH7om9rE3QRWOXpuGEgic"
     },
     {
       "artists": [
@@ -602,19 +602,19 @@
     },
     {
       "artists": [
+        "ONE OK ROCK"
+      ],
+      "count": 112,
+      "name": "Renegades",
+      "track_id": "3RpFwqdROrxJvHywpT1pJ4"
+    },
+    {
+      "artists": [
         "Maroon 5"
       ],
       "count": 111,
       "name": "Payphone",
       "track_id": "1XGmzt0PVuFgQYYnV2It7A"
-    },
-    {
-      "artists": [
-        "ONE OK ROCK"
-      ],
-      "count": 111,
-      "name": "Renegades",
-      "track_id": "3RpFwqdROrxJvHywpT1pJ4"
     },
     {
       "artists": [
@@ -730,6 +730,14 @@
     },
     {
       "artists": [
+        "Aimyon"
+      ],
+      "count": 104,
+      "name": "マリーゴールド",
+      "track_id": "2cKiHG16JBiqHdi7Llq0r7"
+    },
+    {
+      "artists": [
         "The Beatles"
       ],
       "count": 104,
@@ -743,14 +751,6 @@
       "count": 104,
       "name": "TATTOO",
       "track_id": "66hblHI9wl1Nim70ZYLb6D"
-    },
-    {
-      "artists": [
-        "Aimyon"
-      ],
-      "count": 103,
-      "name": "マリーゴールド",
-      "track_id": "2cKiHG16JBiqHdi7Llq0r7"
     },
     {
       "artists": [
@@ -801,7 +801,7 @@
       "track_id": "0OVtnS3l4vThGxkdqCxN6K"
     }
   ],
-  "generated_at": "2026-11-27T00:11:41.981946+00:00",
+  "generated_at": "2026-11-27T23:51:10.835143+00:00",
   "milestone": {
     "next": null,
     "reached": [
@@ -813,7 +813,7 @@
       5000,
       10000
     ],
-    "total": 66037
+    "total": 66105
   },
   "since": "2019-09-05T13:21:59Z",
   "streak": 5,
@@ -822,7 +822,7 @@
       "artists": [
         "Maroon 5"
       ],
-      "count": 7,
+      "count": 9,
       "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
       "name": "Maps",
       "track_id": "4BTsEp2tjLdQZcLiI2OT4E"
@@ -831,7 +831,7 @@
       "artists": [
         "Maroon 5"
       ],
-      "count": 6,
+      "count": 7,
       "image": "https://i.scdn.co/image/ab67616d00004851780d065ddd0444fc736b4f16",
       "name": "Animals",
       "track_id": "6R68hi6blw52Kg73DzICnM"
@@ -840,7 +840,7 @@
       "artists": [
         "Maroon 5"
       ],
-      "count": 6,
+      "count": 7,
       "image": "https://i.scdn.co/image/ab67616d0000485173d5224bd020b0550d793401",
       "name": "Sugar",
       "track_id": "6eV7eK07znOHcKz3bzEmpS"
@@ -895,18 +895,9 @@
         "OneRepublic"
       ],
       "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
-      "name": "Don't Look Down",
-      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 3,
-      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
-      "name": "Life in Color",
-      "track_id": "2JDMJhjJmx2GtMz5HFSTim"
+      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
+      "name": "Someone to Save You",
+      "track_id": "1mXiSrqOdR09yT43TwkSLh"
     },
     {
       "artists": [
@@ -931,6 +922,15 @@
         "Maroon 5"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
+      "name": "Daylight",
+      "track_id": "1NNAI51EuoRWw1ydX1zV7S"
+    },
+    {
+      "artists": [
+        "Maroon 5"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d0000485152b3e59e8b87676f666ddd89",
       "name": "Cold (feat. Future)",
       "track_id": "4eQ31LSLD3AbGFNdYD7el1"
@@ -943,15 +943,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Say (All I Need)",
       "track_id": "6H4vq5gz0rlNjH0LBzu4An"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 2,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Someone to Save You",
-      "track_id": "1mXiSrqOdR09yT43TwkSLh"
     },
     {
       "artists": [
@@ -976,9 +967,63 @@
         "OneRepublic"
       ],
       "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048516cf020c9308b467a8e3aa523",
+      "name": "Christmas Without You",
+      "track_id": "4gWpUjTbcwASiRVkJM319B"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
       "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
       "name": "Feel Again - With Heartbeats",
       "track_id": "1nE1VjP943pIuFdNWcLgYM"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Counting Stars",
+      "track_id": "2tpWsVSb9UEmDRxAl1zhX1"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "What You Wanted",
+      "track_id": "0ILXYaWxMQVEXnKq2eTmjW"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048519e2f95ae77cf436017ada9cb",
+      "name": "Don't Look Down",
+      "track_id": "3cA7Xne5Zp9HEo69oOqLMc"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851f970312abbac12f00393b9de",
+      "name": "Something's Gotta Give",
+      "track_id": "1WY42ffdMgNO6q15cePW2g"
+    },
+    {
+      "artists": [
+        "OneRepublic"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851e80e7dbce3996a1ae5967751",
+      "name": "Life in Color",
+      "track_id": "2JDMJhjJmx2GtMz5HFSTim"
     },
     {
       "artists": [
@@ -1006,6 +1051,15 @@
       "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
       "name": "Heaven",
       "track_id": "1lFHaHvZeLf6XrOqX6iLlS"
+    },
+    {
+      "artists": [
+        "ワンリパブリック"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d00004851eedabed826eeb6506a4c700d",
+      "name": "All These Things",
+      "track_id": "5SlNjNaibdMLveJPYqAAaE"
     },
     {
       "artists": [
@@ -1054,6 +1108,33 @@
     },
     {
       "artists": [
+        "平井 大"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "名残花",
+      "track_id": "lastfm:名残花|平井大"
+    },
+    {
+      "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 2,
+      "image": "https://i.scdn.co/image/ab67616d000048515cd52dff5928f3cbf5c696d9",
+      "name": "MyLove",
+      "track_id": "6q9JjGg7puap2DyEqfP31k"
+    },
+    {
+      "artists": [
+        "HIRAIDAI"
+      ],
+      "count": 2,
+      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+      "name": "It don't matter with Donavon Frankenreiter",
+      "track_id": "lastfm:itdontmatterwithdonavonfrankenreiter|hiraidai"
+    },
+    {
+      "artists": [
         "Maroon 5"
       ],
       "count": 1,
@@ -1096,15 +1177,6 @@
       "image": "https://i.scdn.co/image/ab67616d000048519585ff55fff75c5c07a619cb",
       "name": "Just a Feeling",
       "track_id": "5bpjnItVAZvbTtFl8zMslP"
-    },
-    {
-      "artists": [
-        "Maroon 5"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d00004851fc8633e22a7dba6aab817bff",
-      "name": "Daylight",
-      "track_id": "1NNAI51EuoRWw1ydX1zV7S"
     },
     {
       "artists": [
@@ -1195,78 +1267,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
       "name": "Come Home",
       "track_id": "0bJfgUyjfPJYqRgUxb12Eh"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d0000485134ef81d1ff3b4682a4e97f70",
-      "name": "Stop and Stare",
-      "track_id": "48s0QHJgmiNsth3WEO6U4M"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "Marchin On - 2026 Remastered",
-      "track_id": "lastfm:marchinon2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "Secrets - 2026 Remastered",
-      "track_id": "lastfm:secrets2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "All The Right Moves - 2026 Remastered",
-      "track_id": "lastfm:alltherightmoves2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "Everybody Loves Me - 2026 Remastered",
-      "track_id": "lastfm:everybodylovesme2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "All This Time - 2026 Remastered",
-      "track_id": "lastfm:allthistime2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://lastfm-img.freetls.fastly.net/i/u/300x300/eaf1144c394cfaaa2767e0b88b12d5b2.jpg",
-      "name": "Waking Up - 2026 Remastered",
-      "track_id": "lastfm:wakingup2026remastered|onerepublic"
-    },
-    {
-      "artists": [
-        "OneRepublic"
-      ],
-      "count": 1,
-      "image": "https://i.scdn.co/image/ab67616d000048511315cfbb494b981b3e7f1627",
-      "name": "Sucker Punch",
-      "track_id": "5phIlbhXRbIgZwf8yFlSWv"
     }
   ]
 }
